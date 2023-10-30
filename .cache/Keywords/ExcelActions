@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "keywordFileContentHash": "63205A4264D14E64EF98972DBD798B95",
-=======
-  "keywordFileContentHash": "C128A0ABCA4005D9AD64F613B17199B4",
->>>>>>> Stashed changes
+  "keywordFileContentHash": "BFBF01B8EF3D59DCEF87386851C3E980",
   "keywordClasses": [
     {
       "name": "ExcelActions",
@@ -57,7 +53,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Writes data into an Excel file for regular place order.\n\t * \n\t * @param path        The file path of the Excel file.\n\t * @param contract_no The name of the sheet within the Excel file.\n\t */"
+          "javadoc": "/**\r\n\t * Writes data into an Excel file for regular place order.\r\n\t * \r\n\t * @param path        The file path of the Excel file.\r\n\t * @param contract_no The name of the sheet within the Excel file.\r\n\t */"
         },
         {
           "name": "writeIntoExcel",
@@ -609,7 +605,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Writes data into an Excel file for regular place order.\n\t *\n\t * @param path        The file path of the Excel file.\n\t * @param contract_no The name of the sheet within the Excel file.\n\t */"
+          "javadoc": "/**\r\n\t * Writes data into an Excel file for regular place order.\r\n\t *\r\n\t * @param path        The file path of the Excel file.\r\n\t * @param contract_no The name of the sheet within the Excel file.\r\n\t */"
         }
       ]
     }

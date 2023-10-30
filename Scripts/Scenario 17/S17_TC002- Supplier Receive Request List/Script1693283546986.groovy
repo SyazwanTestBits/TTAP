@@ -41,6 +41,8 @@ WebUI.click(findTestObject('Scenario 13/S13_TC035/Page_Brivge/li_Download Part F
 
 WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC035/Page_Brivge/div_The operation was successful'), 0)
 
+WebUI.delay(2)
+
 downloadedExcel = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
 WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 17/S17_Cmn1-Write Info into Form Excel'), [('datafile') : datafile_contractPartsInfo
@@ -51,7 +53,7 @@ WebUI.click(findTestObject('Scenario 13/S13_TC035/Page_Brivge/button_Upload'))
 
 CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 13/S13_TC035/Page_Brivge/li_Upload Master'), downloadedExcel)
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC035/Page_Brivge/div_Upload_The operation was successful'), 
     0)

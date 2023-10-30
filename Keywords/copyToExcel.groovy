@@ -5,7 +5,7 @@ import com.kms.katalon.core.util.KeywordUtil
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
-
+import org.apache.poi.ss.util.CellReference
 import com.kms.katalon.core.annotation.Keyword
 public class copyToExcel {
 
@@ -28,7 +28,16 @@ public class copyToExcel {
 
 		FileOutputStream fos = new FileOutputStream(fullFilePath);
 		workbook.write(fos);
-
+		
+		
+		// Refresh the specified cell
+		CellReference cellRef = new CellReference(rowNum, colNum);
+		Row sheetRow = sheet.getRow(cellRef.getRow());
+		Cell sheetCell = sheetRow.getCell(cellRef.getCol());
+		sheetCell.setCellValue(sheetCell.getStringCellValue());
+		//
+		
+		
 		fos.close();
 		fis.close();
 
