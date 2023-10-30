@@ -67,5 +67,7 @@ for (int rowl = 1; rowl <= numberrowtd; rowl++) {
     }
 }
 
+WebUI.delay(0)
+
 WebUI.closeBrowser()
 
