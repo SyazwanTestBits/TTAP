@@ -31,7 +31,7 @@
       <name>outboundDetails</name>
    </variable>
    <variable>
-      <defaultValue>[('No') : 1, ('Shipper') : 2, ('Outbound No') : 3, ('Outbound Date') : 4, ('Booking No') : 6, ('Parts No') : 7, ('UOM') : 8, ('Outbound Qty') : 9, ('Shipping Mode') : 10, ('Outbound Type') : 11, ('Receiver') : 12, ('Buyer') : 13, ('Container No') : 16, ('Outer Package No') : 23, ('Outer Package Type') : 24, ('OP M3') : 25, ('OP Net Weight') : 26, ('OP Gross Weight') : 27, ('Inner Package No') : 28, ('Inner Package Type') : 29, ('IP M3') : 30, ('IP Net Weight') : 31, ('IP Gross Weight') : 32, ('Sales Order No') : 33, ('Seller Code') : 34, ('Seller Parts No') : 35, ('Seller Parts Description') : 36, ('SRBQ') : 39, ('Remaining Qty Available') : 40]</defaultValue>
+      <defaultValue>[('No') : 1, ('Shipper') : 2, ('Outbound No') : 3, ('Outbound Date') : 4, ('Booking No') : 6, ('Parts No') : 7, ('UOM') : 8, ('Outbound Qty') : 9, ('Shipping Mode') : 10, ('Outbound Type') : 11, ('Receiver') : 12, ('Buyer') : 13, ('ETD') : 14, ('ETA') : 15, ('Container No') : 16, ('CN M3') : 20, ('CN Net Weight') : 21, ('CN Gross Weight') : 22, ('Outer Package No') : 23, ('Outer Package Type') : 24, ('OP M3') : 25, ('OP Net Weight') : 26, ('OP Gross Weight') : 27, ('Inner Package No') : 28, ('Inner Package Type') : 29, ('IP M3') : 30, ('IP Net Weight') : 31, ('IP Gross Weight') : 32, ('Sales Order No') : 33, ('Seller Code') : 34, ('Seller Parts No') : 35, ('Seller Parts Description') : 36, ('SRBQ') : 39, ('Remaining Qty Available') : 40]</defaultValue>
       <description></description>
       <id>a3157df3-a666-44ab-9b2c-77376b84ac53</id>
       <masked>false</masked>

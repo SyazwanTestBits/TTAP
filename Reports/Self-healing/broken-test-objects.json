@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Scenario 12/SC12_TC060/p_verifyStatus",
+      "brokenLocator": "//p[(text() \u003d \u0027TW12310001\u0027 or . \u003d \u0027TW12310001\u0027)]/following::td[6]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div[2]/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[2]/div/p",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 12/SC12_TC060/p_verifyStatus_idRelative.png"
+    }
+  ]
 }
