@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "81CA4680F08F394D647EEFA506A169A3",
+  "keywordClasses": [
+    {
+      "name": "util.clearTextJS",
+      "keywordMethods": [
+        {
+          "name": "clearElementText",
+          "parameters": [
+            {
+              "name": "to",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

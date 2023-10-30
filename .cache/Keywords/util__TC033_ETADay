@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "21A5BE51354DBD71F64280E7FE3A329C",
+  "keywordClasses": [
+    {
+      "name": "util.TC033_ETADay",
+      "keywordMethods": [
+        {
+          "name": "handleETDETA",
+          "parameters": [
+            {
+              "name": "transday",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "etadays",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

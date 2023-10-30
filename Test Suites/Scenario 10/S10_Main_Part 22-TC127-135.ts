@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>c03eaf24-57fe-4e8f-87d2-4b8ef13b920d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC127 - DC Check Shipping Detail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -33,7 +33,7 @@
    <testCaseLink>
       <guid>cd573949-ba9c-4d05-9128-3cba4d0b0a95</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC128 - BU Check Shipping Detail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -52,7 +52,7 @@
    <testCaseLink>
       <guid>37068e8b-1fda-4573-abb1-0daf5e1b6185</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC129-Supp2 Check Export Custom Invoice</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>

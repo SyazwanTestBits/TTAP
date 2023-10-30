@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "CA6678A1718C3EC195E677BDFB8E3DAC",
+  "keywordClasses": [
+    {
+      "name": "util.convertFile",
+      "keywordMethods": [
+        {
+          "name": "main",
+          "parameters": [
+            {
+              "name": "xlsmFilePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "xlsxFilePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

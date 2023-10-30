@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "90800BADF26821237DC6DB7010A00E69",
+  "keywordClasses": [
+    {
+      "name": "util.ExcelUtils",
+      "keywordMethods": [
+        {
+          "name": "getLastRowNumber",
+          "parameters": [
+            {
+              "name": "excelFilePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
