@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_22</name>
+   <tag></tag>
+   <elementGuidId>523f07de-eaf3-4036-a4f6-e093e986674a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = '${dateNo}' or . = '${dateNo}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>54df4ef5-a172-4674-b4ac-c1caf9513894</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiTypography-root lcbm-MuiTreeItem-label lcbm-MuiTypography-body1</value>
+      <webElementGuid>76aff064-e80b-4883-9245-d7821c660a66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>22</value>
+      <webElementGuid>b855eff2-99a0-4394-8d2c-b8828dabfd3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiPopover-root&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiPopover-paper lcbm-MuiPaper-elevation8 lcbm-MuiPaper-rounded&quot;]/ul[@class=&quot;lcbm-MuiList-root lcbm-MuiList-padding&quot;]/li[@class=&quot;lcbm-MuiListItem-root lcbm-lcbm59 lcbm-MuiListItem-gutters&quot;]/div[@class=&quot;lcbm-lcbm60&quot;]/div[1]/ul[@class=&quot;lcbm-MuiTreeView-root lcbm-lcbm64&quot;]/li[@class=&quot;lcbm-MuiTreeItem-root Mui-expanded&quot;]/ul[@class=&quot;lcbm-MuiCollapse-root lcbm-MuiTreeItem-group lcbm-lcbm67 lcbm-MuiCollapse-entered&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapper&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapperInner&quot;]/li[@class=&quot;lcbm-MuiTreeItem-root Mui-expanded&quot;]/ul[@class=&quot;lcbm-MuiCollapse-root lcbm-MuiTreeItem-group lcbm-lcbm67 lcbm-MuiCollapse-entered&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapper&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapperInner&quot;]/li[@class=&quot;lcbm-MuiTreeItem-root&quot;]/div[@class=&quot;lcbm-MuiTreeItem-content&quot;]/div[@class=&quot;lcbm-MuiTypography-root lcbm-MuiTreeItem-label lcbm-MuiTypography-body1&quot;]</value>
+      <webElementGuid>e9c5f66a-b7c8-43a8-bfce-e1a69a8f4c36</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='September'])[1]/following::div[23]</value>
+      <webElementGuid>45792ffc-ed3d-4a57-b59d-b6bc8324b1b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select All'])[1]/following::div[31]</value>
+      <webElementGuid>b2a51a35-c480-4e94-ae54-bea2129b5c53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::div[1]</value>
+      <webElementGuid>50e97c82-dc91-4ae5-896e-0d4429a8a762</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[1]</value>
+      <webElementGuid>4879255f-c5ae-4540-b1f4-a9d48a647c38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[7]/div/div[2]</value>
+      <webElementGuid>25f9759b-3a10-4115-a062-feb76f14d91a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '22' or . = '22')]</value>
+      <webElementGuid>ef78edc8-15f8-4d5f-8a34-152249eb715c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

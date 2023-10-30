@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Confirm_lcbm-MuiPickersClock-Hour - Copy</name>
+   <tag></tag>
+   <elementGuidId>eb61f365-7619-4ce5-a519-b6465d165295</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.lcbm-MuiPickersClock-squareMask</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiPopover-root&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiPopover-paper lcbm-lcbm1590 lcbm-MuiPaper-elevation8 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiPickersBasePicker-container&quot;]/div[@class=&quot;lcbm-MuiPickersBasePicker-pickerView&quot;]/div[@class=&quot;lcbm-MuiPickersClock-container&quot;]/div[@class=&quot;lcbm-MuiPickersClock-clock&quot;]/div[@class=&quot;lcbm-MuiPickersClock-squareMask&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@class=&quot;lcbm-MuiTypography-root lcbm-MuiPickersClockNumber-clockNumber lcbm-MuiTypography-body1&quot;][${hour}]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>09cb5310-1da9-474e-aa0b-085e2258b7a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menu</value>
+      <webElementGuid>19a3cdc8-d50e-451e-ab7e-1a5ae02d3e87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>dd9a7c58-d836-4d0b-b03e-c5bc045ad90e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiPickersClock-squareMask</value>
+      <webElementGuid>63892a55-2a68-4bde-98d7-e58dcc199555</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiPopover-root&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiPopover-paper lcbm-lcbm1590 lcbm-MuiPaper-elevation8 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiPickersBasePicker-container&quot;]/div[@class=&quot;lcbm-MuiPickersBasePicker-pickerView&quot;]/div[@class=&quot;lcbm-MuiPickersClock-container&quot;]/div[@class=&quot;lcbm-MuiPickersClock-clock&quot;]/div[@class=&quot;lcbm-MuiPickersClock-squareMask&quot;]</value>
+      <webElementGuid>603943c8-c693-4669-8f5a-c72e2b02cff6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[3]/div/div/div/div/div</value>
+      <webElementGuid>85119ea1-d413-4387-868f-51c00a43484c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

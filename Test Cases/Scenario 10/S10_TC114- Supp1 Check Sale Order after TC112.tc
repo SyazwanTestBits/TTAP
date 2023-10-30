@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC114- Supp1 Check Sale Order after TC112</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1c08aa93-92b8-40fa-aae7-4c71111876e6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d4ad117-e1a8-4d35-a3bb-e1ab2b96bf72</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b96cd943-d009-41ca-bb78-2d6583a894a5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec7b41ae-b3c4-4541-8c53-7f1d36d0867c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5f934f46-8a0b-4a75-a6fb-e316abfede9c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>235d3c94-7986-4940-8023-50b2864c742a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_ContractList').getValue(2, 3)</defaultValue>
+      <description></description>
+      <id>7d4ad117-e1a8-4d35-a3bb-e1ab2b96bf72</id>
+      <masked>false</masked>
+      <name>ContractID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC074').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>b96cd943-d009-41ca-bb78-2d6583a894a5</id>
+      <masked>false</masked>
+      <name>SOid</name>
+   </variable>
+   <variable>
+      <defaultValue>[('SPQ') : 6, ('Order lot') : 7, ('New firm') : 8]</defaultValue>
+      <description></description>
+      <id>ec7b41ae-b3c4-4541-8c53-7f1d36d0867c</id>
+      <masked>false</masked>
+      <name>columnQty</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC114')</defaultValue>
+      <description></description>
+      <id>5f934f46-8a0b-4a75-a6fb-e316abfede9c</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>['Part no', 'PO parts no', 'Back no', 'Supplier code', 'Color code', 'Paired parts no', 'UOM code', 'SPQ', 'Order lot', 'Old firm', 'New firm', 'Last order forecast 1', 'Fluctuation', 'Reason for fluctuation', 'Old_inbound_1', 'Old_inbound_2', 'Old_inbound_3', 'New_inbound_1', 'New_inbound_2', 'New_inbound_3', 'Old_outbound_1', 'Old_outbound_2']</defaultValue>
+      <description></description>
+      <id>235d3c94-7986-4940-8023-50b2864c742a</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC037-Supplier Chcek Contract</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a1c29bb-b664-4276-af77-66d9ed45d6f0</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>222ce80a-0c76-4228-a626-f3f132768a3c</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC035-Receiverd Request List</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>af3d5b4a-927b-4e0d-b7a5-441964ebc60d</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/Autogen</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>222ce80a-0c76-4228-a626-f3f132768a3c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>ContractNo</value>
+      <variableId>e898f6df-bb3f-4f45-a728-664a500b8f34</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ea8055bd-2c2c-4673-b9bb-c3958ac5300e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e898f6df-bb3f-4f45-a728-664a500b8f34</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ea8055bd-2c2c-4673-b9bb-c3958ac5300e</id>
+      <masked>false</masked>
+      <name>contractShortCode</name>
+   </variable>
+</TestCaseEntity>

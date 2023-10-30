@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC166-Customer Check Customer Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1965747-20d8-4ff8-b5ad-5b23a067cbcb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e2fa9a39-48ce-406a-b462-d6b8fc8d0517</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[findTestData('Scenario 10/S10_TC160').getValue(2, 1), findTestData('Scenario 10/S10_TC160').getValue(2, 2)]</defaultValue>
+      <description></description>
+      <id>80b3d899-ab69-4ff5-9dec-9d2fdc8cc9e9</id>
+      <masked>false</masked>
+      <name>CO_numberList</name>
+   </variable>
+</TestCaseEntity>

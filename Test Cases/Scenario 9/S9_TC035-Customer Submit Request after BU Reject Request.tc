@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC035-Customer Submit Request after BU Reject Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>20aacd20-98b3-43d5-8a70-76a211757766</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>696f8c92-f911-4f99-89c9-94ce204990f6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC021-BU to Customer Contract').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>696f8c92-f911-4f99-89c9-94ce204990f6</id>
+      <masked>false</masked>
+      <name>RequestNo</name>
+   </variable>
+</TestCaseEntity>

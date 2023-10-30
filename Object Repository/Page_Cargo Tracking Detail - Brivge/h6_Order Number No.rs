@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h6_Order Number No</name>
+   <tag></tag>
+   <elementGuidId>ffdc0c74-e091-4d57-9073-760c7bf95974</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Order Number: cBU202-2309001' or . = 'Order Number: cBU202-2309001')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h6[(text() = 'Order Number: ${orderNo}' or . = 'Order Number: ${orderNo}')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h6.lcbm-MuiTypography-root.lcbm-lcbm411.lcbm-MuiTypography-subtitle2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>111e6152-4849-4714-bc23-108ac8e1bd57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiTypography-root lcbm-lcbm411 lcbm-MuiTypography-subtitle2</value>
+      <webElementGuid>da98ab28-571d-48a3-97a9-693e75344d15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>mui-11509</value>
+      <webElementGuid>f7c9e5f9-b32c-4aef-a7d5-8f88bdb8001b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Order Number: cBU202-2309001</value>
+      <webElementGuid>bfafbeaa-dd56-4723-9835-14f8852f5b4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm158 os-host-overflow os-host-overflow-y os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm159&quot;]/div[@class=&quot;lcbm-lcbm162&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm207 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiCollapse-root lcbm-MuiCollapse-entered&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapper&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapperInner&quot;]/div[@class=&quot;lcbm-lcbm210&quot;]/div[@class=&quot;lcbm-lcbm408&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm409 lcbm-MuiPaper-elevation20 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiCardContent-root lcbm-lcbm410&quot;]/div[@class=&quot;lcbm-MuiGrid-root lcbm-MuiGrid-container lcbm-MuiGrid-direction-xs-column-reverse lcbm-MuiGrid-align-items-xs-center lcbm-MuiGrid-align-content-xs-center&quot;]/div[@class=&quot;lcbm-MuiGrid-root lcbm-MuiGrid-item&quot;]/h6[@class=&quot;lcbm-MuiTypography-root lcbm-lcbm411 lcbm-MuiTypography-subtitle2&quot;]</value>
+      <webElementGuid>43624c45-b760-497a-8b00-e44a53dcce9e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div[3]/div[2]/div/div/div/div/div/div/div/div/h6</value>
+      <webElementGuid>e6a87f01-6e05-42ea-bbf6-ad6edd50160d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Order/s To Retrieve Cargo Tracking Information'])[1]/following::h6[1]</value>
+      <webElementGuid>08d5527d-7121-4690-9aca-aa07420a2875</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::h6[2]</value>
+      <webElementGuid>15cb0b9b-e762-431b-aef5-bde3bfef1ae0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/preceding::h6[1]</value>
+      <webElementGuid>6c09846c-d69e-47ad-af98-8d8ea3340dbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)=':']/parent::*</value>
+      <webElementGuid>b104a8b0-f0f5-428c-9d76-bbd100b36781</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/div/div/h6</value>
+      <webElementGuid>9bdb8c22-02ba-4f70-a78f-51c80b02cada</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'Order Number: cBU202-2309001' or . = 'Order Number: cBU202-2309001')]</value>
+      <webElementGuid>d1dfcba5-fa44-4a18-9528-2b2a5a638204</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

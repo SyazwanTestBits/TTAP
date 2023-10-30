@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC059- Supplier Auto Generate Mail Task</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27aa1f83-81d0-461d-b0bf-5b170d99f262</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC019.1- Sales Order No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b6ea60f4-ebca-40bd-8db4-76aef9b0b67a</id>
+      <masked>false</masked>
+      <name>regularSalesOrderNo</name>
+   </variable>
+</TestCaseEntity>

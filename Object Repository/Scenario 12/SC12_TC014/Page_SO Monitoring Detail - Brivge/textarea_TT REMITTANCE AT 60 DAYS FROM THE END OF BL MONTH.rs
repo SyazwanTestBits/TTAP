@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_TT REMITTANCE AT 60 DAYS FROM THE END OF BL MONTH</name>
+   <tag></tag>
+   <elementGuidId>79f1dfba-ff98-48a9-bda0-525a69999ff5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@name='paymentTermsDesc']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>textarea[name=&quot;paymentTermsDesc&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>8448e687-e5b7-468f-a109-563ef9d3b13a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>57d8708d-7b83-4c11-b87e-59b5940852bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>paymentTermsDesc</value>
+      <webElementGuid>5c94af40-3de5-45b8-8770-c846a23f82f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiInputBase-input lcbm-MuiInput-input lcbm-MuiInputBase-inputMultiline lcbm-MuiInput-inputMultiline</value>
+      <webElementGuid>73abe5b8-a670-4a15-9bb5-6ef03885889d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>T/T REMITTANCE AT 60 DAYS FROM THE END OF B/L MONTH</value>
+      <webElementGuid>5f0e04a6-b331-4b7e-81a2-aec3a1eac03d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;OSS011_Section_1&quot;)/div[@class=&quot;lcbm-MuiCollapse-root lcbm-MuiCollapse-entered&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapper&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapperInner&quot;]/div[@class=&quot;lcbm-lcbm3100&quot;]/form[@class=&quot;lcbm-lcbm3653 lcbm-lcbm3692&quot;]/div[@class=&quot;lcbm-lcbm3655 lcbm-lcbm3703&quot;]/div[@class=&quot;lcbm-lcbm3657&quot;]/div[@class=&quot;lcbm-lcbm3664&quot;]/div[@class=&quot;lcbm-lcbm3670 lcbm-lcbm3675&quot;]/div[@class=&quot;lcbm-lcbm3659&quot;]/div[@class=&quot;lcbm-MuiInputBase-root lcbm-MuiInput-root Mui-focused Mui-focused lcbm-MuiInputBase-multiline lcbm-MuiInput-multiline&quot;]/textarea[@class=&quot;lcbm-MuiInputBase-input lcbm-MuiInput-input lcbm-MuiInputBase-inputMultiline lcbm-MuiInput-inputMultiline&quot;]</value>
+      <webElementGuid>5c92e5b9-a35b-4dd6-b185-e04400653532</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//textarea[@name='paymentTermsDesc']</value>
+      <webElementGuid>7b92f785-db69-44c4-b25b-147ba9504030</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='OSS011_Section_1']/div[2]/div/div/div/form/div[11]/div/div[2]/div/div/div/textarea</value>
+      <webElementGuid>a5d71e01-1234-4cca-9937-b424824d240b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please input related basic information'])[1]/following::textarea[1]</value>
+      <webElementGuid>989f20a6-ed51-4d55-b39f-d4c06c1c6a9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SO Monitoring Detail'])[1]/following::textarea[1]</value>
+      <webElementGuid>ef2a3243-c100-4333-bdee-5b88ef933142</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parts Monitoring detail'])[1]/preceding::textarea[4]</value>
+      <webElementGuid>8d2bce1f-d9d8-4d50-8ba5-bf76175822bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AND'])[1]/preceding::textarea[4]</value>
+      <webElementGuid>ecdf1e13-b754-4418-b487-15cbd80fc4c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='T/T REMITTANCE AT 60 DAYS FROM THE END OF B/L MONTH']/parent::*</value>
+      <webElementGuid>cc051d1f-886b-45a7-b3dd-b63475e0b893</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//textarea</value>
+      <webElementGuid>7ffb0361-2330-4f07-8f93-505af7728dd0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@name = 'paymentTermsDesc' and (text() = 'T/T REMITTANCE AT 60 DAYS FROM THE END OF B/L MONTH' or . = 'T/T REMITTANCE AT 60 DAYS FROM THE END OF B/L MONTH')]</value>
+      <webElementGuid>bfc612c9-f297-4de7-9db5-9dc1354663fa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

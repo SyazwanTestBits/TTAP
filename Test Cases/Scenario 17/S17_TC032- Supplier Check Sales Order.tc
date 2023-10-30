@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC032- Supplier Check Sales Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2673e62-49ea-4587-b0de-14e1a3c65142</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC019.1- Sales Order No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c9536f6e-f901-4b7d-b1d5-2b162b8fcce6</id>
+      <masked>false</masked>
+      <name>regularSalesOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC002- Received Request Add New Part').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>31ac5556-65a8-4c55-ad51-cccb493a4558</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Regular'</defaultValue>
+      <description></description>
+      <id>72fc8d2c-78fd-4e6c-86e3-6f809546fb3b</id>
+      <masked>false</masked>
+      <name>orderTypeRegular</name>
+   </variable>
+   <variable>
+      <defaultValue>['Part no', 'Unit parts no', 'Back no', 'Purchase order no', 'Customer', 'SPQ', 'Order lot', 'Order qty', 'Unit price', 'Currency', 'Status', 'Delivered qty', 'InTransit qty', 'Receiver inbounded qty', 'Inbound_plan_1', 'Inbound_status_1', 'Inbound_plan_2', 'Inbound_status_2', 'Inbound_plan_3', 'Inbound_status_3', 'Inbound_plan_4', 'Inbound_status_4', 'Estimate_inbound_1', 'Estimate_inbound_2', 'Estimate_inbound_3', 'Estimate_inbound_4']</defaultValue>
+      <description></description>
+      <id>b317be81-e622-47d5-ad72-244be1023186</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>43f0e0aa-471b-4691-879c-907c0285982a</id>
+      <masked>false</masked>
+      <name>NumberOfNoMatch</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 17/Scenario 17_TC032/expectedSalesOrder.xlsx'</defaultValue>
+      <description></description>
+      <id>36e2bb80-979e-4046-a0c2-c0cdc02e71f8</id>
+      <masked>false</masked>
+      <name>expectedFilePath</name>
+   </variable>
+</TestCaseEntity>

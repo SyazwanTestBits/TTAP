@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC026- Customer Check Change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1b830f5d-7b2f-4979-9fe3-3783a8eb2c94</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC021.1- Request No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>bebc0a99-9c64-4945-80f0-67319b8590b7</id>
+      <masked>false</masked>
+      <name>requestNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Forecast Change'</defaultValue>
+      <description></description>
+      <id>db8f7289-84da-40de-9711-eb25608c3678</id>
+      <masked>false</masked>
+      <name>requestType</name>
+   </variable>
+   <variable>
+      <defaultValue>['PartsNo', 'CustomerPartsNo', 'BackNo', 'SupplierCode', 'ColorCode', 'PairedPartsNo', 'UOMCode', 'SPQ', 'OrderLot', 'Firm', 'OldForecast', 'NewForecast']</defaultValue>
+      <description></description>
+      <id>751f15de-7cd8-43b3-bce6-274230b05954</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

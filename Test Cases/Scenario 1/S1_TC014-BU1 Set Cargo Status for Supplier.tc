@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC014-BU1 Set Cargo Status for Supplier</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a48fa2ba-17db-4832-95a8-44902f24cdbd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1ddd8b1c-e7a1-4797-b0e3-4b0cbcc81523</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6bc48873-2584-4bb3-b420-554a4ac5850c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5cc24531-5392-4d18-9705-c8c53b9b75fc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e1265673-f93f-4548-9a51-2d87024582f0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3c68b873-eb2a-440f-87e5-661951371600</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0ec87362-cfd5-490e-a4f5-7d91986a733c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bedd85f3-5760-4812-9538-e87a561d85c6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>65db63d5-d228-46db-9cca-032acd1b53ca</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>415e66d0-5c61-4b34-a85f-6224d6ee1011</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.BAF_USERNAME_SYAZWAN</defaultValue>
+      <description></description>
+      <id>1ddd8b1c-e7a1-4797-b0e3-4b0cbcc81523</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.S9_BAF_BU</defaultValue>
+      <description></description>
+      <id>6bc48873-2584-4bb3-b420-554a4ac5850c</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC014').getValue('supplier_code', 1)</defaultValue>
+      <description></description>
+      <id>5cc24531-5392-4d18-9705-c8c53b9b75fc</id>
+      <masked>false</masked>
+      <name>supplier_code</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC014').getValue('supplier_name', 1)</defaultValue>
+      <description></description>
+      <id>e1265673-f93f-4548-9a51-2d87024582f0</id>
+      <masked>false</masked>
+      <name>supplier_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Booking Submitted,Booking Confirmed,Empty Container Release to Shipper,Cargo Outbound,Gate in (arrival at first POL),Container loaded at first POL,Vessel departure from first POL,Vessel arrival at T/S port,Container discharge at T/S port,Container loaded at T/S port,Vessel departure from T/S'</defaultValue>
+      <description></description>
+      <id>3c68b873-eb2a-440f-87e5-661951371600</id>
+      <masked>false</masked>
+      <name>status_alert_EXPShip_default</name>
+   </variable>
+   <variable>
+      <defaultValue>'Exp clearance in progress,Exp clearance completed'</defaultValue>
+      <description></description>
+      <id>0ec87362-cfd5-490e-a4f5-7d91986a733c</id>
+      <masked>false</masked>
+      <name>status_alert_EXPCus_default</name>
+   </variable>
+   <variable>
+      <defaultValue>'Vessel arrived at final POD (ATA),Container unload at final POD,Container Gate out from final POD,Cargo Inbound'</defaultValue>
+      <description></description>
+      <id>bedd85f3-5760-4812-9538-e87a561d85c6</id>
+      <masked>false</masked>
+      <name>status_alert_IMPShip_default</name>
+   </variable>
+   <variable>
+      <defaultValue>'Imp clearance in progress,Imp clearance completed'</defaultValue>
+      <description></description>
+      <id>65db63d5-d228-46db-9cca-032acd1b53ca</id>
+      <masked>false</masked>
+      <name>status_alert_IMPCus_default</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC014')</defaultValue>
+      <description></description>
+      <id>415e66d0-5c61-4b34-a85f-6224d6ee1011</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

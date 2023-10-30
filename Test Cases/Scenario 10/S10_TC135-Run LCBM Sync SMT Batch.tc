@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC135-Run LCBM Sync SMT Batch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4a4446a7-a471-4dc2-b549-1a600e8d9ec0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>03ab20c1-6c4c-4243-aa42-6b9fe2518b9a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.BRIVGE_BATCH_URL</defaultValue>
+      <description></description>
+      <id>03ab20c1-6c4c-4243-aa42-6b9fe2518b9a</id>
+      <masked>false</masked>
+      <name>batch_url</name>
+   </variable>
+</TestCaseEntity>

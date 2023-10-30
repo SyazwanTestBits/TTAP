@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_Cmm-Compare Weekly Simulation Report - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9679b504-97cc-42f6-8a17-f39cfde34541</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>09373cf8-2df3-4479-8ec5-2a1493ff9d04</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f33c0618-80cc-4d6d-942d-ead94b5a6bad</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f71aea93-c312-4c9d-9384-5e95918668de</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f71aea93-c312-4c9d-9384-5e95918668de</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f71aea93-c312-4c9d-9384-5e95918668de</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>30f8e58d-7e3e-4948-94f0-c34864f58a91</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b2d01dbe-2e20-4269-8555-58b13dd36a22</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>48eb08cd-6b6f-4858-87fe-53ea44031b20</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>09373cf8-2df3-4479-8ec5-2a1493ff9d04</id>
+      <masked>false</masked>
+      <name>actualPath</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC026_L3')</defaultValue>
+      <description></description>
+      <id>f33c0618-80cc-4d6d-942d-ead94b5a6bad</id>
+      <masked>false</masked>
+      <name>expectationPath</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Stock Qty') : 16, ('Stock Qty (On-Hold)') : 17, ('Adjustment (Stock)') : 18, ('Adjustment (On-Hold)') : 19, ('Total (Excludes On-Hold)') : 20, ('Stock Days') : 21, ('Low Stock Alert') : 23]</defaultValue>
+      <description></description>
+      <id>5916ce8e-57db-4d49-b772-67ef6fe69832</id>
+      <masked>false</masked>
+      <name>columnNameStock</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Week 1 In') : 29, ('Week 1 Out') : 30, ('Week 1 Balance') : 31, ('Week 1 Stock Days') : 32, ('Week 2 In') : 33, ('Week 2 Out') : 34, ('Week 2 Balance') : 35, ('Week 2 Stock Days') : 36, ('Week 3 In') : 37, ('Week 3 Out') : 38, ('Week 3 Balance') : 39, ('Week 3 Stock Days') : 40, ('Week 4 In') : 41, ('Week 4 Out') : 42, ('Week 4 Balance') : 43, ('Week 4 Stock Days') : 44, ('Week 5 In') : 45, ('Week 5 Out') : 46, ('Week 5 Balance') : 47, ('Week 5 Stock Days') : 48, ('Week 6 In') : 49, ('Week 6 Out') : 50, ('Week 6 Balance') : 51, ('Week 6 Stock Days') : 52, ('Week 7 In') : 53, ('Week 7 Out') : 54, ('Week 7 Balance') : 55, ('Week 7 Stock Days') : 56]</defaultValue>
+      <description></description>
+      <id>6b18dccf-5a8c-41e1-bca5-8f56fc6c4870</id>
+      <masked>false</masked>
+      <name>columnName1</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Week 1 In') : 33, ('Week 1 Out') : 34, ('Week 1 Balance') : 35, ('Week 1 Stock Days') : 36, ('Week 2 In') : 37, ('Week 2 Out') : 38, ('Week 2 Balance') : 39, ('Week 2 Stock Days') : 40, ('Week 3 In') : 41, ('Week 3 Out') : 42, ('Week 3 Balance') : 43, ('Week 3 Stock Days') : 44, ('Week 4 In') : 45, ('Week 4 Out') : 46, ('Week 4 Balance') : 47, ('Week 4 Stock Days') : 48, ('Week 5 In') : 49, ('Week 5 Out') : 50, ('Week 5 Balance') : 51, ('Week 5 Stock Days') : 52, ('Week 6 In') : 53, ('Week 6 Out') : 54, ('Week 6 Balance') : 55, ('Week 6 Stock Days') : 56, ('Week 7 In') : 57, ('Week 7 Out') : 58, ('Week 7 Balance') : 59, ('Week 7 Stock Days') : 60]</defaultValue>
+      <description>When actual first week is empty</description>
+      <id>f71aea93-c312-4c9d-9384-5e95918668de</id>
+      <masked>false</masked>
+      <name>columnName2</name>
+   </variable>
+   <variable>
+      <defaultValue>[:]</defaultValue>
+      <description></description>
+      <id>30f8e58d-7e3e-4948-94f0-c34864f58a91</id>
+      <masked>false</masked>
+      <name>columNameWeek</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC026_L2')</defaultValue>
+      <description></description>
+      <id>b2d01dbe-2e20-4269-8555-58b13dd36a22</id>
+      <masked>false</masked>
+      <name>testDataL2</name>
+   </variable>
+   <variable>
+      <defaultValue>'0.0'</defaultValue>
+      <description></description>
+      <id>48eb08cd-6b6f-4858-87fe-53ea44031b20</id>
+      <masked>false</masked>
+      <name>valueInL2</name>
+   </variable>
+</TestCaseEntity>

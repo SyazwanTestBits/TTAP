@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC018-Customer Forecast Change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c17f55b4-b839-400c-9d0a-c6fcfd6b50ba</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e8fdabc0-a39a-4973-a8d7-b3ab1f53838d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ee87c551-4608-4c74-ac82-b85eee53d6a2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC011-CO Number').getValue('RegularCustomerOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>68fda3d6-40f0-4436-8326-5f76b37af6cf</id>
+      <masked>false</masked>
+      <name>regularCustOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC011-CO Number').getValue('SpotCustomerOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>adb8c2e1-e9ee-457c-bb21-c2a7665e4478</id>
+      <masked>false</masked>
+      <name>spotCustOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC018-Customer Forecast Change')</defaultValue>
+      <description></description>
+      <id>8b0b2800-cdf2-432f-9019-53eb28561152</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>[('New Forecast N+1') : 17]</defaultValue>
+      <description></description>
+      <id>4aa93b78-965f-41cc-9f37-2a5de3205fd1</id>
+      <masked>false</masked>
+      <name>mapKeyandColIndex</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC011-CO Number').getValue('RegularCustomerOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>9e72e1ed-366a-43ab-b771-e5c3016b5dbe</id>
+      <masked>false</masked>
+      <name>downloadedSheetname</name>
+   </variable>
+</TestCaseEntity>

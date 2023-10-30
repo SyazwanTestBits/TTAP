@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC036-BU3 Auto Generate Change Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e007a605-2fb5-47d9-ab3c-fe2fc0d5b607</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>18a3a85d-4101-48fe-a543-1b8d8e01c7b6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>100e886a-ebf6-4985-823b-4530b6ad288d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d14d64dd-c18e-4ad8-841e-c631182f5213</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c744f6bf-1b6e-4d3b-bce0-71ca06e9082e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b41bbd5e-ccec-4ea1-a599-e121e61ab4e3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ab15fbdb-26af-494e-b53b-01cfa1bef4ff</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ab15fbdb-26af-494e-b53b-01cfa1bef4ff</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f9b834f6-8bab-4e5b-a6f8-e5cb8e8581ad</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a06c1344-904a-4b3c-9ed2-0c35ded29c1e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC031-AutoGen Change Request No').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>18a3a85d-4101-48fe-a543-1b8d8e01c7b6</id>
+      <masked>false</masked>
+      <name>requestNo</name>
+   </variable>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description></description>
+      <id>100e886a-ebf6-4985-823b-4530b6ad288d</id>
+      <masked>false</masked>
+      <name>row_supplier1</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>d14d64dd-c18e-4ad8-841e-c631182f5213</id>
+      <masked>false</masked>
+      <name>row_supplier2</name>
+   </variable>
+   <variable>
+      <defaultValue>['PartsNo', 'POParts No', 'BackNo', 'SupplierCode', 'ColorCode', 'PairedPartsNo', 'UOMCode', 'SPQ', 'OrderLot', 'OldFirm', 'NewFirm', 'LastOrderForecast_1', 'Fluctuation', 'ReasonForFluctuation', 'OldInboundDate_1', 'OldInboundDate_2']</defaultValue>
+      <description></description>
+      <id>c744f6bf-1b6e-4d3b-bce0-71ca06e9082e</id>
+      <masked>false</masked>
+      <name>columnname1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC036-BU3 Check Change Request')</defaultValue>
+      <description></description>
+      <id>b41bbd5e-ccec-4ea1-a599-e121e61ab4e3</id>
+      <masked>false</masked>
+      <name>changeData1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC017_Inbound Date Change').getValue('InboundDate_1', 1)</defaultValue>
+      <description></description>
+      <id>ab15fbdb-26af-494e-b53b-01cfa1bef4ff</id>
+      <masked>false</masked>
+      <name>oldInboundDate_1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC017_Inbound Date Change').getValue('InboundDate_2', 1)</defaultValue>
+      <description></description>
+      <id>ab15fbdb-26af-494e-b53b-01cfa1bef4ff</id>
+      <masked>false</masked>
+      <name>oldInboundDate_2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC007-Sup1 to BU3 Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>f9b834f6-8bab-4e5b-a6f8-e5cb8e8581ad</id>
+      <masked>false</masked>
+      <name>Sup1toBU3_contract</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('BU3_PO', 1)</defaultValue>
+      <description></description>
+      <id>a06c1344-904a-4b3c-9ed2-0c35ded29c1e</id>
+      <masked>false</masked>
+      <name>BU3_PO</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC048- Supplier Check Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>413668bc-9354-4758-9643-c6950789bd5b</testCaseGuid>
+   <variable>
+      <defaultValue>'Regular'</defaultValue>
+      <description></description>
+      <id>58f3b0a0-6165-49c9-93aa-9c58a4e92d2b</id>
+      <masked>false</masked>
+      <name>OrderType_Regular</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC002- Received Request Add New Part').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>21b407e5-9b85-41c3-b530-f7d7ae9112fc</id>
+      <masked>false</masked>
+      <name>ContractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC019.1- Sales Order No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>f1139a74-185f-4bda-8bea-3238b23d7d75</id>
+      <masked>false</masked>
+      <name>SalesOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 17/Scenario 17_TC048/expectedSalesOrder.xlsx'</defaultValue>
+      <description></description>
+      <id>61579f72-36c6-41ce-83e4-1903b8cced2e</id>
+      <masked>false</masked>
+      <name>expectationExcelPath</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>5a5c8d01-d557-4e3e-b697-878ff299b168</id>
+      <masked>false</masked>
+      <name>NumberOfNoMatch</name>
+   </variable>
+</TestCaseEntity>

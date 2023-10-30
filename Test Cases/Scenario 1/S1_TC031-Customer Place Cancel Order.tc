@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC031-Customer Place Cancel Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b90b0314-7697-4fb5-bb7a-be9b99f2f717</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5ca9fe65-c29e-4647-ab0d-0e9c6f6d9bf7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC015-AutoGen CO number').getValue('CO_number', 1)</defaultValue>
+      <description></description>
+      <id>5ca9fe65-c29e-4647-ab0d-0e9c6f6d9bf7</id>
+      <masked>false</masked>
+      <name>custOrderNo</name>
+   </variable>
+</TestCaseEntity>

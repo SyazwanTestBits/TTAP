@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC029-Check Daily Stock Simulation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0d755f2-1c09-4d75-817b-3684a8cd74cd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f90c26f0-37ba-4f27-bcea-c5e4b9fbc9de</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f90c26f0-37ba-4f27-bcea-c5e4b9fbc9de</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+</TestCaseEntity>

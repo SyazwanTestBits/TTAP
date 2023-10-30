@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC030-Create Global Parts (Admin) - for supp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f337a68b-8d76-4181-b58f-1f759deea357</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>a4eb9a6d-198c-43ad-896f-bfa5387b9e78</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC030-Create Global Parts</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>307e9b31-4c9a-42b9-8573-188a32064c31</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 13/TC030/13.0 - TC30 - Create Global Parts-2.xlsx'</defaultValue>
+      <description></description>
+      <id>307e9b31-4c9a-42b9-8573-188a32064c31</id>
+      <masked>false</masked>
+      <name>relative_globalpart_filepath</name>
+   </variable>
+</TestCaseEntity>

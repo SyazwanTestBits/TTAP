@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_RoleList_RoleName</name>
+   <tag></tag>
+   <elementGuidId>fa1c45ea-a6c4-47a4-916e-16b9f78145db</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[normalize-space()='${userRole}']/preceding::input[@type='checkbox'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>0aea89b0-0223-4765-962c-9301783407da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1690170573138</value>
+      <webElementGuid>f7c5009e-2e03-4c49-bd27-236993249819</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

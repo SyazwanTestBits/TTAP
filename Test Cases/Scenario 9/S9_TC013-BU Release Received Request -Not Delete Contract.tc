@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC013-BU Release Received Request -Not Delete Contract</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>41b4cda1-6add-4db7-915b-a7d56d0c2e26</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>37a7b0ae-10b9-49cb-bebe-02a2922cb6af</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC002-BU to Customer Contract').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>37a7b0ae-10b9-49cb-bebe-02a2922cb6af</id>
+      <masked>false</masked>
+      <name>RequestNo</name>
+   </variable>
+</TestCaseEntity>

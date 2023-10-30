@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC174-DC2 Outbound -Regular</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1813e227-0169-4305-8119-ffe6a34f53dd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7200e2ab-096c-4d08-a2f6-88a9e7675f1d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a3157df3-a666-44ab-9b2c-77376b84ac53</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a0dea497-befe-45a9-8258-e1f9349f0ce1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC174-DC2 Outbound Details -Regular')</defaultValue>
+      <description></description>
+      <id>7200e2ab-096c-4d08-a2f6-88a9e7675f1d</id>
+      <masked>false</masked>
+      <name>outboundDetails</name>
+   </variable>
+   <variable>
+      <defaultValue>[('No') : 1, ('Shipper') : 2, ('Outbound No') : 3, ('Outbound Date') : 4, ('Booking No') : 6, ('Parts No') : 7, ('UOM') : 8, ('Outbound Qty') : 9, ('Shipping Mode') : 10, ('Outbound Type') : 11, ('Receiver') : 12, ('Buyer') : 13, ('Container No') : 16, ('Outer Package No') : 23, ('Outer Package Type') : 24, ('OP M3') : 25, ('OP Net Weight') : 26, ('OP Gross Weight') : 27, ('Inner Package No') : 28, ('Inner Package Type') : 29, ('IP M3') : 30, ('IP Net Weight') : 31, ('IP Gross Weight') : 32, ('Sales Order No') : 33, ('Seller Code') : 34, ('Seller Parts No') : 35, ('Seller Parts Description') : 36, ('SRBQ') : 39, ('Remaining Qty Available') : 40]</defaultValue>
+      <description></description>
+      <id>a3157df3-a666-44ab-9b2c-77376b84ac53</id>
+      <masked>false</masked>
+      <name>columnNames</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC174-DC2 Outbound No -Regular')</defaultValue>
+      <description></description>
+      <id>a0dea497-befe-45a9-8258-e1f9349f0ce1</id>
+      <masked>false</masked>
+      <name>outboundNoData</name>
+   </variable>
+</TestCaseEntity>

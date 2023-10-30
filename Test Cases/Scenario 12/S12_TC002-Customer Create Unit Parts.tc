@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC002-Customer Create Unit Parts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6f7f74c1-d5bc-4f4f-9abe-efec96c728cc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>38947f77-c291-41b1-a7f6-7a6827fba25c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9f9da622-848b-4d4a-ad2f-95e54b07139b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>850a7992-936a-469c-bdd9-6d6838af6b38</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d1efcf77-98e6-4e5a-833e-d0d862f4033a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6a1b6a14-b7ea-476a-b356-f2176c607a8a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.BAF_USERNAME_FATIN</defaultValue>
+      <description></description>
+      <id>38947f77-c291-41b1-a7f6-7a6827fba25c</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.BAF_PWD</defaultValue>
+      <description></description>
+      <id>9f9da622-848b-4d4a-ad2f-95e54b07139b</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.BAF_COMPANY_CUS</defaultValue>
+      <description></description>
+      <id>850a7992-936a-469c-bdd9-6d6838af6b38</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC002-Create Unit Parts')</defaultValue>
+      <description></description>
+      <id>d1efcf77-98e6-4e5a-833e-d0d862f4033a</id>
+      <masked>false</masked>
+      <name>unitPartsData</name>
+   </variable>
+   <variable>
+      <defaultValue>[('NEWMOD') : 0, ('UnitPartsNo') : 2, ('PartsNo') : 3, ('UnitPartsDescription') : 4, ('PartsRefNo') : 5, ('BackNo') : 6, ('HS') : 7, ('UOM') : 8, ('PairedParts') : 9, ('UnitPartsNo_Paired') : 10, ('PairedOrderFlag') : 11, ('ActiveFlag') : 12]</defaultValue>
+      <description></description>
+      <id>6a1b6a14-b7ea-476a-b356-f2176c607a8a</id>
+      <masked>false</masked>
+      <name>filecolumns</name>
+   </variable>
+</TestCaseEntity>

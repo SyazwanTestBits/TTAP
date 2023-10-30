@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC067-Supplier2 Check Sales Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8656ca0-a4bd-45c6-8922-f14e1727090e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>af2c4f3d-b3f6-4a22-9c40-f31610a79c26</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0b93ec78-b6a1-4213-abac-a551766013fb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c3fccbba-f6cd-4ca7-8359-ec97307d7af3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>02be95f5-3b86-4e30-9621-bd35dd15fc0b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a9b0f102-09cc-44ea-8de5-68915851e6b4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC004-Sup2 to BU2 Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>af2c4f3d-b3f6-4a22-9c40-f31610a79c26</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('SUP2_SO', 1)</defaultValue>
+      <description></description>
+      <id>0b93ec78-b6a1-4213-abac-a551766013fb</id>
+      <masked>false</masked>
+      <name>orderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.BAF_USERNAME_LUQMAN</defaultValue>
+      <description></description>
+      <id>c3fccbba-f6cd-4ca7-8359-ec97307d7af3</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.COMPANY_SUPPLIER_1</defaultValue>
+      <description></description>
+      <id>02be95f5-3b86-4e30-9621-bd35dd15fc0b</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC054').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>a9b0f102-09cc-44ea-8de5-68915851e6b4</id>
+      <masked>false</masked>
+      <name>expectedOrderQTY</name>
+   </variable>
+</TestCaseEntity>

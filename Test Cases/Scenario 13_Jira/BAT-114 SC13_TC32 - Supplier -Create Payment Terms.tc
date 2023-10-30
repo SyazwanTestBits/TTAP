@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: SC13_TC32 - Supplier -Create Payment Terms 
+Description: User: Supplier\\Login ID: userA\\Company: CNTW-SUP-POC\\Function:Master> Payment Terms List\\Description: Function to create Payment Terms</description>
+   <name>BAT-114 SC13_TC32 - Supplier -Create Payment Terms</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10025&quot;:&quot;10000_*:*_1_*:*_266535976_*|*_10002_*:*_1_*:*_0_*|*_10001_*:*_1_*:*_328645753&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0001b:203&quot;},&quot;status&quot;:{&quot;id&quot;:10002,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://ttap-scm-at.atlassian.net/&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/status/10002&quot;,&quot;name&quot;:&quot;Done&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;BAT&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;BriVge Automated Testing&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;SC13_TC32 - Supplier -Create Payment Terms &quot;,&quot;description&quot;:&quot;User: Supplier\\\\Login ID: userA\\\\Company: CNTW-SUP-POC\\\\Function:Master\u003e Payment Terms List\\\\Description: Function to create Payment Terms&quot;,&quot;reporter&quot;:{&quot;active&quot;:true,&quot;displayName&quot;:&quot;Nurfatin binti Abdullah Shuhaimy&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2&quot;},&quot;resolution&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;Work has been completed on this issue.&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/resolution/10000&quot;,&quot;name&quot;:&quot;Done&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-114/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/10113&quot;,&quot;key&quot;:&quot;BAT-114&quot;,&quot;id&quot;:10113}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>04c18248-1ad2-40fb-ad7c-61b441feb986</testCaseGuid>
+</TestCaseEntity>

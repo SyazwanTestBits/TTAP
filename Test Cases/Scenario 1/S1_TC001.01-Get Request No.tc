@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC001.01-Get Request No</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>60b8fd89-9d5c-46a5-9b34-a78b6ad9b0e2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d7972435-af36-45ed-87a0-d4e12b757f7d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC001-Desc').getValue('Description', 1)</defaultValue>
+      <description></description>
+      <id>d7972435-af36-45ed-87a0-d4e12b757f7d</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC095-BU Auto Generate To Do Task</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>87993e70-381c-429f-9294-0603c4210a4d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a095c95f-a8a7-4b25-9c1a-05d0b40b3825</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC084-Supplier1 Change Request No').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>a095c95f-a8a7-4b25-9c1a-05d0b40b3825</id>
+      <masked>false</masked>
+      <name>requestNo</name>
+   </variable>
+</TestCaseEntity>

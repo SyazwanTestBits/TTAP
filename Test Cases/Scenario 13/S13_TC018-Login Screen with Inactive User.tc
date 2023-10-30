@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC018-Login Screen with Inactive User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e51e528-af88-4fe9-a232-d607b2a9d1f4</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>6ba4914a-e21c-4a46-b43c-39efdcbe86b1</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC009-Create New User</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>6ba4914a-e21c-4a46-b43c-39efdcbe86b1</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>3bd4c148-853a-4144-82f2-e0aa75c80f98</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>692094d6-44c9-438d-ae41-9fe463895a06</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>32ed85cd-afb1-48c3-b50b-efe4a778ec44</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3bd4c148-853a-4144-82f2-e0aa75c80f98</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC009-Create New User').getValue('BriVgeUserGenCode', 1)</defaultValue>
+      <description></description>
+      <id>692094d6-44c9-438d-ae41-9fe463895a06</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC009-Create New User').getValue('BriVgeVerificationCode', 1)</defaultValue>
+      <description></description>
+      <id>32ed85cd-afb1-48c3-b50b-efe4a778ec44</id>
+      <masked>false</masked>
+      <name>verificationcode</name>
+   </variable>
+</TestCaseEntity>

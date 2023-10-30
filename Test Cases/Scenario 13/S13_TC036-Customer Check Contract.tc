@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC036-Customer Check Contract</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72d66ade-b378-4715-bf13-7a1abaf5629f</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>95e037aa-2a99-461e-a4ed-a042feb0de89</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC035-Receiverd Request List</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>95e037aa-2a99-461e-a4ed-a042feb0de89</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>ContractDescription</value>
+      <variableId>90f2b686-2524-4a8a-a97f-2a799e42a38f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>90f2b686-2524-4a8a-a97f-2a799e42a38f</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

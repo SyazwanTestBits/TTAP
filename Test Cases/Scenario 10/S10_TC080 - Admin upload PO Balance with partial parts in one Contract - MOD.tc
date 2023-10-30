@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC080 - Admin upload PO Balance with partial parts in one Contract - MOD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca2d7d7b-b8f0-442f-80bf-c0c1c153f1f4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>380e50a1-2ca7-4c32-bf0a-d91728f5f1ae</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>daa1eb34-96fe-4a8d-8b46-67699bcad077</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d1b1a297-29f6-4b7b-8f8d-f4d65aba9730</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>22165516-45ab-4cc4-9c2d-0b23fd2d270e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3f127b95-1990-4509-b5bd-cc8195286165</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>050e6cc4-b312-4395-971f-d21d6045131e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e281d05e-0da6-41e7-80ff-df02dfe8522d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e219d649-0d39-4c75-b449-328735792249</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'MY-ELA-SUP'</defaultValue>
+      <description></description>
+      <id>380e50a1-2ca7-4c32-bf0a-d91728f5f1ae</id>
+      <masked>false</masked>
+      <name>supplierID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_ContractList').getValue('ContractNo', 3)</defaultValue>
+      <description></description>
+      <id>daa1eb34-96fe-4a8d-8b46-67699bcad077</id>
+      <masked>false</masked>
+      <name>contractID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC077').getValue('Parts No.', 1)</defaultValue>
+      <description></description>
+      <id>d1b1a297-29f6-4b7b-8f8d-f4d65aba9730</id>
+      <masked>false</masked>
+      <name>partID</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 10/S10_TC080.xlsx'</defaultValue>
+      <description></description>
+      <id>22165516-45ab-4cc4-9c2d-0b23fd2d270e</id>
+      <masked>false</masked>
+      <name>uploadNew</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC080').getValue('Sales Order No.', 1)</defaultValue>
+      <description></description>
+      <id>3f127b95-1990-4509-b5bd-cc8195286165</id>
+      <masked>false</masked>
+      <name>SaleNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC080').getValue('Purchase Order No.', 1)</defaultValue>
+      <description></description>
+      <id>050e6cc4-b312-4395-971f-d21d6045131e</id>
+      <masked>false</masked>
+      <name>PurchaseNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC080')</defaultValue>
+      <description></description>
+      <id>e281d05e-0da6-41e7-80ff-df02dfe8522d</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>[('NEW/MOD') : 0, ('Firm Qty') : 11, ('Price') : 12, ('Currency') : 13, ('MOQ') : 14, ('MPQ') : 15, ('Shipping Leadtime (Week)') : 20]</defaultValue>
+      <description></description>
+      <id>e219d649-0d39-4c75-b449-328735792249</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

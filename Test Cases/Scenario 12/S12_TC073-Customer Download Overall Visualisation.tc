@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC073-Customer Download Overall Visualisation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4bdebe03-a1e3-4890-ae4b-57076bc843e9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>38fd324c-3e8b-4a78-b53c-ab109e07a4fd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dcb8abc6-f6db-4513-80f8-c6af72c47ab3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c0cb609c-2699-45ea-a106-acc44efa63c5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'VN-TTVN'</defaultValue>
+      <description></description>
+      <id>38fd324c-3e8b-4a78-b53c-ab109e07a4fd</id>
+      <masked>false</masked>
+      <name>customerCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC007-Supplier to BU Contract').getValue('ContractRouteCode', 1)</defaultValue>
+      <description></description>
+      <id>dcb8abc6-f6db-4513-80f8-c6af72c47ab3</id>
+      <masked>false</masked>
+      <name>contactRouteCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 12\\Expected Data\\TC73\\ExpectedOverallVisualisation.xlsx'</defaultValue>
+      <description></description>
+      <id>c0cb609c-2699-45ea-a106-acc44efa63c5</id>
+      <masked>false</masked>
+      <name>expectedOV</name>
+   </variable>
+</TestCaseEntity>

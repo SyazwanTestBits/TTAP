@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC007-Supplier Release Received Request -Not Delete Contract</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2eea68a7-e13e-41f4-8bac-b736d9db9a84</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d8a5a9e4-2a1e-46ca-8386-8d7398b350b4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC004-Supplier to BU Contract').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>d8a5a9e4-2a1e-46ca-8386-8d7398b350b4</id>
+      <masked>false</masked>
+      <name>RequestNo</name>
+   </variable>
+</TestCaseEntity>

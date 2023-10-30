@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC062-BU Complete Received Request to modify price</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0c156a84-876c-40f8-a66e-c17ac5253ff1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fc3df882-c0ae-4d38-b5fa-2cf1d7b8be81</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a26f9bc7-3c77-40a0-b209-4a589177da68</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a3f0160a-3549-4e5b-b2b7-ec0aa0f057ee</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC061').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>fc3df882-c0ae-4d38-b5fa-2cf1d7b8be81</id>
+      <masked>false</masked>
+      <name>requestID</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Part No') : 1, ('Unit Price') : 6, ('Currency') : 7]</defaultValue>
+      <description></description>
+      <id>2dd8f6ba-4417-49fc-a4fa-e96181bceea3</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC061')</defaultValue>
+      <description></description>
+      <id>a3f0160a-3549-4e5b-b2b7-ec0aa0f057ee</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

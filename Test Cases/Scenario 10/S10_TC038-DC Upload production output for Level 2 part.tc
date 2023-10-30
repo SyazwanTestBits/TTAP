@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC038-DC Upload production output for Level 2 part</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0909cb22-5fc0-4dc9-b34a-6baac081704f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>87a2d0ff-b46d-4ebf-b758-b870947386bf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9fae1dc0-7684-4c91-8036-c31a32a2812d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6ddbc3cf-3777-4820-a3e3-643605caed37</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC038')</defaultValue>
+      <description></description>
+      <id>87a2d0ff-b46d-4ebf-b758-b870947386bf</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Inbound Date') : 1, ('Inbound Qty') : 12]</defaultValue>
+      <description></description>
+      <id>9fae1dc0-7684-4c91-8036-c31a32a2812d</id>
+      <masked>false</masked>
+      <name>column</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6ddbc3cf-3777-4820-a3e3-643605caed37</id>
+      <masked>false</masked>
+      <name>l2parts</name>
+   </variable>
+</TestCaseEntity>

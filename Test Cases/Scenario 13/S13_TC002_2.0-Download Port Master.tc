@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC002_2.0-Download Port Master</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f31804c-0dcf-47b7-8900-03756566744f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dc6d50f9-5053-475c-b7a2-6ac818be32c5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'C:\\Users\\luqma\\git\\ttap-brivge\\Test Data\\13.0 - TC11 - Create Port Master.xlsx'</defaultValue>
+      <description></description>
+      <id>dc6d50f9-5053-475c-b7a2-6ac818be32c5</id>
+      <masked>false</masked>
+      <name>uploadFilePath</name>
+   </variable>
+</TestCaseEntity>

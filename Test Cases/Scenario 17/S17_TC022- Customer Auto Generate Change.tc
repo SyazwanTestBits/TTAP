@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC022- Customer Auto Generate Change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0b32c21f-ccde-4845-9bdd-9cbb95231352</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0ca8194b-67fe-41ef-8a45-06280ccbaa13</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fefe7611-8406-484b-9386-6366f6815ca7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5b35d00b-5417-4dac-a650-c823eb13cd87</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC021.1- Request No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>0ca8194b-67fe-41ef-8a45-06280ccbaa13</id>
+      <masked>false</masked>
+      <name>requestNo</name>
+   </variable>
+   <variable>
+      <defaultValue>['PartsNo', 'CustomerPartsNo', 'BackNo', 'SupplierCode', 'ColorCode', 'PairedPartsNo', 'UOMCode', 'SPQ', 'OrderLot', 'Firm', 'OldForecast', 'NewForecast']</defaultValue>
+      <description></description>
+      <id>fefe7611-8406-484b-9386-6366f6815ca7</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>'Forecast Change'</defaultValue>
+      <description></description>
+      <id>5b35d00b-5417-4dac-a650-c823eb13cd87</id>
+      <masked>false</masked>
+      <name>requestType</name>
+   </variable>
+</TestCaseEntity>

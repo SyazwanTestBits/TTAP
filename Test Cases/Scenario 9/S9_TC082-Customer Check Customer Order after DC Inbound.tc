@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC082-Customer Check Customer Order after DC Inbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5cbf87f3-62dc-4e1c-91eb-de93be214a95</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d3dc4f0a-411e-4574-a21c-a66c71d32ffb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9873295e-9586-48a7-8a42-914d376936ab</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d7f66213-c121-4a8c-a6a9-a57d4e4b5261</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC042-CUS Download CO').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d3dc4f0a-411e-4574-a21c-a66c71d32ffb</id>
+      <masked>false</masked>
+      <name>cusOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC047-SUP Upload Outbound Result')</defaultValue>
+      <description></description>
+      <id>9873295e-9586-48a7-8a42-914d376936ab</id>
+      <masked>false</masked>
+      <name>datafile_outbound</name>
+   </variable>
+   <variable>
+      <defaultValue>[(1) : 'Processing', (2) : 'Processing', (3) : 'Processing']</defaultValue>
+      <description></description>
+      <id>d7f66213-c121-4a8c-a6a9-a57d4e4b5261</id>
+      <masked>false</masked>
+      <name>mapverify_partsdetail</name>
+   </variable>
+</TestCaseEntity>

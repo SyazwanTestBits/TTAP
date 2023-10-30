@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC027- Customer Change Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad4987e7-f7cf-446b-bbb8-33597125c1a7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a8c0785b-df53-4dc1-a995-8b92f03e2a01</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>28fd025f-b8a5-4997-990b-5d3ba5c5709f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b1b336df-a370-4b6b-a337-f2ebe68ad2c6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1e9857bb-6de9-4f75-a541-f9f4dc9a537a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2d94cb6a-66c7-48ea-92d9-154c452ead96</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>12efb11d-6ccf-42ba-98e6-ee1ba2609616</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa7be22c-f18d-4261-8792-18c380bd9f1d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC027- New Firm Quantity')</defaultValue>
+      <description></description>
+      <id>a8c0785b-df53-4dc1-a995-8b92f03e2a01</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC017- Regular Customer Order No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>28fd025f-b8a5-4997-990b-5d3ba5c5709f</id>
+      <masked>false</masked>
+      <name>downloadedFormSheetName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC017- Regular Customer Order No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b1b336df-a370-4b6b-a337-f2ebe68ad2c6</id>
+      <masked>false</masked>
+      <name>customerOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>[('NewFirm') : 15, ('NewInboundDate_Qty1') : 25, ('NewInboundDate_Qty2') : 26, ('NewInboundDate_Qty3') : 27]</defaultValue>
+      <description></description>
+      <id>1e9857bb-6de9-4f75-a541-f9f4dc9a537a</id>
+      <masked>false</masked>
+      <name>mapKeyandColIndex</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC027.1- New Inbound Date')</defaultValue>
+      <description></description>
+      <id>2d94cb6a-66c7-48ea-92d9-154c452ead96</id>
+      <masked>false</masked>
+      <name>testdataInboundDateChange</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC002- Contract Part Info').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>12efb11d-6ccf-42ba-98e6-ee1ba2609616</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC006- Contract Route Code').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>aa7be22c-f18d-4261-8792-18c380bd9f1d</id>
+      <masked>false</masked>
+      <name>contractRouteNo</name>
+   </variable>
+</TestCaseEntity>

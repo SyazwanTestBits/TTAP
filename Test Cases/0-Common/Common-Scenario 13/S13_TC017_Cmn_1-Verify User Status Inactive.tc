@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC017_Cmn_1-Verify User Status Inactive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03e5ad3e-d730-4fdc-b3d7-478d14d3fe3e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>93e7210b-8952-4dd0-9c96-37ef2831e776</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>93e7210b-8952-4dd0-9c96-37ef2831e776</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

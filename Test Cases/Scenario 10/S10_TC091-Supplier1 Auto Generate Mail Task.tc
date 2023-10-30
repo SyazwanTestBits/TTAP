@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC091-Supplier1 Auto Generate Mail Task</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>150325ee-09df-4292-bc3c-1919f5645c52</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d6259cb1-41b4-473d-8f88-4f9c28c658bc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'sNTs101-2309001'</defaultValue>
+      <description></description>
+      <id>d6259cb1-41b4-473d-8f88-4f9c28c658bc</id>
+      <masked>false</masked>
+      <name>SO_number</name>
+   </variable>
+</TestCaseEntity>

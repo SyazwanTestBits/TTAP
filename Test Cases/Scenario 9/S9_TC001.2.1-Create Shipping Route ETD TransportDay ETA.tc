@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC001.2.1-Create Shipping Route ETD TransportDay ETA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb206f75-31c7-4208-b8be-6f1d9f5b4ea6</testCaseGuid>
+</TestCaseEntity>

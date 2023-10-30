@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC069-Supplier Outbound -Outbound Actual to DC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e5228d2-5404-43b3-aebe-de1a197b4bbe</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b5a401a9-0f3b-4659-a376-70fba13dfba6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>711af9bf-2f89-44ed-851e-283faf1e65d3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e330cd88-27db-4434-9bd4-c39c9d4cbb1a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>394fd2b7-e07c-45be-ad2a-29a2b4f74225</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.BAF_USERNAME_FATIN</defaultValue>
+      <description></description>
+      <id>b5a401a9-0f3b-4659-a376-70fba13dfba6</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.BAF_PWD</defaultValue>
+      <description></description>
+      <id>711af9bf-2f89-44ed-851e-283faf1e65d3</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.BAF_COMPANY_SUP</defaultValue>
+      <description></description>
+      <id>e330cd88-27db-4434-9bd4-c39c9d4cbb1a</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC069-OutboundNo')</defaultValue>
+      <description></description>
+      <id>394fd2b7-e07c-45be-ad2a-29a2b4f74225</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

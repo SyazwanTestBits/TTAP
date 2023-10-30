@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC017- Customer Change Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6841ea2-7502-47ee-be96-f70bfaf79cac</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>93cb3033-d601-48b2-b793-a0be6fe52f3a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cbc74f57-d96c-4055-9d30-c75ef38a19b8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3355d642-abc4-4af5-b3c4-728d11cc8214</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>658b78c2-abe3-4501-a24b-af22a3d0efaf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d6776f6a-00a2-4d2b-9602-5b7fb541d25c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7894c3ae-0e7f-418c-8fea-15d569d453e0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>83ebaf64-0dd7-407b-bb1d-5c0f565a9e33</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f2949844-8cd6-45e7-bccb-d64a05547670</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC017-Change Firm Quantity')</defaultValue>
+      <description></description>
+      <id>93cb3033-d601-48b2-b793-a0be6fe52f3a</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC015-AutoGen CO number').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>cbc74f57-d96c-4055-9d30-c75ef38a19b8</id>
+      <masked>false</masked>
+      <name>downloadedFormSheetName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC015-AutoGen CO number').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>3355d642-abc4-4af5-b3c4-728d11cc8214</id>
+      <masked>false</masked>
+      <name>customerOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>[('NewFirm') : 15, ('InboundDate_1') : 24, ('InboundDate_2') : 25]</defaultValue>
+      <description></description>
+      <id>658b78c2-abe3-4501-a24b-af22a3d0efaf</id>
+      <masked>false</masked>
+      <name>mapKeyandColIndex</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC017_Inbound Date Change')</defaultValue>
+      <description></description>
+      <id>d6776f6a-00a2-4d2b-9602-5b7fb541d25c</id>
+      <masked>false</masked>
+      <name>testdataInboundDateChange</name>
+   </variable>
+   <variable>
+      <defaultValue>[('InboundDate_1') : 24, ('InboundDate_2') : 25]</defaultValue>
+      <description></description>
+      <id>7894c3ae-0e7f-418c-8fea-15d569d453e0</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>15</defaultValue>
+      <description></description>
+      <id>83ebaf64-0dd7-407b-bb1d-5c0f565a9e33</id>
+      <masked>false</masked>
+      <name>startRowFormMinusOne</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC002-BU1 to Customer Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>f2949844-8cd6-45e7-bccb-d64a05547670</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+</TestCaseEntity>

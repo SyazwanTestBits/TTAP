@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC036-BU Revise Order Calculation Result - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d356371f-45ba-4f5c-803d-e5ab291d1db8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>285b31e1-a8e0-4d28-a54c-c9f33fd7244e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>44cd27b0-808a-4fcb-aff8-bbc1ddcc4144</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0a58d482-2bf9-48d4-a86a-f024e9e2e186</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2f95cf5e-ed54-4afa-95a9-fc3601892707</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cff51d84-a8db-44c9-9c4a-c03af4e18ef3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8079c7bb-dfd1-403f-83bd-da158de98db7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC031-Create Order Calc Grouping').getValue('OrderCalculationGroupingNo', 1)</defaultValue>
+      <description></description>
+      <id>285b31e1-a8e0-4d28-a54c-c9f33fd7244e</id>
+      <masked>false</masked>
+      <name>orderCalcNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC036/S10_TC036-sheet1')</defaultValue>
+      <description></description>
+      <id>44cd27b0-808a-4fcb-aff8-bbc1ddcc4144</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Final Order Qty.(adjusted)') : 42, ('Reason for Adjustment') : 43]</defaultValue>
+      <description></description>
+      <id>0a58d482-2bf9-48d4-a86a-f024e9e2e186</id>
+      <masked>false</masked>
+      <name>column1</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Final Order Qty.(adjusted)') : 50, ('Reason for Adjustment') : 51]</defaultValue>
+      <description></description>
+      <id>2f95cf5e-ed54-4afa-95a9-fc3601892707</id>
+      <masked>false</masked>
+      <name>column2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cff51d84-a8db-44c9-9c4a-c03af4e18ef3</id>
+      <masked>false</masked>
+      <name>sheetName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 10/S10_TC036.xlsx'</defaultValue>
+      <description></description>
+      <id>8079c7bb-dfd1-403f-83bd-da158de98db7</id>
+      <masked>false</masked>
+      <name>path</name>
+   </variable>
+</TestCaseEntity>

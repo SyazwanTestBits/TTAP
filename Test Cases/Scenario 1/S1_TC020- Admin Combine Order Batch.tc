@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC020- Admin Combine Order Batch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>80496395-a2e3-480e-a80f-674c92be103e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>df21f62b-056d-4e55-80e1-c6e85b6df454</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://st.brivge.com/batch'</defaultValue>
+      <description></description>
+      <id>df21f62b-056d-4e55-80e1-c6e85b6df454</id>
+      <masked>false</masked>
+      <name>batch_url</name>
+   </variable>
+</TestCaseEntity>

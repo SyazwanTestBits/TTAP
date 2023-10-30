@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC018-BU Reject Received Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2a4ac6f1-7f35-4a84-9112-8dd1b85b9760</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5a36f8fd-b335-4d63-a948-317f79c350c2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC002-BU to Customer Contract').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>5a36f8fd-b335-4d63-a948-317f79c350c2</id>
+      <masked>false</masked>
+      <name>RequestNo</name>
+   </variable>
+</TestCaseEntity>

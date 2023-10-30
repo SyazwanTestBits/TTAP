@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC062-Customer Approve Change Request after Submit Order Change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4192406e-3e22-40f4-837e-807fe45147db</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>35ecdae6-7fb8-4f52-a5f6-87e549e1cd5b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6044df9e-27ef-4319-b632-ec2d598e9457</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a3c3ee0f-a7ed-4900-bce4-fd03892c1dff</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c04eeb14-75e8-4d54-ac96-2fea4384e2f8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC060-SUP Order Change Request').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>35ecdae6-7fb8-4f52-a5f6-87e549e1cd5b</id>
+      <masked>false</masked>
+      <name>reqSalesOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC059-Supplier Order Change')</defaultValue>
+      <description></description>
+      <id>6044df9e-27ef-4319-b632-ec2d598e9457</id>
+      <masked>false</masked>
+      <name>datafile_suporderchange</name>
+   </variable>
+   <variable>
+      <defaultValue>['Parts No.', 'Customer Parts No.', 'Back No.', 'Supplier Code', 'Color Code', 'Paired Parts No.', 'UOM Code', 'SPQ', 'Order Lot', 'Old Firm', 'New Firm', 'Last Order Forecast 1', 'Fluctuation', 'Reason For Fluctuation', 'Old_InboundDate1', 'Old_InboundDate2', 'New_InboundDate1', 'New_InboundDate2', 'New_InboundDate3', 'Old_OutboundDate_Sup1', 'Old_OutboundDate_Sup2', 'Old_OutboundDate_Sup3', 'New_OutboundDate_Sup1', 'New_OutboundDate_Sup2', 'New_OutboundDate_Sup3']</defaultValue>
+      <description></description>
+      <id>a3c3ee0f-a7ed-4900-bce4-fd03892c1dff</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>[findTestData('Scenario 9/S9_TC059-Supplier Order Change Date').getValue('newOutboundDate1', 1), findTestData('Scenario 9/S9_TC059-Supplier Order Change Date').getValue('newOutboundDate2', 1), findTestData('Scenario 9/S9_TC059-Supplier Order Change Date').getValue('newOutboundDate5', 2)]</defaultValue>
+      <description></description>
+      <id>c04eeb14-75e8-4d54-ac96-2fea4384e2f8</id>
+      <masked>false</masked>
+      <name>newOutboundDate</name>
+   </variable>
+</TestCaseEntity>

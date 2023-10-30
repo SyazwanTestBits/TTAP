@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC136-Check Daily Stock Simulation (BU) include shipping</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2fcbaaa6-bc4a-48dd-b57e-6b74f4a32a3b</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>0dd5c722-f418-4725-a22c-ce05774146e6</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 10/S10_TC025</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ea5e1d0e-dd75-49cd-ae08-16eb6781b8bf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>73e8619b-6087-47a5-bf87-9afdfb9e521d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>37d043fb-127f-4ac5-9a38-8f7cb091e857</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d61b353-1a30-49a8-af20-90642755d25a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e2af08b3-5207-4d08-ae0f-c0528aed3d68</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC025').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>ea5e1d0e-dd75-49cd-ae08-16eb6781b8bf</id>
+      <masked>false</masked>
+      <name>contractNoL2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC025').getValue(3, 2)</defaultValue>
+      <description></description>
+      <id>73e8619b-6087-47a5-bf87-9afdfb9e521d</id>
+      <masked>false</masked>
+      <name>contractNoL3</name>
+   </variable>
+   <variable>
+      <defaultValue>18</defaultValue>
+      <description></description>
+      <id>37d043fb-127f-4ac5-9a38-8f7cb091e857</id>
+      <masked>false</masked>
+      <name>lastdayetd</name>
+   </variable>
+   <variable>
+      <defaultValue>10</defaultValue>
+      <description></description>
+      <id>7d61b353-1a30-49a8-af20-90642755d25a</id>
+      <masked>false</masked>
+      <name>lastmonthetd</name>
+   </variable>
+   <variable>
+      <defaultValue>2023</defaultValue>
+      <description></description>
+      <id>e2af08b3-5207-4d08-ae0f-c0528aed3d68</id>
+      <masked>false</masked>
+      <name>lastyearetd</name>
+   </variable>
+</TestCaseEntity>

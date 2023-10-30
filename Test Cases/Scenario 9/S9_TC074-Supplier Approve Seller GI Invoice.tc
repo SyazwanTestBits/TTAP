@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC074-Supplier Approve Seller GI Invoice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>75529f48-3a37-4502-92a0-3139fb22f724</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>81c2baac-cced-4897-8688-18dc50b33610</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC035-Receiverd Request List</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0b5200a9-20e3-4111-a369-e2ce0ae08559</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8da8df5a-6916-4b86-b760-abfe06903fee</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6821f435-1f39-4a54-a31e-1fd277c0a0a7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC074-Supplier Seller GI Invoice')</defaultValue>
+      <description></description>
+      <id>0b5200a9-20e3-4111-a369-e2ce0ae08559</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC074-Supplier Seller GI Invoice').getValue('OutboundNo', 1)</defaultValue>
+      <description></description>
+      <id>8da8df5a-6916-4b86-b760-abfe06903fee</id>
+      <masked>false</masked>
+      <name>outbound1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC074-Supplier Seller GI Invoice').getValue('OutboundNo', 3)</defaultValue>
+      <description></description>
+      <id>6821f435-1f39-4a54-a31e-1fd277c0a0a7</id>
+      <masked>false</masked>
+      <name>outbound3</name>
+   </variable>
+</TestCaseEntity>

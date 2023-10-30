@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC122-Supp2 Combine Seller GI Invoice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3d50b80c-563c-4999-b93e-6a68584edc6a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6a9b6ef0-0544-4ebc-8845-66c68fa7cd02</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0a316045-a602-4078-8f58-9f829ab190f6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>82114b04-0ffd-4ae2-9a31-8aba8221d1ae</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fc393cd6-8a91-4c77-8fa0-260f6747522c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC122').getValue('InvoiceNo', 1)</defaultValue>
+      <description></description>
+      <id>6a9b6ef0-0544-4ebc-8845-66c68fa7cd02</id>
+      <masked>false</masked>
+      <name>invoice1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC122').getValue('InvoiceNo', 2)</defaultValue>
+      <description></description>
+      <id>0a316045-a602-4078-8f58-9f829ab190f6</id>
+      <masked>false</masked>
+      <name>invoice2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC122')</defaultValue>
+      <description></description>
+      <id>82114b04-0ffd-4ae2-9a31-8aba8221d1ae</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_ContractList').getValue(2, 4)</defaultValue>
+      <description></description>
+      <id>fc393cd6-8a91-4c77-8fa0-260f6747522c</id>
+      <masked>false</masked>
+      <name>contractID</name>
+   </variable>
+</TestCaseEntity>

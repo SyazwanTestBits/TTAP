@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC100- Supp1 Check Sale Order after TC092</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>807b4aee-18fa-4d6f-b21b-bed48e392696</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5249cd2c-e5ca-460e-84aa-7425d06d8a51</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1d4983fa-41aa-4bf7-b654-2aacccdba36e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7e9ca140-d9b6-4525-91c5-4fe7afaff3ba</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC100').getValue('SOidRegular', 1)</defaultValue>
+      <description></description>
+      <id>5249cd2c-e5ca-460e-84aa-7425d06d8a51</id>
+      <masked>false</masked>
+      <name>SOid</name>
+   </variable>
+   <variable>
+      <defaultValue>[('SPQ') : 6, ('Order Lot') : 7, ('Order Qty') : 8]</defaultValue>
+      <description></description>
+      <id>1d4983fa-41aa-4bf7-b654-2aacccdba36e</id>
+      <masked>false</masked>
+      <name>columnQty</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC100')</defaultValue>
+      <description></description>
+      <id>7e9ca140-d9b6-4525-91c5-4fe7afaff3ba</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

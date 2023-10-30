@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC015 - Admin Edit User detail to add BU Company</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>61042b0f-4f09-42bd-82a4-d6f01bb22299</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>f8a8878f-8802-41b0-ae82-3e43d1cb4248</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC009-Create New User</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>4acdfb21-cd8c-4598-a027-7c5e905703ca</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC014n15</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>f8a8878f-8802-41b0-ae82-3e43d1cb4248</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>311eecfa-ce6e-4661-b39f-e1aaca5da830</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>4acdfb21-cd8c-4598-a027-7c5e905703ca</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>BUCompanyCode</value>
+      <variableId>76561f58-5fe5-4ffe-9160-9d750e0a3fca</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>4acdfb21-cd8c-4598-a027-7c5e905703ca</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>UserCompanyName</value>
+      <variableId>a6beca1b-f10e-4650-95e5-ffcffddbe98b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4cd96998-dd54-4bf0-9bf5-3274143ca989</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>f8a8878f-8802-41b0-ae82-3e43d1cb4248</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>UserCompanyCode</value>
+      <variableId>360a4cb8-3fe3-4685-9cfd-039fd485f015</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>311eecfa-ce6e-4661-b39f-e1aaca5da830</id>
+      <masked>false</masked>
+      <name>userID</name>
+   </variable>
+   <variable>
+      <defaultValue>'CNTW-SUP-POC'</defaultValue>
+      <description></description>
+      <id>76561f58-5fe5-4ffe-9160-9d750e0a3fca</id>
+      <masked>false</masked>
+      <name>targetCompanyCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'CNTW-SUP by Upload'</defaultValue>
+      <description></description>
+      <id>a6beca1b-f10e-4650-95e5-ffcffddbe98b</id>
+      <masked>false</masked>
+      <name>targetCompanyName</name>
+   </variable>
+   <variable>
+      <defaultValue>'BU DC'</defaultValue>
+      <description></description>
+      <id>4cd96998-dd54-4bf0-9bf5-3274143ca989</id>
+      <masked>false</masked>
+      <name>targetRole</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>360a4cb8-3fe3-4685-9cfd-039fd485f015</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

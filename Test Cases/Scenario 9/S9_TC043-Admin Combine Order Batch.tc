@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC043-Admin Combine Order Batch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b62e251-d7f2-44da-9a97-002215f0bdc7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a066b885-6510-45c8-9bb2-3c8d24fb9f23</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.BRIVGE_BATCH_URL</defaultValue>
+      <description></description>
+      <id>a066b885-6510-45c8-9bb2-3c8d24fb9f23</id>
+      <masked>false</masked>
+      <name>batch_url</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC068-BU2 Check Purchase Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d786d2c1-712b-4164-b472-44cfd946b0ac</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>aea12d30-5873-42ae-a99c-468d744ff3c8</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 1/S1_TC068</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>aea12d30-5873-42ae-a99c-468d744ff3c8</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>ContractNo</value>
+      <variableId>583e3bae-c693-4f23-8832-7ffe0a5720b4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>aea12d30-5873-42ae-a99c-468d744ff3c8</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>OrderNo</value>
+      <variableId>6072b291-99c6-4a25-8e84-2281f3b6ced7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5776b556-e189-42cb-b02f-89060ac8114f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>46d94e51-f1bc-496b-b019-7cade601da91</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2a898b6c-f0fd-4846-a34d-62324075a4c5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC004-Sup2 to BU2 Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>583e3bae-c693-4f23-8832-7ffe0a5720b4</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('SUP2_SO', 1)</defaultValue>
+      <description></description>
+      <id>6072b291-99c6-4a25-8e84-2281f3b6ced7</id>
+      <masked>false</masked>
+      <name>orderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.BAF_USERNAME_LUQMAN</defaultValue>
+      <description></description>
+      <id>5776b556-e189-42cb-b02f-89060ac8114f</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.S1_BAF_BU2</defaultValue>
+      <description></description>
+      <id>46d94e51-f1bc-496b-b019-7cade601da91</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>'620'</defaultValue>
+      <description>Base of the changes made</description>
+      <id>2a898b6c-f0fd-4846-a34d-62324075a4c5</id>
+      <masked>false</masked>
+      <name>expectedOrderQTY</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC047- Customer Check Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cffc157c-7025-409c-ae8a-2eec9c124435</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c883b2b6-3050-45e7-addc-9e93ad56e73e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6e94b026-0d42-40ce-b770-180aabac6d4e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>094d9625-475e-4284-a851-b694ad5134b7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>605d6a13-00cb-46a8-9ee5-51762bc098dd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>84b3fd83-e944-4a73-b50c-22ffcdc8337c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC017- Regular Customer Order No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c883b2b6-3050-45e7-addc-9e93ad56e73e</id>
+      <masked>false</masked>
+      <name>regularSalesOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC002- Received Request Add New Part').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>6e94b026-0d42-40ce-b770-180aabac6d4e</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 17/Scenario 17_TC047/expectedCustomerOrder.xlsx'</defaultValue>
+      <description></description>
+      <id>094d9625-475e-4284-a851-b694ad5134b7</id>
+      <masked>false</masked>
+      <name>expectationExcelPath</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>605d6a13-00cb-46a8-9ee5-51762bc098dd</id>
+      <masked>false</masked>
+      <name>NumberOfNoMatch</name>
+   </variable>
+   <variable>
+      <defaultValue>'Regular'</defaultValue>
+      <description></description>
+      <id>84b3fd83-e944-4a73-b50c-22ffcdc8337c</id>
+      <masked>false</masked>
+      <name>OrderType_Regular</name>
+   </variable>
+</TestCaseEntity>

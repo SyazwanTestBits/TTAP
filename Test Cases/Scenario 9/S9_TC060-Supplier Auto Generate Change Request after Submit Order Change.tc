@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC060-Supplier Auto Generate Change Request after Submit Order Change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>55ecebea-d4cc-48e3-88cf-4a04062c1654</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1435b025-6caa-4e76-8704-3d6eecb27314</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC046-Autogen SUP Sales Order').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>1435b025-6caa-4e76-8704-3d6eecb27314</id>
+      <masked>false</masked>
+      <name>salesOrderNo</name>
+   </variable>
+</TestCaseEntity>

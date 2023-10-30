@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC042-Customer Download CO in Excel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ace686b8-6566-49f2-86ae-9c812dd9f417</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>88f2d32c-079b-4b9f-8e90-18099e3ce24d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa5b29e2-d6f9-4c9a-a2de-90620cf3812a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>764bdc15-af17-4992-a910-f0d9fddcfe16</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9afe2eaa-7920-47ab-a192-14b8339568ea</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e2f8225e-03eb-4bce-b152-9f05330b4c94</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC036-BU to Customer Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>88f2d32c-079b-4b9f-8e90-18099e3ce24d</id>
+      <masked>false</masked>
+      <name>ContractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Regular'</defaultValue>
+      <description></description>
+      <id>aa5b29e2-d6f9-4c9a-a2de-90620cf3812a</id>
+      <masked>false</masked>
+      <name>OrderType_Regular</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 9\\Expected Data\\TC42\\S9_TC42_CustomerOrder.xlsx'</defaultValue>
+      <description></description>
+      <id>764bdc15-af17-4992-a910-f0d9fddcfe16</id>
+      <masked>false</masked>
+      <name>expectedCO</name>
+   </variable>
+   <variable>
+      <defaultValue>[(1) : 'Submitted', (2) : 'Submitted', (3) : 'Submitted']</defaultValue>
+      <description></description>
+      <id>9afe2eaa-7920-47ab-a192-14b8339568ea</id>
+      <masked>false</masked>
+      <name>mapverify_partsdetail</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC041-CUS Reg Order (Firm)')</defaultValue>
+      <description></description>
+      <id>e2f8225e-03eb-4bce-b152-9f05330b4c94</id>
+      <masked>false</masked>
+      <name>datafile_outbound</name>
+   </variable>
+</TestCaseEntity>

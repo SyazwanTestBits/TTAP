@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC062- Supplier Check Change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b97a8d8b-09c8-40d8-88fe-44edf420e398</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC055- Request No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b6e5ec58-0a43-42bf-b84e-10142e79363a</id>
+      <masked>false</masked>
+      <name>requestNo</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_cmm_GetDate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1ff2978-4d68-48e0-bc73-6e97f8a69571</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f2c0e74e-ae5f-46f2-90f1-df5dfa67a157</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f2c0e74e-ae5f-46f2-90f1-df5dfa67a157</id>
+      <masked>false</masked>
+      <name>latesPath</name>
+   </variable>
+</TestCaseEntity>

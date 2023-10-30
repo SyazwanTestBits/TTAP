@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC049.2-Customer Check Customer Order -Spot</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b04457fd-4717-4d3d-b7d3-a8f3cc648e23</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>08496fac-e308-4842-868a-fc5f12373b0d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC011-CO Number').getValue('SpotCustomerOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>08496fac-e308-4842-868a-fc5f12373b0d</id>
+      <masked>false</masked>
+      <name>SpotOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 12\\Expected Data\\TC49\\Expected Customer Order Spot.xlsx'</defaultValue>
+      <description></description>
+      <id>c0cb609c-2699-45ea-a106-acc44efa63c5</id>
+      <masked>false</masked>
+      <name>expectedCOspot</name>
+   </variable>
+</TestCaseEntity>

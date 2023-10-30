@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC024-Auto Generate BU Purchase Order (BU2)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8bbd21b3-2582-4485-a85b-41159c9dc61d</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>2bb2e1b7-324c-453c-86d2-d2901df40998</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 1/S1_TC024</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>2bb2e1b7-324c-453c-86d2-d2901df40998</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>ContractNo</value>
+      <variableId>0c61f793-1b0d-4030-a732-7278365f2011</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0c61f793-1b0d-4030-a732-7278365f2011</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+</TestCaseEntity>

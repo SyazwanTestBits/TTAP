@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC015-BU Auto Generate Purchase Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1b02ec4-ca7f-4b55-b744-97f187624ce1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>56f48e1e-455b-43ef-9b03-13a8ceb50ea9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d69d61a2-9527-4570-8b5f-0d24f03da8b2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>137bfb1e-3ac6-4db9-91db-292a07b7f4f1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>46e49d1b-8805-4773-a3af-0dcfd0240af7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e4df623f-cd12-4431-b6ec-4d1b980ba697</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c0cb609c-2699-45ea-a106-acc44efa63c5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5619434a-4a94-474c-a057-fa5440a90d86</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC007-Supplier to BU Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>56f48e1e-455b-43ef-9b03-13a8ceb50ea9</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC015-BU PO').getValue('RegularPurchaseOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>d69d61a2-9527-4570-8b5f-0d24f03da8b2</id>
+      <masked>false</masked>
+      <name>regularPurchaseOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC015-BU PO').getValue('SpotPurchaseOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>137bfb1e-3ac6-4db9-91db-292a07b7f4f1</id>
+      <masked>false</masked>
+      <name>spotPurchaseOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Regular'</defaultValue>
+      <description></description>
+      <id>46e49d1b-8805-4773-a3af-0dcfd0240af7</id>
+      <masked>false</masked>
+      <name>orderTypeRegular</name>
+   </variable>
+   <variable>
+      <defaultValue>'Spot'</defaultValue>
+      <description></description>
+      <id>e4df623f-cd12-4431-b6ec-4d1b980ba697</id>
+      <masked>false</masked>
+      <name>orderTypeSpot</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 12\\Expected Data\\TC15\\Expected Purchase Order Regular.xlsx'</defaultValue>
+      <description></description>
+      <id>c0cb609c-2699-45ea-a106-acc44efa63c5</id>
+      <masked>false</masked>
+      <name>expectedPOregular</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 12\\Expected Data\\TC15\\Expected Purchase Order Spot.xlsx'</defaultValue>
+      <description></description>
+      <id>5619434a-4a94-474c-a057-fa5440a90d86</id>
+      <masked>false</masked>
+      <name>expectedPOspot</name>
+   </variable>
+</TestCaseEntity>

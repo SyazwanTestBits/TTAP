@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC043-BU1 Check Purchase Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>02992175-ff80-4a38-a00c-cabfbbc26389</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3a8956a5-60c5-4dfc-9534-203b16fe9848</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3a8956a5-60c5-4dfc-9534-203b16fe9848</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>03a1ec61-f28c-4d73-8604-8c1e02cc562a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5619434a-4a94-474c-a057-fa5440a90d86</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5619434a-4a94-474c-a057-fa5440a90d86</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC003-BU2 to BU1 Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>3a8956a5-60c5-4dfc-9534-203b16fe9848</id>
+      <masked>false</masked>
+      <name>contractNoBU2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC006-BU3 to BU1 Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>3a8956a5-60c5-4dfc-9534-203b16fe9848</id>
+      <masked>false</masked>
+      <name>contractNoBU3</name>
+   </variable>
+   <variable>
+      <defaultValue>[findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('BU1_PO', 1), findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('BU1_PO', 2)]</defaultValue>
+      <description></description>
+      <id>03a1ec61-f28c-4d73-8604-8c1e02cc562a</id>
+      <masked>false</masked>
+      <name>orderNoList</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 1\\Expected Data\\TC43\\Expected Purchase Order_BU2.xlsx'</defaultValue>
+      <description></description>
+      <id>5619434a-4a94-474c-a057-fa5440a90d86</id>
+      <masked>false</masked>
+      <name>expectedPO_BU2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 1\\Expected Data\\TC43\\Expected Purchase Order_BU3.xlsx'</defaultValue>
+      <description></description>
+      <id>5619434a-4a94-474c-a057-fa5440a90d86</id>
+      <masked>false</masked>
+      <name>expectedPO_BU3</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC150-DC Inbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>68a74cdf-1302-46b7-b9fd-307645aae35a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>07c47d6d-230a-4bce-81a1-311c4402cc65</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6ae0e1ac-283a-40fd-a895-c6f0d8ce8bfd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>50973d4a-64e7-4cdc-8aae-7ead7e94c4ae</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8ba4ee94-c49c-45fa-95fc-d7b7bfab367c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>03b2ef99-2917-4e61-80a4-f27f01ccdfbb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4ebc50d3-5d6a-456d-bc6a-3714b4f3f106</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[findTestData('Scenario 10/S10_TC102-Outbound No').getValue('OutboundNo', 1), findTestData('Scenario 10/S10_TC102-Outbound No').getValue('OutboundNo', 2), findTestData('Scenario 10/S10_TC102-Outbound No').getValue('OutboundNo', 3), findTestData('Scenario 10/S10_TC115-Outbound No').getValue('OutboundNo', 1), findTestData('Scenario 10/S10_TC115-Outbound No').getValue('OutboundNo', 2), findTestData('Scenario 10/S10_TC115-Outbound No').getValue('OutboundNo', 3)]</defaultValue>
+      <description></description>
+      <id>07c47d6d-230a-4bce-81a1-311c4402cc65</id>
+      <masked>false</masked>
+      <name>outboundNoList</name>
+   </variable>
+   <variable>
+      <defaultValue>[findTestData('Scenario 10/S10_TC102-Outbound No').getValue('OutboundRefNo', 1), findTestData('Scenario 10/S10_TC102-Outbound No').getValue('OutboundRefNo', 2), findTestData('Scenario 10/S10_TC102-Outbound No').getValue('OutboundRefNo', 3), findTestData('Scenario 10/S10_TC115-Outbound No').getValue('OutboundRefNo', 1), findTestData('Scenario 10/S10_TC115-Outbound No').getValue('OutboundRefNo', 2), findTestData('Scenario 10/S10_TC115-Outbound No').getValue('OutboundRefNo', 3)]</defaultValue>
+      <description></description>
+      <id>6ae0e1ac-283a-40fd-a895-c6f0d8ce8bfd</id>
+      <masked>false</masked>
+      <name>outboundRefNoList</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC150-DC Inbound Details')</defaultValue>
+      <description></description>
+      <id>50973d4a-64e7-4cdc-8aae-7ead7e94c4ae</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>[('InboundNo') : 3, ('InboundDate') : 4, ('OP_M3') : 18, ('OP_NW') : 19, ('OP_GW') : 20]</defaultValue>
+      <description></description>
+      <id>8ba4ee94-c49c-45fa-95fc-d7b7bfab367c</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>3</defaultValue>
+      <description></description>
+      <id>03b2ef99-2917-4e61-80a4-f27f01ccdfbb</id>
+      <masked>false</masked>
+      <name>startRowFormMinusOne</name>
+   </variable>
+   <variable>
+      <defaultValue>'Inbound'</defaultValue>
+      <description></description>
+      <id>4ebc50d3-5d6a-456d-bc6a-3714b4f3f106</id>
+      <masked>false</masked>
+      <name>downloadedFormSheetName</name>
+   </variable>
+</TestCaseEntity>

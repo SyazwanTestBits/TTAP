@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC035- Supplier Auto Generate Change Order Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>278d285f-5d4a-4d5b-87af-66b46f765eb1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5b2e7350-1d98-40c3-a60e-c23a9e46186d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>957b0aa4-66a6-4e46-bb83-07020f82664f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC034- Request No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>5b2e7350-1d98-40c3-a60e-c23a9e46186d</id>
+      <masked>false</masked>
+      <name>requestNo</name>
+   </variable>
+   <variable>
+      <defaultValue>['Partno', 'SOPartsNo', 'Backno', 'ColorCode', 'PairedPartsNo', 'UOMCode', 'SPQ', 'OrderLot', 'OldFirm', 'NewFirm', 'LastOrderForecast1', 'Fluctuation', 'ReasonForFluctuation', 'Old_outbound_1', 'Old_outbound_2', 'Old_outbound_3', 'Old_outbound_4', 'New_outbound_1', 'New_outbound_2', 'New_outbound_3', 'New_outbound_4']</defaultValue>
+      <description></description>
+      <id>957b0aa4-66a6-4e46-bb83-07020f82664f</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

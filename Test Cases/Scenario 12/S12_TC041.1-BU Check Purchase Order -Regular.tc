@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC041.1-BU Check Purchase Order -Regular</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6631de3c-1276-4a8a-8d57-3f357429ec83</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9a947cea-5b04-4035-abb2-212f9963ef52</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4fd67a46-682b-412c-b8a1-dda7aad32641</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f645c1cc-ee2e-4d4f-906f-e76550dc9329</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c0cb609c-2699-45ea-a106-acc44efa63c5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC007-Supplier to BU Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>9a947cea-5b04-4035-abb2-212f9963ef52</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC015-BU PO').getValue('RegularPurchaseOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>4fd67a46-682b-412c-b8a1-dda7aad32641</id>
+      <masked>false</masked>
+      <name>regularPurchaseOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Regular'</defaultValue>
+      <description></description>
+      <id>f645c1cc-ee2e-4d4f-906f-e76550dc9329</id>
+      <masked>false</masked>
+      <name>orderTypeRegular</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 12\\Expected Data\\TC41\\Expected Purchase Order Regular.xlsx'</defaultValue>
+      <description></description>
+      <id>c0cb609c-2699-45ea-a106-acc44efa63c5</id>
+      <masked>false</masked>
+      <name>expectedPOregular</name>
+   </variable>
+</TestCaseEntity>

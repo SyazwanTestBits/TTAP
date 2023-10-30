@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC010.2-Supplier1 Create Payment Term List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>24509240-155c-469b-8dd1-15434ed34d4c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>175be564-5537-422e-824e-36b625c6f0ca</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3cfca0e0-0deb-4d74-b88a-d9d7754d1b78</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[('FromDay') : 7, ('Days') : 6, ('FromMonth') : 5, ('TermType') : 4, ('TermDescription') : 3, ('PaymentTerm') : 2, ('NEW_MOD') : 0]</defaultValue>
+      <description></description>
+      <id>175be564-5537-422e-824e-36b625c6f0ca</id>
+      <masked>false</masked>
+      <name>paymentTermFileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC010.2')</defaultValue>
+      <description></description>
+      <id>3cfca0e0-0deb-4d74-b88a-d9d7754d1b78</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

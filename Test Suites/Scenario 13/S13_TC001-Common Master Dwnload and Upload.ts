@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>S13_TC001-Common Master Dwnload and Upload</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>1383148f-ff62-4c89-973d-a85add2109af</testSuiteGuid>
+   <testCaseLink>
+      <guid>25b933f5-6d23-48da-97d2-6f0d06f49bb9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Scenario 13/S13_TC001_1.0-Common Dwnload</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>58342d15-e7fd-411c-a2da-7784b6dd16b3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>'Region'</defaultValue>
+         <description></description>
+         <id>a63099b3-0eec-439d-87b0-784a1e61b16f</id>
+         <masked>false</masked>
+         <name>UploadOptions</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/Scenario 13/S13_TC001_1.1-Common Upload</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c0113006-ff9c-4862-92fb-2760a0b24eb1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Scenario 13/Common Master Upload</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>c0113006-ff9c-4862-92fb-2760a0b24eb1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UploadOptions</value>
+         <variableId>a63099b3-0eec-439d-87b0-784a1e61b16f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c0113006-ff9c-4862-92fb-2760a0b24eb1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UploadFileName</value>
+         <variableId>b9e87ef0-4954-4d2c-859b-68101777a051</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c0113006-ff9c-4862-92fb-2760a0b24eb1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>isUpload</value>
+         <variableId>e4d6fbba-12c4-416c-bc80-c63ae56a0365</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>091b45c5-759c-461a-8927-c02e3d66ccce</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

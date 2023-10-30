@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC028-BU Check Usage History</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce6700ce-73c7-4923-8a11-272107fb9319</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>33c9cefb-f0bb-4796-8362-c284ea597c9a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b1b4a28a-2080-40fa-836a-338f64967c58</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fc546732-5317-4e6f-a1c4-b18d8e7efbe6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f56fc97f-c148-41e5-b93a-879f52fe924c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>99337c59-0741-455f-96a2-49186d7e6203</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ac7ba03a-6834-475f-967d-0f8086add231</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>edabeeee-6b91-4844-950b-cc14e0fe210e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC027/S10_TC027-AutoGen').getValue('Buyer No', 1)</defaultValue>
+      <description></description>
+      <id>33c9cefb-f0bb-4796-8362-c284ea597c9a</id>
+      <masked>false</masked>
+      <name>bomNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC007-Contract Part Info').getValue('PartsNo', 1)</defaultValue>
+      <description></description>
+      <id>b1b4a28a-2080-40fa-836a-338f64967c58</id>
+      <masked>false</masked>
+      <name>partL3no1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC007-Contract Part Info').getValue('PartsNo', 2)</defaultValue>
+      <description></description>
+      <id>fc546732-5317-4e6f-a1c4-b18d8e7efbe6</id>
+      <masked>false</masked>
+      <name>partL3no2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC007-Setup Data').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>f56fc97f-c148-41e5-b93a-879f52fe924c</id>
+      <masked>false</masked>
+      <name>contractNoL3</name>
+   </variable>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description></description>
+      <id>99337c59-0741-455f-96a2-49186d7e6203</id>
+      <masked>false</masked>
+      <name>noRowPart</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC028')</defaultValue>
+      <description></description>
+      <id>ac7ba03a-6834-475f-967d-0f8086add231</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Jun 2023') : 9, ('Jul 2023') : 10, ('Aug 2023') : 11, ('Sep 2023') : 12, ('Oct 2023') : 13, ('Nov 2023') : 14]</defaultValue>
+      <description></description>
+      <id>edabeeee-6b91-4844-950b-cc14e0fe210e</id>
+      <masked>false</masked>
+      <name>headerlist</name>
+   </variable>
+</TestCaseEntity>

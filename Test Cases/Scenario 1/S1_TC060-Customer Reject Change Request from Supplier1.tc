@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC060-Customer Reject Change Request from Supplier1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7f857279-12d2-4bd1-a2be-b5e2c5f76811</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b1768104-d3e3-4585-9a17-d9861b6891cb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6b9a02d5-3a51-40ca-8fba-51b11222783f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>177604a5-42b7-460f-b270-d691c588f1c1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC054-Change Request No').getValue('Sup1 RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>b1768104-d3e3-4585-9a17-d9861b6891cb</id>
+      <masked>false</masked>
+      <name>requestNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC002-BU1 to Customer Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>6b9a02d5-3a51-40ca-8fba-51b11222783f</id>
+      <masked>false</masked>
+      <name>BU1toCus_contract</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC047-AutoGen OrderNo Spot').getValue('CO', 1)</defaultValue>
+      <description></description>
+      <id>177604a5-42b7-460f-b270-d691c588f1c1</id>
+      <masked>false</masked>
+      <name>CO_no</name>
+   </variable>
+</TestCaseEntity>

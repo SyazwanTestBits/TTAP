@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC092-Supplier1 Create Order Change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd6e5e7d-415c-4738-90e8-aab96788985e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f13d99cf-41e4-4ce8-ad6d-8806549159f6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC092-Supplier Date Change').getValue('SOidRegular', 1)</defaultValue>
+      <description></description>
+      <id>f13d99cf-41e4-4ce8-ad6d-8806549159f6</id>
+      <masked>false</masked>
+      <name>salesOrderNo</name>
+   </variable>
+</TestCaseEntity>

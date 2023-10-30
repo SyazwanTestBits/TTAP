@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC026-BU Check Weekly Stock Simulation-actual only</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa532de4-6686-4c10-a00f-1f1b73acabdd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d4afe233-cdf3-4709-875d-48de0903f0b3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e08bd931-a79d-40f5-bf3a-39971b1a7e4c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4d6a4eed-d186-48b9-9408-191a7c1b44f9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9e9e2c9d-9ed8-43ce-a57a-16bab410ba08</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0a7dd0a7-d935-41b1-9684-b8710c0c720d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>19d2f0a7-18db-4742-81b6-f626cacb57c8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>44fa512a-ed64-4170-9fd8-8b8041ae67d3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>58f9c3bc-950c-4a3c-a2fa-11daf122bd8c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[('newMod') : 0, ('CommonPart') : 7, ('MinStock1') : 12, ('MinStock2') : 13, ('InventoryControl') : 18, ('AlertMethod') : 19, ('Fluctuation') : 20, ('AllocationPattern') : 25, ('AdjustmentPattern1') : 26, ('AdjustmentPattern2') : 27]</defaultValue>
+      <description></description>
+      <id>d4afe233-cdf3-4709-875d-48de0903f0b3</id>
+      <masked>false</masked>
+      <name>stockControlColumnName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC025').getValue('ContractNo', 2)</defaultValue>
+      <description></description>
+      <id>e08bd931-a79d-40f5-bf3a-39971b1a7e4c</id>
+      <masked>false</masked>
+      <name>contractNoBUL3</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC025').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>4d6a4eed-d186-48b9-9408-191a7c1b44f9</id>
+      <masked>false</masked>
+      <name>contractNoBUL2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC024')</defaultValue>
+      <description></description>
+      <id>9e9e2c9d-9ed8-43ce-a57a-16bab410ba08</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 10/Convert from XLSM to XLSX/S10-TC026.xlsx'</defaultValue>
+      <description></description>
+      <id>0a7dd0a7-d935-41b1-9684-b8710c0c720d</id>
+      <masked>false</masked>
+      <name>pathExport</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 10/Convert from XLSM to XLSX/S10-TC026_new.xlsx'</defaultValue>
+      <description></description>
+      <id>19d2f0a7-18db-4742-81b6-f626cacb57c8</id>
+      <masked>false</masked>
+      <name>pathExportnew</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC026_L3')</defaultValue>
+      <description></description>
+      <id>44fa512a-ed64-4170-9fd8-8b8041ae67d3</id>
+      <masked>false</masked>
+      <name>testDataL3</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC026_L2')</defaultValue>
+      <description></description>
+      <id>58f9c3bc-950c-4a3c-a2fa-11daf122bd8c</id>
+      <masked>false</masked>
+      <name>testDataL2</name>
+   </variable>
+</TestCaseEntity>

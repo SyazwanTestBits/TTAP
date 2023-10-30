@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC061- Supplier Delete Order Change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9d3fffa-a0a3-4495-a8fd-091fe25b3335</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC019.1- Sales Order No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>98837bca-9688-418c-a1d0-9385146dc830</id>
+      <masked>false</masked>
+      <name>salesOrderNo</name>
+   </variable>
+</TestCaseEntity>

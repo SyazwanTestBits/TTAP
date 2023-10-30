@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC084-DC Download Parts Inventory By Package</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bbccc97c-7fac-4415-989e-8226aa359996</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>87efc2ce-353e-4a4d-825f-ff99299e896a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['DC Code', 'Customer Code', 'Parts No', 'Unit Parts No', 'Package No', 'Package Type', 'SPQ', 'Incoming Qty', 'Stock Qty']</defaultValue>
+      <description></description>
+      <id>87efc2ce-353e-4a4d-825f-ff99299e896a</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

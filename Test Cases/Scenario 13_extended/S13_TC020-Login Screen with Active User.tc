@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC020-Login Screen with Active User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>38611ddf-2ca1-4c95-9270-3b01f7c2a606</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>5b763405-8ffc-498a-8c7c-48e49e6e6d54</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC009-Create New User</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>5b763405-8ffc-498a-8c7c-48e49e6e6d54</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>48da905f-50dd-462c-a052-83b949bcc9a2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d220abb6-a4cd-4638-b96c-6e27e65439f1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cd7f148a-2767-4a8f-8ae4-e51923f8f7ab</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>48da905f-50dd-462c-a052-83b949bcc9a2</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC009-Create New User').getValue('BriVgeUserGenCode', 1)</defaultValue>
+      <description></description>
+      <id>d220abb6-a4cd-4638-b96c-6e27e65439f1</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC019').getValue('BriVgeVerificationCode', 1)</defaultValue>
+      <description></description>
+      <id>cd7f148a-2767-4a8f-8ae4-e51923f8f7ab</id>
+      <masked>false</masked>
+      <name>verification</name>
+   </variable>
+</TestCaseEntity>

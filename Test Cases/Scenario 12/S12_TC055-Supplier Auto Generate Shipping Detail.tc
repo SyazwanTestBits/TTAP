@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC055-Supplier Auto Generate Shipping Detail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0ee5b660-c8f2-4770-b27f-f892c21a53b2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>25fc7d41-cc70-4a0f-8100-8955efb6a8cc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad00dd7b-542e-407e-b79f-e061e7e4e03c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>061abf54-5139-46df-8282-3e65bc524d24</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b0e1fd86-d592-4aca-86ff-85111bd99efc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.CUST_USERNAME_USERF</defaultValue>
+      <description></description>
+      <id>25fc7d41-cc70-4a0f-8100-8955efb6a8cc</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.CUST_PWD_USERF</defaultValue>
+      <description></description>
+      <id>ad00dd7b-542e-407e-b79f-e061e7e4e03c</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.COMPANY_CUSTOMER</defaultValue>
+      <description></description>
+      <id>061abf54-5139-46df-8282-3e65bc524d24</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC053-Shipping Detail')</defaultValue>
+      <description></description>
+      <id>b0e1fd86-d592-4aca-86ff-85111bd99efc</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

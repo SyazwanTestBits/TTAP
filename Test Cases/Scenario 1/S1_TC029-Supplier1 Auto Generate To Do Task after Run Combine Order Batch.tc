@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC029-Supplier1 Auto Generate To Do Task after Run Combine Order Batch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0eec9da5-25ba-47cd-a44b-c2dd3484174d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>82a52559-3d88-4767-aa6a-d604f49bcc76</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('SUP1_SO', 1)</defaultValue>
+      <description></description>
+      <id>82a52559-3d88-4767-aa6a-d604f49bcc76</id>
+      <masked>false</masked>
+      <name>orderNo</name>
+   </variable>
+</TestCaseEntity>

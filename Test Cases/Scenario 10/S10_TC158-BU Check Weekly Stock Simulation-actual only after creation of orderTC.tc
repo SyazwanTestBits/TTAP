@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC158-BU Check Weekly Stock Simulation-actual only after creation of orderTC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7d591b91-ed16-470c-b762-2dde2ecfc47d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>17a24833-f854-4840-bf9f-8bc58a262d43</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>10f96e5c-5c66-491a-9604-9596d4f95fbe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ebb2a597-f539-4a41-bf39-ccd095361953</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8e8048e6-eb56-424a-a5e8-2110e3dcc14e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2ecbd4bb-4ab5-4752-b530-17873a874286</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[('newMod') : 0, ('CommonPart') : 7, ('MinStock1') : 12, ('MinStock2') : 13, ('InventoryControl') : 18, ('AlertMethod') : 19, ('Fluctuation') : 20, ('AllocationPattern') : 25, ('AdjustmentPattern1') : 26, ('AdjustmentPattern2') : 27]</defaultValue>
+      <description></description>
+      <id>17a24833-f854-4840-bf9f-8bc58a262d43</id>
+      <masked>false</masked>
+      <name>stockControlColumnName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC025').getValue('ContractNo', 2)</defaultValue>
+      <description></description>
+      <id>cfd69bd6-b4a1-4d34-aa46-7997f22657c1</id>
+      <masked>false</masked>
+      <name>contractNoBUL2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC025').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>ba59e17d-df69-419b-af81-1f1439634947</id>
+      <masked>false</masked>
+      <name>contractNoBUL3</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC138n139')</defaultValue>
+      <description></description>
+      <id>8e8048e6-eb56-424a-a5e8-2110e3dcc14e</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 10/Convert from XLSM to XLSX/S10-TC158.xlsx'</defaultValue>
+      <description></description>
+      <id>2ecbd4bb-4ab5-4752-b530-17873a874286</id>
+      <masked>false</masked>
+      <name>pathExport</name>
+   </variable>
+</TestCaseEntity>

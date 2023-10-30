@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC064-customer Rejected Received Request to modify price</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d19b486b-db86-421c-a58f-80c8bdd876e3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>87c07250-81f4-4e48-a09f-71b3ace06ae3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a26f9bc7-3c77-40a0-b209-4a589177da68</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fb58062c-0b41-4b15-bf9d-dbb9713a10bd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a8f53968-b753-4c74-b905-6cf71e3c57aa</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC063').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>87c07250-81f4-4e48-a09f-71b3ace06ae3</id>
+      <masked>false</masked>
+      <name>requestDesc</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Part No') : 1, ('Unit Price') : 6, ('Currency') : 7]</defaultValue>
+      <description></description>
+      <id>74bac2ad-4af5-4fae-a1ff-fc91fcf10874</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC063')</defaultValue>
+      <description></description>
+      <id>fb58062c-0b41-4b15-bf9d-dbb9713a10bd</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Reject TC64'</defaultValue>
+      <description></description>
+      <id>a8f53968-b753-4c74-b905-6cf71e3c57aa</id>
+      <masked>false</masked>
+      <name>reasonReject</name>
+   </variable>
+</TestCaseEntity>

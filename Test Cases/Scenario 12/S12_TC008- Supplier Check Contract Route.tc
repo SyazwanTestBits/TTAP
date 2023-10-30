@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC008- Supplier Check Contract Route</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>19d9edcb-f6a6-42bc-a76d-dd27287d1ba1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>efaecdbc-6920-498b-bb46-555c9ededf9c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>863fe666-32f8-4a40-9825-08ff5996cf97</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bbb72bcd-5acb-42f9-ac76-a91e886a0244</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>46531d76-91ff-4634-b775-988ac6b3873a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c0cb609c-2699-45ea-a106-acc44efa63c5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5619434a-4a94-474c-a057-fa5440a90d86</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC007-Supplier to BU Contract').getValue('ContractRouteCode', 1)</defaultValue>
+      <description></description>
+      <id>efaecdbc-6920-498b-bb46-555c9ededf9c</id>
+      <masked>false</masked>
+      <name>contractRouteCode</name>
+   </variable>
+   <variable>
+      <defaultValue>['Part.No', 'Unit part no-supp', 'Buyer-supp', 'Contract no', 'Price basis', 'Receiver-supp', 'Shipping route']</defaultValue>
+      <description></description>
+      <id>863fe666-32f8-4a40-9825-08ff5996cf97</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC008- Supplier Check Contract Route').getRowNumbers()</defaultValue>
+      <description></description>
+      <id>bbb72bcd-5acb-42f9-ac76-a91e886a0244</id>
+      <masked>false</masked>
+      <name>numberrowtd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC007-Supplier to BU Contract').getValue('RouteDescription', 1)</defaultValue>
+      <description></description>
+      <id>46531d76-91ff-4634-b775-988ac6b3873a</id>
+      <masked>false</masked>
+      <name>contractRouteDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 12\\Expected Data\\TC8\\Expected Contract Route Parts.xlsx'</defaultValue>
+      <description></description>
+      <id>c0cb609c-2699-45ea-a106-acc44efa63c5</id>
+      <masked>false</masked>
+      <name>expectedContractRouteParts</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 12\\Expected Data\\TC8\\Expected Contract Route Parts Overview.xlsx'</defaultValue>
+      <description></description>
+      <id>5619434a-4a94-474c-a057-fa5440a90d86</id>
+      <masked>false</masked>
+      <name>expectedContractRoutePartsOverview</name>
+   </variable>
+</TestCaseEntity>

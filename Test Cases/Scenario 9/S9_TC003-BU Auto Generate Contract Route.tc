@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC003-BU Auto Generate Contract Route</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f218bf5-44d8-48f4-8efe-d320c5f978be</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>099d2e69-013b-4417-a864-2ea3e4ea0508</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>514fde03-bd12-4a39-83b3-0cd2369b8dbe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c81ae305-92ac-448a-9e89-29183a532467</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>388a436b-2bb6-44a8-9a85-b663552f4e9b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['PartsNo', 'UnitPartsNo', 'Buyer', 'ContractNo', 'PriceBasis', 'Receiver', 'ShippingRouteCode']</defaultValue>
+      <description></description>
+      <id>099d2e69-013b-4417-a864-2ea3e4ea0508</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC002-BU to Customer Contract').getValue('ContractRouteCode', 1)</defaultValue>
+      <description></description>
+      <id>514fde03-bd12-4a39-83b3-0cd2369b8dbe</id>
+      <masked>false</masked>
+      <name>contractRouteCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 9\\Expected Data\\TC3\\Expected Contract Route Parts.xlsx'</defaultValue>
+      <description></description>
+      <id>c81ae305-92ac-448a-9e89-29183a532467</id>
+      <masked>false</masked>
+      <name>expectedContractRouteParts</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 9\\Expected Data\\TC3\\Expected Contract Route Parts Overview.xlsx'</defaultValue>
+      <description></description>
+      <id>388a436b-2bb6-44a8-9a85-b663552f4e9b</id>
+      <masked>false</masked>
+      <name>expectedContractRoutePartsOverview</name>
+   </variable>
+</TestCaseEntity>

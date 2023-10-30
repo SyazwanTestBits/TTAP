@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC029-User Check Whats New after adjust batch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0bfbc2f-e2ae-4f4c-a880-458f069f67cb</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>4691323e-11f8-445e-8686-b173e923f372</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC009-Create New User</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e4cadfee-4999-41a7-8243-7626cc4e1d98</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7bfa8305-5dda-4d5f-904b-56ab142a6208</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3cd5c55e-f8f7-4de5-b884-2e86977b4c10</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>4691323e-11f8-445e-8686-b173e923f372</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>31810b3f-4965-4eec-8894-b4aea08e10f4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a03797d3-8d33-4138-8a8d-544d534e09bb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4097eb95-0ae7-499d-8c64-7f5999beec40</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC022').getValue('Ann Header', 1)</defaultValue>
+      <description></description>
+      <id>e4cadfee-4999-41a7-8243-7626cc4e1d98</id>
+      <masked>false</masked>
+      <name>announcementHeader</name>
+   </variable>
+   <variable>
+      <defaultValue>'AnnouncementSY5-description'</defaultValue>
+      <description></description>
+      <id>7bfa8305-5dda-4d5f-904b-56ab142a6208</id>
+      <masked>false</masked>
+      <name>announcementDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>'AnnouncementSY5-content'</defaultValue>
+      <description></description>
+      <id>3cd5c55e-f8f7-4de5-b884-2e86977b4c10</id>
+      <masked>false</masked>
+      <name>annnouncementContent</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>31810b3f-4965-4eec-8894-b4aea08e10f4</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC021-Forget Password').getValue('NewPassword', 1)</defaultValue>
+      <description></description>
+      <id>a03797d3-8d33-4138-8a8d-544d534e09bb</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC021-Forget Password').getValue('BriVgeVerificationCode', 1)</defaultValue>
+      <description></description>
+      <id>4097eb95-0ae7-499d-8c64-7f5999beec40</id>
+      <masked>false</masked>
+      <name>verificationcode</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC031-Function to Upload Order Calculation Grouping</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0158f892-cc0f-43d9-b600-bb633f614511</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>b8f7a187-1f2c-4a86-82f0-0f782bd46dbb</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 10/S10_TC031-Create Order Calc Grouping</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fa95380c-6c68-4819-8591-aa33a8926825</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>689ae47e-ad24-48e6-9e58-93760bb31398</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1f22f9c3-d6b5-47cd-931d-b88391bd5f2f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>04730554-e572-4081-ae5d-33c352178117</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7374f8a2-f8fd-47be-ad10-0762a524174b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>821ff98b-0fcc-4dbb-9813-8347d3d80ac4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.PNA_USERNAME_SYAZWAN</defaultValue>
+      <description></description>
+      <id>fa95380c-6c68-4819-8591-aa33a8926825</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.PNA_COMPANY_BU</defaultValue>
+      <description></description>
+      <id>689ae47e-ad24-48e6-9e58-93760bb31398</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>'MSOGF010'</defaultValue>
+      <description></description>
+      <id>1f22f9c3-d6b5-47cd-931d-b88391bd5f2f</id>
+      <masked>false</masked>
+      <name>downloadedSheetname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC031-Create Order Calc Grouping')</defaultValue>
+      <description></description>
+      <id>04730554-e572-4081-ae5d-33c352178117</id>
+      <masked>false</masked>
+      <name>datafile_createordcalcgroup</name>
+   </variable>
+   <variable>
+      <defaultValue>[('NEWMOD') : 0, ('OrderCalculationGroupingNo') : 2, ('BuyerCode') : 3, ('ForecastNumber') : 5, ('BufferUsageType') : 6, ('OrderFrequency') : 7, ('ActiveFlag') : 10]</defaultValue>
+      <description></description>
+      <id>7374f8a2-f8fd-47be-ad10-0762a524174b</id>
+      <masked>false</masked>
+      <name>downloadfilecolumns</name>
+   </variable>
+   <variable>
+      <defaultValue>[('OrderCalculationGroupingNo') : '2', ('BuyerCode') : '3', ('BufferUsageType') : '4', ('OrderFrequency') : '5', ('ForecastNumber') : '7', ('ActiveFlag') : '9']</defaultValue>
+      <description></description>
+      <id>821ff98b-0fcc-4dbb-9813-8347d3d80ac4</id>
+      <masked>false</masked>
+      <name>datafileColsToVerify</name>
+   </variable>
+</TestCaseEntity>

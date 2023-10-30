@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_endYear_2023</name>
+   <tag></tag>
+   <elementGuidId>4d05e72b-f92d-4558-8b7e-8bb3724f88e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[134]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.lcbm-MuiTypography-root.lcbm-MuiPickersYear-root.lcbm-MuiPickersYear-yearSelected.lcbm-MuiTypography-h5.lcbm-MuiTypography-colorPrimary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>866470c2-21b6-49d6-ad4e-a8627f4abd24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiTypography-root lcbm-MuiPickersYear-root lcbm-MuiPickersYear-yearSelected lcbm-MuiTypography-h5 lcbm-MuiTypography-colorPrimary</value>
+      <webElementGuid>f4ba8b89-f466-459f-a301-cd32eebbfe72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7f5fc033-4487-458d-80ac-5b36f6550ecf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>10adc80c-cec9-4b75-b5cd-6806e351d610</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2023</value>
+      <webElementGuid>955a7d2d-fa70-417e-80eb-ad1844d89560</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiPopover-root&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiPopover-paper lcbm-lcbm419 lcbm-MuiPaper-elevation8 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiPickersBasePicker-container&quot;]/div[@class=&quot;lcbm-MuiPickersBasePicker-pickerView&quot;]/div[@class=&quot;lcbm-MuiPickersYearSelection-container&quot;]/div[@class=&quot;lcbm-MuiTypography-root lcbm-MuiPickersYear-root lcbm-MuiPickersYear-yearSelected lcbm-MuiTypography-h5 lcbm-MuiTypography-colorPrimary&quot;]</value>
+      <webElementGuid>813e4fe3-0f70-4527-b7f1-98efab4637c8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[134]</value>
+      <webElementGuid>7e3538e8-027d-457d-b610-6fd411a8c689</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::div[134]</value>
+      <webElementGuid>d2c5663e-f2c9-49dc-ad5b-224f243b95aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='2023']/parent::*</value>
+      <webElementGuid>0e227c8c-d5f2-47a2-934c-0597e4b6e42a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[124]</value>
+      <webElementGuid>f9f3caf7-1c29-46fe-857b-11c113154015</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '2023' or . = '2023')]</value>
+      <webElementGuid>f98f24ed-6429-4c46-a9fc-c406efcbe78a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

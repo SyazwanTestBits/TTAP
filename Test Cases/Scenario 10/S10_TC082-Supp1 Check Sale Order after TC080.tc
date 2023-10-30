@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC082-Supp1 Check Sale Order after TC080</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>14825cf0-50e1-4e6d-a65f-af7918742109</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ada5c66c-5060-4f65-ac01-7357f519d994</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c802ad51-3739-43e6-8c63-5ade2defcabe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c8cde994-21ad-431e-9cb7-0003cc2af0e6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC080').getValue('Sales Order No.', 1)</defaultValue>
+      <description>Auto generate from TC078/79</description>
+      <id>ada5c66c-5060-4f65-ac01-7357f519d994</id>
+      <masked>false</masked>
+      <name>SaleOrder</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Part No') : 1, ('SPQ') : 6, ('Unit Price') : 9, ('Currency') : 10]</defaultValue>
+      <description></description>
+      <id>c802ad51-3739-43e6-8c63-5ade2defcabe</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC082')</defaultValue>
+      <description></description>
+      <id>c8cde994-21ad-431e-9cb7-0003cc2af0e6</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

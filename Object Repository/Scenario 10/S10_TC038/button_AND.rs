@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_AND</name>
+   <tag></tag>
+   <elementGuidId>505d0065-17f9-4219-8b7d-79615d296e19</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div[2]/div/div[1]/div/span[1]/div/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.lcbm-MuiDialogContent-root > div.lcbm-lcbm1621 > div > div > span > div.lcbm-MuiInputBase-root.lcbm-MuiFilledInput-root.lcbm-lcbm1622.lcbm-MuiInputBase-adornedEnd.lcbm-MuiFilledInput-adornedEnd > div.lcbm-MuiInputAdornment-root.lcbm-MuiInputAdornment-positionEnd > button.lcbm-MuiButtonBase-root.lcbm-MuiButton-root.lcbm-MuiButton-text > span.lcbm-MuiButton-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0569db74-c28b-403b-b8f4-b72d9bd3b9ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiButton-label</value>
+      <webElementGuid>d8a6ef20-df22-4a36-abcf-87320c071fbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AND</value>
+      <webElementGuid>6917b824-4331-4491-bb9a-fd08252bd24f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiDialog-root&quot;]/div[@class=&quot;lcbm-MuiDialog-container lcbm-MuiDialog-scrollPaper&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiDialog-paper lcbm-MuiDialog-paperScrollPaper lcbm-MuiDialog-paperWidthLg lcbm-MuiPaper-elevation24 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiDialogContent-root&quot;]/div[@class=&quot;lcbm-lcbm1621&quot;]/div[1]/div[1]/span[1]/div[@class=&quot;lcbm-MuiInputBase-root lcbm-MuiFilledInput-root lcbm-lcbm1622 lcbm-MuiInputBase-adornedEnd lcbm-MuiFilledInput-adornedEnd&quot;]/div[@class=&quot;lcbm-MuiInputAdornment-root lcbm-MuiInputAdornment-positionEnd&quot;]/button[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiButton-root lcbm-MuiButton-text&quot;]/span[@class=&quot;lcbm-MuiButton-label&quot;]</value>
+      <webElementGuid>ab3c4307-0106-4d17-b6da-5250226b199c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Inbound Form (Manual)'])[1]/following::span[4]</value>
+      <webElementGuid>035a64db-f46f-4c6b-9d37-56e1f678db11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/following::span[4]</value>
+      <webElementGuid>fc6d3d75-b52a-4005-9d4c-8d081419a25d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::span[84]</value>
+      <webElementGuid>0b648ffe-092c-4754-bf66-540f56914b8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download'])[1]/preceding::span[86]</value>
+      <webElementGuid>5aeea041-eeeb-45f6-9585-2933d1a9701f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/span/div/div/button/span</value>
+      <webElementGuid>18564581-046c-48f6-97e9-b486b9afb57f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'AND' or . = 'AND')]</value>
+      <webElementGuid>a49dac07-f07b-4d11-9efd-63723f77f4d7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

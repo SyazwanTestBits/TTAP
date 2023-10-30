@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC087-Customer Check Customer Order after Supplier1 Outbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>69a145db-57a9-4014-8cd2-016ceb0bab6d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c148d61d-a4a6-4b8f-91b9-3cde5675f3c3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>57538434-e786-4f27-8910-988a43d2cb12</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c476dac4-4621-4572-bf65-49d6b27dd0d9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fb3a96ff-b082-4839-bb8e-60084cd37634</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC047-AutoGen OrderNo Spot').getValue('CO', 1)</defaultValue>
+      <description></description>
+      <id>c148d61d-a4a6-4b8f-91b9-3cde5675f3c3</id>
+      <masked>false</masked>
+      <name>spotOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC015-AutoGen CO number').getValue('CO_number', 1)</defaultValue>
+      <description></description>
+      <id>57538434-e786-4f27-8910-988a43d2cb12</id>
+      <masked>false</masked>
+      <name>regularOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>['Parts No', 'Unit Parts No', 'Back No', 'Sales Order No', 'Supplier Code', 'SPQ', 'Order Lot', 'Order Qty', 'Force Completed Qty', 'Unit Price', 'Currency', 'Status', 'Inbounded Qty', 'Inbound Plan Qty 1', 'Inbound Plan Status 1', 'Inbound Plan Qty 2', 'Inbound Plan Status 2', 'Estimated Inbound Qty']</defaultValue>
+      <description></description>
+      <id>c476dac4-4621-4572-bf65-49d6b27dd0d9</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC087-Customer CO Details')</defaultValue>
+      <description></description>
+      <id>fb3a96ff-b082-4839-bb8e-60084cd37634</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+</TestCaseEntity>

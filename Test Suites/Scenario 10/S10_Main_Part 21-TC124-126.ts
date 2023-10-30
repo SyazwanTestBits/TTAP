@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>S10_Main_Part 21-TC124-126</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>49431c22-2188-47eb-80f5-c71e47b60e10</testSuiteGuid>
+   <testCaseLink>
+      <guid>9b08f7cc-5c75-4657-b8de-11a098daaac7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Scenario 10/S10_TC124-Supplier2 Auto Generate Custom Invoice -Export</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f09558a6-7fa5-4d6f-b145-796334f8c1ef</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>826cdb98-2387-47d4-81f4-a7fcd700f1e8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7d423b7a-bb17-4ccc-9d93-8946787492a1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Scenario 10/S10_TC125-BU Auto Generate Custom Invoice -Import</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>70025a90-aa35-4c8a-8466-d86df93b2673</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9cbfec9a-8d34-4449-bb04-50da69418e4a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 10/S10_TC126-Supp2 Revise and Confirm Shippment</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>da9e2861-b629-460d-8ff4-40b201cf70ae</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eacd5762-5c2c-41e0-ac6d-62a3f72cd800</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

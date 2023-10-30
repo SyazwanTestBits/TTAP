@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC009-Customer Check Contract Route</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>60bc6290-cb7c-471a-a276-405af06673e5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>baa852e9-dcb8-4b2b-a5d4-a23a060fa09f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>49e95976-ce7e-4932-b034-b30a764e505f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>75a95189-97d2-49e8-bbb0-9c40adc14192</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC004-Sup2 to BU2 Contract').getValue('ContractRouteCode', 1)</defaultValue>
+      <description></description>
+      <id>baa852e9-dcb8-4b2b-a5d4-a23a060fa09f</id>
+      <masked>false</masked>
+      <name>contractRouteCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 1\\Expected Data\\TC9\\Expected Contract Route Parts.xlsx'</defaultValue>
+      <description></description>
+      <id>49e95976-ce7e-4932-b034-b30a764e505f</id>
+      <masked>false</masked>
+      <name>expectedContractRouteParts</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 1\\Expected Data\\TC9\\Expected Contract Route Parts Overview.xlsx'</defaultValue>
+      <description></description>
+      <id>75a95189-97d2-49e8-bbb0-9c40adc14192</id>
+      <masked>false</masked>
+      <name>expectedContractRoutePartsOverview</name>
+   </variable>
+</TestCaseEntity>

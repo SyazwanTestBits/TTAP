@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_Cmm-getn Caclulate Daily Simulation Report</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1c87c468-d845-4618-883b-0600cc0fc2c3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>39f0e23e-b471-469e-b9db-b94d018c1eb2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8d9d50bf-ea23-4e5d-868d-fe572e6ae7ec</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>40cb9dab-ccbd-4246-a959-b19ee245f673</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4b3cc547-b3c4-4e60-919a-7e253acd72a1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC026_L3')</defaultValue>
+      <description></description>
+      <id>39f0e23e-b471-469e-b9db-b94d018c1eb2</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC026-L3'</defaultValue>
+      <description></description>
+      <id>8d9d50bf-ea23-4e5d-868d-fe572e6ae7ec</id>
+      <masked>false</masked>
+      <name>sheetWriteUsagePerWeek</name>
+   </variable>
+   <variable>
+      <defaultValue>'D:\\Syazwan\\toyotus\\downloaded\\y1\\y1 tc29 Daily Rundown.20231018104940.xlsx'</defaultValue>
+      <description></description>
+      <id>40cb9dab-ccbd-4246-a959-b19ee245f673</id>
+      <masked>false</masked>
+      <name>actualPath</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC026-L3'</defaultValue>
+      <description></description>
+      <id>4b3cc547-b3c4-4e60-919a-7e253acd72a1</id>
+      <masked>false</masked>
+      <name>sheetForWeekReport</name>
+   </variable>
+</TestCaseEntity>

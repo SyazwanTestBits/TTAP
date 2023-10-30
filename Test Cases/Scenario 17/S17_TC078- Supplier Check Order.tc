@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC078- Supplier Check Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1b34a5e-efe8-4830-b932-166069be955a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>22b31874-e233-422c-bd01-c4e5d9b9d63f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a71521ed-c7f3-4c03-96af-4e201a652efd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d9492cce-acd2-4d27-8646-44d7e2d64589</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>05e535fb-bcaf-447d-a4f6-76d4897d4f67</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>423e09a1-7710-4b25-963f-35cd1a48aee9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Regular'</defaultValue>
+      <description></description>
+      <id>22b31874-e233-422c-bd01-c4e5d9b9d63f</id>
+      <masked>false</masked>
+      <name>OrderType_Regular</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC002- Received Request Add New Part').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>a71521ed-c7f3-4c03-96af-4e201a652efd</id>
+      <masked>false</masked>
+      <name>ContractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC019.1- Sales Order No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d9492cce-acd2-4d27-8646-44d7e2d64589</id>
+      <masked>false</masked>
+      <name>SalesOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 17/Scenario 17_TC078/expectedSalesOrder.xlsx'</defaultValue>
+      <description></description>
+      <id>05e535fb-bcaf-447d-a4f6-76d4897d4f67</id>
+      <masked>false</masked>
+      <name>expectationExcelPath</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>423e09a1-7710-4b25-963f-35cd1a48aee9</id>
+      <masked>false</masked>
+      <name>NumberOfNoMatch</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Convert</name>
+   <tag></tag>
+   <elementGuidId>7dce8d05-7fb4-4f15-abaa-f5d132ce3a48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='FileInputDropdown']/section/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.button.primary.file-input-dropdown__action__convert</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Convert ' or . = 'Convert ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>54572fe0-025f-4cd6-9068-d3d464289d64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-automation-id</name>
+      <type>Main</type>
+      <value>FileInputDropdownFileConvert</value>
+      <webElementGuid>4006b39f-e769-43a0-a41c-d484eabb920e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button primary file-input-dropdown__action__convert</value>
+      <webElementGuid>a6d12bfd-9a07-4d89-987f-9e24172f19f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>popper_tfter3q7_mzlh47</value>
+      <webElementGuid>aef3fa15-3cd9-4ebb-b8f3-69fc2e20772d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Convert </value>
+      <webElementGuid>ca7968d7-403b-41fe-b033-634bc9f361d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;FileInputDropdown&quot;)/section[@class=&quot;file-input-dropdown__action display-flex justify-content-between align-items-center&quot;]/button[@class=&quot;button primary file-input-dropdown__action__convert&quot;]</value>
+      <webElementGuid>0795e585-e537-4fa1-aaaf-a2f248229660</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='FileInputDropdown']/section/button</value>
+      <webElementGuid>9b4d855f-b2e1-44f3-ae34-c042f6fc949b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suggest'])[2]/following::button[1]</value>
+      <webElementGuid>8c506a4d-3c81-45aa-ba06-edb8a71c3ca9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suggest an output file format for . files'])[1]/following::button[2]</value>
+      <webElementGuid>64d22153-35db-45d2-b3d5-f600e29b8bdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Added 1 files'])[1]/preceding::button[1]</value>
+      <webElementGuid>b4afde87-e1d3-4a8d-bdd3-3fb59841e0bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/button</value>
+      <webElementGuid>551c3249-ca0a-4497-8fc9-dd156e23b0e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Convert ' or . = 'Convert ')]</value>
+      <webElementGuid>990c24e0-53b1-480a-b290-48c33b475747</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

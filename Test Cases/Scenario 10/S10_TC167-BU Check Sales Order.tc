@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC167-BU Check Sales Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>88d18b6a-64ce-4b09-9220-f8380bac623c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>79c800bf-e38b-4169-b3f4-ea6bb4c31f3f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[findTestData('Scenario 10/S10_TC162').getValue(2, 1), findTestData('Scenario 10/S10_TC162').getValue(2, 2)]</defaultValue>
+      <description></description>
+      <id>79c800bf-e38b-4169-b3f4-ea6bb4c31f3f</id>
+      <masked>false</masked>
+      <name>SO_numberList</name>
+   </variable>
+</TestCaseEntity>

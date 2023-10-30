@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC125-BU Auto Generate Custom Invoice -Import</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b95d2f55-0f89-40cb-8681-90d36aaa9e38</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>89019226-41f8-4447-aa5a-6991dd6d291d</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC057-Custom Invoice (Import)</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>70025a90-aa35-4c8a-8466-d86df93b2673</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[findTestData('Scenario 10/S10_TC123-Supplier2 GI Invoice').getValue('InvoiceNo', 1), findTestData('Scenario 10/S10_TC123-Supplier2 GI Invoice').getValue('InvoiceNo', 2)]</defaultValue>
+      <description></description>
+      <id>70025a90-aa35-4c8a-8466-d86df93b2673</id>
+      <masked>false</masked>
+      <name>invoiceNoList</name>
+   </variable>
+</TestCaseEntity>

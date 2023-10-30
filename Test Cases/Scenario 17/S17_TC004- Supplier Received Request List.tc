@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC004- Supplier Received Request List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce0c30de-db92-4b47-8237-a67e6a250231</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>38d36c73-673d-4672-abb1-8469699cc925</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC003- Description').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>38d36c73-673d-4672-abb1-8469699cc925</id>
+      <masked>false</masked>
+      <name>RequestNo</name>
+   </variable>
+</TestCaseEntity>

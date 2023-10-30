@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC120-DC3 Auto Generate Shipping Details after Outbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6339c337-aa0e-4cfc-8ebd-7cba268ace77</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5243f8f4-7a59-47dd-9676-f856f7460436</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC120-DC3 Shipping Details')</defaultValue>
+      <description></description>
+      <id>5243f8f4-7a59-47dd-9676-f856f7460436</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

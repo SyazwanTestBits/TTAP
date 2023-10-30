@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC063- Supplier Create Order Change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4190853e-847b-4fce-bd4e-76354d24b7cc</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC063- New Firm Quantity')</defaultValue>
+      <description></description>
+      <id>af6b3c58-04ec-4485-99a8-e19ff9bc7925</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC019.1- Sales Order No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>bd2fd4ea-b397-4ec0-bfe2-fe4f4b946c0f</id>
+      <masked>false</masked>
+      <name>salesOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>[('NewFirm') : 15, ('NewInboundDate_Qty1') : 27, ('NewInboundDate_Qty2') : 28, ('NewInboundDate_Qty3') : 29, ('NewInboundDate_Qty4') : 30]</defaultValue>
+      <description></description>
+      <id>e6bab00e-b507-4c18-acb5-71e2acc0ef24</id>
+      <masked>false</masked>
+      <name>mapKeyandColIndex</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC063- New Outbound Date')</defaultValue>
+      <description></description>
+      <id>3db2fd6d-382a-412c-8570-1662d437ff77</id>
+      <masked>false</masked>
+      <name>testdataInboundDateChange</name>
+   </variable>
+   <variable>
+      <defaultValue>14</defaultValue>
+      <description></description>
+      <id>f2f381e9-bc71-4b7d-be3e-4136946434e3</id>
+      <masked>false</masked>
+      <name>startRowFormMinusOne</name>
+   </variable>
+   <variable>
+      <defaultValue>[('OutboundNewDate1') : 26, ('OutboundNewDate2') : 27, ('OutboundNewDate3') : 28, ('OutboundNewDate4') : 29]</defaultValue>
+      <description></description>
+      <id>f3c10fd4-c26e-47d5-93bf-99db4a6d3c8e</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC002- Received Request Add New Part').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>a3c6db05-a6d9-450d-bb2d-568b56488ad5</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+</TestCaseEntity>

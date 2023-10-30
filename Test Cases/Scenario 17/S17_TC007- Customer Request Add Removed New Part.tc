@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC007- Customer Request Add Removed New Part</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b6991442-76c5-4f6b-bc9e-a99dacfef0e1</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC007- Request to Parts Master')</defaultValue>
+      <description></description>
+      <id>db196223-dec9-4212-b278-89c5aa794681</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>[('UnitPartsNo.') : 0, ('PartsNo.') : 1, ('UnitPartsDescription') : 2, ('PartsRefNo.') : 3, ('BackNo.') : 4, ('HSCode') : 5, ('UOMCode.') : 6, ('PairedParts') : 7, ('Unit PartsNo.ofPaired Parts*') : 8, ('PairedOrderFlag*') : 9, ('OrderLot') : 10, ('SPQ') : 11, ('M3') : 12, ('NetWeight') : 13, ('GrossWeight') : 14, ('SellerPartsNo.') : 15]</defaultValue>
+      <description></description>
+      <id>8af6a58c-2823-42c9-8de9-c83d7e26cea6</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>6</defaultValue>
+      <description></description>
+      <id>bb622b26-f450-438b-a7d3-366b099076fc</id>
+      <masked>false</masked>
+      <name>startRowFormMinusOne</name>
+   </variable>
+   <variable>
+      <defaultValue>'INPUT PART INFO'</defaultValue>
+      <description></description>
+      <id>388dacc0-5676-4582-a3b0-795151004860</id>
+      <masked>false</masked>
+      <name>downloadedFormSheetName</name>
+   </variable>
+   <variable>
+      <defaultValue>'PK-SUP-POC'</defaultValue>
+      <description></description>
+      <id>f8313343-7fca-4532-a4bd-dac5f532d1c6</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC003- Description').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b701c2dc-8dc8-42db-9e5f-6f016859896f</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 17'</defaultValue>
+      <description></description>
+      <id>11fa74aa-39ce-4665-b83c-1b6aa9cf3d8c</id>
+      <masked>false</masked>
+      <name>filePath</name>
+   </variable>
+   <variable>
+      <defaultValue>'S17_TestCases_Data.xlsx'</defaultValue>
+      <description></description>
+      <id>c8a7444f-d4b2-4b45-a327-1586b3764949</id>
+      <masked>false</masked>
+      <name>fileName</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC7- RequestNo'</defaultValue>
+      <description></description>
+      <id>444abb23-4511-4147-83a9-45a6635f7001</id>
+      <masked>false</masked>
+      <name>sheetName</name>
+   </variable>
+</TestCaseEntity>

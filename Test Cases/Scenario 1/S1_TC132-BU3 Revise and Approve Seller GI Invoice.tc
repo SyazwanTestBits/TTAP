@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC132-BU3 Revise and Approve Seller GI Invoice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b8eb3dcb-b84c-45a4-ad52-a56f9543ac51</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>81c2baac-cced-4897-8688-18dc50b33610</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC035-Receiverd Request List</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>15256da2-9a39-47a4-ae2f-29cddca6b618</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9c8c3f36-a96e-4705-bafc-5bc0e9104d2f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC132-BU3 SellerGI Invoice')</defaultValue>
+      <description></description>
+      <id>15256da2-9a39-47a4-ae2f-29cddca6b618</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC006-BU3 to BU1 Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>9c8c3f36-a96e-4705-bafc-5bc0e9104d2f</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+</TestCaseEntity>

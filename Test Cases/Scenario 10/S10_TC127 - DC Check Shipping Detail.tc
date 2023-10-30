@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC127 - DC Check Shipping Detail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2cd1a0c5-9938-44fc-aaa5-bee2539639a0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3cf612ce-8e3e-4c9e-a712-a24e0117315b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ed461f85-d226-4413-b338-ef7e6024af32</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC126')</defaultValue>
+      <description></description>
+      <id>3cf612ce-8e3e-4c9e-a712-a24e0117315b</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.PNA_COMPANY_SUPPLIER1</defaultValue>
+      <description></description>
+      <id>ed461f85-d226-4413-b338-ef7e6024af32</id>
+      <masked>false</masked>
+      <name>seller</name>
+   </variable>
+</TestCaseEntity>

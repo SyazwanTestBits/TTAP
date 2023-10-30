@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC140-BU1 Auto Generate BuyerGR Invoice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc0d8966-4025-47c2-87a1-d3ee9a94bac5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>947b1d5d-4eb9-4fda-98f7-5036f9fb40c3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1d3f0df0-02e0-42c6-b293-117fc1ae25a0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d65938e-57a4-4e1a-9533-bc82e2e9ce35</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>679bc650-2f79-45df-b8b2-a5eae4574210</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[findTestData('Scenario 1/S1_TC132-BU3 SellerGI Invoice').getValue('InvoiceNo', 1), findTestData('Scenario 1/S1_TC132-BU3 SellerGI Invoice').getValue('InvoiceNo', 2)]</defaultValue>
+      <description></description>
+      <id>5fc5e409-d2da-408f-b4aa-1f680b42fed0</id>
+      <masked>false</masked>
+      <name>invoiceNoList</name>
+   </variable>
+</TestCaseEntity>

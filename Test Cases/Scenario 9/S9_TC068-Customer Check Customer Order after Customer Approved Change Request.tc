@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC068-Customer Check Customer Order after Customer Approved Change Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a29baffd-0f8b-4967-9cee-9f448c34da14</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c7c3c55e-80ce-4c7b-bca0-5af9ab365ffa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d696ec95-cdcd-46a3-b2ee-a1a806b23fc5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>16caaa2a-5a04-4ff7-9d26-e2a44f788f51</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC042-CUS Download CO').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c7c3c55e-80ce-4c7b-bca0-5af9ab365ffa</id>
+      <masked>false</masked>
+      <name>cusOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC059-Supplier Order Change')</defaultValue>
+      <description></description>
+      <id>d696ec95-cdcd-46a3-b2ee-a1a806b23fc5</id>
+      <masked>false</masked>
+      <name>datafile_outbound</name>
+   </variable>
+   <variable>
+      <defaultValue>[(1) : 'Processing', (2) : 'Processing', (3) : 'Processing']</defaultValue>
+      <description></description>
+      <id>16caaa2a-5a04-4ff7-9d26-e2a44f788f51</id>
+      <masked>false</masked>
+      <name>mapverify_partsdetail</name>
+   </variable>
+</TestCaseEntity>

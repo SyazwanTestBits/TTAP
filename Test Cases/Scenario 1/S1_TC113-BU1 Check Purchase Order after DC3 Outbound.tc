@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC113-BU1 Check Purchase Order after DC3 Outbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6a1902cf-9c27-4e84-a83e-e909faeea7e1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ba112093-1a6d-4a3a-a053-d90b72659636</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>91ad858c-4655-4696-8e46-7f2ab2421cae</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec7704bd-ff87-426b-9176-89cb69c20c65</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e2d8e593-b2fc-494c-bc22-93b14c5a9c4c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC047-AutoGen OrderNo Spot').getValue('BU1_PO', 1)</defaultValue>
+      <description></description>
+      <id>ba112093-1a6d-4a3a-a053-d90b72659636</id>
+      <masked>false</masked>
+      <name>spotOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('BU1_PO', 1)</defaultValue>
+      <description></description>
+      <id>91ad858c-4655-4696-8e46-7f2ab2421cae</id>
+      <masked>false</masked>
+      <name>regularOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC113-BU1 PO Details')</defaultValue>
+      <description></description>
+      <id>ec7704bd-ff87-426b-9176-89cb69c20c65</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>['Parts No', 'Unit Parts No', 'Back No', 'Sales Order No', 'Supplier Code', 'Shipper', 'SPQ', 'Order Lot', 'Order Qty', 'Unit Price', 'Currency', 'Status', 'Inbounded Qty', 'Inbound Plan Qty 1', 'Inbound Plan Status 1', 'Inbound Plan Qty 2', 'Inbound Plan Status 2', 'Estimated Inbound Qty 1', 'Estimated Inbound Qty 2']</defaultValue>
+      <description></description>
+      <id>e2d8e593-b2fc-494c-bc22-93b14c5a9c4c</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

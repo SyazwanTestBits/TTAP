@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC058-Customer Request to modify parts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8b35498-3b1c-4670-a5bf-2837875b1be0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dc6b560b-6474-44e3-b57d-c07f39fd5c41</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>906f9903-1c72-4d77-982d-28ff3599680f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>179725a9-0645-4a82-9f64-58bcfc209e59</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>774cdd75-3a5c-4808-91c2-52b6991ceba3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC058')</defaultValue>
+      <description></description>
+      <id>dc6b560b-6474-44e3-b57d-c07f39fd5c41</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.PNA_COMPANY_BU</defaultValue>
+      <description></description>
+      <id>906f9903-1c72-4d77-982d-28ff3599680f</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC058').getValue('description',1)</defaultValue>
+      <description></description>
+      <id>179725a9-0645-4a82-9f64-58bcfc209e59</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Order Lot') : 5, ('SPQ') : 6, ('M3') : 7, ('Net Weight') : 8, ('Gross Weight') : 9]</defaultValue>
+      <description></description>
+      <id>774cdd75-3a5c-4808-91c2-52b6991ceba3</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

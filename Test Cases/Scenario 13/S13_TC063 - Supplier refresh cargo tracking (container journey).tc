@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC063 - Supplier refresh cargo tracking (container journey)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>28219b31-e9c9-4034-876f-e295cdcdcf81</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>874e5225-476d-4fe1-88a6-f123e3a588da</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8024e204-cb72-4674-a4fd-682fefd4d9d3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8977a91c-8ed0-4c5d-bbf9-3c9db158af94</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 13'</defaultValue>
+      <description></description>
+      <id>874e5225-476d-4fe1-88a6-f123e3a588da</id>
+      <masked>false</masked>
+      <name>excelpath</name>
+   </variable>
+   <variable>
+      <defaultValue>'S13_TestCases_Data.xlsx'</defaultValue>
+      <description></description>
+      <id>8024e204-cb72-4674-a4fd-682fefd4d9d3</id>
+      <masked>false</masked>
+      <name>excelname</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC063'</defaultValue>
+      <description></description>
+      <id>8977a91c-8ed0-4c5d-bbf9-3c9db158af94</id>
+      <masked>false</masked>
+      <name>excelsheet</name>
+   </variable>
+</TestCaseEntity>

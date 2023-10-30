@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC035-BU Check Order Calculation Result</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5783a8cd-fa37-4d19-b0b2-55f9df1f2b77</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2a81597f-ecd6-4e2a-96a7-fdc300c07a93</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a19f434d-526a-4054-89f5-978bd47b2436</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC031-Create Order Calc Grouping').getValue('OrderCalculationGroupingNo', 1)</defaultValue>
+      <description></description>
+      <id>2a81597f-ecd6-4e2a-96a7-fdc300c07a93</id>
+      <masked>false</masked>
+      <name>orderCalcNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 10/Convert from XLSM to XLSX/S10-TC026.xlsx'</defaultValue>
+      <description></description>
+      <id>a19f434d-526a-4054-89f5-978bd47b2436</id>
+      <masked>false</masked>
+      <name>outputPath</name>
+   </variable>
+</TestCaseEntity>

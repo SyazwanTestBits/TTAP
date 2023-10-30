@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC073- Customer Auto Generate Shipping Detail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4c92388-4b1b-4933-a50e-b49676c0e98a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6f71bbfc-f45c-4600-b9d7-c600f255b82e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>df9d0f3d-540d-4fdf-8dea-3ea25931741f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a98dda9d-687f-4634-92b3-276404dc937d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>59358ba7-d1af-4230-b42d-9b0ffeb4d024</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.BAF_USERNAME_FATIN</defaultValue>
+      <description></description>
+      <id>6f71bbfc-f45c-4600-b9d7-c600f255b82e</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.ADMIN_PWD</defaultValue>
+      <description></description>
+      <id>df9d0f3d-540d-4fdf-8dea-3ea25931741f</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.S17_BAF_CUS</defaultValue>
+      <description></description>
+      <id>a98dda9d-687f-4634-92b3-276404dc937d</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC073 and TC074- Shipping Details')</defaultValue>
+      <description></description>
+      <id>59358ba7-d1af-4230-b42d-9b0ffeb4d024</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC052-Customer Check Cargo Tracking Detail after Supplier Outbound - Backup</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>16b9ba78-8b4d-4ca8-af5b-9dca3975c56a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3ea2433e-87c9-4689-b188-515a6daac220</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e0c50806-d43d-4b6b-9e21-da3da2930909</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC042-CUS Download CO').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>3ea2433e-87c9-4689-b188-515a6daac220</id>
+      <masked>false</masked>
+      <name>orderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC047-SUP Upload Outbound Result')</defaultValue>
+      <description></description>
+      <id>e0c50806-d43d-4b6b-9e21-da3da2930909</id>
+      <masked>false</masked>
+      <name>datafile_outbound</name>
+   </variable>
+</TestCaseEntity>

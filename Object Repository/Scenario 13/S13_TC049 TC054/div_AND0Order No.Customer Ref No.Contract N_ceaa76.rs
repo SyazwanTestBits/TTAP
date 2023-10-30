@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_AND0Order No.Customer Ref No.Contract N_ceaa76</name>
+   <tag></tag>
+   <elementGuidId>6e928f5a-13ce-4803-af46-e5722a1fa062</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.lcbm-lcbm5.lcbm-lcbm6</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3845c0c6-305b-40d3-8cfa-233679d8234f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-lcbm5 lcbm-lcbm6</value>
+      <webElementGuid>5e9c964e-914e-403c-8c22-37dcdfad2456</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AND0Order No.Customer Ref No.Contract No.Order TypeOrder DateStatusDelay StatuscCP1-2307001CNTWSUP TO PKCUS 001RegularJul 10, 2023SubmittedNormalShowing 1~1 out of 1 resultsShow:20 rows1</value>
+      <webElementGuid>e4728da0-2e38-4849-a29b-f618274d15f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-scrollbar-vertical-hidden lcbm-lcbm1 os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2 lcbm-lcbm3&quot;]/div[@class=&quot;lcbm-lcbm5 lcbm-lcbm6&quot;]</value>
+      <webElementGuid>c1af993d-7c5d-45a5-9f94-45f950f944a2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]</value>
+      <webElementGuid>403c1fc6-bc2d-4657-a28b-e36ebcd6a0fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CO Monitoring List'])[1]/following::div[2]</value>
+      <webElementGuid>e62419dd-aa87-4079-9beb-0fa123c2f525</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/preceding::div[80]</value>
+      <webElementGuid>504200ae-23e8-4702-b99a-f096e2ae24dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[2]</value>
+      <webElementGuid>f4b182f5-1d79-4aac-8e00-ce8e91e46043</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'AND0Order No.Customer Ref No.Contract No.Order TypeOrder DateStatusDelay StatuscCP1-2307001CNTWSUP TO PKCUS 001RegularJul 10, 2023SubmittedNormalShowing 1~1 out of 1 resultsShow:20 rows1' or . = 'AND0Order No.Customer Ref No.Contract No.Order TypeOrder DateStatusDelay StatuscCP1-2307001CNTWSUP TO PKCUS 001RegularJul 10, 2023SubmittedNormalShowing 1~1 out of 1 resultsShow:20 rows1')]</value>
+      <webElementGuid>9b54cbf9-b0cc-40fe-ab25-8897943ed8e5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

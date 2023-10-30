@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC166.2-Check CO_2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca71cb81-3d81-4e10-8dfe-4d1c8ffdf61e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0df1a2fb-531a-4c01-9f4b-03550efda9d0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7b87967c-26f0-4008-898d-32e04973a6d8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8eb84c64-1993-431d-b512-4c8c2e59f5aa</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[findTestData('Scenario 10/S10_TC160').getValue('Order No', 1), findTestData('Scenario 10/S10_TC160').getValue('Order No', 2)]</defaultValue>
+      <description></description>
+      <id>80b3d899-ab69-4ff5-9dec-9d2fdc8cc9e9</id>
+      <masked>false</masked>
+      <name>CO_numberList</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC021-Setup Data').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>90db65a5-4e50-460a-8619-92df9fb7c07a</id>
+      <masked>false</masked>
+      <name>contractNoL2</name>
+   </variable>
+   <variable>
+      <defaultValue>['PartsNo', 'CustomerPartsNo', 'BackNo', 'SOnumber', 'SupplierCode', 'SPQ', 'OrderLot', 'OrderQty', 'ForceCompleteQty', 'UnitPrice', 'Currency', 'Status', 'InboundedQty', 'InboundedPlanQty', 'InboundedPlanStatus']</defaultValue>
+      <description></description>
+      <id>788a97b8-3fe0-49de-a8d4-a198c66e5735</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

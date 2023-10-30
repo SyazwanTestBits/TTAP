@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Shipping Route ETD TransportDay ETA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9fd987b1-c06f-42ac-89f6-f86b6809fab4</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>3ca96ba3-4454-491e-b6db-25b42efbd490</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC033-Create shipping route new</testDataId>
+   </testDataLinks>
+</TestCaseEntity>

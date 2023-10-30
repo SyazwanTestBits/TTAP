@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC159-Customer Create DI By Parts -L2 Parts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0bcf21e-c242-43cb-8586-47120c809d34</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1e9eb9aa-0342-4c9b-892b-1a047f7dcc0f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0bbf9913-2a7e-4a50-935d-3347b4a58b1e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d0dd4440-4af8-4592-bb1a-1a15126754ad</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>60f9ce25-4a11-4e1f-835d-8ea5121f2e78</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dcb31c37-bab5-4e73-9924-eb9e7a289a71</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>97392fc5-85a7-4234-82c0-300a6b0f5543</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>536d6d7d-97d5-434c-a1c6-0f8bf6a2ab14</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC021-Setup Data').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>1e9eb9aa-0342-4c9b-892b-1a047f7dcc0f</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 10\\S10-TC159-DIbyParts.xlsx'</defaultValue>
+      <description></description>
+      <id>0bbf9913-2a7e-4a50-935d-3347b4a58b1e</id>
+      <masked>false</masked>
+      <name>excelForm</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC159-Customer Create DI Parts')</defaultValue>
+      <description></description>
+      <id>d0dd4440-4af8-4592-bb1a-1a15126754ad</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Parts No.') : 2, ('Customer Parts No.') : 3, ('Seller BU Code') : 4, ('Customer Contract') : 5, ('Customer Parts Description') : 8, ('UOM') : 10, ('SPQ') : 11, ('Date1') : 12, ('Date2') : 13]</defaultValue>
+      <description></description>
+      <id>60f9ce25-4a11-4e1f-835d-8ea5121f2e78</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>'MY-PNA-DC'</defaultValue>
+      <description></description>
+      <id>dcb31c37-bab5-4e73-9924-eb9e7a289a71</id>
+      <masked>false</masked>
+      <name>sheetName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 10\\S10-TC159-DIbyParts.xlsx'</defaultValue>
+      <description></description>
+      <id>97392fc5-85a7-4234-82c0-300a6b0f5543</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Date1') : 12, ('Date2') : 13]</defaultValue>
+      <description></description>
+      <id>536d6d7d-97d5-434c-a1c6-0f8bf6a2ab14</id>
+      <masked>false</masked>
+      <name>fileColumns2</name>
+   </variable>
+</TestCaseEntity>

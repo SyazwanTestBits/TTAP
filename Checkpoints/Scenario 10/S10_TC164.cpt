@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>S10_TC164</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/Scenario 10/S10_TC164-Outbound Priotization Expect</source-url>
+   </source-info>
+   <taken-date>2023-09-25T11:22:03.306</taken-date>
+   <column-names>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "Outbound Instruction (By Parts)",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "Receiver Info",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "Seller Parts Info",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "Buyer Parts Info",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "No.",
+      "checked": false
+    },
+    {
+      "value": "DC Code",
+      "checked": false
+    },
+    {
+      "value": "Parts No.",
+      "checked": false
+    },
+    {
+      "value": "UOM",
+      "checked": false
+    },
+    {
+      "value": "Actual Stock Qty",
+      "checked": false
+    },
+    {
+      "value": "Latest Outbound Date",
+      "checked": false
+    },
+    {
+      "value": "Latest Outbound Time",
+      "checked": false
+    },
+    {
+      "value": "Suggest Outbound Date Base On Delivery Pattern",
+      "checked": false
+    },
+    {
+      "value": "Suggest Outbound Qty",
+      "checked": false
+    },
+    {
+      "value": "Receiver Info",
+      "checked": false
+    },
+    {
+      "value": "Receiver Info",
+      "checked": false
+    },
+    {
+      "value": "Receiver Info",
+      "checked": false
+    },
+    {
+      "value": "Receiver Info",
+      "checked": false
+    },
+    {
+      "value": "Seller Parts Info",
+      "checked": false
+    },
+    {
+      "value": "Seller Parts Info",
+      "checked": false
+    },
+    {
+      "value": "Seller Parts Info",
+      "checked": false
+    },
+    {
+      "value": "Seller Parts Info",
+      "checked": false
+    },
+    {
+      "value": "Seller Parts Info",
+      "checked": false
+    },
+    {
+      "value": "Seller Parts Info",
+      "checked": false
+    },
+    {
+      "value": "Seller Parts Info",
+      "checked": false
+    },
+    {
+      "value": "Buyer Parts Info",
+      "checked": false
+    },
+    {
+      "value": "Buyer Parts Info",
+      "checked": false
+    },
+    {
+      "value": "Buyer Parts Info",
+      "checked": false
+    },
+    {
+      "value": "Buyer Parts Info",
+      "checked": false
+    },
+    {
+      "value": "Buyer Parts Info",
+      "checked": false
+    },
+    {
+      "value": "Buyer Parts Info",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "value": "1",
+      "checked": false
+    },
+    {
+      "value": "MY-PNA-DC",
+      "checked": false
+    },
+    {
+      "value": "NT82151BZD90",
+      "checked": false
+    },
+    {
+      "value": "PC",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "25 Sep 2023",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "25 Sep 2023",
+      "checked": false
+    },
+    {
+      "value": "100",
+      "checked": false
+    },
+    {
+      "value": "MY-PNA-CUS",
+      "checked": false
+    },
+    {
+      "value": "100",
+      "checked": false
+    },
+    {
+      "value": "25 Sep 2023",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "sNTL202-2309003",
+      "checked": false
+    },
+    {
+      "value": "MY-PNA-BU",
+      "checked": false
+    },
+    {
+      "value": "NT82151-BZD90",
+      "checked": false
+    },
+    {
+      "value": "Ref No：L2-WIRE FR DOOR RH",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "10",
+      "checked": false
+    },
+    {
+      "value": "cNTL202-2309002",
+      "checked": false
+    },
+    {
+      "value": "MY-PNA-CUS",
+      "checked": false
+    },
+    {
+      "value": "NT82151-BZD90",
+      "checked": false
+    },
+    {
+      "value": "L2-WIRE FR DOOR RH",
+      "checked": false
+    },
+    {
+      "value": "Back1",
+      "checked": false
+    },
+    {
+      "value": "10",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "value": "2",
+      "checked": false
+    },
+    {
+      "value": "MY-PNA-DC",
+      "checked": false
+    },
+    {
+      "value": "NT82151BZK50",
+      "checked": false
+    },
+    {
+      "value": "PC",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "25 Sep 2023",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "25 Sep 2023",
+      "checked": false
+    },
+    {
+      "value": "40",
+      "checked": false
+    },
+    {
+      "value": "MY-PNA-CUS",
+      "checked": false
+    },
+    {
+      "value": "40",
+      "checked": false
+    },
+    {
+      "value": "25 Sep 2023",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "sNTL202-2309003",
+      "checked": false
+    },
+    {
+      "value": "MY-PNA-BU",
+      "checked": false
+    },
+    {
+      "value": "NT82151-BZK50",
+      "checked": false
+    },
+    {
+      "value": "Ref No：L2-HARNESS FLOOR",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "10",
+      "checked": false
+    },
+    {
+      "value": "cNTL202-2309002",
+      "checked": false
+    },
+    {
+      "value": "MY-PNA-CUS",
+      "checked": false
+    },
+    {
+      "value": "NT82151-BZK50",
+      "checked": false
+    },
+    {
+      "value": "L2-HARNESS FLOOR",
+      "checked": false
+    },
+    {
+      "value": "Back2",
+      "checked": false
+    },
+    {
+      "value": "10",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "value": "3",
+      "checked": false
+    },
+    {
+      "value": "MY-PNA-DC",
+      "checked": false
+    },
+    {
+      "value": "NT82151BZE00",
+      "checked": false
+    },
+    {
+      "value": "PC",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "30 Sep 2023",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "25 Sep 2023",
+      "checked": false
+    },
+    {
+      "value": "100",
+      "checked": false
+    },
+    {
+      "value": "MY-PNA-CUS",
+      "checked": false
+    },
+    {
+      "value": "100",
+      "checked": false
+    },
+    {
+      "value": "30 Sep 2023",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "sNTL202-2309001",
+      "checked": false
+    },
+    {
+      "value": "MY-PNA-BU",
+      "checked": false
+    },
+    {
+      "value": "NT82151-BZE00",
+      "checked": false
+    },
+    {
+      "value": "Ref No：L2-WIRE FR DOOR RH",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "10",
+      "checked": false
+    },
+    {
+      "value": "cNTL202-2309001",
+      "checked": false
+    },
+    {
+      "value": "MY-PNA-CUS",
+      "checked": false
+    },
+    {
+      "value": "NT82151-BZE00",
+      "checked": false
+    },
+    {
+      "value": "L2-WIRE FR DOOR RH",
+      "checked": false
+    },
+    {
+      "value": "Back1",
+      "checked": false
+    },
+    {
+      "value": "10",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "checked": false
+    },
+    {
+      "value": "4",
+      "checked": false
+    },
+    {
+      "value": "MY-PNA-DC",
+      "checked": false
+    },
+    {
+      "value": "NT82151BZK50",
+      "checked": false
+    },
+    {
+      "value": "PC",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "30 Sep 2023",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "25 Sep 2023",
+      "checked": false
+    },
+    {
+      "value": "60",
+      "checked": false
+    },
+    {
+      "value": "MY-PNA-CUS",
+      "checked": false
+    },
+    {
+      "value": "60",
+      "checked": false
+    },
+    {
+      "value": "30 Sep 2023",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "sNTL202-2309001",
+      "checked": false
+    },
+    {
+      "value": "MY-PNA-BU",
+      "checked": false
+    },
+    {
+      "value": "NT82151-BZK50",
+      "checked": false
+    },
+    {
+      "value": "Ref No：L2-HARNESS FLOOR",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "10",
+      "checked": false
+    },
+    {
+      "value": "cNTL202-2309001",
+      "checked": false
+    },
+    {
+      "value": "MY-PNA-CUS",
+      "checked": false
+    },
+    {
+      "value": "NT82151-BZK50",
+      "checked": false
+    },
+    {
+      "value": "L2-HARNESS FLOOR",
+      "checked": false
+    },
+    {
+      "value": "Back2",
+      "checked": false
+    },
+    {
+      "value": "10",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC034- Supplier Create Cancel Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5a9b2a7e-f50c-4230-beec-e3d927a729b6</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC019.1- Sales Order No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>e26f81eb-18ad-4bfa-a45c-2cdc6fe9cccd</id>
+      <masked>false</masked>
+      <name>salesOrderNo</name>
+   </variable>
+</TestCaseEntity>

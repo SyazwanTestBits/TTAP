@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Send Mail</name>
+   <tag></tag>
+   <elementGuidId>bf2cef24-02f4-498d-a3f1-f0842f551abe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.base-MuiButtonBase-root.base-MuiButton-root.base-MuiButton-contained.base-base286.base-MuiButton-containedPrimary.base-MuiButton-fullWidth</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type = 'submit' and (text() = 'Send Mail' or . = 'Send Mail')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>130af712-b1e0-44ec-be24-1f31495af9cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiButtonBase-root base-MuiButton-root base-MuiButton-contained base-base286 base-MuiButton-containedPrimary base-MuiButton-fullWidth</value>
+      <webElementGuid>da0bcb9f-a683-43b9-86bb-2c6db9d832f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>072e5b6b-85d0-4aec-82b1-c5f98a3f7178</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>d9206a03-eb89-4230-b7d9-e82020bc88f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Send Mail</value>
+      <webElementGuid>9f10ecd1-629f-4f1d-9896-7d939ac241ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base272&quot;]/div[@class=&quot;base-base273&quot;]/div[@class=&quot;base-base275&quot;]/form[@class=&quot;base-base280&quot;]/button[@class=&quot;base-MuiButtonBase-root base-MuiButton-root base-MuiButton-contained base-base286 base-MuiButton-containedPrimary base-MuiButton-fullWidth&quot;]</value>
+      <webElementGuid>6d8bbad8-5201-4959-8fcc-5995a64dde5c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>6394cbc4-4a5a-404b-9d19-30b50830630d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-base']/div/div/div[2]/form/button</value>
+      <webElementGuid>b2e7dd0e-91f8-4568-9d5f-562752d61627</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forget Password'])[1]/following::button[1]</value>
+      <webElementGuid>95465e36-2925-4830-b0bf-4905a77b26c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::button[1]</value>
+      <webElementGuid>6665190a-5e84-4d2b-a516-90876050e3a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/button</value>
+      <webElementGuid>f3ef4446-7186-479c-91e7-f3e4c2359004</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Send Mail' or . = 'Send Mail')]</value>
+      <webElementGuid>e57ce101-822a-45ab-98c4-834b532e5868</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

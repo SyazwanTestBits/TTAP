@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC072-Cus Check Sales Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7eb220bf-e744-4260-9d6a-c3d5e2d3cc61</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>55206498-beb8-40d8-b17a-f1021eaa6a46</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 1/S1_TC072</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>55206498-beb8-40d8-b17a-f1021eaa6a46</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>ContractNo</value>
+      <variableId>669e620b-990a-4390-9a0b-42a066a89f23</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>55206498-beb8-40d8-b17a-f1021eaa6a46</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>OrderNo</value>
+      <variableId>e3c47be8-fdb3-4ade-84fd-b2e499840fd7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bb6140f4-1aae-409d-81a4-3dfab479e97d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ef470615-6173-458e-8df4-9ed3cc430acd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>694ab6cb-5939-4ffd-bb3a-82763eec6995</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC004-Sup2 to BU2 Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>669e620b-990a-4390-9a0b-42a066a89f23</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('SUP2_SO', 1)</defaultValue>
+      <description></description>
+      <id>e3c47be8-fdb3-4ade-84fd-b2e499840fd7</id>
+      <masked>false</masked>
+      <name>orderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.BAF_USERNAME_LUQMAN</defaultValue>
+      <description></description>
+      <id>bb6140f4-1aae-409d-81a4-3dfab479e97d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.S1_BAF_CUS</defaultValue>
+      <description></description>
+      <id>ef470615-6173-458e-8df4-9ed3cc430acd</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC072').getValue(3, 1)</defaultValue>
+      <description>Base of the changes made</description>
+      <id>694ab6cb-5939-4ffd-bb3a-82763eec6995</id>
+      <masked>false</masked>
+      <name>expectedOrderQTY</name>
+   </variable>
+</TestCaseEntity>

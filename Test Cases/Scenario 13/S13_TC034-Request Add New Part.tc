@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC034-Request Add New Part</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff4769c0-5d29-4560-bb82-058c0042cdde</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>2d559640-9458-4090-933a-58770660f451</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC034-Request Add New Part</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>18efdbaa-9b75-4bb1-89a0-23f75fbac156</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>2d559640-9458-4090-933a-58770660f451</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Description</value>
+      <variableId>7fff0443-d66b-4843-bec8-8e28b315217f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'CNTW-SUP-POC'</defaultValue>
+      <description></description>
+      <id>18efdbaa-9b75-4bb1-89a0-23f75fbac156</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7fff0443-d66b-4843-bec8-8e28b315217f</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

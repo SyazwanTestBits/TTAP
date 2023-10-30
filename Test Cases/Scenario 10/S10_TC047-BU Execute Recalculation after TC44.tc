@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC047-BU Execute Recalculation after TC44</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca534ead-8dbe-48a5-b3c4-8162d4d80723</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b8a895b8-5c09-43e5-89a4-1e295361079e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>005decdd-de02-4458-afd7-a998765d12d8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC031-Create Order Calc Grouping').getValue('OrderCalculationGroupingNo', 1)</defaultValue>
+      <description></description>
+      <id>b8a895b8-5c09-43e5-89a4-1e295361079e</id>
+      <masked>false</masked>
+      <name>orderCalcNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC047')</defaultValue>
+      <description></description>
+      <id>005decdd-de02-4458-afd7-a998765d12d8</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

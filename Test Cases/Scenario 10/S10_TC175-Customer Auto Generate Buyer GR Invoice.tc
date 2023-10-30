@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC175-Customer Auto Generate Buyer GR Invoice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c01e2c2-8be2-43a3-b4b6-4483a78ad194</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5d47b3a6-c48a-46bc-a422-6bb1508d71f2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[findTestData('Scenario 10/S10_TC173-Seller GI Invoice').getValue('InvoiceNo', 1), findTestData('Scenario 10/S10_TC173-Seller GI Invoice').getValue('InvoiceNo', 2)]</defaultValue>
+      <description></description>
+      <id>5d47b3a6-c48a-46bc-a422-6bb1508d71f2</id>
+      <masked>false</masked>
+      <name>invoiceNoList</name>
+   </variable>
+</TestCaseEntity>

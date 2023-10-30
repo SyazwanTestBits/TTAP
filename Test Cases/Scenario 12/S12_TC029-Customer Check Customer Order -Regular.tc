@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC029-Customer Check Customer Order -Regular</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7480947-9408-4184-8188-9310d63e7bdc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>24cddcd6-7046-4b77-b88b-d1e7a60d1a48</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4a1064b7-48ae-4a4c-b67c-b3f1bcd4d3fe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>20c1b1aa-de4b-4a19-bd7c-86dc66f2ba85</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c0cb609c-2699-45ea-a106-acc44efa63c5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>431589cc-54f8-4fc5-b5e6-0504930c11d5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Part no', 'Customer parts no', 'Back no', 'Sales order no', 'Supplier code', 'SPQ', 'Order lot', 'Order qty', 'Force complete qty', 'Unit price', 'Currency', 'Status', 'Inbounded qty', 'Inbound_plan_1', 'Inbound_status_1', 'Inbound_plan_2', 'Inbound_status_2', 'Inbound_plan_3', 'Inbound_status_3']</defaultValue>
+      <description></description>
+      <id>24cddcd6-7046-4b77-b88b-d1e7a60d1a48</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC011-CO Number').getValue('RegularCustomerOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>4a1064b7-48ae-4a4c-b67c-b3f1bcd4d3fe</id>
+      <masked>false</masked>
+      <name>COid</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC004-BU to Customer Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>20c1b1aa-de4b-4a19-bd7c-86dc66f2ba85</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 12\\Expected Data\\TC29\\Expected Customer Order Regular.xlsx'</defaultValue>
+      <description></description>
+      <id>c0cb609c-2699-45ea-a106-acc44efa63c5</id>
+      <masked>false</masked>
+      <name>expectedCOregular</name>
+   </variable>
+   <variable>
+      <defaultValue>'Regular'</defaultValue>
+      <description></description>
+      <id>431589cc-54f8-4fc5-b5e6-0504930c11d5</id>
+      <masked>false</masked>
+      <name>orderType</name>
+   </variable>
+</TestCaseEntity>

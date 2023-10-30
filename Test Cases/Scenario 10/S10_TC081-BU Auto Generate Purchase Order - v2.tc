@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC081-BU Auto Generate Purchase Order - v2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0e3d9c56-a714-421f-ba96-8e92e52f99ac</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f6f82ddf-1d2a-43a1-a4ee-6088478c7ab6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>07bb97ed-4d72-48eb-9589-43668d5ad51e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8153b879-9a4f-49a4-9d0c-0bb1aa29bd0e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c922ac18-8afc-47c2-a68c-e13b910ea672</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8175f9fe-a453-48d5-87bf-90470bb680d3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_ContractList').getValue(2, 3)</defaultValue>
+      <description></description>
+      <id>f6f82ddf-1d2a-43a1-a4ee-6088478c7ab6</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>get from TC77</description>
+      <id>07bb97ed-4d72-48eb-9589-43668d5ad51e</id>
+      <masked>false</masked>
+      <name>spotPurchaseOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Spot'</defaultValue>
+      <description></description>
+      <id>8153b879-9a4f-49a4-9d0c-0bb1aa29bd0e</id>
+      <masked>false</masked>
+      <name>orderTypeSpot</name>
+   </variable>
+   <variable>
+      <defaultValue>['Parts No.', 'Unit Parts No.', 'Back No.', 'Sales Order No.', 'Supplier Code', 'Shipper', 'SPQ', 'Order Lot', 'Order Qty', 'Unit Price', 'Currency', 'Status', 'InboundQty', 'InboundPlan', 'InboundPlanStatus', 'EstimateInbound']</defaultValue>
+      <description></description>
+      <id>c922ac18-8afc-47c2-a68c-e13b910ea672</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC081-BU Check PO')</defaultValue>
+      <description></description>
+      <id>8175f9fe-a453-48d5-87bf-90470bb680d3</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

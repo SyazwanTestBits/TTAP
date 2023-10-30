@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC172-BU Auto Generate Seller GI Invoice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>04193f4a-00f1-4d2d-8350-1bf1bcb939c3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ff406a63-950e-4fc1-8ce5-b83d4e2124c5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC165-Outbound List')</defaultValue>
+      <description></description>
+      <id>ff406a63-950e-4fc1-8ce5-b83d4e2124c5</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

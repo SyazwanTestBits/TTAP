@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC042-BU Execute Recalculation - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2f94c18-1676-41f2-9f7e-d9e48aa4f17c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>999f8717-1bdd-45fe-bb0a-ed7533e76244</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>19c7f61d-d43d-41c3-a82b-c7d1c6df0e7f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ce29605-2425-4f6e-9a5f-07317233ba4a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC031-Create Order Calc Grouping').getValue('OrderCalculationGroupingNo', 1)</defaultValue>
+      <description></description>
+      <id>999f8717-1bdd-45fe-bb0a-ed7533e76244</id>
+      <masked>false</masked>
+      <name>orderCalcNo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>19c7f61d-d43d-41c3-a82b-c7d1c6df0e7f</id>
+      <masked>false</masked>
+      <name>tetsData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 10/S10_TC042.xlsx'</defaultValue>
+      <description></description>
+      <id>7ce29605-2425-4f6e-9a5f-07317233ba4a</id>
+      <masked>false</masked>
+      <name>path</name>
+   </variable>
+</TestCaseEntity>

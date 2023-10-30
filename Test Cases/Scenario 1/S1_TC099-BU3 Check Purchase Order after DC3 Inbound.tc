@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC099-BU3 Check Purchase Order after DC3 Inbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d236e0cd-336b-43e8-8cb8-d19fbfecc06e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7b4671dc-e098-4dc0-a590-c74fa87528c0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>52e64657-15fc-411d-9109-b24b10168b2b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>89a8b50d-e1d2-44ad-be4c-af881abbb4de</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC047-AutoGen OrderNo Spot').getValue('BU3_PO', 1)</defaultValue>
+      <description></description>
+      <id>7b4671dc-e098-4dc0-a590-c74fa87528c0</id>
+      <masked>false</masked>
+      <name>buOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC099-BU3 PO Details after DC3 Inbound')</defaultValue>
+      <description></description>
+      <id>52e64657-15fc-411d-9109-b24b10168b2b</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>['Parts No', 'Unit Parts No', 'Back No', 'Sales Order No', 'Supplier Code', 'Shipper', 'SPQ', 'Order Lot', 'Order Qty', 'Unit Price', 'Currency', 'Status', 'Inbounded Qty', 'Inbound Plan Qty 1', 'Inbound Plan Status 1', 'Inbound Plan Qty 2', 'Inbound Plan Status 2']</defaultValue>
+      <description></description>
+      <id>89a8b50d-e1d2-44ad-be4c-af881abbb4de</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

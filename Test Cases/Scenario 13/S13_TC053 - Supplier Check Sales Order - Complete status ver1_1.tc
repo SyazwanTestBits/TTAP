@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC053 - Supplier Check Sales Order - Complete status ver1_1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>076c3b4d-60de-4f72-9a9d-34db08e49c76</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>3c841798-3d05-4d5b-818d-954269db3163</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC050</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>33d51289-f869-47bf-aa9a-d372967c81b4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>475cc84e-b36a-4475-9134-e2805169a6f9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cbf5b06a-d16b-44d9-8721-114e1da19922</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>38ffe3bc-9285-4fdc-857c-aa773268aa4a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1a60d3d7-8a53-4b0e-8a9c-29992fbe958c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7f150cd5-80f1-4491-a850-2d5a2f22fd92</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>772d58fd-4da6-4d02-92ae-bd245889a0a3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5157b5cf-681b-44d9-b3dd-98c379d1b13d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Part no', 'Customer unit part no', 'Back no', 'Purchase order no', 'Customer code', 'SPQ', 'Order lot', 'Order Qty', 'Unit Price', 'Currency', 'Status', 'Delivered qty', 'InTransit qty', 'Receiver inbounded qty', 'Planoutin plan 1', 'Planoutin status 1', 'Planoutin plan 2']</defaultValue>
+      <description></description>
+      <id>77152501-cea1-43e9-a466-d2efee340f6d</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC053').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>475cc84e-b36a-4475-9134-e2805169a6f9</id>
+      <masked>false</masked>
+      <name>SOid</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cbf5b06a-d16b-44d9-8721-114e1da19922</id>
+      <masked>false</masked>
+      <name>SO_status</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>38ffe3bc-9285-4fdc-857c-aa773268aa4a</id>
+      <masked>false</masked>
+      <name>Delay_status</name>
+   </variable>
+   <variable>
+      <defaultValue>'Aug 21, 2023'</defaultValue>
+      <description></description>
+      <id>1a60d3d7-8a53-4b0e-8a9c-29992fbe958c</id>
+      <masked>false</masked>
+      <name>plan_out_date</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sep 10, 2023'</defaultValue>
+      <description></description>
+      <id>7f150cd5-80f1-4491-a850-2d5a2f22fd92</id>
+      <masked>false</masked>
+      <name>plan_in_date</name>
+   </variable>
+   <variable>
+      <defaultValue>'Aug 21, 2023'</defaultValue>
+      <description></description>
+      <id>772d58fd-4da6-4d02-92ae-bd245889a0a3</id>
+      <masked>false</masked>
+      <name>estimate_out_date</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sep 7, 2023'</defaultValue>
+      <description></description>
+      <id>5157b5cf-681b-44d9-b3dd-98c379d1b13d</id>
+      <masked>false</masked>
+      <name>estimate_in_date</name>
+   </variable>
+</TestCaseEntity>

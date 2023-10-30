@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC043-Upload WIP adjustment L3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc8d9ca3-9b73-4f93-9ae2-53243867e8f3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f3e844f8-4a95-4659-bcc7-90dff16e6e64</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6559c6ed-9b46-4857-90aa-4a5672842f3c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a7b3f941-f87f-4ec3-ad89-370732246df9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>10e048e7-1364-4145-b329-6644be931d43</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bb52c4ec-5592-4098-9da9-b8936ab8f10c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ff18fd9c-b220-450e-98e8-c8395ae0d145</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>37e48369-de1f-4dac-8b3c-43cdf46e4aef</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>61558f99-1ef9-452e-a5e4-a7e4eee52df2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'MY-PNA-CUS'</defaultValue>
+      <description></description>
+      <id>f3e844f8-4a95-4659-bcc7-90dff16e6e64</id>
+      <masked>false</masked>
+      <name>customerCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 10/S10-TC043-Upload WIP Adjustment.xlsx'</defaultValue>
+      <description></description>
+      <id>6559c6ed-9b46-4857-90aa-4a5672842f3c</id>
+      <masked>false</masked>
+      <name>dataFile</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC043')</defaultValue>
+      <description></description>
+      <id>a7b3f941-f87f-4ec3-ad89-370732246df9</id>
+      <masked>false</masked>
+      <name>testDatafile</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Parts No.') : 0, ('Customer Code') : 1, ('Contract No.') : 2, ('Unit Parts No.') : 3, ('Back No.') : 4, ('Exp Country') : 5, ('Supplier Code') : 6, ('Adjust Date') : 7, ('Adjust Qty') : 8]</defaultValue>
+      <description></description>
+      <id>10e048e7-1364-4145-b329-6644be931d43</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description></description>
+      <id>bb52c4ec-5592-4098-9da9-b8936ab8f10c</id>
+      <masked>false</masked>
+      <name>startRowFormMinusOne</name>
+   </variable>
+   <variable>
+      <defaultValue>'WIP Adjust'</defaultValue>
+      <description></description>
+      <id>ff18fd9c-b220-450e-98e8-c8395ae0d145</id>
+      <masked>false</masked>
+      <name>downloadedFormSheetname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC007-Setup Data').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>37e48369-de1f-4dac-8b3c-43cdf46e4aef</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC007-Contract Part Info').getValue('PartsNo', 3)</defaultValue>
+      <description></description>
+      <id>61558f99-1ef9-452e-a5e4-a7e4eee52df2</id>
+      <masked>false</masked>
+      <name>partsNo</name>
+   </variable>
+</TestCaseEntity>

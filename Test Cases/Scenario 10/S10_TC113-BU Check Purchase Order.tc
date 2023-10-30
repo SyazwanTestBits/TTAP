@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC113-BU Check Purchase Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>723a9a89-f18a-4b0c-be45-4b2ba49aee46</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>58953bc4-b4e3-45f3-aeb9-088fbb3ee7fc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0ade16a8-b4ac-461c-997c-2b55d5460a5e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8f20037e-2486-4810-9080-105d9ec129e5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2438f7bf-a2f1-4658-9ab3-d698e4d4e11e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC113-BU Check PO').getValue('PurchaseNo', 1)</defaultValue>
+      <description></description>
+      <id>58953bc4-b4e3-45f3-aeb9-088fbb3ee7fc</id>
+      <masked>false</masked>
+      <name>spotPurchaseOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Spot'</defaultValue>
+      <description></description>
+      <id>0ade16a8-b4ac-461c-997c-2b55d5460a5e</id>
+      <masked>false</masked>
+      <name>orderTypeSpot</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_ContractList').getValue('ContractNo', 3)</defaultValue>
+      <description></description>
+      <id>8f20037e-2486-4810-9080-105d9ec129e5</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>['Parts No.', 'Unit Parts No.', 'Back No.', 'Sales Order No.', 'Supplier Code', 'Shipper', 'SPQ', 'Order Lot', 'Order Qty', 'Unit Price', 'Currency', 'Status', 'InboundQty', 'InboundPlan_1', 'InboundStatus_1', 'InboundPlan_2', 'InboundStatus_2', 'InboundPlan_3', 'InboundStatus_3', 'EstimateInbound_1', 'EstimateInbound_2']</defaultValue>
+      <description></description>
+      <id>2438f7bf-a2f1-4658-9ab3-d698e4d4e11e</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

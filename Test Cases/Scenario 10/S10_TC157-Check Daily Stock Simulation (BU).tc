@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC157-Check Daily Stock Simulation (BU)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8fed8efb-107b-4eae-a5c8-bfc63cd52636</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>0dd5c722-f418-4725-a22c-ce05774146e6</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 10/S10_TC025</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a2819084-ffd0-4ba2-8999-b86d28997c7c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d467381a-c9f0-460e-a9c7-21a206030553</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1d9bdcd3-923f-46c1-b36d-6fdd4aae3465</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>39bc3458-1e29-46fe-8786-3b131f1e7013</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>812c270a-f7cf-48c3-a312-d7e646aa5c2a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>89c80f9a-53fe-4130-8509-5c617dbdd9b3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC025').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>a2819084-ffd0-4ba2-8999-b86d28997c7c</id>
+      <masked>false</masked>
+      <name>contractNoL2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC025').getValue(3, 2)</defaultValue>
+      <description></description>
+      <id>d467381a-c9f0-460e-a9c7-21a206030553</id>
+      <masked>false</masked>
+      <name>contractNoL3</name>
+   </variable>
+   <variable>
+      <defaultValue>18</defaultValue>
+      <description></description>
+      <id>1d9bdcd3-923f-46c1-b36d-6fdd4aae3465</id>
+      <masked>false</masked>
+      <name>lastdayetd</name>
+   </variable>
+   <variable>
+      <defaultValue>10</defaultValue>
+      <description></description>
+      <id>39bc3458-1e29-46fe-8786-3b131f1e7013</id>
+      <masked>false</masked>
+      <name>lastmonthetd</name>
+   </variable>
+   <variable>
+      <defaultValue>2023</defaultValue>
+      <description></description>
+      <id>812c270a-f7cf-48c3-a312-d7e646aa5c2a</id>
+      <masked>false</masked>
+      <name>lastyearetd</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 10/Convert from XLSM to XLSX/S10-TC029.xlsx'</defaultValue>
+      <description></description>
+      <id>89c80f9a-53fe-4130-8509-5c617dbdd9b3</id>
+      <masked>false</masked>
+      <name>locationXlsx</name>
+   </variable>
+</TestCaseEntity>

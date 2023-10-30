@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC154-BU Upload Customer Stock</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>776814bc-1a41-4c2d-bcef-22ad6718050a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f4d3b7a4-478a-4071-9994-eb6295b41a19</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>252eaae8-71ca-4b9e-8d10-a8c6aac44eac</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9e778100-da71-499c-987f-bf9b0845e604</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>60092fe8-5295-4d83-8850-e8f1d611870c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>46613c91-6171-4d69-9c31-3c5a7f091e4d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>46040ea8-4aa1-4381-acf0-3d544f4f68b4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[findTestData('Scenario 10/S10_TC007-Setup Data').getValue('ContractNo', 1), findTestData('Scenario 10/S10_TC021-Setup Data').getValue('ContractNo', 1)]</defaultValue>
+      <description></description>
+      <id>f4d3b7a4-478a-4071-9994-eb6295b41a19</id>
+      <masked>false</masked>
+      <name>contractNoList</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC154-BU Upload Customer Stock')</defaultValue>
+      <description></description>
+      <id>252eaae8-71ca-4b9e-8d10-a8c6aac44eac</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>[('BuyerStockQty') : 7]</defaultValue>
+      <description></description>
+      <id>9e778100-da71-499c-987f-bf9b0845e604</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>'SMGTF310'</defaultValue>
+      <description></description>
+      <id>60092fe8-5295-4d83-8850-e8f1d611870c</id>
+      <masked>false</masked>
+      <name>downloadedFormSheetname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC007-Setup Data').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>46613c91-6171-4d69-9c31-3c5a7f091e4d</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC154-Stock Date').getValue('Date', 1)</defaultValue>
+      <description></description>
+      <id>46040ea8-4aa1-4381-acf0-3d544f4f68b4</id>
+      <masked>false</masked>
+      <name>date</name>
+   </variable>
+</TestCaseEntity>

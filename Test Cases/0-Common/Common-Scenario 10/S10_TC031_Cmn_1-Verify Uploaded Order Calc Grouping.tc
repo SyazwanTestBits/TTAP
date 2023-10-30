@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC031_Cmn_1-Verify Uploaded Order Calc Grouping</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0af4f3ff-fd68-4273-a98b-977ad0d00139</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>972e1e1e-d77e-4e1f-9a8f-22819f4e02ac</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5da0cf1c-ffaa-48fc-bd67-b13dab8d0a45</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC031-Create Order Calc Grouping')</defaultValue>
+      <description></description>
+      <id>972e1e1e-d77e-4e1f-9a8f-22819f4e02ac</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>[('OrderCalculationGroupingNo') : '2', ('BuyerCode') : '3', ('BufferUsageType') : '4', ('OrderFrequency') : '5', ('ForecastNumber') : '7', ('ActiveFlag') : '9']</defaultValue>
+      <description></description>
+      <id>5da0cf1c-ffaa-48fc-bd67-b13dab8d0a45</id>
+      <masked>false</masked>
+      <name>datafileColsVerification</name>
+   </variable>
+</TestCaseEntity>

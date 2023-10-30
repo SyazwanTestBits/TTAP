@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC070.1 Admin add permission ____ on user (1)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0b8e3a8a-0ec8-47b8-8604-2aede8363c8d</testCaseGuid>
+   <variable>
+      <defaultValue>'RoleA'</defaultValue>
+      <description></description>
+      <id>1ac5afcc-b516-465d-8633-bbe6330417b0</id>
+      <masked>false</masked>
+      <name>RoleName</name>
+   </variable>
+   <variable>
+      <defaultValue>'LOGI.AIS031.VIEW'</defaultValue>
+      <description></description>
+      <id>455b4f4a-b4ab-4873-b9e0-ad04093139bf</id>
+      <masked>false</masked>
+      <name>permission</name>
+   </variable>
+</TestCaseEntity>

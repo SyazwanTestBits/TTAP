@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC061-Supp1 Request to modify price</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>66b02014-c35d-4b0f-b432-a79433d7b91c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d1fd2d27-c531-4b26-bce3-9026884dfee1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>07a6a432-a2f4-4ea1-9672-32455b7f0821</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>21b5816a-c99f-4899-b8a0-7509b2abdb15</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c89740f0-f482-42fe-b7d5-746c1e632a5f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC061')</defaultValue>
+      <description></description>
+      <id>d1fd2d27-c531-4b26-bce3-9026884dfee1</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.PNA_COMPANY_BU</defaultValue>
+      <description></description>
+      <id>07a6a432-a2f4-4ea1-9672-32455b7f0821</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC061').getValue('description',1)</defaultValue>
+      <description></description>
+      <id>21b5816a-c99f-4899-b8a0-7509b2abdb15</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Unit Price') : 5, ('Currency') : 6]</defaultValue>
+      <description></description>
+      <id>c89740f0-f482-42fe-b7d5-746c1e632a5f</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

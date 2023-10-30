@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC084-Supplier1 Check Auto Generate Change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>37acf280-b6e5-4ef6-9d93-3564436a8973</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>105e4dc5-1a9f-44a3-9f23-adf6b40c9f07</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>21827c5e-8c78-45d4-8b4e-f3b40a11e717</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4295876f-a71b-43a3-855a-a1b7fa47d78c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC084-Supplier1 Change Request No').getValue('RequestNo', 1)</defaultValue>
+      <description>Get from TC82</description>
+      <id>105e4dc5-1a9f-44a3-9f23-adf6b40c9f07</id>
+      <masked>false</masked>
+      <name>requestNo1</name>
+   </variable>
+   <variable>
+      <defaultValue>['Part no', 'SO parts no', 'Back no', 'Color code', 'Paired parts no', 'UOM code', 'SPQ', 'Order lot', 'Old firm', 'New firm', 'Last order forecast 1', 'Fluctuation', 'Reason for fluctuation', 'Old_outbound_1', 'New_outbound_1', 'New_outbound_2', 'New_outbound_3']</defaultValue>
+      <description></description>
+      <id>21827c5e-8c78-45d4-8b4e-f3b40a11e717</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC084-Supplier1 Change Request No').getValue('ContractRoute', 1)</defaultValue>
+      <description></description>
+      <id>4295876f-a71b-43a3-855a-a1b7fa47d78c</id>
+      <masked>false</masked>
+      <name>contractRoute</name>
+   </variable>
+</TestCaseEntity>

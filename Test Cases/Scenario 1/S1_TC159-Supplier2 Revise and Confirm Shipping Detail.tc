@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC159-Supplier2 Revise and Confirm Shipping Detail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0c66553-8608-48a4-a5b3-2cdd3cbee70c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>96d2a8b9-8b93-4e77-8a45-bcbe13dcd9ea</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4be54149-b648-45bd-9e7a-9f3974e17afb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC159-Supplier2 Revise Shipping Details')</defaultValue>
+      <description></description>
+      <id>96d2a8b9-8b93-4e77-8a45-bcbe13dcd9ea</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>[('ATD') : 8, ('ETA') : 9, ('BL No') : 10, ('BL Date') : 11, ('Vessel Name') : 12, ('Voyage No') : 13, ('Cargo Status') : 14]</defaultValue>
+      <description></description>
+      <id>4be54149-b648-45bd-9e7a-9f3974e17afb</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+</TestCaseEntity>

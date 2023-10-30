@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC020-Customer Submit Request Reject</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0539fb7-9f85-4b59-abbe-61c70611da05</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a65ea6fe-b495-4938-954b-17a9925f13f4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>74046bc0-8a74-4574-a283-fc4c6893663c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4e1ab585-7ac2-4f39-8531-947c953e0d28</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f66acd50-4e9f-4b77-8739-8fa5f1f6b2ac</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC002-BU to Customer Contract').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>a65ea6fe-b495-4938-954b-17a9925f13f4</id>
+      <masked>false</masked>
+      <name>RequestNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC020-Customer Submit Request Rejected')</defaultValue>
+      <description></description>
+      <id>74046bc0-8a74-4574-a283-fc4c6893663c</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>[('SPQ') : 11, ('SellerPartsNo') : 15]</defaultValue>
+      <description></description>
+      <id>4e1ab585-7ac2-4f39-8531-947c953e0d28</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>'INPUT PART INFO'</defaultValue>
+      <description></description>
+      <id>f66acd50-4e9f-4b77-8739-8fa5f1f6b2ac</id>
+      <masked>false</masked>
+      <name>downloadedFormSheetName</name>
+   </variable>
+</TestCaseEntity>

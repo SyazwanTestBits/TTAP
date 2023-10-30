@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC021.1-Get Contract Route Code</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7675bce4-6c57-40ab-95ac-d1905b36a08d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fa72e93e-59b7-4314-8c1d-69eba478de55</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC021-Contract Parts Info').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>fa72e93e-59b7-4314-8c1d-69eba478de55</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+</TestCaseEntity>

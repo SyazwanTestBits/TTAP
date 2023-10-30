@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_learnmore-announcement type-NEW</name>
+   <tag></tag>
+   <elementGuidId>ef0087b4-406e-4da4-bb3a-c8df3c76530c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='a-443198551448616960']/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'NEW' or . = 'NEW')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.base-MuiTypography-root.base-base147.base-MuiTypography-body1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>72565dbd-6e79-4a7c-93b4-5ad9ce3653ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiTypography-root base-base147 base-MuiTypography-body1</value>
+      <webElementGuid>c3ad3fe5-e4b6-47d6-a774-b2a0eb460856</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>NEW</value>
+      <webElementGuid>880f6c44-e057-4997-bd1e-830eb1d67010</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a-443198551448616960&quot;)/span[@class=&quot;base-MuiTypography-root base-base147 base-MuiTypography-body1&quot;]</value>
+      <webElementGuid>9dbcc69e-8912-4744-a40e-92852d06c7fc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a-443198551448616960']/span</value>
+      <webElementGuid>d10c730d-6b73-48c0-918e-274f7f7806ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('What', &quot;'&quot;, 's New on BriVge')])[1]/following::span[1]</value>
+      <webElementGuid>9ab1ac57-8121-4238-980f-672b64310e79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AnnouncementSY2'])[1]/preceding::span[1]</value>
+      <webElementGuid>e5d1f359-2485-4714-92d8-570b02dcc5fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aug 7, 2023'])[1]/preceding::span[1]</value>
+      <webElementGuid>6e589a32-32d7-428f-9bc0-a8aa2873f4ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='NEW']/parent::*</value>
+      <webElementGuid>1b805b82-c7ea-439c-83f0-d2c35f61347c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>70653fd9-2117-4262-8040-90aa62d3fcff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'NEW' or . = 'NEW')]</value>
+      <webElementGuid>ce6295e8-fde6-4223-90a0-f84aba2637e1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

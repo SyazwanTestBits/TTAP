@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_notification</name>
+   <tag></tag>
+   <elementGuidId>64b5f02c-4ffc-4601-a4e3-32807b52515d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.base-MuiCollapse-wrapperInner</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-base']/div[2]/div/div/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5d946b59-4290-47b0-9845-e2d2c05fd64e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiCollapse-wrapperInner</value>
+      <webElementGuid>9652ea7d-b77a-41c2-8b53-2e6df9a89e1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>For NEW, Unit Parts No. should not exist in system. (the 8 row)(w0188)For NEW, Unit Parts No. should not exist in system. (the 9 row)(w0188)For NEW, Unit Parts No. should not exist in system. (the 10 row)(w0188)</value>
+      <webElementGuid>e2bb82a0-0c1e-42d3-abf6-05017624080b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base25 base-base27 base-base29&quot;]/div[@class=&quot;base-MuiPaper-root base-MuiAlert-root base-MuiAlert-standardError base-base387 base-MuiPaper-elevation0&quot;]/div[@class=&quot;base-MuiAlert-message&quot;]/div[@class=&quot;base-MuiCollapse-container base-MuiCollapse-entered&quot;]/div[@class=&quot;base-MuiCollapse-wrapper&quot;]/div[@class=&quot;base-MuiCollapse-wrapperInner&quot;]</value>
+      <webElementGuid>ba530110-5bd1-493d-ae46-024bd88b31c2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-base']/div[2]/div/div/div[2]/div/div</value>
+      <webElementGuid>3ab4baa0-c579-4f87-8aef-6db729e5a5df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload Unit Parts Master.'])[1]/following::div[3]</value>
+      <webElementGuid>ca9d2f0a-d01e-413d-b761-09314a13c5a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='u'])[1]/following::div[8]</value>
+      <webElementGuid>c5c21ff7-10a8-4aad-aad0-8692c07f7c40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::div[20]</value>
+      <webElementGuid>e0554888-e4ba-4a82-864a-4a68cc34e766</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::div[26]</value>
+      <webElementGuid>6c999797-a373-4d8c-85d5-d3c0c90028d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div</value>
+      <webElementGuid>ee45e71b-022c-4924-a090-528e99009d33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'For NEW, Unit Parts No. should not exist in system. (the 8 row)(w0188)For NEW, Unit Parts No. should not exist in system. (the 9 row)(w0188)For NEW, Unit Parts No. should not exist in system. (the 10 row)(w0188)' or . = 'For NEW, Unit Parts No. should not exist in system. (the 8 row)(w0188)For NEW, Unit Parts No. should not exist in system. (the 9 row)(w0188)For NEW, Unit Parts No. should not exist in system. (the 10 row)(w0188)')]</value>
+      <webElementGuid>b9ffdd48-303c-4ed7-b399-216ef47a61ee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Dt_UnitPartsNo</name>
+   <tag></tag>
+   <elementGuidId>aa1922ca-cc6f-4898-b2e2-0c511fea4562</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//tbody/tr/td/div/p[text()='PK-CUS-scenario13-20230604-001'])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>a5366037-1996-45a1-9926-d5dbb86cc9a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1688620128352</value>
+      <webElementGuid>b1f2c1b0-e67b-4f4d-baf7-99ad69644002</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC045- Customer Auto Generate Mail Task</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4a1d8fa6-b0ad-4f07-82c7-5a5c1c57da7a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b93a9049-0b64-4f96-af23-2ca5d557edf1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC017- Regular Customer Order No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b93a9049-0b64-4f96-af23-2ca5d557edf1</id>
+      <masked>false</masked>
+      <name>regularCustomerOrderNo</name>
+   </variable>
+</TestCaseEntity>

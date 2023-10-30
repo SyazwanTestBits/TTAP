@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC062-Supplier Revise and Confirm Shippment v2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>258eea99-d621-4282-b674-8d39cf7c5035</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>211e1532-75f2-4441-bbd9-b9b3499b33ab</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e8b3f0fa-d280-4e2d-a8ce-75d1906841bb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4cbeec77-5ee1-4709-bed2-ab6fdfb9473d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC062').getValue('BookingID', 1)</defaultValue>
+      <description></description>
+      <id>211e1532-75f2-4441-bbd9-b9b3499b33ab</id>
+      <masked>false</masked>
+      <name>bookingID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC062')</defaultValue>
+      <description></description>
+      <id>e8b3f0fa-d280-4e2d-a8ce-75d1906841bb</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC062').getRowNumbers()</defaultValue>
+      <description></description>
+      <id>4cbeec77-5ee1-4709-bed2-ab6fdfb9473d</id>
+      <masked>false</masked>
+      <name>numberCargo</name>
+   </variable>
+</TestCaseEntity>

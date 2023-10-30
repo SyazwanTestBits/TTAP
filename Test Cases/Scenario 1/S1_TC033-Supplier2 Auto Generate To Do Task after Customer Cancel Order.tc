@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC033-Supplier2 Auto Generate To Do Task after Customer Cancel Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af490559-5d4a-4039-8eaa-233a5e0235a4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a9767657-9f3d-4437-a825-1b5f6665fccc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('SUP2_SO', 1)</defaultValue>
+      <description></description>
+      <id>a9767657-9f3d-4437-a825-1b5f6665fccc</id>
+      <masked>false</masked>
+      <name>orderNo</name>
+   </variable>
+</TestCaseEntity>

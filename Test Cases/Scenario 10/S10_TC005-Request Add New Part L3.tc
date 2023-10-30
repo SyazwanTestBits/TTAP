@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC005-Request Add New Part L3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>297fc020-0735-434e-9365-f9fa7c990f8d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9404fbde-90f0-44b6-b179-f1c38aac2981</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6b35f176-eb98-4da7-9db5-a6c756beac15</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c416dcd1-5f6d-4cdc-b004-670779cbb36d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>780b4912-179d-4c9e-aa0d-5ef2265e8553</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>af0d5a0e-dee8-45d9-afaf-93840b0b1321</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.PNA_USERNAME_SYAZWAN</defaultValue>
+      <description></description>
+      <id>9404fbde-90f0-44b6-b179-f1c38aac2981</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'MY-PNA-BU'</defaultValue>
+      <description></description>
+      <id>6b35f176-eb98-4da7-9db5-a6c756beac15</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC005')</defaultValue>
+      <description></description>
+      <id>c416dcd1-5f6d-4cdc-b004-670779cbb36d</id>
+      <masked>false</masked>
+      <name>dataFile</name>
+   </variable>
+   <variable>
+      <defaultValue>[:]</defaultValue>
+      <description></description>
+      <id>780b4912-179d-4c9e-aa0d-5ef2265e8553</id>
+      <masked>false</masked>
+      <name>contractFileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC005-desc').getValue('Description', 1)</defaultValue>
+      <description></description>
+      <id>af0d5a0e-dee8-45d9-afaf-93840b0b1321</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

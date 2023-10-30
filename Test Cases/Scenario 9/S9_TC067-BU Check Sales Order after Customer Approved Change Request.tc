@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC067-BU Check Sales Order after Customer Approved Change Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>46acdf78-d80d-47c8-9ae9-1eba15a2db47</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e086d5cf-a7ef-4773-a0fe-221657e2466f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>280a85c4-c85b-4fce-a8ec-b145e5edb2df</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d507663-33c4-47b9-9ff0-e5e505789c38</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC044-Autogen BU Sales Order').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>e086d5cf-a7ef-4773-a0fe-221657e2466f</id>
+      <masked>false</masked>
+      <name>sbuOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC059-Supplier Order Change')</defaultValue>
+      <description></description>
+      <id>280a85c4-c85b-4fce-a8ec-b145e5edb2df</id>
+      <masked>false</masked>
+      <name>datafile_outbound</name>
+   </variable>
+   <variable>
+      <defaultValue>[(1) : 'Processing', (2) : 'Processing', (3) : 'Completed']</defaultValue>
+      <description></description>
+      <id>7d507663-33c4-47b9-9ff0-e5e505789c38</id>
+      <masked>false</masked>
+      <name>mapverify_partsdetail</name>
+   </variable>
+</TestCaseEntity>

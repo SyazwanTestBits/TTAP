@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Staging - CNTW-Supplier-POC</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Url of Brivge site</description>
+      <initValue>'https://st.brivge.com/'</initValue>
+      <name>BRIVGE_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Url of Brivge Batch page</description>
+      <initValue>'https://st.brivge.com/batch'</initValue>
+      <name>BRIVGE_BATCH_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Username of Admin</description>
+      <initValue>'admin'</initValue>
+      <name>ADMIN_USERNAME</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Password of Admin</description>
+      <initValue>'HeCM15nHKBI='</initValue>
+      <name>ADMIN_PWD</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Company Admin: SG-TTAP-ADMIN</description>
+      <initValue>'SG-TTAP-ADMIN'</initValue>
+      <name>ADMIN_COMPANY</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Company Admin: PK-BU</description>
+      <initValue>'PK-BU'</initValue>
+      <name>ADMIN_COMPANY_PK_BU</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Verification Code to Login into Brivge site</description>
+      <initValue>'gpgbu9TGv9g='</initValue>
+      <name>VERIFICATION_CODE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Customer, BU, Sup1, Sup2, DC</description>
+      <initValue>'maria-pna'</initValue>
+      <name>PNA_USERNAME_MARIA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Customer, BU, Sup1, Sup2, DC</description>
+      <initValue>'nurfatin-pna'</initValue>
+      <name>PNA_USERNAME_FATIN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Customer, BU, Sup1, Sup2, DC</description>
+      <initValue>'fahmi-pna'</initValue>
+      <name>PNA_USERNAME_FAHMI</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Customer, BU, Sup1, Sup2, DC</description>
+      <initValue>'syazwanrusdi-pna'</initValue>
+      <name>PNA_USERNAME_SYAZWAN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Customer, BU, Sup1, Sup2, DC</description>
+      <initValue>'luqman-pna'</initValue>
+      <name>PNA_USERNAME_LUQMAN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Customer, BU1/2/3, Sup1/2, DC</description>
+      <initValue>'maria-baf'</initValue>
+      <name>BAF_USERNAME_MARIA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Customer, BU1/2/3, Sup1/2, DC</description>
+      <initValue>'nurfatin-baf'</initValue>
+      <name>BAF_USERNAME_FATIN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Customer, BU1/2/3, Sup1/2, DC</description>
+      <initValue>'fahmi-baf'</initValue>
+      <name>BAF_USERNAME_FAHMI</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Customer, BU1/2/3, Sup1/2, DC</description>
+      <initValue>'syazwanrusdi-baf'</initValue>
+      <name>BAF_USERNAME_SYAZWAN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Customer, BU1/2/3, Sup1/2, DC</description>
+      <initValue>'luqman-baf'</initValue>
+      <name>BAF_USERNAME_LUQMAN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Customer Username : UserF</description>
+      <initValue>'userf'</initValue>
+      <name>CUST_USERNAME_USERF</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Customer Pwd : UserF</description>
+      <initValue>'j8TqVymRmBg='</initValue>
+      <name>CUST_PWD_USERF</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Customer Company: UserF</description>
+      <initValue>'PK-CUS-POC'</initValue>
+      <name>CUST_COMPANY_USERF</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Outlook Email: User > tb-qa</description>
+      <initValue>'tb-qa@outlook.com'</initValue>
+      <name>CUST_EMAIL_TBQA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Customer Pwd Email: User > tb-qa</description>
+      <initValue>'czZUznw5r8rzHkoPNo6V95q+eRXtp/lK'</initValue>
+      <name>CUST_PWD_TBQA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Company Bu</description>
+      <initValue>'PK-BU'</initValue>
+      <name>COMPANY_BU</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Company PK-CUS-POC</description>
+      <initValue>'PK-CUS-POC'</initValue>
+      <name>COMPANY_CUSTOMER</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Supplier 1 - CNTW-SUP-POC</description>
+      <initValue>'CNTW-SUP-POC'</initValue>
+      <name>COMPANY_SUPPLIER_1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>COMPANY SG-TTAP-ADMIN</description>
+      <initValue>'SG-TTAP-ADMIN'</initValue>
+      <name>COMPANY_SGTTAP</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

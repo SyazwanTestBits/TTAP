@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC038- Customer Create Order Change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>17a8b60b-905b-4dc7-94d4-297e6bfd96b0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e2a87417-80be-4c09-bba2-102e8402ea36</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>26001c36-0bb3-4c70-981b-2808e3b5ed8e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5b876c60-2203-453d-89c7-1d66853d09de</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6267dbab-2dd5-4f3e-9aea-96742b9378b6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a80d457b-5701-4132-9575-9e56c62bd138</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC038- New Firm Quantity')</defaultValue>
+      <description></description>
+      <id>e2a87417-80be-4c09-bba2-102e8402ea36</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC017- Regular Customer Order No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>26001c36-0bb3-4c70-981b-2808e3b5ed8e</id>
+      <masked>false</masked>
+      <name>downloadedFormSheetName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC017- Regular Customer Order No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>5b876c60-2203-453d-89c7-1d66853d09de</id>
+      <masked>false</masked>
+      <name>customerOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>[('NewFirm') : 15, ('NewInboundDate_Qty1') : 26, ('NewInboundDate_Qty2') : 27, ('NewInboundDate_Qty3') : 28]</defaultValue>
+      <description></description>
+      <id>6267dbab-2dd5-4f3e-9aea-96742b9378b6</id>
+      <masked>false</masked>
+      <name>mapKeyandColIndex</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC002- Received Request Add New Part').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>a80d457b-5701-4132-9575-9e56c62bd138</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+</TestCaseEntity>

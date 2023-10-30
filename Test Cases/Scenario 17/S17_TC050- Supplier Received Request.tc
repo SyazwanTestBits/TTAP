@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC050- Supplier Received Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09b9472a-2aa5-470f-9d39-8e229c011e6c</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC050 - Request No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>a2596b1d-8a1d-48a1-921a-a40d214a2fb3</id>
+      <masked>false</masked>
+      <name>requestNo</name>
+   </variable>
+</TestCaseEntity>

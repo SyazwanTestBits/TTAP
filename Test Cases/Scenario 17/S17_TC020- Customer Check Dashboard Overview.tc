@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC020- Customer Check Dashboard Overview</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>419bc67b-6217-48ff-b027-63c26963ebd1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0584ca57-437a-4b7c-a3ec-28671d714aa3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC017- Regular Customer Order No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>0584ca57-437a-4b7c-a3ec-28671d714aa3</id>
+      <masked>false</masked>
+      <name>CustomerOrderNo</name>
+   </variable>
+</TestCaseEntity>

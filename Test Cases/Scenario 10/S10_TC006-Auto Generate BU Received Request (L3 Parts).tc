@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC006-Auto Generate BU Received Request (L3 Parts)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f30deb85-a426-4842-8ae4-5586aca7fc34</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>df22ea70-f836-401b-ac20-2ee9709af13b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2520e8d1-7b6a-4814-a407-4924c3eae74b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3ec2b538-7310-4a93-9eef-be1aa35b1f5b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.PNA_USERNAME_SYAZWAN</defaultValue>
+      <description></description>
+      <id>df22ea70-f836-401b-ac20-2ee9709af13b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.PNA_COMPANY_BU</defaultValue>
+      <description></description>
+      <id>2520e8d1-7b6a-4814-a407-4924c3eae74b</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC005-Autogen').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>3ec2b538-7310-4a93-9eef-be1aa35b1f5b</id>
+      <masked>false</masked>
+      <name>requestNo</name>
+   </variable>
+</TestCaseEntity>
