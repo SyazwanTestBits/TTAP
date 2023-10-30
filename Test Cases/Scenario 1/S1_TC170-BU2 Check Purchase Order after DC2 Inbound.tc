@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC170-BU2 Check Purchase Order after DC2 Inbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8baf0c3-86ec-4eac-9b38-fb8f01dd3c22</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>08d9cec4-d9dc-49da-8fae-c14c53f83d42</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3c696781-8c92-4921-9eda-c5d08a9725a5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>73dcfa21-3906-4d67-8ecf-8a4f50fa8591</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('BU2_PO', 1)</defaultValue>
+      <description></description>
+      <id>08d9cec4-d9dc-49da-8fae-c14c53f83d42</id>
+      <masked>false</masked>
+      <name>buOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC170-BU2 PO')</defaultValue>
+      <description></description>
+      <id>3c696781-8c92-4921-9eda-c5d08a9725a5</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>['Parts No', 'Unit Parts No', 'Back No', 'Sales Order No', 'Supplier Code', 'Shipper', 'SPQ', 'Order Lot', 'Order Qty', 'Unit Price', 'Currency', 'Status', 'Inbounded Qty', 'Inbound Plan Qty 1', 'Inbound Plan Status 1', 'Inbound Plan Qty 2', 'Inbound Plan Status 2']</defaultValue>
+      <description></description>
+      <id>73dcfa21-3906-4d67-8ecf-8a4f50fa8591</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>
