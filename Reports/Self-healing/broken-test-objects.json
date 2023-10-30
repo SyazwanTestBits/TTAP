@@ -19,6 +19,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 12/SC12_TC068/p_Completed_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Scenario 12/SC12_TC053/p_verifyCargoStatus",
+      "brokenLocator": "//p[(text() \u003d \u0027DC2-PS2-06-2310001\u0027 or . \u003d \u0027DC2-PS2-06-2310001\u0027)]//following::td[1][descendant::p[contains(text(), \u0027CAJU9500009\u0027)]]/following::td[7]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div[2]/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr[2]/td[2]/div/p",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
     }
   ]
 }
