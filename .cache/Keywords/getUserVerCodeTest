@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "425A161A548FE8DB44EF55A903C31C6E",
+  "keywordClasses": [
+    {
+      "name": "test",
+      "keywordMethods": [
+        {
+          "name": "extract",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

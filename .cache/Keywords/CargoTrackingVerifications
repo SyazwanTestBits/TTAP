@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "82EE8345F9A811290E671ECF04FF5183",
+  "keywordClasses": [
+    {
+      "name": "CargoTrackingVerifications",
+      "keywordMethods": [
+        {
+          "name": "verifyCargoTrackingMilestonesColor",
+          "parameters": [
+            {
+              "name": "bookingNo",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "containerNo",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
