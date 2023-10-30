@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import java.io.FileInputStream
 
 
-public class ExcelActions {
+public class ExcelActions extends DateConversion {
 
 	@Keyword(keywordObject='Excel Actions')
 	def verifyCopyRolePermissionList(String role) {
@@ -401,6 +401,7 @@ public class ExcelActions {
 	def writeIntoExcelPlaceOrderRegularSC12(String path, String contract_no) {
 		// Find test data
 		def testData = findTestData('Data Files/Scenario 12/SC12_TC011-Place Regular Order')
+		
 		// Write inbound date
 		writeIntoExcelPlaceOrderRegularInboundDateSC12(path, contract_no)
 
