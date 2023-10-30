@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Download Contract</name>
+   <tag></tag>
+   <elementGuidId>54a0b13e-47f6-4938-9f48-f76cc0da6402</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.lcbm-MuiButtonBase-root.lcbm-MuiListItem-root.lcbm-MuiMenuItem-root.lcbm-MuiMenuItem-gutters.lcbm-MuiListItem-gutters.lcbm-MuiListItem-button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/following::li[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>accd663c-355f-4b68-848a-67423b32268f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiButtonBase-root lcbm-MuiListItem-root lcbm-MuiMenuItem-root lcbm-MuiMenuItem-gutters lcbm-MuiListItem-gutters lcbm-MuiListItem-button</value>
+      <webElementGuid>2bfb5833-ccff-4e7a-aa3a-acde7fcda3f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>536258dd-dacf-4b34-917e-4e9a2ee8e396</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>9e7672ac-0530-4de5-ae9d-d802cc545549</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>f73278a9-aaf5-45b6-8356-6de9a83c899a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Download Contract</value>
+      <webElementGuid>5e59b1da-b15d-41ba-85c9-a5c1b0d00b1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiPopover-root lcbm-lcbm137&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiPopover-paper lcbm-lcbm138 lcbm-MuiPaper-elevation8 lcbm-MuiPaper-rounded&quot;]/ul[@class=&quot;lcbm-MuiList-root lcbm-MuiList-padding&quot;]/li[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiListItem-root lcbm-MuiMenuItem-root lcbm-MuiMenuItem-gutters lcbm-MuiListItem-gutters lcbm-MuiListItem-button&quot;]</value>
+      <webElementGuid>974b6ca0-2aff-4098-a85f-3a23b2287174</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/following::li[1]</value>
+      <webElementGuid>907d63ff-6dc4-4906-949c-0f69ea395c0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='a'])[1]/following::li[1]</value>
+      <webElementGuid>0e919eed-d0e7-43c9-9048-a0ba2b65603e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Contract Parts'])[1]/preceding::li[1]</value>
+      <webElementGuid>a4c4fcad-4340-4f28-8e82-fe990fedf949</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Contract With Type'])[1]/preceding::li[2]</value>
+      <webElementGuid>a255ba04-1e65-468c-90cf-a18b3cef218e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Download Contract']/parent::*</value>
+      <webElementGuid>2e4a9666-9da6-49f8-8146-051ed178701d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/ul/li</value>
+      <webElementGuid>946c0c11-41b5-472c-8625-7c153e7f4203</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Download Contract' or . = 'Download Contract')]</value>
+      <webElementGuid>ee201a34-e362-4e51-a44c-d16655e3ee14</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

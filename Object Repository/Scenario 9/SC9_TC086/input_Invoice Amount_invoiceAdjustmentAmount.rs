@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Invoice Amount_invoiceAdjustmentAmount</name>
+   <tag></tag>
+   <elementGuidId>e2877f1c-47a7-46b7-ba8e-08be69f55226</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='invoiceAdjustmentAmount']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;invoiceAdjustmentAmount&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>18109152-6034-4a3b-b140-d38d599c25fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>invoiceAdjustmentAmount</value>
+      <webElementGuid>dc634c69-115a-44cf-8068-4b18be720d4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>number</value>
+      <webElementGuid>b3bbbc01-349f-45a7-ad53-c9beaadf0fa3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiInputBase-input lcbm-MuiInput-input</value>
+      <webElementGuid>ba42940e-ab8b-4abc-83cf-68247f63fab3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiDialog-root&quot;]/div[@class=&quot;lcbm-MuiDialog-container lcbm-MuiDialog-scrollPaper&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiDialog-paper lcbm-MuiDialog-paperScrollPaper lcbm-MuiDialog-paperWidthLg lcbm-MuiPaper-elevation24 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiDialogContent-root&quot;]/div[1]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm9 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiCollapse-root lcbm-MuiCollapse-entered&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapper&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapperInner&quot;]/div[@class=&quot;lcbm-lcbm12&quot;]/form[@class=&quot;lcbm-lcbm441 lcbm-lcbm514&quot;]/div[@class=&quot;lcbm-lcbm443 lcbm-lcbm517&quot;]/div[@class=&quot;lcbm-lcbm445&quot;]/div[@class=&quot;lcbm-lcbm452&quot;]/div[@class=&quot;lcbm-lcbm458&quot;]/div[@class=&quot;lcbm-lcbm447&quot;]/div[@class=&quot;lcbm-MuiInputBase-root lcbm-MuiInput-root Mui-focused Mui-focused&quot;]/input[@class=&quot;lcbm-MuiInputBase-input lcbm-MuiInput-input&quot;]</value>
+      <webElementGuid>35360ab2-6981-46b9-bf68-c42c60601341</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='invoiceAdjustmentAmount']</value>
+      <webElementGuid>1acd852b-6adc-4a88-94f0-f5167334dc24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div/div/div/input</value>
+      <webElementGuid>09b8b5c9-9e5a-4e0f-bafd-e67650d32f6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'invoiceAdjustmentAmount' and @type = 'number']</value>
+      <webElementGuid>969aaff3-840b-4875-8f62-60778c41b858</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

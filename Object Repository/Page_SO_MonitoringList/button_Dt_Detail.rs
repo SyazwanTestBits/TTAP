@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Dt_Detail</name>
+   <tag></tag>
+   <elementGuidId>ab92401e-8544-48c3-906b-53b16b307722</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = '${contractNo}' or . = '${contractNo}')]/following::button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>45414a3c-780f-41f7-b1f6-8bc43174c596</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1689078206292</value>
+      <webElementGuid>39ed3d10-a309-4f81-b7e5-d8db40e33a67</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

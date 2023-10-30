@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_ConfirmAre you sure to do Confirm(c0001)CANCELCONFIRM</name>
+   <tag></tag>
+   <elementGuidId>741f917f-9d34-4cf0-825d-a3da6fa624d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.base-MuiAlert-message</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-base']/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>661b6cbb-5e33-4aef-8614-8ce3729790e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiAlert-message</value>
+      <webElementGuid>533e4d78-8dcd-4026-a2d4-a64b58a61756</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ConfirmAre you sure to do Confirm?(c0001)CANCELCONFIRM</value>
+      <webElementGuid>40e88885-a38a-482c-b7a8-e0aa07411143</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base25 base-base27 base-base29&quot;]/div[@class=&quot;base-MuiPaper-root base-MuiAlert-root base-MuiAlert-standardWarning base-base95 base-MuiPaper-elevation0&quot;]/div[@class=&quot;base-MuiAlert-message&quot;]</value>
+      <webElementGuid>e929a952-56f3-4091-8881-6e12cceb3e7e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-base']/div[2]/div/div</value>
+      <webElementGuid>8aa1ccff-dacd-480b-8c0f-958123c6d8db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='n'])[1]/following::div[4]</value>
+      <webElementGuid>b20e389a-2437-48ef-95b5-716fd92e638f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privilege'])[1]/following::div[8]</value>
+      <webElementGuid>c7392ec5-2224-4458-9cbe-df402238842a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div</value>
+      <webElementGuid>284d4d1d-02e6-42ee-8831-8fc80d701339</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'ConfirmAre you sure to do Confirm?(c0001)CANCELCONFIRM' or . = 'ConfirmAre you sure to do Confirm?(c0001)CANCELCONFIRM')]</value>
+      <webElementGuid>c170f1a6-ca1c-41b9-bdbf-7e57d08f5436</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

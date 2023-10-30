@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SO_No1</name>
+   <tag></tag>
+   <elementGuidId>a6fa14b6-0c9d-4545-8cc1-53b42dd3ccd7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[2]/div/p</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'cNTL201-2309001' or . = 'cNTL201-2309001')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.lcbm-MuiTypography-root.lcbm-lcbm665.lcbm-MuiTypography-body2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>9529e38b-c97a-472f-adf8-3ce47a9ab2a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiTypography-root lcbm-lcbm665 lcbm-MuiTypography-body2</value>
+      <webElementGuid>2a1a6890-fe4b-484e-aad0-b8bed35c05b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>cNTL201-2309001</value>
+      <webElementGuid>c2043e0c-99d9-4ec6-95d3-3cb5490752d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-scrollbar-vertical-hidden lcbm-lcbm1 os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2 lcbm-lcbm3&quot;]/div[@class=&quot;lcbm-lcbm5 lcbm-lcbm6&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm50 lcbm-lcbm51 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-lcbm53&quot;]/div[@class=&quot;lcbm-lcbm628&quot;]/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-overflow os-host-overflow-x os-host-resize-disabled lcbm-lcbm4 os-host-scrollbar-vertical-hidden os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[1]/table[@class=&quot;lcbm-MuiTable-root&quot;]/tbody[@class=&quot;lcbm-MuiTableBody-root&quot;]/tr[@class=&quot;lcbm-MuiTableRow-root lcbm-lcbm659&quot;]/td[@class=&quot;lcbm-MuiTableCell-root lcbm-MuiTableCell-body lcbm-lcbm662&quot;]/div[@class=&quot;lcbm-lcbm663&quot;]/p[@class=&quot;lcbm-MuiTypography-root lcbm-lcbm665 lcbm-MuiTypography-body2&quot;]</value>
+      <webElementGuid>1aa4e0df-9aea-4aab-8029-ab90ae15ec53</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[2]/div/p</value>
+      <webElementGuid>c6106afa-d61a-4105-b21b-24a4c296877e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AND'])[1]/following::p[8]</value>
+      <webElementGuid>706fc6eb-f440-4ea6-a336-d44c50ef78b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CO Monitoring List'])[1]/following::p[10]</value>
+      <webElementGuid>3eaca5bd-3e7e-44ca-82a2-656b2244ec66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/preceding::p[17]</value>
+      <webElementGuid>f3ab662e-3c5d-49c9-96e7-077d718759e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logistics'])[1]/preceding::p[17]</value>
+      <webElementGuid>f104d202-95b0-451d-af2e-547d21d58063</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='cNTL201-2309001']/parent::*</value>
+      <webElementGuid>51ef0057-94f7-425c-847e-edbcadb576b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div/p</value>
+      <webElementGuid>99849536-8f03-4396-b318-cabc07791d73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'cNTL201-2309001' or . = 'cNTL201-2309001')]</value>
+      <webElementGuid>57b4acde-a183-4de7-b3d2-ed384743158f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

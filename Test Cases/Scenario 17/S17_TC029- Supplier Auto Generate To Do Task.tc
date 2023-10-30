@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC029- Supplier Auto Generate To Do Task</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3677dfb-939d-4f81-9308-a1af2168544e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>65f85a98-4080-4d3f-a2e1-42dbba044647</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC027- RequestNo').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>65f85a98-4080-4d3f-a2e1-42dbba044647</id>
+      <masked>false</masked>
+      <name>requestNo</name>
+   </variable>
+</TestCaseEntity>

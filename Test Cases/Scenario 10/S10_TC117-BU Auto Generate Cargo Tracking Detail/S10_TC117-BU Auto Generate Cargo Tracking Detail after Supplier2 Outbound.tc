@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC117-BU Auto Generate Cargo Tracking Detail after Supplier2 Outbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>688f55f9-14b2-44a6-afed-e95a5396b7f6</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>d3b00258-8970-4a42-9372-dc1494e5134e</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC058nTC059</testDataId>
+   </testDataLinks>
+</TestCaseEntity>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Add Unit status alert</name>
+   <tag></tag>
+   <elementGuidId>9c0c1d20-3e71-44dd-bf51-7403e9ef4fcb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[33]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = '+ Add Unit' or . = '+ Add Unit')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.lcbm-MuiButtonBase-root.lcbm-MuiButton-root.lcbm-MuiButton-text.lcbm-lcbm1510</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fd6c8721-a09d-4a64-a7c6-cca89b294513</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiButtonBase-root lcbm-MuiButton-root lcbm-MuiButton-text lcbm-lcbm1510</value>
+      <webElementGuid>ddf2d1bb-c057-4bfd-9238-079178222754</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>e6d84e05-2168-4b9e-8935-53e7fa0b93fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>38edab79-b6c2-4dc8-b1c2-330d222545f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>+ Add Unit</value>
+      <webElementGuid>ce8ce854-64cb-4d21-a3e5-7a7870438116</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiDialog-root&quot;]/div[@class=&quot;lcbm-MuiDialog-container lcbm-MuiDialog-scrollPaper&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiDialog-paper lcbm-MuiDialog-paperScrollPaper lcbm-MuiDialog-paperWidthSm lcbm-MuiPaper-elevation24 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiDialogContent-root&quot;]/div[1]/button[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiButton-root lcbm-MuiButton-text lcbm-lcbm1510&quot;]</value>
+      <webElementGuid>7e91a7a6-92ac-4cc9-afe1-0ae340aff86a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[33]</value>
+      <webElementGuid>dd285247-fde2-4959-a7ca-f127f2dfc1c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status Alert'])[1]/following::button[9]</value>
+      <webElementGuid>095b2218-6424-473c-a36a-12574a70ce95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/following::button[9]</value>
+      <webElementGuid>af1cfd96-f244-4dd4-984f-2166f861d020</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save And Exit'])[1]/preceding::button[1]</value>
+      <webElementGuid>c3c28d7e-f225-41ca-abd2-ea193178efad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/button</value>
+      <webElementGuid>99d8fb52-4aad-4534-8682-910bdedf5175</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '+ Add Unit' or . = '+ Add Unit')]</value>
+      <webElementGuid>16e8cf34-fd1c-486c-8f68-cbec683373fa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

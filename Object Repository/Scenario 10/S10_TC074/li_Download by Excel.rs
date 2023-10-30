@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Download by Excel</name>
+   <tag></tag>
+   <elementGuidId>38567deb-4a37-4066-a049-12f158a1ef32</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.lcbm-MuiButtonBase-root.lcbm-MuiListItem-root.lcbm-MuiMenuItem-root.lcbm-MuiMenuItem-gutters.lcbm-MuiListItem-gutters.lcbm-MuiListItem-button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::li[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>5de367f6-18d5-4c53-84a0-359b82b98107</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiButtonBase-root lcbm-MuiListItem-root lcbm-MuiMenuItem-root lcbm-MuiMenuItem-gutters lcbm-MuiListItem-gutters lcbm-MuiListItem-button</value>
+      <webElementGuid>39b2a9df-b035-4cce-aed4-d2e9db134ee6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>0dca4f8c-7629-415d-8d04-584d06080061</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>920edc93-bf86-4633-a8c0-7764d99124e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>4a60c575-7324-4733-92aa-7681742d6783</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Download by Excel</value>
+      <webElementGuid>42bb0919-e8f6-4991-90d5-202c280e3f48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiPopover-root lcbm-lcbm141&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiPopover-paper lcbm-lcbm142 lcbm-MuiPaper-elevation8 lcbm-MuiPaper-rounded&quot;]/ul[@class=&quot;lcbm-MuiList-root lcbm-MuiList-padding&quot;]/li[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiListItem-root lcbm-MuiMenuItem-root lcbm-MuiMenuItem-gutters lcbm-MuiListItem-gutters lcbm-MuiListItem-button&quot;]</value>
+      <webElementGuid>98dbd9f4-4e5b-494d-b881-8b7b57143e77</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::li[1]</value>
+      <webElementGuid>75ac183e-9489-4bc2-b6d8-e54ab0a8f9fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::li[1]</value>
+      <webElementGuid>92b5c7c2-8842-4f66-8b66-9aa4e639a2fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download'])[1]/preceding::li[1]</value>
+      <webElementGuid>9a412744-3240-4433-ab1c-681466b9cac0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Download by Excel']/parent::*</value>
+      <webElementGuid>fce6b555-9fa6-471b-a953-e99d31f0bb72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/ul/li</value>
+      <webElementGuid>5196987f-053b-4ed7-b101-e99b5f34ffbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Download by Excel' or . = 'Download by Excel')]</value>
+      <webElementGuid>9d72a346-ab58-4734-9ea7-b6d649b9b81e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

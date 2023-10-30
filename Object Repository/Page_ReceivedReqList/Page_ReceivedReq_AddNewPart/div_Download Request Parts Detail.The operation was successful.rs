@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Download Request Parts Detail.The operation was successful</name>
+   <tag></tag>
+   <elementGuidId>99eb6f67-2f72-4d9b-8baf-c609037ca659</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Download Request Parts Detail.The operation was successful.' or . = 'Download Request Parts Detail.The operation was successful.')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.base-MuiAlert-message</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b44b4198-2c53-4e36-8547-51886c44a308</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiAlert-message</value>
+      <webElementGuid>f0955a78-e05f-4f5c-8a82-12af9c517dc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Download Request Parts Detail.The operation was successful.</value>
+      <webElementGuid>8a16f7c3-b438-4b74-ba0b-c6ef310df078</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base1 base-base3 base-base5&quot;]/div[@class=&quot;base-MuiPaper-root base-MuiAlert-root base-MuiAlert-standardSuccess base-base50 base-MuiPaper-elevation0&quot;]/div[@class=&quot;base-MuiAlert-message&quot;]</value>
+      <webElementGuid>d600b380-afdc-4f08-bc3d-5b3463a4927d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-base']/div[2]/div/div</value>
+      <webElementGuid>368dcb74-9bde-42f2-9ce0-91589ef48017</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='f'])[1]/following::div[4]</value>
+      <webElementGuid>c52ee6aa-f062-4f16-aa21-b19fa6c9fb2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Management Tool'])[1]/following::div[8]</value>
+      <webElementGuid>ef592fdf-ab3b-4cf4-a141-3c6c20128bb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::div[24]</value>
+      <webElementGuid>fc422a1a-19da-4edf-af62-8224fde8c9a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div</value>
+      <webElementGuid>1bc5cc57-ab06-403b-b044-a2af4c7b5265</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Download Request Parts Detail.The operation was successful.' or . = 'Download Request Parts Detail.The operation was successful.')]</value>
+      <webElementGuid>f5bdca12-1558-4588-85c7-0d3edd1466eb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

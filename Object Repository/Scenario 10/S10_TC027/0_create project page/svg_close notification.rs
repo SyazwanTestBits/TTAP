@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_close notification</name>
+   <tag></tag>
+   <elementGuidId>ba1c37ec-5312-4b06-812d-4af991fd9146</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;webapp-base&quot;]/div[2]/div/div/div[1]/button[2]/span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>268f0a52-ae4e-4d6d-a8ae-5a86011ef664</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiSvgIcon-root</value>
+      <webElementGuid>ba2ee2cd-cb5e-4c10-9a05-b715e748211f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>dc4d7852-6686-456e-8791-7fb605f36910</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+      <webElementGuid>ca01e1cc-a7ea-4574-86c9-f16fe03b31b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>ff83e4f9-5f43-461a-8e98-3a48491391ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>mui-79003</value>
+      <webElementGuid>a34fcadd-e322-4cbf-b3e6-0d7d0b1e18f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base1 base-base3 base-base5&quot;]/div[@class=&quot;base-MuiPaper-root base-MuiAlert-root base-MuiAlert-standardSuccess base-base108 base-MuiPaper-elevation0&quot;]/div[@class=&quot;base-MuiAlert-message&quot;]/div[@class=&quot;base-base109&quot;]/button[@class=&quot;base-MuiButtonBase-root base-MuiIconButton-root base-MuiIconButton-sizeSmall&quot;]/span[@class=&quot;base-MuiIconButton-label&quot;]/svg[@class=&quot;base-MuiSvgIcon-root&quot;]</value>
+      <webElementGuid>427f50f1-84b4-40c5-afb1-5dc49a474e6e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload Final Product'])[1]/following::*[name()='svg'][2]</value>
+      <webElementGuid>4f64b21e-3e79-41d5-bdcb-5f3f78cd1534</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='s'])[1]/following::*[name()='svg'][4]</value>
+      <webElementGuid>8e1d2da3-d501-47b0-a37a-c6d021147f4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>291b1783-016e-4404-8942-75d08643cfd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>27d9bad3-2753-4014-b00a-5661b8a1a8f5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

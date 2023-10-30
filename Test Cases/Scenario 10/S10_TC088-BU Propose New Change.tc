@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC088-BU Propose New Change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e9a9058-201e-4bb6-9d55-97ce890d2992</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>317cc461-43e3-408b-9a62-8bceb2e141e6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4716ab17-6d62-42a9-bb8a-7793577c03c2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>12a96015-b7e3-4946-8aef-9604d5288ea6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>be74fa62-6036-4ddf-a301-efac3f414162</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>34c4df7c-a312-46b4-ad6b-ce6050abf8cf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c17e7f8f-e164-42a6-976e-554be8cee981</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC084-Supplier1 Change Request No').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>317cc461-43e3-408b-9a62-8bceb2e141e6</id>
+      <masked>false</masked>
+      <name>requestNo</name>
+   </variable>
+   <variable>
+      <defaultValue>['Part no', 'PO parts no', 'Back no', 'Supplier code', 'Color code', 'Paired parts no', 'UOM code', 'SPQ', 'Order lot', 'Old firm', 'New firm', 'Last order forecast 1', 'Fluctuation', 'Reason for fluctuation', 'Old_inbound_1', 'Old_inbound_2', 'New_inbound_1', 'New_inbound_2', 'New_inbound_3', 'Old_outbound_1', 'Old_outbound_2', 'New_outbound_1', 'New_outbound_2', 'New_outbound_3']</defaultValue>
+      <description></description>
+      <id>4716ab17-6d62-42a9-bb8a-7793577c03c2</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC088-BU Propose New Date').getValue('DayFirst', 1)</defaultValue>
+      <description></description>
+      <id>12a96015-b7e3-4946-8aef-9604d5288ea6</id>
+      <masked>false</masked>
+      <name>DayFirst</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC088-BU Propose New Date').getValue('MonthFirst', 1)</defaultValue>
+      <description></description>
+      <id>be74fa62-6036-4ddf-a301-efac3f414162</id>
+      <masked>false</masked>
+      <name>MonthFirst</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC088-BU Propose New Date').getValue('YearFirst', 1)</defaultValue>
+      <description></description>
+      <id>34c4df7c-a312-46b4-ad6b-ce6050abf8cf</id>
+      <masked>false</masked>
+      <name>YearFirst</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC088-BU Propose New Date').getValue('DateChange', 1)</defaultValue>
+      <description></description>
+      <id>c17e7f8f-e164-42a6-976e-554be8cee981</id>
+      <masked>false</masked>
+      <name>dateChange</name>
+   </variable>
+</TestCaseEntity>

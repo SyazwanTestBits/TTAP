@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_CO Monitoring List</name>
+   <tag></tag>
+   <elementGuidId>6dc31356-abd9-4164-b25a-faf2bda3bc71</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[2]/following::li[5]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[(text() = 'CO Monitoring List' or . = 'CO Monitoring List')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>fbc47cac-0f93-4ed0-a110-7f464c2b8a78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base182 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button</value>
+      <webElementGuid>f5e0a1ab-d84d-4b7a-b45c-27b00ce0677a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>251a503b-7d82-4528-ac85-3c2e54477d25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>2d57f9ea-0613-43f3-adc9-cb78f952d559</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>f1b641d6-192a-4b9f-ae8c-3e5fb4677b40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CO Monitoring List</value>
+      <webElementGuid>04f67e15-2f90-4a9a-9280-ecc8bf325f0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;base-base158&quot;]/div[@class=&quot;base-MuiPaper-root base-base159 base-MuiPaper-elevation1 base-MuiPaper-rounded&quot;]/div[@class=&quot;base-base162&quot;]/ul[@class=&quot;base-MuiList-root base-base180 base-MuiList-padding&quot;]/a[1]/li[@class=&quot;base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base182 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button&quot;]</value>
+      <webElementGuid>a81f54c9-1bde-4562-9ab7-29f4f1e90ae7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[2]/following::li[5]</value>
+      <webElementGuid>102959d6-d084-4462-a178-8416db09a8e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::li[5]</value>
+      <webElementGuid>74639f59-0989-4d91-bbf1-1df3e4b56f1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul[2]/a/li</value>
+      <webElementGuid>e1c94759-d97f-404e-956a-028014fc80b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'CO Monitoring List' or . = 'CO Monitoring List')]</value>
+      <webElementGuid>d6c14247-19b4-4913-a5ec-659be6d4c42b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

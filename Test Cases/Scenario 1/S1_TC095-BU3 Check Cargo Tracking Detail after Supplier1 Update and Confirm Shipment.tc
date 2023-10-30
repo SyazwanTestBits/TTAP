@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC095-BU3 Check Cargo Tracking Detail after Supplier1 Update and Confirm Shipment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>884f00a8-afcf-4382-98dc-b24e7c8f8fe4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>60b3c1d2-e09e-4c33-9ef1-8ffd951f4dfe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6dbec38e-d9dc-4364-a24b-09ef516f5b4c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8063d002-e52b-4e60-9be8-308db790ab56</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC047-AutoGen OrderNo Spot').getValue('BU3_PO', 1)</defaultValue>
+      <description></description>
+      <id>60b3c1d2-e09e-4c33-9ef1-8ffd951f4dfe</id>
+      <masked>false</masked>
+      <name>orderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>['Booking Submitted', 'Booking Confirmed', 'Empty Container Release to Shipper', 'Cargo Outbound', 'Gate in (arrival at first POL)', 'Container loaded at first POL', 'Vessel departure from first POL', 'Vessel arrival at T/S port', 'Container discharge at T/S port', 'Container loaded at T/S port', 'Vessel departure from T/S', 'Vessel arrived at final POD (ATA)', 'Container unload at final POD', 'Container Gate out from final POD', 'Cargo Inbound', 'Vessel arrived at final POD (ATA)', 'Container unload at final POD', 'Container Gate out from final POD', 'Cargo Inbound']</defaultValue>
+      <description></description>
+      <id>288eaa43-b566-4785-bd8e-07dab0bc81fc</id>
+      <masked>false</masked>
+      <name>milestone</name>
+   </variable>
+   <variable>
+      <defaultValue>['Empty container pick-up (Empty Container Release to Shipper)', 'Gate in (Gate In to Outbound Terminal)', 'Loaded (Loaded on vessel at Port of Loading)', 'Departure (vessel Departure from Port of Loading)', 'Arrival (vessel Arrival at Transhipment Port)', 'Unload (Unloaded from vessel at Transhipment Port)', 'Loaded (Loaded on vessel at Transhipment Port)', 'Departure (Departure from Transhipment Port)', 'Arrival (vessel Arrival at Port of Discharging)', 'Unload (Unloaded from vessel at Port of Discharging)', 'Gate out (Gate Out from Inbound Terminal for Delivery to Consignee (or Port Shuttle))', 'Empty container returned (Empty Container Returned from Customer)']</defaultValue>
+      <description></description>
+      <id>a0631491-0fa3-4c10-8702-10f6e26398f9</id>
+      <masked>false</masked>
+      <name>milestoneREALTIME</name>
+   </variable>
+   <variable>
+      <defaultValue>['Gate out (Empty Container Release to Shipper)', 'Gate in (Gate In to Outbound Terminal)', 'Loaded (Loaded on vessel at Port of Loading)', 'Departure (vessel Departure from Port of Loading)', 'Arrival (vessel Arrival at Transhipment Port)', 'Unload (Unloaded from vessel at Transhipment Port)', 'Loaded (Loaded on vessel at Transhipment Port)', 'Departure (Departure from Transhipment Port)', 'Arrival (vessel Arrival at Port of Discharging)', 'Unload (Unloaded from vessel at Port of Discharging)', 'Gate out (Gate Out from Inbound Terminal for Delivery to Consignee (or Port Shuttle))', 'Empty container returned (Empty Container Returned from Customer)']</defaultValue>
+      <description></description>
+      <id>afdc6236-3933-40d5-8c76-b48fa204b50d</id>
+      <masked>false</masked>
+      <name>milestoneREALTIME2</name>
+   </variable>
+</TestCaseEntity>

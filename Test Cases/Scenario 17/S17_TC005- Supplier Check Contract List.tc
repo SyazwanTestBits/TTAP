@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC005- Supplier Check Contract List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>931fbfff-c34f-418d-930f-236f8fce9c9b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9166fe6f-4e1c-4a5c-8055-aba4fb9d6929</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0531051d-9151-4f6d-bd87-2783d51250ae</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa629b7f-099a-44aa-9675-8f97050ac633</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4c6d7ba5-cf07-4e68-9a5d-af3d06e7796a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0f89ca1e-71d5-4204-9c9c-00ee0d303385</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d2a0625e-136a-4b41-b92f-de0342aa85a4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b25b8a69-6a8c-4e45-b0ee-2c3e004964b5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC002- Contract Part Info').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>9166fe6f-4e1c-4a5c-8055-aba4fb9d6929</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC005- Contract Parts').getRowNumbers()</defaultValue>
+      <description></description>
+      <id>0531051d-9151-4f6d-bd87-2783d51250ae</id>
+      <masked>false</masked>
+      <name>numberrowtd</name>
+   </variable>
+   <variable>
+      <defaultValue>['UnitPartsNo', 'PartsNo', 'SellerPartsNo', 'BuyerPartsNo', 'UnitPartsDescription', 'ActiveFlag', 'FluctuationRatio', 'FC_FluctuationRatio', 'CurrentPrice', 'CurrentApplyDate', 'NextPrice', 'NextApplyDate', 'EndUser1', 'EndUser2', 'EndUser3', 'EndUser4', 'EndUser5', 'OrderLot', 'SPQ', 'BuyerUOMCode', 'SellerUOMCode', 'UOMChangeRate', 'M3', 'Length', 'Width', 'Height', 'NetWeight', 'GrossWeight', 'SupplierLeadTime']</defaultValue>
+      <description></description>
+      <id>aa629b7f-099a-44aa-9675-8f97050ac633</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>4c6d7ba5-cf07-4e68-9a5d-af3d06e7796a</id>
+      <masked>false</masked>
+      <name>NumberOfNoMatch</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC002- Contract Part Info').getValue(2, 5)</defaultValue>
+      <description></description>
+      <id>0f89ca1e-71d5-4204-9c9c-00ee0d303385</id>
+      <masked>false</masked>
+      <name>partNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Inactive'</defaultValue>
+      <description></description>
+      <id>d2a0625e-136a-4b41-b92f-de0342aa85a4</id>
+      <masked>false</masked>
+      <name>activeFlag</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 17/Scenario 17_ TC005/expectedContractParts.xlsx'</defaultValue>
+      <description></description>
+      <id>b25b8a69-6a8c-4e45-b0ee-2c3e004964b5</id>
+      <masked>false</masked>
+      <name>expectedContractParts</name>
+   </variable>
+</TestCaseEntity>

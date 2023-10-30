@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetContractRouteCode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c5b32e6-2174-4b54-8394-43da2d3f3f66</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>5a9e5ac2-cfc3-4262-8474-9a35c8e86960</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC035-Receiverd Request List</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>5a9e5ac2-cfc3-4262-8474-9a35c8e86960</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>RouteDescription</value>
+      <variableId>392d9632-6ce8-4aba-9fa5-59644571b1e3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>392d9632-6ce8-4aba-9fa5-59644571b1e3</id>
+      <masked>false</masked>
+      <name>routeDescription</name>
+   </variable>
+</TestCaseEntity>

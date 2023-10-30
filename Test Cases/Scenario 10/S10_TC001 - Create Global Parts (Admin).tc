@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC001 - Create Global Parts (Admin)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3590d644-0aab-4f0b-b60b-736a762dff6e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5e2df338-ffb6-4013-903b-30f1f9dd1b96</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC001')</defaultValue>
+      <description></description>
+      <id>5e2df338-ffb6-4013-903b-30f1f9dd1b96</id>
+      <masked>false</masked>
+      <name>dataFile</name>
+   </variable>
+</TestCaseEntity>

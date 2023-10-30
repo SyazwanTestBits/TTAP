@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>list-TrackDetail</name>
+   <tag></tag>
+   <elementGuidId>90907c35-3758-4665-afcc-c4ee61f11c7c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.lcbm-lcbm170.lcbm-lcbm174 > div.lcbm-lcbm159 > div.lcbm-MuiAutocomplete-root.lcbm-MuiAutocomplete-fullWidth.lcbm-MuiAutocomplete-hasClearIcon.lcbm-MuiAutocomplete-hasPopupIcon > div.lcbm-MuiInputBase-root.lcbm-MuiInput-root.lcbm-MuiAutocomplete-inputRoot.lcbm-MuiInputBase-fullWidth.lcbm-MuiInput-fullWidth.lcbm-MuiInputBase-adornedEnd > div.lcbm-MuiAutocomplete-endAdornment > button.lcbm-MuiButtonBase-root.lcbm-MuiIconButton-root.lcbm-MuiAutocomplete-popupIndicator > span.lcbm-MuiIconButton-label > svg.lcbm-MuiSvgIcon-root</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/following::*[name()='svg'][2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>37cec082-2921-4331-9f89-267e956bdd9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiSvgIcon-root</value>
+      <webElementGuid>90dc4a3f-eff1-4503-bd07-956f346a8cc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>e9d88052-4bb1-41f1-9ccd-b822295c73e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+      <webElementGuid>0cf3dc0f-b062-4905-86e3-6381c149f8b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>7ea2c778-9e7b-4d2a-9079-145b64305cc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm1 os-host-overflow os-host-overflow-y os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2&quot;]/div[@class=&quot;lcbm-lcbm5&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm50 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiCollapse-root lcbm-MuiCollapse-entered&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapper&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapperInner&quot;]/div[@class=&quot;lcbm-lcbm53&quot;]/form[@class=&quot;lcbm-lcbm153 lcbm-lcbm207&quot;]/div[@class=&quot;lcbm-lcbm155 lcbm-lcbm219&quot;]/div[@class=&quot;lcbm-lcbm157&quot;]/div[@class=&quot;lcbm-lcbm164&quot;]/div[@class=&quot;lcbm-lcbm170 lcbm-lcbm174&quot;]/div[@class=&quot;lcbm-lcbm159&quot;]/div[@class=&quot;lcbm-MuiAutocomplete-root lcbm-MuiAutocomplete-fullWidth lcbm-MuiAutocomplete-hasClearIcon lcbm-MuiAutocomplete-hasPopupIcon&quot;]/div[@class=&quot;lcbm-MuiInputBase-root lcbm-MuiInput-root lcbm-MuiAutocomplete-inputRoot lcbm-MuiInputBase-fullWidth lcbm-MuiInput-fullWidth lcbm-MuiInputBase-adornedEnd&quot;]/div[@class=&quot;lcbm-MuiAutocomplete-endAdornment&quot;]/button[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiIconButton-root lcbm-MuiAutocomplete-popupIndicator&quot;]/span[@class=&quot;lcbm-MuiIconButton-label&quot;]/svg[@class=&quot;lcbm-MuiSvgIcon-root&quot;]</value>
+      <webElementGuid>f02e49d4-4ac9-49bf-86c1-5855d9abec70</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/following::*[name()='svg'][2]</value>
+      <webElementGuid>6ef56ce9-de0d-4d0b-8dd2-a8371127e2d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[8]/following::*[name()='svg'][4]</value>
+      <webElementGuid>197240b7-b81f-4f4a-a09d-53256bc92345</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact Info'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>02e3ed2b-d33c-4aac-a104-2ee98405789d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[10]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>66960461-5f18-485e-8e4b-3980a0230ac6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

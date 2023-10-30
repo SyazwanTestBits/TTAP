@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Download By Parts</name>
+   <tag></tag>
+   <elementGuidId>db5ac61c-ccf7-414d-a162-80bdda110ab7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.lcbm-MuiButtonBase-root.lcbm-MuiListItem-root.lcbm-MuiMenuItem-root.lcbm-MuiMenuItem-gutters.lcbm-MuiListItem-gutters.lcbm-MuiListItem-button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[(text() = 'Download By Parts' or . = 'Download By Parts')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>38a9b21a-8c16-489c-a25a-bc5e4280fbdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiButtonBase-root lcbm-MuiListItem-root lcbm-MuiMenuItem-root lcbm-MuiMenuItem-gutters lcbm-MuiListItem-gutters lcbm-MuiListItem-button</value>
+      <webElementGuid>db8e4364-1d42-4f81-b27a-25b6f866e1f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>77812e44-eaef-4e5d-a49c-a36c9baec57c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>562cb6db-8729-4a15-9483-c00fa090d788</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>73309990-e9cf-4a70-a058-db34cd72a5b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Download By Parts</value>
+      <webElementGuid>fdac0d21-d787-4f8f-a296-d257990d7b3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiPopover-root lcbm-lcbm1028&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiPopover-paper lcbm-lcbm1029 lcbm-MuiPaper-elevation8 lcbm-MuiPaper-rounded&quot;]/ul[@class=&quot;lcbm-MuiList-root lcbm-MuiList-padding&quot;]/li[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiListItem-root lcbm-MuiMenuItem-root lcbm-MuiMenuItem-gutters lcbm-MuiListItem-gutters lcbm-MuiListItem-button&quot;]</value>
+      <webElementGuid>c6c75232-b14d-4c49-aa37-f04831272635</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::li[1]</value>
+      <webElementGuid>50aabd2c-61e4-4f07-a151-c0b7b3cf8ad6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::li[1]</value>
+      <webElementGuid>601337a3-5efb-4cec-957e-600632005cb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download By Module'])[1]/preceding::li[1]</value>
+      <webElementGuid>72603c52-ffb9-4b9a-8bd2-5d004699b299</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Download By Parts']/parent::*</value>
+      <webElementGuid>bca2b949-6a86-41c4-a24e-21b896931e8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul/li</value>
+      <webElementGuid>595f9729-2a4c-419e-a097-a1d8688f3ffc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Download By Parts' or . = 'Download By Parts')]</value>
+      <webElementGuid>730c1628-1751-4384-9370-49904eb66eda</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

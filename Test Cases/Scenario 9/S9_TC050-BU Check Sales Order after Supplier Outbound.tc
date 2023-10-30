@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC050-BU Check Sales Order after Supplier Outbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>16631048-c097-4d37-8756-282c8d004d0e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>66c5116c-925d-4845-beed-dff6312a5006</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5cf3b40f-206f-4770-a27d-1c5eb09c037e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4bd78447-1aae-4f52-a8d4-0daac8bf7e7e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC044-Autogen BU Sales Order').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>66c5116c-925d-4845-beed-dff6312a5006</id>
+      <masked>false</masked>
+      <name>sbuOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC047-SUP Upload Outbound Result')</defaultValue>
+      <description></description>
+      <id>5cf3b40f-206f-4770-a27d-1c5eb09c037e</id>
+      <masked>false</masked>
+      <name>datafile_outbound</name>
+   </variable>
+   <variable>
+      <defaultValue>[(1) : 'Processing', (2) : 'Processing', (3) : 'Completed']</defaultValue>
+      <description></description>
+      <id>4bd78447-1aae-4f52-a8d4-0daac8bf7e7e</id>
+      <masked>false</masked>
+      <name>mapverify_partsdetail</name>
+   </variable>
+</TestCaseEntity>

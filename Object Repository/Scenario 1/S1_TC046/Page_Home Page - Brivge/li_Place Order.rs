@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Place Order</name>
+   <tag></tag>
+   <elementGuidId>02fce2f8-ee85-403a-b9a2-1857aa9aa8fc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[2]/following::li[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[(text() = 'Place Order' or . = 'Place Order')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.base-MuiButtonBase-root.base-MuiListItem-root.base-MuiMenuItem-root.base-base57.base-MuiMenuItem-gutters.base-MuiListItem-gutters.base-MuiListItem-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>2df09e83-d417-40b6-9dcf-8c4952918b7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base57 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button</value>
+      <webElementGuid>6020f962-d925-4dc4-8be1-3633f91f1b7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>b0d30bab-cb5c-4b27-aa71-838ae73d7f76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>ff241cd6-e20b-4fe6-b661-fb1dd820a878</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>2ca77566-7db4-4fdb-85ee-a88b5d3601c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Place Order</value>
+      <webElementGuid>dc268281-5a61-4976-8a53-ef541237dce6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;base-base38&quot;]/div[@class=&quot;base-MuiPaper-root base-base39 base-MuiPaper-elevation1 base-MuiPaper-rounded&quot;]/div[@class=&quot;base-base42&quot;]/ul[@class=&quot;base-MuiList-root base-base55 base-MuiList-padding&quot;]/a[1]/li[@class=&quot;base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base57 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button&quot;]</value>
+      <webElementGuid>508fefec-feff-47db-b597-b54fdd2d91e7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[2]/following::li[2]</value>
+      <webElementGuid>0e824f0c-12d7-426c-ad8f-f48a7b7620fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/following::li[2]</value>
+      <webElementGuid>621ad63b-3713-4bd8-967e-29a2157e4c72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/li</value>
+      <webElementGuid>9c6b8949-a89d-42a2-9b23-3e7cceb0a843</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Place Order' or . = 'Place Order')]</value>
+      <webElementGuid>51a4dbc6-9630-4f2f-b3c5-d1994b84d0f0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

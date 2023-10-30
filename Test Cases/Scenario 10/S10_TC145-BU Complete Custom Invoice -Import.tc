@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC145-BU Complete Custom Invoice -Import</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8bae4560-ccba-4e2e-b700-8db29d57ae03</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e109d7c5-466e-412e-96db-0495dd5dfb2f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2fc7a775-212d-4ef8-aa64-7bcbec5ac4ab</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>899c5bb3-7172-49fc-9bb7-a06380a381e9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>31bcf9ba-d3f6-4585-bd37-1fcf89ae1c33</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e37cc9fe-d2bf-4e08-be97-10c6bcefa0c6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.CUST_USERNAME_USERF</defaultValue>
+      <description></description>
+      <id>e109d7c5-466e-412e-96db-0495dd5dfb2f</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.CUST_PWD_USERF</defaultValue>
+      <description></description>
+      <id>2fc7a775-212d-4ef8-aa64-7bcbec5ac4ab</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.COMPANY_CUSTOMER</defaultValue>
+      <description></description>
+      <id>899c5bb3-7172-49fc-9bb7-a06380a381e9</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>[findTestData('Scenario 10/S10_TC123-Supplier2 GI Invoice').getValue('InvoiceNo', 1), findTestData('Scenario 10/S10_TC123-Supplier2 GI Invoice').getValue('InvoiceNo', 2), findTestData('Scenario 10/S10_TC123-Supplier2 GI Invoice').getValue('InvoiceNo', 3)]</defaultValue>
+      <description></description>
+      <id>31bcf9ba-d3f6-4585-bd37-1fcf89ae1c33</id>
+      <masked>false</masked>
+      <name>invoiceNoList</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC123-Supplier2 GI Invoice')</defaultValue>
+      <description></description>
+      <id>e37cc9fe-d2bf-4e08-be97-10c6bcefa0c6</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

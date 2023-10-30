@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC071- Supplier Auto Generate Cargo Tracking Detail After Outbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca16878d-cae2-45b9-85fa-3efc0422e6f7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cd2de086-c5e1-4833-bfaf-956490463526</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3a0f26a9-f9dc-4936-a037-8437bee2bc64</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>06c5c0d7-1184-47a7-b2cb-ab767ba2317a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC051- Outbound Details').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>cd2de086-c5e1-4833-bfaf-956490463526</id>
+      <masked>false</masked>
+      <name>bookingNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC051- Outbound Details').getValue(13, 1)</defaultValue>
+      <description></description>
+      <id>3a0f26a9-f9dc-4936-a037-8437bee2bc64</id>
+      <masked>false</masked>
+      <name>containerNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>['Booking Submitted', 'Booking Confirmed', 'Empty Container Release to Shipper', 'Cargo Outbound', 'Gate in (arrival at first POL)', 'Container loaded at first POL', 'Vessel departure from first POL', 'Vessel arrival at T/S port', 'Container discharge at T/S port', 'Container loaded at T/S port', 'Vessel departure from T/S', 'Vessel arrived at final POD (ATA)', 'Container unload at final POD', 'Container Gate out from final POD', 'Cargo Inbound']</defaultValue>
+      <description></description>
+      <id>06c5c0d7-1184-47a7-b2cb-ab767ba2317a</id>
+      <masked>false</masked>
+      <name>milestone</name>
+   </variable>
+</TestCaseEntity>

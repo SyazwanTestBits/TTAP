@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_NotiMsg_UploadWorkingMaster_Success</name>
+   <tag></tag>
+   <elementGuidId>42c78f77-7fdf-4671-a4cc-b024c95130bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Upload Working Master.The operation was successful.' or . = 'Upload Working Master.The operation was successful.')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.base-MuiAlert-message</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>29629a83-53f4-4575-9f21-e9ee60e19450</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiAlert-message</value>
+      <webElementGuid>12462179-c259-4ff7-9ed3-10964e2c76dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Upload Working Master.The operation was successful.</value>
+      <webElementGuid>b979a559-91f6-4698-9e2f-dc7597edc647</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base1 base-base3 base-base5&quot;]/div[@class=&quot;base-MuiPaper-root base-MuiAlert-root base-MuiAlert-standardSuccess base-base50 base-MuiPaper-elevation0&quot;]/div[@class=&quot;base-MuiAlert-message&quot;]</value>
+      <webElementGuid>fcb72a45-b903-4107-a38c-42589bcbd773</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-base']/div[2]/div/div</value>
+      <webElementGuid>a27a1ab8-2841-4261-a629-ff09105e295e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='f'])[1]/following::div[4]</value>
+      <webElementGuid>c422984d-a11e-43a5-ab85-23b7153b8c9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Management Tool'])[1]/following::div[8]</value>
+      <webElementGuid>fe0aeaea-6672-4970-907c-b39582f94d6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::div[24]</value>
+      <webElementGuid>a6e5a44a-0884-4bae-8647-2f6699f7cd9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div</value>
+      <webElementGuid>2f04b6c4-e112-4257-834a-3b6da3b69e38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Upload Working Master.The operation was successful.' or . = 'Upload Working Master.The operation was successful.')]</value>
+      <webElementGuid>f1406363-35fb-4452-9ddb-6d7843d594f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

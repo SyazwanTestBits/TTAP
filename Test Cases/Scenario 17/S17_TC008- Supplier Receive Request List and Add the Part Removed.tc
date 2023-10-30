@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC008- Supplier Receive Request List and Add the Part Removed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3523c003-52ee-441d-b540-8e12d585c55f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4bdd34db-4f43-43c8-98df-8486965174a8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5a20ef86-7c8c-4d05-aad9-f4ea9c105f29</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3deb529c-b5d2-4caf-8ddc-85875eda7ab8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a8a26520-2680-4844-9126-52b9c585396f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>75d00061-6b6c-40d4-a1bb-14c5f54b4f25</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC007- Request No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>4bdd34db-4f43-43c8-98df-8486965174a8</id>
+      <masked>true</masked>
+      <name>RequestNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC008- Contract Parts Info')</defaultValue>
+      <description></description>
+      <id>5a20ef86-7c8c-4d05-aad9-f4ea9c105f29</id>
+      <masked>false</masked>
+      <name>dataFile</name>
+   </variable>
+   <variable>
+      <defaultValue>[('ContractNo.') : 7, ('FluctuationRatio') : 8, ('ForecastFluctuationRatio') : 9, ('Currency') : 18, ('UnitPrice') : 19, ('SupplierLeadtime') : 25]</defaultValue>
+      <description></description>
+      <id>3deb529c-b5d2-4caf-8ddc-85875eda7ab8</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>11</defaultValue>
+      <description></description>
+      <id>a8a26520-2680-4844-9126-52b9c585396f</id>
+      <masked>false</masked>
+      <name>startRowFormMinusOne</name>
+   </variable>
+   <variable>
+      <defaultValue>'Request Contract Detail'</defaultValue>
+      <description></description>
+      <id>75d00061-6b6c-40d4-a1bb-14c5f54b4f25</id>
+      <masked>false</masked>
+      <name>downloadedFormSheetname</name>
+   </variable>
+</TestCaseEntity>

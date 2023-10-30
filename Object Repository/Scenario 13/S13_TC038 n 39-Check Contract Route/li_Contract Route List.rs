@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Contract Route List</name>
+   <tag></tag>
+   <elementGuidId>c15bd2b9-d4fc-4f13-92ce-7b2472a8050c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Master'])[2]/following::li[10]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Contract Route List' or . = 'Contract Route List')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>69837d9a-05e0-4d60-a5fa-a68f5e43025d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base97 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button</value>
+      <webElementGuid>6f073956-4bc1-4dd3-a8ce-95c680ed09fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>c36b629c-3282-4289-b5e0-c8f440e47cbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>8b937cee-e3a5-463f-b421-16180add24d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>75e64ef1-7e34-402a-a934-2d88c95aa6fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Contract Route List</value>
+      <webElementGuid>c767268a-5a56-4f42-acf9-43a3bcb89ffc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;base-base73&quot;]/div[@class=&quot;base-MuiPaper-root base-base74 base-MuiPaper-elevation1 base-MuiPaper-rounded&quot;]/div[@class=&quot;base-base77&quot;]/ul[@class=&quot;base-MuiList-root base-base95 base-MuiList-padding&quot;]/a[3]/li[@class=&quot;base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base97 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button&quot;]</value>
+      <webElementGuid>49863b8a-5e2e-41a7-9344-25629c4c2ff9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Master'])[2]/following::li[10]</value>
+      <webElementGuid>179a7802-beeb-441a-941b-f93fd2c335ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/following::li[10]</value>
+      <webElementGuid>2e530d40-b754-4997-95b3-486d0e8b214e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul[2]/a[3]/li</value>
+      <webElementGuid>4af1ce5b-4aed-4973-bc97-a8663fa5ab4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Contract Route List' or . = 'Contract Route List')]</value>
+      <webElementGuid>51d49f0a-46bf-4ed9-b4ac-57ff50f1e38f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

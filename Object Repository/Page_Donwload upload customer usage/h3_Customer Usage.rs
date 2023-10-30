@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_Customer Usage</name>
+   <tag></tag>
+   <elementGuidId>cebd0ad4-7723-422f-a2e2-107187572f65</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h3.lcbm-MuiTypography-root.lcbm-MuiTypography-h3.lcbm-MuiTypography-colorPrimary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div/div/h3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>e9ed9f6c-8fa7-47ad-ba14-407f5c0bc6cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiTypography-root lcbm-MuiTypography-h3 lcbm-MuiTypography-colorPrimary</value>
+      <webElementGuid>958447db-69b8-4094-98e8-4e90421e6c78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Customer Usage</value>
+      <webElementGuid>ae65bd14-b46e-4f0d-a04f-94e55e13589d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-scrollbar-vertical-hidden lcbm-lcbm1 os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2&quot;]/div[@class=&quot;lcbm-lcbm154&quot;]/div[1]/h3[@class=&quot;lcbm-MuiTypography-root lcbm-MuiTypography-h3 lcbm-MuiTypography-colorPrimary&quot;]</value>
+      <webElementGuid>9df8c8dd-f535-4c2c-b2c3-6f2e3d57fd22</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div/div/h3</value>
+      <webElementGuid>2a826171-dc14-41ef-8c16-d5880f25d74e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download'])[1]/preceding::h3[1]</value>
+      <webElementGuid>14712ad0-e821-4029-a816-65538a302396</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[1]/preceding::h3[1]</value>
+      <webElementGuid>c4ee7afc-ac4e-4dc7-bd59-ae8ffc0313f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Customer Usage']/parent::*</value>
+      <webElementGuid>fe02055a-d94a-4768-a7a2-407d107f842d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>50f07737-f0f8-4bcb-b066-493bde237ecf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Customer Usage' or . = 'Customer Usage')]</value>
+      <webElementGuid>c7647a22-9057-4c07-a029-3622cdd4fac2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC178.1-Check SO_1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6e6a78e4-bed0-4bd2-8fd5-9e1c6a723266</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>66dc3d55-b7fa-4b08-aaae-21d7c1512d31</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bbc93726-e5f1-44b1-b86d-ef98817a2863</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>94dca5c4-ece7-4cd2-8db7-3a1753525167</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['sNTL201-2309001', 'sNTL201-2309003']</defaultValue>
+      <description></description>
+      <id>66dc3d55-b7fa-4b08-aaae-21d7c1512d31</id>
+      <masked>false</masked>
+      <name>SO_numberList</name>
+   </variable>
+   <variable>
+      <defaultValue>'PNABU-L2-NT-001'</defaultValue>
+      <description></description>
+      <id>bbc93726-e5f1-44b1-b86d-ef98817a2863</id>
+      <masked>false</masked>
+      <name>contractNoL2</name>
+   </variable>
+   <variable>
+      <defaultValue>['PartsNo', 'UnitPartsNo', 'BackNo', 'POnumber', 'Customer', 'SPQ', 'OrderLot', 'OrderQty', 'UnitPrice', 'Currency', 'Status', 'DeliveredQty', 'InTransitQty', 'InboundedQty', 'InboundedPlanQty', 'InboundedPlanStatus']</defaultValue>
+      <description></description>
+      <id>94dca5c4-ece7-4cd2-8db7-3a1753525167</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

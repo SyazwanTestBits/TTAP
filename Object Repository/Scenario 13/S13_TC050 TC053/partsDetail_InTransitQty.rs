@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>partsDetail_InTransitQty</name>
+   <tag></tag>
+   <elementGuidId>1aaf82f8-3bb6-4c43-948a-8637e79d3d02</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='OSS011_Section_2']/div[2]/div/div/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr[${row}]/td[13]/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

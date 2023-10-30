@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC017- Customer Download CO</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>38546c77-64c3-440f-9978-62251adcb9cb</testCaseGuid>
+   <variable>
+      <defaultValue>'Regular'</defaultValue>
+      <description></description>
+      <id>c1009932-841e-4d0a-9c4c-22a45d537bbb</id>
+      <masked>false</masked>
+      <name>OrderType_Regular</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC002- Contract Part Info').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>fa4efe65-5bfe-428a-acbe-0a8d626b24be</id>
+      <masked>false</masked>
+      <name>ContractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 17/Scenario 17_TC017/expectedCustomerOrder.xlsx'</defaultValue>
+      <description></description>
+      <id>11422669-94dd-423e-9ef0-fefe569f050e</id>
+      <masked>false</masked>
+      <name>expectationExcelPath</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>ee604801-bbbc-47e0-8d21-4638ac2a0892</id>
+      <masked>false</masked>
+      <name>NumberOfNoMatch</name>
+   </variable>
+   <variable>
+      <defaultValue>'Regular'</defaultValue>
+      <description></description>
+      <id>2cb754ea-76d0-468a-ad02-330046891f48</id>
+      <masked>false</masked>
+      <name>orderType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 17'</defaultValue>
+      <description></description>
+      <id>93053f21-6c15-4b45-857f-b7083cc28a05</id>
+      <masked>false</masked>
+      <name>filePath</name>
+   </variable>
+   <variable>
+      <defaultValue>'S17_TestCases_Data.xlsx'</defaultValue>
+      <description></description>
+      <id>036f8bf0-13fa-4cc8-82e7-bb3417190219</id>
+      <masked>false</masked>
+      <name>fileName</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC17- Regular Customer No'</defaultValue>
+      <description></description>
+      <id>aab4337b-4032-44d0-9144-a33baf579e83</id>
+      <masked>false</masked>
+      <name>sheetName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC048-Supplier Check the Sales Order after Outbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>749ebbf4-4a7f-4422-b5e5-424a495ba63f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d02eee9-6753-490e-a149-0acfc4f63644</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ceb503f0-72da-4c6d-95bc-f7913ca66fad</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3c779762-59dc-410c-9ac4-3c9e55e9859a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC046-Autogen SUP Sales Order').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>7d02eee9-6753-490e-a149-0acfc4f63644</id>
+      <masked>false</masked>
+      <name>supOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC047-SUP Upload Outbound Result')</defaultValue>
+      <description></description>
+      <id>ceb503f0-72da-4c6d-95bc-f7913ca66fad</id>
+      <masked>false</masked>
+      <name>datafile_outbound</name>
+   </variable>
+   <variable>
+      <defaultValue>[(1) : 'Processing', (2) : 'Processing', (3) : 'Completed']</defaultValue>
+      <description></description>
+      <id>3c779762-59dc-410c-9ac4-3c9e55e9859a</id>
+      <masked>false</masked>
+      <name>mapverify_partsdetail</name>
+   </variable>
+</TestCaseEntity>

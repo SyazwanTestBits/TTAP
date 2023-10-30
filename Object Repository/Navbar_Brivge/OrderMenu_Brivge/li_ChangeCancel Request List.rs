@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_ChangeCancel Request List</name>
+   <tag></tag>
+   <elementGuidId>7918e2cb-6b4b-4f0f-a626-219f091d43a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[(text() = 'Change/Cancel Request List' or . = 'Change/Cancel Request List')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>68197f26-4f7d-41dc-bb07-e133ef3fc327</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base52 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button</value>
+      <webElementGuid>a45c0176-bd48-4893-9db8-f50ea14d6697</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>e599b35e-aff5-4518-8d6d-011ff62fb71c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>c1dc4dd2-c262-41a6-9072-8eb22f25c1ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>6da6bcc5-d96d-43cb-a6be-67af21de5814</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Change/Cancel Request List</value>
+      <webElementGuid>410aa63e-50fa-4b9b-86ef-aeff619eba15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;base-base38&quot;]/div[@class=&quot;base-MuiPaper-root base-base39 base-MuiPaper-elevation1 base-MuiPaper-rounded&quot;]/div[@class=&quot;base-base42&quot;]/ul[@class=&quot;base-MuiList-root base-base50 base-MuiList-padding&quot;]/a[2]/li[@class=&quot;base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base52 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button&quot;]</value>
+      <webElementGuid>0438a1dc-cb94-4447-9eb8-a662fe3bbfe9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[2]/following::li[3]</value>
+      <webElementGuid>1b0b9f9c-346d-4ed6-896f-feabba5bb93d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::li[3]</value>
+      <webElementGuid>4cf29b75-ebf6-4039-979a-46667ac8309d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]/li</value>
+      <webElementGuid>64a0865b-207b-4c46-9453-e43b75171be9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Change/Cancel Request List' or . = 'Change/Cancel Request List')]</value>
+      <webElementGuid>f5acf69d-d860-46ef-bc2d-6b33d67c1b3c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

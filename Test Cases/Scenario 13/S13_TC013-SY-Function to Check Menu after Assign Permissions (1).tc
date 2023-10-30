@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC013-SY-Function to Check Menu after Assign Permissions (1)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc6084a2-1ee9-4445-897a-a1a57bdf5b2c</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>981aee8b-c68e-46f3-bb4a-e696b543dbb3</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC009-Create New User</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>981aee8b-c68e-46f3-bb4a-e696b543dbb3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>d8a72331-1807-483c-993a-08496974f0ec</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ae3fc603-2e34-418a-a7c7-f0926bf7f257</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fe0cb6cd-567c-4394-a723-c317ee60fb09</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0d5ef3fa-a1f3-4a71-bb24-f41d7cb587d9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cea7d8c6-abea-474f-8784-2f863c4b951a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>981aee8b-c68e-46f3-bb4a-e696b543dbb3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>UserCompanyCode</value>
+      <variableId>f780c109-b2f1-4cd8-b0b6-fb5ab9a972bd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d8a72331-1807-483c-993a-08496974f0ec</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC009-Create New User').getValue('BriVgeUserGenCode', 1)</defaultValue>
+      <description></description>
+      <id>ae3fc603-2e34-418a-a7c7-f0926bf7f257</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>['Stock Management Tool', 'Privilege', 'Master', 'Dashboard', 'Management Tool', 'Accounting', 'Logistics', 'Order']</defaultValue>
+      <description></description>
+      <id>fe0cb6cd-567c-4394-a723-c317ee60fb09</id>
+      <masked>false</masked>
+      <name>pk_cus_poc_list</name>
+   </variable>
+   <variable>
+      <defaultValue>['Order', 'Logistics', 'Accounting', 'Dashboard', 'Master', 'Privilege']</defaultValue>
+      <description></description>
+      <id>0d5ef3fa-a1f3-4a71-bb24-f41d7cb587d9</id>
+      <masked>false</masked>
+      <name>cntw_sup_poc_list</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC009-Create New User').getValue('BriVgeVerificationCode', 1)</defaultValue>
+      <description></description>
+      <id>cea7d8c6-abea-474f-8784-2f863c4b951a</id>
+      <masked>false</masked>
+      <name>verificationcode</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f780c109-b2f1-4cd8-b0b6-fb5ab9a972bd</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

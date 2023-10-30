@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC078-Cmn_1-Verify Inbounds From Supplier Type</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6a569d49-9999-44c8-9284-2273403767c5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ee6d3fca-ff0e-404b-b615-df23c308cb81</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d57d848e-d9b7-4b88-b0bb-47ae78fa5f86</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ee6d3fca-ff0e-404b-b615-df23c308cb81</id>
+      <masked>false</masked>
+      <name>outboundNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null)</defaultValue>
+      <description></description>
+      <id>d57d848e-d9b7-4b88-b0bb-47ae78fa5f86</id>
+      <masked>false</masked>
+      <name>testdata</name>
+   </variable>
+</TestCaseEntity>

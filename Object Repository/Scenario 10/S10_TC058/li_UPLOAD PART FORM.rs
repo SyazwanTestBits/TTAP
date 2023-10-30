@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_UPLOAD PART FORM</name>
+   <tag></tag>
+   <elementGuidId>ec5b2d42-2467-4046-9376-74577f9e4359</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/following::li[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.lcbm-MuiButtonBase-root.lcbm-MuiListItem-root.lcbm-MuiMenuItem-root.lcbm-MuiMenuItem-gutters.lcbm-MuiListItem-gutters.lcbm-MuiListItem-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>4ea3a147-a0b7-404e-8cf6-09683b140740</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiButtonBase-root lcbm-MuiListItem-root lcbm-MuiMenuItem-root lcbm-MuiMenuItem-gutters lcbm-MuiListItem-gutters lcbm-MuiListItem-button</value>
+      <webElementGuid>b0053155-d92e-4ae1-9653-0ab73147b4f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>12c891fb-6133-4ce2-a0d7-45c7966719ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>a3216b50-66be-4f3d-80d1-e44dd55e2d44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>86d9c023-cc05-4c7c-9f8c-81a63482e2f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>UPLOAD PART FORM</value>
+      <webElementGuid>d3c4f4cd-fb51-429d-8787-007a11677456</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiPopover-root lcbm-lcbm68&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiPopover-paper lcbm-lcbm69 lcbm-MuiPaper-elevation8 lcbm-MuiPaper-rounded&quot;]/ul[@class=&quot;lcbm-MuiList-root lcbm-MuiList-padding&quot;]/li[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiListItem-root lcbm-MuiMenuItem-root lcbm-MuiMenuItem-gutters lcbm-MuiListItem-gutters lcbm-MuiListItem-button&quot;]</value>
+      <webElementGuid>11bd60a3-1d8b-4f71-8de8-c162a255e911</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/following::li[1]</value>
+      <webElementGuid>7dc69ce5-8186-4ef5-889c-74bf74d68d89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='s'])[1]/following::li[1]</value>
+      <webElementGuid>0d0a0f54-38e7-4667-9391-231f554e9a41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='UPLOAD PART FORM']/parent::*</value>
+      <webElementGuid>a1f348c6-b33a-419a-8dff-94677ee8cdb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/ul/li</value>
+      <webElementGuid>f896e8de-d3f5-4596-b10b-a5b02e821640</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'UPLOAD PART FORM' or . = 'UPLOAD PART FORM')]</value>
+      <webElementGuid>2d1c2f15-c9a7-4b4f-9ba4-6dfd2aa1e641</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

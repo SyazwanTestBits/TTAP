@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_verifyStatus</name>
+   <tag></tag>
+   <elementGuidId>f3002e42-4606-4d42-844a-27147d0a6ed4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.lcbm-MuiTypography-root.lcbm-lcbm411.lcbm-MuiTypography-body2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[(text() = '${PO}' or . = '${PO}')]/following::td[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>ae43c9ec-1e60-425d-bc03-af3a90cb1900</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiTypography-root lcbm-lcbm411 lcbm-MuiTypography-body2</value>
+      <webElementGuid>86199337-e092-481f-bb25-162a16516cfc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ps10p1-2309001</value>
+      <webElementGuid>5554894c-c70a-4495-99f9-5c29ecc46ce6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-scrollbar-vertical-hidden lcbm-lcbm262 os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm263 lcbm-lcbm264&quot;]/div[@class=&quot;lcbm-lcbm266 lcbm-lcbm267&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm311 lcbm-lcbm312 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-lcbm314&quot;]/div[@class=&quot;lcbm-lcbm374&quot;]/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled lcbm-lcbm265 os-host-scrollbar-vertical-hidden os-host-overflow os-host-overflow-x os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[1]/table[@class=&quot;lcbm-MuiTable-root&quot;]/tbody[@class=&quot;lcbm-MuiTableBody-root&quot;]/tr[@class=&quot;lcbm-MuiTableRow-root lcbm-lcbm405&quot;]/td[@class=&quot;lcbm-MuiTableCell-root lcbm-MuiTableCell-body lcbm-lcbm408&quot;]/div[@class=&quot;lcbm-lcbm409&quot;]/p[@class=&quot;lcbm-MuiTypography-root lcbm-lcbm411 lcbm-MuiTypography-body2&quot;]</value>
+      <webElementGuid>76280fdf-a593-49a7-b27f-eeaa91a797b1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[2]/div/p</value>
+      <webElementGuid>72a2f71c-85b2-44f7-be99-51acf37c632f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AND'])[1]/following::p[8]</value>
+      <webElementGuid>22d77749-c18f-4e86-9552-69f4674b5510</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PO Monitoring List'])[1]/following::p[10]</value>
+      <webElementGuid>0c43d672-60c5-4b64-b04f-529bc53d1afe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/preceding::p[10]</value>
+      <webElementGuid>fc533213-02ba-46d5-8724-4714b9b3476a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logistics'])[1]/preceding::p[10]</value>
+      <webElementGuid>29088e61-e15b-45d0-a245-0dde3f78109c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ps10p1-2309001']/parent::*</value>
+      <webElementGuid>641c74a5-02dd-4ada-9b19-fccb77b6743c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div/p</value>
+      <webElementGuid>0f9a5c56-3604-49e6-a0b3-d6ed68e216a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'ps10p1-2309001' or . = 'ps10p1-2309001')]</value>
+      <webElementGuid>dcffd7fa-e193-457f-b540-251b25009f85</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

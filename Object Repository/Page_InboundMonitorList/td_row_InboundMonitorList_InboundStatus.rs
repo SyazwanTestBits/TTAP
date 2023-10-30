@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_row_InboundMonitorList_InboundStatus</name>
+   <tag></tag>
+   <elementGuidId>aea4a8c2-38a0-45fd-b2ac-5465b9ac82f2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[normalize-space()='${planInboundNo}']/following::td[10]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>800a1ca1-fcbc-47cc-80ab-0726e4ba001c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1691557256872</value>
+      <webElementGuid>3a0a72b9-f5a1-4e77-8e51-032d72445f4c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

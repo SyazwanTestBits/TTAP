@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC051-Supplier Check Delivery Plan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>238aa1b6-91f7-42a0-b555-eda9f6f39641</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>62ba9511-7c83-4850-a4c6-06b07cfcd3a7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC050').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>62ba9511-7c83-4850-a4c6-06b07cfcd3a7</id>
+      <masked>false</masked>
+      <name>SOid</name>
+   </variable>
+</TestCaseEntity>

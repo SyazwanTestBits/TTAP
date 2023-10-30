@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Production plan-yearMonth-month</name>
+   <tag></tag>
+   <elementGuidId>3e94782c-86d1-4469-b80b-313684d501b8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='May'])[1]/following::div[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '${month}' or . = '${month}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>33b9a80f-446b-4b58-bcfa-57e9a65a12a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiTypography-root lcbm-MuiPickersMonth-root lcbm-MuiTypography-subtitle1</value>
+      <webElementGuid>34bc8f29-6628-4f07-8c40-27d35a80de19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a06fad24-29ec-4117-a9f4-01bc2d5f9e77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>1ae3c738-4f00-487c-866b-bafd137d8364</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${month}</value>
+      <webElementGuid>9b8c16b2-178d-4a43-a0d5-ee83802ba2fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiPopover-root&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiPopover-paper lcbm-lcbm495 lcbm-MuiPaper-elevation8 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiPickersBasePicker-container&quot;]/div[@class=&quot;lcbm-MuiPickersBasePicker-pickerView&quot;]/div[@class=&quot;lcbm-MuiPickersMonthSelection-container&quot;]/div[@class=&quot;lcbm-MuiTypography-root lcbm-MuiPickersMonth-root lcbm-MuiTypography-subtitle1&quot;]</value>
+      <webElementGuid>edcd305c-860d-46c3-b6bc-3287b05efbe8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='May'])[1]/following::div[1]</value>
+      <webElementGuid>f578ab0d-f33c-4061-a0ea-5e9180558fed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apr'])[1]/following::div[2]</value>
+      <webElementGuid>7b942f28-40da-4467-bd49-9e66079a5c0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jul'])[1]/preceding::div[1]</value>
+      <webElementGuid>3b05551c-24b0-406d-91e9-1a762cc30a35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aug'])[1]/preceding::div[2]</value>
+      <webElementGuid>5085d7f7-0426-4dca-ace9-7257491db907</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Jun']/parent::*</value>
+      <webElementGuid>f01e56e8-1f87-49e2-b24a-a3aa1ce514f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div[6]</value>
+      <webElementGuid>708a31df-a88c-4109-9c03-1b072215727d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Jun' or . = 'Jun')]</value>
+      <webElementGuid>a2a1bdeb-06d8-4616-9646-c2d688fd188e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

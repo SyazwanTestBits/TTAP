@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC075- Customer Upload Inbound Results</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32f30788-eace-4419-a0f3-cbfd0bd0a05e</testCaseGuid>
+   <variable>
+      <defaultValue>[findTestData('Scenario 17/S17_TC075- OutboundNo').getValue('OutboundNo', 1), findTestData('Scenario 17/S17_TC075- OutboundNo').getValue('OutboundNo', 2), findTestData('Scenario 17/S17_TC075- OutboundNo').getValue('OutboundNo', 3)]</defaultValue>
+      <description></description>
+      <id>41f6cd88-79c7-473e-8f6a-6e5a381bf5a6</id>
+      <masked>false</masked>
+      <name>outboundNoList</name>
+   </variable>
+   <variable>
+      <defaultValue>[findTestData('Scenario 17/S17_TC075- OutboundNo').getValue('OutboundRefNo', 1), findTestData('Scenario 17/S17_TC075- OutboundNo').getValue('OutboundRefNo', 2), findTestData('Scenario 17/S17_TC075- OutboundNo').getValue('OutboundRefNo', 3)]</defaultValue>
+      <description></description>
+      <id>4d5507f3-559c-407f-8f23-2f6b4463b69c</id>
+      <masked>false</masked>
+      <name>outboundRefNoList</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC075- Customer Inbound Details')</defaultValue>
+      <description></description>
+      <id>c9263f4c-7477-4444-abb6-6c418746453e</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Inbound No.') : 3, ('Inbound Date') : 4]</defaultValue>
+      <description></description>
+      <id>8da421d6-f506-4c44-9741-0da2c11ab00d</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>3</defaultValue>
+      <description></description>
+      <id>e83c8e3f-e3a6-44b4-89bb-68cc50e920fa</id>
+      <masked>false</masked>
+      <name>startRowFormMinusOne</name>
+   </variable>
+   <variable>
+      <defaultValue>'Inbound'</defaultValue>
+      <description></description>
+      <id>e43bc6d1-fd06-43e9-85e6-bfc92349bde4</id>
+      <masked>false</masked>
+      <name>downloadedFormSheetName</name>
+   </variable>
+</TestCaseEntity>

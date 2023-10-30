@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC044-Run Calculation Batch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5374ea56-176d-4099-a757-a1d6b363b85e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ddefe913-0a7b-4fad-af86-061d29f44369</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.BRIVGE_BATCH_URL</defaultValue>
+      <description></description>
+      <id>ddefe913-0a7b-4fad-af86-061d29f44369</id>
+      <masked>false</masked>
+      <name>batch_url</name>
+   </variable>
+</TestCaseEntity>

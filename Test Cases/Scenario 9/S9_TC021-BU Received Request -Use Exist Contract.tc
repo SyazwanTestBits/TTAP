@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC021-BU Received Request -Use Exist Contract</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6cd1db02-b139-44a8-9664-698461f5449a</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>0d9047be-df6f-4425-8c80-faccec12b4d3</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 9/S9_TC001-Description</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>bcc5e6eb-4ed8-43de-a9c8-dca9b0fa3ccf</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 9/S9_TC021-BU to Customer Contract</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>0d9047be-df6f-4425-8c80-faccec12b4d3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Description</value>
+      <variableId>8d507a8f-aa8d-46e9-88de-8e30480f0077</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>bcc5e6eb-4ed8-43de-a9c8-dca9b0fa3ccf</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>RouteDescription</value>
+      <variableId>f984e857-30a6-46d0-a286-421831ad2df4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>224450ed-5b6a-4dfd-b90e-a600b1da1e19</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c06e756c-fba1-4dd5-b3d6-3c1e2ddf2f00</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5f107132-de9a-4897-a39a-435354b25604</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cc6e806a-f423-4b02-95d1-b914e32aec13</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8d507a8f-aa8d-46e9-88de-8e30480f0077</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f984e857-30a6-46d0-a286-421831ad2df4</id>
+      <masked>false</masked>
+      <name>routeDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC021-Contract Parts Info')</defaultValue>
+      <description></description>
+      <id>224450ed-5b6a-4dfd-b90e-a600b1da1e19</id>
+      <masked>false</masked>
+      <name>datafile_contractPartsInfo</name>
+   </variable>
+   <variable>
+      <defaultValue>[('ContractNo') : 7, ('RepackingType') : 8, ('SSD') : 9, ('FP') : 11, ('FFP') : 12, ('SPQ') : 17, ('Currency') : 21, ('Unit Price') : 22, ('NextSeller') : 28, ('NextSellerPartsNo') : 29]</defaultValue>
+      <description></description>
+      <id>c06e756c-fba1-4dd5-b3d6-3c1e2ddf2f00</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>11</defaultValue>
+      <description></description>
+      <id>5f107132-de9a-4897-a39a-435354b25604</id>
+      <masked>false</masked>
+      <name>startRowFormMinusOne</name>
+   </variable>
+   <variable>
+      <defaultValue>'Request Contract Detail'</defaultValue>
+      <description></description>
+      <id>cc6e806a-f423-4b02-95d1-b914e32aec13</id>
+      <masked>false</masked>
+      <name>downloadedFormSheetname</name>
+   </variable>
+</TestCaseEntity>

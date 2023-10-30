@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC045-Customer Check Customer Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7a49388-8d5f-447e-abb1-7339db3a4802</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2d84afbf-754e-4820-a69e-6b2631aed3f7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8be578cb-a6dc-4014-9038-8c08aedfb1c6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>41654a2f-4bc1-4614-8960-bf66af6ea5f7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2bf2c0e8-acdb-4928-b6aa-59f69f28858a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e11ebb7c-e5df-49a9-8c41-374c1503ab95</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC002-BU1 Contract Parts Info').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>2d84afbf-754e-4820-a69e-6b2631aed3f7</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Regular\r\n'</defaultValue>
+      <description></description>
+      <id>8be578cb-a6dc-4014-9038-8c08aedfb1c6</id>
+      <masked>false</masked>
+      <name>OrderType_Regular</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC015-AutoGen CO number').getValue('CO_number', 1)</defaultValue>
+      <description></description>
+      <id>41654a2f-4bc1-4614-8960-bf66af6ea5f7</id>
+      <masked>false</masked>
+      <name>orderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 1\\Expected Data\\TC45\\Expected Customer Order.xlsx'</defaultValue>
+      <description></description>
+      <id>2bf2c0e8-acdb-4928-b6aa-59f69f28858a</id>
+      <masked>false</masked>
+      <name>expectedCO</name>
+   </variable>
+   <variable>
+      <defaultValue>['PartsNo', 'UnitPartsNo', 'BackNo', 'SalesOrderNo', 'Supplier', 'SPQ', 'OrderLot', 'OrderQty', 'ForceCompletedQty', 'UnitPrice', 'Currency', 'Status', 'InboundedQty', 'PlanQty1', 'Plan Status1', 'PlanQty2', 'Plan Status2', 'EstimatedQty']</defaultValue>
+      <description></description>
+      <id>17c2282d-a62b-49e3-9af4-10a4f32c1bb6</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC045-Customer Check Customer Order')</defaultValue>
+      <description></description>
+      <id>e11ebb7c-e5df-49a9-8c41-374c1503ab95</id>
+      <masked>false</masked>
+      <name>testDataCheck</name>
+   </variable>
+</TestCaseEntity>

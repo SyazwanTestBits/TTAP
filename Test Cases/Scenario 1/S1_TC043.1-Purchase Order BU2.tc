@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC043.1-Purchase Order BU2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0623d06-3fdb-467a-9141-346d622e5ff8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3a8956a5-60c5-4dfc-9534-203b16fe9848</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3a8956a5-60c5-4dfc-9534-203b16fe9848</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>03a1ec61-f28c-4d73-8604-8c1e02cc562a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a8b04bff-2e61-4995-8908-602c192646cd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>504e7f25-49d3-4b7c-944b-a7c2bb9f4629</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ac540f04-0055-456d-a3ac-e618d751738d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2c19e10b-ae2f-4af6-b2fd-863f593eb5bc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC003-BU2 to BU1 Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>3a8956a5-60c5-4dfc-9534-203b16fe9848</id>
+      <masked>false</masked>
+      <name>contractNoBU2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC006-BU3 to BU1 Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>3a8956a5-60c5-4dfc-9534-203b16fe9848</id>
+      <masked>false</masked>
+      <name>contractNoBU3</name>
+   </variable>
+   <variable>
+      <defaultValue>[findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('BU1_PO', 1), findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('BU1_PO', 2)]</defaultValue>
+      <description></description>
+      <id>03a1ec61-f28c-4d73-8604-8c1e02cc562a</id>
+      <masked>false</masked>
+      <name>orderNoList</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC017_Inbound Date Change').getValue('InboundDate_1', 1)</defaultValue>
+      <description></description>
+      <id>a8b04bff-2e61-4995-8908-602c192646cd</id>
+      <masked>false</masked>
+      <name>planOut_date1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC017_Inbound Date Change').getValue('InboundDate_2', 1)</defaultValue>
+      <description></description>
+      <id>504e7f25-49d3-4b7c-944b-a7c2bb9f4629</id>
+      <masked>false</masked>
+      <name>planOut_date2</name>
+   </variable>
+   <variable>
+      <defaultValue>['PartsNo', 'UnitPartsNo', 'BackNo', 'SalesOrderNo', 'Supplier', 'Shipper', 'SPQ', 'OrderLot', 'OrderQty', 'UnitPrice', 'Currency', 'Status', 'InboundedQty', 'Inbound Plan Qty', 'Inbound Plan Status', 'EstimatedQty']</defaultValue>
+      <description></description>
+      <id>ac540f04-0055-456d-a3ac-e618d751738d</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC043-BU1 Check Purchase order BU2')</defaultValue>
+      <description></description>
+      <id>2c19e10b-ae2f-4af6-b2fd-863f593eb5bc</id>
+      <masked>false</masked>
+      <name>testDataCheck</name>
+   </variable>
+</TestCaseEntity>

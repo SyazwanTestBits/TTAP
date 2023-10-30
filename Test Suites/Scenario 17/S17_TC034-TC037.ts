@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>S17_TC034-TC037</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>9a9f6b16-fd41-4f86-970e-7f0f873603b0</testSuiteGuid>
+   <testCaseLink>
+      <guid>824d6a97-a28e-46a7-af9a-e3bb10a85274</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 17/S17_TC034- Supplier Create Cancel Order</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e26f81eb-18ad-4bfa-a45c-2cdc6fe9cccd</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5ea7c169-176f-4b3a-8157-cdf87b77c87b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 17/S17_TC035- Supplier Auto Generate Change Order Request</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5b2e7350-1d98-40c3-a60e-c23a9e46186d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>957b0aa4-66a6-4e46-bb83-07020f82664f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c924a98e-bf97-4237-a5b6-1e1b336ddbe3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 17/S17_TC036- Customer Auto Generate To Do Task</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bfb99ef7-c34b-4f98-86bf-f1f24c0f59ed</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1b83d11b-5954-4a31-b712-28f260d1a111</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 17/S17_TC037- Customer Auto Generate Mail Task</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cf60488b-82de-40a7-b75b-696f87ea8f8c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

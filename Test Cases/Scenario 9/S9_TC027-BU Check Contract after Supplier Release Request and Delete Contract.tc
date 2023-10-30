@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC027-BU Check Contract after Supplier Release Request and Delete Contract</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e855cc7d-ea83-4153-9279-fb15ca34fb7b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4fc7c170-1cf7-4c26-8a19-7497662b7b84</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC023-SUP to BU Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>4fc7c170-1cf7-4c26-8a19-7497662b7b84</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+</TestCaseEntity>

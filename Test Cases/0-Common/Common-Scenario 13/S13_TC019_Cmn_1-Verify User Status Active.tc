@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC019_Cmn_1-Verify User Status Active</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c865e7c2-f130-4cf9-a709-b6d6c3d9be94</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>30edfba4-7e2e-4f9c-b928-cce58f7e235b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>30edfba4-7e2e-4f9c-b928-cce58f7e235b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

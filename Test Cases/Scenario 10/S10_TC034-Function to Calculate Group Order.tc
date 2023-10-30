@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC034-Function to Calculate Group Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6f6d750-b8af-4421-a49a-ca45c016554a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3bf34876-537d-4251-8a0f-d78b6ca610a7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4334d7f9-407a-4421-a9d2-8eb9c867fb9e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b11ccb95-c79a-4e33-b45f-f9b7e81d0907</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1cedaed2-5865-4798-b74c-e253b52a14bc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>83f78eee-f914-42b8-8104-effdb7a59d45</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fb7dc614-bf66-462d-b246-169d1ad6d236</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3be911a7-98ef-4455-8063-faf9772bad89</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC033')</defaultValue>
+      <description></description>
+      <id>3bf34876-537d-4251-8a0f-d78b6ca610a7</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.PNA_USERNAME_SYAZWAN</defaultValue>
+      <description></description>
+      <id>4334d7f9-407a-4421-a9d2-8eb9c867fb9e</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.PNA_COMPANY_BU</defaultValue>
+      <description></description>
+      <id>b11ccb95-c79a-4e33-b45f-f9b7e81d0907</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC034-Create Order Calculation').getValue('OCGN', 1)</defaultValue>
+      <description>Order Calculation Grouping No.</description>
+      <id>1cedaed2-5865-4798-b74c-e253b52a14bc</id>
+      <masked>false</masked>
+      <name>ocgn</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC034-Create Order Calculation').getValue('CutOffDate', 1)</defaultValue>
+      <description></description>
+      <id>83f78eee-f914-42b8-8104-effdb7a59d45</id>
+      <masked>false</masked>
+      <name>cutOffDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC034-Create Order Calculation').getValue('CutOffDateFormatted', 1)</defaultValue>
+      <description></description>
+      <id>fb7dc614-bf66-462d-b246-169d1ad6d236</id>
+      <masked>false</masked>
+      <name>cutOffDateFormatted</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC034-Create Order Calculation').getValue('CustomerUsage', 1)</defaultValue>
+      <description></description>
+      <id>3be911a7-98ef-4455-8063-faf9772bad89</id>
+      <masked>false</masked>
+      <name>customerUsage</name>
+   </variable>
+</TestCaseEntity>

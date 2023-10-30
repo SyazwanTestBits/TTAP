@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Outbound Monitoring List</name>
+   <tag></tag>
+   <elementGuidId>5abdb69c-9dcc-4b9a-a007-98c363567086</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[(text() = 'Outbound Monitoring List' or . = 'Outbound Monitoring List')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>1c66851b-dc01-40ff-a6db-6d6541f17b2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base57 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button</value>
+      <webElementGuid>10bf16fe-75a7-486e-b3f6-6ea0844a43dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>77aa878e-de63-419c-9ece-75e28bb110e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>c5845d5f-c632-48f1-bdd1-04f831cd020e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>f9f233f0-d5a6-45d7-9f49-a8f1689f3171</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Outbound Monitoring List</value>
+      <webElementGuid>f09e5243-f63b-4fa6-8c1f-86b9ed7be99f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;base-base38&quot;]/div[@class=&quot;base-MuiPaper-root base-base39 base-MuiPaper-elevation1 base-MuiPaper-rounded&quot;]/div[@class=&quot;base-base42&quot;]/ul[@class=&quot;base-MuiList-root base-base55 base-MuiList-padding&quot;]/a[2]/li[@class=&quot;base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base57 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button&quot;]</value>
+      <webElementGuid>b14a0174-5f26-4685-929a-249960ebbb47</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logistics'])[2]/following::li[3]</value>
+      <webElementGuid>cb462daa-d1a2-462f-8eee-1929ba7c2288</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::li[3]</value>
+      <webElementGuid>338fb8e7-91cf-4fe4-af26-c59119aaa480</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]/li</value>
+      <webElementGuid>9d362f4c-ee52-48e0-8ae8-e4a5944818ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Outbound Monitoring List' or . = 'Outbound Monitoring List')]</value>
+      <webElementGuid>901a2bed-a680-4162-ad4f-b1753dc56694</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

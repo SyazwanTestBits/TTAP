@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC015 - Admin Edit User detail to add BU</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>265c6b33-9d79-4caa-b581-d982e59c6957</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>90761e99-d123-4992-84c5-37ba87422847</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC009-Create New User</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>90761e99-d123-4992-84c5-37ba87422847</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>76873bee-c26f-43f5-8b1d-4ca232500747</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3ecc8970-eebf-4a51-8696-03161b8fe8cd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eed3c070-fa14-4a4c-aa33-d5fa49bdc72d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d69435ec-c303-4e8f-9d64-1ccbc08ef667</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'syazwanemail'</defaultValue>
+      <description></description>
+      <id>76873bee-c26f-43f5-8b1d-4ca232500747</id>
+      <masked>false</masked>
+      <name>userID</name>
+   </variable>
+   <variable>
+      <defaultValue>'BU-001'</defaultValue>
+      <description></description>
+      <id>3ecc8970-eebf-4a51-8696-03161b8fe8cd</id>
+      <masked>false</masked>
+      <name>targetCompanyCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'PK-BU-0011'</defaultValue>
+      <description></description>
+      <id>eed3c070-fa14-4a4c-aa33-d5fa49bdc72d</id>
+      <masked>false</masked>
+      <name>targetCompanyName</name>
+   </variable>
+   <variable>
+      <defaultValue>'BU DC'</defaultValue>
+      <description></description>
+      <id>d69435ec-c303-4e8f-9d64-1ccbc08ef667</id>
+      <masked>false</masked>
+      <name>targetRole</name>
+   </variable>
+</TestCaseEntity>

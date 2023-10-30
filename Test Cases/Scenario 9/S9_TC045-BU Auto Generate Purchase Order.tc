@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC045-BU Auto Generate Purchase Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>45d5ebb4-201b-4bbd-b314-7b30be93575c</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>cd1c6efb-2202-43d8-b151-7db2fadedfb7</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 9/S9_TC038-SUP to BU Contract</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f3af6ed8-c435-488d-9cd7-c29cab8ae26e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>17e78359-78ab-4c63-9cf6-3b55f5f8c35a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>764bdc15-af17-4992-a910-f0d9fddcfe16</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e4a54a49-fc6e-4eab-8cbb-4f142d0bfff9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>976d604f-f2db-4790-9a1b-046fb93d16b4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC038-SUP to BU Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>f3af6ed8-c435-488d-9cd7-c29cab8ae26e</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Regular'</defaultValue>
+      <description></description>
+      <id>17e78359-78ab-4c63-9cf6-3b55f5f8c35a</id>
+      <masked>false</masked>
+      <name>orderTypeRegular</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 9\\Expected Data\\TC45\\S9_TC45_BUPurchaseOrder.xlsx'</defaultValue>
+      <description></description>
+      <id>764bdc15-af17-4992-a910-f0d9fddcfe16</id>
+      <masked>false</masked>
+      <name>expectedPO</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC041-CUS Reg Order (Firm)')</defaultValue>
+      <description></description>
+      <id>e4a54a49-fc6e-4eab-8cbb-4f142d0bfff9</id>
+      <masked>false</masked>
+      <name>datafile_outbound</name>
+   </variable>
+   <variable>
+      <defaultValue>[(1) : 'Received', (2) : 'Received', (3) : 'Received']</defaultValue>
+      <description></description>
+      <id>976d604f-f2db-4790-9a1b-046fb93d16b4</id>
+      <masked>false</masked>
+      <name>mapverify_partsdetail</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC086-BU Auto Generate To Do Task</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4fcee07-2e2e-4ab7-ab68-dd8990265869</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>20dca474-9f25-41c7-802c-37167360bfea</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e25feb00-345a-4b2e-a111-080e50bb8ee6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>070c9481-f96a-4370-b125-3dcdc25c9c66</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bb2a5d8e-dcb5-41e3-8156-6910361043a0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fbb18571-d7b8-4306-afa4-68496a9f194b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.CUST_USERNAME_USERF</defaultValue>
+      <description></description>
+      <id>20dca474-9f25-41c7-802c-37167360bfea</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.CUST_PWD_USERF</defaultValue>
+      <description></description>
+      <id>e25feb00-345a-4b2e-a111-080e50bb8ee6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.COMPANY_SUPPLIER_1</defaultValue>
+      <description></description>
+      <id>070c9481-f96a-4370-b125-3dcdc25c9c66</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC044').getValue('SalesOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>bb2a5d8e-dcb5-41e3-8156-6910361043a0</id>
+      <masked>false</masked>
+      <name>salesOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC084-Supplier1 Change Request No').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>fbb18571-d7b8-4306-afa4-68496a9f194b</id>
+      <masked>false</masked>
+      <name>requestNo</name>
+   </variable>
+</TestCaseEntity>

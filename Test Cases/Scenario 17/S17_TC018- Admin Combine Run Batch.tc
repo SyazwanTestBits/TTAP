@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC018- Admin Combine Run Batch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8561b70-859b-408b-a8b6-a76f689ddebb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>da17dda5-9744-4a2d-a685-7697208c8897</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.BRIVGE_BATCH_URL</defaultValue>
+      <description></description>
+      <id>da17dda5-9744-4a2d-a685-7697208c8897</id>
+      <masked>false</masked>
+      <name>batch_url</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_fileUpload_SupplierOrderChange</name>
+   <tag></tag>
+   <elementGuidId>6fb5207c-b827-4a73-8fc6-e6ca0e4605c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='file']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>12f719cb-b690-41a9-8299-675d34b8064a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1695121333546</value>
+      <webElementGuid>77c9d9e2-7685-4587-8b1a-e8c015a99b89</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

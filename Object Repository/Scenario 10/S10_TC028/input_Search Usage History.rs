@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Search Usage History</name>
+   <tag></tag>
+   <elementGuidId>75ca57f7-9dbb-4656-b425-3791bd98b441</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div[1]/div/div/div[1]/div/span[1]/div/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.lcbm-MuiInputBase-input.lcbm-MuiFilledInput-input.lcbm-lcbm553.lcbm-MuiInputBase-inputAdornedEnd.lcbm-MuiFilledInput-inputAdornedEnd</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>cc8816b4-fd24-43d9-bc45-e46586d1d8b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>420bdc8f-6ed7-4ad8-b771-bd7d391c5373</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm553 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd</value>
+      <webElementGuid>1fc049d3-166e-4aec-86f3-3fc8213b2aa0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-scrollbar-vertical-hidden lcbm-lcbm1 os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2 lcbm-lcbm3&quot;]/div[@class=&quot;lcbm-lcbm5 lcbm-lcbm6&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm50 lcbm-lcbm51 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-lcbm53&quot;]/div[@class=&quot;lcbm-lcbm551&quot;]/div[1]/div[1]/span[1]/div[@class=&quot;lcbm-MuiInputBase-root lcbm-MuiFilledInput-root lcbm-lcbm552 Mui-focused Mui-focused lcbm-MuiInputBase-adornedEnd lcbm-MuiFilledInput-adornedEnd&quot;]/input[@class=&quot;lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm553 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd&quot;]</value>
+      <webElementGuid>02c3bb59-4e18-4d19-8c27-b2891754dadc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[3]</value>
+      <webElementGuid>e3a9c75b-15db-4aa9-86a6-d6685a3a01a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div/div/div/div/div/span/div/input</value>
+      <webElementGuid>62b43edf-3b29-4e75-9f92-aa866ffe7ab3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div/input</value>
+      <webElementGuid>96d1eef0-9990-4fa7-8f50-3e4980d6c2ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text']</value>
+      <webElementGuid>0ad9f3dd-606a-49bc-bf30-8dd33d2dff83</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

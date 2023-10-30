@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC021-Supplier Approve Change Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bcd56a5d-ea6c-4d9f-a75d-c7c8600c0dd7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>86c982fb-cc41-4bf2-b11d-89ccbad09d89</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f443bf3e-fee7-4d86-b140-1ef02b81f23f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>af9e6032-8100-405e-8afa-6b1c8a3ead6f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f296b041-a1dd-4667-91e0-5e7199a71aa0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC011-CO Number').getValue('RegularCustomerOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>86c982fb-cc41-4bf2-b11d-89ccbad09d89</id>
+      <masked>false</masked>
+      <name>regularCustOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC011-CO Number').getValue('SpotCustomerOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>f443bf3e-fee7-4d86-b140-1ef02b81f23f</id>
+      <masked>false</masked>
+      <name>spotCustOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC018-Customer Forecast Change').getValue('Request No', 1)</defaultValue>
+      <description></description>
+      <id>af9e6032-8100-405e-8afa-6b1c8a3ead6f</id>
+      <masked>false</masked>
+      <name>requestNo</name>
+   </variable>
+   <variable>
+      <defaultValue>['Parts No', 'PO Parts No', 'Back No', 'Color Code', 'Paired Parts No', 'UOM', 'SPQ', 'Order Lot', 'Firm Qty', 'Old Forecast 1', 'New Forecast 1']</defaultValue>
+      <description></description>
+      <id>f296b041-a1dd-4667-91e0-5e7199a71aa0</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC120- BU Check Shipping Detail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0fbc0c9-64d6-42f5-b6c1-4cdc3ff63339</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>493f82fc-46a5-4d51-8d86-b3f13d3b5f4c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9b6cbc99-f5de-4e9e-9c21-51581805a2e8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2a87ac31-497e-41eb-9443-392ca50fcd5e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC119-121')</defaultValue>
+      <description></description>
+      <id>493f82fc-46a5-4d51-8d86-b3f13d3b5f4c</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC119-121').getValue('BookingId',1)</defaultValue>
+      <description></description>
+      <id>9b6cbc99-f5de-4e9e-9c21-51581805a2e8</id>
+      <masked>false</masked>
+      <name>bookingNo</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.PNA_COMPANY_SUPPLIER2</defaultValue>
+      <description></description>
+      <id>2a87ac31-497e-41eb-9443-392ca50fcd5e</id>
+      <masked>false</masked>
+      <name>seller</name>
+   </variable>
+</TestCaseEntity>

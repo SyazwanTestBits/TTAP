@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC002-Create Unit Parts (Customer)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>623cd54c-b07b-4921-bd5e-e12da8dd3234</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ea395259-8243-43c1-8e1e-6ba1562579c4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>52320fe1-a8fa-4736-ae3c-c95e71f96525</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4bc70358-e201-45f4-9ed8-9892ccb1ddb8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.PNA_USERNAME_SYAZWAN</defaultValue>
+      <description></description>
+      <id>ea395259-8243-43c1-8e1e-6ba1562579c4</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC002')</defaultValue>
+      <description></description>
+      <id>52320fe1-a8fa-4736-ae3c-c95e71f96525</id>
+      <masked>false</masked>
+      <name>dataFile</name>
+   </variable>
+   <variable>
+      <defaultValue>[('NEW/MOD') : 1, ('UnitPartsNo') : 3, ('PartsNo') : 4, ('UnitPartsDescription') : 5, ('PartsRefNo') : 6, ('BackNo') : 7, ('HSCode') : 8, ('UOMCode') : 9, ('PairedParts') : 10, ('ActiveFlag') : 13]</defaultValue>
+      <description></description>
+      <id>4bc70358-e201-45f4-9ed8-9892ccb1ddb8</id>
+      <masked>false</masked>
+      <name>contractFileColumns</name>
+   </variable>
+</TestCaseEntity>

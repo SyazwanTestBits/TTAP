@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC180-BU Check Shipping Detail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a1921cc-4bb2-437c-a255-479460cf939f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6f8c1be7-d8d3-4cba-aaf7-3dbd4b6e55e8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC179-Customer Update Shipping Detail')</defaultValue>
+      <description></description>
+      <id>6f8c1be7-d8d3-4cba-aaf7-3dbd4b6e55e8</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

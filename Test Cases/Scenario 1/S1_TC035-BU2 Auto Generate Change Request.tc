@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC035-BU2 Auto Generate Change Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9c1fdea7-f065-46af-be99-fb5c6331bdfa</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ea1439ad-d596-4622-ac3c-e06e4e002bd6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b115019a-0963-4fc6-8506-c259a38a831a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>11cfdc6f-2ef7-41fd-bbe1-6855d3ce04aa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c2414e78-7726-4948-b7bd-fdfa31e90b40</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>998e4a8e-9396-4a72-8b87-68657aed5ff0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cab2fe62-4fc6-4a5f-b3ee-aef990a362d6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f5002a9e-6e31-4c0e-ba11-8c9d1198a7c0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a4a76d64-e9fe-4d7a-8a0c-6a18b3a43aef</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC031-AutoGen Change Request No').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>ea1439ad-d596-4622-ac3c-e06e4e002bd6</id>
+      <masked>false</masked>
+      <name>requestNo</name>
+   </variable>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description></description>
+      <id>b115019a-0963-4fc6-8506-c259a38a831a</id>
+      <masked>false</masked>
+      <name>row_supplier1</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>11cfdc6f-2ef7-41fd-bbe1-6855d3ce04aa</id>
+      <masked>false</masked>
+      <name>row_supplier2</name>
+   </variable>
+   <variable>
+      <defaultValue>['PartsNo', 'POParts No', 'BackNo', 'SupplierCode', 'ColorCode', 'PairedPartsNo', 'UOMCode', 'SPQ', 'OrderLot', 'OldFirm', 'NewFirm', 'LastOrderForecast_1', 'Fluctuation', 'ReasonForFluctuation', 'OldInboundDate_1']</defaultValue>
+      <description></description>
+      <id>c2414e78-7726-4948-b7bd-fdfa31e90b40</id>
+      <masked>false</masked>
+      <name>columnname1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC035-BU2 Check Change Request')</defaultValue>
+      <description></description>
+      <id>998e4a8e-9396-4a72-8b87-68657aed5ff0</id>
+      <masked>false</masked>
+      <name>changeData1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC017_Inbound Date Change').getValue('InboundDate_1', 1)</defaultValue>
+      <description></description>
+      <id>cab2fe62-4fc6-4a5f-b3ee-aef990a362d6</id>
+      <masked>false</masked>
+      <name>oldInboundDate_1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC004-Sup2 to BU2 Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>f5002a9e-6e31-4c0e-ba11-8c9d1198a7c0</id>
+      <masked>false</masked>
+      <name>Sup2toBU2_contract</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('BU2_PO', 1)</defaultValue>
+      <description></description>
+      <id>a4a76d64-e9fe-4d7a-8a0c-6a18b3a43aef</id>
+      <masked>false</masked>
+      <name>BU2_PO</name>
+   </variable>
+</TestCaseEntity>

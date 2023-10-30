@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC007_Cmn_2-Get Contract Route Code</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>acf24437-83cc-4369-9641-a75d441fbbcc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fccbbc6e-afb9-450f-98f7-1947b3ae7511</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>186dc9ff-1ff0-4e96-a25c-d73c6738d0e4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8711f883-0f48-47e3-b64f-a346096b6583</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e884600d-236b-4050-a550-6839d4ca4923</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a274cee6-6532-4107-b589-f3611d3c0a50</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1a742209-4afb-4501-96d9-8fe14d3e82f5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fccbbc6e-afb9-450f-98f7-1947b3ae7511</id>
+      <masked>false</masked>
+      <name>routeDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>16</defaultValue>
+      <description></description>
+      <id>186dc9ff-1ff0-4e96-a25c-d73c6738d0e4</id>
+      <masked>false</masked>
+      <name>contractRouteCodeIndex</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 10\\S10_TestCases_Data.xlsx'</defaultValue>
+      <description></description>
+      <id>8711f883-0f48-47e3-b64f-a346096b6583</id>
+      <masked>false</masked>
+      <name>filepath</name>
+   </variable>
+   <variable>
+      <defaultValue>'S10_TestCases_Data.xlsx'</defaultValue>
+      <description></description>
+      <id>e884600d-236b-4050-a550-6839d4ca4923</id>
+      <masked>false</masked>
+      <name>filename</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC007-Received Req Info'</defaultValue>
+      <description></description>
+      <id>a274cee6-6532-4107-b589-f3611d3c0a50</id>
+      <masked>false</masked>
+      <name>sheetname</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 10\\S10_TestCases_Data.xlsx'</defaultValue>
+      <description></description>
+      <id>1a742209-4afb-4501-96d9-8fe14d3e82f5</id>
+      <masked>false</masked>
+      <name>filenameFull</name>
+   </variable>
+</TestCaseEntity>

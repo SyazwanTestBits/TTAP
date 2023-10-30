@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC037-Sup1 Check and Approve Change Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9c658fe-7702-4a51-8a39-0868f105e803</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>38949252-c299-43ff-908d-18ba4755eaea</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>77312e74-6288-4bc2-9ac0-cbed2b2e048e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c08bdd53-8464-40cd-b895-5a2bb27a512f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e504750e-42f5-4718-b988-de27fd1270fa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ff542408-0fa0-4a9e-b554-c5bbc0674874</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ff542408-0fa0-4a9e-b554-c5bbc0674874</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d2d49297-9ee5-42bf-a065-aadcdb357f7a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d265f272-ff5e-4d4a-bdfa-55debd01fffa</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC031-AutoGen Change Request No').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>38949252-c299-43ff-908d-18ba4755eaea</id>
+      <masked>false</masked>
+      <name>requestNo</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>77312e74-6288-4bc2-9ac0-cbed2b2e048e</id>
+      <masked>false</masked>
+      <name>row_supplier1</name>
+   </variable>
+   <variable>
+      <defaultValue>['PartsNo', 'SOParts No', 'BackNo', 'ColorCode', 'PairedPartsNo', 'UOMCode', 'SPQ', 'OrderLot', 'OldFirm', 'NewFirm', 'LastOrderForecast_1', 'Fluctuation', 'ReasonForFluctuation', 'OldInboundDate_1', 'OldInboundDate_2']</defaultValue>
+      <description></description>
+      <id>c08bdd53-8464-40cd-b895-5a2bb27a512f</id>
+      <masked>false</masked>
+      <name>columnname1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC037-Sup1 Check Change Request')</defaultValue>
+      <description></description>
+      <id>e504750e-42f5-4718-b988-de27fd1270fa</id>
+      <masked>false</masked>
+      <name>changeData1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC017_Inbound Date Change').getValue('InboundDate_1', 1)</defaultValue>
+      <description></description>
+      <id>ff542408-0fa0-4a9e-b554-c5bbc0674874</id>
+      <masked>false</masked>
+      <name>oldInboundDate_1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC017_Inbound Date Change').getValue('InboundDate_2', 1)</defaultValue>
+      <description></description>
+      <id>ff542408-0fa0-4a9e-b554-c5bbc0674874</id>
+      <masked>false</masked>
+      <name>oldInboundDate_2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC007-Sup1 to BU3 Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>d2d49297-9ee5-42bf-a065-aadcdb357f7a</id>
+      <masked>false</masked>
+      <name>Sup1toBU3_contract</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('SUP1_SO', 1)</defaultValue>
+      <description></description>
+      <id>d265f272-ff5e-4d4a-bdfa-55debd01fffa</id>
+      <masked>false</masked>
+      <name>SUP1_SO</name>
+   </variable>
+</TestCaseEntity>

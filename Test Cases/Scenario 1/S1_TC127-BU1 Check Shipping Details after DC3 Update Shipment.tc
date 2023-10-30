@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC127-BU1 Check Shipping Details after DC3 Update Shipment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6f9cbbe-120c-4972-a724-2143d2f97e33</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>769636ba-6fdb-476a-8a97-fb07a742e436</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC120-DC3 Shipping Details')</defaultValue>
+      <description></description>
+      <id>769636ba-6fdb-476a-8a97-fb07a742e436</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Stock Management Tool</name>
+   <tag></tag>
+   <elementGuidId>f7e6d865-1acb-491a-a2d2-0de476273e9b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.base-MuiButtonBase-root.base-MuiButton-root.base-MuiButton-text.base-base59.base-base60</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Stock Management Tool' or . = 'Stock Management Tool')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[65]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>bb69adf4-01f7-4cbc-8b9d-adffe691e4fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiButtonBase-root base-MuiButton-root base-MuiButton-text base-base59 base-base60</value>
+      <webElementGuid>1cd0de40-8265-402b-a195-b2d792c342b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>db890677-b9cc-4934-8de5-1c6a69103053</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e9bac10f-da84-49ce-b966-4be9cf02285b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e4a559f0-f626-4990-857e-c858c9231aae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Stock Management Tool</value>
+      <webElementGuid>36ae837a-1adf-4341-a84e-48c28799d725</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base43&quot;]/div[@class=&quot;base-base44&quot;]/div[@class=&quot;base-base45&quot;]/div[@class=&quot;base-base47&quot;]/nav[@class=&quot;base-base54&quot;]/div[@class=&quot;base-base55&quot;]/div[@class=&quot;base-base56&quot;]/button[@class=&quot;base-MuiButtonBase-root base-MuiButton-root base-MuiButton-text base-base59 base-base60&quot;]</value>
+      <webElementGuid>fca4fe02-ae59-40fe-a165-e0ac398b175c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[65]</value>
+      <webElementGuid>c689e682-b949-48a7-bc4e-b561367d955c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-base']/div/div/div/div/nav/div[2]/div/button[8]</value>
+      <webElementGuid>b83729b7-7d86-461c-8479-aa7d112f5241</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privilege'])[1]/following::button[1]</value>
+      <webElementGuid>21d14612-92bf-487a-a423-6093771af1b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Master'])[1]/following::button[2]</value>
+      <webElementGuid>f9cc51e3-17d4-4baa-9a33-46394b345171</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='l'])[1]/preceding::button[2]</value>
+      <webElementGuid>be801084-7d60-415c-819d-d87d78900536</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[8]</value>
+      <webElementGuid>1123baec-d663-49d5-be74-71ad0d26ffa9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Stock Management Tool' or . = 'Stock Management Tool')]</value>
+      <webElementGuid>418f7fed-0b7c-471c-b8bf-1b5853fc50c3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

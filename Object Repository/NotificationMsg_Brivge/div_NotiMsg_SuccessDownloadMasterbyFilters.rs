@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_NotiMsg_SuccessDownloadMasterbyFilters</name>
+   <tag></tag>
+   <elementGuidId>7e87bfe5-f75b-4c06-911b-2f53e8805b42</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-base']/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.base-MuiPaper-root.base-MuiAlert-root.base-MuiAlert-standardSuccess.base-base86.base-MuiPaper-elevation0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>483c3aae-172d-4b9b-9ca7-9b609628dcf5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiPaper-root base-MuiAlert-root base-MuiAlert-standardSuccess base-base86 base-MuiPaper-elevation0</value>
+      <webElementGuid>28f094c4-85af-4a6f-8b00-c9133d816657</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>alert</value>
+      <webElementGuid>8fe09cc6-80e3-4af6-ba4e-56f22169e234</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Download Master By Filters.The operation was successful.</value>
+      <webElementGuid>e62aba70-222d-474e-9b59-520b34d56465</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base1 base-base3 base-base5&quot;]/div[@class=&quot;base-MuiPaper-root base-MuiAlert-root base-MuiAlert-standardSuccess base-base86 base-MuiPaper-elevation0&quot;]</value>
+      <webElementGuid>18849ab2-432a-4caf-b9e2-2f6fff2da606</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-base']/div[2]/div</value>
+      <webElementGuid>e0734ae9-4ab1-4bfc-8126-6c5abac1e5e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='a'])[1]/following::div[3]</value>
+      <webElementGuid>96636986-290c-4e0a-8450-b7353a5ad9af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Management Tool'])[1]/following::div[7]</value>
+      <webElementGuid>eaf35fa4-7791-4bc2-9bff-8f1d955ae611</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::div[25]</value>
+      <webElementGuid>3de961b4-cde6-4db3-9d0b-4566c8b8d9fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div</value>
+      <webElementGuid>7f9d305f-dca3-4132-85dd-179d2c40b516</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Download Master By Filters.The operation was successful.' or . = 'Download Master By Filters.The operation was successful.')]</value>
+      <webElementGuid>b602559b-fbe3-4542-9d53-4cb8b9001332</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

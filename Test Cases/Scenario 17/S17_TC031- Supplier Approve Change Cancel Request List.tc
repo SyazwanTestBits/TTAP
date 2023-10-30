@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC031- Supplier Approve Change Cancel Request List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ca28ed4-d7a1-4a08-98d1-bd067a3b12b8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fc723633-5e52-4021-a3d2-b96b45248bd6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ac4750b4-560a-40cd-9791-c4e6af1561bf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1cfe8280-9c93-47c8-89e3-6a7c042e5d04</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC027- RequestNo').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>fc723633-5e52-4021-a3d2-b96b45248bd6</id>
+      <masked>false</masked>
+      <name>requestNo</name>
+   </variable>
+   <variable>
+      <defaultValue>['PartsNo', 'SOPartsNo', 'BackNo', 'ColorCode', 'PairedPartsNo', 'UOMCode', 'SPQ', 'OrderLot', 'OldFirm', 'NewFirm', 'LastOrderForecast1', 'Fluctuation', 'ReasonForFluctuation', 'Old_inbound_1', 'Old_inbound_2', 'Old_inbound_3', 'New_inbound_1', 'New_inbound_2']</defaultValue>
+      <description></description>
+      <id>ac4750b4-560a-40cd-9791-c4e6af1561bf</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>'Order Change'</defaultValue>
+      <description></description>
+      <id>1cfe8280-9c93-47c8-89e3-6a7c042e5d04</id>
+      <masked>false</masked>
+      <name>requestType</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC003- Customer Request Remove Part</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad2a9407-44dc-40c8-824e-aca2002f8c82</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>680c2536-e54b-4db5-ad95-fc2d4fac0344</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>61c36eb9-eff6-436c-9faa-8b4437d5bb62</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7aa5a83d-953e-492b-8f1a-421a0105846f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>734971c3-6b44-4a4b-a3de-2cc7df1491f3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c02927b4-40ff-489a-af0b-d07cd5e94260</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6d5025f2-d330-4318-be4c-9b86bf4c92eb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7761166d-a739-4d29-9bfd-a5afe621dec4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC001.2- Supplier Create Shipping Route').getValue(9, 1)</defaultValue>
+      <description></description>
+      <id>680c2536-e54b-4db5-ad95-fc2d4fac0344</id>
+      <masked>false</masked>
+      <name>requestTo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC003- Description').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>61c36eb9-eff6-436c-9faa-8b4437d5bb62</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC002- Contract Part Info').getValue(2, 5)</defaultValue>
+      <description></description>
+      <id>7aa5a83d-953e-492b-8f1a-421a0105846f</id>
+      <masked>false</masked>
+      <name>partsNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC002- Contract Part Info').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>734971c3-6b44-4a4b-a3de-2cc7df1491f3</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 17'</defaultValue>
+      <description></description>
+      <id>c02927b4-40ff-489a-af0b-d07cd5e94260</id>
+      <masked>false</masked>
+      <name>filePath</name>
+   </variable>
+   <variable>
+      <defaultValue>'S17_TestCases_Data.xlsx'</defaultValue>
+      <description></description>
+      <id>6d5025f2-d330-4318-be4c-9b86bf4c92eb</id>
+      <masked>false</masked>
+      <name>fileName</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC3-Description'</defaultValue>
+      <description></description>
+      <id>7761166d-a739-4d29-9bfd-a5afe621dec4</id>
+      <masked>false</masked>
+      <name>sheetName</name>
+   </variable>
+</TestCaseEntity>

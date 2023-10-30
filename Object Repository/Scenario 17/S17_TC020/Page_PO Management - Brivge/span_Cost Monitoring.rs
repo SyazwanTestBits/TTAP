@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Cost Monitoring</name>
+   <tag></tag>
+   <elementGuidId>e1e3b189-8457-4401-a5ea-7dfbeeed8237</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div/div/div/div/div/button[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a3c35db2-7142-4c78-9287-1197f76b9f4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiTab-wrapper</value>
+      <webElementGuid>e7ed7657-37bf-4b53-a477-75ffd363e7f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cost Monitoring</value>
+      <webElementGuid>0bee77cc-39fd-4109-9905-eacf34c33433</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm144 os-host-overflow os-host-overflow-y os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm145&quot;]/div[@class=&quot;lcbm-lcbm148&quot;]/div[@class=&quot;lcbm-lcbm150&quot;]/div[@class=&quot;lcbm-MuiTabs-root lcbm-lcbm151&quot;]/div[@class=&quot;lcbm-MuiTabs-scroller lcbm-MuiTabs-fixed&quot;]/div[@class=&quot;lcbm-MuiTabs-flexContainer&quot;]/button[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiTab-root lcbm-MuiTab-textColorInherit&quot;]/span[@class=&quot;lcbm-MuiTab-wrapper&quot;]</value>
+      <webElementGuid>5f1b6c0e-c0b1-4348-bb70-d331dec25773</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div/div/div/div/div/button[2]/span</value>
+      <webElementGuid>c14e08a1-8110-4a01-a244-ef489df019bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PO Management'])[1]/following::span[2]</value>
+      <webElementGuid>d8ba3f34-911d-427b-9fc9-8419f2f0bfbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vendor Analysis'])[1]/preceding::span[2]</value>
+      <webElementGuid>395b7340-625f-4a9c-9908-933fe92723cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accounts Receivable'])[1]/preceding::span[4]</value>
+      <webElementGuid>1f2b1217-bc82-4cb5-9d53-fbf8885f953f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cost Monitoring']/parent::*</value>
+      <webElementGuid>8302ce57-0173-4853-a36b-84db764c77b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/span</value>
+      <webElementGuid>3d628643-2f32-444a-b2d3-e5495e1f2b2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Cost Monitoring' or . = 'Cost Monitoring')]</value>
+      <webElementGuid>0ffee28a-ac30-41a9-bc98-0d7a5506998c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Upload Supplier Order Change. Paired parts firm qty must be the same</name>
+   <tag></tag>
+   <elementGuidId>8f42225d-823e-4226-89cc-89c490951f09</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.base-MuiAlert-message</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-base']/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c42cf08d-696f-424a-b240-fd1c92c70605</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiAlert-message</value>
+      <webElementGuid>c3040fad-8c05-480e-9f3f-742fc75518ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Upload Supplier Order Change. Paired parts firm qty must be the same. (Parts No.: scenario1720230604002)(w0133)Paired parts firm qty must be the same. (Parts No.: scenario1720230604001)(w0133)</value>
+      <webElementGuid>cecb8aa1-3b29-4b2b-9b68-b2dc39c75435</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base25 base-base27 base-base29&quot;]/div[@class=&quot;base-MuiPaper-root base-MuiAlert-root base-MuiAlert-standardError base-base90 base-MuiPaper-elevation0&quot;]/div[@class=&quot;base-MuiAlert-message&quot;]</value>
+      <webElementGuid>1883985f-118a-4d6e-8ecb-4a876cdc7b5f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-base']/div[2]/div/div</value>
+      <webElementGuid>0dc9f989-a19a-4f76-8414-1b94da5ad5d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='n'])[1]/following::div[4]</value>
+      <webElementGuid>26f2bcf2-08ca-4d5c-b52d-c2a45f46d96a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privilege'])[1]/following::div[8]</value>
+      <webElementGuid>2481bfe3-213e-430b-a061-a4d8a2f5d638</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::div[24]</value>
+      <webElementGuid>0adec945-f079-4898-86d5-0b7c21101216</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div</value>
+      <webElementGuid>7fa10b15-bb50-4b6b-b301-2e30cfea284b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Upload Supplier Order Change. Paired parts firm qty must be the same. (Parts No.: scenario1720230604002)(w0133)Paired parts firm qty must be the same. (Parts No.: scenario1720230604001)(w0133)' or . = 'Upload Supplier Order Change. Paired parts firm qty must be the same. (Parts No.: scenario1720230604002)(w0133)Paired parts firm qty must be the same. (Parts No.: scenario1720230604001)(w0133)')]</value>
+      <webElementGuid>5d62a317-bb4d-4c74-b82c-25fb5a8292bf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

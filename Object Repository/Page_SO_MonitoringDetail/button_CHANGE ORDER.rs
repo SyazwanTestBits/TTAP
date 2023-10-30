@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_CHANGE ORDER</name>
+   <tag></tag>
+   <elementGuidId>0611c1ae-0567-4f4d-af8f-a0a2432fae2f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type = 'button' and (text() = 'CHANGE ORDER' or . = 'CHANGE ORDER')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.lcbm-MuiButtonBase-root.lcbm-MuiButton-root.lcbm-MuiButton-contained.lcbm-lcbm2737.lcbm-MuiButton-containedPrimary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8ac4fc8b-78bb-4f68-ad06-88efaf669dcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiButtonBase-root lcbm-MuiButton-root lcbm-MuiButton-contained lcbm-lcbm2737 lcbm-MuiButton-containedPrimary</value>
+      <webElementGuid>16999f86-7859-4e25-b037-a28b598c27c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>f4e542d2-66bb-4280-9446-f7072639efe6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>bb7b54dc-1000-4e60-a4da-ee8b5bb5a7e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CHANGE ORDER</value>
+      <webElementGuid>32c3cb00-c4b2-48f3-b721-f4627c8ddf93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm1 os-host-overflow os-host-overflow-y os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2&quot;]/div[@class=&quot;lcbm-lcbm2550&quot;]/div[@class=&quot;lcbm-lcbm2551&quot;]/div[2]/button[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiButton-root lcbm-MuiButton-contained lcbm-lcbm2737 lcbm-MuiButton-containedPrimary&quot;]</value>
+      <webElementGuid>17b48cf9-64f1-4a49-b66d-c5360fa6965c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>4c8f8ef5-bae1-47e4-983a-6573cf8732d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div/div[2]/div[2]/button</value>
+      <webElementGuid>44f20ae7-1d11-4071-9bf2-46b4dd4c4142</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SO Monitoring Detail'])[1]/following::button[1]</value>
+      <webElementGuid>603a1470-a8fc-4458-a2eb-879314b6e844</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please input related basic information'])[1]/preceding::button[1]</value>
+      <webElementGuid>b0cb5334-c554-4238-a3f3-82482dcd253a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>b415ac02-cdb2-4d51-a5fe-db0f53c79fc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'CHANGE ORDER' or . = 'CHANGE ORDER')]</value>
+      <webElementGuid>afcf573e-bd00-4b37-97d3-8114a6a47724</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

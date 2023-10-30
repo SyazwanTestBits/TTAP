@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC134.1 - Supp2 Check Cargo Tracking Detail SO</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1828dcb-59d3-4ab7-adcf-5a7ddcd52eb4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>207db706-a0bd-4527-b000-ccce6c3df2be</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>25cda300-1b1d-4c67-8021-85817a9832de</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>970b6eb0-2bd0-4712-9c12-c3a8fb818b1c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>853611d3-0379-468c-971c-39c5c6df1c89</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dc6e0495-3950-4742-a65d-7bf3ff0d5ceb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>207db706-a0bd-4527-b000-ccce6c3df2be</id>
+      <masked>false</masked>
+      <name>containerNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>['Booking Submitted', 'Booking Confirmed', 'Empty Container Release to Shipper', 'Cargo Outbound', 'Gate in (arrival at first POL)', 'Container loaded at first POL', 'Vessel departure from first POL', 'Vessel arrival at T/S port', 'Container discharge at T/S port', 'Container loaded at T/S port', 'Vessel departure from T/S', 'Vessel arrived at final POD (ATA)', 'Container unload at final POD', 'Container Gate out from final POD', 'Vessel arrived at final POD (ATA)', 'Container unload at final POD', 'Container Gate out from final POD']</defaultValue>
+      <description></description>
+      <id>25cda300-1b1d-4c67-8021-85817a9832de</id>
+      <masked>false</masked>
+      <name>milestone</name>
+   </variable>
+   <variable>
+      <defaultValue>['Empty container pick-up (Empty Container Release to Shipper)', 'Gate in (Gate In to Outbound Terminal)', 'Loaded (Loaded on vessel at Port of Loading)', 'Departure (vessel Departure from Port of Loading)', 'Arrival (vessel Arrival at Transhipment Port)', 'Unload (Unloaded from vessel at Transhipment Port)', 'Loaded (Loaded on vessel at Transhipment Port)', 'Departure (Departure from Transhipment Port)', 'Arrival (vessel Arrival at Port of Discharging)', 'Unload (Unloaded from vessel at Port of Discharging)', 'Gate out (Gate Out from Inbound Terminal for Delivery to Consignee (or Port Shuttle))', 'Empty container returned (Empty Container Returned from Customer)']</defaultValue>
+      <description></description>
+      <id>970b6eb0-2bd0-4712-9c12-c3a8fb818b1c</id>
+      <masked>false</masked>
+      <name>milestoneREALTIME</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>853611d3-0379-468c-971c-39c5c6df1c89</id>
+      <masked>false</masked>
+      <name>testDataForecast</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC134-SO')</defaultValue>
+      <description></description>
+      <id>dc6e0495-3950-4742-a65d-7bf3ff0d5ceb</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC046-BU Check Weekly Stock Simulation-actual only after after upload WIP usage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fde0e685-6ee9-4ac2-8d03-0d0a1da4ec07</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6e40ca16-a175-4c35-91ee-84d4b86a143b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ba59e17d-df69-419b-af81-1f1439634947</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cfd69bd6-b4a1-4d34-aa46-7997f22657c1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b37dd211-6c53-447c-afcd-1caef5a63774</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ea7328b6-bdcc-46be-9c5e-4413c9be3e58</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d834427b-ada0-45c6-ae19-edc3338679dc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ef66be5b-61ec-4a78-8729-636dcbc44a95</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>556a9b6f-d2a6-47dd-a93d-1543649fe780</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[('newMod') : 0, ('CommonPart') : 7, ('MinStock1') : 12, ('MinStock2') : 13, ('InventoryControl') : 18, ('AlertMethod') : 19, ('Fluctuation') : 20, ('AllocationPattern') : 25, ('AdjustmentPattern1') : 26, ('AdjustmentPattern2') : 27]</defaultValue>
+      <description></description>
+      <id>6e40ca16-a175-4c35-91ee-84d4b86a143b</id>
+      <masked>false</masked>
+      <name>stockControlColumnName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC025').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>ba59e17d-df69-419b-af81-1f1439634947</id>
+      <masked>false</masked>
+      <name>contractNoBUL3</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC025').getValue('ContractNo', 2)</defaultValue>
+      <description></description>
+      <id>cfd69bd6-b4a1-4d34-aa46-7997f22657c1</id>
+      <masked>false</masked>
+      <name>contractNoBUL2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC024')</defaultValue>
+      <description></description>
+      <id>b37dd211-6c53-447c-afcd-1caef5a63774</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 10/Convert from XLSM to XLSX/S10-TC046.xlsx'</defaultValue>
+      <description></description>
+      <id>ea7328b6-bdcc-46be-9c5e-4413c9be3e58</id>
+      <masked>false</masked>
+      <name>pathExport</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC046-L3')</defaultValue>
+      <description></description>
+      <id>d834427b-ada0-45c6-ae19-edc3338679dc</id>
+      <masked>false</masked>
+      <name>testDataL3</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC046-L2')</defaultValue>
+      <description></description>
+      <id>ef66be5b-61ec-4a78-8729-636dcbc44a95</id>
+      <masked>false</masked>
+      <name>testDataL2</name>
+   </variable>
+   <variable>
+      <defaultValue>'100.0'</defaultValue>
+      <description></description>
+      <id>556a9b6f-d2a6-47dd-a93d-1543649fe780</id>
+      <masked>false</masked>
+      <name>valueInL2</name>
+   </variable>
+</TestCaseEntity>

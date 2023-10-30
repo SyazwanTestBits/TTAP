@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC046-Supplier Check and Confirm Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>63257494-2d2e-4bef-a1ee-28f4dec1aab6</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC038-SUP to BU Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>5aa1c62f-4bc3-47c9-8491-92dc8586179d</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>[('newInboundQty1') : 20, ('newInboundQty2') : 22, ('newInboundQty3') : 0, ('newInboundQty4') : 0, ('newInboundQty5') : 0]</defaultValue>
+      <description></description>
+      <id>039437b8-c910-403b-b06d-6e15bcce9fb1</id>
+      <masked>false</masked>
+      <name>filecolumns_dr</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC046-BU SO Delivery Plan')</defaultValue>
+      <description></description>
+      <id>09ef3d83-9a8f-4b22-80ac-9b924c1468ff</id>
+      <masked>false</masked>
+      <name>datafile_dr</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Price') : 11, ('Currency') : 12]</defaultValue>
+      <description></description>
+      <id>0ff98970-b38c-41ce-aece-fab3d92c89a0</id>
+      <masked>false</masked>
+      <name>filecolumns_price</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC046-BU SO Price')</defaultValue>
+      <description></description>
+      <id>8d462455-17b3-46eb-b4bb-3ffb6993a2ba</id>
+      <masked>false</masked>
+      <name>datafile_price</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC046-BU SO Plan Date')</defaultValue>
+      <description></description>
+      <id>6a15e5a2-cb8d-4660-b6e4-23fff78ae1b6</id>
+      <masked>false</masked>
+      <name>datafile_date</name>
+   </variable>
+</TestCaseEntity>

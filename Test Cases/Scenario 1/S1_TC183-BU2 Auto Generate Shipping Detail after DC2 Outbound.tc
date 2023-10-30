@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC183-BU2 Auto Generate Shipping Detail after DC2 Outbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4c6b6556-0a72-458d-a58d-0c117934576e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8194456a-caac-42f9-98c5-803a2c9b29f6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC178-Customer Cargo Tracking Details')</defaultValue>
+      <description></description>
+      <id>8194456a-caac-42f9-98c5-803a2c9b29f6</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

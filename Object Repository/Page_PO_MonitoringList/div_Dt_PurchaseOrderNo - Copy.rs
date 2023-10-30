@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Dt_PurchaseOrderNo - Copy</name>
+   <tag></tag>
+   <elementGuidId>6e7751e9-f2a5-45d2-b040-df9f94b5d9a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/table[2]/tbody/tr[${row}]/td[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>f2f58091-d056-47a6-8d84-e63dfb55aabe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1689078154291</value>
+      <webElementGuid>ed2ebba3-cb51-4c69-a559-df66040d5ef7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

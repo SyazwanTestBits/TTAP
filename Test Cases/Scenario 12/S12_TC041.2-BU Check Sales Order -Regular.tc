@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC041.2-BU Check Sales Order -Regular</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef6d4801-cba4-4102-b0b1-7db89e8d9385</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5e9873bf-d352-45a8-a0ce-4e5f8cd73e0f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7253fd67-6963-4b30-b3dc-8da856c9a2e1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>80d2b75a-cf9f-4ebc-a89d-95b39bbbcfe7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c0cb609c-2699-45ea-a106-acc44efa63c5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC004-BU to Customer Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>5e9873bf-d352-45a8-a0ce-4e5f8cd73e0f</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC014-BU SO').getValue('RegularSalesOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>7253fd67-6963-4b30-b3dc-8da856c9a2e1</id>
+      <masked>false</masked>
+      <name>regularSalesOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Regular'</defaultValue>
+      <description></description>
+      <id>80d2b75a-cf9f-4ebc-a89d-95b39bbbcfe7</id>
+      <masked>false</masked>
+      <name>orderTypeRegular</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 12\\Expected Data\\TC41\\Expected Sales Order Regular.xlsx'</defaultValue>
+      <description></description>
+      <id>c0cb609c-2699-45ea-a106-acc44efa63c5</id>
+      <masked>false</masked>
+      <name>expectedSOregular</name>
+   </variable>
+</TestCaseEntity>

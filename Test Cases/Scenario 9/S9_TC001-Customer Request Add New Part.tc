@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC001-Customer Request Add New Part</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2ad71df8-cb6f-45b8-b2d0-55541b7cbe3f</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>2822e5cb-c92e-4db1-8fb2-3749dac38013</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 9/S9_TC001-Description</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>2822e5cb-c92e-4db1-8fb2-3749dac38013</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Description</value>
+      <variableId>77a62d93-082a-4a91-a2ce-974fdbeb0e67</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>27699e28-6aa6-4fce-a45c-e9e1e3067466</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1adb8cfc-5c36-482d-a38d-07c353bc7729</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>840a5740-8c26-44d0-a91d-525c4d08c057</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>77d2d81a-df1c-4c74-b939-eb96db27a488</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4fd28ad6-3f0f-4f69-ab55-be15ac3eb406</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC001-Description').getValue('Description', 1)</defaultValue>
+      <description></description>
+      <id>77a62d93-082a-4a91-a2ce-974fdbeb0e67</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC001-Customer Request Add New Part')</defaultValue>
+      <description></description>
+      <id>27699e28-6aa6-4fce-a45c-e9e1e3067466</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>[('UnitPartsNo') : 0, ('PartsNo') : 1, ('UnitPartsDescription') : 2, ('PartsRefNo') : 3, ('BackNo') : 4, ('HSCode') : 5, ('UOMCode') : 6, ('PairedParts') : 7, ('UnitPairedPartsNo') : 8, ('PairedOrderFlag') : 9, ('OrderLot') : 10, ('SPQ') : 11, ('M3') : 12, ('NewWeight') : 13, ('GrossWeight') : 14, ('SellerPartsNo') : 15]</defaultValue>
+      <description></description>
+      <id>1adb8cfc-5c36-482d-a38d-07c353bc7729</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>6</defaultValue>
+      <description></description>
+      <id>840a5740-8c26-44d0-a91d-525c4d08c057</id>
+      <masked>false</masked>
+      <name>startRowFormMinusOne</name>
+   </variable>
+   <variable>
+      <defaultValue>'INPUT PART INFO'</defaultValue>
+      <description></description>
+      <id>77d2d81a-df1c-4c74-b939-eb96db27a488</id>
+      <masked>false</masked>
+      <name>downloadedFormSheetName</name>
+   </variable>
+   <variable>
+      <defaultValue>'PK-CUS-TTAP'</defaultValue>
+      <description></description>
+      <id>4fd28ad6-3f0f-4f69-ab55-be15ac3eb406</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

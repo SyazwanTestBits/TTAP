@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC062-BU1 Check ChangeCancel Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>17ead6e7-8fda-49c6-b921-edfe75957bb2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1228ea7e-4098-4371-8401-9a0947ffd4e2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1228ea7e-4098-4371-8401-9a0947ffd4e2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>170941d3-8ab3-4e44-84e1-8ab6f626a9e9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC54-Change Request No').getValue('Sup1 RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>1228ea7e-4098-4371-8401-9a0947ffd4e2</id>
+      <masked>false</masked>
+      <name>Supplier1_RequestNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC54-Change Request No').getValue('Sup2 RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>1228ea7e-4098-4371-8401-9a0947ffd4e2</id>
+      <masked>false</masked>
+      <name>Supplier2_RequestNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC002-BU1 to Customer Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>170941d3-8ab3-4e44-84e1-8ab6f626a9e9</id>
+      <masked>false</masked>
+      <name>BU1toCustomer_Contract</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC079- Supp1 Check Sale Order after TC077</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>98417ebc-4606-48c2-8a52-66117b93f08b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5a259aaa-4bec-4924-bf0c-f6b04676e8fc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f1b1c3bf-e651-43c2-86ad-7079e4b1acf6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6c016a3c-0d97-4919-938d-22d4248f4378</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cadc0e7c-e822-4454-a153-5d95dff384aa</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC049-AutoGen').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>5a259aaa-4bec-4924-bf0c-f6b04676e8fc</id>
+      <masked>false</masked>
+      <name>ContractID</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 10'</defaultValue>
+      <description></description>
+      <id>f1b1c3bf-e651-43c2-86ad-7079e4b1acf6</id>
+      <masked>false</masked>
+      <name>filepath</name>
+   </variable>
+   <variable>
+      <defaultValue>'S10_TestCases_Data.xlsx'</defaultValue>
+      <description></description>
+      <id>6c016a3c-0d97-4919-938d-22d4248f4378</id>
+      <masked>false</masked>
+      <name>filename</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC079-AutoGen'</defaultValue>
+      <description></description>
+      <id>cadc0e7c-e822-4454-a153-5d95dff384aa</id>
+      <masked>false</masked>
+      <name>sheetname</name>
+   </variable>
+</TestCaseEntity>

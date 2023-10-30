@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC014.1-Regular SO Details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5723701-52e6-41e4-9897-359afc785a05</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>584f0fdf-c583-4b28-af44-f55b4338b43c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e2e92945-af25-496c-aea0-c767c2f343e4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4452a2f0-434b-420d-82fe-8ae2c599d8a4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ceb26386-c973-41f7-98bc-ec4385bcdb18</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC004-BU to Customer Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>584f0fdf-c583-4b28-af44-f55b4338b43c</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC014-BU SO').getValue('RegularSalesOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>e2e92945-af25-496c-aea0-c767c2f343e4</id>
+      <masked>false</masked>
+      <name>regularSalesOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC014-BU SO').getValue('SpotSalesOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>4452a2f0-434b-420d-82fe-8ae2c599d8a4</id>
+      <masked>false</masked>
+      <name>spotSalesOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC003.1-BU Create Payment Terms').getValue('Description', 1)</defaultValue>
+      <description></description>
+      <id>ceb26386-c973-41f7-98bc-ec4385bcdb18</id>
+      <masked>false</masked>
+      <name>paymentTermsDesc</name>
+   </variable>
+</TestCaseEntity>

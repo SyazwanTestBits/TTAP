@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC046- Customer Approve Change Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2905305c-3084-4888-972f-0621749fde7b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC042- Request No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>e0a4737d-cd31-464b-8914-c083edac8716</id>
+      <masked>false</masked>
+      <name>RequestNo</name>
+   </variable>
+   <variable>
+      <defaultValue>['Partno', 'CustomerPartsNo', 'Backno', 'SupplierCode', 'ColorCode', 'PairedPartsNo', 'UOMCode', 'SPQ', 'OrderLot', 'OldFirm', 'NewFirm', 'LastOrderForecast1', 'Fluctuation', 'ReasonForFluctuation', 'Old_outbound_1', 'Old_outbound_2', 'Old_outbound_3', 'New_outbound_1', 'New_outbound_2', 'New_outbound_3', 'Old_outbound_Supplier_1', 'Old_outbound_Supplier_2', 'Old_outbound_Supplier_3', 'Old_outbound_Supplier_4', 'New_outbound_Supplier_1', 'New_outbound_Supplier_2', 'New_outbound_Supplier_3', 'New_outbound_Supplier_4']</defaultValue>
+      <description></description>
+      <id>ec4fbc20-ae3b-434b-a05a-be5051dd0e05</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

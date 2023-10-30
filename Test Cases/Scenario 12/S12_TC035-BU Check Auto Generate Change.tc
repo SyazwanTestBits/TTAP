@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC035-BU Check Auto Generate Change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09324ed4-3415-459f-82e0-52d9fb6cc4c4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>84fe5d29-6cd2-45ad-b8a0-8e8679b20452</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e0179db0-9a08-4c50-a454-4b19fd5fea2f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC033-Supplier Change Request No').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>84fe5d29-6cd2-45ad-b8a0-8e8679b20452</id>
+      <masked>false</masked>
+      <name>requestNo</name>
+   </variable>
+   <variable>
+      <defaultValue>['Part no', 'SO parts no', 'Back no', 'Supplier code', 'Color code', 'Paired parts no', 'UOM code', 'SPQ', 'Order lot', 'Old firm', 'New firm', 'Last order forecast 1', 'Fluctuation', 'Reason for fluctuation', 'Old_inbound_1', 'Old_inbound_2', 'Old_inbound_3', 'Old_inbound_4', 'Old_inbound_5', 'New_inbound_1', 'New_inbound_2', 'New_inbound_3', 'New_inbound_4']</defaultValue>
+      <description></description>
+      <id>e0179db0-9a08-4c50-a454-4b19fd5fea2f</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

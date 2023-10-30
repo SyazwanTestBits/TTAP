@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC059-Supplier Release Seller GI Invoice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>39eda4e9-1807-4a74-9eda-9a8c4f3bb8d2</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>81c2baac-cced-4897-8688-18dc50b33610</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC035-Receiverd Request List</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ffb233d-85d3-42c9-8cdc-0246398d59bb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[findTestData('Scenario 12/SC12_TC045-Supplier SellerGI Invoice').getValue(3, 3), findTestData('Scenario 12/SC12_TC045-Supplier SellerGI Invoice').getValue(3, 5), findTestData('Scenario 12/SC12_TC045-Supplier SellerGI Invoice').getValue(3, 4)]</defaultValue>
+      <description></description>
+      <id>7ffb233d-85d3-42c9-8cdc-0246398d59bb</id>
+      <masked>false</masked>
+      <name>invoiceNoList</name>
+   </variable>
+</TestCaseEntity>

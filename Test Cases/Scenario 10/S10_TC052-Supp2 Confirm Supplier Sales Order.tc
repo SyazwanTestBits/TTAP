@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC052-Supp2 Confirm Supplier Sales Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>60be9cf3-6371-4483-8501-3d86202e480e</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>3c841798-3d05-4d5b-818d-954269db3163</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC050</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>33d51289-f869-47bf-aa9a-d372967c81b4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d63ae3b9-cf09-4d76-98a5-72bc5161ad1a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>abada24c-d262-4abb-a2cf-dd988fa9e851</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>49adb69f-c681-49a0-87e4-4933fc960bf6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4068ecaf-569c-46ca-9651-0ad36499b692</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fc931b28-3349-482b-b4ca-f72f72b9abf9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>14a3e85e-1a4a-457b-8760-17996354e726</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fe878af0-3bce-47ee-93b8-1634da6e0706</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>acf3efa6-244b-4852-b9fd-0ce601dfdfa6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a9b779ec-fd40-4434-8947-c260e8130928</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Part no', 'Customer unit part no', 'Back no', 'Purchase order no', 'Customer code', 'SPQ', 'Order lot', 'Order Qty', 'Unit Price', 'Currency', 'Status', 'Delivered qty', 'InTransit qty', 'Receiver inbounded qty', 'Planoutin plan 1', 'Planoutin status 1', 'Planoutin plan 2', 'Planoutin status 2', 'Estimate date value 1', 'Estimate date value 2']</defaultValue>
+      <description></description>
+      <id>6fce087a-95fb-4008-9005-88657869810b</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>['Part no', 'Customer unit part no', 'Back no', 'Purchase order no', 'Customer code', 'SPQ', 'Order lot', 'Order Qty', 'Unit Price', 'Currency', 'Status', 'Delivered qty', 'InTransit qty', 'Receiver inbounded qty', 'Planoutin plan 1', 'Planoutin status 1', 'Estimate date value 1']</defaultValue>
+      <description></description>
+      <id>d63ae3b9-cf09-4d76-98a5-72bc5161ad1a</id>
+      <masked>false</masked>
+      <name>columnnameSpot</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>abada24c-d262-4abb-a2cf-dd988fa9e851</id>
+      <masked>false</masked>
+      <name>SO_status</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>49adb69f-c681-49a0-87e4-4933fc960bf6</id>
+      <masked>false</masked>
+      <name>Delay_status</name>
+   </variable>
+   <variable>
+      <defaultValue>'Aug 21, 2023'</defaultValue>
+      <description></description>
+      <id>4068ecaf-569c-46ca-9651-0ad36499b692</id>
+      <masked>false</masked>
+      <name>plan_out_date</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sep 10, 2023'</defaultValue>
+      <description></description>
+      <id>fc931b28-3349-482b-b4ca-f72f72b9abf9</id>
+      <masked>false</masked>
+      <name>plan_in_date</name>
+   </variable>
+   <variable>
+      <defaultValue>'Aug 21, 2023'</defaultValue>
+      <description></description>
+      <id>14a3e85e-1a4a-457b-8760-17996354e726</id>
+      <masked>false</masked>
+      <name>estimate_out_date</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sep 7, 2023'</defaultValue>
+      <description></description>
+      <id>fe878af0-3bce-47ee-93b8-1634da6e0706</id>
+      <masked>false</masked>
+      <name>estimate_in_date</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC051').getValue('ContractNo',2)</defaultValue>
+      <description></description>
+      <id>acf3efa6-244b-4852-b9fd-0ce601dfdfa6</id>
+      <masked>false</masked>
+      <name>contractSupp2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC051')</defaultValue>
+      <description></description>
+      <id>a9b779ec-fd40-4434-8947-c260e8130928</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

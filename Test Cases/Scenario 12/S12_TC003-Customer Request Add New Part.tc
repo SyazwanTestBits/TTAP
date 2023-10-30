@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC003-Customer Request Add New Part</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>442df089-a17e-4951-a709-44b760bdd100</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>612c6a3b-8951-4374-85fe-3791c7f4aaf1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>619ae3f1-0ca7-4010-884d-75f233493f8e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dd0757c1-568f-4170-aac0-f664a4e2100b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6a85c461-65b0-48ce-9dc6-7791e1256679</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'SG-TTAP'</defaultValue>
+      <description></description>
+      <id>612c6a3b-8951-4374-85fe-3791c7f4aaf1</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC003-Description').getValue('Description', 1)</defaultValue>
+      <description></description>
+      <id>619ae3f1-0ca7-4010-884d-75f233493f8e</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC003-Customer Request Add New Part')</defaultValue>
+      <description></description>
+      <id>dd0757c1-568f-4170-aac0-f664a4e2100b</id>
+      <masked>false</masked>
+      <name>requestPartsData</name>
+   </variable>
+   <variable>
+      <defaultValue>[('UnitPartsNo') : 0, ('PartsNo') : 1, ('UnitPartsDescription') : 2, ('PartsRefNo') : 3, ('BackNo') : 4, ('HSCode') : 5, ('UOMCode') : 6, ('PairedParts') : 7, ('UnitPartsNoOfPairedParts') : 8, ('PairedOrderFlag') : 9, ('OrderLot') : 10, ('SPQ') : 11, ('M3') : 12, ('NetWeight') : 13, ('GrossWeight') : 14, ('SellerPartsNo') : 15]</defaultValue>
+      <description></description>
+      <id>6a85c461-65b0-48ce-9dc6-7791e1256679</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+</TestCaseEntity>

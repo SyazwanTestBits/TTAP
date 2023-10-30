@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC081-BU Check Purchase Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72e95306-7e51-4edb-9ad4-b7efef532818</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2319e015-541b-4642-943c-fda9d27f4158</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>16963624-036c-4ab8-8b19-22aaf0c4f82b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fd0c7c00-610f-4717-a133-dfede15ac265</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7bd4c8e2-8647-420f-af87-a000fdb3e2e4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_ContractList').getValue('ContractNo', 3)</defaultValue>
+      <description></description>
+      <id>2319e015-541b-4642-943c-fda9d27f4158</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC080').getValue('Purchase Order No.', 1)</defaultValue>
+      <description>get from TC77</description>
+      <id>16963624-036c-4ab8-8b19-22aaf0c4f82b</id>
+      <masked>false</masked>
+      <name>spotPurchaseOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Spot'</defaultValue>
+      <description></description>
+      <id>fd0c7c00-610f-4717-a133-dfede15ac265</id>
+      <masked>false</masked>
+      <name>orderTypeSpot</name>
+   </variable>
+   <variable>
+      <defaultValue>['Parts No.', 'Unit Parts No.', 'Back No.', 'Sales Order No.', 'Supplier Code', 'Shipper', 'SPQ', 'Order Lot', 'Order Qty', 'Unit Price', 'Currency', 'Status', 'InboundQty', 'InboundPlan', 'InboundPlanStatus', 'EstimateInbound']</defaultValue>
+      <description></description>
+      <id>7bd4c8e2-8647-420f-af87-a000fdb3e2e4</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

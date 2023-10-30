@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC132 - BU Check Cargo Tracking Detail -SY</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d03c73de-5010-4b69-9238-adf7f079d321</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>53f0f688-5535-4bf7-abbe-389aaa9ecdf1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9533b35b-68a5-4d69-9f4c-3b5558a66db6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3c9beadd-f54a-4d7e-831e-6db8faae295c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bad33795-0089-4537-9ab5-66b16d9e9362</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>82c993f5-d9e0-42c0-a2d0-c7bad0bdff77</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7801ef15-723f-432a-830f-b89f778e8cc3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>53f0f688-5535-4bf7-abbe-389aaa9ecdf1</id>
+      <masked>false</masked>
+      <name>bookingNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9533b35b-68a5-4d69-9f4c-3b5558a66db6</id>
+      <masked>false</masked>
+      <name>containerNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>['Booking Submitted', 'Booking Confirmed', 'Empty Container Release to Shipper', 'Cargo Outbound', 'Gate in (arrival at first POL)', 'Container loaded at first POL', 'Vessel departure from first POL', 'Vessel arrival at T/S port', 'Container discharge at T/S port', 'Container loaded at T/S port', 'Vessel departure from T/S', 'Vessel arrived at final POD (ATA)', 'Container unload at final POD', 'Container Gate out from final POD', 'Vessel arrived at final POD (ATA)', 'Container unload at final POD', 'Container Gate out from final POD']</defaultValue>
+      <description></description>
+      <id>3c9beadd-f54a-4d7e-831e-6db8faae295c</id>
+      <masked>false</masked>
+      <name>milestone</name>
+   </variable>
+   <variable>
+      <defaultValue>['Empty container pick-up (Empty Container Release to Shipper)', 'Gate in (Gate In to Outbound Terminal)', 'Loaded (Loaded on vessel at Port of Loading)', 'Departure (vessel Departure from Port of Loading)', 'Arrival (vessel Arrival at Transhipment Port)', 'Unload (Unloaded from vessel at Transhipment Port)', 'Loaded (Loaded on vessel at Transhipment Port)', 'Departure (Departure from Transhipment Port)', 'Arrival (vessel Arrival at Port of Discharging)', 'Unload (Unloaded from vessel at Port of Discharging)', 'Gate out (Gate Out from Inbound Terminal for Delivery to Consignee (or Port Shuttle))', 'Empty container returned (Empty Container Returned from Customer)']</defaultValue>
+      <description></description>
+      <id>bad33795-0089-4537-9ab5-66b16d9e9362</id>
+      <masked>false</masked>
+      <name>milestoneREALTIME</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>82c993f5-d9e0-42c0-a2d0-c7bad0bdff77</id>
+      <masked>false</masked>
+      <name>testDataForecast</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/Cargo syazwan/S10_TC132-PO')</defaultValue>
+      <description></description>
+      <id>7801ef15-723f-432a-830f-b89f778e8cc3</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC030-BU Check Sales Order -Regular</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9f208fc-089f-49cb-8932-3ebdd5d4441b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7a0c8a76-3966-4aa2-9604-991a78fec655</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0d1c5e25-f330-4177-9958-bfe2c6483f5b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7e0c1b38-2c1a-4494-99a3-a8e49349114b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e5da82b9-35d7-4901-bcfb-e52c64b25567</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1bcfe5fa-afc9-4de3-a674-f1ca80f99347</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>91e42bc8-cff0-4660-85e8-bf8801b50e95</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c0cb609c-2699-45ea-a106-acc44efa63c5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC004-BU to Customer Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>7a0c8a76-3966-4aa2-9604-991a78fec655</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC014-BU SO').getValue('RegularSalesOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>0d1c5e25-f330-4177-9958-bfe2c6483f5b</id>
+      <masked>false</masked>
+      <name>regularSalesOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC014-BU SO').getValue('SpotSalesOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>7e0c1b38-2c1a-4494-99a3-a8e49349114b</id>
+      <masked>false</masked>
+      <name>spotSalesOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Regular'</defaultValue>
+      <description></description>
+      <id>e5da82b9-35d7-4901-bcfb-e52c64b25567</id>
+      <masked>false</masked>
+      <name>orderTypeRegular</name>
+   </variable>
+   <variable>
+      <defaultValue>'Spot'</defaultValue>
+      <description></description>
+      <id>1bcfe5fa-afc9-4de3-a674-f1ca80f99347</id>
+      <masked>false</masked>
+      <name>orderTypeSpot</name>
+   </variable>
+   <variable>
+      <defaultValue>['Part no', 'Unit parts no', 'Back no', 'Purchase order no', 'Customer', 'SPQ', 'Order lot', 'Order qty', 'Unit price', 'Currency', 'Status', 'Delivered qty', 'InTransit qty', 'Receiver inbounded qty', 'Plan_OutIn_1', 'Status_OutIn_1', 'Plan_OutIn_2', 'Status_OutIn_2', 'Plan_OutIn_3', 'Status_OutIn_3', 'Plan_OutIn_4', 'Status_OutIn_4', 'Plan_OutIn_5', 'Status_OutIn_5']</defaultValue>
+      <description></description>
+      <id>91e42bc8-cff0-4660-85e8-bf8801b50e95</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 12\\Expected Data\\TC30\\Expected Sales Order Regular.xlsx'</defaultValue>
+      <description></description>
+      <id>c0cb609c-2699-45ea-a106-acc44efa63c5</id>
+      <masked>false</masked>
+      <name>expectedSOregular</name>
+   </variable>
+</TestCaseEntity>

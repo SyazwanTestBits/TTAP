@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC034-Customer Check Request List after BU Reject Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>45b5dfed-8f01-4f58-b449-369dd7a591ec</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ea6eb4d9-2098-4ea9-8132-d94d65556e13</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC021-BU to Customer Contract').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>ea6eb4d9-2098-4ea9-8132-d94d65556e13</id>
+      <masked>false</masked>
+      <name>RequestNo</name>
+   </variable>
+</TestCaseEntity>

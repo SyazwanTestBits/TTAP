@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC121.1 Sup2 autoGen Invoice No</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0f52ba12-42ba-4253-b80d-570d9eb08083</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fc393cd6-8a91-4c77-8fa0-260f6747522c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4ac161da-bae8-4271-98c7-ebdd439472a0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_ContractList').getValue(2, 4)</defaultValue>
+      <description></description>
+      <id>fc393cd6-8a91-4c77-8fa0-260f6747522c</id>
+      <masked>false</masked>
+      <name>contractID</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 10/S10_TestCases_Data.xlsx'</defaultValue>
+      <description></description>
+      <id>4ac161da-bae8-4271-98c7-ebdd439472a0</id>
+      <masked>false</masked>
+      <name>excelTestData</name>
+   </variable>
+</TestCaseEntity>

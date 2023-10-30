@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h6_Rundown Inventory Download</name>
+   <tag></tag>
+   <elementGuidId>a489c6c5-c0b4-4a53-861f-105206332598</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-base']/div[2]/div/div/div/h6</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h6.base-MuiTypography-root.base-base52.base-MuiTypography-subtitle1.base-MuiTypography-noWrap</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>f7fcce9a-b1c6-47bf-bf9e-642b639cc176</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiTypography-root base-base52 base-MuiTypography-subtitle1 base-MuiTypography-noWrap</value>
+      <webElementGuid>fd778c46-19f2-4621-9dfd-8073d2f8f928</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>mui-78227</value>
+      <webElementGuid>191af6a3-d743-41fe-8170-e6349c7502bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rundown Inventory Download</value>
+      <webElementGuid>8218c9c0-12e0-4f0d-b97b-a79d46a72d5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base1 base-base3 base-base5&quot;]/div[@class=&quot;base-MuiPaper-root base-MuiAlert-root base-MuiAlert-standardSuccess base-base50 base-MuiPaper-elevation0&quot;]/div[@class=&quot;base-MuiAlert-message&quot;]/div[@class=&quot;base-base51&quot;]/h6[@class=&quot;base-MuiTypography-root base-base52 base-MuiTypography-subtitle1 base-MuiTypography-noWrap&quot;]</value>
+      <webElementGuid>f67f300d-a0ee-4b96-a49f-59c153de178d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-base']/div[2]/div/div/div/h6</value>
+      <webElementGuid>36d59604-aedc-442b-80e0-02fa179eb36b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='l'])[1]/following::h6[1]</value>
+      <webElementGuid>b6f13d07-2d86-4a4e-93e8-9a651cf0699b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Management Tool'])[1]/following::h6[1]</value>
+      <webElementGuid>0d656f2a-9205-41c7-8a7a-3466d1f7e52a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::h6[1]</value>
+      <webElementGuid>7924174d-ce38-4036-9a04-1c6a384cd822</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::h6[1]</value>
+      <webElementGuid>515be934-01cd-43cd-b580-0fb65caf3e64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Rundown Inventory Download']/parent::*</value>
+      <webElementGuid>f45aa559-0c27-4968-8fbd-e486594bc95e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/h6</value>
+      <webElementGuid>b502d984-f7bb-4af4-a95d-a81129a7d5f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'Rundown Inventory Download' or . = 'Rundown Inventory Download')]</value>
+      <webElementGuid>d628bcff-5ec8-414b-966a-8bb15a186e81</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

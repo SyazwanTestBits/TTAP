@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_Request Remove Part</name>
+   <tag></tag>
+   <elementGuidId>9f0e655f-8ebc-417e-9b58-f35c12cf6e18</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div/div/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3.lcbm-MuiTypography-root.lcbm-MuiTypography-h3.lcbm-MuiTypography-colorPrimary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>c0427e05-49c3-49a2-b44d-dd09f5b0a12a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiTypography-root lcbm-MuiTypography-h3 lcbm-MuiTypography-colorPrimary</value>
+      <webElementGuid>e0ee6940-ecbe-4fb0-b7ac-823339186254</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Request Remove Part</value>
+      <webElementGuid>bc03378c-7ec8-43a2-b935-599a846e546b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm1 os-host-overflow os-host-overflow-y os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2&quot;]/div[@class=&quot;lcbm-lcbm1947&quot;]/div[1]/h3[@class=&quot;lcbm-MuiTypography-root lcbm-MuiTypography-h3 lcbm-MuiTypography-colorPrimary&quot;]</value>
+      <webElementGuid>fb7ffbb7-c4ef-4232-bb2e-8d11d2764a80</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div/div/h3</value>
+      <webElementGuid>3abe0b0b-931c-4176-ba31-e6f52eb48534</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/preceding::h3[1]</value>
+      <webElementGuid>11c7332b-38a5-4618-b3e0-0406f0218f11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='REQUEST TO'])[1]/preceding::h3[1]</value>
+      <webElementGuid>0e590089-7f06-49b3-b9d9-3e03e164346c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Request Remove Part']/parent::*</value>
+      <webElementGuid>b0dfd6c8-a659-4874-9114-2ffbd50c7ee5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>38568de0-cb51-4cfb-a231-98609c26153e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Request Remove Part' or . = 'Request Remove Part')]</value>
+      <webElementGuid>d929986b-88c4-406a-8306-60294e22ba4d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

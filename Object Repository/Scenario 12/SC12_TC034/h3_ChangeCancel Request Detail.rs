@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_ChangeCancel Request Detail</name>
+   <tag></tag>
+   <elementGuidId>9e839f5b-6fc8-4e01-8beb-06d17a1dc814</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h3.lcbm-MuiTypography-root.lcbm-MuiTypography-h3.lcbm-MuiTypography-colorPrimary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div/div/h3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>fec3bee1-ad16-4392-bceb-29991ce2f185</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiTypography-root lcbm-MuiTypography-h3 lcbm-MuiTypography-colorPrimary</value>
+      <webElementGuid>d084e979-151f-4aac-9fbf-997e942e4556</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Change/Cancel Request Detail</value>
+      <webElementGuid>c87ce718-8e0f-4cf0-8d14-275b6787e1c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm1 os-host-overflow os-host-overflow-y os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2&quot;]/div[@class=&quot;lcbm-lcbm144&quot;]/div[1]/h3[@class=&quot;lcbm-MuiTypography-root lcbm-MuiTypography-h3 lcbm-MuiTypography-colorPrimary&quot;]</value>
+      <webElementGuid>d2808952-bf1e-4f92-974a-3acfe762e90c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div/div/h3</value>
+      <webElementGuid>355ce953-af20-47e7-bdc4-b297ae45b426</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Request Detail Information'])[1]/preceding::h3[1]</value>
+      <webElementGuid>c8aa8767-22b8-4f5b-8978-4e2f7aef7efd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parts Detail Information'])[1]/preceding::h3[1]</value>
+      <webElementGuid>fc3f8d2c-5dc2-47ab-b77b-16ba5500eeb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Change/Cancel Request Detail']/parent::*</value>
+      <webElementGuid>1121f190-2317-4299-b868-937a84d00bc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>b44cfb80-b695-4cbb-bb6b-372fa1c15ab8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Change/Cancel Request Detail' or . = 'Change/Cancel Request Detail')]</value>
+      <webElementGuid>501fc6e0-f58e-4699-98a3-9d9a8d4f88f9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

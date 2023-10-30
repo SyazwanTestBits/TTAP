@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Purchase Amount-CNTW-SUP</name>
+   <tag></tag>
+   <elementGuidId>896e9468-1ae6-417b-b195-7765b398405a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div[2]/div[2]/div[2]/div[2]/div/div/div[4]/div/div/div/table[2]/tbody/tr[3]/td[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a67e4c88-1357-4824-a067-407804ab2fe8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-lcbm1259</value>
+      <webElementGuid>33584330-0727-493a-948c-16c89dff1118</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>-</value>
+      <webElementGuid>37ea6745-b8f0-4535-953d-1fb0e08b634c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm985 os-host-overflow os-host-overflow-y os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm986&quot;]/div[@class=&quot;lcbm-lcbm989&quot;]/div[@class=&quot;lcbm-MuiGrid-root lcbm-MuiGrid-container lcbm-MuiGrid-spacing-xs-2&quot;]/div[@class=&quot;lcbm-MuiGrid-root lcbm-MuiGrid-item lcbm-MuiGrid-grid-md-9&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm1169 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-lcbm1176&quot;]/div[@class=&quot;lcbm-MuiGrid-root lcbm-MuiGrid-container lcbm-MuiGrid-spacing-xs-2&quot;]/div[@class=&quot;lcbm-MuiGrid-root lcbm-MuiGrid-item lcbm-MuiGrid-grid-xs-6&quot;]/div[2]/div[@class=&quot;lcbm-lcbm1245&quot;]/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm988 os-host-scrollbar-vertical-hidden os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[1]/table[@class=&quot;lcbm-MuiTable-root&quot;]/tbody[@class=&quot;lcbm-MuiTableBody-root&quot;]/tr[@class=&quot;lcbm-MuiTableRow-root lcbm-lcbm1257&quot;]/td[@class=&quot;lcbm-MuiTableCell-root lcbm-MuiTableCell-body lcbm-lcbm1258&quot;]/div[@class=&quot;lcbm-lcbm1259&quot;]</value>
+      <webElementGuid>e3bf4284-57c3-4e76-9cff-0bab035c06fa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div/div/div/div[2]/div[2]/div[2]/div[2]/div[2]/div/div/div[4]/div/div/div/table[2]/tbody/tr[3]/td[2]/div</value>
+      <webElementGuid>72b4911c-136c-4bcf-87a1-c4686db5c165</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Purchase Amount, by Supplier, by Country'])[1]/following::div[28]</value>
+      <webElementGuid>1b28395a-d2bb-414c-9fda-5b8e6cf6c847</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FusionCharts Trial'])[1]/following::div[33]</value>
+      <webElementGuid>24772b55-fc7f-41f8-af2d-75e38773161e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Completed Deliveries'])[2]/preceding::div[8]</value>
+      <webElementGuid>3e8bc801-db88-49f1-803f-f47a93b2b448</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AND'])[1]/preceding::div[9]</value>
+      <webElementGuid>d961f96c-d00f-4c6a-8674-51ec2207b5ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td[2]/div</value>
+      <webElementGuid>fb160899-c6ff-4130-b98e-efef4274bb01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '-' or . = '-')]</value>
+      <webElementGuid>23ea79e8-5abf-48ca-bcc9-eb17fbb454ba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

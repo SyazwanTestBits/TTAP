@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC011- Customer Request Remove Part</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb24a22e-a098-454c-beba-70f11f330150</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC001.2- Supplier Create Shipping Route').getValue(9, 1)</defaultValue>
+      <description></description>
+      <id>5fee89fa-5d94-43e2-9646-ffefc080a6eb</id>
+      <masked>false</masked>
+      <name>requestTo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC011- Request No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>8cdd1795-72d9-4a0a-affd-a82a18ce0ba0</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC002- Contract Part Info').getValue(2, 5)</defaultValue>
+      <description></description>
+      <id>509fa9b7-d14b-4b87-a9f3-55b3fd065149</id>
+      <masked>false</masked>
+      <name>partsNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC002- Contract Part Info').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>664f46cd-0ba3-493a-b310-a8db38c7caac</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 17'</defaultValue>
+      <description></description>
+      <id>0cc8a785-f2de-4e66-aa55-5c0884177b78</id>
+      <masked>false</masked>
+      <name>filePath</name>
+   </variable>
+   <variable>
+      <defaultValue>'S17_TestCases_Data.xlsx'</defaultValue>
+      <description></description>
+      <id>727c4b10-2f9e-4150-9bf9-6dddfd9a336c</id>
+      <masked>false</masked>
+      <name>fileName</name>
+   </variable>
+   <variable>
+      <defaultValue>'T11- RequestNo'</defaultValue>
+      <description></description>
+      <id>bcaf732c-3772-4f03-8e18-ba754fa1e805</id>
+      <masked>false</masked>
+      <name>sheetName</name>
+   </variable>
+</TestCaseEntity>

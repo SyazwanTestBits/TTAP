@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC038.1-Get Contract Route Code</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d43a2892-4220-48f9-8f17-cc7da0389acf</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6ec821e6-22a8-4f84-8b32-544e8941e060</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC038-SUP to BU Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>6ec821e6-22a8-4f84-8b32-544e8941e060</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+</TestCaseEntity>

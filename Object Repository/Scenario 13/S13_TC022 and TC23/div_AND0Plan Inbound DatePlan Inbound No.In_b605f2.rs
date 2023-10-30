@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_AND0Plan Inbound DatePlan Inbound No.In_b605f2</name>
+   <tag></tag>
+   <elementGuidId>d2fa958f-ee58-4059-be3a-cbaccb4d09dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.lcbm-lcbm1515</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d28b629c-1756-4211-86eb-2bc33532bf1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-lcbm1515</value>
+      <webElementGuid>02c4a7fa-8399-4000-a1b4-b8ba0d9316eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AND0Plan Inbound DatePlan Inbound No.Inbound TypeData TypeShipperShipping ModePort CodeETDETAOutbound No.Outbound DateStatusAug 21, 2023i-PK-CUS-POC-230804001From SupplierNormalCNTW-SUP-POCSeaCNTAIWANAug 11, 2023Aug 21, 2023o-CNTW-SUP-POC-230804-02Aug 4, 2023IncomingAug 21, 2023i-PK-CUS-POC-230804002From SupplierNormalCNTW-SUP-POCSeaCNTAIWANAug 11, 2023Aug 21, 2023o-CNTW-SUP-POC-230804-02Aug 4, 2023IncomingAug 21, 2023i-PK-CUS-POC-230804003From SupplierNormalCNTW-SUP-POCSeaCNTAIWANAug 11, 2023Aug 21, 2023o-CNTW-SUP-POC-230804-02Aug 4, 2023IncomingShowing 1~3 out of 3 resultsShow:20 rows1</value>
+      <webElementGuid>817ca3a1-50dd-456f-a940-74a2211738b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-scrollbar-vertical-hidden lcbm-lcbm1 os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2 lcbm-lcbm3&quot;]/div[@class=&quot;lcbm-lcbm7 lcbm-lcbm8&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm9 lcbm-lcbm10 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-lcbm28&quot;]/div[@class=&quot;lcbm-lcbm1515&quot;]</value>
+      <webElementGuid>c36a6d4e-9c8a-4d2e-946b-3121083ae2ff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div/div/div</value>
+      <webElementGuid>38c57206-c687-4e36-9b43-1ccd10171706</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inbound Monitor List'])[1]/following::div[5]</value>
+      <webElementGuid>2aa4a09c-bc86-4bb8-85a5-29c212a89d8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/preceding::div[130]</value>
+      <webElementGuid>8fa40956-302e-4a6b-90a9-294b1e0f11d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/div/div</value>
+      <webElementGuid>085a2984-1299-4ca6-9697-74a86025b84b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'AND0Plan Inbound DatePlan Inbound No.Inbound TypeData TypeShipperShipping ModePort CodeETDETAOutbound No.Outbound DateStatusAug 21, 2023i-PK-CUS-POC-230804001From SupplierNormalCNTW-SUP-POCSeaCNTAIWANAug 11, 2023Aug 21, 2023o-CNTW-SUP-POC-230804-02Aug 4, 2023IncomingAug 21, 2023i-PK-CUS-POC-230804002From SupplierNormalCNTW-SUP-POCSeaCNTAIWANAug 11, 2023Aug 21, 2023o-CNTW-SUP-POC-230804-02Aug 4, 2023IncomingAug 21, 2023i-PK-CUS-POC-230804003From SupplierNormalCNTW-SUP-POCSeaCNTAIWANAug 11, 2023Aug 21, 2023o-CNTW-SUP-POC-230804-02Aug 4, 2023IncomingShowing 1~3 out of 3 resultsShow:20 rows1' or . = 'AND0Plan Inbound DatePlan Inbound No.Inbound TypeData TypeShipperShipping ModePort CodeETDETAOutbound No.Outbound DateStatusAug 21, 2023i-PK-CUS-POC-230804001From SupplierNormalCNTW-SUP-POCSeaCNTAIWANAug 11, 2023Aug 21, 2023o-CNTW-SUP-POC-230804-02Aug 4, 2023IncomingAug 21, 2023i-PK-CUS-POC-230804002From SupplierNormalCNTW-SUP-POCSeaCNTAIWANAug 11, 2023Aug 21, 2023o-CNTW-SUP-POC-230804-02Aug 4, 2023IncomingAug 21, 2023i-PK-CUS-POC-230804003From SupplierNormalCNTW-SUP-POCSeaCNTAIWANAug 11, 2023Aug 21, 2023o-CNTW-SUP-POC-230804-02Aug 4, 2023IncomingShowing 1~3 out of 3 resultsShow:20 rows1')]</value>
+      <webElementGuid>e8f2d5e0-70b6-4e01-9fc7-df9f9e8491f6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

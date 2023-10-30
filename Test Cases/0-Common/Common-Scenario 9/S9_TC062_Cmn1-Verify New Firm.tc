@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC062_Cmn1-Verify New Firm</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27e6a815-2322-47a1-a511-5ddf10236ba0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>95f9cb5c-4712-4783-879a-baafe25eca29</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData(null)</defaultValue>
+      <description></description>
+      <id>95f9cb5c-4712-4783-879a-baafe25eca29</id>
+      <masked>false</masked>
+      <name>datafile_suporderchange</name>
+   </variable>
+</TestCaseEntity>

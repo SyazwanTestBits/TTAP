@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC010-Supplier Check Contract Route</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1dd1514-efdb-47f2-ae1c-e5ea8c2dcc63</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>01479359-8d52-4511-9a3c-820f776604a5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC002-BU to Customer Contract').getValue('ContractRouteCode', 1)</defaultValue>
+      <description></description>
+      <id>01479359-8d52-4511-9a3c-820f776604a5</id>
+      <masked>false</masked>
+      <name>contractRouteCode</name>
+   </variable>
+</TestCaseEntity>

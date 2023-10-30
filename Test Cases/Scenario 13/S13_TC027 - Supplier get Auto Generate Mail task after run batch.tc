@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC027 - Supplier get Auto Generate Mail task after run batch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c99f0092-a178-4b5c-87a7-4c065e2e3600</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0a7497d7-f028-4bac-8209-0fa499eb9c6a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>040d1361-f2c4-4fe3-b33c-7c8f430ac322</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2480cee2-84b2-4df5-a107-1de5c259f1ea</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1ad7d900-8b67-428f-88d7-4191e3398b61</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC022').getValue('Ann Header', 1)</defaultValue>
+      <description></description>
+      <id>0a7497d7-f028-4bac-8209-0fa499eb9c6a</id>
+      <masked>false</masked>
+      <name>announcement_header</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC022').getValue('Ann Content', 1)</defaultValue>
+      <description></description>
+      <id>040d1361-f2c4-4fe3-b33c-7c8f430ac322</id>
+      <masked>false</masked>
+      <name>announcement_contect</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.NOTIFICATION_TEST_EMAIL</defaultValue>
+      <description></description>
+      <id>2480cee2-84b2-4df5-a107-1de5c259f1ea</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.NOTIFICATION_TEST_EMAIL_PWD</defaultValue>
+      <description></description>
+      <id>1ad7d900-8b67-428f-88d7-4191e3398b61</id>
+      <masked>false</masked>
+      <name>appPassword</name>
+   </variable>
+</TestCaseEntity>

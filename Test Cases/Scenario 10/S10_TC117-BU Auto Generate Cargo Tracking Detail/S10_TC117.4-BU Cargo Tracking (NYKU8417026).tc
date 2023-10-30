@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC117.4-BU Cargo Tracking (NYKU8417026)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c22cb08d-8ec8-40b7-9e5c-267ec53ddae9</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>d3b00258-8970-4a42-9372-dc1494e5134e</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC058nTC059</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d28372fd-e7f6-4ea5-b4b6-d9212219b5ec</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8b6e5275-2c75-4219-a5eb-429cbf039b0e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8313f50c-3b59-4a63-b943-e72ac16ac4b5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Booking Submitted', 'Booking Confirmed', 'Empty Container Release to Shipper', 'Cargo Outbound', 'Gate in (arrival at first POL)', 'Container loaded at first POL', 'Vessel departure from first POL', 'Vessel arrival at T/S port', 'Container discharge at T/S port', 'Container loaded at T/S port', 'Vessel departure from T/S', 'Exp clearance in progress', 'Exp clearance completed', 'Exp clearance in progress', 'Exp clearance completed', 'Imp clearance in progress', 'Imp clearance completed', 'Imp clearance in progress', 'Imp clearance completed', 'Vessel arrived at final POD (ATA)', 'Container unload at final POD', 'Container Gate out from final POD', 'Cargo Inbound']</defaultValue>
+      <description></description>
+      <id>d28372fd-e7f6-4ea5-b4b6-d9212219b5ec</id>
+      <masked>false</masked>
+      <name>milestone</name>
+   </variable>
+   <variable>
+      <defaultValue>['Empty container pick-up (Empty Container Release to Shipper)', 'Gate in (Gate In to Outbound Terminal)', 'Loaded (Loaded on vessel at Port of Loading)', 'Departure (vessel Departure from Port of Loading)', 'Arrival (vessel Arrival at Transhipment Port)', 'Unload (Unloaded from vessel at Transhipment Port)', 'Loaded (Loaded on vessel at Transhipment Port)', 'Departure (Departure from Transhipment Port)', 'Arrival (vessel Arrival at Port of Discharging)', 'Unload (Unloaded from vessel at Port of Discharging)', 'Gate out (Gate Out from Inbound Terminal for Delivery to Consignee (or Port Shuttle))', 'Empty container returned (Empty Container Returned from Customer)']</defaultValue>
+      <description></description>
+      <id>8b6e5275-2c75-4219-a5eb-429cbf039b0e</id>
+      <masked>false</masked>
+      <name>milestoneREALTIME</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC117-BU Auto Generate Cargo Tracking').getValue('ContainerNo', 4)</defaultValue>
+      <description></description>
+      <id>8313f50c-3b59-4a63-b943-e72ac16ac4b5</id>
+      <masked>false</masked>
+      <name>containerNo</name>
+   </variable>
+</TestCaseEntity>

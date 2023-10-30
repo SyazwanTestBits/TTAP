@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC077- Admin upload PO Balance with partial parts in one Contract - NEW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae1e9a03-0628-4716-8e52-22db0ceabb91</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6522d69b-6241-4dd6-a666-81f7046bb593</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1eb240e3-3e2b-4df4-b271-d8ecc0190112</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a3caf232-681b-4bbe-9ffa-c8e99e325c63</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>677e74f8-e981-4019-81af-2f8b450d461c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e281d05e-0da6-41e7-80ff-df02dfe8522d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e219d649-0d39-4c75-b449-328735792249</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'MY-ELA-SUP'</defaultValue>
+      <description></description>
+      <id>6522d69b-6241-4dd6-a666-81f7046bb593</id>
+      <masked>false</masked>
+      <name>supplierID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC049-AutoGen').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>1eb240e3-3e2b-4df4-b271-d8ecc0190112</id>
+      <masked>false</masked>
+      <name>contractID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC077').getValue('Parts No.', 1)</defaultValue>
+      <description></description>
+      <id>a3caf232-681b-4bbe-9ffa-c8e99e325c63</id>
+      <masked>false</masked>
+      <name>partID</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 10/S10_TC077.xlsx'</defaultValue>
+      <description></description>
+      <id>677e74f8-e981-4019-81af-2f8b450d461c</id>
+      <masked>false</masked>
+      <name>uploadNew</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC077')</defaultValue>
+      <description></description>
+      <id>e281d05e-0da6-41e7-80ff-df02dfe8522d</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>[('NEW/MOD') : 0, ('Parts No.') : 2, ('Supplier Contract No.') : 3, ('Supplier') : 4, ('Supplier Parts No.') : 5, ('PNA Parts No.') : 6, ('Sales Order No.') : 7, ('Purchase Order No.') : 8, ('Supplier DR Date') : 9, ('PNA Request Date') : 10, ('Firm Qty') : 11, ('Price') : 12, ('Currency') : 13, ('MOQ') : 14, ('MPQ') : 15, ('UOM Code (PNA)') : 16, ('UOM Code (Supplier)') : 17, ('Change Rate') : 18, ('Supplier Leadtime (Week)') : 19, ('Shipping Leadtime (Week)') : 20]</defaultValue>
+      <description></description>
+      <id>e219d649-0d39-4c75-b449-328735792249</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

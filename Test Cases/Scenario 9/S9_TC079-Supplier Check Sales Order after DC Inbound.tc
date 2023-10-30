@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC079-Supplier Check Sales Order after DC Inbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9e02223-8a17-473d-b532-37ef7f4d422f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c46541a0-8c0d-4805-a652-e13b51021384</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8b75e5fb-4c04-4f16-9e05-36a9d7f752a5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ef5bb88c-03a5-4036-81ce-51d6ccf00a2b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC046-Autogen SUP Sales Order').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c46541a0-8c0d-4805-a652-e13b51021384</id>
+      <masked>false</masked>
+      <name>supOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC079-Supplier Check SO')</defaultValue>
+      <description></description>
+      <id>8b75e5fb-4c04-4f16-9e05-36a9d7f752a5</id>
+      <masked>false</masked>
+      <name>datafile_outbound</name>
+   </variable>
+   <variable>
+      <defaultValue>[(1) : 'Completed', (2) : 'Completed', (3) : 'Completed']</defaultValue>
+      <description></description>
+      <id>ef5bb88c-03a5-4036-81ce-51d6ccf00a2b</id>
+      <masked>false</masked>
+      <name>mapverify_partsdetail</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC110- Supp1 create supplier order change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>436a6511-077b-4176-952a-f5ffc6213ad0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3748afc7-f6e8-4f8a-b884-f19106085a9b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>de2ed2ca-d4ad-4783-a596-67582ca0babc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d1559149-8fbf-4b69-b5c0-f31accebb687</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>48a63098-3076-47ca-b5d8-2e5a834d23f0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bc181fc9-d580-47c5-a8a7-939042914de5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC110').getValue('SOid', 1)</defaultValue>
+      <description></description>
+      <id>3748afc7-f6e8-4f8a-b884-f19106085a9b</id>
+      <masked>false</masked>
+      <name>SOid</name>
+   </variable>
+   <variable>
+      <defaultValue>[('New Firm') : 15, ('InboundNewDate_Qty1') : 26, ('InboundNewDate_Qty2') : 27]</defaultValue>
+      <description></description>
+      <id>de2ed2ca-d4ad-4783-a596-67582ca0babc</id>
+      <masked>false</masked>
+      <name>mapKeyandColIndex</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC110')</defaultValue>
+      <description></description>
+      <id>d1559149-8fbf-4b69-b5c0-f31accebb687</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC110-Date')</defaultValue>
+      <description></description>
+      <id>48a63098-3076-47ca-b5d8-2e5a834d23f0</id>
+      <masked>false</masked>
+      <name>inboundDateNew</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_ContractList').getValue(2, 3)</defaultValue>
+      <description></description>
+      <id>bc181fc9-d580-47c5-a8a7-939042914de5</id>
+      <masked>false</masked>
+      <name>ContractID</name>
+   </variable>
+</TestCaseEntity>

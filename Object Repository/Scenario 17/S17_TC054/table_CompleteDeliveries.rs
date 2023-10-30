@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_CompleteDeliveries</name>
+   <tag></tag>
+   <elementGuidId>840f0b60-1b1b-41ac-9b54-7b20aa9547af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//table[@class='lcbm-MuiTable-root'][2])[2]//tr[${lrow}]//td[${lcol}]//div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

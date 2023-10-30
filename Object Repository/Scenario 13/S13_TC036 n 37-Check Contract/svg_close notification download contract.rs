@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_close notification download contract</name>
+   <tag></tag>
+   <elementGuidId>1edf4cb9-08fc-428c-842d-36ac31acb129</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Contract Master By filters.'])[1]/following::*[name()='svg'][2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>043e38b5-ced1-4cbb-b924-9d1e69ff88d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiSvgIcon-root</value>
+      <webElementGuid>6a180e12-612d-4991-baf2-8fe121d5016a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>44782b1d-dc49-4c5b-b938-8a664260af51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+      <webElementGuid>2a981599-54b7-4395-a324-21f4e6430482</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>c2a8349a-3299-452c-a087-4a8833ac0ad7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>mui-91799</value>
+      <webElementGuid>28e42b40-4972-4f93-9f47-c29ee1ed90e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base1 base-base3 base-base5&quot;]/div[@class=&quot;base-MuiPaper-root base-MuiAlert-root base-MuiAlert-standardSuccess base-base75 base-MuiPaper-elevation0&quot;]/div[@class=&quot;base-MuiAlert-message&quot;]/div[@class=&quot;base-base76&quot;]/button[@class=&quot;base-MuiButtonBase-root base-MuiIconButton-root base-MuiIconButton-sizeSmall&quot;]/span[@class=&quot;base-MuiIconButton-label&quot;]/svg[@class=&quot;base-MuiSvgIcon-root&quot;]</value>
+      <webElementGuid>62478193-8019-4a49-a641-f25547dd928d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Contract Master By filters.'])[1]/following::*[name()='svg'][2]</value>
+      <webElementGuid>c6bfd5f9-9f16-4e84-a1c8-705376fff2cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='a'])[1]/following::*[name()='svg'][4]</value>
+      <webElementGuid>c55eb44f-29d5-4b68-8f3f-48ce750884e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Contract Parts Master By filters.'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>577b8bfe-d59e-4646-abad-12863ae0d861</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::*[name()='svg'][5]</value>
+      <webElementGuid>1b38d742-7df2-45d0-a083-117d52265ede</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

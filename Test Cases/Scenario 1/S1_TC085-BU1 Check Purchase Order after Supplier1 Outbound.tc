@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC085-BU1 Check Purchase Order after Supplier1 Outbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6a4a60b2-31fb-4c7e-b0f6-a802c4de4fa0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>af05af1f-7374-4839-b14e-331e84e6ee7e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0c6af173-2640-4f05-b960-534054ff6c1b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dc06b6ae-d9f6-42fc-9ff7-5a4aefacbce4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC047-AutoGen OrderNo Spot').getValue('BU1_PO', 1)</defaultValue>
+      <description></description>
+      <id>5f89d153-7226-4213-aadf-064ea7516d61</id>
+      <masked>false</masked>
+      <name>spotOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('BU1_PO', 1)</defaultValue>
+      <description></description>
+      <id>bc1a8f76-28b1-4b01-bf76-61f159136314</id>
+      <masked>false</masked>
+      <name>regularOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC085-BU1 PO Details')</defaultValue>
+      <description></description>
+      <id>0c6af173-2640-4f05-b960-534054ff6c1b</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>['Parts No', 'Unit Parts No', 'Back No', 'Sales Order No', 'Supplier Code', 'Shipper', 'SPQ', 'Order Lot', 'Order Qty', 'Unit Price', 'Currency', 'Status', 'Inbounded Qty', 'Inbound Plan Qty 1', 'Inbound Plan Status 1', 'Inbound Plan Qty 2', 'Inbound Plan Status 2', 'Estimated Inbound Qty']</defaultValue>
+      <description></description>
+      <id>dc06b6ae-d9f6-42fc-9ff7-5a4aefacbce4</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

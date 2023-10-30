@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC044-Supplier Outbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee4ca9e2-4c44-48e8-8af5-dc342f9b7aff</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>5061b3bb-e390-40de-bc67-8adeb20bc1bb</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC052-Download Outbound Form</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cdd28b6b-f257-41ea-8eda-572d381a7fc7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>90e97da9-7f87-4e8a-95bf-1ef39ab8710a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e6eb6afd-1041-4bc8-b661-cb49f1804bba</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>162d693e-c692-444e-a4f3-ef314ee05f4d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.BAF_USERNAME_FATIN</defaultValue>
+      <description></description>
+      <id>cdd28b6b-f257-41ea-8eda-572d381a7fc7</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.BAF_PWD</defaultValue>
+      <description></description>
+      <id>90e97da9-7f87-4e8a-95bf-1ef39ab8710a</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.BAF_COMPANY_SUP</defaultValue>
+      <description></description>
+      <id>e6eb6afd-1041-4bc8-b661-cb49f1804bba</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC044-Outbound No')</defaultValue>
+      <description></description>
+      <id>162d693e-c692-444e-a4f3-ef314ee05f4d</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

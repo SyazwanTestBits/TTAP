@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h6_Booking Number</name>
+   <tag></tag>
+   <elementGuidId>0a8f1037-ae07-4a1b-8264-df913fee9215</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@title = '${buttonbookno}' and (text() = '${buttonbookno}' or . = '${buttonbookno}')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div[3]/div[2]/div/div/div/div/div/div/div/div/h6</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h6.lcbm-MuiTypography-root.lcbm-lcbm41.lcbm-MuiTypography-subtitle2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>3bdd1b68-42ff-4027-b653-105b0cf1c76c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiTypography-root lcbm-lcbm41 lcbm-MuiTypography-subtitle2</value>
+      <webElementGuid>6083aa8e-0799-4f22-aff2-f2eba628d0f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>${buttonbookno}</value>
+      <webElementGuid>c5845bf4-2cba-433e-afe3-e0c1a131fece</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${buttonbookno}</value>
+      <webElementGuid>3df63704-a132-46d2-90d1-116a5957890a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm1 os-host-transition os-host-overflow os-host-overflow-y&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2&quot;]/div[@class=&quot;lcbm-lcbm7&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm9 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiCollapse-root lcbm-MuiCollapse-entered&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapper&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapperInner&quot;]/div[@class=&quot;lcbm-lcbm28&quot;]/div[@class=&quot;lcbm-lcbm35&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm38 lcbm-MuiPaper-elevation20 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiCardContent-root lcbm-lcbm39&quot;]/div[@class=&quot;lcbm-MuiGrid-root lcbm-MuiGrid-container lcbm-MuiGrid-direction-xs-column-reverse lcbm-MuiGrid-align-items-xs-center lcbm-MuiGrid-align-content-xs-center&quot;]/div[@class=&quot;lcbm-MuiGrid-root lcbm-MuiGrid-item&quot;]/h6[@class=&quot;lcbm-MuiTypography-root lcbm-lcbm41 lcbm-MuiTypography-subtitle2&quot;]</value>
+      <webElementGuid>dc3cd4e4-0d14-4b56-a420-0073c19ff4be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div[3]/div[2]/div/div/div/div/div/div/div/div/h6</value>
+      <webElementGuid>42a3a153-3824-4df5-be82-968a91a06235</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Order/s To Retrieve Cargo Tracking Information'])[1]/following::h6[1]</value>
+      <webElementGuid>7836b5f8-708f-4c75-acf2-79c3994cf2ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::h6[2]</value>
+      <webElementGuid>b04f2dee-bc35-4aeb-8705-5892787e1d8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Booking Number: B-230718-01    Container Number: SEGU5069987'])[1]/preceding::h6[1]</value>
+      <webElementGuid>050de11e-3a25-4ef3-8969-5adcbff9cc10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)=':']/parent::*</value>
+      <webElementGuid>c34fe1f6-311a-4f55-84db-b42d17f4bdaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/div/div/h6</value>
+      <webElementGuid>7c7d8d49-857c-41fd-a0ed-d8dff426268e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[@title = 'Booking Number: B-230718-01' and (text() = 'Booking Number: B-230718-01' or . = 'Booking Number: B-230718-01')]</value>
+      <webElementGuid>c17af764-c8c4-4f65-bb66-a0a81b1ccaa7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

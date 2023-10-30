@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC043-Combine Order Batch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d313263d-038f-474a-9535-85f230f7684c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0df88fec-7d91-4827-bbf4-a6d1d5d12f63</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.BRIVGE_BATCH_URL</defaultValue>
+      <description></description>
+      <id>0df88fec-7d91-4827-bbf4-a6d1d5d12f63</id>
+      <masked>false</masked>
+      <name>batch_url</name>
+   </variable>
+</TestCaseEntity>

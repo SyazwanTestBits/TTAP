@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_CommonOptions</name>
+   <tag></tag>
+   <elementGuidId>b82b4b74-0d51-4d4e-a248-74ad6dcd5905</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/label/span[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = '${commonOptions}' or . = '${commonOptions}')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1a0c339a-c5b4-4b4e-8d6b-def527ea664f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiTypography-root lcbm-MuiFormControlLabel-label lcbm-MuiTypography-body1</value>
+      <webElementGuid>6b9f459d-6b3f-49fa-ad3c-0c1c3c567fe3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${commonOptions}</value>
+      <webElementGuid>c63bed47-12f5-49bf-a2c1-524569aab31f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm1 os-host-overflow os-host-overflow-y os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2&quot;]/div[@class=&quot;lcbm-lcbm5&quot;]/div[@class=&quot;lcbm-lcbm97&quot;]/div[@class=&quot;lcbm-lcbm103&quot;]/div[@class=&quot;lcbm-lcbm104&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm106 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-lcbm109&quot;]/div[@class=&quot;lcbm-MuiGrid-root lcbm-lcbm140 lcbm-MuiGrid-container lcbm-MuiGrid-spacing-xs-3 lcbm-MuiGrid-direction-xs-column&quot;]/div[@class=&quot;lcbm-MuiFormGroup-root&quot;]/div[@class=&quot;lcbm-MuiGrid-root lcbm-MuiGrid-item lcbm-MuiGrid-grid-xs-4&quot;]/label[@class=&quot;lcbm-MuiFormControlLabel-root&quot;]/span[@class=&quot;lcbm-MuiTypography-root lcbm-MuiFormControlLabel-label lcbm-MuiTypography-body1&quot;]</value>
+      <webElementGuid>4c9b2158-0caf-4111-a10e-1010f464a3c1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/label/span[2]</value>
+      <webElementGuid>d098b3e6-605d-42c5-90d9-622b5e451439</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Distribution Center'])[1]/following::span[4]</value>
+      <webElementGuid>7b012281-8c3a-4a22-b649-6d88d078660e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Supplier'])[1]/following::span[8]</value>
+      <webElementGuid>4e8f1e31-c642-4ae7-a16a-9256c3a44a7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='State'])[1]/preceding::span[4]</value>
+      <webElementGuid>9fc92c0c-5608-4b76-a7a3-ff00e26606d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UOM'])[1]/preceding::span[8]</value>
+      <webElementGuid>59dbe917-5406-444d-9586-3d9e3ecba811</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Region']/parent::*</value>
+      <webElementGuid>9790eaf1-0e1c-4af2-8bb1-e8be39b649d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/label/span[2]</value>
+      <webElementGuid>61d33c1c-3320-4fcf-be3f-29cda4afea58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Region' or . = 'Region')]</value>
+      <webElementGuid>f0d19dcf-3a5d-4df6-9bdd-02d271d42fd4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC115-Supplier2 Outbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c916a6c3-5439-4de3-b49b-002d3a869cf1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bb697502-f877-45cf-a8ad-02dae17b984a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>836c5fb0-df6e-4546-8d26-caeb1aafc4ad</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0cb5ac09-9057-4580-881b-5a5ae97a4d31</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>07e1259a-40a8-4d43-9061-0c255ad474ea</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c98e8fd9-8cd7-423f-bd85-aa99989a97f7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC115-Supplier2 Outbound')</defaultValue>
+      <description></description>
+      <id>bb697502-f877-45cf-a8ad-02dae17b984a</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>[('No') : 1, ('Shipper') : 2, ('OutboundNo') : 3, ('OutboundDate') : 4, ('OutboundTime') : 5, ('BookingNo') : 6, ('PartsNo') : 7, ('UOM') : 8, ('OutboundQty') : 9, ('ShippingMode') : 10, ('OutboundType') : 11, ('Receiver') : 12, ('Buyer') : 13, ('ETD') : 14, ('ETA') : 15, ('ContainerNo') : 16, ('ContainerType') : 17, ('CommodityType') : 18, ('SealNo') : 19, ('C_M3') : 20, ('C_NetWeight') : 21, ('C_GrossWeight') : 22, ('OuterPackageNo') : 23, ('OuterPackageType') : 24, ('OP_M3') : 25, ('OP_NetWeight') : 26, ('OP_GrossWeight') : 27, ('InnerPackageNo') : 28, ('InnerPackageType') : 29, ('IP_M3') : 30, ('IP_NetWeight') : 31, ('IP_GrossWeight') : 32, ('SalesOrderNo') : 33, ('Seller') : 34, ('SellerPartsNo') : 35, ('SellerPartsDescription') : 36, ('SellerBackNo') : 37, ('ColorCode') : 38, ('SRBQ') : 39, ('RemainingQtyAvailable') : 40]</defaultValue>
+      <description></description>
+      <id>836c5fb0-df6e-4546-8d26-caeb1aafc4ad</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>'Outbound'</defaultValue>
+      <description></description>
+      <id>0cb5ac09-9057-4580-881b-5a5ae97a4d31</id>
+      <masked>false</masked>
+      <name>downloadedFormSheetname</name>
+   </variable>
+   <variable>
+      <defaultValue>7</defaultValue>
+      <description></description>
+      <id>07e1259a-40a8-4d43-9061-0c255ad474ea</id>
+      <masked>false</masked>
+      <name>startRowFormMinusOne</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC115-Outbound No')</defaultValue>
+      <description></description>
+      <id>c98e8fd9-8cd7-423f-bd85-aa99989a97f7</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC045-Supplier Auto Generate Seller GI Invoice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>631dc605-3453-401c-96d6-9789a0059c7e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>78f53109-dd8d-4195-9027-9cbeeb3972a8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6cd8e8ed-5bb0-41bc-9e4f-5ae5deb82b2c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0aff44cd-6c6b-4c29-85ba-f44608890037</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>84199c88-8b82-4f14-b9fc-064ccdb54b32</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 12'</defaultValue>
+      <description></description>
+      <id>78f53109-dd8d-4195-9027-9cbeeb3972a8</id>
+      <masked>false</masked>
+      <name>filePath</name>
+   </variable>
+   <variable>
+      <defaultValue>'S12_TestCases_Data.xlsx'</defaultValue>
+      <description></description>
+      <id>6cd8e8ed-5bb0-41bc-9e4f-5ae5deb82b2c</id>
+      <masked>false</masked>
+      <name>fileName</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC45-Supplier SellerGI Invoice'</defaultValue>
+      <description></description>
+      <id>0aff44cd-6c6b-4c29-85ba-f44608890037</id>
+      <masked>false</masked>
+      <name>sheetName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC045-Supplier SellerGI Invoice')</defaultValue>
+      <description></description>
+      <id>84199c88-8b82-4f14-b9fc-064ccdb54b32</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

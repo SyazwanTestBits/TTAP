@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC101-Admin Modify Supplier1 Company Master</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1ab8009e-8730-4911-a4d2-3d11f3acb22e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b39aa942-5fb9-4e05-aae3-62647906f5e9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'MY-ELA'</defaultValue>
+      <description></description>
+      <id>b39aa942-5fb9-4e05-aae3-62647906f5e9</id>
+      <masked>false</masked>
+      <name>supplierShortCode</name>
+   </variable>
+</TestCaseEntity>

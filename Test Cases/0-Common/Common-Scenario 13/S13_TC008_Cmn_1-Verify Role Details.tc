@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC008_Cmn_1-Verify Role Details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>273e0b64-bc92-4052-bb06-41bf33a14f2d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>444df998-f3c7-4bde-a9d3-5280ee203091</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9caa1152-75d2-47b6-9e17-44c6eab8dede</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d51b7c2c-c71c-498c-ab63-9003da89d2e3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Test'</defaultValue>
+      <description></description>
+      <id>444df998-f3c7-4bde-a9d3-5280ee203091</id>
+      <masked>false</masked>
+      <name>RoleName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test'</defaultValue>
+      <description></description>
+      <id>9caa1152-75d2-47b6-9e17-44c6eab8dede</id>
+      <masked>false</masked>
+      <name>RoleNote</name>
+   </variable>
+   <variable>
+      <defaultValue>'Active'</defaultValue>
+      <description></description>
+      <id>d51b7c2c-c71c-498c-ab63-9003da89d2e3</id>
+      <masked>false</masked>
+      <name>RoleStatus</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC147-BU Check Cargo Tracking Detail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b6c0205a-afa7-4fd0-8c05-a8ecdd0fbdab</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>d3b00258-8970-4a42-9372-dc1494e5134e</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC058nTC059</testDataId>
+   </testDataLinks>
+</TestCaseEntity>

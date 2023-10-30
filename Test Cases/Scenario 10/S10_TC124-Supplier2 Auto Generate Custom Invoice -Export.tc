@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC124-Supplier2 Auto Generate Custom Invoice -Export</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb6c3033-7e08-420e-b74f-883e087ede39</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>54def58e-31e3-4e4d-8d7d-457d95fdb318</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC056-Custom Invoice (Export)</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f09558a6-7fa5-4d6f-b145-796334f8c1ef</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>826cdb98-2387-47d4-81f4-a7fcd700f1e8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[findTestData('Scenario 10/S10_TC123-Supplier2 GI Invoice').getValue('InvoiceNo', 1), findTestData('Scenario 10/S10_TC123-Supplier2 GI Invoice').getValue('InvoiceNo', 2)]</defaultValue>
+      <description></description>
+      <id>f09558a6-7fa5-4d6f-b145-796334f8c1ef</id>
+      <masked>false</masked>
+      <name>invoiceNoList</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_ContractList').getValue(2, 4)</defaultValue>
+      <description></description>
+      <id>826cdb98-2387-47d4-81f4-a7fcd700f1e8</id>
+      <masked>false</masked>
+      <name>contractID</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC010- Supplier2 AutoGen check Received request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>69238058-0b8e-4de2-890c-9af62c46c3d8</testCaseGuid>
+   <variable>
+      <defaultValue>'R-MY-PNA-BU-2308002'</defaultValue>
+      <description></description>
+      <id>8ac75444-0adf-4151-adac-18767bf9102c</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 10\\S10_TestCases_Data.xlsx'</defaultValue>
+      <description></description>
+      <id>874e5225-476d-4fe1-88a6-f123e3a588da</id>
+      <masked>false</masked>
+      <name>excelpath</name>
+   </variable>
+   <variable>
+      <defaultValue>'S10_TestCases_Data.xlsx'</defaultValue>
+      <description></description>
+      <id>8024e204-cb72-4674-a4fd-682fefd4d9d3</id>
+      <masked>false</masked>
+      <name>excelname</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC010'</defaultValue>
+      <description></description>
+      <id>1d4b9ab6-cd51-41a0-97e3-b2a886f98c40</id>
+      <masked>false</masked>
+      <name>excelsheet</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC010-Autogen Data Supplier 2').getValue('Description', 1)</defaultValue>
+      <description></description>
+      <id>230bad18-9923-4606-b052-e63f52744ff4</id>
+      <masked>false</masked>
+      <name>contractShortCode</name>
+   </variable>
+</TestCaseEntity>

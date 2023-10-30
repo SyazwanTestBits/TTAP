@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC009- Supplier1 AutoGen check Received request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1baac0c-5875-42fd-9ec3-ae94b0f5ef46</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>874e5225-476d-4fe1-88a6-f123e3a588da</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8024e204-cb72-4674-a4fd-682fefd4d9d3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1d4b9ab6-cd51-41a0-97e3-b2a886f98c40</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>703c4828-ff5b-4873-bc20-446e09bf527f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fc4b05ee-c459-4a6d-b111-4e7779c5b922</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 10\\S10_TestCases_Data.xlsx'</defaultValue>
+      <description></description>
+      <id>874e5225-476d-4fe1-88a6-f123e3a588da</id>
+      <masked>false</masked>
+      <name>excelpath</name>
+   </variable>
+   <variable>
+      <defaultValue>'S10_TestCases_Data.xlsx'</defaultValue>
+      <description></description>
+      <id>8024e204-cb72-4674-a4fd-682fefd4d9d3</id>
+      <masked>false</masked>
+      <name>excelname</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC009'</defaultValue>
+      <description></description>
+      <id>1d4b9ab6-cd51-41a0-97e3-b2a886f98c40</id>
+      <masked>false</masked>
+      <name>excelsheet</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.PNA_USERNAME_SYAZWAN</defaultValue>
+      <description></description>
+      <id>703c4828-ff5b-4873-bc20-446e09bf527f</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC009-Autogen Data Supplier 1').getValue('Description', 1)</defaultValue>
+      <description></description>
+      <id>fc4b05ee-c459-4a6d-b111-4e7779c5b922</id>
+      <masked>false</masked>
+      <name>contractShortCode</name>
+   </variable>
+</TestCaseEntity>

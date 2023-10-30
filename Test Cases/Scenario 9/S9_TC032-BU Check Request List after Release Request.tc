@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC032-BU Check Request List after Release Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e60465b4-2a73-41ce-8108-c3fa3616b26b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e48d3184-d498-407a-b21b-a8c4e82a05ee</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC023-SUP to BU Contract').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>e48d3184-d498-407a-b21b-a8c4e82a05ee</id>
+      <masked>false</masked>
+      <name>RequestNo</name>
+   </variable>
+</TestCaseEntity>

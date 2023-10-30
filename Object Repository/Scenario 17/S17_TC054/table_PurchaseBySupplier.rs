@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_PurchaseBySupplier</name>
+   <tag></tag>
+   <elementGuidId>d6bc9677-9a12-4b0a-95f1-e760c45e04e8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//table[@class='lcbm-MuiTable-root'][2])[1]//tr[${lrow}]//td[${lcol}]//div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

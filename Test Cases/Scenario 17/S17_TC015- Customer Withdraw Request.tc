@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC015- Customer Withdraw Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c34b57ef-3fc3-496b-b14f-b679cea2b5c9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>452fa3c9-4108-418b-a3f4-ee69ae7510f7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC011- Request No').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>452fa3c9-4108-418b-a3f4-ee69ae7510f7</id>
+      <masked>false</masked>
+      <name>RequestNo</name>
+   </variable>
+</TestCaseEntity>

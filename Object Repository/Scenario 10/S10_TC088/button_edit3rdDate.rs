@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_edit3rdDate</name>
+   <tag></tag>
+   <elementGuidId>0ff987fa-fa31-4044-b486-992c7bd97ec9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/table[1]/thead/tr[2]/th[8]/div/div[1]/p/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5fe77433-59cc-4087-90aa-9f035d55efd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiButtonBase-root lcbm-MuiIconButton-root</value>
+      <webElementGuid>dde57ace-61b9-482c-8ddc-8e6f599569d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>3a9e7709-e01a-422f-89ff-a770d626fbfe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f49f8de6-9930-4ce7-a74e-2b606aa80d4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiDialog-root&quot;]/div[@class=&quot;lcbm-MuiDialog-container lcbm-MuiDialog-scrollPaper&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiDialog-paper lcbm-lcbm1335 lcbm-MuiDialog-paperScrollPaper lcbm-MuiDialog-paperWidthXl lcbm-MuiDialog-paperFullWidth lcbm-MuiPaper-elevation24 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiDialogContent-root&quot;]/form[@class=&quot;lcbm-lcbm1249 lcbm-lcbm1354&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm1091 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiCollapse-root lcbm-MuiCollapse-entered&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapper&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapperInner&quot;]/div[@class=&quot;lcbm-lcbm1094&quot;]/div[1]/div[@class=&quot;lcbm-lcbm1315&quot;]/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-overflow os-host-overflow-x os-host-resize-disabled os-host-scrollbar-vertical-hidden lcbm-lcbm1045 os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[1]/table[@class=&quot;lcbm-MuiTable-root&quot;]/thead[@class=&quot;lcbm-MuiTableHead-root&quot;]/tr[@class=&quot;lcbm-MuiTableRow-root lcbm-lcbm1323 lcbm-MuiTableRow-head&quot;]/th[@class=&quot;lcbm-MuiTableCell-root lcbm-MuiTableCell-head lcbm-lcbm1324&quot;]/div[@class=&quot;lcbm-lcbm1325&quot;]/div[@class=&quot;lcbm-lcbm1326&quot;]/p[@class=&quot;lcbm-MuiTypography-root lcbm-lcbm1295 lcbm-MuiTypography-body2&quot;]/button[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiIconButton-root&quot;]</value>
+      <webElementGuid>12912f6b-61c3-4db0-894a-c8f99e0b413e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[56]</value>
+      <webElementGuid>4c9c46ca-87db-49e1-a728-44ffb2550244</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Input Reject Reason'])[1]/following::button[10]</value>
+      <webElementGuid>1b37b83d-365d-470e-b8c9-6b8ef7dd477e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/following::button[10]</value>
+      <webElementGuid>fd2508f6-a7a6-4122-9283-8305d3037c7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm'])[1]/preceding::button[10]</value>
+      <webElementGuid>c2b8bdf5-ad1d-47c7-9bf5-acea5a64db27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='reset'])[1]/preceding::button[11]</value>
+      <webElementGuid>d5c69998-a7f2-4791-b0c0-77726bbb07ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/th[8]/div/div/p/button</value>
+      <webElementGuid>0f8f6a62-cd9e-48e0-82db-c4be9de0b630</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>915ae7f5-2f56-473d-947e-87b1f1df16ec</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

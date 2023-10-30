@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC005-Business Unit Master</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0e2f658-836a-40f0-83bf-e51e86b73775</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>62074477-69a1-40cc-867b-75adc01d4689</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC003-007</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c921d53f-5eb1-4362-8e28-8e96339f6d8b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ecc7a77a-d780-48f1-9eea-54a6df06d338</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>84d2a72b-24a3-49fa-bb09-ece44b1bd2ec</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2df78ba1-1035-47e5-a34b-aabfb7b5e77d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d0ed768c-9ce3-41c5-a6cc-192004f8460a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bddffc6e-c16e-4256-ba1a-0671ca2b076c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>389922cc-fbb2-4b13-8d4b-902e73a45151</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8e0863dd-c4cc-4a93-a3b7-35156cb4d0a4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c90bf04a-de42-401c-8709-ec61cb4be17e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>81a450c3-66fd-42d2-b56a-8a498b7b0dc1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3637720b-cd24-4887-89bc-6317858d0061</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e5ec7f00-5a66-4591-a4fd-67d1dba5ec50</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f878d0dd-8063-43cf-a693-a588f2b59692</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC003-007').getValue('FullCompanyCode', 1)</defaultValue>
+      <description></description>
+      <id>c921d53f-5eb1-4362-8e28-8e96339f6d8b</id>
+      <masked>false</masked>
+      <name>ListCompanyCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC003-007').getValue('BUCode', 1)</defaultValue>
+      <description></description>
+      <id>ecc7a77a-d780-48f1-9eea-54a6df06d338</id>
+      <masked>false</masked>
+      <name>BUCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC003-007').getValue('RegionCode', 1)</defaultValue>
+      <description></description>
+      <id>84d2a72b-24a3-49fa-bb09-ece44b1bd2ec</id>
+      <masked>false</masked>
+      <name>RegionCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC003-007').getValue('ActiveFlag', 1)</defaultValue>
+      <description></description>
+      <id>2df78ba1-1035-47e5-a34b-aabfb7b5e77d</id>
+      <masked>false</masked>
+      <name>ActiveFlag</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC003-007').getValue('CompanyName', 1)</defaultValue>
+      <description></description>
+      <id>d0ed768c-9ce3-41c5-a6cc-192004f8460a</id>
+      <masked>false</masked>
+      <name>CompBUName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC003-007').getValue('CompanyShortName', 1)</defaultValue>
+      <description></description>
+      <id>bddffc6e-c16e-4256-ba1a-0671ca2b076c</id>
+      <masked>false</masked>
+      <name>CompBUShortCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC003-007').getValue('Timezone', 1)</defaultValue>
+      <description></description>
+      <id>389922cc-fbb2-4b13-8d4b-902e73a45151</id>
+      <masked>false</masked>
+      <name>Timezone</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC003-007').getValue('CompanyAddress', 1)</defaultValue>
+      <description></description>
+      <id>8e0863dd-c4cc-4a93-a3b7-35156cb4d0a4</id>
+      <masked>false</masked>
+      <name>CompanyAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC003-007').getValue('CompanyPostal', 1)</defaultValue>
+      <description></description>
+      <id>c90bf04a-de42-401c-8709-ec61cb4be17e</id>
+      <masked>false</masked>
+      <name>CompanyPostal</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC003-007').getValue('CompContactName', 1)</defaultValue>
+      <description></description>
+      <id>81a450c3-66fd-42d2-b56a-8a498b7b0dc1</id>
+      <masked>false</masked>
+      <name>CompContactName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC003-007').getValue('CompContactFax', 1)</defaultValue>
+      <description></description>
+      <id>3637720b-cd24-4887-89bc-6317858d0061</id>
+      <masked>false</masked>
+      <name>CompContactFax</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC003-007').getValue('CompContactTel', 1)</defaultValue>
+      <description></description>
+      <id>e5ec7f00-5a66-4591-a4fd-67d1dba5ec50</id>
+      <masked>false</masked>
+      <name>CompContactTel</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC003-007').getValue('CompContactEmail', 1)</defaultValue>
+      <description></description>
+      <id>f878d0dd-8063-43cf-a693-a588f2b59692</id>
+      <masked>false</masked>
+      <name>CompContactEmail</name>
+   </variable>
+</TestCaseEntity>

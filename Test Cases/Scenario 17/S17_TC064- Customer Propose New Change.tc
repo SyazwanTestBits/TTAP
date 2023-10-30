@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC064- Customer Propose New Change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8033b81-d2ae-47c6-9ac1-6e7630465e13</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC063- Request No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>318932a3-e680-4770-82df-36b551c254f1</id>
+      <masked>false</masked>
+      <name>requestNo</name>
+   </variable>
+</TestCaseEntity>

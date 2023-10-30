@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC033-Supplier Create Order Change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0f8456b0-0493-45ab-9c43-e805bd28f8b8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aebac273-1277-46e2-914d-207d4eb49f38</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b269166b-b70a-41fd-a67c-e07d4e8dd1ea</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>35b66688-ad4d-4890-b1ed-fa2e88ddb40e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>14601310-3902-41a3-92cf-0151a5c90524</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fb10535a-e483-41ab-827f-a2cc3444a3ea</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>717df6a7-4df3-47d9-bd01-197428c03b19</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC033-New Firm Qty')</defaultValue>
+      <description></description>
+      <id>aebac273-1277-46e2-914d-207d4eb49f38</id>
+      <masked>false</masked>
+      <name>newFirmQtyFile</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC033-New Outbound Date')</defaultValue>
+      <description></description>
+      <id>b269166b-b70a-41fd-a67c-e07d4e8dd1ea</id>
+      <masked>false</masked>
+      <name>newOutboundDateFile</name>
+   </variable>
+   <variable>
+      <defaultValue>[('InboundNewDate_Qty1') : 26, ('InboundNewDate_Qty2') : 27, ('InboundNewDate_Qty3') : 28, ('InboundNewDate_Qty4') : 29]</defaultValue>
+      <description></description>
+      <id>35b66688-ad4d-4890-b1ed-fa2e88ddb40e</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>14</defaultValue>
+      <description></description>
+      <id>14601310-3902-41a3-92cf-0151a5c90524</id>
+      <masked>false</masked>
+      <name>startRowFormMinusOne</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC016-Supplier SO').getValue('RegularSalesOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>fb10535a-e483-41ab-827f-a2cc3444a3ea</id>
+      <masked>false</masked>
+      <name>custOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>[('NewFirm') : 15, ('InboundNewDate_Qty1') : 26, ('InboundNewDate_Qty2') : 27, ('InboundNewDate_Qty3') : 28, ('InboundNewDate_Qty4') : 29]</defaultValue>
+      <description></description>
+      <id>717df6a7-4df3-47d9-bd01-197428c03b19</id>
+      <masked>false</masked>
+      <name>mapKeyandColIndex</name>
+   </variable>
+</TestCaseEntity>

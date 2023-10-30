@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Select Download Condition_partsNo</name>
+   <tag></tag>
+   <elementGuidId>1a923d06-1445-495d-8597-ba154b2fec8a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;partsNo&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='partsNo']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>847e6392-af3d-426b-a59c-83f390822e1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>partsNo</value>
+      <webElementGuid>84a3b0b7-497a-45c9-8936-4af269b6bee7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>a843a2bb-5fe6-4dbf-97bb-552fb84d92e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiInputBase-input lcbm-MuiInput-input</value>
+      <webElementGuid>06bf77c6-aa5b-48e4-81f8-0402cd5d2954</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiDialog-root&quot;]/div[@class=&quot;lcbm-MuiDialog-container lcbm-MuiDialog-scrollPaper&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiDialog-paper lcbm-lcbm471 lcbm-MuiDialog-paperScrollPaper lcbm-MuiDialog-paperWidthLg lcbm-MuiPaper-elevation24 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiDialogContent-root&quot;]/form[@class=&quot;lcbm-lcbm846 lcbm-lcbm847&quot;]/div[@class=&quot;lcbm-lcbm848 lcbm-lcbm878&quot;]/div[@class=&quot;lcbm-lcbm850&quot;]/div[@class=&quot;lcbm-lcbm857&quot;]/div[@class=&quot;lcbm-lcbm863&quot;]/div[@class=&quot;lcbm-lcbm852&quot;]/div[@class=&quot;lcbm-MuiInputBase-root lcbm-MuiInput-root Mui-focused Mui-focused&quot;]/input[@class=&quot;lcbm-MuiInputBase-input lcbm-MuiInput-input&quot;]</value>
+      <webElementGuid>4e3251dc-1da0-4c42-921b-619948c238c6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='partsNo']</value>
+      <webElementGuid>f406010c-7824-45a8-a14b-2a85197cb809</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div/div/div/input</value>
+      <webElementGuid>f2f6c794-8b8b-4671-8631-f3e3acb8a8fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'partsNo' and @type = 'text']</value>
+      <webElementGuid>76960588-8f2d-446a-9f5b-9131d93b0bbd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

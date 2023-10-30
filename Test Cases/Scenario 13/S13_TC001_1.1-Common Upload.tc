@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC001_1.1-Common Upload</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9bc1bf6f-f954-4c99-b9de-952c9efb7bbc</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>0dfdc2b4-a177-4c9f-af76-d11673c376a7</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value>1</value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/Common Master Upload</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>0dfdc2b4-a177-4c9f-af76-d11673c376a7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>UploadOptions</value>
+      <variableId>a63099b3-0eec-439d-87b0-784a1e61b16f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>0dfdc2b4-a177-4c9f-af76-d11673c376a7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>UploadFileName</value>
+      <variableId>b9e87ef0-4954-4d2c-859b-68101777a051</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>0dfdc2b4-a177-4c9f-af76-d11673c376a7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>isUpload</value>
+      <variableId>e4d6fbba-12c4-416c-bc80-c63ae56a0365</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>091b45c5-759c-461a-8927-c02e3d66ccce</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Region'</defaultValue>
+      <description></description>
+      <id>a63099b3-0eec-439d-87b0-784a1e61b16f</id>
+      <masked>false</masked>
+      <name>UploadOptions</name>
+   </variable>
+   <variable>
+      <defaultValue>'Region'</defaultValue>
+      <description></description>
+      <id>b9e87ef0-4954-4d2c-859b-68101777a051</id>
+      <masked>false</masked>
+      <name>UploadFileName</name>
+   </variable>
+   <variable>
+      <defaultValue>'YES'</defaultValue>
+      <description></description>
+      <id>e4d6fbba-12c4-416c-bc80-c63ae56a0365</id>
+      <masked>false</masked>
+      <name>isUpload</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 13/TC001/'</defaultValue>
+      <description></description>
+      <id>091b45c5-759c-461a-8927-c02e3d66ccce</id>
+      <masked>false</masked>
+      <name>relativeFolderPath</name>
+   </variable>
+</TestCaseEntity>

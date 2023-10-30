@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC085-DC Outbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1e86955-2adb-45ab-a9d9-3c2178ac6f37</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>66bd1284-e52b-400c-8961-2264d89b591f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC085-OutboundNo')</defaultValue>
+      <description></description>
+      <id>66bd1284-e52b-400c-8961-2264d89b591f</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

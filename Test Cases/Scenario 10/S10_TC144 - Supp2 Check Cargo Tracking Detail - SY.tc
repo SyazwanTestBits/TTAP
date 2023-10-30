@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC144 - Supp2 Check Cargo Tracking Detail - SY</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2cd946a-d49a-4b72-91e2-b61195db8a80</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>261a66e1-4beb-42d8-9c15-481a161c4587</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>52e70474-becf-4e5f-b5ff-0c8866766a2b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9b041425-a681-4de3-ab76-149792c443e4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>35bbe3f8-7e71-4406-b577-0ec091fcdd2d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5a56fe12-fdca-42f1-bfa6-2f0d1cf344ed</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bf10e973-2415-4945-bfc1-345796256601</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC073n074_Forecast').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>261a66e1-4beb-42d8-9c15-481a161c4587</id>
+      <masked>false</masked>
+      <name>bookingNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'SEGU5069987'</defaultValue>
+      <description></description>
+      <id>52e70474-becf-4e5f-b5ff-0c8866766a2b</id>
+      <masked>false</masked>
+      <name>containerNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>['Booking Submitted', 'Booking Confirmed', 'Empty Container Release to Shipper', 'Cargo Outbound', 'Gate in (arrival at first POL)', 'Container loaded at first POL', 'Vessel departure from first POL', 'Vessel arrival at T/S port', 'Container discharge at T/S port', 'Container loaded at T/S port', 'Vessel departure from T/S', 'Vessel arrived at final POD (ATA)', 'Container unload at final POD', 'Container Gate out from final POD', 'Vessel arrived at final POD (ATA)', 'Container unload at final POD', 'Container Gate out from final POD']</defaultValue>
+      <description></description>
+      <id>9b041425-a681-4de3-ab76-149792c443e4</id>
+      <masked>false</masked>
+      <name>milestone</name>
+   </variable>
+   <variable>
+      <defaultValue>['Empty container pick-up (Empty Container Release to Shipper)', 'Gate in (Gate In to Outbound Terminal)', 'Loaded (Loaded on vessel at Port of Loading)', 'Departure (vessel Departure from Port of Loading)', 'Arrival (vessel Arrival at Transhipment Port)', 'Unload (Unloaded from vessel at Transhipment Port)', 'Loaded (Loaded on vessel at Transhipment Port)', 'Departure (Departure from Transhipment Port)', 'Arrival (vessel Arrival at Port of Discharging)', 'Unload (Unloaded from vessel at Port of Discharging)', 'Gate out (Gate Out from Inbound Terminal for Delivery to Consignee (or Port Shuttle))', 'Empty container returned (Empty Container Returned from Customer)']</defaultValue>
+      <description></description>
+      <id>35bbe3f8-7e71-4406-b577-0ec091fcdd2d</id>
+      <masked>false</masked>
+      <name>milestoneREALTIME</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5a56fe12-fdca-42f1-bfa6-2f0d1cf344ed</id>
+      <masked>false</masked>
+      <name>testDataForecast</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/Cargo syazwan/S10_TC144-SO')</defaultValue>
+      <description></description>
+      <id>bf10e973-2415-4945-bfc1-345796256601</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

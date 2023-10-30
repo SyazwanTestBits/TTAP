@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_spotShippingRouteCode</name>
+   <tag></tag>
+   <elementGuidId>af897c6a-2b89-469a-8e85-e6721da60010</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='ADD DISTRIBUTION CENTER'])[1]/following::*[name()='svg'][7]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.lcbm-lcbm321.lcbm-lcbm452 > div.lcbm-lcbm323 > div.lcbm-lcbm330 > div.lcbm-lcbm336 > div.lcbm-lcbm325 > div.lcbm-MuiAutocomplete-root.lcbm-MuiAutocomplete-fullWidth.lcbm-MuiAutocomplete-hasClearIcon.lcbm-MuiAutocomplete-hasPopupIcon > div.lcbm-MuiInputBase-root.lcbm-MuiInput-root.lcbm-MuiAutocomplete-inputRoot.lcbm-MuiInputBase-fullWidth.lcbm-MuiInput-fullWidth.lcbm-MuiInputBase-adornedEnd > div.lcbm-MuiAutocomplete-endAdornment > button.lcbm-MuiButtonBase-root.lcbm-MuiIconButton-root.lcbm-MuiAutocomplete-popupIndicator > span.lcbm-MuiIconButton-label > svg.lcbm-MuiSvgIcon-root</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>6d9cc9ca-fcdd-4bab-9f7d-ea7613f7fdc1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiSvgIcon-root</value>
+      <webElementGuid>1fb684f6-d6a3-4193-81df-15f90675e815</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>9e975088-fef9-467f-9070-3780e7edfab4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+      <webElementGuid>d7a27f36-dd90-4ee8-976d-c57db074e231</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>9319efac-d1e6-4c99-a038-417eab2a66a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm1 os-host-overflow os-host-overflow-y os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2&quot;]/div[@class=&quot;lcbm-lcbm9&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm11 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiCollapse-root lcbm-MuiCollapse-entered&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapper&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapperInner&quot;]/div[@class=&quot;lcbm-lcbm35&quot;]/form[@class=&quot;lcbm-lcbm319 lcbm-lcbm448&quot;]/div[@class=&quot;lcbm-lcbm321 lcbm-lcbm452&quot;]/div[@class=&quot;lcbm-lcbm323&quot;]/div[@class=&quot;lcbm-lcbm330&quot;]/div[@class=&quot;lcbm-lcbm336&quot;]/div[@class=&quot;lcbm-lcbm325&quot;]/div[@class=&quot;lcbm-MuiAutocomplete-root lcbm-MuiAutocomplete-fullWidth lcbm-MuiAutocomplete-hasClearIcon lcbm-MuiAutocomplete-hasPopupIcon&quot;]/div[@class=&quot;lcbm-MuiInputBase-root lcbm-MuiInput-root lcbm-MuiAutocomplete-inputRoot lcbm-MuiInputBase-fullWidth lcbm-MuiInput-fullWidth lcbm-MuiInputBase-adornedEnd&quot;]/div[@class=&quot;lcbm-MuiAutocomplete-endAdornment&quot;]/button[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiIconButton-root lcbm-MuiAutocomplete-popupIndicator&quot;]/span[@class=&quot;lcbm-MuiIconButton-label&quot;]/svg[@class=&quot;lcbm-MuiSvgIcon-root&quot;]</value>
+      <webElementGuid>fedf8655-11e8-4cde-afb9-c6d639187327</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADD DISTRIBUTION CENTER'])[1]/following::*[name()='svg'][7]</value>
+      <webElementGuid>ecaaa1f9-b914-473d-8f95-cfb671f8e5f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADD SHIPPING ROUTE'])[1]/following::*[name()='svg'][7]</value>
+      <webElementGuid>a1043502-ed03-4c60-a642-4f3048c37ad9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CUSTOMS INFO'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>dd0df120-fb2c-45b7-93a5-3f33c92a9903</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[14]/preceding::*[name()='svg'][3]</value>
+      <webElementGuid>15a2af32-f6eb-45b5-aa62-0bd191b5f5a5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

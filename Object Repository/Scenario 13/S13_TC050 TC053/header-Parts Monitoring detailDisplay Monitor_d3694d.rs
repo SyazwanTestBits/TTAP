@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>header-Parts Monitoring detailDisplay Monitor_d3694d</name>
+   <tag></tag>
+   <elementGuidId>04d6e2a1-963e-4036-80ec-dd73b070f7c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#OSS011_Section_2 > div.lcbm-lcbm961</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='OSS011_Section_2']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>011c2e3a-2650-4105-a62a-0053ea25feb6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-lcbm961</value>
+      <webElementGuid>75f96de5-f282-487c-880e-e557a0657336</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2Parts Monitoring detailDisplay Monitoring detail by Parts.</value>
+      <webElementGuid>64a96626-3376-4c8f-9110-446c4ab20d98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;OSS011_Section_2&quot;)/div[@class=&quot;lcbm-lcbm961&quot;]</value>
+      <webElementGuid>01713f74-3170-423f-a3ca-9575917254ac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='OSS011_Section_2']/div</value>
+      <webElementGuid>85e031a0-64aa-46b2-abd6-2d52952634b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='firm'])[1]/following::div[3]</value>
+      <webElementGuid>f0e4f8ab-2cda-477a-94a2-3ff02281d91f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='T/T REMITTANCE AT 60 DAYS FROM THE END OF B/L MONTH'])[1]/following::div[19]</value>
+      <webElementGuid>0dedfa3b-aaab-4eaf-b896-543312650cb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AND'])[1]/preceding::div[4]</value>
+      <webElementGuid>e7c07fde-cd8d-4134-a37e-02d6273fd8c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div[3]/div</value>
+      <webElementGuid>23be2c76-9a32-41c1-a609-9ade9121b933</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '2Parts Monitoring detailDisplay Monitoring detail by Parts.' or . = '2Parts Monitoring detailDisplay Monitoring detail by Parts.')]</value>
+      <webElementGuid>d4b9bb74-5fa5-4732-8063-8c2cd9d88de5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

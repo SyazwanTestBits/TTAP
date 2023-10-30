@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC026-Admin check Announcement - Published</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2d8d7a76-da9f-411b-ae17-1e2bc3719b2f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3047d260-ac02-4eb2-9881-7f195224484d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC022').getValue('Ann Header', 1)</defaultValue>
+      <description></description>
+      <id>3047d260-ac02-4eb2-9881-7f195224484d</id>
+      <masked>false</masked>
+      <name>announcement_header</name>
+   </variable>
+</TestCaseEntity>

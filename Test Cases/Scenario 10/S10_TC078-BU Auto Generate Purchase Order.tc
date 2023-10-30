@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC078-BU Auto Generate Purchase Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>394f635a-711f-4c0b-afb0-a13ed642d996</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ffee2cc3-31ef-4735-a121-5decce5bddec</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>478d03a7-b65c-49f2-a8e3-f9d8c40b78fb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e3c3b19d-4a84-4ce2-9944-6bfa380c8b5d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>675a7289-4980-42c8-b97b-128a28693081</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_ContractList').getValue(2, 3)</defaultValue>
+      <description></description>
+      <id>ffee2cc3-31ef-4735-a121-5decce5bddec</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>get from TC77</description>
+      <id>478d03a7-b65c-49f2-a8e3-f9d8c40b78fb</id>
+      <masked>false</masked>
+      <name>spotPurchaseOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Spot'</defaultValue>
+      <description></description>
+      <id>e3c3b19d-4a84-4ce2-9944-6bfa380c8b5d</id>
+      <masked>false</masked>
+      <name>orderTypeSpot</name>
+   </variable>
+   <variable>
+      <defaultValue>['Parts No.', 'Unit Parts No.', 'Back No.', 'Sales Order No.', 'Supplier Code', 'Shipper', 'SPQ', 'Order Lot', 'Order Qty', 'Unit Price', 'Currency', 'Status', 'InboundQty', 'InboundPlan', 'InboundPlanStatus', 'EstimateInbound']</defaultValue>
+      <description></description>
+      <id>675a7289-4980-42c8-b97b-128a28693081</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

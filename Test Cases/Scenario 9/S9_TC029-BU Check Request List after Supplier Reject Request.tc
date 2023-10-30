@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC029-BU Check Request List after Supplier Reject Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>23859733-004d-4932-aa9b-8e6a8348e26d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>97d12bca-8e53-492a-9cd1-1e2c47e01564</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC023-SUP to BU Contract').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>97d12bca-8e53-492a-9cd1-1e2c47e01564</id>
+      <masked>false</masked>
+      <name>RequestNo</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC167.1-Check SO_1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>06bd30e2-ac3e-4f9a-a1dc-96aaf4f230fc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f29ddb0d-5045-429d-971b-19bcedabecab</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0fafca89-f88f-4326-8c84-cc3d0dcd7d0c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f41ea64f-e699-4b7a-9db1-8cc939296e81</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[findTestData('Scenario 10/S10_TC162').getValue('Sales Order No', 1), findTestData('Scenario 10/S10_TC162').getValue('Sales Order No', 2)]</defaultValue>
+      <description></description>
+      <id>79c800bf-e38b-4169-b3f4-ea6bb4c31f3f</id>
+      <masked>false</masked>
+      <name>SO_numberList</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC021-Setup Data').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>90db65a5-4e50-460a-8619-92df9fb7c07a</id>
+      <masked>false</masked>
+      <name>contractNoL2</name>
+   </variable>
+   <variable>
+      <defaultValue>['PartsNo', 'UnitPartsNo', 'BackNo', 'POnumber', 'Customer', 'SPQ', 'OrderLot', 'OrderQty', 'UnitPrice', 'Currency', 'Status', 'DeliveredQty', 'InTransitQty', 'InboundedQty', 'InboundedPlanQty', 'InboundedPlanStatus']</defaultValue>
+      <description></description>
+      <id>f41ea64f-e699-4b7a-9db1-8cc939296e81</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

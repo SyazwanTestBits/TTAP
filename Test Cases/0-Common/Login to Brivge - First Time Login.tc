@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login to Brivge - First Time Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1b3e61f3-3e8a-4bee-98e6-d66abedb72a5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5ac8266d-d4c0-4ba2-b970-d62fe5259887</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>84be884b-dc3e-4549-b379-1432e5886bc5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c92031e1-3cfc-4d54-8c3f-15d4e88cf318</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d6d90b9-3b4e-4003-a984-7db50db47f51</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>578ae909-d12f-481d-bf8f-9dead69ed05b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>84be884b-dc3e-4549-b379-1432e5886bc5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.BRIVGE_URL</defaultValue>
+      <description></description>
+      <id>5ac8266d-d4c0-4ba2-b970-d62fe5259887</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC009-Create New User').getValue('Username', 1)</defaultValue>
+      <description></description>
+      <id>6c5a401a-92e4-4510-bd1b-af8154ff4161</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC009-Create New User').getValue('BriVgeUserGenCode', 1)</defaultValue>
+      <description></description>
+      <id>c92031e1-3cfc-4d54-8c3f-15d4e88cf318</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC009-Create New User').getValue('BriVgeVerificationCode', 1)</defaultValue>
+      <description></description>
+      <id>7d6d90b9-3b4e-4003-a984-7db50db47f51</id>
+      <masked>false</masked>
+      <name>verificationCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC009-Create New User').getValue('UserCompanyCode', 1)</defaultValue>
+      <description></description>
+      <id>578ae909-d12f-481d-bf8f-9dead69ed05b</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC009-Create New User').getValue('LoginID', 1)</defaultValue>
+      <description></description>
+      <id>84be884b-dc3e-4549-b379-1432e5886bc5</id>
+      <masked>false</masked>
+      <name>loginId</name>
+   </variable>
+</TestCaseEntity>

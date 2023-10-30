@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC057-BU Check Weekly Stock Simulation-inbound after creation of orderTC 53</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe96403e-89c2-42bf-98e1-229b2a05c4cb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1215fddb-18d1-4efc-8991-e21f6e7beea2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>86a8b2b3-f5d4-487f-9761-d19e6890d03c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b86477d3-9e33-4a92-bacc-ace7c473c220</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>54a69e52-67db-4bee-a4fe-5da1ec97f57e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ba59e17d-df69-419b-af81-1f1439634947</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cfd69bd6-b4a1-4d34-aa46-7997f22657c1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[('newMod') : 0, ('CommonPart') : 7, ('MinStock1') : 12, ('MinStock2') : 13, ('InventoryControl') : 18, ('AlertMethod') : 19, ('Fluctuation') : 20, ('AllocationPattern') : 25, ('AdjustmentPattern1') : 26, ('AdjustmentPattern2') : 27]</defaultValue>
+      <description></description>
+      <id>1215fddb-18d1-4efc-8991-e21f6e7beea2</id>
+      <masked>false</masked>
+      <name>stockControlColumnName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC051')</defaultValue>
+      <description></description>
+      <id>86a8b2b3-f5d4-487f-9761-d19e6890d03c</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 10/Convert from XLSM to XLSX/S10-TC057.xlsx'</defaultValue>
+      <description></description>
+      <id>b86477d3-9e33-4a92-bacc-ace7c473c220</id>
+      <masked>false</masked>
+      <name>pathExport</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC056')</defaultValue>
+      <description></description>
+      <id>54a69e52-67db-4bee-a4fe-5da1ec97f57e</id>
+      <masked>false</masked>
+      <name>testDataExpectation</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC025').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>ba59e17d-df69-419b-af81-1f1439634947</id>
+      <masked>false</masked>
+      <name>contractNoBUL3</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC025').getValue('ContractNo', 2)</defaultValue>
+      <description></description>
+      <id>cfd69bd6-b4a1-4d34-aa46-7997f22657c1</id>
+      <masked>false</masked>
+      <name>contractNoBUL2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC057-L3')</defaultValue>
+      <description></description>
+      <id>d834427b-ada0-45c6-ae19-edc3338679dc</id>
+      <masked>false</masked>
+      <name>testDataL3</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC057-L2')</defaultValue>
+      <description></description>
+      <id>ef66be5b-61ec-4a78-8729-636dcbc44a95</id>
+      <masked>false</masked>
+      <name>testDataL2</name>
+   </variable>
+   <variable>
+      <defaultValue>'100.0'</defaultValue>
+      <description></description>
+      <id>556a9b6f-d2a6-47dd-a93d-1543649fe780</id>
+      <masked>false</masked>
+      <name>valueInL2</name>
+   </variable>
+</TestCaseEntity>

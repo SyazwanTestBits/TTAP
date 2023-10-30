@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC011.1-Customer Place Order -Regular</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b6b8fe33-e993-4ad0-a848-9928e2dfb97f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0df320e1-9ffb-47dc-acca-5952c94fd019</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>45a97f22-29be-44ff-8e6f-b73611cb62e0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC007-Supplier to BU Contract').getValue('ContractRouteCode', 1)</defaultValue>
+      <description></description>
+      <id>0df320e1-9ffb-47dc-acca-5952c94fd019</id>
+      <masked>false</masked>
+      <name>contractRouteNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC004-BU to Customer Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>45a97f22-29be-44ff-8e6f-b73611cb62e0</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+</TestCaseEntity>

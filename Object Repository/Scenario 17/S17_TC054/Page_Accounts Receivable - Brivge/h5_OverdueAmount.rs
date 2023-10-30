@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h5_OverdueAmount</name>
+   <tag></tag>
+   <elementGuidId>ca20cf5d-12be-4d96-9800-a865b2f9cf8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div/div/div[2]/div/div/div[2]/div/div[4]/div/div/div/div/h5</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.lcbm-lcbm328.lcbm-lcbm339 > div.lcbm-MuiPaper-root.lcbm-MuiCard-root.lcbm-lcbm330.lcbm-MuiPaper-elevation3.lcbm-MuiPaper-rounded > div.lcbm-MuiCardContent-root.lcbm-lcbm331 > div.lcbm-MuiGrid-root.lcbm-MuiGrid-container.lcbm-MuiGrid-spacing-xs-1.lcbm-MuiGrid-align-items-xs-center.lcbm-MuiGrid-align-content-xs-center.lcbm-MuiGrid-justify-content-xs-center > div.lcbm-MuiGrid-root.lcbm-MuiGrid-item > h5.lcbm-MuiTypography-root.lcbm-lcbm332.lcbm-MuiTypography-h5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>addfd253-d0f1-4fc5-b9bb-173b18d361e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiTypography-root lcbm-lcbm332 lcbm-MuiTypography-h5</value>
+      <webElementGuid>cfd9f3a3-f57e-41e7-8e94-38aa642194d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>79,400</value>
+      <webElementGuid>f1f67778-db9a-4473-9a91-f19cc0475356</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm264 os-host-overflow os-host-overflow-y os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm265&quot;]/div[@class=&quot;lcbm-lcbm268&quot;]/div[@class=&quot;lcbm-lcbm270&quot;]/div[@class=&quot;lcbm-lcbm276&quot;]/div[@class=&quot;lcbm-lcbm277&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm318 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-lcbm325&quot;]/div[@class=&quot;lcbm-lcbm326 lcbm-lcbm327&quot;]/div[@class=&quot;lcbm-lcbm328 lcbm-lcbm339&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm330 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiCardContent-root lcbm-lcbm331&quot;]/div[@class=&quot;lcbm-MuiGrid-root lcbm-MuiGrid-container lcbm-MuiGrid-spacing-xs-1 lcbm-MuiGrid-align-items-xs-center lcbm-MuiGrid-align-content-xs-center lcbm-MuiGrid-justify-content-xs-center&quot;]/div[@class=&quot;lcbm-MuiGrid-root lcbm-MuiGrid-item&quot;]/h5[@class=&quot;lcbm-MuiTypography-root lcbm-lcbm332 lcbm-MuiTypography-h5&quot;]</value>
+      <webElementGuid>0d31cba9-2811-4ce0-84be-0306e111a42d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div/div/div[2]/div/div/div[2]/div/div[4]/div/div/div/div/h5</value>
+      <webElementGuid>4638bc7c-5a91-4c63-8deb-04bbbb2cbc95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CNY'])[2]/following::h5[1]</value>
+      <webElementGuid>85d26c77-7e5f-40b0-9f97-2b4308401a02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CNY'])[1]/following::h5[4]</value>
+      <webElementGuid>52b9279a-b406-4a62-a93e-94c3c710e4fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CNY'])[3]/preceding::h5[1]</value>
+      <webElementGuid>dd3fd698-fb34-4958-ba4f-c8edd8b7c5b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CNY'])[4]/preceding::h5[3]</value>
+      <webElementGuid>804b523a-1736-4784-b83f-df47ab1bfc9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/h5</value>
+      <webElementGuid>f9e86792-ed1a-4eb4-8e77-aefe1c492bea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[(text() = '79,400' or . = '79,400')]</value>
+      <webElementGuid>7cbd8ffe-5251-4ce5-ac50-ee7d0bfcd650</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC047-BU Execute Recalculation after TC44 - copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce8af296-ef84-4b37-a24b-a9fe35aa01b3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e8b63af9-e06c-4b20-9b3b-363c392ba7d3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a41ebf91-f47f-4f3d-8aa8-6635b75e5367</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC031-Create Order Calc Grouping').getValue('OrderCalculationGroupingNo', 1)</defaultValue>
+      <description></description>
+      <id>e8b63af9-e06c-4b20-9b3b-363c392ba7d3</id>
+      <masked>false</masked>
+      <name>orderCalcNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 10/S10_TC047.xlsx'</defaultValue>
+      <description></description>
+      <id>a41ebf91-f47f-4f3d-8aa8-6635b75e5367</id>
+      <masked>false</masked>
+      <name>path</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Management Tool</name>
+   <tag></tag>
+   <elementGuidId>e7492e9e-be4d-4f16-b0ab-9e500febf32a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type = 'button' and (text() = 'Management Tool' or . = 'Management Tool')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>78ca5c56-3b7f-42bf-9226-f8555079b75c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiButtonBase-root base-MuiButton-root base-MuiButton-text base-base59</value>
+      <webElementGuid>fe56c9c4-f619-4850-b430-29d902043080</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>daf3ee5f-05ee-4a93-9b0a-1a3190291088</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4be5297c-1fc6-4dc8-a32a-cd1135b20bed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>60552a38-38cb-42db-bada-cf678bbdec5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Management Tool</value>
+      <webElementGuid>6e2e8038-227e-4e8d-aeab-23fab78c7a58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base43&quot;]/div[@class=&quot;base-base44&quot;]/div[@class=&quot;base-base45&quot;]/div[@class=&quot;base-base47&quot;]/nav[@class=&quot;base-base54&quot;]/div[@class=&quot;base-base55&quot;]/div[@class=&quot;base-base56&quot;]/button[@class=&quot;base-MuiButtonBase-root base-MuiButton-root base-MuiButton-text base-base59&quot;]</value>
+      <webElementGuid>dddc8e9d-8f9c-4577-a59d-fdfe87d1d452</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[53]</value>
+      <webElementGuid>4930b0aa-66f8-451a-a377-f3ba59f2ddc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-base']/div/div/div/div/nav/div[2]/div/button[4]</value>
+      <webElementGuid>6c42d009-564e-4001-86ae-8b4f095abdad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accounting'])[1]/following::button[1]</value>
+      <webElementGuid>17ac911d-6af9-4cca-b4c0-c532e8617a5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logistics'])[1]/following::button[2]</value>
+      <webElementGuid>e5aa8449-79b4-4b38-8f3d-2886f2d7f202</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::button[1]</value>
+      <webElementGuid>08dd4826-e786-41ac-aab1-5b6a4e8dc0db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[4]</value>
+      <webElementGuid>10c14227-5546-499d-8a9c-9ee0263dde9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Management Tool' or . = 'Management Tool')]</value>
+      <webElementGuid>dc5dace7-d524-4d54-bb02-395a12bfbb8b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

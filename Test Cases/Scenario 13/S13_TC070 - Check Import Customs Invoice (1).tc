@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC070 - Check Import Customs Invoice (1)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>48f1823a-1b5d-4b64-a4df-d5fca6a3ebec</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>3690dad2-3c0d-4e78-bbe6-2864fa56206a</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC070</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>df85207d-533f-4fff-aea9-3ab630e1b800</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>36248e76-9827-4945-9084-e6fe927a652c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f8c55ed0-4f51-4105-9067-6d505a5c0bd8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC070').getValue('InvoiceNo', 1)</defaultValue>
+      <description></description>
+      <id>df85207d-533f-4fff-aea9-3ab630e1b800</id>
+      <masked>false</masked>
+      <name>invoiceNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC070').getValue('ETA', 1)</defaultValue>
+      <description></description>
+      <id>36248e76-9827-4945-9084-e6fe927a652c</id>
+      <masked>false</masked>
+      <name>ETA</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC070').getValue('ETD', 1)</defaultValue>
+      <description></description>
+      <id>f8c55ed0-4f51-4105-9067-6d505a5c0bd8</id>
+      <masked>false</masked>
+      <name>ETD</name>
+   </variable>
+</TestCaseEntity>

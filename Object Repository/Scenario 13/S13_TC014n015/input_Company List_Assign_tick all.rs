@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Company List_Assign_tick all</name>
+   <tag></tag>
+   <elementGuidId>3dc8fbba-1c28-4578-be69-a7da3766d062</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'checkbox']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[1]/thead/tr/th[1]/div/div/span/span[1]/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.lcbm-MuiButtonBase-root.lcbm-MuiIconButton-root.lcbm-lcbm1014.lcbm-MuiCheckbox-root.lcbm-MuiCheckbox-colorSecondary.lcbm-lcbm1029.lcbm-MuiIconButton-colorSecondary > span.lcbm-MuiIconButton-label > input.lcbm-lcbm1017</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>de6d06b7-8816-4707-96b7-7cf6960c5b19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-lcbm1017</value>
+      <webElementGuid>6a03bcb5-847f-44dd-8473-2e8050e4364c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>d92acaff-a4c5-49fe-a57e-061d7d4bbd51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-indeterminate</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>1557def5-1f3e-42bd-ab81-89dfa917477d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiDialog-root&quot;]/div[@class=&quot;lcbm-MuiDialog-container lcbm-MuiDialog-scrollPaper&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiDialog-paper lcbm-MuiDialog-paperScrollPaper lcbm-MuiDialog-paperWidthMd lcbm-MuiDialog-paperFullWidth lcbm-MuiPaper-elevation24 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiDialogContent-root&quot;]/div[1]/div[1]/div[@class=&quot;lcbm-lcbm563&quot;]/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm4 os-host-transition os-host-scrollbar-vertical-hidden&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[1]/table[@class=&quot;lcbm-MuiTable-root&quot;]/tbody[@class=&quot;lcbm-MuiTableBody-root&quot;]/tr[@class=&quot;lcbm-MuiTableRow-root lcbm-lcbm1027&quot;]/td[@class=&quot;lcbm-MuiTableCell-root lcbm-MuiTableCell-body lcbm-lcbm575&quot;]/div[@class=&quot;lcbm-lcbm576&quot;]/span[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiIconButton-root lcbm-lcbm1014 lcbm-MuiCheckbox-root lcbm-MuiCheckbox-colorSecondary lcbm-lcbm1029 lcbm-MuiIconButton-colorSecondary&quot;]/span[@class=&quot;lcbm-MuiIconButton-label&quot;]/input[@class=&quot;lcbm-lcbm1017&quot;]</value>
+      <webElementGuid>06db182f-3c16-4343-a7df-155e1a7119dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[5]</value>
+      <webElementGuid>8320c5c4-342b-44ab-a835-ea85ab8d2849</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/div/span/span/input</value>
+      <webElementGuid>53610507-37b2-43af-9dd1-4ff61a4c2031</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'checkbox']</value>
+      <webElementGuid>92951956-c738-4934-84e7-ae0409066766</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

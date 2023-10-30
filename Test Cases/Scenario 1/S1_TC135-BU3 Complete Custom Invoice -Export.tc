@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC135-BU3 Complete Custom Invoice -Export</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>172b0820-59cf-4c76-87a3-c39f10aa456d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d515e140-82ee-4902-a4a9-87935a96d8fc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[findTestData('Scenario 1/S1_TC132-BU3 SellerGI Invoice').getValue('InvoiceNo', 1), findTestData('Scenario 1/S1_TC132-BU3 SellerGI Invoice').getValue('InvoiceNo', 2)]</defaultValue>
+      <description></description>
+      <id>5fc5e409-d2da-408f-b4aa-1f680b42fed0</id>
+      <masked>false</masked>
+      <name>invoiceNoList</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC012-BU Check Request List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>388905ae-2a0d-4261-879e-fbb874211a04</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>804c2001-aecd-4670-b42f-71a3b1b1181a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC004-Supplier to BU Contract').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>804c2001-aecd-4670-b42f-71a3b1b1181a</id>
+      <masked>false</masked>
+      <name>RequestNo</name>
+   </variable>
+</TestCaseEntity>

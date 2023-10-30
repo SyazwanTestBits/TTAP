@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button-click view contract detail</name>
+   <tag></tag>
+   <elementGuidId>f498561f-fe61-429b-b0ea-fc14e9403e61</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div[4]/div/div/div/div[2]/div[1]/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[10]/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.lcbm-MuiPaper-root.lcbm-MuiCard-root.lcbm-lcbm9.lcbm-lcbm10.lcbm-MuiPaper-elevation3.lcbm-MuiPaper-rounded</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ae35abc0-f587-48b1-a663-daea297c5278</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm9 lcbm-lcbm10 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded</value>
+      <webElementGuid>2d4058ea-5bca-467a-a743-363b823d1fab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AND0Contract Route CodeDescriptionCustomer CodeStatusCreated ByUpdated ByCreated DateUpdated DateCR-PK-CUS-POC-2307001PK-CUS-POCAlready OrdereduserfuserfJul 10, 2023Jul 10, 2023Showing 1~1 out of 1 resultsShow:20 rows1</value>
+      <webElementGuid>225085c7-0c64-4259-b078-bd6e790dcdae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-scrollbar-vertical-hidden lcbm-lcbm1 os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2 lcbm-lcbm3&quot;]/div[@class=&quot;lcbm-lcbm7 lcbm-lcbm8&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm9 lcbm-lcbm10 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]</value>
+      <webElementGuid>603cd524-2763-47a7-abb6-55a9b0789780</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div</value>
+      <webElementGuid>5f3dbbf1-a263-4fe5-9fe4-aa2e08f02006</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contract Route List'])[1]/following::div[3]</value>
+      <webElementGuid>af4bddcc-3525-434b-8ca3-f09952c205eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/preceding::div[84]</value>
+      <webElementGuid>6f524f06-c390-4a82-bc70-5e4db75b20b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[2]/div</value>
+      <webElementGuid>b38159c7-1ab8-404b-9107-6e04c4c01f21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'AND0Contract Route CodeDescriptionCustomer CodeStatusCreated ByUpdated ByCreated DateUpdated DateCR-PK-CUS-POC-2307001PK-CUS-POCAlready OrdereduserfuserfJul 10, 2023Jul 10, 2023Showing 1~1 out of 1 resultsShow:20 rows1' or . = 'AND0Contract Route CodeDescriptionCustomer CodeStatusCreated ByUpdated ByCreated DateUpdated DateCR-PK-CUS-POC-2307001PK-CUS-POCAlready OrdereduserfuserfJul 10, 2023Jul 10, 2023Showing 1~1 out of 1 resultsShow:20 rows1')]</value>
+      <webElementGuid>356c9180-71ab-4469-852b-2fe437fcbbe9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_PlanOut_Date1</name>
+   <tag></tag>
+   <elementGuidId>338788b1-597e-49bf-b3da-3a3938c2a8e5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[2]/th[4]/div/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>e6a92a5e-fa47-4d43-81ec-8ca418a62ed9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiTypography-root lcbm-lcbm8116 lcbm-MuiTypography-body2</value>
+      <webElementGuid>ee8703d6-17e5-43fb-b0a2-134db0aa5c6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dec 1, 2023</value>
+      <webElementGuid>82d8dc14-af1b-43fe-a5c5-85ede9fe4d25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;OSS011_Section_2&quot;)/div[@class=&quot;lcbm-MuiCollapse-root lcbm-MuiCollapse-entered&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapper&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapperInner&quot;]/div[@class=&quot;lcbm-lcbm120&quot;]/div[1]/div[@class=&quot;lcbm-lcbm8098&quot;]/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-overflow os-host-overflow-x os-host-resize-disabled lcbm-lcbm71 os-host-scrollbar-vertical-hidden os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[1]/table[@class=&quot;lcbm-MuiTable-root&quot;]/thead[@class=&quot;lcbm-MuiTableHead-root&quot;]/tr[@class=&quot;lcbm-MuiTableRow-root lcbm-lcbm8108 lcbm-MuiTableRow-head&quot;]/th[@class=&quot;lcbm-MuiTableCell-root lcbm-MuiTableCell-head lcbm-lcbm8109&quot;]/div[@class=&quot;lcbm-lcbm8110&quot;]/div[@class=&quot;lcbm-lcbm8111&quot;]/p[@class=&quot;lcbm-MuiTypography-root lcbm-lcbm8116 lcbm-MuiTypography-body2&quot;]</value>
+      <webElementGuid>1d865f82-455b-459d-a79c-5015cd7ba429</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='OSS011_Section_2']/div[2]/div/div/div/div/div/div[2]/div[4]/div/div/div/table/thead/tr[2]/th[4]/div/div/p</value>
+      <webElementGuid>09231f18-9700-47cf-88dd-0d918b2ec03c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AND'])[1]/following::p[18]</value>
+      <webElementGuid>8d7b9be4-99eb-4cf5-8412-cd65e0fbf06c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parts Monitoring detail'])[1]/following::p[19]</value>
+      <webElementGuid>63be115f-c3c0-4eca-a248-f02325909c1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/preceding::p[126]</value>
+      <webElementGuid>f7dcf989-321b-43a1-b5b9-fdf48fd570b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logistics'])[1]/preceding::p[126]</value>
+      <webElementGuid>f8f2ac2f-1ea4-422f-87e1-49ffb999f0fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Dec 1, 2023']/parent::*</value>
+      <webElementGuid>88fad579-8da3-47bf-aef7-8da92d55f343</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/th[4]/div/div/p</value>
+      <webElementGuid>70701735-af9e-4fda-8747-b9d43b64c73e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Dec 1, 2023' or . = 'Dec 1, 2023')]</value>
+      <webElementGuid>ea4767be-40c5-4d8f-896c-f72e99997b80</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

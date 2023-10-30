@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC024-BU Check Purchase Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8b8902be-7ada-4e02-9ef5-9d5c42d082f3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>24049381-865b-402f-b5c0-66471d08f588</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e00b486e-b744-4374-ab58-4ceb7348f89e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>16ec378e-6700-481e-98dd-0765a4d24991</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Part no', 'Customer Part no', 'Back no', 'Sale order no', 'Supplier code', 'SPQ', 'Order lot', 'Order forecast']</defaultValue>
+      <description></description>
+      <id>24049381-865b-402f-b5c0-66471d08f588</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC015-BU PO').getValue('RegularPurchaseOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>e00b486e-b744-4374-ab58-4ceb7348f89e</id>
+      <masked>false</masked>
+      <name>COid</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC007-Supplier to BU Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>16ec378e-6700-481e-98dd-0765a4d24991</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+</TestCaseEntity>

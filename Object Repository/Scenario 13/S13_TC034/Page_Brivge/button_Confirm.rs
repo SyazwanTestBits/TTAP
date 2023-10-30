@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Confirm</name>
+   <tag></tag>
+   <elementGuidId>a5d1c41a-ad03-4bf5-a12d-ee31fadf1f46</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type = 'button' and (text() = 'CONFIRM' or . = 'CONFIRM')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'CONFIRM' or . = 'CONFIRM')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d1b024ff-46ac-4670-9a32-55936ef4e590</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiButtonBase-root base-MuiButton-root base-MuiButton-text base-base291</value>
+      <webElementGuid>931888f2-ff0e-4fce-9ec1-2104cdd3a519</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>40c1f294-f36f-4b1c-a7fd-aee39463da1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0a0d6a91-b8cc-45e1-99d1-f90fe04292d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CONFIRM</value>
+      <webElementGuid>ee8ce831-1424-4ddb-a9aa-9d4d6dd538f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/div[@class=&quot;base-MuiPaper-root base-MuiAlert-root base-MuiAlert-standardWarning base-base285 base-MuiPaper-elevation0&quot;]/div[@class=&quot;base-MuiAlert-message&quot;]/div[@class=&quot;base-base290&quot;]/button[@class=&quot;base-MuiButtonBase-root base-MuiButton-root base-MuiButton-text base-base291&quot;]</value>
+      <webElementGuid>2e229114-f80d-4352-a7e8-a9cd234ee023</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'CONFIRM' or . = 'CONFIRM')]</value>
+      <webElementGuid>6cbd3a1d-bb85-4623-b968-d9825f34c9f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC061-Auto Generate Shipping Detail (Supplier)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e39c770f-7fe0-42db-a1a5-55ea897bb0aa</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>4c0d5068-d58e-4c54-8bb4-dd1e98a7134e</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC052-Upload Outbound Form Setup</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bed5b1a7-210e-4f00-8b88-b34f2dfe7fe4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>4c0d5068-d58e-4c54-8bb4-dd1e98a7134e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>BookingNo</value>
+      <variableId>678d2427-3300-40ff-9550-fe2c886f2403</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.COMPANY_SUPPLIER_1</defaultValue>
+      <description></description>
+      <id>bed5b1a7-210e-4f00-8b88-b34f2dfe7fe4</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>678d2427-3300-40ff-9550-fe2c886f2403</id>
+      <masked>false</masked>
+      <name>bookingNo</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC025-User Check Whats New after run batch (1)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1c5bb73-86bf-4073-9f19-138ba0b558dd</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>9afa49c9-cf8d-4431-a890-a1bfb707866c</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC009-Create New User</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>3cf39af1-3b86-49c6-ba0c-6842611d69a5</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC014n15</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b1226a09-4b11-46cf-ba63-4956b8266fd9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f380691e-e0ce-4fb7-b185-a322ffad5539</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e0ab0c25-a0c5-4c56-b68f-cf3eaa587d7d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>9afa49c9-cf8d-4431-a890-a1bfb707866c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>49fd450d-4206-417f-a817-d39a10126eb7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a53cb166-5c71-4dcb-bfce-2491f8c91cfa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9e4c20b0-03c7-43a5-9370-c28bd513166e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>3cf39af1-3b86-49c6-ba0c-6842611d69a5</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>SupplierCompanyCode</value>
+      <variableId>e00f0228-7916-440e-b2c5-b31418c2341e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec47165a-31f4-4883-ac47-7855d0972ecd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC022').getValue('Ann Header', 1)</defaultValue>
+      <description></description>
+      <id>b1226a09-4b11-46cf-ba63-4956b8266fd9</id>
+      <masked>false</masked>
+      <name>announcementHeader</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC022').getValue('Ann Description', 1)</defaultValue>
+      <description></description>
+      <id>f380691e-e0ce-4fb7-b185-a322ffad5539</id>
+      <masked>false</masked>
+      <name>announcementDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC022').getValue('Ann Content', 1)</defaultValue>
+      <description></description>
+      <id>e0ab0c25-a0c5-4c56-b68f-cf3eaa587d7d</id>
+      <masked>false</masked>
+      <name>annnouncementContent</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>49fd450d-4206-417f-a817-d39a10126eb7</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC021-Forget Password').getValue('NewPassword', 1)</defaultValue>
+      <description></description>
+      <id>a53cb166-5c71-4dcb-bfce-2491f8c91cfa</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC021-Forget Password').getValue('BriVgeVerificationCode', 1)</defaultValue>
+      <description></description>
+      <id>9e4c20b0-03c7-43a5-9370-c28bd513166e</id>
+      <masked>false</masked>
+      <name>verificationcode</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e00f0228-7916-440e-b2c5-b31418c2341e</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC022').getValue('StartDate', 1)</defaultValue>
+      <description></description>
+      <id>ec47165a-31f4-4883-ac47-7855d0972ecd</id>
+      <masked>false</masked>
+      <name>date</name>
+   </variable>
+</TestCaseEntity>

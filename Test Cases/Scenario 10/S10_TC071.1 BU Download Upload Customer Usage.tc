@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC071.1 BU Download Upload Customer Usage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>91851c8b-8b74-43d5-b7f2-37770a9c684c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>03b8eca0-82ce-4da1-9621-2044bd9610bf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>381c722d-777d-4082-a115-7aff0bc3d8c3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fd29e866-dffd-4e84-b369-aad56e0866d7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[('MOD') : 0, ('Week 1') : 14, ('Week 2') : 15, ('Week 3') : 16, ('Week 4') : 17, ('Week 5') : 18]</defaultValue>
+      <description></description>
+      <id>03b8eca0-82ce-4da1-9621-2044bd9610bf</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>'MY-PNA-CUS'</defaultValue>
+      <description></description>
+      <id>381c722d-777d-4082-a115-7aff0bc3d8c3</id>
+      <masked>false</masked>
+      <name>buyerID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC071_1')</defaultValue>
+      <description></description>
+      <id>fd29e866-dffd-4e84-b369-aad56e0866d7</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

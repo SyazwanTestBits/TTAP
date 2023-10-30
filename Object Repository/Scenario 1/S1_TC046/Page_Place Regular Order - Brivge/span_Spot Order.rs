@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Spot Order</name>
+   <tag></tag>
+   <elementGuidId>4a911326-737c-4222-bfe2-4c839693382d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div/div/div/div/button[2]/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Spot Order' or . = 'Spot Order')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>15279f5a-0e5d-4db9-8f1c-bacf865d6123</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiTab-wrapper</value>
+      <webElementGuid>0caf471f-68a6-474f-9874-c8f55a0d6a16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Spot Order</value>
+      <webElementGuid>b21af4c0-d8df-4967-9436-a8e07b3b8a8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-scrollbar-vertical-hidden lcbm-lcbm159 os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm160 lcbm-lcbm161&quot;]/div[@class=&quot;lcbm-lcbm165 lcbm-lcbm166&quot;]/div[@class=&quot;lcbm-lcbm167&quot;]/div[@class=&quot;lcbm-MuiTabs-root lcbm-lcbm168&quot;]/div[@class=&quot;lcbm-MuiTabs-scroller lcbm-MuiTabs-fixed&quot;]/div[@class=&quot;lcbm-MuiTabs-flexContainer&quot;]/button[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiTab-root lcbm-MuiTab-textColorInherit&quot;]/span[@class=&quot;lcbm-MuiTab-wrapper&quot;]</value>
+      <webElementGuid>afd92bc0-e565-49a7-b818-ec66123dc304</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div/div/div/div/button[2]/span</value>
+      <webElementGuid>5677de72-2de2-455e-bb62-e9bc2fabcc4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular Order'])[1]/following::span[2]</value>
+      <webElementGuid>045fe9e4-0e67-4cdd-b585-fd2472209d4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Place Regular Order'])[1]/following::span[3]</value>
+      <webElementGuid>69a79fb0-ac39-4126-8eae-5c03b88613a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AND'])[1]/preceding::span[5]</value>
+      <webElementGuid>53d65740-e81d-448c-a5c0-3d6291849071</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/preceding::span[58]</value>
+      <webElementGuid>dc07ffde-3532-4781-9127-f2fed53cf156</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Spot Order']/parent::*</value>
+      <webElementGuid>6e1d3c0a-4455-462b-b57f-5afb2e77fd4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/span</value>
+      <webElementGuid>727f08ca-776b-4744-8dc0-f59b28c01f02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Spot Order' or . = 'Spot Order')]</value>
+      <webElementGuid>bfaeed50-7d12-4b3b-bd4e-fc102648daf0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

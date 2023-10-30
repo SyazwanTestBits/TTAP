@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC126-Supp2 Revise and Confirm Shippment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8d9cb3d9-62c6-4c96-ba1b-145fb67800bb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>da9e2861-b629-460d-8ff4-40b201cf70ae</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eacd5762-5c2c-41e0-ac6d-62a3f72cd800</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC126').getRowNumbers()</defaultValue>
+      <description></description>
+      <id>da9e2861-b629-460d-8ff4-40b201cf70ae</id>
+      <masked>false</masked>
+      <name>noRows</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC126')</defaultValue>
+      <description></description>
+      <id>eacd5762-5c2c-41e0-ac6d-62a3f72cd800</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

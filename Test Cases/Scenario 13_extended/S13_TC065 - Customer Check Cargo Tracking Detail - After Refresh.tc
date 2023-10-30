@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC065 - Customer Check Cargo Tracking Detail - After Refresh</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>571a3463-a893-4e11-b51e-a8b9ffeda562</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>8b4e431b-2b21-4c35-adad-cd88c627ec44</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC064-065_Forecast</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>edfe5bd9-2a6d-4dd6-9c7f-bd2acf8aedf3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>70316b66-6dbc-4f97-a5fd-cca211f7feff</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aac8685c-e64a-4e3e-a48e-464bc1524212</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>744076aa-57c8-41bd-a439-915f59805abe</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC064-065_Forecast').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>edfe5bd9-2a6d-4dd6-9c7f-bd2acf8aedf3</id>
+      <masked>false</masked>
+      <name>bookingNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'SEGU5069987'</defaultValue>
+      <description></description>
+      <id>70316b66-6dbc-4f97-a5fd-cca211f7feff</id>
+      <masked>false</masked>
+      <name>containerNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>['Booking Submitted', 'Booking Confirmed', 'Empty Container Release to Shipper', 'Cargo Outbound', 'Gate in (arrival at first POL)', 'Container loaded at first POL', 'Vessel departure from first POL', 'Vessel arrival at T/S port', 'Container discharge at T/S port', 'Container loaded at T/S port', 'Vessel departure from T/S', 'Exp clearance in progress', 'Exp clearance completed', 'Imp clearance in progress', 'Imp clearance completed', 'Vessel arrived at final POD (ATA)', 'Container unload at final POD', 'Container Gate out from final POD', 'Cargo Inbound']</defaultValue>
+      <description></description>
+      <id>aac8685c-e64a-4e3e-a48e-464bc1524212</id>
+      <masked>false</masked>
+      <name>milestone</name>
+   </variable>
+   <variable>
+      <defaultValue>['Empty container pick-up (Empty Container Release to Shipper)', 'Gate in (Gate In to Outbound Terminal)', 'Loaded (Loaded on vessel at Port of Loading)', 'Departure (vessel Departure from Port of Loading)', 'Arrival (vessel Arrival at Transhipment Port)', 'Unload (Unloaded from vessel at Transhipment Port)', 'Loaded (Loaded on vessel at Transhipment Port)', 'Departure (Departure from Transhipment Port)', 'Arrival (vessel Arrival at Port of Discharging)', 'Unload (Unloaded from vessel at Port of Discharging)', 'Gate out (Gate Out from Inbound Terminal for Delivery to Consignee (or Port Shuttle))', 'Empty container returned (Empty Container Returned from Customer)']</defaultValue>
+      <description></description>
+      <id>744076aa-57c8-41bd-a439-915f59805abe</id>
+      <masked>false</masked>
+      <name>milestoneREALTIME</name>
+   </variable>
+</TestCaseEntity>

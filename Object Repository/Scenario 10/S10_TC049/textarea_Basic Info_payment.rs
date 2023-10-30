@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_Basic Info_payment</name>
+   <tag></tag>
+   <elementGuidId>069667d4-293f-40f6-b6a7-202a93e4afd8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>textarea[name=&quot;paymentTermsDesc&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@name='paymentTermsDesc']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>806e73c4-3b3f-420e-9a9a-9e6037afe0f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>e9aae511-b951-4aae-b380-196e81c2718e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>paymentTermsDesc</value>
+      <webElementGuid>d466f4f4-be9f-4df4-a352-d0918ed5e55f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiInputBase-input lcbm-MuiInput-input lcbm-MuiInputBase-inputMultiline lcbm-MuiInput-inputMultiline</value>
+      <webElementGuid>c1a62b8c-c9bc-40dc-850d-2cdbc78836ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>60 DAYS BY INV DATE</value>
+      <webElementGuid>ebae4dcb-2b1b-47e6-8f8c-687b356dac32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm1 os-host-transition os-host-overflow os-host-overflow-y&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2&quot;]/div[@class=&quot;lcbm-lcbm5&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm50 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiCollapse-root lcbm-MuiCollapse-entered&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapper&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapperInner&quot;]/div[@class=&quot;lcbm-lcbm53&quot;]/form[@class=&quot;lcbm-lcbm1373 lcbm-lcbm1412&quot;]/div[@class=&quot;lcbm-lcbm1375 lcbm-lcbm1422&quot;]/div[@class=&quot;lcbm-lcbm1377&quot;]/div[@class=&quot;lcbm-lcbm1384&quot;]/div[@class=&quot;lcbm-lcbm1390 lcbm-lcbm1395&quot;]/div[@class=&quot;lcbm-lcbm1379&quot;]/div[@class=&quot;lcbm-MuiInputBase-root lcbm-MuiInput-root Mui-focused Mui-focused lcbm-MuiInputBase-multiline lcbm-MuiInput-multiline&quot;]/textarea[@class=&quot;lcbm-MuiInputBase-input lcbm-MuiInput-input lcbm-MuiInputBase-inputMultiline lcbm-MuiInput-inputMultiline&quot;]</value>
+      <webElementGuid>6a28f7d8-eddc-44a8-bb1b-6a9ba6757baa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//textarea[@name='paymentTermsDesc']</value>
+      <webElementGuid>ab11e393-86b3-4692-afa2-65d5069ffc3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div/div[2]/div/div/div/form/div[10]/div/div[2]/div/div/div/textarea</value>
+      <webElementGuid>ecdb45ef-c439-41df-b0d0-2e1a29d308ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Basic Info'])[1]/following::textarea[1]</value>
+      <webElementGuid>3d3df679-05ca-4656-9cdf-bc4a54bc1032</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PO Monitoring Detail'])[1]/following::textarea[1]</value>
+      <webElementGuid>3e556664-6789-4c50-841b-e4c9124512e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipping Plan Info'])[1]/preceding::textarea[4]</value>
+      <webElementGuid>6db628c8-eede-40d2-82dc-c5ec48da367d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AND'])[1]/preceding::textarea[4]</value>
+      <webElementGuid>d7cbcd1d-092a-499d-b3e6-eb05e5b5678a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='60 DAYS BY INV DATE']/parent::*</value>
+      <webElementGuid>17dc5ecb-2606-4b93-b45a-153423ca8046</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//textarea</value>
+      <webElementGuid>f0561634-13ff-4ded-bb6a-d1e6c9d2846c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@name = 'paymentTermsDesc' and (text() = '60 DAYS BY INV DATE' or . = '60 DAYS BY INV DATE')]</value>
+      <webElementGuid>33aa9a57-f2c9-4a66-863a-81f29015f56b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

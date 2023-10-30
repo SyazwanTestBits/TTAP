@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_trackingType v1_1</name>
+   <tag></tag>
+   <elementGuidId>f4a413ea-4b5a-4e53-b8a5-3f98c0e3b72c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.lcbm-MuiSelect-root.lcbm-MuiSelect-select.lcbm-MuiSelect-selectMenu.lcbm-MuiInputBase-input.lcbm-MuiInput-input</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = '${maintitle}' or . = '${maintitle}')]/following::div[(text() = '${tracktype}' or . = '${tracktype}')][1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'MANUAL' or . = 'MANUAL')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>358c0308-9a67-402c-ba89-aa7776b5a644</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiSelect-root lcbm-MuiSelect-select lcbm-MuiSelect-selectMenu lcbm-MuiInputBase-input lcbm-MuiInput-input</value>
+      <webElementGuid>fefe3a41-8d4f-4dd8-9c26-13d49fccfd4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>a0bcb5c0-a30c-43bc-a32d-4efd0520071d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d835aedb-b685-418f-86f8-473f6c0628a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>listbox</value>
+      <webElementGuid>8628ff26-140b-430c-8d0e-7b9f3b8807bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>MANUAL</value>
+      <webElementGuid>dffa140d-95be-49b8-954d-e5b56207d662</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm1 os-host-transition os-host-overflow os-host-overflow-y&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2&quot;]/div[@class=&quot;lcbm-lcbm7&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm9 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[2]/div[@class=&quot;lcbm-lcbm57&quot;]/div[1]/div[@class=&quot;lcbm-MuiInputBase-root lcbm-MuiInput-root Mui-focused Mui-focused&quot;]/div[@class=&quot;lcbm-MuiSelect-root lcbm-MuiSelect-select lcbm-MuiSelect-selectMenu lcbm-MuiInputBase-input lcbm-MuiInput-input&quot;]</value>
+      <webElementGuid>45019eac-afc6-496f-b7d6-a03cfdad5672</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div[5]/div[2]/div[5]/div/div[2]/div</value>
+      <webElementGuid>757b503b-a890-4247-a14e-f517f6ff9d6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tracking Type:'])[1]/following::div[2]</value>
+      <webElementGuid>50ffa7ec-a424-4c7a-a0f9-328fdcb66678</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aug 3, 2023'])[1]/following::div[7]</value>
+      <webElementGuid>ed180d56-8f77-45f6-836e-260962329ef3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AND'])[1]/preceding::div[1]</value>
+      <webElementGuid>9d1c33b3-69e1-49e9-abcb-a38881cd69a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Booking Number: B-230718-01    Container Number:'])[1]/preceding::div[212]</value>
+      <webElementGuid>530a2910-e8f1-4fa0-981a-1a67905b3508</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='MANUAL']/parent::*</value>
+      <webElementGuid>1f76248d-70c3-4d7a-a4f1-9143a0de284c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div[2]/div</value>
+      <webElementGuid>b91f4179-ea68-4479-b72b-e3157e4eea31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'MANUAL' or . = 'MANUAL')]</value>
+      <webElementGuid>49d9f16b-bed4-42cb-8fd8-b44292f91102</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

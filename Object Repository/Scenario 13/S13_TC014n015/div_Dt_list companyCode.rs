@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Dt_list companyCode</name>
+   <tag></tag>
+   <elementGuidId>fd2d0c03-5c4c-45ee-a50b-54277e5824c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tbody/tr[1]/td[6]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>409be523-d303-4a2a-aaff-58bec2ce00c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-lcbm802</value>
+      <webElementGuid>53d10b5d-6546-4f62-97d4-95cea3241d36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>JP-FUJ-SUP, CNTW-SUP-POC, SG-BAFCO, EPHK-YAZ-SUP, SG-HON-SUP, SG-GAG-SUP, MY-PNA-BU, SG-NP-SUP, MY-EXO-SUP, MY-NIF-SUP, MY-TYC-SUP, JP-YAZ-SUP, MY-LXI-SUP, MY-ELE-SUP, MY-AMT-SUP, MY-ELA-SUP, MY-BRI-SUP, MY-GRI-SUP, THHK-YAZ-SUP, MY-CL-SUP, MY-BRA-SUP, PK-SUP-POC, MY-AZM-SUP, CUS-001, PK-CUS-POC, PK-BU, MY-SIN-SUP, MY-HON-SUP, MY-GUA-SUP, VN-TTVN, SG-CON-SUP, MY-GP-SUP, HK-YAZ-SUP, MY-FRE-SUP, SHCN-SHA-SUP, CN-MQ-SUP, TH-FED-SUP, YKJP-KYO-SUP, MY-AIM-SUP, MY-ASA-SUP, MY-LIP-SUP, PH-DEL-SUP, MY-PAN-SUP, MY-PNA-CUS, SUP001, PKDC, BU-001, MY-HIB-SUP, MY-PYR-SUP, VN-AKIRA, JP-ART-SUP, MY-IDL-SUP, MY-NEL-SUP, MY-THR-SUP, HK-NIT-SUP, MY-GRE-SUP, MY-XIN-SUP, MY-ZER-SUP, SG-TTAP-ADMIN, SG-TTAP, CN-NIN-SUP, MY-PNA-DC</value>
+      <webElementGuid>763d839f-7986-4589-b09c-d3f66c646158</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-scrollbar-vertical-hidden lcbm-lcbm107 os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm108 lcbm-lcbm109&quot;]/div[@class=&quot;lcbm-lcbm111 lcbm-lcbm112&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm156 lcbm-lcbm157 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-lcbm159&quot;]/div[@class=&quot;lcbm-lcbm771&quot;]/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-scrollbar-vertical-hidden lcbm-lcbm110 os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[1]/table[@class=&quot;lcbm-MuiTable-root&quot;]/tbody[@class=&quot;lcbm-MuiTableBody-root&quot;]/tr[@class=&quot;lcbm-MuiTableRow-root lcbm-lcbm798&quot;]/td[@class=&quot;lcbm-MuiTableCell-root lcbm-MuiTableCell-body lcbm-lcbm801&quot;]/div[@class=&quot;lcbm-lcbm802&quot;]</value>
+      <webElementGuid>8c5e925c-c57e-4d55-826e-5a8f7d9f5b54</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[6]/div</value>
+      <webElementGuid>98602ba3-313e-48dc-8dcb-558fd01ef65e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AND'])[1]/following::div[44]</value>
+      <webElementGuid>8dfbaa4f-6b82-44ae-b55c-952da2d4b5d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User List'])[1]/following::div[53]</value>
+      <webElementGuid>d76f9f23-5ee7-486f-965e-d3a65dcaaee3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/preceding::div[96]</value>
+      <webElementGuid>3809e55e-e2b4-4867-9b9c-6785ce736063</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logistics'])[1]/preceding::div[96]</value>
+      <webElementGuid>7be1ee6b-e321-4a9b-91b0-5fb6dc7f09f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[6]/div</value>
+      <webElementGuid>73d75f54-385a-40bf-a6c7-ceaceec9ecb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'JP-FUJ-SUP, CNTW-SUP-POC, SG-BAFCO, EPHK-YAZ-SUP, SG-HON-SUP, SG-GAG-SUP, MY-PNA-BU, SG-NP-SUP, MY-EXO-SUP, MY-NIF-SUP, MY-TYC-SUP, JP-YAZ-SUP, MY-LXI-SUP, MY-ELE-SUP, MY-AMT-SUP, MY-ELA-SUP, MY-BRI-SUP, MY-GRI-SUP, THHK-YAZ-SUP, MY-CL-SUP, MY-BRA-SUP, PK-SUP-POC, MY-AZM-SUP, CUS-001, PK-CUS-POC, PK-BU, MY-SIN-SUP, MY-HON-SUP, MY-GUA-SUP, VN-TTVN, SG-CON-SUP, MY-GP-SUP, HK-YAZ-SUP, MY-FRE-SUP, SHCN-SHA-SUP, CN-MQ-SUP, TH-FED-SUP, YKJP-KYO-SUP, MY-AIM-SUP, MY-ASA-SUP, MY-LIP-SUP, PH-DEL-SUP, MY-PAN-SUP, MY-PNA-CUS, SUP001, PKDC, BU-001, MY-HIB-SUP, MY-PYR-SUP, VN-AKIRA, JP-ART-SUP, MY-IDL-SUP, MY-NEL-SUP, MY-THR-SUP, HK-NIT-SUP, MY-GRE-SUP, MY-XIN-SUP, MY-ZER-SUP, SG-TTAP-ADMIN, SG-TTAP, CN-NIN-SUP, MY-PNA-DC' or . = 'JP-FUJ-SUP, CNTW-SUP-POC, SG-BAFCO, EPHK-YAZ-SUP, SG-HON-SUP, SG-GAG-SUP, MY-PNA-BU, SG-NP-SUP, MY-EXO-SUP, MY-NIF-SUP, MY-TYC-SUP, JP-YAZ-SUP, MY-LXI-SUP, MY-ELE-SUP, MY-AMT-SUP, MY-ELA-SUP, MY-BRI-SUP, MY-GRI-SUP, THHK-YAZ-SUP, MY-CL-SUP, MY-BRA-SUP, PK-SUP-POC, MY-AZM-SUP, CUS-001, PK-CUS-POC, PK-BU, MY-SIN-SUP, MY-HON-SUP, MY-GUA-SUP, VN-TTVN, SG-CON-SUP, MY-GP-SUP, HK-YAZ-SUP, MY-FRE-SUP, SHCN-SHA-SUP, CN-MQ-SUP, TH-FED-SUP, YKJP-KYO-SUP, MY-AIM-SUP, MY-ASA-SUP, MY-LIP-SUP, PH-DEL-SUP, MY-PAN-SUP, MY-PNA-CUS, SUP001, PKDC, BU-001, MY-HIB-SUP, MY-PYR-SUP, VN-AKIRA, JP-ART-SUP, MY-IDL-SUP, MY-NEL-SUP, MY-THR-SUP, HK-NIT-SUP, MY-GRE-SUP, MY-XIN-SUP, MY-ZER-SUP, SG-TTAP-ADMIN, SG-TTAP, CN-NIN-SUP, MY-PNA-DC')]</value>
+      <webElementGuid>44678183-f643-44e2-a552-2b289e36734a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

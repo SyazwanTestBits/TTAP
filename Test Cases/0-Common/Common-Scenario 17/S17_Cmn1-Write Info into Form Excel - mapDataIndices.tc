@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_Cmn1-Write Info into Form Excel - mapDataIndices</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>73bab2b2-5e72-4121-9391-051d7d4a568d</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null)</defaultValue>
+      <description></description>
+      <id>0490df4e-532a-47d8-ba3f-2107a2defe02</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>[:]</defaultValue>
+      <description></description>
+      <id>979c0f6b-1899-4747-af82-91ea4bb00105</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>457deef6-2862-4491-b24e-c1144a9d9a06</id>
+      <masked>false</masked>
+      <name>startRowFormMinusOne</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b8ff9821-109d-4441-a6c1-aa1a5d8ed050</id>
+      <masked>false</masked>
+      <name>downloadedFormPath</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8d35aa4c-26a5-4785-abf6-d3bb3bfbebdc</id>
+      <masked>false</masked>
+      <name>downloadedFormSheetname</name>
+   </variable>
+</TestCaseEntity>

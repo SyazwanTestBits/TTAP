@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC061-BU Auto Generate Change Request after Supplier Submit Order Change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7ccf3e56-0aa2-42be-8929-01c858114100</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>665bc6b3-6532-4ada-96c9-d511b72ef2d8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC060-SUP Order Change Request').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>665bc6b3-6532-4ada-96c9-d511b72ef2d8</id>
+      <masked>false</masked>
+      <name>supChangeRequestNo</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC103-DC3 Update Shipping Detail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>800166ab-5085-4d59-8337-6ca7300239e5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>251986a5-f255-4697-bf5d-6f5aeee672d0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6750c1b4-9eda-4b0c-9423-0e7b49395e1c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC103-DC3 Update Shipping Details')</defaultValue>
+      <description></description>
+      <id>251986a5-f255-4697-bf5d-6f5aeee672d0</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Cargo Status') : 14]</defaultValue>
+      <description></description>
+      <id>6750c1b4-9eda-4b0c-9423-0e7b49395e1c</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+</TestCaseEntity>

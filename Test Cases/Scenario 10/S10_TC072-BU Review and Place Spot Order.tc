@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC072-BU Review and Place Spot Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7e653c2-a0c9-4373-adf2-34ca0a788f4d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4516e9bc-fac4-451e-ba61-f85bdf98e657</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>166756c8-6232-4464-8292-ff25dda55001</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fab457c2-47f7-47ed-8a48-45fba9cf87b4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3aee0aa1-adb2-4857-be05-9b47a3eecc8b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>20821387-c429-43c9-be11-5282923eaa23</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>70eb904c-48fe-47f2-a053-bb42f1319f39</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC034-Create Order Calculation').getValue('OrderCalculationRefNo', 1)</defaultValue>
+      <description></description>
+      <id>4516e9bc-fac4-451e-ba61-f85bdf98e657</id>
+      <masked>false</masked>
+      <name>orderCalcRefNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC007-Setup Data').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>166756c8-6232-4464-8292-ff25dda55001</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC072-BU Place Spot Order')</defaultValue>
+      <description></description>
+      <id>fab457c2-47f7-47ed-8a48-45fba9cf87b4</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>[('AddQty') : 16, ('InPlan_1') : 17, ('InPlan_2') : 18, ('InPlan_3') : 19]</defaultValue>
+      <description></description>
+      <id>3aee0aa1-adb2-4857-be05-9b47a3eecc8b</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC072-Spot Order Calculation Reference No').getValue('Spot OCRN', 1)</defaultValue>
+      <description></description>
+      <id>20821387-c429-43c9-be11-5282923eaa23</id>
+      <masked>false</masked>
+      <name>orderCalcRefNo_spot</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC072-Inbound Plan Date')</defaultValue>
+      <description></description>
+      <id>70eb904c-48fe-47f2-a053-bb42f1319f39</id>
+      <masked>false</masked>
+      <name>dataInboudDate</name>
+   </variable>
+</TestCaseEntity>

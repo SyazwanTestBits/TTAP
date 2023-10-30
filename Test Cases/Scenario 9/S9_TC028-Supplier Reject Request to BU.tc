@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC028-Supplier Reject Request to BU</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4ebe0d1-eb30-4b0b-9870-ac05024ad48b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e5ea6a1e-0a89-4885-8943-4178958de0ef</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC023-SUP to BU Contract').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>e5ea6a1e-0a89-4885-8943-4178958de0ef</id>
+      <masked>false</masked>
+      <name>requestNo</name>
+   </variable>
+</TestCaseEntity>

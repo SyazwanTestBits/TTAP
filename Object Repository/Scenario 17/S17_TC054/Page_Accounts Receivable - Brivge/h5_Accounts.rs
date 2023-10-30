@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h5_Accounts</name>
+   <tag></tag>
+   <elementGuidId>8475f556-7ebb-4e35-b1d3-24affc129173</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div/div/div[2]/div/div/div[2]/div/div/div/div/div/div/h5</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h5.lcbm-MuiTypography-root.lcbm-lcbm332.lcbm-MuiTypography-h5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>8ceb34b7-6275-4fc6-b08c-3ea7723ba71d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiTypography-root lcbm-lcbm332 lcbm-MuiTypography-h5</value>
+      <webElementGuid>854b90c4-60c1-40f7-8948-acb87bbdbde2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>79,400</value>
+      <webElementGuid>2f8c218f-f5ea-4cfd-98d4-8eae32cd434e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm264 os-host-overflow os-host-overflow-y os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm265&quot;]/div[@class=&quot;lcbm-lcbm268&quot;]/div[@class=&quot;lcbm-lcbm270&quot;]/div[@class=&quot;lcbm-lcbm276&quot;]/div[@class=&quot;lcbm-lcbm277&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm318 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-lcbm325&quot;]/div[@class=&quot;lcbm-lcbm326 lcbm-lcbm327&quot;]/div[@class=&quot;lcbm-lcbm328 lcbm-lcbm329&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm330 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiCardContent-root lcbm-lcbm331&quot;]/div[@class=&quot;lcbm-MuiGrid-root lcbm-MuiGrid-container lcbm-MuiGrid-spacing-xs-1 lcbm-MuiGrid-align-items-xs-center lcbm-MuiGrid-align-content-xs-center lcbm-MuiGrid-justify-content-xs-center&quot;]/div[@class=&quot;lcbm-MuiGrid-root lcbm-MuiGrid-item&quot;]/h5[@class=&quot;lcbm-MuiTypography-root lcbm-lcbm332 lcbm-MuiTypography-h5&quot;]</value>
+      <webElementGuid>c44a60c7-a328-409e-890c-5e2b605774f0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div/div/div[2]/div/div/div[2]/div/div/div/div/div/div/h5</value>
+      <webElementGuid>ab50ecb0-e86a-4a9d-97c8-57413651af2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Financial Statistics'])[1]/following::h5[1]</value>
+      <webElementGuid>67b01ba9-6c28-4eb2-91be-e26acefaf717</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accounts Receivable'])[1]/following::h5[1]</value>
+      <webElementGuid>10247703-5df3-4514-b979-5579b685b265</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CNY'])[1]/preceding::h5[1]</value>
+      <webElementGuid>64d5c7d5-bfbc-4510-be6c-7b5984f4e682</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CNY'])[2]/preceding::h5[4]</value>
+      <webElementGuid>a7f06efa-abae-418b-9b13-69b9514630d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='79,400']/parent::*</value>
+      <webElementGuid>c54548b9-e9bd-4f9f-aba4-c734f0260fe0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h5</value>
+      <webElementGuid>563d52bd-433e-4f6b-b627-560fe5d5df59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[(text() = '79,400' or . = '79,400')]</value>
+      <webElementGuid>a4dd1430-34c3-4144-8036-516b02996251</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

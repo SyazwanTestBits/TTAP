@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_total amaount currecy</name>
+   <tag></tag>
+   <elementGuidId>dd9bcea6-4844-42f2-9240-88e45a573bf7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.lcbm-MuiTypography-root.lcbm-MuiTypography-body1.lcbm-MuiTypography-colorTextSecondary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='OSS011_Section_1']/div[2]/div/div/div/form/div[12]/div/div[2]/div/div/div/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>db881d4a-b098-4607-8b6a-23c76d5f0bd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiTypography-root lcbm-MuiTypography-body1 lcbm-MuiTypography-colorTextSecondary</value>
+      <webElementGuid>a8516024-094a-4e5b-bfa7-e5250d87a28c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CNY</value>
+      <webElementGuid>5dd3a5a6-122a-4aae-bf3d-88f9f3ffeb0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;OSS011_Section_1&quot;)/div[@class=&quot;lcbm-MuiCollapse-root lcbm-MuiCollapse-entered&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapper&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapperInner&quot;]/div[@class=&quot;lcbm-lcbm14&quot;]/form[@class=&quot;lcbm-lcbm977 lcbm-lcbm1016&quot;]/div[@class=&quot;lcbm-lcbm979 lcbm-lcbm1028&quot;]/div[@class=&quot;lcbm-lcbm981&quot;]/div[@class=&quot;lcbm-lcbm988&quot;]/div[@class=&quot;lcbm-lcbm994 lcbm-lcbm999&quot;]/div[@class=&quot;lcbm-lcbm983&quot;]/div[@class=&quot;lcbm-MuiInputBase-root lcbm-MuiInput-root lcbm-MuiInputBase-adornedEnd&quot;]/div[@class=&quot;lcbm-MuiInputAdornment-root lcbm-MuiInputAdornment-positionStart&quot;]/p[@class=&quot;lcbm-MuiTypography-root lcbm-MuiTypography-body1 lcbm-MuiTypography-colorTextSecondary&quot;]</value>
+      <webElementGuid>cd882e2b-1d9c-48f7-8ad2-6571a66ac77a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='OSS011_Section_1']/div[2]/div/div/div/form/div[12]/div/div[2]/div/div/div/div/p</value>
+      <webElementGuid>16e97f0f-7d5d-473f-b7e9-ffae2ada6321</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='T/T REMITTANCE AT 60 DAYS FROM THE END OF B/L MONTH'])[1]/following::p[2]</value>
+      <webElementGuid>bab93dc3-ff78-466e-b8fe-9ab5de6f08f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please input related basic information'])[1]/following::p[13]</value>
+      <webElementGuid>0a0a0f37-244b-483f-a37b-8a2d4632ab54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='firm'])[1]/preceding::p[2]</value>
+      <webElementGuid>3651ae94-7461-47b3-aae8-1c124f9527cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parts Monitoring detail'])[1]/preceding::p[3]</value>
+      <webElementGuid>35afc0df-90f0-418d-9fa0-620ef1652b08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='CNY']/parent::*</value>
+      <webElementGuid>676141d5-22c7-40f0-a62c-ec0f9b2aa807</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/p</value>
+      <webElementGuid>0e91a9a7-a34b-4639-a9cf-4d81ddba3e09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'CNY' or . = 'CNY')]</value>
+      <webElementGuid>ecb97be3-0e7e-4998-ad12-6868537c7e6d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

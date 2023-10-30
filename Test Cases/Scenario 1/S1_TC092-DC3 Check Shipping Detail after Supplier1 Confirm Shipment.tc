@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC092-DC3 Check Shipping Detail after Supplier1 Confirm Shipment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1664a0a6-980d-4062-a769-5464ff2ca945</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ed0593d0-031b-4611-9c6f-6718c131e55c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC090-Supplier1 Revise Shipping Details')</defaultValue>
+      <description></description>
+      <id>ed0593d0-031b-4611-9c6f-6718c131e55c</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

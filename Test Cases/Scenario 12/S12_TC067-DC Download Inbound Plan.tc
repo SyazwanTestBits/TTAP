@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC067-DC Download Inbound Plan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>99d63e37-3c34-444a-a808-812b493d38b1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9e48c9e4-bcb7-4d09-ac90-a7367b93033c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9c17e6ca-8af1-44fc-92bf-dd0bb8ff74a4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>400bc4d9-01a3-4f26-8d1f-a0f399344b48</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c0cb609c-2699-45ea-a106-acc44efa63c5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'VN-TTVN'</defaultValue>
+      <description></description>
+      <id>9e48c9e4-bcb7-4d09-ac90-a7367b93033c</id>
+      <masked>false</masked>
+      <name>customerCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC007-Supplier to BU Contract').getValue('ContractRouteCode', 1)</defaultValue>
+      <description></description>
+      <id>9c17e6ca-8af1-44fc-92bf-dd0bb8ff74a4</id>
+      <masked>false</masked>
+      <name>contractRouteCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC004-BU to Customer Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>400bc4d9-01a3-4f26-8d1f-a0f399344b48</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 12\\Expected Data\\TC67\\InboundPlan.xlsx'</defaultValue>
+      <description></description>
+      <id>c0cb609c-2699-45ea-a106-acc44efa63c5</id>
+      <masked>false</masked>
+      <name>expectedInboundPlan</name>
+   </variable>
+</TestCaseEntity>

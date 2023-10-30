@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC036-BU Revise Order Calculation Result</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1cc8e54d-1ccd-4bd2-ba0f-21178aef4351</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>07755307-f9c1-43ed-820e-941ae224836e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>03edd33a-f76c-411e-a589-af5212b45f33</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1e28d48b-8750-4769-8c4d-32aafb6110be</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>26992580-f6f6-490c-ac13-90d1f85070ed</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8c5724b3-c713-4e95-9380-2d555f1a251a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC031-Create Order Calc Grouping').getValue('OrderCalculationGroupingNo', 1)</defaultValue>
+      <description></description>
+      <id>07755307-f9c1-43ed-820e-941ae224836e</id>
+      <masked>false</masked>
+      <name>orderCalcNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC036/S10_TC036-sheet1')</defaultValue>
+      <description></description>
+      <id>03edd33a-f76c-411e-a589-af5212b45f33</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Final Order Qty.(adjusted)') : 42, ('Reason for Adjustment') : 43]</defaultValue>
+      <description></description>
+      <id>1e28d48b-8750-4769-8c4d-32aafb6110be</id>
+      <masked>false</masked>
+      <name>column1</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Final Order Qty.(adjusted)') : 50, ('Reason for Adjustment') : 51]</defaultValue>
+      <description></description>
+      <id>26992580-f6f6-490c-ac13-90d1f85070ed</id>
+      <masked>false</masked>
+      <name>column2</name>
+   </variable>
+   <variable>
+      <defaultValue>'202311'</defaultValue>
+      <description></description>
+      <id>8c5724b3-c713-4e95-9380-2d555f1a251a</id>
+      <masked>false</masked>
+      <name>sheetName</name>
+   </variable>
+</TestCaseEntity>

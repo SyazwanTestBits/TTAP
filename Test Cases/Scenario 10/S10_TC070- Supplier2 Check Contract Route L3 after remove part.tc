@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC070- Supplier2 Check Contract Route L3 after remove part</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e38c0c5c-cb55-4c93-8993-19df1a13bb1d</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>80c1d936-90bd-4c69-8a9d-581c57d0a4a8</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC038</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>9aeef15b-1d15-4ff6-894b-38cf27d258ba</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC035-Receiverd Request List</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>edec8116-a5d5-4208-9104-75feb9a1118c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8ce2a09f-edb0-4801-8423-0ed3c6356936</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>120ddaa5-6f79-4e48-a2cc-da69bdf7f97c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6ab4523b-1454-4213-a651-a8d4e79943fa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>89c00779-ce87-4271-aab6-d25c53d46caf</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC019')</defaultValue>
+      <description></description>
+      <id>edec8116-a5d5-4208-9104-75feb9a1118c</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC019').getRowNumbers()</defaultValue>
+      <description></description>
+      <id>8ce2a09f-edb0-4801-8423-0ed3c6356936</id>
+      <masked>false</masked>
+      <name>numberrowtd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC012-Received Req Part (SUP2)').getValue('ContractRouteCode', 1)</defaultValue>
+      <description></description>
+      <id>120ddaa5-6f79-4e48-a2cc-da69bdf7f97c</id>
+      <masked>false</masked>
+      <name>route_id</name>
+   </variable>
+   <variable>
+      <defaultValue>[findTestData('Scenario 10/S10_TC067').getValue('Part No', 1)]</defaultValue>
+      <description></description>
+      <id>6ab4523b-1454-4213-a651-a8d4e79943fa</id>
+      <masked>false</masked>
+      <name>part_no</name>
+   </variable>
+   <variable>
+      <defaultValue>'Already Ordered'</defaultValue>
+      <description></description>
+      <id>89c00779-ce87-4271-aab6-d25c53d46caf</id>
+      <masked>false</masked>
+      <name>Status</name>
+   </variable>
+</TestCaseEntity>

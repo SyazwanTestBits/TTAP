@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h4_Announcement header</name>
+   <tag></tag>
+   <elementGuidId>ac8c4916-2a57-4334-8e02-1ca350a096ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='simple-tabpanel-1']/div/p/div/div/div[4]/div/div/div/div[2]/h4</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '${announcementHeader}' or . = '${announcementHeader}')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h4.base-MuiTypography-root.base-MuiTypography-h4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>d9a1235e-fd4e-436d-b7f4-e6440fbc0fec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiTypography-root base-MuiTypography-h4</value>
+      <webElementGuid>23ebcc5c-54d2-4f5b-b4f0-3d8b39a102e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${announcementHeader}</value>
+      <webElementGuid>7f461032-da9d-44d6-ad06-ba0d6d729bc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;simple-tabpanel-1&quot;)/div[@class=&quot;base-MuiBox-root base-base127&quot;]/p[@class=&quot;base-MuiTypography-root base-MuiTypography-body1&quot;]/div[@class=&quot;base-base128&quot;]/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-scrollbar-vertical-hidden base-base129 os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;base-base130&quot;]/div[@class=&quot;base-base135&quot;]/h4[@class=&quot;base-MuiTypography-root base-MuiTypography-h4&quot;]</value>
+      <webElementGuid>bc712538-0305-45b9-a3fc-1bbab0ea55a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='simple-tabpanel-1']/div/p/div/div/div[4]/div/div/div/div[2]/h4</value>
+      <webElementGuid>f716ed18-9da7-4dc1-8a9e-ac49cbdc739b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('What', &quot;'&quot;, 's New')])[1]/following::h4[1]</value>
+      <webElementGuid>de55ae35-4e49-4dbc-bdaf-1b39a74d69bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Operation History'])[1]/following::h4[1]</value>
+      <webElementGuid>ddf84ef8-945a-4f67-bc3d-4222a61f3ac7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LEARN MORE →'])[1]/preceding::h4[1]</value>
+      <webElementGuid>905cf2ff-0efc-4357-ace0-b7eee6cc065b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='AnnouncementSY2']/parent::*</value>
+      <webElementGuid>7d471e5a-92e6-46bd-93f0-de90cb177ae4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h4</value>
+      <webElementGuid>2e80da4f-5ffc-497c-8351-f7747420dec6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = 'AnnouncementSY2' or . = 'AnnouncementSY2')]</value>
+      <webElementGuid>438e47e4-5a2e-49a5-bc66-d6815f25bf45</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

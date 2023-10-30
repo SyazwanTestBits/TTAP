@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC017-Function to Inactive User (1)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e978bcf5-76d6-4921-8e70-06677facdd76</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>e71c9052-3ac8-4a08-b395-bdbcc2170a51</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC009-Create New User</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>9058f7df-21f9-4bb1-96d9-8ea83ea734d1</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC014n15</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>9058f7df-21f9-4bb1-96d9-8ea83ea734d1</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>BUCompanyCode</value>
+      <variableId>fa729125-8d64-405b-baa7-974514211cd3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>e71c9052-3ac8-4a08-b395-bdbcc2170a51</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>93e7210b-8952-4dd0-9c96-37ef2831e776</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e24ba0bc-7afd-49ae-a93f-d01214f79814</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.ADMIN_COMPANY_PK_BU</defaultValue>
+      <description></description>
+      <id>fa729125-8d64-405b-baa7-974514211cd3</id>
+      <masked>false</masked>
+      <name>admin_company</name>
+   </variable>
+   <variable>
+      <defaultValue>'UserF'</defaultValue>
+      <description></description>
+      <id>93e7210b-8952-4dd0-9c96-37ef2831e776</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Inactive'</defaultValue>
+      <description></description>
+      <id>e24ba0bc-7afd-49ae-a93f-d01214f79814</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_customerCode</name>
+   <tag></tag>
+   <elementGuidId>8750849c-2015-4fbc-bd87-450bedc986cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Download'])[1]/following::*[name()='svg'][2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.lcbm-MuiButtonBase-root.lcbm-MuiIconButton-root.lcbm-MuiAutocomplete-popupIndicator > span.lcbm-MuiIconButton-label > svg.lcbm-MuiSvgIcon-root</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>600464a2-4bd9-43ad-967f-21b8750b2e20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiSvgIcon-root</value>
+      <webElementGuid>4728e750-c7f5-4358-aee4-360a01dddcbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>deb2f7da-2821-4318-b49d-93df22d6f424</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+      <webElementGuid>d31e10d4-2ddd-411f-801b-5935113438e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>bacc84aa-3d21-43d7-8e08-b1073b102110</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-scrollbar-vertical-hidden lcbm-lcbm1 os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2&quot;]/div[@class=&quot;lcbm-lcbm7&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm9 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-lcbm12&quot;]/form[@class=&quot;lcbm-lcbm1838 lcbm-lcbm1871&quot;]/div[@class=&quot;lcbm-lcbm1840 lcbm-lcbm1872&quot;]/div[@class=&quot;lcbm-lcbm1873&quot;]/div[@class=&quot;lcbm-lcbm1880&quot;]/div[@class=&quot;lcbm-lcbm1886&quot;]/div[@class=&quot;lcbm-lcbm1875&quot;]/div[@class=&quot;lcbm-MuiAutocomplete-root Mui-focused lcbm-MuiAutocomplete-fullWidth lcbm-MuiAutocomplete-hasClearIcon lcbm-MuiAutocomplete-hasPopupIcon&quot;]/div[@class=&quot;lcbm-MuiInputBase-root lcbm-MuiInput-root lcbm-MuiAutocomplete-inputRoot lcbm-MuiInputBase-fullWidth lcbm-MuiInput-fullWidth lcbm-MuiInputBase-adornedEnd&quot;]/div[@class=&quot;lcbm-MuiAutocomplete-endAdornment&quot;]/button[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiIconButton-root lcbm-MuiAutocomplete-popupIndicator&quot;]/span[@class=&quot;lcbm-MuiIconButton-label&quot;]/svg[@class=&quot;lcbm-MuiSvgIcon-root&quot;]</value>
+      <webElementGuid>ae7ae6cb-5e1b-42f7-8d55-ed139bac6fa8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download'])[1]/following::*[name()='svg'][2]</value>
+      <webElementGuid>2690969b-fcaf-4554-a782-f7781086b332</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Inbound Plan'])[1]/following::*[name()='svg'][3]</value>
+      <webElementGuid>50f4ac2e-3b08-47a9-8b79-f1a886da7072</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/preceding::*[name()='svg'][3]</value>
+      <webElementGuid>2023edb2-8be6-4ac4-a638-32eaccbfaa5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logistics'])[1]/preceding::*[name()='svg'][6]</value>
+      <webElementGuid>e03f9342-1076-4e2b-819f-c9dc2523fa22</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

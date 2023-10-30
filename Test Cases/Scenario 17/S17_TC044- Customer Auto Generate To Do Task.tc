@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC044- Customer Auto Generate To Do Task</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df02ea41-4bcb-4b68-a320-93bb0f60c2d8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ac4bb44-acd4-4a9e-88f2-f808f777d1fd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC042- Request No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>7ac4bb44-acd4-4a9e-88f2-f808f777d1fd</id>
+      <masked>false</masked>
+      <name>requestNo</name>
+   </variable>
+</TestCaseEntity>

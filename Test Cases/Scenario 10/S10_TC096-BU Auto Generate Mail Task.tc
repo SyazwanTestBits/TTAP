@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC096-BU Auto Generate Mail Task</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>75b283ae-c0a7-40bc-8b68-cc5f63a37be0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f366dc23-ad56-49cc-86bc-598129a0a173</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'pNT01-2309002'</defaultValue>
+      <description></description>
+      <id>f366dc23-ad56-49cc-86bc-598129a0a173</id>
+      <masked>false</masked>
+      <name>PO_number</name>
+   </variable>
+</TestCaseEntity>

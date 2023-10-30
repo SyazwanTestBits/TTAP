@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC164-DC Download Outbound Priotization</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>28640bbe-429b-49c7-ad14-05493d445651</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8fbc28c6-82ec-4cb9-aa90-682766ecd584</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e84b0e5c-6397-46a0-8d8e-fea7706b0eb3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>956f42ff-b447-4b3f-a422-2bcd22b5477a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>86e2aa80-bdba-4aef-8dfc-6eeea5564b39</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>30842e61-7a5c-4e48-aaf5-cd28e45292dd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC021-Setup Data').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>8fbc28c6-82ec-4cb9-aa90-682766ecd584</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC164-Outbound Priotization Date').getValue('firstdayetd', 1)</defaultValue>
+      <description></description>
+      <id>e84b0e5c-6397-46a0-8d8e-fea7706b0eb3</id>
+      <masked>false</masked>
+      <name>DayFirstETD</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC164-Outbound Priotization Date').getValue('firstmonthetd', 1)</defaultValue>
+      <description></description>
+      <id>956f42ff-b447-4b3f-a422-2bcd22b5477a</id>
+      <masked>false</masked>
+      <name>MonthFirstETD</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC164-Outbound Priotization Date').getValue('firstyearetd', 1)</defaultValue>
+      <description></description>
+      <id>86e2aa80-bdba-4aef-8dfc-6eeea5564b39</id>
+      <masked>false</masked>
+      <name>YearFirstETD</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC164-Outbound Priotization Date').getValue('ETD', 1)</defaultValue>
+      <description></description>
+      <id>30842e61-7a5c-4e48-aaf5-cd28e45292dd</id>
+      <masked>false</masked>
+      <name>dateETD</name>
+   </variable>
+</TestCaseEntity>

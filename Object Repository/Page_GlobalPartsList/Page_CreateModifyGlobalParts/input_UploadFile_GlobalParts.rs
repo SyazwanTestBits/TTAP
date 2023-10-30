@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_UploadFile_GlobalParts</name>
+   <tag></tag>
+   <elementGuidId>1e7cd2ea-b0e7-4a2a-801d-ab51e5d449ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='file']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>387cfd5c-8328-4c69-9b21-98be17e2dc4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1688440747320</value>
+      <webElementGuid>62414de2-0bcb-4b5e-88eb-ed5b614dfe95</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_date</name>
+   <tag></tag>
+   <elementGuidId>79b0e76c-e51a-4a64-9002-d51f6a51e4fa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '${date}' or . = '${date}')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='a-443198551448616960']/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.base-MuiTypography-root.base-base152.base-MuiTypography-body2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fb7d7823-cf00-436a-bd71-c3c05d51186d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiTypography-root base-base152 base-MuiTypography-body2</value>
+      <webElementGuid>ce420d8e-0a26-4d17-af41-6e8ebb391228</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${date}</value>
+      <webElementGuid>9d6da637-bf87-4d16-a085-d43ecd9f4236</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a-443198551448616960&quot;)/span[@class=&quot;base-MuiTypography-root base-base152 base-MuiTypography-body2&quot;]</value>
+      <webElementGuid>a4e5a42d-f93e-4b30-be1a-bf5ff96eff8b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a-443198551448616960']/span[2]</value>
+      <webElementGuid>25d402b6-20ce-4247-bcde-87af833ca0f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AnnouncementSY2'])[1]/following::span[1]</value>
+      <webElementGuid>293f4ae5-5047-49c9-8cab-b0c593db6127</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEW'])[1]/following::span[1]</value>
+      <webElementGuid>d0004401-3312-4463-aabc-cb84f8c095e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::span[1]</value>
+      <webElementGuid>a96f6a87-1393-456f-905a-0cb2c6168cb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Aug 7, 2023']/parent::*</value>
+      <webElementGuid>2ff145ca-1a02-4a15-8801-4f8fc2a16266</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]</value>
+      <webElementGuid>f43c1de7-eb38-4d42-94b0-f101158a62dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Aug 7, 2023' or . = 'Aug 7, 2023')]</value>
+      <webElementGuid>3d16a644-092a-4b90-9e79-c70c799a094d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

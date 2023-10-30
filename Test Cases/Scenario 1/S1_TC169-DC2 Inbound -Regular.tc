@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC169-DC2 Inbound -Regular</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6eb5add4-13ae-4d8b-b603-f5bbe01c8f5b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>af0dc62d-622d-415e-ad84-26a002818bff</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>526f1219-50a9-46bd-b26a-450087b5cbb8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8ac99f6d-a01c-410b-a2fe-cc7f4a7149f0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>950a748e-4245-4e7a-84fb-fe96c39c01a7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>02d2c2fb-c518-4c11-ba7d-96b5e6eb8d0c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1bba53f2-d821-4167-b324-faa1be144cd6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[findTestData('Scenario 1/S1_TC142-Supplier2 Outbound No -Regular').getValue('OutboundNo', 1), findTestData('Scenario 1/S1_TC142-Supplier2 Outbound No -Regular').getValue('OutboundNo', 2)]</defaultValue>
+      <description></description>
+      <id>af0dc62d-622d-415e-ad84-26a002818bff</id>
+      <masked>false</masked>
+      <name>outboundNoList</name>
+   </variable>
+   <variable>
+      <defaultValue>[findTestData('Scenario 1/S1_TC142-Supplier2 Outbound No -Regular').getValue('OutboundRefNo', 1), findTestData('Scenario 1/S1_TC142-Supplier2 Outbound No -Regular').getValue('OutboundRefNo', 2)]</defaultValue>
+      <description></description>
+      <id>526f1219-50a9-46bd-b26a-450087b5cbb8</id>
+      <masked>false</masked>
+      <name>outboundRefNoList</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC169-DC2 Inbound Details -Regular')</defaultValue>
+      <description></description>
+      <id>8ac99f6d-a01c-410b-a2fe-cc7f4a7149f0</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Inbound No') : 3, ('Inbound Date') : 4]</defaultValue>
+      <description></description>
+      <id>950a748e-4245-4e7a-84fb-fe96c39c01a7</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>3</defaultValue>
+      <description></description>
+      <id>02d2c2fb-c518-4c11-ba7d-96b5e6eb8d0c</id>
+      <masked>false</masked>
+      <name>startRowFormMinusOne</name>
+   </variable>
+   <variable>
+      <defaultValue>'Inbound'</defaultValue>
+      <description></description>
+      <id>1bba53f2-d821-4167-b324-faa1be144cd6</id>
+      <masked>false</masked>
+      <name>downloadedFormSheetName</name>
+   </variable>
+</TestCaseEntity>

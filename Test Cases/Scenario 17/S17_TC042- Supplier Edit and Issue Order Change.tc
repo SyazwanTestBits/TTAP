@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC042- Supplier Edit and Issue Order Change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b43c1723-da76-4017-83e7-6011a04cf069</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>114d3b2f-a824-4be4-bf3b-45d6b94cb6a4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cbf54e01-8fb7-4855-80b0-2d539201f879</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>558886af-9b9c-4d38-8608-70007f48958b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8bc0284d-562c-432e-bb2e-fc256ccba536</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC042- Edit Firm Quantity')</defaultValue>
+      <description></description>
+      <id>114d3b2f-a824-4be4-bf3b-45d6b94cb6a4</id>
+      <masked>false</masked>
+      <name>dataFile</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC019.1- Sales Order No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>cbf54e01-8fb7-4855-80b0-2d539201f879</id>
+      <masked>false</masked>
+      <name>salesOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>[('NewFirm') : 15, ('NewInboundDate_Qty1') : 27, ('NewInboundDate_Qty2') : 28, ('NewInboundDate_Qty3') : 29, ('NewInboundDate_Qty4') : 30]</defaultValue>
+      <description></description>
+      <id>558886af-9b9c-4d38-8608-70007f48958b</id>
+      <masked>false</masked>
+      <name>mapKeyandColIndex</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC002- Received Request Add New Part').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>8bc0284d-562c-432e-bb2e-fc256ccba536</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+</TestCaseEntity>

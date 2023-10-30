@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC006-BU Check Contract Route</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b42e6bdb-c1ab-495f-b1ca-02a9cb9a6f80</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e6c73244-c8a6-4adf-afcc-c73532922af7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>68b548fd-4457-4487-ae1e-9309012e0d3a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>37a1112b-cba2-47ab-b030-93dd106eaec8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c0cb609c-2699-45ea-a106-acc44efa63c5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5619434a-4a94-474c-a057-fa5440a90d86</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>468b3c67-3781-4212-bd3f-f8f183e17339</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['partsNo', 'unitPartsNo', 'buyer', 'contractNo', 'priceBasis', 'receiver']</defaultValue>
+      <description></description>
+      <id>e6c73244-c8a6-4adf-afcc-c73532922af7</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC006-Contract Route').getRowNumbers()</defaultValue>
+      <description></description>
+      <id>68b548fd-4457-4487-ae1e-9309012e0d3a</id>
+      <masked>false</masked>
+      <name>numberrowtd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC004-BU to Customer Contract').getValue('ContractRouteCode', 1)</defaultValue>
+      <description></description>
+      <id>37a1112b-cba2-47ab-b030-93dd106eaec8</id>
+      <masked>false</masked>
+      <name>contractRouteCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 12\\Expected Data\\TC6\\Expected Contract Route Parts.xlsx'</defaultValue>
+      <description></description>
+      <id>c0cb609c-2699-45ea-a106-acc44efa63c5</id>
+      <masked>false</masked>
+      <name>expectedContractRouteParts</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 12\\Expected Data\\TC6\\Expected Contract Route Parts Overview.xlsx'</defaultValue>
+      <description></description>
+      <id>5619434a-4a94-474c-a057-fa5440a90d86</id>
+      <masked>false</masked>
+      <name>expectedContractRoutePartsOverview</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC004-BU to Customer Contract').getValue('RouteDescription', 1)</defaultValue>
+      <description></description>
+      <id>468b3c67-3781-4212-bd3f-f8f183e17339</id>
+      <masked>false</masked>
+      <name>contractRouteDescription</name>
+   </variable>
+</TestCaseEntity>

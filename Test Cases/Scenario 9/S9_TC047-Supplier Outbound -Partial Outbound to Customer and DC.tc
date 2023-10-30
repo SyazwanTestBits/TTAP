@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC047-Supplier Outbound -Partial Outbound to Customer and DC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3a0b349-e3b7-414f-a068-634253113574</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eba26f8d-37c5-440f-adcd-1fa89acbd2f7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5aa9ff05-4435-4ace-a03a-dfdd5d8ffb86</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cf37557d-d2ad-4c89-88cb-6d1dfcf5a624</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1f28de95-e439-4f72-8381-97bc604c1b1f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2065c99e-81fa-431a-b3af-4783e61d448d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>025a1664-69fb-4916-81d6-e1ec708d8b55</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC046-Autogen SUP Sales Order').getValue('OrderNo', 1)</defaultValue>
+      <description></description>
+      <id>eba26f8d-37c5-440f-adcd-1fa89acbd2f7</id>
+      <masked>false</masked>
+      <name>salesOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'PK-CUS-POC'</defaultValue>
+      <description></description>
+      <id>5aa9ff05-4435-4ace-a03a-dfdd5d8ffb86</id>
+      <masked>false</masked>
+      <name>buyer</name>
+   </variable>
+   <variable>
+      <defaultValue>'PK-CUS-POC'</defaultValue>
+      <description></description>
+      <id>cf37557d-d2ad-4c89-88cb-6d1dfcf5a624</id>
+      <masked>false</masked>
+      <name>receiver</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC047-SUP Upload Outbound Result')</defaultValue>
+      <description></description>
+      <id>1f28de95-e439-4f72-8381-97bc604c1b1f</id>
+      <masked>false</masked>
+      <name>datafile_outbound</name>
+   </variable>
+   <variable>
+      <defaultValue>[('OutboundNo') : 3, ('BookingNo') : 6, ('OutboundQty') : 9, ('ShippingMode') : 10, ('Receiver') : 12, ('BuyerOfReceiver') : 13, ('ETD') : 14, ('ETA') : 15, ('ContainerNo') : 16, ('ContainerType') : 17, ('CommodityType') : 18, ('SealNo') : 19, ('ContainerM3') : 20, ('ContainerNetWeight') : 21, ('ContainerGrossWeight') : 22, ('OuterPackageNo') : 23, ('OuterPackageType') : 24, ('OPM3') : 25, ('OPNetWeight') : 26, ('OPGrossWeight') : 27, ('InnerPackageNo') : 28, ('InnerPackageType') : 29, ('IPM3') : 30, ('IPNetWeight') : 31, ('IPGrossWeight') : 32]</defaultValue>
+      <description></description>
+      <id>2065c99e-81fa-431a-b3af-4783e61d448d</id>
+      <masked>false</masked>
+      <name>filecolumns_index</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC047-OutboundNo')</defaultValue>
+      <description></description>
+      <id>025a1664-69fb-4916-81d6-e1ec708d8b55</id>
+      <masked>false</masked>
+      <name>outboundData</name>
+   </variable>
+</TestCaseEntity>

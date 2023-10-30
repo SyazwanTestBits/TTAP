@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC066-BU Complete Received Request to remove part</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>70b2cd6e-a442-42b3-b40e-0d0838702027</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d67c67dc-46cd-434d-a16c-f3e06dcd906f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3485dc39-43f3-4a0c-8f79-440232933a85</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>010c1c18-530a-4f98-922c-9d7d37bcc79e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC065').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>d67c67dc-46cd-434d-a16c-f3e06dcd906f</id>
+      <masked>false</masked>
+      <name>requestDesc</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Part No') : 1]</defaultValue>
+      <description></description>
+      <id>3485dc39-43f3-4a0c-8f79-440232933a85</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC065')</defaultValue>
+      <description></description>
+      <id>010c1c18-530a-4f98-922c-9d7d37bcc79e</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

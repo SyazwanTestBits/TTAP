@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC042-Download Customer Order in Excel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2a8e005f-4c95-4c39-9273-b054b641d384</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8c658820-7a73-4911-8318-71a3413fdd87</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5beedde8-6c07-47b8-91f7-ed331ad01923</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>36c454b8-f1a6-4729-927e-716a3f7127ab</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>12ef07dd-c64a-4906-824a-cf28d4155779</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1acd314e-c3d4-4668-9d5b-deaddd91296d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.CUST_USERNAME_USERF</defaultValue>
+      <description></description>
+      <id>8c658820-7a73-4911-8318-71a3413fdd87</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.CUST_PWD_USERF</defaultValue>
+      <description></description>
+      <id>5beedde8-6c07-47b8-91f7-ed331ad01923</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.CUST_COMPANY_USERF</defaultValue>
+      <description></description>
+      <id>36c454b8-f1a6-4729-927e-716a3f7127ab</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC035-Receiverd Request List').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>12ef07dd-c64a-4906-824a-cf28d4155779</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC042').getValue('CustomerOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>1acd314e-c3d4-4668-9d5b-deaddd91296d</id>
+      <masked>false</masked>
+      <name>customerOrderNo</name>
+   </variable>
+</TestCaseEntity>

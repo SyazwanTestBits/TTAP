@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC048-BU Place Regular Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>52b5725c-ce59-4a05-8e4c-1ff879f53aa6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec6db07a-a86b-458c-b5b4-b301ea76a834</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d0b88c7b-2f6c-4ba1-973c-ea80bd5ed6ea</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>691cc206-c1d6-4e7f-89df-3c38bdb00b27</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>abb46655-4b3b-4229-8293-0cd843661193</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>47afddfa-2c80-43d3-9fe1-a67f92c9763b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3b966008-440d-4495-bd59-d496883606c6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f48c64c8-f35e-4006-a586-e2a887d7d95e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c50ad86f-3b04-4906-a0bd-98a8c79b5228</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC048_1')</defaultValue>
+      <description></description>
+      <id>ec6db07a-a86b-458c-b5b4-b301ea76a834</id>
+      <masked>false</masked>
+      <name>testData1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC031-Create Order Calc Grouping').getValue('OrderCalculationGroupingNo', 1)</defaultValue>
+      <description></description>
+      <id>d0b88c7b-2f6c-4ba1-973c-ea80bd5ed6ea</id>
+      <masked>false</masked>
+      <name>orderCalcNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC048_1').getValue('orderReference', 1)</defaultValue>
+      <description></description>
+      <id>691cc206-c1d6-4e7f-89df-3c38bdb00b27</id>
+      <masked>false</masked>
+      <name>orderReference</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC048_1').getValue('orderReference',1)</defaultValue>
+      <description></description>
+      <id>abb46655-4b3b-4229-8293-0cd843661193</id>
+      <masked>false</masked>
+      <name>orderReferenceRemark</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC048_1').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>47afddfa-2c80-43d3-9fe1-a67f92c9763b</id>
+      <masked>false</masked>
+      <name>contractNum</name>
+   </variable>
+   <variable>
+      <defaultValue>['30 Jul 2023', '30 Jul 2023', '10 Aug 2023']</defaultValue>
+      <description></description>
+      <id>3b966008-440d-4495-bd59-d496883606c6</id>
+      <masked>false</masked>
+      <name>dateList</name>
+   </variable>
+   <variable>
+      <defaultValue>[('date 1') : 13, ('date 2') : 14, ('date 3') : 15]</defaultValue>
+      <description></description>
+      <id>f48c64c8-f35e-4006-a586-e2a887d7d95e</id>
+      <masked>false</masked>
+      <name>columnName</name>
+   </variable>
+   <variable>
+      <defaultValue>['20 Aug 2023', '10 Sep 2023', '10 Sep 2023']</defaultValue>
+      <description></description>
+      <id>c50ad86f-3b04-4906-a0bd-98a8c79b5228</id>
+      <masked>false</masked>
+      <name>inboundDate</name>
+   </variable>
+</TestCaseEntity>

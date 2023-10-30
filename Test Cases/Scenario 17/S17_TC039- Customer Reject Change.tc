@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC039- Customer Reject Change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>12a12625-54b5-4484-ac1b-bf41b3929229</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d9affcb4-c592-4779-9259-472593c7c403</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>327b06d5-d399-47e4-a849-ac416a1b1e8c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC034- Request No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d9affcb4-c592-4779-9259-472593c7c403</id>
+      <masked>false</masked>
+      <name>requestNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cancel'</defaultValue>
+      <description></description>
+      <id>327b06d5-d399-47e4-a849-ac416a1b1e8c</id>
+      <masked>false</masked>
+      <name>requestType</name>
+   </variable>
+</TestCaseEntity>

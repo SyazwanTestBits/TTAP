@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC060-Supp1 Complete Received Request to modify parts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>17edc898-d4f4-4adf-9ca8-358ccfa49491</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9cdb8912-c22d-4c99-9141-bee5eaf81e0a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>774cdd75-3a5c-4808-91c2-52b6991ceba3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>acf9ce28-2e52-4620-818f-fd7f73b42340</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC060').getValue('description',1)</defaultValue>
+      <description></description>
+      <id>9cdb8912-c22d-4c99-9141-bee5eaf81e0a</id>
+      <masked>false</masked>
+      <name>requestDesc</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Part No') : 1, ('Order Lot') : 6, ('SPQ') : 7, ('M3') : 8, ('Net Weight') : 9, ('Gross Weight') : 10]</defaultValue>
+      <description></description>
+      <id>774cdd75-3a5c-4808-91c2-52b6991ceba3</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC060')</defaultValue>
+      <description></description>
+      <id>acf9ce28-2e52-4620-818f-fd7f73b42340</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

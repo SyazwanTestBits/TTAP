@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC104-BU3 Check Shipping Detail after DC3 Inbound and Update Shipment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>751c09d2-d458-47a4-8f70-8b8e233f8b2c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>11327f97-0172-4599-879a-8c564f661086</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC090-Supplier1 Revise Shipping Details')</defaultValue>
+      <description></description>
+      <id>11327f97-0172-4599-879a-8c564f661086</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

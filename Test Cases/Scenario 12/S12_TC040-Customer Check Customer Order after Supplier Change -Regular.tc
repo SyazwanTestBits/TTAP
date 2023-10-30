@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC040-Customer Check Customer Order after Supplier Change -Regular</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ea3aeae-44d1-4910-880c-7fcd773807c8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>040c4fec-e1c5-4fc3-a1ee-f5ec36b612bd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c0cb609c-2699-45ea-a106-acc44efa63c5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4fbfe4aa-c546-4b63-a6cd-46467147bcbb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC011-CO Number').getValue('RegularCustomerOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>040c4fec-e1c5-4fc3-a1ee-f5ec36b612bd</id>
+      <masked>false</masked>
+      <name>RegularOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 12\\Expected Data\\TC40\\Expected Customer Order.xlsx'</defaultValue>
+      <description></description>
+      <id>c0cb609c-2699-45ea-a106-acc44efa63c5</id>
+      <masked>false</masked>
+      <name>expectedCO</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC004-BU to Customer Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>20c1b1aa-de4b-4a19-bd7c-86dc66f2ba85</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+</TestCaseEntity>

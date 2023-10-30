@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC001.2- Supplier Create Shipping Route</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>21ed8027-37aa-4811-a6e2-b448a64c6fcd</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e96fec07-1433-4aa9-8624-82f2f8483dca</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC001.2- Supplier Create Shipping Route').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>06bc9f35-8d8a-4183-a8a7-4218bf4c583a</id>
+      <masked>false</masked>
+      <name>ShippingRouteCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC001.2- Supplier Create Shipping Route').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>e26c175d-f057-482e-a5ff-b39048564e4d</id>
+      <masked>false</masked>
+      <name>DisplayShippingRoute</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC001.2- Supplier Create Shipping Route').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>ebec4704-9a33-4e16-bd99-8eb26cabe139</id>
+      <masked>false</masked>
+      <name>ActiveFlag</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC001.2- Supplier Create Shipping Route').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>e72f1760-c7cf-46e7-bb92-fa12dcc7e7fd</id>
+      <masked>false</masked>
+      <name>ShippingMode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC001.2- Supplier Create Shipping Route').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>b6127c34-721d-4b27-907f-91ff98761884</id>
+      <masked>false</masked>
+      <name>FromRegion</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC001.2- Supplier Create Shipping Route').getValue(6, 1)</defaultValue>
+      <description></description>
+      <id>658f7941-7e05-40f8-822f-0e9255ec3c1d</id>
+      <masked>false</masked>
+      <name>ToRegion</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b0cb026f-3356-4eac-ae48-07d834a56390</id>
+      <masked>false</masked>
+      <name>FromState</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d7305e78-276c-4a8b-9dc2-3d201950b45b</id>
+      <masked>false</masked>
+      <name>ToState</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC001.2- Supplier Create Shipping Route').getValue(9, 1)</defaultValue>
+      <description></description>
+      <id>5dcb254d-9256-4c0f-a795-bdb9529c21a5</id>
+      <masked>false</masked>
+      <name>ShipperUid</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC001.2- Supplier Create Shipping Route').getValue(10, 1)</defaultValue>
+      <description></description>
+      <id>915700a2-56ac-42f9-9761-f8a1ace90558</id>
+      <masked>false</masked>
+      <name>ReceiverUid</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4619a52a-682c-464d-9c52-7e442353eb1e</id>
+      <masked>false</masked>
+      <name>FromPortId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8454c639-4754-4f9f-b570-4c10125ad8f3</id>
+      <masked>false</masked>
+      <name>ToPortId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>acacef54-b67b-4232-a4db-ae17e6763a7a</id>
+      <masked>false</masked>
+      <name>OriginLeadTime</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>01c69ecc-4c42-412e-b106-a371f58fce1a</id>
+      <masked>false</masked>
+      <name>DestinationLeadTime</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC001.2- Supplier Create Shipping Route').getValue(15, 1)</defaultValue>
+      <description></description>
+      <id>2211b9a1-6d0c-4f79-8ad8-6f6e2999d416</id>
+      <masked>false</masked>
+      <name>ETDWeekDay</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC001.2- Supplier Create Shipping Route').getValue(16, 1)</defaultValue>
+      <description></description>
+      <id>a8e8f8c7-d0e5-4de8-addd-5fb20228e83b</id>
+      <masked>false</masked>
+      <name>TransportDays</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC001.2- Supplier Create Shipping Route').getValue(17, 1)</defaultValue>
+      <description></description>
+      <id>064473d8-0e4f-42ea-823e-af0516f60c6c</id>
+      <masked>false</masked>
+      <name>CloseDays</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC001.2- Supplier Create Shipping Route').getValue(18, 1)</defaultValue>
+      <description></description>
+      <id>6a0bc0d6-fe19-47b6-aae3-8ccb3cd19608</id>
+      <masked>false</masked>
+      <name>DayFirstETD</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC001.2- Supplier Create Shipping Route').getValue(19, 1)</defaultValue>
+      <description></description>
+      <id>d70bcacc-b7ba-48f7-ad45-0478dd57e7f3</id>
+      <masked>false</masked>
+      <name>MonthFirstETD</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC001.2- Supplier Create Shipping Route').getValue(20, 1)</defaultValue>
+      <description></description>
+      <id>3533a527-1df0-48df-80c7-94a425fde5f8</id>
+      <masked>false</masked>
+      <name>YearFirstETD</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC001.2- Supplier Create Shipping Route').getValue(21, 1)</defaultValue>
+      <description></description>
+      <id>a55ec499-910b-4a47-9d13-5a710e65cb88</id>
+      <masked>false</masked>
+      <name>DayLastETD</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC001.2- Supplier Create Shipping Route').getValue(22, 1)</defaultValue>
+      <description></description>
+      <id>40393357-42f8-4ccb-9499-7344d0eb22be</id>
+      <masked>false</masked>
+      <name>MonthLastETD</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC001.2- Supplier Create Shipping Route').getValue(23, 1)</defaultValue>
+      <description></description>
+      <id>485a46e9-3364-4b39-951a-57fe6fa57384</id>
+      <masked>false</masked>
+      <name>YearLastETD</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC001.2- Supplier Create Shipping Route').getValue(24, 1)</defaultValue>
+      <description></description>
+      <id>0be245ce-b617-41eb-ae6f-fd7a14ce9823</id>
+      <masked>false</masked>
+      <name>ShippingFrequencyWeeks</name>
+   </variable>
+</TestCaseEntity>

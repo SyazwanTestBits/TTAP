@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC065-Supplier1 Check Cancel Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b5e8d52f-c380-4c31-9ee5-0cf816443210</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b5cede8b-b2fe-424a-8fdf-c95b3d40eaa8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d94c9170-c027-4af4-a1d3-ad760700d3a0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC54-Change Request No').getValue('Sup1 RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>b5cede8b-b2fe-424a-8fdf-c95b3d40eaa8</id>
+      <masked>false</masked>
+      <name>Supplier1_RequestNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC007-Sup1 to BU3 Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>d94c9170-c027-4af4-a1d3-ad760700d3a0</id>
+      <masked>false</masked>
+      <name>Sup1toBU3_Contract</name>
+   </variable>
+</TestCaseEntity>

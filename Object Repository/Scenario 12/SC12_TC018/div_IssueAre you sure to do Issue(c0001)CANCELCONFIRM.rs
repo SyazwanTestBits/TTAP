@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_IssueAre you sure to do Issue(c0001)CANCELCONFIRM</name>
+   <tag></tag>
+   <elementGuidId>8785f5c7-f95c-4f17-a630-db1480a59025</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.base-MuiPaper-root.base-MuiAlert-root.base-MuiAlert-standardWarning.base-base154.base-MuiPaper-elevation0</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'IssueAre you sure to do Issue?(c0001)CANCELCONFIRM' or . = 'IssueAre you sure to do Issue?(c0001)CANCELCONFIRM')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>22f08ee5-7e3f-44f0-88e3-118561d6b65a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiPaper-root base-MuiAlert-root base-MuiAlert-standardWarning base-base154 base-MuiPaper-elevation0</value>
+      <webElementGuid>a07eafb1-4d1c-48da-af98-788f175a9869</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>alert</value>
+      <webElementGuid>e82a0ec0-64e7-4957-85b0-1d3932e5b2b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>IssueAre you sure to do Issue?(c0001)CANCELCONFIRM</value>
+      <webElementGuid>902352b2-6a89-4730-9e88-1e13241f76e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base1 base-base3 base-base5&quot;]/div[@class=&quot;base-MuiPaper-root base-MuiAlert-root base-MuiAlert-standardWarning base-base154 base-MuiPaper-elevation0&quot;]</value>
+      <webElementGuid>29976785-b5e8-4ed1-a9ea-b4e3763fb9e9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-base']/div[2]/div</value>
+      <webElementGuid>21d18b3f-c4b5-4168-92fc-e2d36b4f80bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='n'])[1]/following::div[3]</value>
+      <webElementGuid>bf2c243a-9b7e-465c-ba54-d13b6ad8f716</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privilege'])[1]/following::div[7]</value>
+      <webElementGuid>0014ad63-b9ee-45bf-87d7-61f6b07cbb9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div</value>
+      <webElementGuid>263e2ff1-d8bf-488e-a8f7-add6aa288edf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'IssueAre you sure to do Issue?(c0001)CANCELCONFIRM' or . = 'IssueAre you sure to do Issue?(c0001)CANCELCONFIRM')]</value>
+      <webElementGuid>0e33a511-8223-4458-8d87-6686ec3645d5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

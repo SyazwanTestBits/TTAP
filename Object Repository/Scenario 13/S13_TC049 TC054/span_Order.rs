@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Order</name>
+   <tag></tag>
+   <elementGuidId>64c13882-09fc-492e-a255-b93b92d55b78</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Order' or . = 'Order')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-base']/div/div/div/div/nav/div[2]/div/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.base-MuiButton-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5ee928bf-9f7d-4737-9962-a1e338b97f0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiButton-label</value>
+      <webElementGuid>47b3b1fd-143a-4545-ad81-fd87c1f57efd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Order</value>
+      <webElementGuid>b84a4c71-b55d-47d8-987e-35b957e89b0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base8&quot;]/div[@class=&quot;base-base9&quot;]/div[@class=&quot;base-base10&quot;]/div[@class=&quot;base-base12&quot;]/nav[@class=&quot;base-base19&quot;]/div[@class=&quot;base-base20&quot;]/div[@class=&quot;base-base21&quot;]/button[@class=&quot;base-MuiButtonBase-root base-MuiButton-root base-MuiButton-text base-base24&quot;]/span[@class=&quot;base-MuiButton-label&quot;]</value>
+      <webElementGuid>bf4e836c-3513-45a4-a266-d01d98572a39</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-base']/div/div/div/div/nav/div[2]/div/button/span</value>
+      <webElementGuid>175023e7-8576-42c3-98e2-46937d60c4b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='more'])[1]/following::span[3]</value>
+      <webElementGuid>fb5cd643-654e-4ee1-85db-4aa839b0ef5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TO-DO-LIST'])[1]/following::span[5]</value>
+      <webElementGuid>d911b426-7662-48a1-98f8-81123ca7f800</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logistics'])[1]/preceding::span[6]</value>
+      <webElementGuid>46965330-aa23-48d5-83bb-22e1feb51014</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/div[2]/div/button/span</value>
+      <webElementGuid>d9780d52-da9a-44e3-9977-477d9868e0b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Order' or . = 'Order')]</value>
+      <webElementGuid>dbc65a9b-2ab2-4b42-9579-6714539fde34</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC059-Supplier Create Supplier Order Change after Supplier Outbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>970197f9-70c5-4057-baa6-e0937992d290</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3b3e421e-aecc-43bd-bb9e-241ea6bc0fea</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>052f5bf6-05bd-4c43-98a2-9fe5830082eb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>96bb92c4-32f2-4c6f-a785-58b22c29fcd9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e44779a9-1a2b-483c-b96d-b2430d48b47a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC046-Autogen SUP Sales Order').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>3b3e421e-aecc-43bd-bb9e-241ea6bc0fea</id>
+      <masked>false</masked>
+      <name>salesOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>[('newFirmQty') : 15]</defaultValue>
+      <description></description>
+      <id>052f5bf6-05bd-4c43-98a2-9fe5830082eb</id>
+      <masked>false</masked>
+      <name>suporder_filecolidx</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC059-Supplier Order Change')</defaultValue>
+      <description></description>
+      <id>96bb92c4-32f2-4c6f-a785-58b22c29fcd9</id>
+      <masked>false</masked>
+      <name>datafile_suporderchange</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC059-Supplier Order Change Date')</defaultValue>
+      <description></description>
+      <id>e44779a9-1a2b-483c-b96d-b2430d48b47a</id>
+      <masked>false</masked>
+      <name>datafile_suporderchange_date</name>
+   </variable>
+</TestCaseEntity>

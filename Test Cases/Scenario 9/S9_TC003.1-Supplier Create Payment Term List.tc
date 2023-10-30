@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC003.1-Supplier Create Payment Term List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77911a4d-5a3e-4619-beb6-6b8830b6b201</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8e750dc8-ad47-4c7a-834b-2056be9d81c4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8040e216-c17e-41d9-901c-fa6b25467808</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b77360c7-3758-4f73-8a7a-80710192850c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e334cff6-67ce-4743-8c6c-470450d45e9a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC001.1_TC003.1-Create Payment Terms')</defaultValue>
+      <description></description>
+      <id>8e750dc8-ad47-4c7a-834b-2056be9d81c4</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>[('NEW/MOD') : 0, ('PaymentTermsCode') : 2, ('Description') : 3, ('TermsType') : 4, ('FromMonth') : 5, ('Days') : 6, ('FromDay') : 7]</defaultValue>
+      <description></description>
+      <id>8040e216-c17e-41d9-901c-fa6b25467808</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>6</defaultValue>
+      <description></description>
+      <id>b77360c7-3758-4f73-8a7a-80710192850c</id>
+      <masked>false</masked>
+      <name>startRowFormMinusOne</name>
+   </variable>
+   <variable>
+      <defaultValue>'MLF110'</defaultValue>
+      <description></description>
+      <id>e334cff6-67ce-4743-8c6c-470450d45e9a</id>
+      <masked>false</masked>
+      <name>downloadedFormSheetName</name>
+   </variable>
+</TestCaseEntity>

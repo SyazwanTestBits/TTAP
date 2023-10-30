@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC008-Create New Role</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f62356d6-1bac-4fc5-bb91-ef1d2eeb056d</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>5f5202a0-395f-4fa4-a318-b94986ac25ce</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/Create Roles</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>5f5202a0-395f-4fa4-a318-b94986ac25ce</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>RoleName</value>
+      <variableId>22711a8e-c0f0-4179-a1d0-86f61804300b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>5f5202a0-395f-4fa4-a318-b94986ac25ce</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>RoleNote</value>
+      <variableId>2daf0c63-96d4-4cf7-9b8a-7ed07faf971b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>5f5202a0-395f-4fa4-a318-b94986ac25ce</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>RoleStatus</value>
+      <variableId>26707114-3a3e-4f22-8246-14f32ce50eab</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Test'</defaultValue>
+      <description></description>
+      <id>22711a8e-c0f0-4179-a1d0-86f61804300b</id>
+      <masked>false</masked>
+      <name>RoleName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Note'</defaultValue>
+      <description></description>
+      <id>2daf0c63-96d4-4cf7-9b8a-7ed07faf971b</id>
+      <masked>false</masked>
+      <name>RoleNote</name>
+   </variable>
+   <variable>
+      <defaultValue>'Active'</defaultValue>
+      <description></description>
+      <id>26707114-3a3e-4f22-8246-14f32ce50eab</id>
+      <masked>false</masked>
+      <name>RoleStatus</name>
+   </variable>
+</TestCaseEntity>

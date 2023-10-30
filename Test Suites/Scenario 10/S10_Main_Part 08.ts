@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>S10_Main_Part 08</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>bab4e563-1b22-4df5-9e68-5e9fadbe4d1e</testSuiteGuid>
+   <testCaseLink>
+      <guid>08475c6f-db28-4428-8bad-fbb663960689</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Scenario 10/S10_TC037-Upload Warehouse Actual Usage of L3 Part</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>11a83ac6-7763-4aa5-91a2-9f9f4bc0ef2a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>871ecd0d-ff1d-40a4-b70f-1cc7c973ce7a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8ce88bdd-9b61-4b7b-87fb-9b2320fc3789</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>52e77f66-a019-4245-a185-00618a8188d4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>56d666e1-ee5a-4dd0-bb26-51864ff52ad5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 10/S10_TC038-DC Upload production output for Level 2 part</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>87a2d0ff-b46d-4ebf-b758-b870947386bf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9fae1dc0-7684-4c91-8036-c31a32a2812d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6ddbc3cf-3777-4820-a3e3-643605caed37</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>31642083-8597-41eb-a857-b978e1dd8f3e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 10/S10_TC039-Run Calculation Batch</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>863f5df6-a668-4442-8f63-78a42c132d47</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

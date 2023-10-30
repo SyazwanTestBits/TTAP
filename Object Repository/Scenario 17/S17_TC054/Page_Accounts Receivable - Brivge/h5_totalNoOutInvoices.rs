@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h5_totalNoOutInvoices</name>
+   <tag></tag>
+   <elementGuidId>97f02b00-0e89-456f-9f46-0dbf250d2435</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/h5)[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h5.lcbm-MuiTypography-root.lcbm-lcbm230.lcbm-MuiTypography-h5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>cb27eb5f-8d3d-413d-b9a5-54f2fb7f9c94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiTypography-root lcbm-lcbm230 lcbm-MuiTypography-h5</value>
+      <webElementGuid>2adf4b3d-bc8c-4511-b316-aaec12987470</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>14</value>
+      <webElementGuid>efb0fde5-280b-43fd-9733-d49049ae9ab2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm159 os-host-overflow os-host-overflow-y os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm160&quot;]/div[@class=&quot;lcbm-lcbm163&quot;]/div[@class=&quot;lcbm-lcbm165&quot;]/div[@class=&quot;lcbm-lcbm171&quot;]/div[@class=&quot;lcbm-lcbm172&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm213 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-lcbm220&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiCardContent-root&quot;]/div[1]/div[@class=&quot;lcbm-lcbm237&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm225 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiCardContent-root lcbm-lcbm226&quot;]/div[@class=&quot;lcbm-MuiGrid-root lcbm-MuiGrid-container lcbm-MuiGrid-spacing-xs-1 lcbm-MuiGrid-align-items-xs-center lcbm-MuiGrid-align-content-xs-center lcbm-MuiGrid-justify-content-xs-center&quot;]/div[@class=&quot;lcbm-MuiGrid-root lcbm-MuiGrid-item&quot;]/h5[@class=&quot;lcbm-MuiTypography-root lcbm-lcbm230 lcbm-MuiTypography-h5&quot;]</value>
+      <webElementGuid>cdeb3942-c097-41a6-bb32-dc2bc12c316e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/h5</value>
+      <webElementGuid>8728c9ba-77fb-4777-9ac8-9c1702b14582</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FusionCharts Trial'])[1]/following::h5[1]</value>
+      <webElementGuid>1e5edb1c-ba51-4e01-ba29-44b4ed030d0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='>120 days'])[1]/following::h5[1]</value>
+      <webElementGuid>dcb84eb2-00c5-4845-8c9e-d886dd8b7246</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invoices(Not Cleared)'])[1]/preceding::h5[2]</value>
+      <webElementGuid>807803df-ac3c-4282-b93d-2842fab1a6a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AND'])[1]/preceding::h5[2]</value>
+      <webElementGuid>221fdeb3-6a2a-472a-bc1f-230274d60452</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='14']/parent::*</value>
+      <webElementGuid>fb9df98a-9e05-4642-9156-b92d1ad6b9c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div/div/h5</value>
+      <webElementGuid>c2312fa8-14aa-44d6-a595-0c9de18cf28c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[(text() = '14' or . = '14')]</value>
+      <webElementGuid>6111944b-5e08-4ca5-a7da-16d5e168f28f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

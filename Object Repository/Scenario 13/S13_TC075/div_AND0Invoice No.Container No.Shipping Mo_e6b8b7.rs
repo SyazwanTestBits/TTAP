@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_AND0Invoice No.Container No.Shipping Mo_e6b8b7</name>
+   <tag></tag>
+   <elementGuidId>b2de7bb7-9d64-400f-bceb-93029d27943b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.lcbm-lcbm7.lcbm-lcbm8</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>69056216-c148-4935-89cd-13c4c0645544</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-lcbm7 lcbm-lcbm8</value>
+      <webElementGuid>43ae057c-efc5-4439-ab6a-2b7bb620eac0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AND0Invoice No.Container No.Shipping ModeLoading PortDischarge PortCargo StatusStatusTW12307001CNO1234,SEGU5069987SeaCNTAIWANPKPending Customs ClearanceShowing 1~1 out of 1 resultsShow:20 rows1</value>
+      <webElementGuid>8a4ed513-41a3-479b-b2f1-5ae691b457f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-scrollbar-vertical-hidden lcbm-lcbm1 os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2 lcbm-lcbm3&quot;]/div[@class=&quot;lcbm-lcbm7 lcbm-lcbm8&quot;]</value>
+      <webElementGuid>2cc7ece6-5ea5-4c68-beed-f1e060616ca8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]</value>
+      <webElementGuid>0a2e4b0f-0e39-47ff-8240-6af997b64be3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customs Invoice(Import)'])[1]/following::div[2]</value>
+      <webElementGuid>5194587b-d5c7-44a1-99eb-61846b77534a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/preceding::div[80]</value>
+      <webElementGuid>e19ac45e-21b1-4ed7-9ee1-2e0aa3f7d026</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[2]</value>
+      <webElementGuid>d226f8ed-c03d-45f6-b020-e2baa472c35d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'AND0Invoice No.Container No.Shipping ModeLoading PortDischarge PortCargo StatusStatusTW12307001CNO1234,SEGU5069987SeaCNTAIWANPKPending Customs ClearanceShowing 1~1 out of 1 resultsShow:20 rows1' or . = 'AND0Invoice No.Container No.Shipping ModeLoading PortDischarge PortCargo StatusStatusTW12307001CNO1234,SEGU5069987SeaCNTAIWANPKPending Customs ClearanceShowing 1~1 out of 1 resultsShow:20 rows1')]</value>
+      <webElementGuid>591eb6f6-4b93-40e5-9c89-23e3ddb6ab67</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

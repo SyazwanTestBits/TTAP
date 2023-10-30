@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC043-Supplier Download and Check Delivery Plan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c15d61b5-2b6e-44e2-8be0-ab0b2eb11b6b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>925b5144-576c-446f-ad26-067c3c810c07</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa0b0560-706f-4abd-9d29-9db2f0e927c5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC016-Supplier SO').getValue('RegularSalesOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>925b5144-576c-446f-ad26-067c3c810c07</id>
+      <masked>false</masked>
+      <name>SOid</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC007-Supplier to BU Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>aa0b0560-706f-4abd-9d29-9db2f0e927c5</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 12\\Expected Data\\TC42\\Expected Delivery Plan.xlsx'</defaultValue>
+      <description></description>
+      <id>c0cb609c-2699-45ea-a106-acc44efa63c5</id>
+      <masked>false</masked>
+      <name>expectedDeliveryPlan</name>
+   </variable>
+</TestCaseEntity>

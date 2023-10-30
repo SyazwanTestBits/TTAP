@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S12_TC046-Supplier Check Sales Order after Outbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6f0c2784-acd7-4f4b-93e9-0cf59b49aa39</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>52e2fa8b-a49e-409b-b9dd-38c1cb8e1a67</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3730f8fc-e0cf-413e-b79d-becc4d9fec20</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f7724bd6-40f0-424b-ba90-5e62d64652df</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ecff0531-ccc7-4c3b-aa64-674861676792</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e554cfe0-a43a-410c-b610-505920fc5979</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b4552d66-e066-4404-9809-7c7312e389dd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC007-Supplier to BU Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>52e2fa8b-a49e-409b-b9dd-38c1cb8e1a67</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC016-Supplier SO').getValue('RegularSalesOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>3730f8fc-e0cf-413e-b79d-becc4d9fec20</id>
+      <masked>false</masked>
+      <name>regularSalesOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC016-Supplier SO').getValue('SpotSalesOrderNo', 1)</defaultValue>
+      <description></description>
+      <id>f7724bd6-40f0-424b-ba90-5e62d64652df</id>
+      <masked>false</masked>
+      <name>spotSalesOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Regular'</defaultValue>
+      <description></description>
+      <id>ecff0531-ccc7-4c3b-aa64-674861676792</id>
+      <masked>false</masked>
+      <name>orderTypeRegular</name>
+   </variable>
+   <variable>
+      <defaultValue>'Spot'</defaultValue>
+      <description></description>
+      <id>e554cfe0-a43a-410c-b610-505920fc5979</id>
+      <masked>false</masked>
+      <name>orderTypeSpot</name>
+   </variable>
+   <variable>
+      <defaultValue>['Part no', 'Unit parts no', 'Back no', 'Purchase order no', 'Customer', 'SPQ', 'Order lot', 'Order qty', 'Unit price', 'Currency', 'Status', 'Delivered qty', 'InTransit qty', 'Receiver inbounded qty', 'Inbound_plan_1', 'Inbound_status_1', 'Inbound_plan_2', 'Inbound_status_2', 'Inbound_plan_3', 'Inbound_status_3', 'Estimate_inbound_1', 'Estimate_inbound_2', 'Estimate_inbound_3', 'Estimate_inbound_4', 'Estimate_inbound_5']</defaultValue>
+      <description></description>
+      <id>b4552d66-e066-4404-9809-7c7312e389dd</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

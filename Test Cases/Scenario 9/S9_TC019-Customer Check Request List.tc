@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC019-Customer Check Request List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e16e1ae4-d272-4e9c-9579-6a1f09e3c4cc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b5f97300-bee5-45db-9a51-30dff96a905e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC002-BU to Customer Contract').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>b5f97300-bee5-45db-9a51-30dff96a905e</id>
+      <masked>false</masked>
+      <name>RequestNo</name>
+   </variable>
+</TestCaseEntity>

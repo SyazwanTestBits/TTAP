@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC155-BU Upload Stock Adjustment List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d7e12003-50dd-47af-b747-3c3c69dbbd65</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5fe0df52-f089-42f7-a4c1-70af15722826</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c2c50210-6e24-4916-9212-5f556cafe04d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f534dc4a-8974-4adc-95a3-5ae92e2c8c3a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bc16b7f2-a702-43c6-ab92-09c7b27fb689</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f6d2b16e-b792-46b2-897c-5065ab794e55</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[findTestData('Scenario 10/S10_TC007-Setup Data').getValue('ContractNo', 1), findTestData('Scenario 10/S10_TC021-Setup Data').getValue('ContractNo', 1)]</defaultValue>
+      <description></description>
+      <id>5fe0df52-f089-42f7-a4c1-70af15722826</id>
+      <masked>false</masked>
+      <name>contractNoList</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC154-BU Upload Stock Adjustment')</defaultValue>
+      <description></description>
+      <id>c2c50210-6e24-4916-9212-5f556cafe04d</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>[('AdjustmentQty') : 10, ('OnHoldQty') : 11]</defaultValue>
+      <description></description>
+      <id>f534dc4a-8974-4adc-95a3-5ae92e2c8c3a</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>'SMGTF411'</defaultValue>
+      <description></description>
+      <id>bc16b7f2-a702-43c6-ab92-09c7b27fb689</id>
+      <masked>false</masked>
+      <name>downloadedFormSheetname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC154-BU Upload Stock Adjustment Date').getValue('AdjustDate', 1)</defaultValue>
+      <description></description>
+      <id>f6d2b16e-b792-46b2-897c-5065ab794e55</id>
+      <masked>false</masked>
+      <name>adjustmentDate</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC044_1-get customer and sales order id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0f198f6-61bf-4cbc-b2f1-f0c2e792b502</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ce27d193-0177-4129-873b-51cedcfa4923</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>874e5225-476d-4fe1-88a6-f123e3a588da</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8024e204-cb72-4674-a4fd-682fefd4d9d3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8977a91c-8ed0-4c5d-bbf9-3c9db158af94</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>22a389d4-7e25-4c6d-a823-b251c8fe3fcc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC035-Receiverd Request List').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>ce27d193-0177-4129-873b-51cedcfa4923</id>
+      <masked>false</masked>
+      <name>contract_id</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 13'</defaultValue>
+      <description></description>
+      <id>874e5225-476d-4fe1-88a6-f123e3a588da</id>
+      <masked>false</masked>
+      <name>excelpath</name>
+   </variable>
+   <variable>
+      <defaultValue>'S13_TestCases_Data.xlsx'</defaultValue>
+      <description></description>
+      <id>8024e204-cb72-4674-a4fd-682fefd4d9d3</id>
+      <masked>false</masked>
+      <name>excelname</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC42'</defaultValue>
+      <description></description>
+      <id>8977a91c-8ed0-4c5d-bbf9-3c9db158af94</id>
+      <masked>false</masked>
+      <name>excelsheetCOid</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC44'</defaultValue>
+      <description></description>
+      <id>22a389d4-7e25-4c6d-a823-b251c8fe3fcc</id>
+      <masked>false</masked>
+      <name>excelsheetSOid</name>
+   </variable>
+</TestCaseEntity>

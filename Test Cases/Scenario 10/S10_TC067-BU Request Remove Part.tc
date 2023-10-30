@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC067-BU Request Remove Part</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8c3b5f72-85fe-4bc4-a557-04594dee731c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e5ef67a1-87ff-4f90-82d1-de54430ce750</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9e3c7b7c-4b0a-4e5a-97ce-dbb696213199</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5ad235ef-fceb-4ba7-8bec-17253c1465e1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.PNA_COMPANY_SUPPLIER2</defaultValue>
+      <description></description>
+      <id>e5ef67a1-87ff-4f90-82d1-de54430ce750</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC067').getValue('description',1)</defaultValue>
+      <description></description>
+      <id>9e3c7b7c-4b0a-4e5a-97ce-dbb696213199</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC067')</defaultValue>
+      <description></description>
+      <id>5ad235ef-fceb-4ba7-8bec-17253c1465e1</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC031-BU Check Contract Route after Release Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd812d61-7c01-4be5-8966-11ad5d8fdc63</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2c847365-23f6-48f5-82a3-ac1eba5d80f5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC021-BU to Customer Contract').getValue('ContractRouteCode', 1)</defaultValue>
+      <description></description>
+      <id>2c847365-23f6-48f5-82a3-ac1eba5d80f5</id>
+      <masked>false</masked>
+      <name>contractRouteCode</name>
+   </variable>
+</TestCaseEntity>

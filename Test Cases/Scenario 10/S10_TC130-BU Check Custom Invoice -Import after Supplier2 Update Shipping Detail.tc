@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC130-BU Check Custom Invoice -Import after Supplier2 Update Shipping Detail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c843fd5-66e4-4174-b28c-57b809bd3f88</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>89019226-41f8-4447-aa5a-6991dd6d291d</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC057-Custom Invoice (Import)</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6f10cf39-d198-40b6-bff5-c0b68e1207f8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6705cbaf-d2ca-4c30-8609-e69c2b1e1ba4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[findTestData('Scenario 10/S10_TC123-Supplier2 GI Invoice').getValue('InvoiceNo', 1), findTestData('Scenario 10/S10_TC123-Supplier2 GI Invoice').getValue('InvoiceNo', 2), findTestData('Scenario 10/S10_TC123-Supplier2 GI Invoice').getValue('InvoiceNo', 3)]</defaultValue>
+      <description></description>
+      <id>6f10cf39-d198-40b6-bff5-c0b68e1207f8</id>
+      <masked>false</masked>
+      <name>invoiceNoList</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC129')</defaultValue>
+      <description></description>
+      <id>6705cbaf-d2ca-4c30-8609-e69c2b1e1ba4</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>

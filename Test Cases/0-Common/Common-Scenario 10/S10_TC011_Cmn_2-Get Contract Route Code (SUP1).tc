@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC011_Cmn_2-Get Contract Route Code (SUP1)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec917e7b-d0fd-4108-b107-5ece8979f739</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>252c9dc7-568c-4dc1-85d6-beb4115fe129</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>18806332-d50a-447a-8aec-6e10ccf9c975</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0ea8161e-7b56-4578-ad08-9cb280280f26</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>14</defaultValue>
+      <description></description>
+      <id>252c9dc7-568c-4dc1-85d6-beb4115fe129</id>
+      <masked>false</masked>
+      <name>contractRouteCodeIndex</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC011-Received Req Info (SUP1)'</defaultValue>
+      <description></description>
+      <id>18806332-d50a-447a-8aec-6e10ccf9c975</id>
+      <masked>false</masked>
+      <name>sheetname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0ea8161e-7b56-4578-ad08-9cb280280f26</id>
+      <masked>false</masked>
+      <name>routeDescription</name>
+   </variable>
+</TestCaseEntity>

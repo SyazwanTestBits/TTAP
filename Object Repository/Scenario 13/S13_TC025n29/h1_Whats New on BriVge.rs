@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Whats New on BriVge</name>
+   <tag></tag>
+   <elementGuidId>3e66ef9f-3cc3-4ec7-a97c-90a6d24c22a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-base']/div/div[4]/div/div/div/header/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.base-MuiTypography-root.base-MuiTypography-h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>f1fa064d-c006-4210-b48e-792e8b53819c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiTypography-root base-MuiTypography-h1</value>
+      <webElementGuid>f357408f-f315-41d7-9b17-b1161a49eb64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>What's New on BriVge</value>
+      <webElementGuid>6fcab654-4df1-48d4-b9ae-8ad36cd7e05b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-base&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-scrollbar-vertical-hidden base-base138 os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;base-base139&quot;]/header[@class=&quot;base-MuiPaper-root base-MuiAppBar-root base-MuiAppBar-positionFixed base-MuiAppBar-colorTransparent base-base140 mui-fixed base-MuiPaper-elevation4&quot;]/div[@class=&quot;base-MuiToolbar-root base-MuiToolbar-regular base-base141 base-MuiToolbar-gutters&quot;]/h1[@class=&quot;base-MuiTypography-root base-MuiTypography-h1&quot;]</value>
+      <webElementGuid>fb0b8d78-2177-4d75-b98f-b57497b5e7bb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-base']/div/div[4]/div/div/div/header/div/h1</value>
+      <webElementGuid>e6fc3a20-4a99-4684-8a19-f1d9bbe0cbef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEW'])[1]/preceding::h1[1]</value>
+      <webElementGuid>90257984-9659-4627-a354-7a0b211e967d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AnnouncementSY2'])[1]/preceding::h1[1]</value>
+      <webElementGuid>929cb8bc-69f7-4b1c-b8a2-6b91e226556c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>7af624c6-55f9-45c3-833f-746731585672</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = concat(&quot;What&quot; , &quot;'&quot; , &quot;s New on BriVge&quot;) or . = concat(&quot;What&quot; , &quot;'&quot; , &quot;s New on BriVge&quot;))]</value>
+      <webElementGuid>34d023ad-0d53-4082-ae9c-5e990c8d7842</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

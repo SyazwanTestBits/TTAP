@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S9_TC025-Supplier Auto Generate Contract Route after Complete Received Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a6e0533-5a90-44fb-937c-34782dfe2551</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1003254e-379e-46c4-be2f-f51152fa0754</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c81ae305-92ac-448a-9e89-29183a532467</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>388a436b-2bb6-44a8-9a85-b663552f4e9b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 9/S9_TC023-SUP to BU Contract').getValue('ContractRouteCode', 1)</defaultValue>
+      <description></description>
+      <id>1003254e-379e-46c4-be2f-f51152fa0754</id>
+      <masked>false</masked>
+      <name>contractRouteCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 9\\Expected Data\\TC25\\S9_TC25_ContractRouteParts.xlsx'</defaultValue>
+      <description></description>
+      <id>c81ae305-92ac-448a-9e89-29183a532467</id>
+      <masked>false</masked>
+      <name>expectedContractRouteParts</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 9\\Expected Data\\TC25\\S9_TC25_ContractRoutePartsOverview.xlsx'</defaultValue>
+      <description></description>
+      <id>388a436b-2bb6-44a8-9a85-b663552f4e9b</id>
+      <masked>false</masked>
+      <name>expectedContractRoutePartsOverview</name>
+   </variable>
+</TestCaseEntity>

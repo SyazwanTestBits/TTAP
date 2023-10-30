@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC016-Check Menu</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b81d3395-85ec-44a3-b2fe-da29482222e8</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>cc99d3ec-b2b0-4b8f-941e-0c919a8a1714</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC009-Create New User</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>42c5a7ce-8b59-44fb-aa25-fda63815a1e5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>cc99d3ec-b2b0-4b8f-941e-0c919a8a1714</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>09a237c2-fe20-4c7d-8028-7d2aa951c30b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a1c83cd8-171e-4ad4-8d20-ce2f1da2816d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>16a9a0c5-46ff-4416-8e55-3971c8a08a50</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.COMPANY_BU</defaultValue>
+      <description></description>
+      <id>42c5a7ce-8b59-44fb-aa25-fda63815a1e5</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>09a237c2-fe20-4c7d-8028-7d2aa951c30b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC009-Create New User').getValue('BriVgeUserGenCode', 1)</defaultValue>
+      <description></description>
+      <id>a1c83cd8-171e-4ad4-8d20-ce2f1da2816d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC009-Create New User').getValue('BriVgeVerificationCode', 1)</defaultValue>
+      <description></description>
+      <id>16a9a0c5-46ff-4416-8e55-3971c8a08a50</id>
+      <masked>false</masked>
+      <name>verificationcode</name>
+   </variable>
+</TestCaseEntity>

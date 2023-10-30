@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S10_TC097-BU Approve Change Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>19f1ce16-ef23-4832-bea8-8b98fd1ac8a8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f9eeac14-6460-4d4d-ad94-d96a60149f6c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC084-Supplier1 Change Request No').getValue('RequestNo', 1)</defaultValue>
+      <description></description>
+      <id>f9eeac14-6460-4d4d-ad94-d96a60149f6c</id>
+      <masked>false</masked>
+      <name>RequestNo</name>
+   </variable>
+</TestCaseEntity>
