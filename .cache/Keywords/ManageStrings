@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "A6950C9793DB9EA97EF97306BBCC1682",
+  "keywordFileContentHash": "81BA17EBE1C0B2DEB68C35833310995B",
   "keywordClasses": [
     {
       "name": "ManageStrings",
@@ -21,7 +21,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Converts the first letter of each word to uppercase and the remaining letters to lowercase.\n\t * @param input The input string containing one or more words.\n\t * @return The modified string with the first letter of each word capitalized and the rest of the letters lowercase.\n\t */"
+          "javadoc": "/**\r\n\t * Converts the first letter of each word to uppercase and the remaining letters to lowercase.\r\n\t * @param input The input string containing one or more words.\r\n\t * @return The modified string with the first letter of each word capitalized and the rest of the letters lowercase.\r\n\t */"
         }
       ]
     }

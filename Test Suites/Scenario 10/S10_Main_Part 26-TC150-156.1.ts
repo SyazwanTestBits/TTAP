@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>243b6215-9ef7-4b51-a69e-2f5e02582a62</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC150-DC Inbound</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -57,7 +57,7 @@
    <testCaseLink>
       <guid>70152528-2759-4447-8e56-cdb5c2812f86</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC151-Supplier1 Release Seller GI Invoice</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -76,7 +76,7 @@
    <testCaseLink>
       <guid>7a40617b-c146-46b2-86de-68b11202b47c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC152-Supplier2 Release Seller GI Invoice</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>

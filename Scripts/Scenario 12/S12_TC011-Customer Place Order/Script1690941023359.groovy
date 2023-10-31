@@ -30,11 +30,14 @@ WebUI.click(findTestObject('Navbar_Brivge/OrderMenu_Brivge/li_Place Order'))
 WebUI.waitForElementPresent(findTestObject('Page_RegularOrder/h3_Place Regular Order'), 0)
 
 WebUI.callTestCase(findTestCase('Scenario 12/S12_TC011.1-Customer Place Order -Regular'), [('username') : GlobalVariable.CUST_USERNAME_USERF
-        , ('password') : GlobalVariable.CUST_PWD_USERF, ('company') : GlobalVariable.CUST_COMPANY_USERF, ('contractRouteNo') : findTestData('Scenario 12/SC12_TC007-Supplier to BU Contract').getValue('ContractRouteCode', 1)
-        , ('contractNo') : findTestData('Scenario 12/SC12_TC004-BU to Customer Contract').getValue('ContractNo', 1)], FailureHandling.STOP_ON_FAILURE)
+        , ('password') : GlobalVariable.CUST_PWD_USERF, ('company') : GlobalVariable.CUST_COMPANY_USERF, ('contractRouteNo') : findTestData(
+            'Scenario 12/SC12_TC007-Supplier to BU Contract').getValue('ContractRouteCode', 1), ('weeklyPeriod') : findTestData(
+            'Scenario 12/SC12_TC011- Period Generator').getValue(1, 1), ('contractNo') : findTestData('Scenario 12/SC12_TC004-BU to Customer Contract').getValue(
+            'ContractNo', 1)], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Scenario 12/S12_TC011.2-Customer Place Order -Spot'), [('contractRouteNo') : findTestData('Scenario 12/SC12_TC007-Supplier to BU Contract').getValue('ContractRouteCode', 1)
-        , ('contractNo') : findTestData('Scenario 12/SC12_TC004-BU to Customer Contract').getValue('ContractNo', 1)], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Scenario 12/S12_TC011.2-Customer Place Order -Spot'), [('contractRouteNo') : findTestData(
+            'Scenario 12/SC12_TC007-Supplier to BU Contract').getValue('ContractRouteCode', 1), ('contractNo') : findTestData(
+            'Scenario 12/SC12_TC004-BU to Customer Contract').getValue('ContractNo', 1)], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Navbar_Brivge/button_Order'))
 
