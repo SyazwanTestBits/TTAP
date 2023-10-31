@@ -50,7 +50,7 @@
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.CUST_COMPANY_USERF</defaultValue>
+      <defaultValue>GlobalVariable.S13_TC30nMore_companyCUST</defaultValue>
       <description></description>
       <id>118b1a38-5930-48dc-8d6f-7536a31ebcda</id>
       <masked>false</masked>
