@@ -44,7 +44,7 @@ public class DateConversion {
 			return null;
 		}
 	}
-	
+
 	public static String convertChineseToEnglishDate(String chineseDate) {
 		try {
 			SimpleDateFormat chineseFormat = new SimpleDateFormat("MMMM d, yyyy", Locale.CHINA);
@@ -58,9 +58,4 @@ public class DateConversion {
 			return null;
 		}
 	}
-	
-	
-	
-	
-	
 }

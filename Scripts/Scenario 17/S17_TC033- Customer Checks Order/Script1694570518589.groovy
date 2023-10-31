@@ -41,11 +41,12 @@ WebUI.click(findTestObject('Scenario 12/SC12_TC014/li_Download by Excel'))
 WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC049/div_Download Customer Order by Excel.The operation was successful'), 
     0)
 
+WebUI.delay(2)
+
 LatestPath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
-WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 17/S17_Cmn3_Compare Test Data'), [('LatestPath') : LatestPath, ('expectationExcelPath') : expectationExcelPath
-        , ('startRows') : 24, ('endRows') : 28, ('startCols') : 6, ('endCols') : 16, ('NumberOfNoMatch') : NumberOfNoMatch], 
-    FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'verifyExcelData.verifyDynamicSortMap'(LatestPath, expectationExcelPath, 1, [24, 25, 26, 27, 28], [1, 2, 3
+        , 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
 
 WebUI.click(findTestObject('Scenario 12/SC12_TC022/p_forecastDetail', [('orderNo') : regularOrderNo]))
 

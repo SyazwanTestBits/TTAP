@@ -165,7 +165,7 @@ public class compareTestData {
 
 		return cellValue
 	}
-	
+
 	@Keyword
 	public static Object getCellValue3Nullto0(String filePath, int row, int column, int sheetNum) throws Exception {
 		FileInputStream fis = new FileInputStream(filePath);
@@ -326,6 +326,88 @@ public class compareTestData {
 
 					}
 
+
+
+				}
+			}
+
+			println "Comparison completed."
+
+			fis1.close()
+			fis2.close()
+
+		} catch (Exception e) {
+			e.printStackTrace()
+		}
+		//WebUI.verifyMatch(nomatch, '0', false)
+		return nomatch
+	}
+	
+	
+	@Keyword
+	def compareExcelFiles_ExcelFormulaCompatible(String file11Path, String file22Path, int startRows, int endRows,int startCols,int endCols) {
+
+		int nomatch=0
+		try {
+			FileInputStream fis1 = new FileInputStream(file11Path)
+			FileInputStream fis2 = new FileInputStream(file22Path)
+			Workbook workbook1 = new XSSFWorkbook(fis1)
+			Workbook workbook2 = new XSSFWorkbook(fis2)
+
+			// Assuming both Excel files have only one sheet, change accordingly if you have multiple sheets
+			Sheet sheet1 = workbook1.getSheetAt(0)
+			Sheet sheet2 = workbook2.getSheetAt(0)
+
+			// Assuming both files have the same number of rows and columns, change accordingly if they differ
+			//int numRows = sheet1.getLastRowNum() + 1
+			//int numCols = sheet1.getRow(0).getLastCellNum()
+			//int numRows = 8
+			//int numCols = 24
+
+			for (int i = startRows - 1; i < endRows; i++) {
+				Row row1 = sheet1.getRow(i)
+				Row row2 = sheet2.getRow(i)
+
+				for (int j = startCols - 1; j < endCols; j++) {
+
+					//it skip column Delivery Request Number because it auto generate
+					if (j != 3) {
+
+						Cell cell1 = row1.getCell(j)
+						Cell cell2 = row2.getCell(j)
+						
+	
+						if (cell1 != null && cell2 != null) {
+							
+							
+							// Evaluate cell1 and cell2 if they contain formulas
+							if (cell1.getCellTypeEnum()  == CellType.FORMULA) {
+								FormulaEvaluator evaluator = workbook1.getCreationHelper().createFormulaEvaluator();
+								cell1 = evaluator.evaluateInCell(cell1);
+							}
+							if (cell2.getCellTypeEnum()  == CellType.FORMULA) {
+								FormulaEvaluator evaluator = workbook2.getCreationHelper().createFormulaEvaluator();
+								cell2 = evaluator.evaluateInCell(cell2);
+							}
+							
+						
+							//Print the values of Cell 1 and 2
+							println "Actual: ${cell1.toString()} and Expected: ${cell2.toString()} at Row: ${i + 1}, Col: ${j + 1}"
+
+							//Log the Actual(Cell 1) and Expected values(Cell2):
+							KeywordUtil.logInfo("Actual: ${cell1.toString()} and Expected: ${cell2.toString()} at Row: ${i + 1}, Col: ${j + 1}")
+							
+							
+							// Compare cell values, you can implement your custom comparison logic here
+							if (!cell1.toString().equals(cell2.toString())) {
+								println "Difference found at Row: ${i + 1}, Col: ${j + 1}"
+								nomatch=nomatch+1
+
+							}
+
+
+						}
+					}
 
 
 				}

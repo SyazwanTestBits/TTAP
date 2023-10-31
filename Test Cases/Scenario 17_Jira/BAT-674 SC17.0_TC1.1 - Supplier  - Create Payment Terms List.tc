@@ -16,4 +16,35 @@ Description: User: Supplier  \\Login ID: maria-baf\\Company: PK-SUP-POC \\Functi
    </integratedEntity>
    <comment></comment>
    <testCaseGuid>8f0ccf66-9e57-42cd-93cf-9831e379bde2</testCaseGuid>
+    <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC001.1- Create Payment Terms')</defaultValue>
+      <description></description>
+      <id>8211beee-7a72-4c0e-95e6-945e473189ae</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>[('NEW/MOD') : 0, ('PaymentTermsCode') : 2, ('Description') : 3, ('TermsType') : 4, ('FromMonth') : 5, ('Days') : 6, ('FromDay') : 7]</defaultValue>
+      <description></description>
+      <id>10f27874-6abf-4dfb-9669-c983cfec0e98</id>
+      <masked>false</masked>
+      <name>fileColumns</name>
+   </variable>
+   <variable>
+      <defaultValue>6</defaultValue>
+      <description></description>
+      <id>1877f249-5969-4980-b924-b3fef1bc4f25</id>
+      <masked>false</masked>
+      <name>startRowFormMinusOne</name>
+   </variable>
+   <variable>
+      <defaultValue>'MLF110'</defaultValue>
+      <description></description>
+      <id>44a934bb-cd30-41d9-8a5b-cec2cd61ab7f</id>
+      <masked>false</masked>
+      <name>downloadedFormSheetName</name>
+   </variable>
+	
+	
+	
 </TestCaseEntity>

@@ -5,6 +5,12 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2fc03ad0-5a39-4871-8a39-bfddfeeb1c44</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>83f274e7-4705-466c-a408-fbacd40f73b7</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestData('Scenario 17/S17_TC063- Request No').getValue(1, 1)</defaultValue>
       <description></description>

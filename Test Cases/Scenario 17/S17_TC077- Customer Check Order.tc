@@ -27,12 +27,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>1ddcbd20-2823-4d5c-921d-2adee9a98a03</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>e54548f4-0677-476e-ae48-8a6ad144373a</variableId>
    </variableLinks>
    <variable>
@@ -55,13 +49,6 @@
       <id>fa8f894c-d9dd-47ab-8681-398d7ef3e303</id>
       <masked>false</masked>
       <name>expectationExcelPath</name>
-   </variable>
-   <variable>
-      <defaultValue>0</defaultValue>
-      <description></description>
-      <id>1ddcbd20-2823-4d5c-921d-2adee9a98a03</id>
-      <masked>false</masked>
-      <name>NumberOfNoMatch</name>
    </variable>
    <variable>
       <defaultValue>'Regular'</defaultValue>

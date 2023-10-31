@@ -5,56 +5,12 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f6721860-0763-48da-b752-2940af1d4ffa</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>0ee4fdb3-8099-48d8-8762-11a715325f9e</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>f0689819-18b8-426c-a13d-d93a96646fda</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>0725e270-9653-497c-a1cb-35e8461616c5</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>cbef66db-b156-4b69-8739-50d5e3960493</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>8f43dc76-e7a5-44eb-bb9b-4d5cd4f0be18</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>findTestData('Scenario 17/S17_TC002- Contract Part Info').getValue(4, 1)</defaultValue>
       <description></description>
       <id>0ee4fdb3-8099-48d8-8762-11a715325f9e</id>
       <masked>false</masked>
       <name>ContractNo</name>
-   </variable>
-   <variable>
-      <defaultValue>[('New Forecast_N+1') : 17]</defaultValue>
-      <description></description>
-      <id>f0689819-18b8-426c-a13d-d93a96646fda</id>
-      <masked>false</masked>
-      <name>fileColumns</name>
-   </variable>
-   <variable>
-      <defaultValue>14</defaultValue>
-      <description></description>
-      <id>0725e270-9653-497c-a1cb-35e8461616c5</id>
-      <masked>false</masked>
-      <name>startRowFormMinusOne</name>
    </variable>
    <variable>
       <defaultValue>findTestData('Scenario 17/S17_TC021- Forecast Change')</defaultValue>
@@ -69,5 +25,19 @@
       <id>8f43dc76-e7a5-44eb-bb9b-4d5cd4f0be18</id>
       <masked>false</masked>
       <name>regularCustOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>[('NewForecast') : 17]</defaultValue>
+      <description></description>
+      <id>41d1ca6e-9e2b-4dc8-ae80-10194a74238f</id>
+      <masked>false</masked>
+      <name>mapKeyandColIndex</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 17/S17_TC017- Regular Customer Order No').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c717c50b-b7a5-43b2-acc4-75e95103dc89</id>
+      <masked>false</masked>
+      <name>customerOrderNo</name>
    </variable>
 </TestCaseEntity>

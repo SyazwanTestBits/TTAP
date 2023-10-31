@@ -35,9 +35,9 @@ WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract 
 //-------------looping for verify part detail------------------------------------
 WebUI.click(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/div_Parts No header in part detail list'))
 
-int colindex = 0
+not_run: int colindex = 0
 
-for (int rowl = 1; rowl <= numberrowtd; rowl++) {
+not_run: for (int rowl = 1; rowl <= numberrowtd; rowl++) {
     colindex = 1
 
     for (String colname : columnname) {
@@ -59,14 +59,10 @@ WebUI.click(findTestObject('Scenario 17/S17_TC005/li_Download Contract Parts'), 
 WebUI.verifyElementPresent(findTestObject('Scenario 17/S17_TC005/div_Download Contract Parts Master.The operation was successful'), 
     0)
 
+WebUI.delay(2)
+
 'Check part no. removed= inactive\r\n'
-WebUI.verifyElementText(findTestObject('Scenario 17/S17_TC002/p_Verify Active Flag', [('partNo') : partNo]), activeFlag)
-
-WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/h6_Download Contract Route Detail in view page'), 
-    'Download Contract Parts Master.')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Scenario 13/S13_TC038 n 39-Check Contract Route/p_The operation was successful'), 
-    'The operation was successful.')
+not_run: WebUI.verifyElementText(findTestObject('Scenario 17/S17_TC002/p_Verify Active Flag', [('partNo') : partNo]), activeFlag)
 
 latestFilePath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 

@@ -60,7 +60,7 @@ supDR = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 CustomKeywords.'excelUtils.unprotectExcelSheet'(supDR)
 
 'Clear existing value in the downloaded excel sheet\r\n'
-CustomKeywords.'excelUtils.clearOutValueExcel2'(supDR, 11, 11, 15, 38)
+CustomKeywords.'excelUtils.clearOutValueExcel2'(supDR, 11, 11, 15, 47)
 
 WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 17/S17_Cmn1-Write Info into Form Excel'), [('datafile') : dataFile1
         , ('fileColumns') : fileColumns, ('startRowFormMinusOne') : startRowFormMinusOne, ('downloadedFormPath') : supDR
@@ -69,6 +69,8 @@ WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 17/S17_Cmn1-Write Info
 WebUI.click(findTestObject('Scenario 17/S17_TC019/Page_SO Monitoring Detail - Brivge/button_uploadSOMonitoring_Detail'))
 
 CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 13/S13_TC050 TC053/li_Upload DR'), supDR)
+
+WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC050 TC053/div_Upload Delivery RequestThe operation was successful'), 
     0)
@@ -93,6 +95,8 @@ WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 9/S9_Cmn1-Write Info i
 WebUI.click(findTestObject('Scenario 17/S17_TC019/Page_SO Monitoring Detail - Brivge/button_uploadSOMonitoring_Detail'))
 
 CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 13/S13_TC050 TC053/li_Upload Price'), supPrice)
+
+WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC050 TC053/div_Upload Price.The operation was successful'), 
     0)

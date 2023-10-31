@@ -5,54 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>58161eb2-42c8-4ae8-9d1f-83e13933d0f4</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>c4795abc-1148-4bfc-9baf-b859b1b57102</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>9f4a8625-4495-4989-a44a-7133d8da8a95</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>36d30cfe-32d3-42cf-bdc8-6fbeba4eaf8e</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>39304009-5de0-4447-95f6-5f4b50c1119d</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>ec1695b9-4b80-45bc-83cb-67d3775d6559</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>16d53df9-26e5-48bf-860e-5b1fb2a22e6e</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>27a8746f-414a-49e6-b579-215fb3460ac9</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>6fcd0503-d454-47a9-811b-66720f74d3e1</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>findTestData('Scenario 17/S17_TC069- Outbound Details')</defaultValue>
       <description></description>
