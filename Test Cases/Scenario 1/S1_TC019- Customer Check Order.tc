@@ -15,40 +15,14 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>95823ad2-f64f-4bb0-91e4-1ad7a058bfb1</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>17d30789-f1e4-4483-b56d-bfcf291ba487</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>b314f283-5d6a-4731-9a7c-49b3ecc0a5f6</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('Scenario 1/S1_TC002-BU1 Contract Parts Info').getValue(4, 1)</defaultValue>
+      <defaultValue>findTestData('Scenario 1/S1_TC002-BU1 to Customer Contract').getValue('ContractNo', 1)</defaultValue>
       <description></description>
-      <id>f18b90cc-361b-42c7-b3de-8e1c50990304</id>
+      <id>56f5e710-4e3e-40de-a7db-f5098347c4fb</id>
       <masked>false</masked>
       <name>contractNo</name>
-   </variable>
-   <variable>
-      <defaultValue>'Excel Files/Scenario 1/Expected Data/TC19/expectedCustomerOrder.xlsx'</defaultValue>
-      <description></description>
-      <id>95823ad2-f64f-4bb0-91e4-1ad7a058bfb1</id>
-      <masked>false</masked>
-      <name>expectationExcelPath</name>
-   </variable>
-   <variable>
-      <defaultValue>0</defaultValue>
-      <description></description>
-      <id>17d30789-f1e4-4483-b56d-bfcf291ba487</id>
-      <masked>false</masked>
-      <name>NumberOfNoMatch</name>
    </variable>
    <variable>
       <defaultValue>'Regular\r\n'</defaultValue>
@@ -56,5 +30,12 @@
       <id>b314f283-5d6a-4731-9a7c-49b3ecc0a5f6</id>
       <masked>false</masked>
       <name>OrderType_Regular</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 1/Expected Data/TC19/Expected Customer Order.xlsx'</defaultValue>
+      <description></description>
+      <id>1ce311cf-2e90-4cec-8fc9-4a2e15d7557d</id>
+      <masked>false</masked>
+      <name>expectedCustomerOrder</name>
    </variable>
 </TestCaseEntity>

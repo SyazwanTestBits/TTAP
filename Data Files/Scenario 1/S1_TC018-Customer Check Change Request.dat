@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>S1_TC024</name>
+   <name>S1_TC018-Customer Check Change Request</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>9a540331-7be5-44fb-b2bd-db0e6505e7a9</dataFileGUID>
+   <dataFileGUID>8212277c-2e86-4677-8ecd-b75e4186e980</dataFileGUID>
    <dataSourceUrl>Excel Files/Scenario 1/S1_TestCases_Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>TC024</sheetName>
+   <sheetName>TC18-Customer Change</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
