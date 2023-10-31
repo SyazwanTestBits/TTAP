@@ -72,7 +72,7 @@ for (int rowIndex = 1; rowIndex <= 2; rowIndex++) {
     KeywordUtil.logInfo("Retrieved Outbound No: $outboundNo")
 
     // Copy the outboundNo to Excel using the same loop
-    CustomKeywords.'copyToExcel.exel'(outboundNo, rowIndex, 1, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 'TC111-OutboundNo')
+    CustomKeywords.'copyToExcel.exel'(outboundNo, rowIndex, 1, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 'TC174-OutboundNo')
 }
 
 WebUI.closeBrowser()

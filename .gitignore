@@ -1,4 +1,27 @@
+.gradle
 
+<<<<<<< HEAD
+bin
+
+Reports
+
+Libs
+
+output
+
+!output/.gitkeep
+build
+
+.classpath
+
+.project
+
+.cache
+
+.prj
+
+.settings
+=======
 
 Libs
 
@@ -24,3 +47,4 @@ build
 .cache
  
 .prj
+>>>>>>> branch 'main' of https://gitlab.com/SyazwanTB/tb-ttap-brivge-v2.git
