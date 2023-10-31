@@ -29,6 +29,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_OrderChangeCancel/div_Dt_ContractNo_Create",
+      "brokenLocator": "//div[(text() \u003d \u0027${contractNo}\u0027 or . \u003d \u0027${contractNo}\u0027)]/following::button[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_OrderChangeCancel/div_Dt_ContractNo_Create_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Scenario 01/S01_TC022/input_Basic Info_contractNo",
+      "brokenLocator": "//input[@name \u003d \u0027contractNo\u0027 and @type \u003d \u0027text\u0027 and @value \u003d \u0027SGTTAP-PKTTAP-FB2-5\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[4]/div/div[2]/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 01/S01_TC022/input_Basic Info_contractNo_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Scenario 12/SC12_TC014/p_detailsButton",
+      "brokenLocator": "//p[(text() \u003d \u0027sOB101-2310001\u0027 or . \u003d \u0027sOB101-2310001\u0027)]/following::button[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div[2]/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr[3]/td[2]/div/p",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 12/SC12_TC014/p_detailsButton_idRelative.png"
     }
   ]
 }
