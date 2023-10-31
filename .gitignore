@@ -1,14 +1,10 @@
-Libs
-
-.settings
-
-.svn
-
 .gradle
  
 bin
  
 Reports
+ 
+Libs
  
 output
  
@@ -22,3 +18,9 @@ build
 .cache
  
 .prj
+ 
+.properties
+ 
+.setting
+ 
+.gitignore
