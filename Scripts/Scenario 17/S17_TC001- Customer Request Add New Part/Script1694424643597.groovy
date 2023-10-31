@@ -37,6 +37,8 @@ WebUI.click(findTestObject('Scenario 10/S10_TC005/li_Download'))
 
 WebUI.verifyElementPresent(findTestObject('Scenario 10/S10_TC005/p_The operation was successful'), 0)
 
+WebUI.delay(2)
+
 downloadedExcel = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
 WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 17/S17_Cmn1-Write Info into Form Excel'), [('datafile') : datafile
@@ -49,6 +51,8 @@ WebUI.click(findTestObject('Scenario 13/S13_TC034/Page_Brivge/button_Upload Part
 
 CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Object Repository/Scenario 13/S13_TC034/Page_Brivge/li_Upload Part From'), 
     downloadedExcel)
+
+WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC034/Page_Brivge/div_The Operation was Successful'), 0)
 

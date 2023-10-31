@@ -11,4 +11,30 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>091fa391-0a16-4f81-9a2b-70c9a077fd22</testSuiteGuid>
+   <testCaseLink>
+      <guid>e5165919-7067-4bb7-a65b-122b0fd02717</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 17_Jira/BAT-707 SC17.0_TC18 - admin -</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b70ecb00-7545-4bf8-b6eb-0d1a2be980ee</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>01b1a680-35c7-4a5f-8975-e60f826954f3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 17/S17_TC018- Admin Combine Run Batch</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>da17dda5-9744-4a2d-a685-7697208c8897</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

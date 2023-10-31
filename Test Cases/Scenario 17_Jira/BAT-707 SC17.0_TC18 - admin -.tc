@@ -16,4 +16,17 @@ Description: User: admin \\Login ID: \\Company:  \\Function:  >Combine order bat
    </integratedEntity>
    <comment></comment>
    <testCaseGuid>5eb79e81-4ec2-478c-81e4-fab2c20e4288</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b70ecb00-7545-4bf8-b6eb-0d1a2be980ee</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.BRIVGE_BATCH_URL</defaultValue>
+      <description></description>
+      <id>b70ecb00-7545-4bf8-b6eb-0d1a2be980ee</id>
+      <masked>false</masked>
+      <name>batch_url</name>
+   </variable>
 </TestCaseEntity>

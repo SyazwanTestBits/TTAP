@@ -17,3 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.ADMIN_USERNAME
+        , ('password') : GlobalVariable.ADMIN_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.ADMIN_COMPANY], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.navigateToUrl(batch_url)
+
+WebUI.waitForElementPresent(findTestObject('Page_Batch/h3_Batch'), 0)
+
+WebUI.click(findTestObject('Page_Batch/button_LCBM BATCH'))
+
+WebUI.click(findTestObject('Page_Batch/li_COMBINE BATCH'))
+
+WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_BatchCombineOrder_Success'), 0)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.closeBrowser()
+
