@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>1d5b12bf-8328-4347-98f2-e4dbc805559b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC145-BU Complete Custom Invoice -Import</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>

@@ -24,6 +24,8 @@ for (def index : (1..datafile.getRowNumbers())) {
         def columnIndex = pair.value
 
         def dataValue = datafile.getValue(columnName, index)
+		
+		println(columnName+' '+columnIndex +' '+dataValue+' '+index+ ' '+downloadedFormPath+' '+downloadedFormSheetname)
 
         CustomKeywords.'copyToExcel.exel4'(dataValue, index + startRowFormMinusOne, columnIndex, downloadedFormPath, downloadedFormSheetname)
     }

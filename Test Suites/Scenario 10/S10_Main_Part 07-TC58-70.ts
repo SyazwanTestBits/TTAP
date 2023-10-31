@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>S10_Main_Part 11-TC58-69</name>
+   <name>S10_Main_Part 07-TC58-70</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>979d0b48-63a1-4d66-ac6e-1a27d74c61b4</testSuiteGuid>
+   <testSuiteGuid>bab4e563-1b22-4df5-9e68-5e9fadbe4d1e</testSuiteGuid>
    <testCaseLink>
-      <guid>67affbab-9cf2-4325-bf06-9dababddf686</guid>
+      <guid>16475143-e25c-41a1-8b08-3ac646e7a295</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC058-Customer Request to modify parts</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -43,9 +43,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>c8231e22-c6b7-473f-bbf5-9af59b897036</guid>
+      <guid>71c370f7-0ed1-44f2-b745-497ef64cba46</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC059-BU Request to modify parts</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -74,9 +74,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>9cdde3ce-bb25-416e-82f5-891fd53c6fbe</guid>
+      <guid>d46435de-6fb1-42d3-ab99-cbd743512610</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC060-Supp1 Complete Received Request to modify parts</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -99,9 +99,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>e3a86d75-6704-4643-b6eb-ec4b98dea637</guid>
+      <guid>a823b1ac-0ca4-4792-ad50-dc1bbfd40e61</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC061-Supp1 Request to modify price</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -130,9 +130,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>dc16e3d1-c7ca-433a-ac00-543123a76204</guid>
+      <guid>262695dc-307b-4ac8-82af-5ec622296110</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC062-BU Complete Received Request to modify price</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -155,9 +155,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>6c23598c-1a7e-49fa-aeda-00691ad596ba</guid>
+      <guid>652f93ca-2e09-42fe-b543-f3e6f8218034</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC063-BU Request to modify price</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -186,9 +186,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>d27b6fae-701b-436b-9127-85926df7a86d</guid>
+      <guid>3d2740cc-61af-4038-9375-8a63913dd19f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC064-customer Rejected Received Request to modify price</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -217,9 +217,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>4a3ff782-4c1d-4acf-98d9-f1d392acda11</guid>
+      <guid>d5928a8b-bc49-44d6-9226-6c826acc8e3a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC065-Customer Request Remove Part</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -242,9 +242,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>6b0025e3-2587-4848-91f0-df1dca6f1f82</guid>
+      <guid>cd25bc1b-ea6c-4a11-8705-15b813335efa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC066-BU Complete Received Request to remove part</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -267,9 +267,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f7ff6209-dcff-4082-9935-a5d702247601</guid>
+      <guid>af3a13c6-8102-4b2e-a23e-f449267f8f92</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC066.1-BU Check remove part in Contract L3</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -286,7 +286,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>7c247b11-e17c-4b60-a57c-afc2ab5f80ef</guid>
+      <guid>28df8eca-69e7-4bc5-973c-32fd082a00c6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC067-BU Request Remove Part</testCaseId>
@@ -311,7 +311,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>ff5020de-3cc6-46ff-b889-00fc2dcfae8d</guid>
+      <guid>a34e7a43-99fe-4fd0-bbdc-80185b8c896c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC068-Supp2 Complete Received Request to remove part</testCaseId>
@@ -336,7 +336,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>bda84bd1-d41b-41b3-962c-f960d3f9004a</guid>
+      <guid>53981b36-c9c5-46b5-b42c-d93530763d3b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC069-Supp2 Check remove part in Contract L3</testCaseId>
@@ -364,6 +364,43 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>f406cb61-8217-446d-99e6-1b327148839c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b3b6ac3f-b046-4922-9c70-e2aeadc4c531</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 10/S10_TC070- Supplier2 Check Contract Route L3 after remove part</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>edec8116-a5d5-4208-9104-75feb9a1118c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8ce2a09f-edb0-4801-8423-0ed3c6356936</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>120ddaa5-6f79-4e48-a2cc-da69bdf7f97c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6ab4523b-1454-4213-a651-a8d4e79943fa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>89c00779-ce87-4271-aab6-d25c53d46caf</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

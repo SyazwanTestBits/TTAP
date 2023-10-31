@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>S10_Main_Part 07</name>
+   <name>S10_Main_Part 11-TC101-110</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,227 +10,248 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>550516e0-ef0f-48fb-bef2-576f6384899e</testSuiteGuid>
+   <testSuiteGuid>979d0b48-63a1-4d66-ac6e-1a27d74c61b4</testSuiteGuid>
    <testCaseLink>
-      <guid>4c5630ad-b234-4a7d-91b6-8c6f41238fb7</guid>
+      <guid>8766dd3d-728b-4252-95a8-6bbd0eaa06fa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario 10/S10_TC031-Function to Upload Order Calculation Grouping</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Scenario 10/S10_TC101-Admin Modify Supplier1 Company Master</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>fa95380c-6c68-4819-8591-aa33a8926825</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>689ae47e-ad24-48e6-9e58-93760bb31398</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1f22f9c3-d6b5-47cd-931d-b88391bd5f2f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>04730554-e572-4081-ae5d-33c352178117</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7374f8a2-f8fd-47be-ad10-0762a524174b</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>821ff98b-0fcc-4dbb-9813-8347d3d80ac4</variableId>
+         <variableId>b39aa942-5fb9-4e05-aae3-62647906f5e9</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>ce9cd557-6a25-4cd8-b530-d81a012acef7</guid>
+      <guid>0faa8cf0-0ba2-43c0-a739-d9bbd8cf3b13</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario 10/S10_TC032-Auto Create Order Calculation Group after Upload</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Scenario 10/S10_TC102-Supplier1 Outbound</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>3bf34876-537d-4251-8a0f-d78b6ca610a7</variableId>
+         <variableId>fb18736d-7df3-455e-9bf6-36ad078cad41</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>4334d7f9-407a-4421-a9d2-8eb9c867fb9e</variableId>
+         <variableId>8d7891b0-5776-424e-82e0-1a1327e784cb</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b11ccb95-c79a-4e33-b45f-f9b7e81d0907</variableId>
+         <variableId>27a637a1-a705-4d5e-ba41-27bbb725bcf6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c7a2a9f1-7979-4aca-ba98-244100f181c1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1f0454eb-8f21-440e-a1f6-a5674a2168a6</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f13bdc1e-a00b-4611-87ae-9fb477ddbbcf</guid>
+      <guid>e6b9afda-aeb3-43d9-b7c9-f5f821f0cbcc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario 10/S10_TC033-Upload Stock Management and Order Calc Setting</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Scenario 10/S10_TC103-Supplier1 Approve Seller GI Invoice</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>3bf34876-537d-4251-8a0f-d78b6ca610a7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4334d7f9-407a-4421-a9d2-8eb9c867fb9e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b11ccb95-c79a-4e33-b45f-f9b7e81d0907</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b1b81a9c-c6ba-4b40-bf28-e0c1da7daeae</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ef51d9cc-26e8-4d4b-9e7a-198163a92c40</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>14775e61-de22-4e34-a5c1-73daf8fb1750</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d7c6e64e-6027-4f0c-b01b-db45917c6784</variableId>
+         <variableId>c5a4c104-b19c-4fef-9de8-6bcc7b178669</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>641497da-6a2d-46af-8a23-65dcedebcdff</guid>
+      <guid>ef9756d6-d246-4dc3-9cd8-725b855ecfbe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario 10/S10_TC034-Function to Calculate Group Order</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Scenario 10/S10_TC105-BU Check Cargo Tracking Detail/S10_TC105 - BU Check Cargo Tracking Detail (run this only)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>3bf34876-537d-4251-8a0f-d78b6ca610a7</variableId>
+         <variableId>ac3968e3-687f-435c-b45f-1a4df5e52b4e</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>4334d7f9-407a-4421-a9d2-8eb9c867fb9e</variableId>
+         <variableId>ccaa16a6-b4bb-4f7f-964a-0c601c716d81</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b11ccb95-c79a-4e33-b45f-f9b7e81d0907</variableId>
+         <variableId>f6b69262-1c2d-49fb-82e5-6fa0cb1d5121</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>1cedaed2-5865-4798-b74c-e253b52a14bc</variableId>
+         <variableId>537b1e5a-c3ee-4595-a3ed-1ef80cb7edcd</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>83f78eee-f914-42b8-8104-effdb7a59d45</variableId>
+         <variableId>b9f6bc9e-833c-46b6-b350-b847de87e41d</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>fb7dc614-bf66-462d-b246-169d1ad6d236</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3be911a7-98ef-4455-8063-faf9772bad89</variableId>
+         <variableId>c29f3429-1532-4856-99bc-0e90794a1474</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>b306efc1-65b9-4ed3-8ae3-2af296148640</guid>
+      <guid>dffac552-d80b-403c-b677-cb4e66fdf467</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario 10/S10_TC035-BU Check Order Calculation Result</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Scenario 10/S10_TC106 Supp1 Check Cargo Tracking Detail/S10_TC106 - Supp1 Check Cargo Tracking Detail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>2a81597f-ecd6-4e2a-96a7-fdc300c07a93</variableId>
+         <variableId>4a23a11c-ce08-4a53-a226-a34675b0b38b</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>a19f434d-526a-4054-89f5-978bd47b2436</variableId>
+         <variableId>5eb92055-9366-4a17-a28c-a8a5b6d55c12</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2feb7a7c-5229-43a3-98ce-7244a0ac047c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f9080d1b-cb38-45ac-8de7-301db6b67dbe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>30a0cb95-3691-41ee-958d-2e0f063cc7d6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>38faefae-d361-42df-b4a0-85a6291c613b</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>44290463-3093-46d9-85e7-6ba02057b028</guid>
+      <guid>ead39f8e-4617-45a4-840f-d7d9d403212d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario 10/S10_TC036-BU Revise Order Calculation Result</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Scenario 10/S10_TC107 - Sup1 AutoGenerate Shipping Detail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>07755307-f9c1-43ed-820e-941ae224836e</variableId>
+         <variableId>bd9f2978-0a78-4e39-b2a5-b0182f02eb19</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>03edd33a-f76c-411e-a589-af5212b45f33</variableId>
+         <variableId>1062c224-59aa-4ed5-8ab9-2803f1fe81c8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3045bdaa-a034-465e-a23e-4468d1679f96</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Scenario 10/S10_TC108 - BU Check Shipping Detail</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e8e74ffa-60e0-47a1-8681-e3eb913d0808</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>1e28d48b-8750-4769-8c4d-32aafb6110be</variableId>
+         <variableId>f2f53b41-6670-4372-86ee-20b54a77f07b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>500bd01a-8b32-4204-8bec-98be0f9a88e5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Scenario 10/S10_TC109 - DC Check Shipping Detail</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e0ca1e7f-1de9-400e-b14a-ee7983f29d81</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>26992580-f6f6-490c-ac13-90d1f85070ed</variableId>
+         <variableId>c7a9cee7-e511-4b07-b103-58f1380cd838</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6e432067-cdaa-4a30-a484-5a973f025807</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 10/S10_TC110- Supp1 create supplier order change</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3748afc7-f6e8-4f8a-b884-f19106085a9b</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>8c5724b3-c713-4e95-9380-2d555f1a251a</variableId>
+         <variableId>de2ed2ca-d4ad-4783-a596-67582ca0babc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d1559149-8fbf-4b69-b5c0-f31accebb687</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>48a63098-3076-47ca-b5d8-2e5a834d23f0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bc181fc9-d580-47c5-a8a7-939042914de5</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

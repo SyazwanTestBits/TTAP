@@ -289,4 +289,29 @@
       <initValue>'MY-PNA-DC'</initValue>
       <name>S1_BAF_DC3</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Scenario 13/S13_TC021-Forget Password').getValue(2, 1)</initValue>
+      <name>S13_TC30nMore_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Scenario 13/S13_TC021-Forget Password').getValue(11, 1)</initValue>
+      <name>S13_TC30nMore_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Scenario 13/S13_TC014n15').getValue(4, 1)</initValue>
+      <name>S13_TC30nMore_companyCUST</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Scenario 13/S13_TC014n15').getValue(1, 1)</initValue>
+      <name>S13_TC30nMore_companySUP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Scenario 13/S13_TC014n15').getValue(2, 1)</initValue>
+      <name>S13_TC30nMore_companyBU</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
