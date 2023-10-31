@@ -44,7 +44,7 @@ int numberrowtd = findTestData('Scenario 1/S1_TC206.1-Customer CO -Regular').get
 for (int rowl = 1; rowl <= numberrowtd; rowl++) {
     int coll = 1
 
-    for (String col : columnname) {
+    for (String col : columnname_regular) {
         String valuecol = findTestData('Scenario 1/S1_TC206.1-Customer CO -Regular').getValue(col, rowl)
 
         def actualValue = WebUI.getText(findTestObject('Scenario 10/S10_TC177/p_partCheck', [('lrow') : rowl, ('lcol') : coll]))
@@ -86,19 +86,19 @@ WebUI.verifyElementAttributeValue(findTestObject('Page_SO_MonitoringDetail/input
 
 CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 10/S10_TC178/p_Parts No'), 0)
 
-int numberrowtd = findTestData('Scenario 1/S1_TC206.2-Customer CO -Spot').getRowNumbers()
+int numberrowtd2 = findTestData('Scenario 1/S1_TC206.2-Customer CO -Spot').getRowNumbers()
 
-for (int rowl = 1; rowl <= numberrowtd; rowl++) {
+for (int rowl2 = 1; rowl2 <= numberrowtd2; rowl2++) {
     int coll = 1
 
-    for (String col : columnname) {
-        String valuecol = findTestData('Scenario 1/S1_TC206.2-Customer CO -Spot').getValue(col, rowl)
+    for (String col : columnname_spot) {
+        String valuecol = findTestData('Scenario 1/S1_TC206.2-Customer CO -Spot').getValue(col, rowl2)
 
-        def actualValue = WebUI.getText(findTestObject('Scenario 10/S10_TC177/p_partCheck', [('lrow') : rowl, ('lcol') : coll]))
+        def actualValue = WebUI.getText(findTestObject('Scenario 10/S10_TC177/p_partCheck', [('lrow') : rowl2, ('lcol') : coll]))
 
         KeywordUtil.logInfo("Expected value: $valuecol ; Actual value: $actualValue")
 
-        WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC177/p_partCheck', [('lrow') : rowl, ('lcol') : coll]), 
+        WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC177/p_partCheck', [('lrow') : rowl2, ('lcol') : coll]), 
             valuecol)
 
         coll = (coll + 1)

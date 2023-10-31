@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span//button[1]</value>
+         <value>(//span[2]/button)[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>

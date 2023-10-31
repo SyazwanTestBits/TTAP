@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC216-Customer Auto Generate BuyerGR Invoice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ccdc2402-5d42-407e-b99b-39c467605f6b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>128dc6cf-7721-4da2-a0c8-738726831fa5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[findTestData('Scenario 1/S1_TC214-BU1 SellerGI Invoice').getValue('InvoiceNo', 1), findTestData('Scenario 1/S1_TC214-BU1 SellerGI Invoice').getValue('InvoiceNo', 2), findTestData('Scenario 1/S1_TC214-BU1 SellerGI Invoice').getValue('InvoiceNo', 3), findTestData('Scenario 1/S1_TC214-BU1 SellerGI Invoice').getValue('InvoiceNo', 4), findTestData('Scenario 1/S1_TC214-BU1 SellerGI Invoice').getValue('InvoiceNo', 5), findTestData('Scenario 1/S1_TC214-BU1 SellerGI Invoice').getValue('InvoiceNo', 6)]</defaultValue>
+      <description></description>
+      <id>ff0e1152-2b8e-4fb0-bacc-b92d15edb0f7</id>
+      <masked>false</masked>
+      <name>invoiceNoList</name>
+   </variable>
+</TestCaseEntity>
