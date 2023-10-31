@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Date Conversion</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>39f7632f-8fc6-459e-bb73-4a1ae6ce2906</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c783bf36-143b-46de-9a5c-11e43aa204f5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c783bf36-143b-46de-9a5c-11e43aa204f5</id>
+      <masked>false</masked>
+      <name>weeklyPeriod</name>
+   </variable>
+</TestCaseEntity>

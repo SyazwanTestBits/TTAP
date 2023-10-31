@@ -28,6 +28,9 @@ WebUI.click(findTestObject('Scenario 12/SC12_TC019/li_ChangeCancel Request List'
 
 WebUI.waitForElementPresent(findTestObject('Scenario 12/SC12_TC036/h3_ChangeCancel Request List'), 0)
 
+WebUI.setText(findTestObject('Scenario 17/S17_TC006/input_Search'), findTestData('Scenario 17/S17_TC027- RequestNo').getValue(
+        1, 1))
+
 WebUI.verifyElementText(findTestObject('Scenario 17/S17_TC028/p_verifyRequestType', [('requestNo') : requestNo]), 'Order Change')
 
 'Verify Request with Status = New\r\n'
@@ -51,9 +54,9 @@ for (int rowl = 1; rowl <= numberrowtd; rowl++) {
         //println("Expected Value: $valuecol")
         //println("Actual Value: $actualValue")
         println("$actualValue same as expected -->  $valuecol")
-		
-		//Log actual and expected results
-		KeywordUtil.logInfo("Actual: $actualValue and Expected: $valuecol")
+
+        //Log actual and expected results
+        KeywordUtil.logInfo("Actual: $actualValue and Expected: $valuecol")
 
         coll = (coll + 1)
     }

@@ -26,6 +26,10 @@ WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC038 n 39-Check C
 
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC038 n 39-Check Contract Route/li_Contract Route List'))
 
+WebUI.setText(findTestObject('Scenario 17/S17_TC006/input_Search'), description)
+
+WebUI.delay(2)
+
 CRouteCode = WebUI.getText(findTestObject('Scenario 17/S17_TC006/p_getContractRouteCode', [('description') : description]))
 
 println(CRouteCode)
@@ -33,8 +37,7 @@ println(CRouteCode)
 'copy customer order no to excel\r\n'
 CustomKeywords.'copyToExcel.exel'(CRouteCode, 1, 0, filePath, fileName, sheetName)
 
-WebUI.setText(findTestObject('Object Repository/Scenario 13/S13_TC038 n 39-Check Contract Route/input_search contract route link'), 
-    CRouteCode)
+WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Scenario 13/S13_TC038 n 39-Check Contract Route/p_first row contract route list'), 
     CRouteCode)
@@ -103,9 +106,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/Scenario 13/S13_TC038 
 
 latestFilePath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
-WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 9/S9_Cmn3_Compare Test Data'), [('LatestPath') : latestFilePath
-        , ('expectationExcelPath') : expectedContractRoutePartsOverview, ('startRows') : 7, ('endRows') : 10, ('startCols') : 10
-        , ('endCols') : 14, ('NumberOfNoMatch') : NumberOfNoMatch], FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'verifyExcelData.verifyDynamicSortMap'(expectedContractRoutePartsOverview, latestFilePath, 4, [6, 7, 8, 9], 
+    [3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14])
 
 WebUI.closeBrowser()
 

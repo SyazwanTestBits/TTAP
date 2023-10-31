@@ -25,7 +25,7 @@
       <name>requestNo</name>
    </variable>
    <variable>
-      <defaultValue>['PartsNo', 'CustomerPartsNo', 'BackNo', 'SupplierCode', 'ColorCode', 'PairedPartsNo', 'UOMCode', 'SPQ', 'OrderLot', 'OldFirm', 'NewFirm', 'LastOrderForecast1', 'Fluctuation', 'ReasonForFluctuation', 'Old_inbound_1', 'Old_inbound_2', 'Old_inbound_3', 'New_inbound_1', 'New_inbound_2']</defaultValue>
+      <defaultValue>['PartsNo', 'CustomerPartsNo', 'BackNo', 'SupplierCode', 'ColorCode', 'PairedPartsNo', 'UOMCode', 'SPQ', 'OrderLot', 'OldFirm', 'NewFirm', 'LastOrderForecast1', 'Fluctuation', 'ReasonForFluctuation', 'Old_inbound_1', 'New_inbound_1', 'New_inbound_2']</defaultValue>
       <description></description>
       <id>badd84d8-84a1-4bb4-a342-05c338b2366d</id>
       <masked>false</masked>

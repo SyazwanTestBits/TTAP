@@ -5,36 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>31722d54-d86e-4a48-83b6-cc0b8e6f3dd3</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>62f444d2-e4c9-4b24-89bc-8185a9866a74</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>03850fed-f92f-4983-aeac-86111243f762</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>6a488a5d-785a-45a6-995f-181c76419999</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>7e8f52f5-8067-4327-a952-f25d5e755707</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>4566e7c7-fd28-4dc8-9795-a564d05c6680</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>findTestData('Scenario 17/S17_TC017- Regular Customer Order No').getValue(1, 1)</defaultValue>
       <description></description>

@@ -48,12 +48,18 @@ WebUI.click(findTestObject('Scenario 17/S17_TC051/Page_Outbound Monitoring List 
 CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 17/S17_TC051/Page_Outbound Monitoring List - Brivge/li_Upload__OutboundMonitoringList'), 
     downloadedExcel)
 
+WebUI.delay(2)
+
 WebUI.verifyElementPresent(findTestObject('Page_OutboundMonitoringList/div_Upload Outbound.The operation was successful'), 
     0)
 
-WebUI.delay(2)
+WebUI.setText(findTestObject('Scenario 17/S17_TC006/input_Search'), outboundRef1)
 
 outbound1 = WebUI.getText(findTestObject('Scenario 17/S17_TC051/p_grabOutboundNo', [('outboundRef') : outboundRef1]))
+
+CustomKeywords.'util.clearTextJS.clearElementText'(findTestObject('Scenario 17/S17_TC006/input_Search'))
+
+WebUI.setText(findTestObject('Scenario 17/S17_TC006/input_Search'), outboundRef2)
 
 outbound2 = WebUI.getText(findTestObject('Scenario 17/S17_TC051/p_grabOutboundNo', [('outboundRef') : outboundRef2]))
 

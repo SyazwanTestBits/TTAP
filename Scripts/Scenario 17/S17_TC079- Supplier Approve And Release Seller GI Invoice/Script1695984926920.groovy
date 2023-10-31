@@ -25,11 +25,25 @@ WebUI.click(findTestObject('Scenario 13/S13_TC055/button_Accounting'))
 
 WebUI.click(findTestObject('Scenario 13/S13_TC055/li_Seller(GI) Invoice List'))
 
+WebUI.setText(findTestObject('Scenario 17/S17_TC006/input_Search'), outboundNo1)
+
 invoice1 = WebUI.getText(findTestObject('Scenario 17/S17_TC078/p_getInvoiceNo', [('outboundNo') : outboundNo1]))
+
+CustomKeywords.'util.clearTextJS.clearElementText'(findTestObject('Scenario 17/S17_TC006/input_Search'))
+
+WebUI.setText(findTestObject('Scenario 17/S17_TC006/input_Search'), outboundNo2)
 
 invoice2 = WebUI.getText(findTestObject('Scenario 17/S17_TC078/p_getInvoiceNo', [('outboundNo') : outboundNo2]))
 
+CustomKeywords.'util.clearTextJS.clearElementText'(findTestObject('Scenario 17/S17_TC006/input_Search'))
+
+WebUI.setText(findTestObject('Scenario 17/S17_TC006/input_Search'), outboundNo3)
+
 invoice3 = WebUI.getText(findTestObject('Scenario 17/S17_TC078/p_getInvoiceNo', [('outboundNo') : outboundNo3]))
+
+WebUI.sendKeys(findTestObject('Scenario 17/S17_TC006/input_Search'), Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Scenario 17/S17_TC006/input_Search'), Keys.chord(Keys.BACK_SPACE))
 
 println(invoice1)
 
@@ -47,38 +61,37 @@ WebUI.delay(2)
 
 'Approve'
 for (String invoiceNo : invoiceNoList) {
-	
     WebUI.click(findTestObject('Scenario 17/S17_TC078/p_EditInvoice', [('invoiceNo') : invoiceNo]))
 
     WebUI.click(findTestObject('Scenario 17/S17_TC078/span_Save'))
 
     WebUI.back()
 
-	WebUI.click(findTestObject('Scenario 12/SC12_TC056/p_checkboxSelect', [('invoiceNo') : invoiceNo])) 
-	
-	WebUI.click(findTestObject('Scenario 12/SC12_TC056/button_approve'))
-	
-	WebUI.click(findTestObject('Scenario 12/SC12_TC056/button_CONFIRMapprove'))
-	
+    WebUI.click(findTestObject('Scenario 12/SC12_TC056/p_checkboxSelect', [('invoiceNo') : invoiceNo]))
+
+    WebUI.click(findTestObject('Scenario 12/SC12_TC056/button_approve'))
+
+    WebUI.click(findTestObject('Scenario 12/SC12_TC056/button_CONFIRMapprove'))
+
     WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC056/div_Do Approve.The operation was successful'), 0)
-	
+
     WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC056/p_verifyStatus', [('invoiceNo') : invoiceNo]), 'Approved')
-	
+
     WebUI.click(findTestObject('Scenario 12/SC12_TC056/p_checkboxSelect', [('invoiceNo') : invoiceNo]))
 }
 
 'Release'
 for (String invoiceNo : invoiceNoList) {
-	WebUI.click(findTestObject('Scenario 12/SC12_TC056/p_checkboxSelect', [('invoiceNo') : invoiceNo]))
+    WebUI.click(findTestObject('Scenario 12/SC12_TC056/p_checkboxSelect', [('invoiceNo') : invoiceNo]))
 
     WebUI.click(findTestObject('Scenario 12/SC12_TC056/button_release'))
-	
-	WebUI.click(findTestObject('Scenario 12/SC12_TC056/button_CONFIRMrelease'))
-		
-	WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC056/div_Do Release.The operation was successful'), 0)
-	
+
+    WebUI.click(findTestObject('Scenario 12/SC12_TC056/button_CONFIRMrelease'))
+
+    WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC056/div_Do Release.The operation was successful'), 0)
+
     WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC056/p_verifyStatus', [('invoiceNo') : invoiceNo]), 'Released')
-	
+
     WebUI.click(findTestObject('Scenario 12/SC12_TC056/p_checkboxSelect', [('invoiceNo') : invoiceNo]))
 }
 

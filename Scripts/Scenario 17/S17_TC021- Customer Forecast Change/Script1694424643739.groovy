@@ -41,13 +41,19 @@ WebUI.click(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/button
 WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC018/div_Download Forecast Change By Customer.The operation was successful'), 
     0)
 
+WebUI.delay(2)
+
 downloadedExcel = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
-WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 17/S17_Cmn1-Write Info into Form Excel'), [('datafile') : dataFile
-        , ('fileColumns') : fileColumns, ('startRowFormMinusOne') : startRowFormMinusOne, ('downloadedFormPath') : downloadedExcel
-        , ('downloadedFormSheetname') : regularCustOrderNo], FailureHandling.STOP_ON_FAILURE)
+partsNoRowIndices = CustomKeywords.'mapRowDatAndRowIndices.extractPartsWithIndices'(downloadedExcel, 2, 15)
+
+WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 17/S17_Cmn1-Write Info into Form Excel - mapDataIndices'), [('datafile') : dataFile
+        , ('fileColumns') : mapKeyandColIndex, ('mapDataIndices') : partsNoRowIndices, ('downloadedFormPath') : downloadedExcel
+        , ('downloadedFormSheetname') : customerOrderNo], FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 12/SC12_TC018/button_Upload'), downloadedExcel)
+
+WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC018/div_Upload Change Forecast By Customer.The operation was successful'), 
     0)
