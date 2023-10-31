@@ -11,18 +11,22 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@value='']</value>
+         <value>//div[2]/div/div/div/div/div[1]/div/span[1]/div/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>91e80ee8-8bae-4df9-b14b-ce55f63fe42a</webElementGuid>
+      <webElementGuid>6c655c43-8e72-4659-b54a-5a287589194b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>be5ae81b-4c62-400e-bc51-3e1378dccb3e</webElementGuid>
+      <webElementGuid>e33e047e-9f41-49b4-ba68-2ca4cd1978fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm539 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd</value>
-      <webElementGuid>e3203435-3e88-44da-ade2-6a0ada292e93</webElementGuid>
+      <webElementGuid>a8f86930-02b3-463f-bb8e-7d0742275ac7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-scrollbar-vertical-hidden lcbm-lcbm1 os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2 lcbm-lcbm3&quot;]/div[@class=&quot;lcbm-lcbm5 lcbm-lcbm6&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm50 lcbm-lcbm51 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-lcbm53&quot;]/div[@class=&quot;lcbm-lcbm537&quot;]/div[1]/div[1]/span[1]/div[@class=&quot;lcbm-MuiInputBase-root lcbm-MuiFilledInput-root lcbm-lcbm538 lcbm-MuiInputBase-adornedEnd lcbm-MuiFilledInput-adornedEnd&quot;]/input[@class=&quot;lcbm-MuiInputBase-input lcbm-MuiFilledInput-input lcbm-lcbm539 lcbm-MuiInputBase-inputAdornedEnd lcbm-MuiFilledInput-inputAdornedEnd&quot;]</value>
-      <webElementGuid>97b6413b-6f18-432d-85b9-e059f19204c9</webElementGuid>
+      <webElementGuid>023ce0d7-eba7-4c61-9630-797ad0d4ad28</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='']</value>
-      <webElementGuid>9f89caa8-b1f8-4286-9efe-86368805a062</webElementGuid>
+      <webElementGuid>f0fc6ded-d094-47ad-927c-6c3847eed3c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div/div/div/div/div/span/div/input</value>
-      <webElementGuid>14e40162-79de-4edf-9659-a87abda5567a</webElementGuid>
+      <webElementGuid>214698e9-66ab-4ccc-bb35-9a288decd03b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>f5ee1a6e-c904-4e15-aec5-ad1a3dd1c3e9</webElementGuid>
+      <webElementGuid>c90393be-b5f6-47ab-bfc3-07333a32191f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +82,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>d7f5d527-1e47-4405-94e5-6cb36368c7be</webElementGuid>
+      <webElementGuid>56dbfdc7-0bfe-44e9-b254-0db3ff4b6c56</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

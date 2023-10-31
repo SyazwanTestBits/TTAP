@@ -29,6 +29,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Request Add New Part - Brivge/Page_RoleList/input_SearchRole",
+      "brokenLocator": "//div[2]/div/div/div/div/div[1]/div/span[1]/div/input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@value\u003d\u0027\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Request Add New Part - Brivge/Page_RoleList/input_SearchRole_attributes.png"
     }
   ]
 }

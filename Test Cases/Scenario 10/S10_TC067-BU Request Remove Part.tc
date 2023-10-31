@@ -31,7 +31,7 @@
       <name>company</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('Scenario 10/S10_TC067').getValue('description',1)</defaultValue>
+      <defaultValue>findTestData('Scenario 10/S10_TC067').getValue('description', 1)</defaultValue>
       <description></description>
       <id>9e3c7b7c-4b0a-4e5a-97ce-dbb696213199</id>
       <masked>false</masked>

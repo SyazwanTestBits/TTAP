@@ -67,6 +67,24 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 13/S13_TC032-Create Payment Term List</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3035ac10-beab-4741-b510-f10c8abccb4b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>611431d6-39d9-49e8-8e20-e665d0b699f8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>adc94834-eb7c-4638-935a-4e962a27d6a3</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>97e66ba6-1422-4a6a-8f05-2cb5b07ebcfd</guid>

@@ -5,4 +5,25 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>af054640-2f76-4b4b-9c4f-1191ae34cac0</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.ADMIN_USERNAME</defaultValue>
+      <description></description>
+      <id>3035ac10-beab-4741-b510-f10c8abccb4b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.ADMIN_PWD</defaultValue>
+      <description></description>
+      <id>611431d6-39d9-49e8-8e20-e665d0b699f8</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.ADMIN_COMPANY</defaultValue>
+      <description></description>
+      <id>adc94834-eb7c-4638-935a-4e962a27d6a3</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
 </TestCaseEntity>
