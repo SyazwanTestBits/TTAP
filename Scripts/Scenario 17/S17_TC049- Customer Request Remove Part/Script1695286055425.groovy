@@ -33,6 +33,11 @@ WebUI.setText(findTestObject('Scenario 17/S17_TC003/Page_Request Remove Part - B
 
 WebUI.click(findTestObject('Scenario 17/S17_TC003/Page_Request Remove Part - Brivge/button_SELECT PART'))
 
+WebUI.setText(findTestObject('Scenario 17/S17_TC003/Page_Request Remove Part - Brivge/Page_Request Remove Part - Brivge/input_Parts List'), 
+    contractNo)
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Scenario 17/S17_TC049/div_selectPairedPart', [('pairedPart') : pairedPart1, ('contractNo') : contractNo]))
 
 WebUI.click(findTestObject('Scenario 17/S17_TC049/div_selectPairedPart', [('pairedPart') : pairedPart2, ('contractNo') : contractNo]))

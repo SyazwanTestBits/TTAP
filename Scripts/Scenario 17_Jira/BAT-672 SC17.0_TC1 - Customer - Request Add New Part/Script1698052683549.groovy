@@ -17,3 +17,58 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.BAF_USERNAME_FATIN
+        , ('password') : GlobalVariable.BAF_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.S17_BAF_CUS], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Scenario 13/S13_TC034/Page_Brivge/button_Master'))
+
+WebUI.click(findTestObject('Scenario 13/S13_TC034/Page_Brivge/li_Request Add New Part'))
+
+WebUI.click(findTestObject('Scenario 13/S13_TC034/Page_Brivge/input__requestTo'))
+
+WebUI.click(findTestObject('Scenario 13/S13_TC034/Page_Brivge/li_Request To', [('company') : company]))
+
+WebUI.setText(findTestObject('Scenario 13/S13_TC034/Page_Brivge/input__description'), description)
+
+WebUI.click(findTestObject('Scenario 10/S10_TC005/button_Download'))
+
+WebUI.click(findTestObject('Scenario 10/S10_TC005/li_Download'))
+
+WebUI.verifyElementPresent(findTestObject('Scenario 10/S10_TC005/p_The operation was successful'), 0)
+
+WebUI.delay(2)
+
+downloadedExcel = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
+
+WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 17/S17_Cmn1-Write Info into Form Excel'), [('datafile') : datafile
+        , ('fileColumns') : fileColumns, ('startRowFormMinusOne') : startRowFormMinusOne, ('downloadedFormPath') : downloadedExcel
+        , ('downloadedFormSheetname') : downloadedFormSheetName], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Scenario 13/S13_TC034/Page_Brivge/button_Upload Part'))
+
+CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Object Repository/Scenario 13/S13_TC034/Page_Brivge/li_Upload Part From'), 
+    downloadedExcel)
+
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC034/Page_Brivge/div_The Operation was Successful'), 0)
+
+WebUI.click(findTestObject('Scenario 13/S13_TC034/Page_Brivge/button_Save'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Scenario 13/S13_TC034/Page_Brivge/button_Submit'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Scenario 13/S13_TC034/Page_Brivge/button_Confirm'))
+
+WebUI.delay(1)
+
+WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC034/Page_Brivge/div_Submit_The Operation was Succesful'), 0)
+
+WebUI.closeBrowser()
+

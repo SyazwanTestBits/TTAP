@@ -5,42 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>23e4186d-175c-48f9-8841-5e9771fe300c</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>3311f4d4-1d7d-4129-bd68-6e9604a76532</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>0c291a15-3b1a-4934-a520-79a2a93c8d9d</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>4c38e63b-0311-4f84-bad2-c7e4a288878d</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>ffdee644-4636-4f1e-bb14-5830b81768bd</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>2f4bcb88-ccd4-4855-80d9-00b65ba14a2b</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>bb15aa77-b611-46df-8d2a-cefe37364460</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>findTestData('Scenario 17/S17_TC017- Regular Customer Order No').getValue(1, 1)</defaultValue>
       <description></description>

@@ -5,54 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>8541944e-8d92-409b-b72f-e81f05019e72</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>3f0dbac0-662c-4a92-9fcb-b557a087d0bc</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>1b17fbbe-a9ac-470a-8aa1-c87fa9da383d</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>8191c820-691b-4d13-9cce-9424c39cd8f8</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>1c3fd53a-b1bb-4460-b39a-8aa4efb3b94d</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>a42dbd6d-5721-4673-b509-4ea724eff0dc</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>ab7f5164-5e17-4772-b1cd-cd2a6bed660a</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>7f4bca17-c8b1-4646-863a-6f85aed2d663</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>494f96ca-bc1f-41bc-8dc7-fd537ce89778</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>findTestData('Scenario 17/S17_TC001.2- Supplier Create Shipping Route').getValue(9, 1)</defaultValue>
       <description></description>

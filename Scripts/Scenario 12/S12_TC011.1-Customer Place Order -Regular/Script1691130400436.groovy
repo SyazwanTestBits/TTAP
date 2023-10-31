@@ -1,6 +1,19 @@
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Page_RegularOrder/button_remote filter'))
 
@@ -8,17 +21,19 @@ WebUI.click(findTestObject('Page_RegularOrder/remotefilter/input_orderFrequency'
 
 WebUI.click(findTestObject('Page_RegularOrder/remotefilter/li__orderFrequency_Weekly'))
 
-def dateFormat = new SimpleDateFormat('MMM d, yyyy')
+//def dateFormat = new SimpleDateFormat('MMM d, yyyy')
+//def currentDate = new Date()
+//String formattedDate = dateFormat.format(currentDate)
+//weeklyPeriod = CustomKeywords.'util.WeeklyPeriod.getWeeklyDateRange'(formattedDate)
+println("$weeklyPeriod")
 
-def currentDate = new Date()
+def convertedWeeklyPeriod=CustomKeywords.'DateConversion.convertChineseToEnglish'("$weeklyPeriod")
 
-String formattedDate = dateFormat.format(currentDate)
-
-weeklyPeriod = CustomKeywords.'util.WeeklyPeriod.getWeeklyDateRange'(formattedDate)
+println(convertedWeeklyPeriod)
 
 WebUI.click(findTestObject('Page_RegularOrder/remotefilter/input_orderPeriod'))
 
-WebUI.click(findTestObject('Page_RegularOrder/remotefilter/li_orderPeriod', [('WeeklyPeriod') : weeklyPeriod]))
+WebUI.click(findTestObject('Page_RegularOrder/remotefilter/li_orderPeriod', [('WeeklyPeriod') : convertedWeeklyPeriod]))
 
 WebUI.click(findTestObject('Page_RegularOrder/remotefilter/button_remotefilter_Search'))
 

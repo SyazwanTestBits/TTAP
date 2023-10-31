@@ -94,9 +94,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/Scenario 13/S13_TC038 
 
 latestFilePath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
-WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 9/S9_Cmn3_Compare Test Data'), [('LatestPath') : latestFilePath
-        , ('expectationExcelPath') : expectedContractRoutePartsOverview, ('startRows') : 7, ('endRows') : 11, ('startCols') : 10
-        , ('endCols') : 14, ('NumberOfNoMatch') : NumberOfNoMatch], FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'verifyExcelData.verifyDynamicSortMap'(expectedContractRoutePartsOverview, latestFilePath, 4, [6, 7, 8, 9
+        , 10], [3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14])
 
 WebUI.closeBrowser()
 

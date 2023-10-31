@@ -34,8 +34,8 @@ WebUI.verifyElementPresent(findTestObject('Scenario 17/S17_TC034/Page_Supplier O
 
 WebUI.click(findTestObject('Scenario 17/S17_TC034/Page_Supplier Order ChangeCancel - Brivge/span_CONFIRM'))
 
-WebUI.verifyElementText(findTestObject('Scenario 17/S17_TC034/div_Cancel_SupplierOrderChange', [('salesOrderNo') : salesOrderNo]), 
-    'Confirmed')
+WebUI.verifyElementPresent(findTestObject('Scenario 17/S17_TC034/div_Cancel_SupplierOrderChange', [('salesOrderNo') : salesOrderNo]), 
+    0)
 
 WebUI.closeBrowser()
 

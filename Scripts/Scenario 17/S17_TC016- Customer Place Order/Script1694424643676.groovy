@@ -16,6 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.text.SimpleDateFormat as SimpleDateFormat
+import java.util.Date as Date
+import java.util.Locale as Locale
 
 WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.BAF_USERNAME_FATIN
         , ('password') : GlobalVariable.BAF_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.S17_BAF_CUS], 
@@ -33,12 +36,26 @@ WebUI.click(findTestObject('Scenario 17/S17_TC002/input__orderFrequency'))
 
 WebUI.click(findTestObject('Scenario 17/S17_TC002/li_orderFrequency', [('orderFrequency') : orderFrequency]))
 
+Locale englishLocale = new Locale('en', 'US')
+
+def dateFormat = new SimpleDateFormat('MMM d, yyyy', englishLocale)
+
+def currentDate = new Date()
+
+String formattedDate = dateFormat.format(currentDate)
+
+weeklyPeriod = CustomKeywords.'util.WeeklyPeriod.getWeeklyDateRange'(formattedDate)
+
+println(weeklyPeriod)
+
 WebUI.click(findTestObject('Scenario 17/S17_TC016/Page_Place Regular Order - Brivge/Page_Place Regular Order - Brivge (1)/input_orderPeriodIndex'))
 
 WebUI.click(findTestObject('Scenario 17/S17_TC016/Page_Place Regular Order - Brivge/Page_Place Regular Order - Brivge/li_orderPeriodIndex', 
         [('orderPeriodIndex') : orderPeriodIndex]))
 
 WebUI.click(findTestObject('remote filter/button_Search'))
+
+WebUI.setText(findTestObject('Scenario 17/S17_TC006/input_Search'), contractRouteNo)
 
 WebUI.verifyElementText(findTestObject('Page_RegularOrder/div_Dt_ContractRouteNo', [('contractRouteNo') : contractRouteNo]), 
     contractRouteNo)
@@ -50,9 +67,9 @@ WebUI.waitForElementPresent(findTestObject('Page_RegularOrder/Page_PlaceOrderDet
 
 WebUI.click(findTestObject('Page_RegularOrder/Page_PlaceOrderDetail_Reg/button_Download'))
 
-WebUI.delay(2)
-
 WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_DwnloadRegOrderFormCust_Success'), 0)
+
+WebUI.delay(2)
 
 downloadedExcel = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
@@ -66,7 +83,11 @@ WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 17/S17_Cmn1-Write Info
         , ('fileColumns') : fileColumns, ('startRowFormMinusOne') : startRowFormMinusOne, ('downloadedFormPath') : downloadedExcel
         , ('downloadedFormSheetname') : downloadedFormSheetName], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(2)
+
 WebUI.uploadFile(findTestObject('Page_RegularOrder/Page_PlaceOrderDetail_Reg/input_UploadFile'), downloadedExcel)
+
+WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_UploadRegOrderFormCust_Success'), 0)
 

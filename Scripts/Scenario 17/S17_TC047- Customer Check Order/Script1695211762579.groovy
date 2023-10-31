@@ -45,15 +45,8 @@ WebUI.delay(2)
 
 LatestPath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
-absoluteExpectPath = CustomKeywords.'ManageFiles.getFileAbsolutePath'(expectationExcelPath)
-
-nomatch = CustomKeywords.'util.compareTestData.compareExcelFiles'(LatestPath, absoluteExpectPath, 24, 28, 2, 16)
-
-println('Number of error: ' + nomatch)
-
-WebUI.verifyEqual(nomatch, NumberOfNoMatch, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.takeFullPageScreenshot()
+CustomKeywords.'verifyExcelData.verifyDynamicSortMap'(LatestPath, expectationExcelPath, 1, [23, 24, 25, 26, 27], [1, 2, 3
+        , 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
 
 WebUI.closeBrowser()
 

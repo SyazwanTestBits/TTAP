@@ -5,48 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>8eee33b3-c306-458a-9b9b-be625d5e04ba</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>c9d9a76b-bf2f-4c3f-94de-87926849c065</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>318c8d10-6cb3-4769-a29a-b9e7571dcbb1</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>a4cfcfd7-93b5-4536-8626-f3e6e270b12f</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>5bcea33d-3cf7-4b0c-8aaa-3dda79441ecd</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>d63898a6-343b-4460-afa8-af0535a07c20</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>f497cbc7-9fd7-4e9d-90c3-d97e2a527c03</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>17ad3471-0c8c-4724-917e-aa83c3dfc6b1</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>[findTestData('Scenario 17/S17_TC079- Seller GI Invoice').getValue(3, 1), findTestData('Scenario 17/S17_TC079- Seller GI Invoice').getValue(3, 2), findTestData('Scenario 17/S17_TC079- Seller GI Invoice').getValue(3, 3)]</defaultValue>
       <description></description>

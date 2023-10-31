@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC206-Customer Check Customer Order after DC1 Outbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8f1d6ea4-3196-42bc-a817-5ed3bfb1392c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>310c5da2-a03b-49e4-a5d3-e317132970f6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>54679215-140e-4f00-a9ae-ecaea53d6e2a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f4886cc0-a597-4847-85cd-4015379c8996</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f4886cc0-a597-4847-85cd-4015379c8996</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>295e4d8b-0ed9-4236-b9ad-859504a8efb4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>56eb61f4-58b9-4c55-8b27-bc4d3b0b866d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC047-AutoGen OrderNo Spot').getValue('CO', 1)</defaultValue>
+      <description></description>
+      <id>310c5da2-a03b-49e4-a5d3-e317132970f6</id>
+      <masked>false</masked>
+      <name>spotOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC015-AutoGen CO number').getValue('CO_number', 1)</defaultValue>
+      <description></description>
+      <id>54679215-140e-4f00-a9ae-ecaea53d6e2a</id>
+      <masked>false</masked>
+      <name>regularOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>['Parts No', 'Unit Parts No', 'Back No', 'Sales Order No', 'Supplier Code', 'SPQ', 'Order Lot', 'Order Qty', 'Force Completed Qty', 'Unit Price', 'Currency', 'Status', 'Inbounded Qty', 'Inbound Plan Qty 1', 'Inbound Plan Status 1', 'Inbound Plan Qty 2', 'Inbound Plan Status 2', 'Estimated Inbound Qty']</defaultValue>
+      <description></description>
+      <id>f4886cc0-a597-4847-85cd-4015379c8996</id>
+      <masked>false</masked>
+      <name>columnname_regular</name>
+   </variable>
+   <variable>
+      <defaultValue>['Parts No', 'Unit Parts No', 'Back No', 'Sales Order No', 'Supplier Code', 'SPQ', 'Order Lot', 'Order Qty', 'Force Completed Qty', 'Unit Price', 'Currency', 'Status', 'Inbounded Qty', 'Inbound Plan Qty 1', 'Inbound Plan Status 1', 'Inbound Plan Qty 2', 'Inbound Plan Status 2', 'Estimated Inbound Qty']</defaultValue>
+      <description></description>
+      <id>f4886cc0-a597-4847-85cd-4015379c8996</id>
+      <masked>false</masked>
+      <name>columnname_spot</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC206.1-Customer CO -Regular')</defaultValue>
+      <description></description>
+      <id>295e4d8b-0ed9-4236-b9ad-859504a8efb4</id>
+      <masked>false</masked>
+      <name>datafile_regular</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC206.2-Customer CO -Spot')</defaultValue>
+      <description></description>
+      <id>56eb61f4-58b9-4c55-8b27-bc4d3b0b866d</id>
+      <masked>false</masked>
+      <name>datafile_spot</name>
+   </variable>
+</TestCaseEntity>
