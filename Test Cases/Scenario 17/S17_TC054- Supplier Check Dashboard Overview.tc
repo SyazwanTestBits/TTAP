@@ -77,12 +77,6 @@
       <value></value>
       <variableId>800861e2-551f-4897-98e2-6f6cbd22bbfe</variableId>
    </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>783fc017-6abe-438e-a95a-1bac291da03a</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>['SupplierName', 'Amount']</defaultValue>
       <description></description>
@@ -133,7 +127,7 @@
       <name>currency</name>
    </variable>
    <variable>
-      <defaultValue>'79,400'</defaultValue>
+      <defaultValue>'440,064'</defaultValue>
       <description></description>
       <id>05c2e2ec-1f4b-44f5-9938-7e19ad37d29d</id>
       <masked>false</masked>
@@ -147,14 +141,14 @@
       <name>overdueAmountPer</name>
    </variable>
    <variable>
-      <defaultValue>'79,400'</defaultValue>
+      <defaultValue>'440,064'</defaultValue>
       <description></description>
       <id>41a59827-a937-4053-893b-64f8bc3aa7d0</id>
       <masked>false</masked>
       <name>tOustandingAmount</name>
    </variable>
    <variable>
-      <defaultValue>'79,400'</defaultValue>
+      <defaultValue>'440,064'</defaultValue>
       <description></description>
       <id>4d94763a-01bf-4948-a45d-1667d1fc8e39</id>
       <masked>false</masked>
@@ -166,12 +160,5 @@
       <id>800861e2-551f-4897-98e2-6f6cbd22bbfe</id>
       <masked>false</masked>
       <name>creditLimit</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>783fc017-6abe-438e-a95a-1bac291da03a</id>
-      <masked>false</masked>
-      <name>variable</name>
    </variable>
 </TestCaseEntity>

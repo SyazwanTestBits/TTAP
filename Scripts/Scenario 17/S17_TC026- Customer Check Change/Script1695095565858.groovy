@@ -27,6 +27,8 @@ WebUI.click(findTestObject('Navbar_Brivge/OrderMenu_Brivge/li_ChangeCancel Reque
 
 WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC034/h3_ChangeCancel Request List'), 0)
 
+WebUI.setText(findTestObject('Scenario 17/S17_TC006/input_Search'), requestNo)
+
 WebUI.verifyElementText(findTestObject('Scenario 17/S17_TC025/p_verifyRequestType', [('requestNo') : requestNo]), requestType)
 
 WebUI.verifyElementText(findTestObject('Scenario 17/S17_TC039/p_verifyRequestStatusRejected', [('requestNo') : requestNo]), 

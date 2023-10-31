@@ -28,13 +28,12 @@ WebUI.click(findTestObject('Navbar_Brivge/AccountingMenu_Brivge/li_Buyer(GR) Inv
 WebUI.waitForElementVisible(findTestObject('Page_Buyer(GR)InvoiceList/h3_Buyer(GR) Invoice List'), 0)
 
 for (String invoiceNo : invoiceNoList) {
-	
     WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC060/p_verifyStatus', [('invoiceNo') : invoiceNo]), 'Released')
-	
-	WebUI.click(findTestObject('Scenario 17/S17_TC080/p_ViewInvoiceDetail', [('invoiceNo') : invoiceNo]))
-	
-	WebUI.back()
+
+    WebUI.click(findTestObject('Scenario 17/S17_TC080/p_ViewInvoiceDetail', [('invoiceNo') : invoiceNo]))
+
+    WebUI.back()
 }
 
-not_run: WebUI.closeBrowser()
+WebUI.closeBrowser()
 

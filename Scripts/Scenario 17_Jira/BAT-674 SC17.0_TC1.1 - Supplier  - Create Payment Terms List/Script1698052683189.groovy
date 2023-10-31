@@ -17,3 +17,34 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.BAF_USERNAME_FATIN
+        , ('password') : GlobalVariable.BAF_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.S9_BAF_SUP], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Scenario 13/S13_TC032/Page_Brivge/button_Master'))
+
+WebUI.click(findTestObject('Scenario 13/S13_TC032/Page_Brivge/li_Payment Terms List'))
+
+WebUI.click(findTestObject('Scenario 9/SC9_TC001.1/button_Download'))
+
+WebUI.click(findTestObject('Scenario 9/SC9_TC001.1/li_Download'))
+
+WebUI.delay(2)
+
+downloadedExcel = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
+
+WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 17/S17_Cmn1-Write Info into Form Excel'), [('datafile') : datafile
+        , ('fileColumns') : fileColumns, ('startRowFormMinusOne') : startRowFormMinusOne, ('downloadedFormPath') : downloadedExcel
+        , ('downloadedFormSheetname') : downloadedFormSheetName], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Scenario 13/S13_TC032/Page_Brivge/button_Upload'))
+
+CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 9/SC9_TC001.1/li_Upload'), downloadedExcel)
+
+WebUI.delay(2)
+
+WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC006.1/div_Upload Paymenterms Master.The operation was successful'), 
+    0)
+
+WebUI.closeBrowser()
+

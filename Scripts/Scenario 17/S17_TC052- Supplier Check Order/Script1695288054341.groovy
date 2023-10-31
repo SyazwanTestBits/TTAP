@@ -51,7 +51,5 @@ println('Number of error: ' + nomatch)
 
 WebUI.verifyEqual(nomatch, NumberOfNoMatch, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeFullPageScreenshot()
-
 WebUI.closeBrowser()
 

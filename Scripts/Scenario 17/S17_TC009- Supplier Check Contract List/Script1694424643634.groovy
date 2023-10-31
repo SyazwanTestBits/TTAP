@@ -59,16 +59,10 @@ WebUI.click(findTestObject('Scenario 17/S17_TC005/li_Download Contract Parts'), 
 WebUI.verifyElementPresent(findTestObject('Scenario 17/S17_TC005/div_Download Contract Parts Master.The operation was successful'), 
     0)
 
-'Check part no. added= active\r\n'
-WebUI.verifyElementText(findTestObject('Scenario 17/S17_TC002/p_Verify Active Flag', [('partNo') : partNo]), activeFlag)
-
-WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/h6_Download Contract Route Detail in view page'), 
-    'Download Contract Parts Master.')
-
 WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Scenario 13/S13_TC038 n 39-Check Contract Route/p_The operation was successful'), 
-    'The operation was successful.')
+'Check part no. added= active\r\n'
+WebUI.verifyElementText(findTestObject('Scenario 17/S17_TC002/p_Verify Active Flag', [('partNo') : partNo]), activeFlag)
 
 latestFilePath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 

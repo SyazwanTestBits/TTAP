@@ -41,6 +41,8 @@ WebUI.click(findTestObject('Scenario 13/S13_TC032/Page_Brivge/button_Upload'))
 
 CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 9/SC9_TC001.1/li_Upload'), downloadedExcel)
 
+WebUI.delay(2)
+
 WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC006.1/div_Upload Paymenterms Master.The operation was successful'), 
     0)
 

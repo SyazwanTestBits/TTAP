@@ -46,7 +46,5 @@ if (elementText.contains(containsText)) {
     throw new AssertionError('Expected Partial Text NOT Found: ' + containsText)
 }
 
-WebUI.takeFullPageScreenshot()
-
 WebUI.closeBrowser()
 

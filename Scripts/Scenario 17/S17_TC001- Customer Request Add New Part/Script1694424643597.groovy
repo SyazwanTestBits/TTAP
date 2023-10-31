@@ -52,8 +52,6 @@ WebUI.click(findTestObject('Scenario 13/S13_TC034/Page_Brivge/button_Upload Part
 CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Object Repository/Scenario 13/S13_TC034/Page_Brivge/li_Upload Part From'), 
     downloadedExcel)
 
-WebUI.delay(2)
-
 WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC034/Page_Brivge/div_The Operation was Successful'), 0)
 
 WebUI.click(findTestObject('Scenario 13/S13_TC034/Page_Brivge/button_Save'))

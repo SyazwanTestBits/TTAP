@@ -5,42 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9692cc7b-667a-4243-9962-551e07d5f351</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>c0a3eb44-5e3b-43ed-8e0f-9a3bd0652b6c</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>5a527cef-5270-482a-bd36-8687ea4992d4</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>8e429438-dfed-405c-bf79-79d37f7e6cad</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>148ee001-8328-47e0-9c0c-1ebcf03fd5f7</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>20e78974-584a-4afb-816b-6637206fe3c2</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>bb99bddc-532c-48b7-9f75-a78a0dbb1501</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>findTestData('Scenario 17/S17_TC001-Description').getValue(1, 1)</defaultValue>
       <description></description>

@@ -5,12 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>05246ddb-c20b-4646-826a-735b203c0f63</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>9092cf4d-6e4b-4c5a-b338-856a5118d3bc</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>[findTestData('Scenario 17/S17_TC079- Seller GI Invoice').getValue(3, 1), findTestData('Scenario 17/S17_TC079- Seller GI Invoice').getValue(3, 2), findTestData('Scenario 17/S17_TC079- Seller GI Invoice').getValue(3, 3)]</defaultValue>
       <description></description>
