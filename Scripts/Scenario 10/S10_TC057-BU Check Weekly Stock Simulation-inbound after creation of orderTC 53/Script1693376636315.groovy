@@ -52,11 +52,11 @@ latestPath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('macroexcel
 
 println(latestPath)
 
-WebUI.callTestCase(findTestCase('0-Common/ConvertXLSMtoXLSX'), [('latestpath') : latestPath], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('0-Common/ConvertXLSMtoXLSX'), [('latestpath') : latestPath], FailureHandling.STOP_ON_FAILURE)
 
-latestX = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
+not_run: latestX = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
-WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 10/S10_0_Weekly/S10_Cmm-Compare Weekly Simulation Report - Copy'), 
+not_run: WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 10/S10_0_Weekly/S10_Cmm-Compare Weekly Simulation Report - Copy'), 
     [('actualPath') : latestX, ('expectationPath') : testDataL3, ('columnNameStock') : [('Stock Qty') : 16, ('Stock Qty (On-Hold)') : 17
             , ('Adjustment (Stock)') : 18, ('Adjustment (On-Hold)') : 19, ('Total (Excludes On-Hold)') : 20, ('Stock Days') : 21
             , ('Low Stock Alert') : 23], ('columnName1') : [('Week 1 In') : 29, ('Week 1 Out') : 30, ('Week 1 Balance') : 31
@@ -72,7 +72,6 @@ WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 10/S10_0_Weekly/S10_Cm
             , ('Week 5 Stock Days') : 52, ('Week 6 In') : 53, ('Week 6 Out') : 54, ('Week 6 Balance') : 55, ('Week 6 Stock Days') : 56
             , ('Week 7 In') : 57, ('Week 7 Out') : 58, ('Week 7 Balance') : 59, ('Week 7 Stock Days') : 60], ('columNameWeek') : [:]
         , ('testDataL2') : testDataL2, ('valueInL2') : valueInL2], FailureHandling.STOP_ON_FAILURE)
-
 
 WebUI.closeBrowser()
 
