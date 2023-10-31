@@ -86,7 +86,7 @@ for (int rowRemove = 1; rowRemove <= testDataRemove.getRowNumbers(); rowRemove++
     CustomKeywords.'util.clearTextJS.clearElementText2'(findTestObject('Page_Request Add New Part - Brivge/Page_RoleList/input_SearchPermision'))
 }
 
-not_run: WebUI.click(findTestObject('Page_Request Add New Part - Brivge/Page_RoleList/Page_EditRoleDetail/button_save'))
+WebUI.click(findTestObject('Page_Request Add New Part - Brivge/Page_RoleList/Page_EditRoleDetail/button_save'))
 
-not_run: WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_SuccessUpdateRole'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_SuccessUpdateRole'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
