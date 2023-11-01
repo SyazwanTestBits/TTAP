@@ -6,12 +6,11 @@
    <elementGuidId>6fadd133-3349-473e-808b-629e134d21fe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[2]/following::li[5]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//li[(text() = 'Change/Cancel Request List' or . = 'Change/Cancel Request List')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>1f978ebe-9b34-43da-935b-e3b664c22c38</webElementGuid>
+      <webElementGuid>a99ccb6d-a3d8-4ed8-a958-177bcebcd977</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base636 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button</value>
-      <webElementGuid>15dcfd6d-a6c8-476d-8889-fc6254124e58</webElementGuid>
+      <webElementGuid>29293844-39ca-452e-bc04-58a77227ba97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>9c65729f-28a4-479d-b4c0-67a31accff51</webElementGuid>
+      <webElementGuid>2ab33c7c-6667-49a9-9bfa-4621ef873f0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>8706df5a-ebe8-4b08-9877-333f8d550aa4</webElementGuid>
+      <webElementGuid>b8dfbc0a-e652-41ef-bf9b-80dbbddb18fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ff897776-ea40-454d-9001-75ddbade1093</webElementGuid>
+      <webElementGuid>d844137f-e8e3-43f2-bbd5-65f2e6317ac2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Change/Cancel Request List</value>
-      <webElementGuid>5a3cd0a1-f2e4-457e-85b6-7c235c735357</webElementGuid>
+      <webElementGuid>14f0042c-4930-4aac-a157-23267f30c841</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;base-base607&quot;]/div[@class=&quot;base-MuiPaper-root base-base608 base-MuiPaper-elevation1 base-MuiPaper-rounded&quot;]/div[@class=&quot;base-base611&quot;]/ul[@class=&quot;base-MuiList-root base-base634 base-MuiList-padding&quot;]/a[2]/li[@class=&quot;base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base636 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button&quot;]</value>
-      <webElementGuid>486057d8-2c93-42a9-b0d9-3770c7420bde</webElementGuid>
+      <webElementGuid>6e23bf16-80a1-45e4-abea-fec2adaf5257</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[2]/following::li[5]</value>
-      <webElementGuid>e0e7a165-a036-47b2-b284-e278735a4f6b</webElementGuid>
+      <webElementGuid>b19d7295-426b-4ce7-8173-fcb5a5181fc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/following::li[5]</value>
-      <webElementGuid>acfd4e0b-2b91-4070-8559-72cf12e29beb</webElementGuid>
+      <webElementGuid>ff45c6bc-5068-4b58-859c-1fb81d430a1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::li[3]</value>
-      <webElementGuid>c931de56-1fd3-4fd8-b625-2f56c6504715</webElementGuid>
+      <webElementGuid>78a63720-0dce-47bf-822c-b330daa9aa65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::li[3]</value>
-      <webElementGuid>4a43989d-e57b-45bb-8afd-4c26c2cbf665</webElementGuid>
+      <webElementGuid>6da21b92-1315-4bb9-9033-ea7bf68efeaf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]/li</value>
-      <webElementGuid>f5dedda0-16e3-4743-929b-2c53d9912317</webElementGuid>
+      <webElementGuid>7821635c-d2bd-4a44-8ff5-c80217092f00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Change/Cancel Request List' or . = 'Change/Cancel Request List')]</value>
-      <webElementGuid>d5c67817-a18a-4128-98e5-0103a3f81a6b</webElementGuid>
+      <webElementGuid>bf70c49e-1056-4faa-b853-5fd596cccc89</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
