@@ -24,19 +24,19 @@ WebUI.click(findTestObject('Scenario 10/S10_TC073/button_Order'))
 
 WebUI.click(findTestObject('Navbar_Brivge/OrderMenu_Brivge/li_SO Monitoring List'))
 
-WebUI.setText(findTestObject('Page_SO_MonitoringList/input_SO Monitoring List'), orderNo)
+WebUI.setText(findTestObject('Page_SO_MonitoringList/input_SO Monitoring List'), contractNo)
 
-contractNo = WebUI.getText(findTestObject('Scenario 1/S1_TC027/p_Contract No'))
+orderNo = WebUI.getText(findTestObject('Scenario 1/S1_TC027/Page_SO Monitoring List - Brivge/p_orderNo_firstRow'))
 
-println(contractNo)
+contractRouteNo = WebUI.getText(findTestObject('Scenario 1/S1_TC027/Page_SO Monitoring List - Brivge/p_contractRouteCode_firstRow'))
 
-CustomKeywords.'copyToExcel.exel'(contractNo, 1, 2, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 'TC027')
+println(orderNo)
 
-contractRouteCode = WebUI.getText(findTestObject('Scenario 1/S1_TC027/p_Contract Route Code'))
+CustomKeywords.'copyToExcel.exel'(orderNo, 1, 6, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 'TC20-Autogen SOPO')
 
-println(contractRouteCode)
+println(contractRouteNo)
 
-CustomKeywords.'copyToExcel.exel'(contractRouteCode, 1, 3, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 'TC027')
+CustomKeywords.'copyToExcel.exel'(contractRouteNo, 1, 3, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 'TC027')
 
 WebUI.click(findTestObject('Scenario 10/S10_TC049/input_tick all'))
 

@@ -31,7 +31,7 @@ WebUI.setText(findTestObject('Scenario 12/SC12_TC014/input_contractNo'), contrac
 
 WebUI.verifyElementPresent(findTestObject('Page_SO_MonitoringList/div_Dt_ContractNo', [('contractNo') : contractNo]), 0)
 
-regularSalesOrderNo = WebUI.getText(findTestObject('Page_SO_MonitoringList/td_SalesOrder_firstRow'))
+not_run: regularSalesOrderNo = WebUI.getText(findTestObject('Page_SO_MonitoringList/td_SalesOrder_firstRow'))
 
 WebUI.click(findTestObject('Scenario 12/SC12_TC014/input_checkall'))
 
@@ -63,7 +63,8 @@ CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
 WebUI.takeFullPageScreenshot()
 
-CustomKeywords.'copyToExcel.exel'(regularSalesOrderNo, 1, 2, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', sheetname)
+not_run: CustomKeywords.'copyToExcel.exel'(regularSalesOrderNo, 1, 2, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 
+    sheetname)
 
 CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Page_SO_MonitoringDetail/p_breadcrumb_SO Monitoring List'), 
     0)

@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Scenario 10/S10_TC049/li_PO Monitoring List'))
 
 WebUI.verifyElementPresent(findTestObject('Scenario 10/S10_TC049/h3_PO Monitoring List (1)'), 0)
 
-WebUI.setText(findTestObject('Scenario 10/S10_TC049/input_PO Monitoring List_Search'), orderNo)
+WebUI.setText(findTestObject('Scenario 10/S10_TC049/input_PO Monitoring List_Search'), contractNo)
 
 WebUI.click(findTestObject('Scenario 10/S10_TC049/input_tick all'))
 
@@ -39,14 +39,22 @@ WebUI.verifyElementPresent(findTestObject('Scenario 10/S10_TC049/p_The operation
 
 WebUI.click(findTestObject('Scenario 10/S10_TC049/button_Detail'))
 
-not_run: contractNo = WebUI.getAttribute(findTestObject('Scenario 01/S01_TC022/input_Basic Info_contractNo'), 'value')
+contractNoSys = WebUI.getAttribute(findTestObject('Scenario 1/S1_TC022/Page_PO Monitoring Detail - Brivge/input_Basic Info_contractNo'), 
+    'value')
 
-not_run: println(contractNo)
+orderNo = WebUI.getAttribute(findTestObject('Scenario 1/S1_TC022/Page_PO Monitoring Detail - Brivge/input_Basic Info_orderNo'), 
+    'value')
 
-not_run: CustomKeywords.'copyToExcel.exel'(contractNo, 1, 2, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 'TC022')
+println(contractNoSys)
 
-WebUI.verifyElementAttributeValue(findTestObject('Scenario 10/S10_TC049/input_Basic Info_orderType'), 'Value', orderType, 
-    3)
+if (contractNoSys == contractBU2) {
+    CustomKeywords.'copyToExcel.exel'(orderNo, 1, 1, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 'TC20-Autogen SOPO')
+} else if (contractNoSys == contractBU3) {
+    CustomKeywords.'copyToExcel.exel'(orderNo, 2, 1, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 'TC20-Autogen SOPO')
+} else {
+    WebUI.verifyElementAttributeValue(findTestObject('Scenario 10/S10_TC049/input_Basic Info_orderType'), 'Value', orderType, 
+        3)
+}
 
 WebUI.verifyElementAttributeValue(findTestObject('Scenario 10/S10_TC049/input_Basic Info_status'), 'Value', status, 3)
 
