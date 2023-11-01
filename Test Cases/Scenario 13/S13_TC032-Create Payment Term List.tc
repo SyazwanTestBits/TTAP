@@ -5,6 +5,24 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>af054640-2f76-4b4b-9c4f-1191ae34cac0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3035ac10-beab-4741-b510-f10c8abccb4b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>611431d6-39d9-49e8-8e20-e665d0b699f8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>adc94834-eb7c-4638-935a-4e962a27d6a3</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.ADMIN_USERNAME</defaultValue>
       <description></description>
@@ -20,7 +38,7 @@
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.ADMIN_COMPANY</defaultValue>
+      <defaultValue>GlobalVariable.COMPANY_SUPPLIER_1</defaultValue>
       <description></description>
       <id>adc94834-eb7c-4638-935a-4e962a27d6a3</id>
       <masked>false</masked>

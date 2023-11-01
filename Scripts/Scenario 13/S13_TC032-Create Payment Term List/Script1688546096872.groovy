@@ -24,6 +24,14 @@ WebUI.click(findTestObject('Scenario 13/S13_TC032/Page_Brivge/button_Master'))
 
 WebUI.click(findTestObject('Scenario 13/S13_TC032/Page_Brivge/li_Payment Terms List'))
 
+WebUI.click(findTestObject('Scenario 13/S13_TC032/Page_Brivge/button_Download'))
+
+WebUI.click(findTestObject('Scenario 13/S13_TC032/Page_Brivge/li_Download'))
+
+WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
+
+excelFilePath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
+
 WebUI.click(findTestObject('Scenario 13/S13_TC032/Page_Brivge/button_Upload'))
 
 AbsolutePath = CustomKeywords.'ManageFiles.getFileAbsolutePath'('Excel Files\\Scenario 13\\TC032\\13.0 - TC32  - Create Payment Terms.xlsx')

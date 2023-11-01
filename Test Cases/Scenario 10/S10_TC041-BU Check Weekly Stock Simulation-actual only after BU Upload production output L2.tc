@@ -103,7 +103,7 @@
       <name>testDataL2</name>
    </variable>
    <variable>
-      <defaultValue>'100.0'</defaultValue>
+      <defaultValue>'0'</defaultValue>
       <description></description>
       <id>556a9b6f-d2a6-47dd-a93d-1543649fe780</id>
       <masked>false</masked>
