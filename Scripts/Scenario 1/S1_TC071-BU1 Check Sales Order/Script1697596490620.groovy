@@ -50,13 +50,13 @@ KeywordUtil.logInfo("Verified New Order Quantity (Expected): $expectedOrderQTY")
 
 println(expectedOrderQTY)
 
-actualOrderQTY = WebUI.getText(findTestObject('Scenario 1/S1_TC067/div_Order Qty (Amount)'))
+actualOrderQTY = WebUI.getText(findTestObject('Scenario 1/S1_TC071/div_OrderQTY (Amount)'))
 
 KeywordUtil.logInfo("Verified New Order Quantity (Actual): $actualOrderQTY")
 
 println(actualOrderQTY)
 
-WebUI.verifyElementText(findTestObject('Scenario 1/S1_TC067/div_Order Qty (Amount)'), expectedOrderQTY)
+WebUI.verifyElementText(findTestObject('Scenario 1/S1_TC071/div_OrderQTY (Amount)'), expectedOrderQTY)
 
 WebUI.closeBrowser()
 

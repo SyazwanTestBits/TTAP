@@ -12,7 +12,7 @@
       <variableId>41a8e55f-80a3-4fd4-913f-a9790ade9729</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('Scenario 1/S1_TC075-Supplier1 Cargo Tracking Details after Outbound')</defaultValue>
+      <defaultValue>findTestData('Scenario 1/S1_TC079')</defaultValue>
       <description></description>
       <id>41a8e55f-80a3-4fd4-913f-a9790ade9729</id>
       <masked>false</masked>

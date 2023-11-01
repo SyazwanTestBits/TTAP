@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[6]</value>
+         <value>(//span[2]/button)[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d894748f-e9b5-48ce-b5b6-b55997621a56</webElementGuid>
+      <webElementGuid>12d74d20-3e48-43fe-bb29-003a1c11afd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiButtonBase-root lcbm-MuiButton-root lcbm-lcbm1007 lcbm-MuiButton-text lcbm-lcbm1006</value>
-      <webElementGuid>31f7d511-5236-48d6-addf-61a9e96d59d4</webElementGuid>
+      <webElementGuid>f2c064f4-622c-48a3-8b48-f73208bdecf5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>415d4a2b-03b3-47c7-8512-7bd34e4dbd57</webElementGuid>
+      <webElementGuid>ed6f755b-f03b-4920-bbff-3644166118c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b06bae55-edf0-4808-a183-e481839f7418</webElementGuid>
+      <webElementGuid>09e9efa6-87b4-4e5e-b76c-1411f36bf00e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>mui-50914</value>
-      <webElementGuid>5b11e931-a812-4cd6-a5c5-ac5c4c3491f1</webElementGuid>
+      <webElementGuid>a3f787bc-563c-49ba-b97f-1d547586d053</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;OSS011_Section_2&quot;)/div[@class=&quot;lcbm-MuiCollapse-root lcbm-MuiCollapse-entered&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapper&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapperInner&quot;]/div[@class=&quot;lcbm-lcbm53&quot;]/div[1]/div[@class=&quot;lcbm-lcbm1003&quot;]/div[1]/div[1]/span[2]/button[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiButton-root lcbm-lcbm1007 lcbm-MuiButton-text lcbm-lcbm1006&quot;]</value>
-      <webElementGuid>96f05558-54e2-45ef-8d4c-2b2c86e5d0cf</webElementGuid>
+      <webElementGuid>27a15b07-7875-4f54-9752-b5fe22bbb10f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[6]</value>
-      <webElementGuid>486ce039-b191-4c59-8b3e-ecd129536e0b</webElementGuid>
+      <webElementGuid>994e7f1d-3599-4341-a339-4d07fafee6c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='OSS011_Section_2']/div[2]/div/div/div/div/div/div/div/span[2]/button</value>
-      <webElementGuid>6313b6fa-7e4e-46c0-bfdd-fca99dc315eb</webElementGuid>
+      <webElementGuid>9ddcd659-18d4-42dd-9043-6f21e8b0bdd6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='AND'])[1]/following::button[1]</value>
-      <webElementGuid>6dfff047-ec75-4425-bf78-4ddfa923c7de</webElementGuid>
+      <webElementGuid>375f98f6-2fdd-4117-b5a7-906ecddb202f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Parts Monitoring detail'])[1]/following::button[3]</value>
-      <webElementGuid>49e8e325-434b-400d-9b59-eb6483d1421b</webElementGuid>
+      <webElementGuid>f1b0f609-7054-4377-a066-c991ca7f4d5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/preceding::button[22]</value>
-      <webElementGuid>f8577a5d-a44d-485c-b5ba-16ec91c4dd7b</webElementGuid>
+      <webElementGuid>b28c0a10-6cc9-413e-bff3-3e7928980d5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Logistics'])[1]/preceding::button[23]</value>
-      <webElementGuid>c7f9c213-e3ab-4528-ab46-6427441382be</webElementGuid>
+      <webElementGuid>08973979-bb9b-48d8-a843-3a5b090e5767</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[2]/button</value>
-      <webElementGuid>dc619f35-523c-4e1d-b21e-72825e00683f</webElementGuid>
+      <webElementGuid>675a95b0-ad33-42f2-9f63-9a52ec175bbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
-      <webElementGuid>f1affd87-6aff-4130-9a30-b577b105982b</webElementGuid>
+      <webElementGuid>b409c23e-7c89-4c93-b5ae-d84ca6da6888</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
