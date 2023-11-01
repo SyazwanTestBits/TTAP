@@ -28,16 +28,16 @@ public class copyToExcel {
 
 		FileOutputStream fos = new FileOutputStream(fullFilePath);
 		workbook.write(fos);
-		
-		
+
+
 		// Refresh the specified cell
 		CellReference cellRef = new CellReference(rowNum, colNum);
 		Row sheetRow = sheet.getRow(cellRef.getRow());
 		Cell sheetCell = sheetRow.getCell(cellRef.getCol());
 		sheetCell.setCellValue(sheetCell.getStringCellValue());
 		//
-		
-		
+
+
 		fos.close();
 		fis.close();
 

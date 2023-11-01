@@ -27,12 +27,6 @@ WebUI.click(findTestObject('Scenario 13/S13_TC035/Page_Brivge/li_Received Reques
 
 WebUI.click(findTestObject('Scenario 17/S17_TC002/p_edit', [('description') : description]))
 
-'turn on back button for debug'
-not_run: WebUI.click(findTestObject('Scenario 12/SC12_TC004/button_Back'))
-
-'turn on back button for debug'
-not_run: WebUI.click(findTestObject('Scenario 12/SC12_TC004/button_Back'))
-
 WebUI.click(findTestObject('Scenario 13/S13_TC035/Page_Brivge/button_Next'))
 
 WebUI.click(findTestObject('Scenario 13/S13_TC035/Page_Brivge/button_Download'))

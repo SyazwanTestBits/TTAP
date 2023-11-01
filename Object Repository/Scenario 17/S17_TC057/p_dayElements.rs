@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_day</name>
+   <name>p_dayElements</name>
    <tag></tag>
-   <elementGuidId>3edbb793-9eae-413a-98bd-42c371d0bc10</elementGuidId>
+   <elementGuidId>45aefccd-1ba0-4bbd-84e1-4e150d2a2273</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@role='presentation']//descendant::p[text()='${day}'][1])[1]</value>
+         <value>//button[@class='lcbm-MuiButtonBase-root lcbm-MuiIconButton-root lcbm-MuiPickersDay-day']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
