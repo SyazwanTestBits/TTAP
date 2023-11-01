@@ -39,6 +39,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Request Add New Part - Brivge/Page_RoleList/input_SearchRole_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Scenario 01/S01_TC022/input_Basic Info_contractNo",
+      "brokenLocator": "//input[@name \u003d \u0027contractNo\u0027 and @type \u003d \u0027text\u0027 and @value \u003d \u0027SGTTAP-PKTTAP-FB2-5\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[4]/div/div[2]/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 01/S01_TC022/input_Basic Info_contractNo_XPATH.png"
     }
   ]
 }

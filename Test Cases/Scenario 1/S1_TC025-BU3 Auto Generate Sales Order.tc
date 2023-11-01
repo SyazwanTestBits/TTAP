@@ -69,7 +69,7 @@
       <name>contractNo</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('BU3_SO', 1)</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>09b40cb2-8f44-4ffd-9170-1a7a138c069a</id>
       <masked>false</masked>
@@ -90,7 +90,7 @@
       <name>orderTypeSpot</name>
    </variable>
    <variable>
-      <defaultValue>'TC025'</defaultValue>
+      <defaultValue>'TC20-Autogen SOPO'</defaultValue>
       <description></description>
       <id>7dc5d357-4d81-48a9-8f26-c97bc900a279</id>
       <masked>false</masked>

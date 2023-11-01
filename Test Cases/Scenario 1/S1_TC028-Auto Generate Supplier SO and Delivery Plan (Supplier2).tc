@@ -47,7 +47,7 @@
    <variableLinks>
       <testDataLinkId>99d9dcdc-5a92-4f56-a422-728bf74ba3cc</testDataLinkId>
       <type>DATA_COLUMN</type>
-      <value>OrderNo</value>
+      <value>ContractNo</value>
       <variableId>1c6a7bd3-0f5f-4180-a843-00faf3a7eab4</variableId>
    </variableLinks>
    <variable>
@@ -90,6 +90,6 @@
       <description></description>
       <id>1c6a7bd3-0f5f-4180-a843-00faf3a7eab4</id>
       <masked>false</masked>
-      <name>orderNo</name>
+      <name>contractNo</name>
    </variable>
 </TestCaseEntity>
