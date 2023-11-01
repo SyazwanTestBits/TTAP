@@ -71,14 +71,14 @@
       <name>company</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('Scenario 1/S1_TC021').getValue('ContractNo', 1)</defaultValue>
+      <defaultValue>findTestData('Scenario 1/S1_TC002-BU1 to Customer Contract').getValue('ContractNo', 1)</defaultValue>
       <description></description>
       <id>ca3633e0-a395-4ddb-bf60-3822344f1315</id>
       <masked>false</masked>
       <name>contractNo</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 1/S1_TC048').getValue('SalesOrder', 1)</defaultValue>
       <description></description>
       <id>f10d4b8e-e6ff-4a2a-b5c4-949bacd16ab2</id>
       <masked>false</masked>

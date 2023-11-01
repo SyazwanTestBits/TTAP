@@ -18,18 +18,18 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 not_run: WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.BAF_USERNAME_FATIN
-        , ('password') : GlobalVariable.PNA_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.PNA_COMPANY_CUST], 
+        , ('password') : GlobalVariable.PNA_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.S1_BAF_CUS], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Scenario 13/S13_TC035/Contract Route List/button_Master'))
+WebUI.click(findTestObject('Navbar_Brivge/button_Order'))
 
-WebUI.click(findTestObject('Scenario 9/SC9_TC002/li_Request List'))
+WebUI.click(findTestObject('Navbar_Brivge/OrderMenu_Brivge/li_CO Monitoring List'))
 
-WebUI.setText(findTestObject('Scenario 10/S10_TC065/input_Request List_search'), testData)
+WebUI.setText(findTestObject('Scenario 12/SC12_TC014/input_contractNo'), contractNo)
 
-RequestNo = WebUI.getText(findTestObject('Scenario 9/SC9_TC002/p_requestNo'))
+OrderNo = WebUI.getText(findTestObject('Scenario 1/S1_TC015/Page_CO Monitoring List - Brivge/p_orderNo_firstRow'))
 
-CustomKeywords.'copyToExcel.exel'(RequestNo, 1, 1, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 'TC001-Autogen')
+CustomKeywords.'copyToExcel.exel'(OrderNo, 1, 0, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 'TC15-Customer Order No')
 
 not_run: WebUI.closeBrowser()
 
