@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_day</name>
+   <name>p_getDates</name>
    <tag></tag>
-   <elementGuidId>3edbb793-9eae-413a-98bd-42c371d0bc10</elementGuidId>
+   <elementGuidId>9f25aa49-6d71-4ca3-9cac-058cf8932d0d</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>(//div[@role='presentation']//descendant::p[text()='${day}'][1])[1]</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@class='lcbm-MuiTypography-root lcbm-lcbm257 lcbm-MuiTypography-body2']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
