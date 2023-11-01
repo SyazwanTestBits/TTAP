@@ -17,9 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.CUST_USERNAME_USERF
-        , ('password') : GlobalVariable.CUST_PWD_USERF, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.COMPANY_CUSTOMER], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : username
+        , ('password') : password, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : company], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC036 n 37-Check Contract/button_Master'))
 
@@ -58,7 +57,7 @@ WebUI.setText(findTestObject('Scenario 13/S13_TC036 n 37-Check Contract/input_Se
 //not_run: WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC036 n 37-Check Contract/p_first row contract list'), 'CNTWSUP TO PKCUS 001')
 contractNo = WebUI.getText(findTestObject('Scenario 13/S13_TC036 n 37-Check Contract/p_first row contract list'), FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'copyToExcel.exel'(contractNo, 1, 0, 'Excel Files\\Scenario 13', 'S13_TestCases_Data.xlsx', 'AutoGen')
+not_run: CustomKeywords.'copyToExcel.exel'(contractNo, 1, 0, 'Excel Files\\Scenario 13', 'S13_TestCases_Data.xlsx', 'AutoGen')
 
 WebUI.click(findTestObject('Scenario 13/S13_TC036 n 37-Check Contract/button_view contract list'))
 
