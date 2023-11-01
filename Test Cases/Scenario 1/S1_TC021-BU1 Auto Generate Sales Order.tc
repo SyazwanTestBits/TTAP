@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 9845a53 (resolve conflict)
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
@@ -98,6 +101,7 @@
       <name>sheetname</name>
    </variable>
 </TestCaseEntity>
+<<<<<<< HEAD
 =======
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
@@ -199,3 +203,5 @@
    </variable>
 </TestCaseEntity>
 >>>>>>> branch 'main' of https://gitlab.com/SyazwanTB/tb-ttap-brivge-v2.git
+=======
+>>>>>>> parent of 9845a53 (resolve conflict)
