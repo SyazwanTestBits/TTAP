@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
@@ -69,3 +70,76 @@
       <name>testData</name>
    </variable>
 </TestCaseEntity>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC012-Sup1 Set Cargo Status for Supplier</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf042749-6704-4c7b-9949-644a005e7c70</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.BAF_USERNAME_SYAZWAN</defaultValue>
+      <description></description>
+      <id>c57c5615-25f3-4462-a241-2fa11ef033ca</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.BAF_COMPANY_BU</defaultValue>
+      <description></description>
+      <id>6fd658d9-b404-485d-9329-c9a7f92f8c27</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC012').getValue('supplier_code', 1)</defaultValue>
+      <description></description>
+      <id>09590a06-42df-4186-a64d-27f263ef14f0</id>
+      <masked>false</masked>
+      <name>supplier_code</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC012').getValue('supplier_name', 1)</defaultValue>
+      <description></description>
+      <id>0df2c600-3640-492f-b954-9d4ade5b866f</id>
+      <masked>false</masked>
+      <name>supplier_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Booking Submitted,Booking Confirmed,Empty Container Release to Shipper,Cargo Outbound,Gate in (arrival at first POL),Container loaded at first POL,Vessel departure from first POL,Vessel arrival at T/S port,Container discharge at T/S port,Container loaded at T/S port,Vessel departure from T/S'</defaultValue>
+      <description></description>
+      <id>1282038b-9b91-48e8-9443-9e96f1a0d3e8</id>
+      <masked>false</masked>
+      <name>status_alert_EXPShip_default</name>
+   </variable>
+   <variable>
+      <defaultValue>'Exp clearance in progress,Exp clearance completed'</defaultValue>
+      <description></description>
+      <id>cf3091c0-1e8e-4d1a-bb19-45eb812c770c</id>
+      <masked>false</masked>
+      <name>status_alert_EXPCus_default</name>
+   </variable>
+   <variable>
+      <defaultValue>'Vessel arrived at final POD (ATA),Container unload at final POD,Container Gate out from final POD,Cargo Inbound'</defaultValue>
+      <description></description>
+      <id>f7aa3c3d-91c1-4461-998f-a2b677793afa</id>
+      <masked>false</masked>
+      <name>status_alert_IMPShip_default</name>
+   </variable>
+   <variable>
+      <defaultValue>'Imp clearance in progress,Imp clearance completed'</defaultValue>
+      <description></description>
+      <id>16019785-2f1d-4f89-a3d5-37352786092c</id>
+      <masked>false</masked>
+      <name>status_alert_IMPCus_default</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC012')</defaultValue>
+      <description></description>
+      <id>5913fc1f-b605-4658-b627-7b83b9df0910</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+</TestCaseEntity>
+>>>>>>> branch 'main' of https://gitlab.com/SyazwanTB/tb-ttap-brivge-v2.git

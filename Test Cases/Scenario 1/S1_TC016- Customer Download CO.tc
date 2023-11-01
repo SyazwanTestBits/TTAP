@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
@@ -58,3 +59,65 @@
       <name>expectedCustomerOrder</name>
    </variable>
 </TestCaseEntity>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC016- Customer Download CO</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7fbb3db3-599e-484f-ae75-012dcce8be22</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c4d4bee3-29dd-46eb-9417-4219fe88da0b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>56f5e710-4e3e-40de-a7db-f5098347c4fb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1e3f7796-a2fc-4539-815e-0e819309c241</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1ce311cf-2e90-4cec-8fc9-4a2e15d7557d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Regular'</defaultValue>
+      <description></description>
+      <id>c4d4bee3-29dd-46eb-9417-4219fe88da0b</id>
+      <masked>false</masked>
+      <name>OrderType_Regular</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC002-BU1 to Customer Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>56f5e710-4e3e-40de-a7db-f5098347c4fb</id>
+      <masked>false</masked>
+      <name>ContractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC015-AutoGen CO number').getValue('CO_number', 1)</defaultValue>
+      <description></description>
+      <id>1e3f7796-a2fc-4539-815e-0e819309c241</id>
+      <masked>false</masked>
+      <name>RegularCustomerOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 1/Expected Data/TC16/Expected Customer Order.xlsx'</defaultValue>
+      <description></description>
+      <id>1ce311cf-2e90-4cec-8fc9-4a2e15d7557d</id>
+      <masked>false</masked>
+      <name>expectedCustomerOrder</name>
+   </variable>
+</TestCaseEntity>
+>>>>>>> branch 'main' of https://gitlab.com/SyazwanTB/tb-ttap-brivge-v2.git
