@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_contractRouteCode_firstRow</name>
+   <tag></tag>
+   <elementGuidId>5a3bf237-89f4-402c-8d88-0bfecd90fb35</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//td[5]/div/p)[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>58542902-acf3-4cdc-8f93-b0c146734e58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiTypography-root lcbm-lcbm170 lcbm-MuiTypography-body2</value>
+      <webElementGuid>395c7f28-4395-4042-8865-abafa489a2d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CR-PK-CUS-POC-2311001</value>
+      <webElementGuid>d9e71c2a-1828-473e-8872-0b0494e3b39d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-scrollbar-vertical-hidden lcbm-lcbm1 os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2 lcbm-lcbm3&quot;]/div[@class=&quot;lcbm-lcbm5 lcbm-lcbm6&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm50 lcbm-lcbm51 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-lcbm53&quot;]/div[@class=&quot;lcbm-lcbm133&quot;]/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-overflow os-host-overflow-x os-host-resize-disabled lcbm-lcbm4 os-host-transition os-host-scrollbar-vertical-hidden&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[1]/table[@class=&quot;lcbm-MuiTable-root&quot;]/tbody[@class=&quot;lcbm-MuiTableBody-root&quot;]/tr[@class=&quot;lcbm-MuiTableRow-root lcbm-lcbm164&quot;]/td[@class=&quot;lcbm-MuiTableCell-root lcbm-MuiTableCell-body lcbm-lcbm167&quot;]/div[@class=&quot;lcbm-lcbm168&quot;]/p[@class=&quot;lcbm-MuiTypography-root lcbm-lcbm170 lcbm-MuiTypography-body2&quot;]</value>
+      <webElementGuid>952d6da7-866f-41e3-9192-5c5ebb17cd19</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[5]/div/p</value>
+      <webElementGuid>8a6b9f9e-b50b-4fd2-a7c8-733a469dcb2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AND'])[1]/following::p[11]</value>
+      <webElementGuid>6a26b8e3-05a2-4070-ae6f-61ec99f00218</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SO Monitoring List'])[1]/following::p[13]</value>
+      <webElementGuid>30ec2ce3-64a2-4175-9363-0e6e01d59139</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/preceding::p[7]</value>
+      <webElementGuid>37e42174-1c2c-4e6d-ae20-a020ce4c6724</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logistics'])[1]/preceding::p[7]</value>
+      <webElementGuid>8d3e41cd-e057-45f2-a8dc-fa7651e0d5af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='CR-PK-CUS-POC-2311001']/parent::*</value>
+      <webElementGuid>ce9cf367-cacd-4789-b74f-7e5d02bab8b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[5]/div/p</value>
+      <webElementGuid>11dbc3ae-eb54-4d73-8770-ee9ef275eafe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'CR-PK-CUS-POC-2311001' or . = 'CR-PK-CUS-POC-2311001')]</value>
+      <webElementGuid>12747de3-42a3-4be5-a924-8517e2660c1a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

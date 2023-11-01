@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
@@ -97,3 +98,104 @@
       <name>sheetname</name>
    </variable>
 </TestCaseEntity>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC023-BU2 Auto Generate Sales Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8152c25-18cf-47e2-836a-28b2e79e8745</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1ada12cd-a8e3-43ca-b11c-0ce000377fef</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1e970832-ac38-4959-9e51-06873f1c1770</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>df9e3e0c-6e02-4ec9-ae69-7cbe296603be</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>80fc42df-4ff8-4650-b4de-e444794ff655</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8730ac66-5622-40e5-b5c2-081b965e6438</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6f4d8caa-2d90-4288-8fb8-f143d5cb8d90</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>14807603-c31b-46bb-b0e6-308d86d94242</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.BAF_USERNAME_SYAZWAN</defaultValue>
+      <description></description>
+      <id>1ada12cd-a8e3-43ca-b11c-0ce000377fef</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.S1_BAF_BU2</defaultValue>
+      <description></description>
+      <id>1e970832-ac38-4959-9e51-06873f1c1770</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC003-BU2 to BU1 Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>df9e3e0c-6e02-4ec9-ae69-7cbe296603be</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('BU2_SO', 1)</defaultValue>
+      <description></description>
+      <id>80fc42df-4ff8-4650-b4de-e444794ff655</id>
+      <masked>false</masked>
+      <name>regularSalesOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Regular'</defaultValue>
+      <description></description>
+      <id>8730ac66-5622-40e5-b5c2-081b965e6438</id>
+      <masked>false</masked>
+      <name>orderTypeRegular</name>
+   </variable>
+   <variable>
+      <defaultValue>'Spot'</defaultValue>
+      <description></description>
+      <id>6f4d8caa-2d90-4288-8fb8-f143d5cb8d90</id>
+      <masked>false</masked>
+      <name>orderTypeSpot</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC023'</defaultValue>
+      <description></description>
+      <id>14807603-c31b-46bb-b0e6-308d86d94242</id>
+      <masked>false</masked>
+      <name>sheetname</name>
+   </variable>
+</TestCaseEntity>
+>>>>>>> branch 'main' of https://gitlab.com/SyazwanTB/tb-ttap-brivge-v2.git

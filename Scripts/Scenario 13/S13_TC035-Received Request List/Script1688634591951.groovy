@@ -17,9 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.CUST_USERNAME_USERF
-        , ('password') : GlobalVariable.CUST_PWD_USERF, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.COMPANY_SUPPLIER_1], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : username
+        , ('password') : password, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : company], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Scenario 13/S13_TC035/Page_Brivge/button_Master'))
 
@@ -39,26 +38,34 @@ WebUI.click(findTestObject('Scenario 13/S13_TC035/Page_Brivge/li_Download Part F
 
 WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC035/Page_Brivge/div_The operation was successful'), 0)
 
-CustomKeywords.'copyToExcel.exel'(RequestNo, 12, 2, filePath, fileName, sheetName)
+println(fileName35)
 
-CustomKeywords.'copyToExcel.exel'(RequestNo, 13, 2, filePath, fileName, sheetName)
+CustomKeywords.'copyToExcel.exel4'(RequestNo, 12, 2, 'Excel Files/Scenario 13/TC035/13.0 - TC35 - Contract Parts Info.xlsx', 
+    sheetName)
 
-CustomKeywords.'copyToExcel.exel'(RequestNo, 14, 2, filePath, fileName, sheetName)
+CustomKeywords.'copyToExcel.exel4'(RequestNo, 13, 2, 'Excel Files/Scenario 13/TC035/13.0 - TC35 - Contract Parts Info.xlsx', 
+    sheetName)
 
-CustomKeywords.'copyToExcel.exel'(RequestNo, 1, 1, 'Excel Files\\Scenario 13', 'S13_TestCases_Data.xlsx', 'TC35')
+CustomKeywords.'copyToExcel.exel4'(RequestNo, 14, 2, 'Excel Files/Scenario 13/TC035/13.0 - TC35 - Contract Parts Info.xlsx', 
+    sheetName)
 
-CustomKeywords.'copyToExcel.exel'(contractNo, 12, 7, 'Excel Files\\Scenario 13\\TC035', '13.0 - TC35 - Contract Parts Info.xlsx', 
+CustomKeywords.'copyToExcel.exel4'(RequestNo, 1, 1, 'Excel Files/Scenario 13/TC035/13.0 - TC35 - Contract Parts Info.xlsx', 
+    sheetName)
+
+CustomKeywords.'copyToExcel.exel4'(contractNo, 12, 7, 'Excel Files/Scenario 13/TC035/13.0 - TC35 - Contract Parts Info.xlsx', 
     'Request Contract Detail')
 
-CustomKeywords.'copyToExcel.exel'(contractNo, 13, 7, 'Excel Files\\Scenario 13\\TC035', '13.0 - TC35 - Contract Parts Info.xlsx', 
+CustomKeywords.'copyToExcel.exel4'(contractNo, 13, 7, 'Excel Files/Scenario 13/TC035/13.0 - TC35 - Contract Parts Info.xlsx', 
     'Request Contract Detail')
 
-CustomKeywords.'copyToExcel.exel'(contractNo, 14, 7, 'Excel Files\\Scenario 13\\TC035', '13.0 - TC35 - Contract Parts Info.xlsx', 
+CustomKeywords.'copyToExcel.exel4'(contractNo, 14, 7, 'Excel Files/Scenario 13/TC035/13.0 - TC35 - Contract Parts Info.xlsx', 
     'Request Contract Detail')
 
 WebUI.click(findTestObject('Scenario 13/S13_TC035/Page_Brivge/button_Upload'))
 
 AbsolutePath = CustomKeywords.'ManageFiles.getFileAbsolutePath'('Excel Files/Scenario 13/TC035/13.0 - TC35 - Contract Parts Info.xlsx')
+
+println(AbsolutePath)
 
 'Upload the file that has been edited.'
 CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 13/S13_TC035/Page_Brivge/li_Upload Master'), AbsolutePath)
