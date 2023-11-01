@@ -29,12 +29,6 @@
       <value></value>
       <variableId>1ce311cf-2e90-4cec-8fc9-4a2e15d7557d</variableId>
    </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>42777be8-37bb-4bcb-a341-c32f1a87af33</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>'Regular'</defaultValue>
       <description></description>
@@ -43,31 +37,24 @@
       <name>OrderType_Regular</name>
    </variable>
    <variable>
-      <defaultValue>'PKTTAP-PKCUS BU1-CUS 001'</defaultValue>
+      <defaultValue>findTestData('Scenario 1/S1_TC002-BU1 to Customer Contract').getValue('ContractNo', 1)</defaultValue>
       <description></description>
       <id>56f5e710-4e3e-40de-a7db-f5098347c4fb</id>
       <masked>false</masked>
       <name>ContractNo</name>
    </variable>
    <variable>
-      <defaultValue>'cBS2BS1-2310001'</defaultValue>
+      <defaultValue>findTestData('Scenario 1/S1_TC015-AutoGen CO number').getValue('CO_number', 1)</defaultValue>
       <description></description>
       <id>1e3f7796-a2fc-4539-815e-0e819309c241</id>
       <masked>false</masked>
       <name>RegularCustomerOrderNo</name>
    </variable>
    <variable>
-      <defaultValue>'Excel Files/Scenario 1/Expected Data/TC16/expectedCustomerOrder.xlsx'</defaultValue>
+      <defaultValue>'Excel Files/Scenario 1/Expected Data/TC16/Expected Customer Order.xlsx'</defaultValue>
       <description></description>
       <id>1ce311cf-2e90-4cec-8fc9-4a2e15d7557d</id>
       <masked>false</masked>
-      <name>expectationExcelPath</name>
-   </variable>
-   <variable>
-      <defaultValue>0</defaultValue>
-      <description></description>
-      <id>42777be8-37bb-4bcb-a341-c32f1a87af33</id>
-      <masked>false</masked>
-      <name>NumberOfNoMatch</name>
+      <name>expectedCustomerOrder</name>
    </variable>
 </TestCaseEntity>

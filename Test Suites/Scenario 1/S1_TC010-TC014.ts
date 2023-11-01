@@ -137,7 +137,7 @@
       <guid>28e175e4-590f-4639-88b0-549018b3c98f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario 1/S1_TC012-Sup1 Set Cargo Status for Supplier - Copy</testCaseId>
+      <testCaseId>Test Cases/Scenario 1/S1_TC012-Sup1 Set Cargo Status for Supplier</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -62,14 +62,14 @@
       <name>company</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('Scenario 1/S1_TC021').getValue('ContractNo', 1)</defaultValue>
+      <defaultValue>findTestData('Scenario 1/S1_TC002-BU1 to Customer Contract').getValue('ContractNo', 1)</defaultValue>
       <description></description>
       <id>fe8dbd0f-d426-4111-bc01-6bd7aa55cec1</id>
       <masked>false</masked>
       <name>contractNo</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('BU1_SO', 1)</defaultValue>
       <description></description>
       <id>92361e99-2979-4eb3-8c5b-9a30fed594f6</id>
       <masked>false</masked>

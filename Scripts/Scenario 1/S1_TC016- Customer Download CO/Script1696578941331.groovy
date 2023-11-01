@@ -41,15 +41,10 @@ WebUI.click(findTestObject('Page_CO_MonitoringList/li_Download by Excel'))
 
 WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_DwnloadCustOrderbyExcel_Success'), 0)
 
-LatestPath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
+downloadedFile = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
-absoluteExpectPath = CustomKeywords.'ManageFiles.getFileAbsolutePath'(expectationExcelPath)
-
-nomatch = CustomKeywords.'util.compareTestData.compareExcelFiles'(LatestPath, absoluteExpectPath, 24, 28, 2, 20)
-
-println('Number of error: ' + nomatch)
-
-WebUI.verifyEqual(nomatch, NumberOfNoMatch, FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'verifyExcelData.verifyDynamicSort'(expectedCustomerOrder, downloadedFile, 1, [23, 24, 25, 26, 27, 28], [
+        1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
 
 WebUI.takeFullPageScreenshot()
 

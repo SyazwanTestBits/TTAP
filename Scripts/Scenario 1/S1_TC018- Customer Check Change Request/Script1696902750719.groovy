@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.BAF_USERNAME_FATIN
         , ('password') : GlobalVariable.BAF_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.S17_BAF_CUS], 
@@ -38,33 +38,23 @@ WebUI.click(findTestObject('Scenario 12/SC12_TC019/p_detailButton', [('requestNo
 
 WebUI.click(findTestObject('Scenario 12/SC12_TC026/p_Parts No sort'))
 
-int numberrowtd = findTestData('Scenario 1/S1_TC018- Change Request').getRowNumbers()
+int numberrowtd = findTestData('Scenario 1/S1_TC018-Customer Check Change Request').getRowNumbers()
 
 for (int rowl = 1; rowl <= numberrowtd; rowl++) {
     int coll = 1
 
     for (String col : columnname) {
-        String valuecol = findTestData('Scenario 1/S1_TC018- Change Request').getValue(col, rowl)
+        String valuecol = findTestData('Scenario 1/S1_TC018-Customer Check Change Request').getValue(col, rowl)
+
+        String actualValue = WebUI.getText(findTestObject('Scenario 12/SC12_TC027/p_partsDetail', [('lrow') : rowl, ('lcol') : coll]))
+
+        KeywordUtil.logInfo("Actual: $actualValue and Expected: $valuecol")
 
         WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC027/p_partsDetail', [('lrow') : rowl, ('lcol') : coll]), 
             valuecol)
 
-        String actualValue = WebUI.getText(findTestObject('Scenario 12/SC12_TC027/p_partsDetail', [('lrow') : rowl, ('lcol') : coll]))
-
-        //println("Row: $rowl, Column: $coll")
-        //println("Expected Value: $valuecol")
-        //println("Actual Value: $actualValue")
-        println("$actualValue same as expected -->  $valuecol")
-		
-		//Log actual and expected results
-		KeywordUtil.logInfo("Actual: $actualValue and Expected: $valuecol")
-		
-		
         coll = (coll + 1)
     }
-    
-    not_run: WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC027/p_partsDetail', [('lrow') : rowl, ('lcol') : coll]), 
-        valuecol)
 }
 
 //

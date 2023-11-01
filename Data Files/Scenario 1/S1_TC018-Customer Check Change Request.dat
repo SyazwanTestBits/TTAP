@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>S1_TC018- Change Request</name>
+   <name>S1_TC018-Customer Check Change Request</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
@@ -12,6 +12,6 @@
    <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>TC18- Check Change Request</sheetName>
+   <sheetName>TC18-Customer Change</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

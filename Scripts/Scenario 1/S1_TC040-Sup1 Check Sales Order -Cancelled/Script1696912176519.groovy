@@ -60,5 +60,5 @@ WebUI.verifyElementAttributeValue(findTestObject('Scenario 1/S1_TC039_TC040/Page
 
 KeywordUtil.logInfo("Verified Receiver: $GlobalVariable.S1_BAF_DC3")
 
-not_run: WebUI.closeBrowser()
+WebUI.closeBrowser()
 

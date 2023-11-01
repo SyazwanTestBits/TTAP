@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>S1_TC012-Sup1 Set Cargo Status for Supplier - Copy</name>
+   <name>S1_TC012-Sup1 Set Cargo Status for Supplier</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>cf042749-6704-4c7b-9949-644a005e7c70</testCaseGuid>

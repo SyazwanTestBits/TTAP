@@ -46,7 +46,7 @@ WebUI.click(findTestObject('Scenario 10/S10_TC028/input_Usage History_usageEndDa
 
 WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/div_Production plan-yearMonth-year', [('year') : '2023']))
 
-WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/div_Production plan-yearMonth-month', [('month') : 'Nov']))
+WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/div_Production plan-yearMonth-month', [('month') : 'Dec']))
 
 WebUI.click(findTestObject('Scenario 10/S10_TC028/span_Apply Date'))
 

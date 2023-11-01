@@ -5,7 +5,7 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>680038f5-c08f-4935-949f-f947dbf49433</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC042-BU Execute Recalculation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -33,7 +33,7 @@
    <testCaseLink>
       <guid>eb1d40eb-5539-47ca-a760-71cee9244fac</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC043-Upload WIP adjustment L3</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -88,7 +88,7 @@
    <testCaseLink>
       <guid>a3ee8708-4a10-45d3-94d2-268e5afea0a1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC044-Run Calculation Batch</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -101,7 +101,7 @@
    <testCaseLink>
       <guid>7085421b-9ade-4d3b-bfbb-9ccf927581a0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC045-Check Daily Stock Simulation (BU)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -150,7 +150,7 @@
    <testCaseLink>
       <guid>0b6af1bf-aa8c-484c-984b-52cec12935f9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC046-BU Check Weekly Stock Simulation-actual only after after upload WIP usage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -205,7 +205,7 @@
    <testCaseLink>
       <guid>7dca7095-f344-4c98-ae1f-70e23cce3741</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 10/S10_TC047-BU Execute Recalculation after TC44</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>

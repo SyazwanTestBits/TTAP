@@ -15,314 +15,353 @@
       <testDataId>Data Files/Scenario 13/S13_TC033-Create shipping route new</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>ShippingRouteCode</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3035ac10-beab-4741-b510-f10c8abccb4b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>611431d6-39d9-49e8-8e20-e665d0b699f8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>adc94834-eb7c-4638-935a-4e962a27d6a3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>aab43dd1-dd72-4bf5-8ec9-3adfb21b5098</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>DisplayShippingRoute</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>f0f29332-3896-4798-bd64-597579d3926a</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>ActiveFlag</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>89ffcca3-854d-4d5f-8b4e-21b1b8e3424d</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>ShippingMode</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>d0c796a7-d52a-4edb-9780-8b267976e62a</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>FromRegion</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>ee6f38ec-9fbb-4917-84c2-f8ea0cb4697a</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>ToRegion</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>0196e796-f2bd-4445-beea-90d2a8a366ba</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>FromState</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>2cedd114-f112-443f-8377-d4920ffcd6d8</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>ToState</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>a76ff4cd-10f2-4847-b280-891843d3f6e2</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>ShipperUid</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>bd91046a-8ee6-4ead-b429-5dd5a3ab42fc</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>ReceiverUid</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>d6f8f97b-cbc9-47ac-9d60-b4285eb9020a</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>FromPortId</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>f1895678-a1b2-4d6e-945c-187e2f37290b</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>ToPortId</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>f1f474c0-ab52-42d0-a744-457fcc1a8b46</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>OriginLeadTime</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>6a9b2549-512e-4df8-9836-b08fe4d4fd65</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>DestinationLeadTime</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>bf41d9a3-d22d-4c11-84e6-d407a21db00f</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>ETDWeekDay (click here to set ETD days)</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>85de0f05-70c8-4973-82d8-6e270ceb5648</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>TransportDays</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>2a813d04-30ba-4b90-81e0-a1841e38edaf</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>CloseDays</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>d8218195-79d7-41ba-95d8-4b3e20b749f7</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>DayFirstETD</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>5b4155dd-88ab-4f99-a57b-1a68e3ad91a8</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>MonthFirstETD</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>98e5638c-8077-4836-b2f8-5669c65cda94</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>YearFirstETD</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>3fe66349-9969-4fc1-90d9-ea318f0bce3f</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>DayLastETD</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>7b7c0453-6992-46f1-b8f3-4f8c00ecd2a0</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>MonthLastETD</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>3ce2f669-25a7-467f-a1cd-9bd4096da716</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>YearLastETD</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>ac41650c-f30d-43a3-8f3d-762e4965d95e</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4a872f1f-8ace-4856-aeb2-6f119a8a0783</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>Shipping Frequency Weeks (Click here to add week)</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>6c0ebd28-fa21-46ca-88e6-e483fb8b28a2</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>GlobalVariable.ADMIN_USERNAME</defaultValue>
       <description></description>
-      <id>aab43dd1-dd72-4bf5-8ec9-3adfb21b5098</id>
+      <id>3035ac10-beab-4741-b510-f10c8abccb4b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.ADMIN_PWD</defaultValue>
+      <description></description>
+      <id>611431d6-39d9-49e8-8e20-e665d0b699f8</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.COMPANY_SUPPLIER_1</defaultValue>
+      <description></description>
+      <id>adc94834-eb7c-4638-935a-4e962a27d6a3</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('ShippingRouteCode', 1)</defaultValue>
+      <description></description>
+      <id>5a132840-1850-444f-a2d1-675394250895</id>
       <masked>false</masked>
       <name>ShippingRouteCode</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('DisplayShippingRoute', 1)</defaultValue>
       <description></description>
-      <id>f0f29332-3896-4798-bd64-597579d3926a</id>
+      <id>1527c53f-a420-4a4e-bc4e-b77912a67d23</id>
       <masked>false</masked>
       <name>DisplayShippingRoute</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('ActiveFlag', 1)</defaultValue>
       <description></description>
-      <id>89ffcca3-854d-4d5f-8b4e-21b1b8e3424d</id>
+      <id>e9eb793f-d23f-4705-b3d5-9e856920c5b4</id>
       <masked>false</masked>
       <name>ActiveFlag</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('ShippingMode', 1)</defaultValue>
       <description></description>
-      <id>d0c796a7-d52a-4edb-9780-8b267976e62a</id>
+      <id>5ab0f53b-2aba-4a28-a8ab-c99f66d0098d</id>
       <masked>false</masked>
       <name>ShippingMode</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('FromRegion', 1)</defaultValue>
       <description></description>
-      <id>ee6f38ec-9fbb-4917-84c2-f8ea0cb4697a</id>
+      <id>83109784-9889-4adc-aee1-622765bf4cde</id>
       <masked>false</masked>
       <name>FromRegion</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('ToRegion', 1)</defaultValue>
       <description></description>
-      <id>0196e796-f2bd-4445-beea-90d2a8a366ba</id>
+      <id>97d76201-cac0-4539-8737-909f92cd818b</id>
       <masked>false</masked>
       <name>ToRegion</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('FromState', 1)</defaultValue>
       <description></description>
-      <id>2cedd114-f112-443f-8377-d4920ffcd6d8</id>
+      <id>3dac74c6-457f-4bf4-9cd4-1a67a7d92b1d</id>
       <masked>false</masked>
       <name>FromState</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('ToState', 1)</defaultValue>
       <description></description>
-      <id>a76ff4cd-10f2-4847-b280-891843d3f6e2</id>
+      <id>a17979d4-ede5-44c2-a0e2-00ebe166007f</id>
       <masked>false</masked>
       <name>ToState</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('ShipperUid', 1)</defaultValue>
       <description></description>
-      <id>bd91046a-8ee6-4ead-b429-5dd5a3ab42fc</id>
+      <id>ec1087c9-8058-4914-a127-4fbb8c825ea7</id>
       <masked>false</masked>
       <name>ShipperUid</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('ReceiverUid', 1)</defaultValue>
       <description></description>
-      <id>d6f8f97b-cbc9-47ac-9d60-b4285eb9020a</id>
+      <id>1558461f-23e0-4fac-a773-02f9381b00d9</id>
       <masked>false</masked>
       <name>ReceiverUid</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('FromPortId', 1)</defaultValue>
       <description></description>
-      <id>f1895678-a1b2-4d6e-945c-187e2f37290b</id>
+      <id>d5303813-e5b4-480e-8596-952b127c132d</id>
       <masked>false</masked>
       <name>FromPortId</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('ToPortId', 1)</defaultValue>
       <description></description>
-      <id>f1f474c0-ab52-42d0-a744-457fcc1a8b46</id>
+      <id>c45abe61-54fc-4556-9274-655531786239</id>
       <masked>false</masked>
       <name>ToPortId</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('OriginLeadTime', 1)</defaultValue>
       <description></description>
-      <id>6a9b2549-512e-4df8-9836-b08fe4d4fd65</id>
+      <id>05442673-e6a9-4c1d-9e40-fb37de0ccc73</id>
       <masked>false</masked>
       <name>OriginLeadTime</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('DestinationLeadTime', 1)</defaultValue>
       <description></description>
-      <id>bf41d9a3-d22d-4c11-84e6-d407a21db00f</id>
+      <id>5dd7d999-3516-4dcc-8863-eae954f17a4e</id>
       <masked>false</masked>
       <name>DestinationLeadTime</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('ETDWeekDay (click here to set ETD days)', 1)</defaultValue>
       <description></description>
-      <id>85de0f05-70c8-4973-82d8-6e270ceb5648</id>
+      <id>8b864d1b-1b23-4185-905f-502e439155dc</id>
       <masked>false</masked>
       <name>EtdWeekDay</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('TransportDays', 1)</defaultValue>
       <description></description>
-      <id>2a813d04-30ba-4b90-81e0-a1841e38edaf</id>
+      <id>16c7ff9e-eaf3-4b8c-9c65-91fef17d4171</id>
       <masked>false</masked>
       <name>TransportDays</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('CloseDays', 1)</defaultValue>
       <description></description>
-      <id>d8218195-79d7-41ba-95d8-4b3e20b749f7</id>
+      <id>8a32a20f-74a3-46ea-853f-4c5be0fd7be4</id>
       <masked>false</masked>
       <name>CloseDays</name>
    </variable>
    <variable>
-      <defaultValue>19</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('DayFirstETD', 1)</defaultValue>
       <description></description>
-      <id>5b4155dd-88ab-4f99-a57b-1a68e3ad91a8</id>
+      <id>916803b1-6103-4c1c-8f7c-16c1b343540f</id>
       <masked>false</masked>
       <name>DayFirstETD</name>
    </variable>
    <variable>
-      <defaultValue>6</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('MonthFirstETD', 1)</defaultValue>
       <description></description>
-      <id>98e5638c-8077-4836-b2f8-5669c65cda94</id>
+      <id>1d352fb5-e3a2-4c7e-b7f4-8407c8350420</id>
       <masked>false</masked>
       <name>MonthFirstETD</name>
    </variable>
    <variable>
-      <defaultValue>2022</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('YearFirstETD', 1)</defaultValue>
       <description></description>
-      <id>3fe66349-9969-4fc1-90d9-ea318f0bce3f</id>
+      <id>32fc96f9-882b-40df-9de9-25ac1b9c248e</id>
       <masked>false</masked>
       <name>YearFirstETD</name>
    </variable>
    <variable>
-      <defaultValue>23</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('DayLastETD', 1)</defaultValue>
       <description></description>
-      <id>7b7c0453-6992-46f1-b8f3-4f8c00ecd2a0</id>
+      <id>384df7a4-15f3-4935-92d7-61c919da0c1f</id>
       <masked>false</masked>
       <name>DayLastETD</name>
    </variable>
    <variable>
-      <defaultValue>12</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('MonthLastETD', 1)</defaultValue>
       <description></description>
-      <id>3ce2f669-25a7-467f-a1cd-9bd4096da716</id>
+      <id>b12eb257-db8f-4010-aacc-99fa68df6dd9</id>
       <masked>false</masked>
       <name>MonthLastETD</name>
    </variable>
    <variable>
-      <defaultValue>2024</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('YearLastETD', 1)</defaultValue>
       <description></description>
-      <id>ac41650c-f30d-43a3-8f3d-762e4965d95e</id>
+      <id>4cf8078d-3111-4cbb-99b2-e4cfa68677ff</id>
       <masked>false</masked>
       <name>YearLastETD</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC033-Create shipping route new').getValue('Shipping Frequency Weeks (Click here to add week)', 1)</defaultValue>
       <description></description>
-      <id>6c0ebd28-fa21-46ca-88e6-e483fb8b28a2</id>
+      <id>2154385e-e1da-4a67-ab96-5d24a03c4657</id>
       <masked>false</masked>
       <name>ShippingFrequency</name>
    </variable>
