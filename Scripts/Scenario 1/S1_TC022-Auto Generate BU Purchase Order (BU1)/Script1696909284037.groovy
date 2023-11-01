@@ -39,11 +39,11 @@ WebUI.verifyElementPresent(findTestObject('Scenario 10/S10_TC049/p_The operation
 
 WebUI.click(findTestObject('Scenario 10/S10_TC049/button_Detail'))
 
-contractNo = WebUI.getAttribute(findTestObject('Scenario 01/S01_TC022/input_Basic Info_contractNo'), 'value')
+not_run: contractNo = WebUI.getAttribute(findTestObject('Scenario 01/S01_TC022/input_Basic Info_contractNo'), 'value')
 
-println(contractNo)
+not_run: println(contractNo)
 
-CustomKeywords.'copyToExcel.exel'(contractNo, 1, 2, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 'TC022')
+not_run: CustomKeywords.'copyToExcel.exel'(contractNo, 1, 2, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 'TC022')
 
 WebUI.verifyElementAttributeValue(findTestObject('Scenario 10/S10_TC049/input_Basic Info_orderType'), 'Value', orderType, 
     3)

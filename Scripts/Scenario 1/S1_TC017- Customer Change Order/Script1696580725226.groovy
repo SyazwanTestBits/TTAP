@@ -27,10 +27,10 @@ WebUI.click(findTestObject('Navbar_Brivge/OrderMenu_Brivge/li_Place ChangeCancel
 
 WebUI.waitForElementPresent(findTestObject('Page_OrderChangeCancel/h3_Order ChangeCancel'), 0)
 
-not_run: WebUI.verifyElementPresent(findTestObject('Page_OrderChangeCancel/div_Dt_ContractNo_Create', [('SOid') : contractNo]), 
+not_run: WebUI.verifyElementPresent(findTestObject('Page_OrderChangeCancel/div_Dt_ContractNo_Create', [('contractNo') : contractNo]), 
     0)
 
-WebUI.click(findTestObject('Page_OrderChangeCancel/div_Dt_ContractNo_Create', [('SOid') : contractNo]), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_OrderChangeCancel/div_Dt_ContractNo_Create', [('contractNo') : customerOrderNo]), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/h3_Create Order Change'), 0)
 

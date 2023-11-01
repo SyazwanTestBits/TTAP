@@ -36,20 +36,6 @@ KeywordUtil.logInfo('Verified Order Frequency: Weekly')
 CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Scenario 1/S1_TC034/p_Copyright  2021 BriVge. All rights reserved'), 
     0)
 
-not_run: formattedDate1 = CustomKeywords.'DateFormatter.formatDate'(planOut_date1)
-
-not_run: formattedDate2 = CustomKeywords.'DateFormatter.formatDate'(planOut_date2)
-
-not_run: WebUI.verifyElementText(findTestObject('Scenario 1/S1_TC043/Page_PO Monitoring Detail - Brivge/p_inbound plan date 1'), 
-    formattedDate1)
-
-not_run: KeywordUtil.logInfo("Plan Outbound Date 1 is verified: $formattedDate1")
-
-not_run: WebUI.verifyElementText(findTestObject('Scenario 1/S1_TC043/Page_PO Monitoring Detail - Brivge/p_inbound plan date 2'), 
-    formattedDate2)
-
-not_run: KeywordUtil.logInfo("Plan Outbound Date 2 is verified: $formattedDate2")
-
 CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 10/S10_TC178/p_Parts No'), 0)
 
 for (int rowl = 1; rowl <= 3; rowl++) {
@@ -69,5 +55,6 @@ for (int rowl = 1; rowl <= 3; rowl++) {
     }
 }
 
-WebUI.click(findTestObject('Scenario 12/SC12_TC043/Page_PO Monitoring Detail - Brivge/p_PO Monitoring List'))
+CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 12/SC12_TC043/Page_PO Monitoring Detail - Brivge/p_PO Monitoring List'), 
+    0)
 
