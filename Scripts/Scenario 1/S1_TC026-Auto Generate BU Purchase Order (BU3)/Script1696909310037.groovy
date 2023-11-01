@@ -36,5 +36,12 @@ WebUI.click(findTestObject('Scenario 10/S10_TC049/li_Download by Excel'))
 
 WebUI.verifyElementPresent(findTestObject('Scenario 10/S10_TC049/p_The operation was successful'), 0)
 
+WebUI.click(findTestObject('Scenario 10/S10_TC049/button_Detail'))
+
+orderNo = WebUI.getAttribute(findTestObject('Scenario 1/S1_TC022/Page_PO Monitoring Detail - Brivge/input_Basic Info_orderNo'), 
+    'value')
+
+CustomKeywords.'copyToExcel.exel'(orderNo, 1, 5, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 'TC20-Autogen SOPO')
+
 WebUI.closeBrowser()
 

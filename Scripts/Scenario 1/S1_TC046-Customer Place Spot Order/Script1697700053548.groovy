@@ -70,7 +70,7 @@ CustomKeywords.'copyToExcel.exel3'(inboundQty3, 22, 19, latestFilePath, custCont
 
 CustomKeywords.'copyToExcel.exel3'(inboundQty4, 22, 20, latestFilePath, custContractNo)
 
-not_run: CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 1/S1_TC046/Page_Place Order Detail(Spot) - Brivge/button_Upload'), 
+CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 1/S1_TC046/Page_Place Order Detail(Spot) - Brivge/button_Upload'), 
     latestFilePath)
 
 WebUI.takeFullPageScreenshot()
