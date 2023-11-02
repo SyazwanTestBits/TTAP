@@ -9,9 +9,9 @@
    <dataFileGUID>bdf81ee6-5345-4909-a6a5-237bd0a965cb</dataFileGUID>
    <dataSourceUrl>Excel Files/Scenario 1/S1_TestCases_Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName></sheetName>
+   <sheetName>TC142-Sup2 Outbound Details</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

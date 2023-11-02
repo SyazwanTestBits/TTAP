@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC141-Supplier2 Revise and Confirm Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1ac9d4bf-736a-4b2a-a7b3-32088ff07ecb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c862329b-5ad5-46e3-993e-1b066ecb32a7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f577d9ad-b354-4fbd-8b44-c22068663025</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b3ce0d28-54d6-41de-ab97-4614a311ed82</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>34237aec-2d8e-40b9-95ec-edde7307a58a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a89a61bb-cb8c-4d9e-937b-6a9a120047ab</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e63aea34-e317-4109-9e04-686c0452058e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('SUP2_SO', 1)</defaultValue>
+      <description></description>
+      <id>c862329b-5ad5-46e3-993e-1b066ecb32a7</id>
+      <masked>false</masked>
+      <name>orderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>[('newInboundQty1') : 20, ('newInboundQty2') : 22]</defaultValue>
+      <description></description>
+      <id>f577d9ad-b354-4fbd-8b44-c22068663025</id>
+      <masked>false</masked>
+      <name>filecolumns_dr</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC141-Supplier2 SO Delivery Plan')</defaultValue>
+      <description></description>
+      <id>b3ce0d28-54d6-41de-ab97-4614a311ed82</id>
+      <masked>false</masked>
+      <name>datafile_dr</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Price') : 11, ('Currency') : 12]</defaultValue>
+      <description></description>
+      <id>34237aec-2d8e-40b9-95ec-edde7307a58a</id>
+      <masked>false</masked>
+      <name>filecolumns_price</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC141-Supplier2 SO Price')</defaultValue>
+      <description></description>
+      <id>a89a61bb-cb8c-4d9e-937b-6a9a120047ab</id>
+      <masked>false</masked>
+      <name>datafile_price</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC141-Supplier2 SO Date')</defaultValue>
+      <description></description>
+      <id>e63aea34-e317-4109-9e04-686c0452058e</id>
+      <masked>false</masked>
+      <name>datafile_date</name>
+   </variable>
+</TestCaseEntity>

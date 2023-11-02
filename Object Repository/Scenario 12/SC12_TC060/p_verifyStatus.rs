@@ -6,12 +6,12 @@
    <elementGuidId>89138c9a-5f19-4af6-b1cb-1b50c3c7cd1e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[2]/div/p</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>p.lcbm-MuiTypography-root.lcbm-lcbm711.lcbm-MuiTypography-body2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[(text() = '${invoiceNo}' or . = '${invoiceNo}')]//following::td[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>14d2d52f-746b-44c7-a9be-93656975c65e</webElementGuid>
+      <webElementGuid>3708e1f2-a95a-4741-86f7-d77fe6c2ac0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiTypography-root lcbm-lcbm711 lcbm-MuiTypography-body2</value>
-      <webElementGuid>d1600903-b1a2-41d0-aeb6-91a41af5d6e7</webElementGuid>
+      <webElementGuid>f916d2c6-5965-4759-a848-cdc9532e3391</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>BAFCO2308010</value>
-      <webElementGuid>af4c0694-5a65-4f37-9cf5-473f1b5df680</webElementGuid>
+      <webElementGuid>2a77cf59-ca36-40e6-9c12-b114d13e3681</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-scrollbar-vertical-hidden lcbm-lcbm1 os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2 lcbm-lcbm3&quot;]/div[@class=&quot;lcbm-lcbm7 lcbm-lcbm8&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm9 lcbm-lcbm10 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-lcbm12&quot;]/div[@class=&quot;lcbm-lcbm675&quot;]/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled lcbm-lcbm4 os-host-scrollbar-vertical-hidden os-host-overflow os-host-overflow-x os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[1]/table[@class=&quot;lcbm-MuiTable-root&quot;]/tbody[@class=&quot;lcbm-MuiTableBody-root&quot;]/tr[@class=&quot;lcbm-MuiTableRow-root lcbm-lcbm705&quot;]/td[@class=&quot;lcbm-MuiTableCell-root lcbm-MuiTableCell-body lcbm-lcbm708&quot;]/div[@class=&quot;lcbm-lcbm709&quot;]/p[@class=&quot;lcbm-MuiTypography-root lcbm-lcbm711 lcbm-MuiTypography-body2&quot;]</value>
-      <webElementGuid>d8bbed40-4ab6-4bdb-ae6e-8177e3feae73</webElementGuid>
+      <webElementGuid>f1b1a758-32b7-4dbe-a707-1109604e17c1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[2]/div/p</value>
-      <webElementGuid>a62431eb-23c0-482e-940e-9f9168a3f045</webElementGuid>
+      <webElementGuid>afc27532-c25f-40ab-b456-4733a763b99e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='AND'])[1]/following::p[8]</value>
-      <webElementGuid>7d2d26df-15a2-42f5-a88a-f41ba5b1a7e7</webElementGuid>
+      <webElementGuid>ea8262e3-49f4-4c40-994d-99feee6df2ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Buyer(GR) Invoice List'])[1]/following::p[10]</value>
-      <webElementGuid>e3959aa3-ff01-42af-bcd4-db0f120a31fa</webElementGuid>
+      <webElementGuid>422ca516-af39-41ab-ba74-6e7e599f57ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/preceding::p[31]</value>
-      <webElementGuid>a29936bd-9e77-4afd-8f60-3574a15d55d5</webElementGuid>
+      <webElementGuid>fccb0305-4574-47c9-a30c-3a6ed32e126e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Logistics'])[1]/preceding::p[31]</value>
-      <webElementGuid>b064a26c-7da2-4290-b332-1cd151289d9f</webElementGuid>
+      <webElementGuid>e4cecaae-d0bb-4165-a87e-96e440943fbf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='BAFCO2308010']/parent::*</value>
-      <webElementGuid>2af5bbb4-4002-49bf-8d2a-7453390bca25</webElementGuid>
+      <webElementGuid>79dc9f5a-6a05-40e8-b9b9-2a0f80d1a4ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/div/p</value>
-      <webElementGuid>6ce80ebe-06ad-4ef5-8a9a-ed02bc3535c1</webElementGuid>
+      <webElementGuid>0a7dae47-dcb7-4878-9453-a79e092a8a34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'BAFCO2308010' or . = 'BAFCO2308010')]</value>
-      <webElementGuid>fe189888-e1fd-4ec2-8ca9-4f1c65f1db58</webElementGuid>
+      <webElementGuid>13fbfd63-a96c-4cdd-b61a-ac930e09cdbf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
