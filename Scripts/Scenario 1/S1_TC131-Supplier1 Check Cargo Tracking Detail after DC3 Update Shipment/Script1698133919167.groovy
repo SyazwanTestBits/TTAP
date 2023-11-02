@@ -271,7 +271,8 @@ for (int row = 1; row <= 3; row++) {
     KeywordUtil.logInfo("VERIFIED TRACKING TYPE: $trackType")
 
     if (trackType == 'REAL-TIME') {
-        WebUI.scrollToElement(findTestObject('Page_Cargo Tracking Detail - Brivge/button_BookingNumber_First'), 0)
+		CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Object Repository/Page_Cargo Tracking Detail - Brivge/Page_Cargo Tracking Detail - Brivge/div_2'),
+			0)
 
         WebUI.click(findTestObject('Scenario 13/S13_TC064,065/div_trackingType v1_1', [('maintitle') : mainforpath2, ('tracktype') : trackType]))
 
