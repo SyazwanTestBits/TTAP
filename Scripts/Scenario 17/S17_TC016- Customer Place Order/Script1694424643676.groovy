@@ -36,18 +36,6 @@ WebUI.click(findTestObject('Scenario 17/S17_TC002/input__orderFrequency'))
 
 WebUI.click(findTestObject('Scenario 17/S17_TC002/li_orderFrequency', [('orderFrequency') : orderFrequency]))
 
-Locale englishLocale = new Locale('en', 'US')
-
-def dateFormat = new SimpleDateFormat('MMM d, yyyy', englishLocale)
-
-def currentDate = new Date()
-
-String formattedDate = dateFormat.format(currentDate)
-
-weeklyPeriod = CustomKeywords.'util.WeeklyPeriod.getWeeklyDateRange'(formattedDate)
-
-println(weeklyPeriod)
-
 WebUI.click(findTestObject('Scenario 17/S17_TC016/Page_Place Regular Order - Brivge/Page_Place Regular Order - Brivge (1)/input_orderPeriodIndex'))
 
 WebUI.click(findTestObject('Scenario 17/S17_TC016/Page_Place Regular Order - Brivge/Page_Place Regular Order - Brivge/li_orderPeriodIndex', 
@@ -79,17 +67,20 @@ WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 17/S17_Cmn1-Write Info
         , ('fileColumns') : mapKeyandColIndex, ('mapDataIndices') : partsNoRowIndices, ('downloadedFormPath') : downloadedExcel
         , ('downloadedFormSheetname') : downloadedFormSheetName], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 17/S17_Cmn1-Write Info into Form Excel'), [('datafile') : testdataInboundDateChange
+not_run: WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 17/S17_Cmn1-Write Info into Form Excel'), [('datafile') : testdataInboundDateChange
         , ('fileColumns') : fileColumns, ('startRowFormMinusOne') : startRowFormMinusOne, ('downloadedFormPath') : downloadedExcel
         , ('downloadedFormSheetname') : downloadedFormSheetName], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
-
-WebUI.uploadFile(findTestObject('Page_RegularOrder/Page_PlaceOrderDetail_Reg/input_UploadFile'), downloadedExcel)
+CustomKeywords.'ExcelActions.writeIntoExcelOrderChangeRegularInboundDateSC12'(datafile, downloadedExcel, downloadedFormSheetName)
 
 WebUI.delay(2)
 
-WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_UploadRegOrderFormCust_Success'), 0)
+not_run: WebUI.uploadFile(findTestObject('Page_RegularOrder/Page_PlaceOrderDetail_Reg/input_UploadFile'), downloadedExcel)
+
+not_run: WebUI.delay(2)
+
+not_run: WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_UploadRegOrderFormCust_Success'), 
+    0)
 
 WebUI.click(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/button_Issue'))
 

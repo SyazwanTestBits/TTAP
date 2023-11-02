@@ -46,13 +46,13 @@ WebUI.uploadFile(findTestObject('Page_RegularOrder/Page_PlaceOrderDetail_Reg/inp
 WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC011/div_Upload Spot Order Form For Customer.The operation was successful'), 
     0)
 
-not_run: WebUI.click(findTestObject('Page_RegularOrder/Page_PlaceOrderDetail_Reg/button_Issue'))
+WebUI.click(findTestObject('Page_RegularOrder/Page_PlaceOrderDetail_Reg/button_Issue'))
 
-not_run: WebUI.waitForElementPresent(findTestObject('NotificationMsg_Brivge/div_ConfirmMsg_AreYouSureToDo_Issue'), 0)
+WebUI.waitForElementPresent(findTestObject('NotificationMsg_Brivge/div_ConfirmMsg_AreYouSureToDo_Issue'), 0)
 
-not_run: WebUI.click(findTestObject('NotificationMsg_Brivge/button_NotiMsg_CONFIRM'))
+WebUI.click(findTestObject('NotificationMsg_Brivge/button_NotiMsg_CONFIRM'))
 
-not_run: WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_Issue_Success'), 0)
+WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_Issue_Success'), 0)
 
 WebUI.takeFullPageScreenshot()
 
