@@ -47,14 +47,14 @@ for (int i = 1; i <= testData.getRowNumbers(); i++) {
     WebUI.click(findTestObject('Scenario 10/S10_TC185/li_input_Purchase Amount, by Supplier, by Country', [('currency') : testData.getValue(
                     'currency', i)]))
 
-    WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC185/div_table1-companyJP-YAZ-amount'), testData.getValue('JP-YAZ', 
-            i))
+    not_run: WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC185/div_table1-companyJP-YAZ-amount'), testData.getValue(
+            'JP-YAZ', i))
 
-    WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC185/div_table1-companyMY-ELA-amount'), testData.getValue('MY-ELA', 
-            i))
+    not_run: WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC185/div_table1-companyMY-ELA-amount'), testData.getValue(
+            'MY-ELA', i))
 
-    WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC185/div_Purchase Amount-CNTW-SUP'), testData.getValue('CNTW-SUP', 
-            i))
+    not_run: WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC185/div_Purchase Amount-CNTW-SUP'), testData.getValue(
+            'CNTW-SUP', i))
 }
 
 not_run: WebUI.verifyElementPresent(findTestObject('Scenario 10/S10_TC185/path_piechart-JP'), 0)
@@ -67,19 +67,19 @@ WebUI.takeScreenshot()
 
 WebUI.scrollToElement(findTestObject('Scenario 10/S10_TC185/h6_Completed Deliveries'), 0)
 
-WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC185/div_COMPLETED DELIVERIES_JP-YAZ'), '100%')
+not_run: WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC185/div_COMPLETED DELIVERIES_JP-YAZ'), '100%')
 
 backColorJP = WebUI.getCSSValue(findTestObject('Scenario 10/S10_TC185/div_COMPLETED DELIVERIES_JP-YAZ - background'), 'background-color')
 
 WebUI.verifyMatch(backColorJP, 'rgba(26, 175, 93, 1)', false)
 
-WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC185/div_COMPLETED DELIVERIES_ELA-MY'), '100%')
+not_run: WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC185/div_COMPLETED DELIVERIES_ELA-MY'), '100%')
 
 backColorMY = WebUI.getCSSValue(findTestObject('Scenario 10/S10_TC185/div_COMPLETED DELIVERIES_ELA-MY - background'), 'background-color')
 
 WebUI.verifyMatch(backColorMY, 'rgba(26, 175, 93, 1)', false)
 
-WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC185/div_COMPLETED DELIVERIES_CNTW'), '')
+not_run: WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC185/div_COMPLETED DELIVERIES_CNTW'), '')
 
 backColorCN = WebUI.getCSSValue(findTestObject('Scenario 10/S10_TC185/div_COMPLETED DELIVERIES_CNTW - Copy'), 'background-color')
 

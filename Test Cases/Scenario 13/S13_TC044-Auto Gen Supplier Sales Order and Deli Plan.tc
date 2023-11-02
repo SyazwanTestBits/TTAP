@@ -36,14 +36,14 @@
       <variableId>1acd314e-c3d4-4668-9d5b-deaddd91296d</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>GlobalVariable.CUST_USERNAME_USERF</defaultValue>
+      <defaultValue>GlobalVariable.ADMIN_USERNAME</defaultValue>
       <description></description>
       <id>8c658820-7a73-4911-8318-71a3413fdd87</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.CUST_PWD_USERF</defaultValue>
+      <defaultValue>GlobalVariable.ADMIN_PWD</defaultValue>
       <description></description>
       <id>5beedde8-6c07-47b8-91f7-ed331ad01923</id>
       <masked>false</masked>

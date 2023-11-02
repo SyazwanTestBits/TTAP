@@ -15,7 +15,7 @@ public class clearTextJS {
 		WebElement element = WebUiCommonHelper.findWebElement(to,100)
 		WebUI.executeJavaScript("arguments[0].value=''", Arrays.asList(element))
 	}
-	
+
 	@Keyword
 	def static clearElementText2(TestObject to) {
 		WebUI.sendKeys(to, Keys.chord(Keys.CONTROL, 'a',Keys.DELETE))

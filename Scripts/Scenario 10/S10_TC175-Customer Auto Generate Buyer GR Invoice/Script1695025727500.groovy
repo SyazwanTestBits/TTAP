@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Navbar_Brivge/AccountingMenu_Brivge/li_Buyer(GR) Inv
 WebUI.waitForElementVisible(findTestObject('Page_Buyer(GR)InvoiceList/h3_Buyer(GR) Invoice List'), 0)
 
 for (String invoiceNo : invoiceNoList) {
-    WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC060/p_verifyStatus', [('invoiceNo') : invoiceNo]), 'Released')
+    WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC175/div_Dt_status', [('invoiceNo') : invoiceNo]), 'Released')
 }
 
 WebUI.closeBrowser()

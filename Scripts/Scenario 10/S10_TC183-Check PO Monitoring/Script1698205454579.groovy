@@ -42,7 +42,7 @@ for (int row = 1; row <= 2; row++) {
 
     WebUI.click(findTestObject('Scenario 10/S10_TC183/div_Inbound Record_POId', [('row') : row]))
 
-    WebUI.verifyElementAttributeValue(findTestObject('Scenario 10/S10_TC183/input_Basic Info_status'), 'value', 'Processing', 
+    WebUI.verifyElementAttributeValue(findTestObject('Scenario 10/S10_TC183/input_Basic Info_status (1)'), 'value', 'Processing', 
         0)
 
     WebUI.back()

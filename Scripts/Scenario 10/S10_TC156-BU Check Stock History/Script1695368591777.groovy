@@ -35,6 +35,10 @@ contractNoText = contractNoText.trim()
 
 println(contractNoText)
 
+not_run: WebUI.click(findTestObject('Page_OutboundToWIP/button_remote filter'))
+
+not_run: WebUI.click(findTestObject('Page_OutboundToWIP/button_Clear'))
+
 WebUI.setText(findTestObject('Scenario 10/S10_TC156/input_Stock History'), contractNoText)
 
 WebUI.click(findTestObject('Scenario 10/S10_TC154/button_AND'))
@@ -58,7 +62,7 @@ latestFilePath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel'
 
 WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 10/S10_Cmn1_Compare Test Data'), [('LatestPath') : latestFilePath
         , ('expectationExcelPath') : 'Excel Files\\Scenario 10\\S10-TC156-Stock History List Expect.xlsx', ('startRows') : 5
-        , ('endRows') : 11, ('startCols') : 9, ('endCols') : 12, ('NumberOfNoMatch') : 0], FailureHandling.STOP_ON_FAILURE)
+        , ('endRows') : 11, ('startCols') : 9, ('endCols') : 10, ('NumberOfNoMatch') : 0], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

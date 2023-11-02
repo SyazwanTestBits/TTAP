@@ -794,7 +794,7 @@
       <guid>c15c1f16-9dbc-488f-b945-3cd18f7abd94</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Scenario 13_extended/S13_TC015 - Admin Edit User detail to add BU</testCaseId>
+      <testCaseId>Test Cases/Testcases Store/S13_TC015 - Admin Edit User detail to add BU</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -26,30 +26,68 @@ WebUI.click(findTestObject('Navbar_Brivge/LogisticsMenu_Brivge/li_Shipping Detai
 
 WebUI.waitForElementPresent(findTestObject('Page_ShippingDetailList/h3_Shipping Detail List'), 0)
 
+
+int row1 = 0
+
+int row2 = 0
+
+int row3 = 0
+
+int rowDT = 0
+
 for (def rowNum = 1; rowNum <= testData.getRowNumbers(); rowNum++) {
-    def bookingNo = testData.getValue('BookingNo', rowNum)
+	WebUI.setText(findTestObject('Scenario 13/S13_TC086/input_Shipping Detail List_Search'), testData.getValue(
+			'OutbondNo', rowNum))
 
-    def containerNo = testData.getValue('ContainerNo', rowNum)
+	noDT = testData.getValue('No', rowNum)
 
-    if (bookingNo || containerNo) {
-        // Check if either bookingNo or containerNo is not empty or null
-        TestObject cargoStatusObject = findTestObject('Object Repository/Scenario 12/SC12_TC053/p_verifyCargoStatus', [('bookingNo') : bookingNo
-                , ('containerNo') : containerNo])
+	switch (noDT) {
+		case '1':
+			row1++
 
-        // Get the text content of the cargo status element
-        String cargoStatusText = WebUI.getText(cargoStatusObject)
+			rowDT = row1
 
-        // Verify that the cargo status text is empty using verifyMatch
-        WebUI.verifyMatch(cargoStatusText, '', true, FailureHandling.CONTINUE_ON_FAILURE)
+			break
+		case '2':
+			row2++
 
-        // If the verifyMatch fails, it will cause the script to fail
-        KeywordUtil.logInfo("Cargo status is empty for BookingNo: $bookingNo, ContainerNo: $containerNo")
-    }
+			rowDT = row2
+
+			break
+		case '3':
+			row3++
+
+			rowDT = row3
+
+			break
+	}
+	
+	def bookingNo = testData.getValue('BookingId', rowNum)
+
+	def containerNo = testData.getValue('ContainerNo', rowNum)
+
+	def cargoStatus = ''
+
+	println(rowDT)
+
+	WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC086/div_Booking No', [('rowNum') : rowDT]), bookingNo)
+
+	KeywordUtil.logInfo("Row: $rowDT - Booking No. is $bookingNo")
+
+	WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC086/div_Container No', [('rowNum') : rowDT]), containerNo)
+
+	KeywordUtil.logInfo("Row: $rowDT - Container No. is $containerNo")
+
+	WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC086/div_Cargo Status', [('rowNum') : rowDT]), cargoStatus)
+
+	KeywordUtil.logInfo("Row: $rowDT - Container No. is $cargoStatus")
+
+	WebUI.click(findTestObject('Page_ShippingDetailList/button_Dt_Row_View', [('rowNum') : rowDT]))
+
+	WebUI.verifyElementAttributeValue(findTestObject('Scenario 13/S13_TC086/input__cargoStatus'), 'value', cargoStatus,
+		0)
+
+	WebUI.back()
 }
 
-WebUI.takeFullPageScreenshot()
-
 WebUI.closeBrowser()
-
-WebUI.closeBrowser()
-
