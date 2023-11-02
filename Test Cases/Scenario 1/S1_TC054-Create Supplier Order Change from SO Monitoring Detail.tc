@@ -38,24 +38,6 @@
       <value>FirmQTY</value>
       <variableId>e94c8a59-fbaf-417b-875d-f579f488dc19</variableId>
    </variableLinks>
-   <variableLinks>
-      <testDataLinkId>9011f5be-8522-43cf-b2dc-b41ab10648e5</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>Firm1</value>
-      <variableId>94799cbf-b2be-44d2-ad66-8d876660ad3d</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId>9011f5be-8522-43cf-b2dc-b41ab10648e5</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>Firm2</value>
-      <variableId>3fb33fad-6b2b-4bf3-bd44-1b4b54505d8e</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId>9011f5be-8522-43cf-b2dc-b41ab10648e5</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>Date2</value>
-      <variableId>8304d648-d46d-4ca0-a5d6-56d8f09f6aab</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.BAF_USERNAME_LUQMAN</defaultValue>
       <description></description>
@@ -83,26 +65,5 @@
       <id>e94c8a59-fbaf-417b-875d-f579f488dc19</id>
       <masked>false</masked>
       <name>firmQTY</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>94799cbf-b2be-44d2-ad66-8d876660ad3d</id>
-      <masked>false</masked>
-      <name>Firm1</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>3fb33fad-6b2b-4bf3-bd44-1b4b54505d8e</id>
-      <masked>false</masked>
-      <name>Firm2</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>8304d648-d46d-4ca0-a5d6-56d8f09f6aab</id>
-      <masked>false</masked>
-      <name>Date2</name>
    </variable>
 </TestCaseEntity>

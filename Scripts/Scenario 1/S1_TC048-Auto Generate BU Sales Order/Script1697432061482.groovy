@@ -31,7 +31,7 @@ WebUI.setText(findTestObject('Scenario 12/SC12_TC014/input_contractNo'), contrac
 
 WebUI.verifyElementPresent(findTestObject('Page_SO_MonitoringList/div_Dt_ContractNo', [('contractNo') : contractNo]), 0)
 
-spotSalesOrderNo = WebUI.getText(findTestObject('Scenario 1/S1_TC015/Page_CO Monitoring List - Brivge/p_orderNo_secondRow'))
+not_run: regularSalesOrderNo = WebUI.getText(findTestObject('Page_SO_MonitoringList/td_SalesOrder_firstRow'))
 
 WebUI.click(findTestObject('Scenario 12/SC12_TC014/input_checkall'))
 
@@ -44,14 +44,12 @@ WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC014/div_Download S
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Scenario 12/SC12_TC014/p_detailsButton', [('SOnumber') : spotSalesOrderNo]))
+WebUI.click(findTestObject('Scenario 12/SC12_TC014/p_detailsButton', [('SOnumber') : regularSalesOrderNo]))
 
 WebUI.waitForElementPresent(findTestObject('Page_SO_MonitoringDetail/h3_SO Monitoring Detail'), 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('Page_SO_MonitoringDetail/input_SalesOrderNo'), 'value', spotSalesOrderNo, 
+WebUI.verifyElementAttributeValue(findTestObject('Page_SO_MonitoringDetail/input_SalesOrderNo'), 'value', regularSalesOrderNo, 
     0)
-
-CustomKeywords.'copyToExcel.exel'(spotSalesOrderNo, 1, 3, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', sheetname)
 
 WebUI.click(findTestObject('Scenario 12/SC12_TC014/button_Parts Monitoring detail_step_2'))
 
@@ -64,6 +62,9 @@ WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC014/div_Download P
 CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
 WebUI.takeFullPageScreenshot()
+
+not_run: CustomKeywords.'copyToExcel.exel'(regularSalesOrderNo, 1, 2, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 
+    sheetname)
 
 CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Page_SO_MonitoringDetail/p_breadcrumb_SO Monitoring List'), 
     0)

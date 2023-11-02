@@ -78,7 +78,7 @@ for (def rowNum = 1; rowNum <= 4; rowNum++) {
         } else if ((rowNum == 2) || (rowNum == 4)) {
             WebUI.verifyMatch(cargoStatusText, 'Arrival (vessel Arrival at Transhipment Port)', false, FailureHandling.STOP_ON_FAILURE)
 
-            KeywordUtil.logInfo("Row $rowNum - BookingNo: $bookingNo, ContainerNo: $containerNo, Cargo status: Arrival (vessel Arrival at Transhipment Port)")
+            KeywordUtil.logInfo("Row $rowNum - BookingNo: $bookingNo, ContainerNo: $containerNo, Cargo status: GArrival (vessel Arrival at Transhipment Port)")
         }
     }
 }
