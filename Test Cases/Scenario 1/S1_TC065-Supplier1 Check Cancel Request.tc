@@ -18,7 +18,7 @@
       <variableId>d94c9170-c027-4af4-a1d3-ad760700d3a0</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('Scenario 1/S1_TC54-Change Request No').getValue('Sup1 RequestNo', 1)</defaultValue>
+      <defaultValue>findTestData('Scenario 1/S1_TC054-Change Request No').getValue('Sup1 RequestNo', 1)</defaultValue>
       <description></description>
       <id>b5cede8b-b2fe-424a-8fdf-c95b3d40eaa8</id>
       <masked>false</masked>

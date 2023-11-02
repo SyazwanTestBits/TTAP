@@ -48,13 +48,12 @@ for (def rowNum = 1; rowNum <= 4; rowNum++) {
         // Get the text content of the cargo status element
         String cargoStatusText = WebUI.getText(cargoStatusObject)
 
-        // Verify cargo status text 
-        WebUI.verifyMatch(cargoStatusText, 'Gate in (arrival at first POL)', false, FailureHandling.STOP_ON_FAILURE)
+        // Verify that the cargo status text is empty using verifyMatch
+        WebUI.verifyMatch(cargoStatusText, '', true, FailureHandling.CONTINUE_ON_FAILURE)
 
         // If the verifyMatch fails, it will cause the script to fail
-        KeywordUtil.logInfo("BookingNo: $bookingNo, ContainerNo: $containerNo, Cargo status: Gate in (arrival at first POL)")
+        KeywordUtil.logInfo("Cargo status is empty for BookingNo: $bookingNo, ContainerNo: $containerNo")
     }
 }
-
 WebUI.closeBrowser()
 

@@ -28,7 +28,7 @@ WebUI.setText(findTestObject('Scenario 12/SC12_TC014/input_contractNo'), orderNo
 
 WebUI.click(findTestObject('Scenario 10/S10_TC024/input_tick all'))
 
-WebUI.click(findTestObject('Scenario 1/S1_TC072/button_Download'))
+WebUI.click(findTestObject('Page_CO_MonitoringList/button_Dt_DownloadOptions'))
 
 WebUI.click(findTestObject('Scenario 1/S1_TC072/li_Download by Excel'))
 
@@ -36,11 +36,11 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_DwnloadCustOrderbyExcel_Success'), 0)
 
-not_run: WebUI.click(findTestObject('Scenario 1/S1_TC068/svg_Download Purchase Order by Excel Cancel'))
-
 WebUI.click(findTestObject('Scenario 1/S1_TC072/button_Detail'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.doubleClick(findTestObject('Scenario 1/S1_TC068/button_Shipping Plan Info_step_2'))
+
+WebUI.click(findTestObject('Scenario 1/S1_TC072/Page_CO Monitoring Detail - Brivge/p_Parts No_Sorting'))
 
 WebUI.scrollToElement(findTestObject('Scenario 1/S1_TC072/div_Order Qty'), 0)
 
@@ -50,13 +50,13 @@ KeywordUtil.logInfo("Verified New Order Quantity (Expected): $expectedOrderQTY")
 
 println(expectedOrderQTY)
 
-actualOrderQTY = WebUI.getText(findTestObject('Scenario 1/S1_TC072/div_OrderQTY (Amount)'))
+actualOrderQTY = WebUI.getText(findTestObject('Scenario 1/S1_TC071/div_OrderQTY (Amount)'))
 
 KeywordUtil.logInfo("Verified New Order Quantity (Actual): $actualOrderQTY")
 
 println(actualOrderQTY)
 
-WebUI.verifyElementText(findTestObject('Scenario 1/S1_TC072/div_OrderQTY (Amount)'), expectedOrderQTY)
+WebUI.verifyElementText(findTestObject('Scenario 1/S1_TC071/div_OrderQTY (Amount)'), expectedOrderQTY)
 
 WebUI.closeBrowser()
 

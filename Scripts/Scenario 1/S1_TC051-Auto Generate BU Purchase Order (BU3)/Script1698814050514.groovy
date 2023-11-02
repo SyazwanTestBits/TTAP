@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.BAF_USERNAME_LUQMAN
-        , ('password') : GlobalVariable.PNA_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.S1_BAF_BU1], 
+        , ('password') : GlobalVariable.PNA_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : company], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Scenario 10/S10_TC073/button_Order'))
@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Scenario 10/S10_TC049/li_PO Monitoring List'))
 
 WebUI.verifyElementPresent(findTestObject('Scenario 10/S10_TC049/h3_PO Monitoring List (1)'), 0)
 
-WebUI.setText(findTestObject('Scenario 10/S10_TC049/input_PO Monitoring List_Search'), orderNo)
+WebUI.setText(findTestObject('Scenario 10/S10_TC049/input_PO Monitoring List_Search'), contractNo)
 
 WebUI.click(findTestObject('Scenario 10/S10_TC049/input_tick all'))
 
@@ -39,13 +39,14 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.verifyElementPresent(findTestObject('Scenario 10/S10_TC049/p_The operation was successful'), 0)
 
-WebUI.click(findTestObject('Scenario 10/S10_TC049/button_Detail'))
+WebUI.click(findTestObject('Scenario 1/S1_TC015/Page_CO Monitoring List - Brivge/button_Detail_secondRow'))
 
-contractNo = WebUI.getAttribute(findTestObject('Scenario 01/S01_TC022/input_Basic Info_contractNo'), 'value')
+orderNo = WebUI.getAttribute(findTestObject('Scenario 1/S1_TC022/Page_PO Monitoring Detail - Brivge/input_Basic Info_orderNo'), 
+    'value')
 
-println(contractNo)
+println(orderNo)
 
-CustomKeywords.'copyToExcel.exel'(contractNo, 1, 2, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 'TC049')
+CustomKeywords.'copyToExcel.exel'(orderNo, 1, 4, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 'TC47-Autogen OrderNo Spot')
 
 WebUI.verifyElementAttributeValue(findTestObject('Scenario 10/S10_TC049/input_Basic Info_orderType'), 'Value', orderType, 
     3)
