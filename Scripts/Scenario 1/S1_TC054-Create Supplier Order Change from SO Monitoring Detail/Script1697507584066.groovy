@@ -41,16 +41,10 @@ println(latestFilePath)
 
 CustomKeywords.'copyToExcel.exel2'(firmQTY, 18, 15, latestFilePath, SalesOrderNo)
 
-CustomKeywords.'copyToExcel.exel2'(Firm1, 18, 24, latestFilePath, SalesOrderNo)
-
-CustomKeywords.'copyToExcel.exel2'(Firm2, 18, 25, latestFilePath, SalesOrderNo)
-
-CustomKeywords.'copyToExcel.exel2'(Date2, 15, 25, latestFilePath, SalesOrderNo)
-
 CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 1/S1_TC054/button_Upload'), latestFilePath)
 
-WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC033/div_Upload Supplier Order Change. The operation was successful'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC033/div_Upload Supplier Order Change. The operation was successful'),
+	0)
 
 WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
 
@@ -64,8 +58,4 @@ WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operatio
 
 WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
 
-WebUI.callTestCase(findTestCase('Scenario 1/S1_TC054.1-Get Request No'), [('contractRouteCode') : findTestData('Scenario 1/S1_TC002-BU1 to Customer Contract').getValue('ContractRouteCode', 1)], 
-    FailureHandling.STOP_ON_FAILURE)
-
 WebUI.closeBrowser()
-

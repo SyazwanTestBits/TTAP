@@ -22,7 +22,7 @@ WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVa
 
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC050 TC053/span_Order'))
 
-WebUI.click(findTestObject('Navbar_Brivge/OrderMenu_Brivge/li_PO Monitoring List'))
+WebUI.click(findTestObject('Navbar_Brivge/OrderMenu_Brivge/li_CO Monitoring List'))
 
 WebUI.setText(findTestObject('Scenario 12/SC12_TC014/input_contractNo'), orderNo)
 

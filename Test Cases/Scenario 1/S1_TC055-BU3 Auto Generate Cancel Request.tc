@@ -5,15 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>68c457ba-82e8-49ef-a97e-729a7309084d</testCaseGuid>
-   <testDataLinks>
-      <combinationType>ONE</combinationType>
-      <id>1ae37dea-68aa-4c65-8773-978541d6d7e5</id>
-      <iterationEntity>
-         <iterationType>ALL</iterationType>
-         <value></value>
-      </iterationEntity>
-      <testDataId>Data Files/Scenario 1/S1_TC054</testDataId>
-   </testDataLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
@@ -27,7 +18,7 @@
       <variableId>6623fb4a-9d72-4cdf-8d70-1c7aa9646bd8</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('Scenario 1/S1_TC054-Change Request No').getValue('Sup1 RequestNo', 1)</defaultValue>
+      <defaultValue>findTestData('Scenario 1/S1_TC54-Change Request No').getValue('Sup1 RequestNo', 1)</defaultValue>
       <description></description>
       <id>a951bcc3-21f2-4998-8b96-b5e6df3e16e7</id>
       <masked>false</masked>

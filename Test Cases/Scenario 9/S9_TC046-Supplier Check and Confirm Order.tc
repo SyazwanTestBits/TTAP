@@ -3,48 +3,22 @@
    <description></description>
    <name>S9_TC046-Supplier Check and Confirm Order</name>
    <tag></tag>
+   <integratedEntity>
+<productName>JIRA</productName>
+<properties>
+<entry>
+<key>integratedValue</key>
+<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i000o8:"},"status":{"id":10000,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10000","name":"To Do"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC9.0_TC46 - Supplier - Creation of Sales Order and Forecast quantity are automatic Delivery Request are also created automatically","description":"User: Supplier \\\\Login ID: maria-baf\\\\Company: PK-SUP-POC \\\\Function: Order \u003eSO Monitoring List \\\\Description: Creation of Sales Order and Forecast quantity are automatic Delivery Request are also created automatically","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-403/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10402","key":"BAT-403","id":10402}}</value>
+</entry>
+</properties>
+<type>TESTCASE</type>
+</integratedEntity>
    <comment></comment>
    <testCaseGuid>63257494-2d2e-4bef-a1ee-28f4dec1aab6</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>5aa1c62f-4bc3-47c9-8491-92dc8586179d</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>039437b8-c910-403b-b06d-6e15bcce9fb1</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>09ef3d83-9a8f-4b22-80ac-9b924c1468ff</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>0ff98970-b38c-41ce-aece-fab3d92c89a0</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>8d462455-17b3-46eb-b4bb-3ffb6993a2ba</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>6a15e5a2-cb8d-4660-b6e4-23fff78ae1b6</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>findTestData('Scenario 9/S9_TC038-SUP to BU Contract').getValue('ContractNo', 1)</defaultValue>
       <description></description>
-      <id>992097f4-2ccd-4110-abac-a2bd0592aab9</id>
+      <id>5aa1c62f-4bc3-47c9-8491-92dc8586179d</id>
       <masked>false</masked>
       <name>contractNo</name>
    </variable>

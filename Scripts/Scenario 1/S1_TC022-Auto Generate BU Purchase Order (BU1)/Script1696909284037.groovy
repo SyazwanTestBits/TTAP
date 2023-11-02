@@ -52,10 +52,9 @@ if (contractNoSys == contractBU2) {
 } else if (contractNoSys == contractBU3) {
     CustomKeywords.'copyToExcel.exel'(orderNo, 2, 1, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 'TC20-Autogen SOPO')
 } else {
+    WebUI.verifyElementAttributeValue(findTestObject('Scenario 10/S10_TC049/input_Basic Info_orderType'), 'Value', orderType, 
+        3)
 }
-
-WebUI.verifyElementAttributeValue(findTestObject('Scenario 10/S10_TC049/input_Basic Info_orderType'), 'Value', orderType, 
-    3)
 
 WebUI.verifyElementAttributeValue(findTestObject('Scenario 10/S10_TC049/input_Basic Info_status'), 'Value', status, 3)
 

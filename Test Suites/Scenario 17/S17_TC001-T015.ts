@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>e7a5c384-124e-4ee3-b9b6-4c5072d53e8d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 17/S17_TC001- Customer Request Add New Part</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -57,7 +57,7 @@
    <testCaseLink>
       <guid>fc245eed-0b95-4723-b090-caee26c1433b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 17/S17_TC001.1- Supplier Create Payment Terms List</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -88,7 +88,7 @@
    <testCaseLink>
       <guid>7c4ad84d-988f-4a52-be3e-3ce02929cdad</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 17/S17_TC001.2- Supplier Create Shipping Route</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -245,7 +245,7 @@
    <testCaseLink>
       <guid>b439af39-a3c7-45ba-976e-84c33cbe222d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 17/S17_TC002- Supplier Receive Request List</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -378,7 +378,7 @@
    <testCaseLink>
       <guid>27c9ab00-45db-4536-b70f-eb8d01f5bae0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 17/S17_TC003- Customer Request Remove Part</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -427,7 +427,7 @@
    <testCaseLink>
       <guid>871cea47-55f4-4e57-9686-191b9cf7b984</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 17/S17_TC004- Supplier Received Request List</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -440,7 +440,7 @@
    <testCaseLink>
       <guid>05d80efd-b5c6-4808-8305-aa82e828a30d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 17/S17_TC005- Supplier Check Contract List</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -489,7 +489,7 @@
    <testCaseLink>
       <guid>a035ac18-39e0-467e-9a44-6df51460c9c7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 17/S17_TC006- Supplier Check Contract Route List</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -556,7 +556,7 @@
    <testCaseLink>
       <guid>e25888ec-d78b-4552-84b2-0418de33601c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 17/S17_TC007- Customer Request Add Removed New Part</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -617,7 +617,7 @@
    <testCaseLink>
       <guid>f5f3a4f9-35c8-4e95-9b53-692531e2e6da</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 17/S17_TC008- Supplier Receive Request List and Add the Part Removed</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -654,7 +654,7 @@
    <testCaseLink>
       <guid>a290f2a2-10c2-4286-abb2-52172c1bd2b4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 17/S17_TC009- Supplier Check Contract List</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -703,7 +703,7 @@
    <testCaseLink>
       <guid>f6e94b02-b956-4199-9a88-ca5270e0decc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 17/S17_TC010- Supplier Check Contract Route List</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
