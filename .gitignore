@@ -25,3 +25,5 @@ build
 .setting
 
 .gitignore
+Drivers/poi-5.2.0.jar
+Drivers/poi-ooxml-5.2.0.jar
