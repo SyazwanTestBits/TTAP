@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Scenario 17/S17_TC005/li_Contract List'))
 
 WebUI.setText(findTestObject('Scenario 13/S13_TC035/Page_Brivge/input_Filter_Received Request List'), contractNo)
 
-WebUI.click(findTestObject('Scenario 13/S13_TC035/Page_Brivge/button_Edit'))
+not_run: WebUI.click(findTestObject('Scenario 13/S13_TC035/Page_Brivge/button_Edit'))
 
 WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/header_2Parts List InformationParts List Information'), 
     0)
