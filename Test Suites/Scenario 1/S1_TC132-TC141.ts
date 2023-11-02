@@ -57,6 +57,19 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>5d7a5a7c-3e4b-4aa7-9f05-07fa18c64403</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 1/S1_TC135-BU3 Complete Custom Invoice -Export</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5fc5e409-d2da-408f-b4aa-1f680b42fed0</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>88aa521b-ab47-4d42-a1de-ccedf3982b7f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -167,6 +180,49 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>5fc5e409-d2da-408f-b4aa-1f680b42fed0</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f0451f9f-38ea-4d46-b540-6efc3fff2ec6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 1/S1_TC141-Supplier2 Revise and Confirm Order</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c862329b-5ad5-46e3-993e-1b066ecb32a7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f577d9ad-b354-4fbd-8b44-c22068663025</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b3ce0d28-54d6-41de-ab97-4614a311ed82</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>34237aec-2d8e-40b9-95ec-edde7307a58a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a89a61bb-cb8c-4d9e-937b-6a9a120047ab</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e63aea34-e317-4109-9e04-686c0452058e</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

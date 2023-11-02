@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>dbb17d45-648e-4ec6-b371-3d403bb6d8af</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC168-DC2 Inbound -Regular</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
