@@ -36,14 +36,14 @@
       <variableId>6bf21b31-7ef7-43c7-b1f4-56ddee72be34</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('Scenario 1/S1_TC002-BU1 to Customer Contract').getValue('ContractNo', 1)</defaultValue>
+      <defaultValue>findTestData('Scenario 1/S1_TC004-Sup2 to BU2 Contract').getValue('ContractNo', 1)</defaultValue>
       <description></description>
       <id>627c81ad-e4d3-4e09-b28f-a5092a09f6e0</id>
       <masked>false</masked>
       <name>contractNo</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('BU1_SO', 1)</defaultValue>
+      <defaultValue>findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('SUP2_SO', 1)</defaultValue>
       <description></description>
       <id>206b835a-58a6-4f46-96fe-8a76635507ae</id>
       <masked>false</masked>
@@ -57,7 +57,7 @@
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.S1_BAF_BU1</defaultValue>
+      <defaultValue>GlobalVariable.S9_BAF_BU</defaultValue>
       <description></description>
       <id>75ce616b-f525-40fe-a30f-f0564cd0b5d6</id>
       <masked>false</masked>

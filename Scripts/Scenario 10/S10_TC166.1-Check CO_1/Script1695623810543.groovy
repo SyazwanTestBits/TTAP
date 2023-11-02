@@ -32,13 +32,22 @@ WebUI.verifyElementAttributeValue(findTestObject('Scenario 10/S10_TC177/input_Ba
 
 WebUI.click(findTestObject('Scenario 10/S10_TC177/p_Parts No'))
 
-int numberrowtd = findTestData('Scenario 10/S10_TC166-Customer Check CO_1').getRowNumbers()
+firstRow = WebUI.getText(findTestObject('Scenario 10/S10_TC177/p_partCheck', [('lrow') : 1, ('lcol') : 1]), FailureHandling.STOP_ON_FAILURE)
+
+def testData=findTestData('Scenario 10/S10_TC166-Customer Check CO_1')
+
+if(firstRow != findTestData('Scenario 10/S10_TC166-Customer Check CO_1').getValue('PartsNo', 1)) {
+	
+	testData=findTestData('Scenario 10/S10_TC166-Customer Check CO_2')
+}
+
+int numberrowtd = testData.getRowNumbers()
 
 for (int rowl = 1; rowl <= numberrowtd; rowl++) {
     int coll = 1
 
     for (String colname : columnname) {
-        String valuecol = findTestData('Scenario 10/S10_TC166-Customer Check CO_1').getValue(colname, rowl)
+        String valuecol =testData.getValue(colname, rowl)
 
         WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC177/p_partCheck', [('lrow') : rowl, ('lcol') : coll]), 
             valuecol)

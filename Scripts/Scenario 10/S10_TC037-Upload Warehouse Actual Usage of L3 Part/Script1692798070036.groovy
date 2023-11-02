@@ -27,6 +27,14 @@ WebUI.click(findTestObject('Navbar_Brivge/LogisticsMenu_Brivge/li_Outbound To WI
 
 WebUI.waitForElementPresent(findTestObject('Page_OutboundToWIP/h3_Outbound To WIP'), 0)
 
+WebUI.click(findTestObject('Page_OutboundToWIP/button_remote filter'))
+
+WebUI.click(findTestObject('Page_OutboundToWIP/button_Clear'))
+
+WebUI.setText(findTestObject('Page_OutboundToWIP/input__contractNo'), contractNo)
+
+WebUI.click(findTestObject('Page_OutboundToWIP/button_Search'))
+
 WebUI.click(findTestObject('Page_OutboundToWIP/button_Download_OutboundToWIP'))
 
 WebUI.click(findTestObject('Page_OutboundToWIP/li_Download Outbound History'))
@@ -58,15 +66,14 @@ WebUI.click(findTestObject('Page_OutboundToWIP/button_upload'))
 
 CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Page_OutboundToWIP/li_Upload Outbound'), outboundHistForm)
 
-if (WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_OutboundToWIP/h6_Confirm notification'),
-	1, FailureHandling.OPTIONAL) == true) {
-	WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
+if (WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_OutboundToWIP/h6_Confirm notification'), 1, FailureHandling.OPTIONAL) == 
+true) {
+    WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
 } else {
-	WebUI.click(findTestObject('Object Repository/Page_OutboundToWIP/button_CONFIRM'))
+    WebUI.click(findTestObject('Object Repository/Page_OutboundToWIP/button_CONFIRM'))
 
-	WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
+    WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
 }
-
 
 WebUI.closeBrowser()
 

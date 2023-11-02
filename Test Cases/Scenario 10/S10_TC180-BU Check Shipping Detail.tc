@@ -12,7 +12,7 @@
       <variableId>6f8c1be7-d8d3-4cba-aaf7-3dbd4b6e55e8</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('Scenario 10/S10_TC179-Customer Update Shipping Detail')</defaultValue>
+      <defaultValue>findTestData('Scenario 10/S10_TC180')</defaultValue>
       <description></description>
       <id>6f8c1be7-d8d3-4cba-aaf7-3dbd4b6e55e8</id>
       <masked>false</masked>

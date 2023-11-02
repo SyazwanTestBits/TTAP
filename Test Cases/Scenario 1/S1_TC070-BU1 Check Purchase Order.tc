@@ -45,14 +45,14 @@
       <variableId>84a87c34-05d0-4f2b-ad6a-d4e99da8339a</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('Scenario 1/S1_TC003-BU2 to BU1 Contract').getValue('ContractNo', 1)</defaultValue>
+      <defaultValue>findTestData('Scenario 1/S1_TC004-Sup2 to BU2 Contract').getValue('ContractNo', 1)</defaultValue>
       <description></description>
       <id>8b5adaf7-7926-4409-95a5-055ee159bd99</id>
       <masked>false</masked>
       <name>contractNo</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('BU1_PO', 1)</defaultValue>
+      <defaultValue>findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('SUP2_SO', 1)</defaultValue>
       <description></description>
       <id>4aff16da-c10e-401b-94ce-366232b69a94</id>
       <masked>false</masked>

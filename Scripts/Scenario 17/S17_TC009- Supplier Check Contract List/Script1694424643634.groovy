@@ -14,6 +14,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
@@ -46,6 +47,14 @@ for (int rowl = 1; rowl <= numberrowtd; rowl++) {
         WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC029/p_partsDetail', [('lcol') : colindex, ('lrow') : rowl]), 
             valuecol)
 
+        //println("Row: $rowl, Column: $coll")
+        //println("Expected Value: $valuecol")
+        //println("Actual Value: $actualValue")
+        println("$actualValue same as expected -->  $valuecol")
+
+        //Log actual and expected results
+        KeywordUtil.logInfo("Actual: $actualValue and Expected: $valuecol")
+
         colindex = (colindex + 1)
     }
 }
@@ -66,9 +75,8 @@ WebUI.verifyElementText(findTestObject('Scenario 17/S17_TC002/p_Verify Active Fl
 
 latestFilePath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
-WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 17/S17_Cmn3_Compare Test Data'), [('LatestPath') : latestFilePath
-        , ('expectationExcelPath') : expectedContractParts, ('startRows') : 8, ('endRows') : 12, ('startCols') : 5, ('endCols') : 34
-        , ('NumberOfNoMatch') : NumberOfNoMatch], FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'util.compareTestData.compareExcelFiles_ExcelFormulaCompatible'(latestFilePath, expectedContractParts, 8, 
+    12, 5, 34)
 
 WebUI.closeBrowser()
 

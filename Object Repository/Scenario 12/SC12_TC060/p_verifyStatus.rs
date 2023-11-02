@@ -6,12 +6,12 @@
    <elementGuidId>89138c9a-5f19-4af6-b1cb-1b50c3c7cd1e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>p.lcbm-MuiTypography-root.lcbm-lcbm711.lcbm-MuiTypography-body2</value>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[2]/div/p</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//p[(text() = '${invoiceNo}' or . = '${invoiceNo}')]/following::td[6]</value>
+         <key>CSS</key>
+         <value>p.lcbm-MuiTypography-root.lcbm-lcbm711.lcbm-MuiTypography-body2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

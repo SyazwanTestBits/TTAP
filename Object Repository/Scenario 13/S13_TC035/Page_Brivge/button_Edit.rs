@@ -6,16 +6,15 @@
    <elementGuidId>2af08e04-b2ba-4258-8440-6b9d1ddd0fe3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[@type = 'button']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tbody//button[2]</value>
+         <value>(//button[@type='button'])[14]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

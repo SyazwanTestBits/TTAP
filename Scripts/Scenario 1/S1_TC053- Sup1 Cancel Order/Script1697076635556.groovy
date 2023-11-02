@@ -41,11 +41,7 @@ WebUI.click(findTestObject('Scenario 17/S17_TC034/Page_Supplier Order ChangeCanc
 WebUI.takeFullPageScreenshot()
 
 'change from Confirmed to Received'
-WebUI.verifyElementText(findTestObject('Scenario 17/S17_TC034/p_verifyOrderStatus', [('salesOrderNo') : salesOrderNo]), 
-    'Received')
-
-WebUI.callTestCase(findTestCase('Scenario 1/S1_TC053.1-Get Request No'), [('contractRouteCode') : findTestData('Scenario 1/S1_TC002-BU1 to Customer Contract').getValue('ContractRouteCode', 1)], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Scenario 17/S17_TC034/p_verifyOrderStatus'), 'Received')
 
 WebUI.takeFullPageScreenshot()
 

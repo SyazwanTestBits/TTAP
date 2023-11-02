@@ -5,30 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>eb762f08-3cc1-4659-a971-7c8a1d8dc509</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>85dad80e-60dc-4ee2-b8e0-187eba4dfdce</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>d6f09d15-0d29-43b0-ad6e-af8982ced548</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>8caced08-ed29-47c1-acf0-8993a8f2f9cf</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>415fdd64-e288-4746-ab8e-35f8befc6411</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>findTestData('Scenario 12/SC12_TC004-BU to Customer Contract').getValue('ContractRouteCode', 1)</defaultValue>
       <description></description>

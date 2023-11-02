@@ -87,8 +87,5 @@ WebUI.click(findTestObject('Scenario 1/S1_TC046/button_Confirm (Firm Qty is Zero
 WebUI.verifyElementPresent(findTestObject('Scenario 1/S1_TC046/div_Upload Spot Order Form For Customer.The operation was successful'), 
     0)
 
-WebUI.callTestCase(findTestCase('Scenario 1/S1_TC046.1-Get Customer Order No'), [('contractNo') : findTestData('Scenario 1/S1_TC002-BU1 to Customer Contract').getValue('ContractNo', 1)], 
-    FailureHandling.STOP_ON_FAILURE)
-
 WebUI.closeBrowser()
 

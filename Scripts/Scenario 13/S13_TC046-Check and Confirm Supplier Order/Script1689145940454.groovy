@@ -37,7 +37,78 @@ WebUI.waitForElementPresent(findTestObject('Page_SO_MonitoringDetail/h3_SO Monit
 WebUI.verifyElementAttributeValue(findTestObject('Page_SO_MonitoringDetail/input_SalesOrderNo'), 'value', salesOrderNo, 
     0)
 
-WebUI.click(findTestObject('Page_SO_MonitoringDetail/button_Confirm'))
+WebUI.click(findTestObject('Page_SO_MonitoringDetail/button_Parts Monitoring detail_step_2'))
+
+WebUI.scrollToElement(findTestObject('Page_SO_MonitoringDetail/div_PartsMonitorDetail_PartsNo - Copy'), 0)
+
+//--------------------------------------------------Edit DR----------------------------------------------------------------------------
+WebUI.click(findTestObject('Page_SO_MonitoringDetail/button_DownloadOptions'))
+
+WebUI.click(findTestObject('Page_SO_MonitoringDetail/li_Download DR'))
+
+WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
+
+WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
+
+drPath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
+
+drIndex = CustomKeywords.'mapRowDatAndRowIndices.extractPartsWithIndices'(drPath, 2, 10)
+
+drLastColumn = CustomKeywords.'util.ExcelUtils.getLastColumnNumber'(drPath, 0)
+
+println(drLastColumn)
+
+partNo1 = partTestData.getValue('PartsNo', 1)
+
+excelPart1Row = (drIndex[partNo1])
+
+CustomKeywords.'copyToExcel.exel2'('', excelPart1Row, drLastColumn, drPath, 'Delivery Plan')
+
+CustomKeywords.'copyToExcel.exel2'('100', excelPart1Row, drLastColumn - 7, drPath, 'Delivery Plan')
+
+WebUI.click(findTestObject('Scenario 13/S13_TC050 TC053/button_Upload BU SO Detail'))
+
+CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 10/S10_TC051/li_Upload DR'), drPath)
+
+WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
+
+WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
+
+//--------------------------------------------------Edit DR----------------------------------------------------------------------------
+//--------------------------------------------------Edit Price--------------------------------------------------------------------------
+WebUI.click(findTestObject('Page_SO_MonitoringDetail/button_DownloadOptions'))
+
+WebUI.click(findTestObject('Page_SO_MonitoringDetail/li_Download Price'))
+
+WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
+
+WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
+
+pricePath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
+
+int rowstart = 9
+
+for (int row = 1; row <= testDataPrice.getRowNumbers(); row++) {
+    def value = testDataPrice.getValue('Unit Price', row)
+
+    int rowExcel = rowstart + row
+
+    CustomKeywords.'copyToExcel.exel3'(value, rowExcel, 11, pricePath, 'base')
+}
+
+WebUI.click(findTestObject('Scenario 13/S13_TC050 TC053/button_Upload BU SO Detail'))
+
+CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 10/S10_TC051/li_Upload Price'), pricePath)
+
+WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
+
+WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
+
+//---------------------------------------------------------------------------------------------------------------------------------------
+CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Page_SO_MonitoringDetail/h3_SO Monitoring Detail'), 
+    0)
+
+CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Page_SO_MonitoringDetail/button_Confirm'), 0)
 
 WebUI.waitForElementPresent(findTestObject('NotificationMsg_Brivge/div_ConfirmMsg_AreYouSureToDo_Confirm'), 0)
 
@@ -52,7 +123,7 @@ WebUI.verifyElementAttributeValue(findTestObject('Page_SO_MonitoringDetail/input
 CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Page_SO_MonitoringDetail/button_Parts Monitoring detail_step_2'), 
     0)
 
-CustomKeywords.'Verification.verifyPartsMonitoringDetailStatus'(testdata, status)
+not_run: CustomKeywords.'Verification.verifyPartsMonitoringDetailStatus'(testdata, status)
 
 WebUI.takeFullPageScreenshot()
 

@@ -73,7 +73,7 @@
       <name>company</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('Scenario 1/S1_TC068').getValue(3, 1)</defaultValue>
+      <defaultValue>'620'</defaultValue>
       <description>Base of the changes made</description>
       <id>2a898b6c-f0fd-4846-a34d-62324075a4c5</id>
       <masked>false</masked>

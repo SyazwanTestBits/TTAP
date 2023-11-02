@@ -94,8 +94,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/Scenario 13/S13_TC038 
 
 latestFilePath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
-CustomKeywords.'verifyExcelData.verifyDynamicSortMap'(expectedContractRoutePartsOverview, latestFilePath, 4, [6, 7, 8, 9
-        , 10], [3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14])
+CustomKeywords.'verifyExcelData.verifyDynamicSort'(expectedContractRoutePartsOverview, latestFilePath, 4, [6, 7, 8, 9, 10], 
+    [3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14])
 
 WebUI.closeBrowser()
 

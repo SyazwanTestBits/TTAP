@@ -6,19 +6,15 @@
    <elementGuidId>6daf8ccf-996c-4980-b3f1-55d5062ab1a3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'The operation was successful.' or . = 'The operation was successful.')]</value>
+         <key>CSS</key>
+         <value>div.base-MuiAlert-message</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[(text() = 'Download Customer Order by Excel.The operation was successful.' or . = 'Download Customer Order by Excel.The operation was successful.')]</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value>div.base-MuiAlert-message</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ab20481e-5180-4eba-9d5d-36ce3dcf9a2d</webElementGuid>
+      <webElementGuid>a6486bc9-e532-4f26-ab6c-3c23dc834fc7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,15 +30,15 @@
       <name>class</name>
       <type>Main</type>
       <value>base-MuiAlert-message</value>
-      <webElementGuid>98131b77-e40d-4701-b676-ea9002f77d5a</webElementGuid>
+      <webElementGuid>e8debb5d-3837-4162-9a4f-db3742d3ac48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>The operation was successful.</value>
-      <webElementGuid>31bce7e7-39c2-4fcc-b758-eaa82f082ac0</webElementGuid>
+      <value>Download Customer Order by Excel.The operation was successful.</value>
+      <webElementGuid>d647fb86-faf5-4e24-941b-4fba65c96328</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base1 base-base3 base-base5&quot;]/div[@class=&quot;base-MuiPaper-root base-MuiAlert-root base-MuiAlert-standardSuccess base-base60 base-MuiPaper-elevation0&quot;]/div[@class=&quot;base-MuiAlert-message&quot;]</value>
-      <webElementGuid>40e3b870-b0be-46ee-975c-ff8031a3a79f</webElementGuid>
+      <webElementGuid>ba72bbbf-6a2f-4ca6-8bb5-b3c174cf8d2e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='webapp-base']/div[2]/div/div</value>
-      <webElementGuid>61631153-704b-421a-bcb2-4c2d86626bdc</webElementGuid>
+      <webElementGuid>8eff2287-1032-4558-8fdb-4e8488ba2eed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='u'])[1]/following::div[4]</value>
-      <webElementGuid>8144a528-da44-466f-bd55-f0ea25598ddd</webElementGuid>
+      <webElementGuid>a810d20d-34ba-4fe1-b444-51ec86785f6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Stock Management Tool'])[1]/following::div[8]</value>
-      <webElementGuid>8d1c4227-c51e-4fe0-a377-e7bc2a666cab</webElementGuid>
+      <webElementGuid>f2f55788-e3b0-4a2b-86a4-dc4a803c8cd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::div[24]</value>
-      <webElementGuid>17b2d9c7-5503-4ba7-9790-a835a32f2f0a</webElementGuid>
+      <webElementGuid>349735ac-9710-4e80-b8ae-4bb87cffd259</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div</value>
-      <webElementGuid>11907974-8d91-4323-aeaa-41e9bd1d6410</webElementGuid>
+      <webElementGuid>75bb07ee-e2ee-421d-bf3c-e890d2cede58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Download Customer Order by Excel.The operation was successful.' or . = 'Download Customer Order by Excel.The operation was successful.')]</value>
-      <webElementGuid>463ef3c8-8473-4a69-b097-1c86948663f3</webElementGuid>
+      <webElementGuid>5b378741-5542-4888-9498-9954a2970261</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

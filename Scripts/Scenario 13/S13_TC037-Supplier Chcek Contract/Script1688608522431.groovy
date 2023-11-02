@@ -55,9 +55,11 @@ String newDescription = "$oldDescription TC37"
 
 CustomKeywords.'copyToExcel.exel2'(newDescription, contractRow, 4, latestContract, 'Contract Master')
 
-not_run: WebUI.click(findTestObject('Scenario 13/S13_TC037/button_upload'))
+WebUI.click(findTestObject('Scenario 13/S13_TC037/button_upload'))
 
-not_run: CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 13/S13_TC037/li_Upload Contract'), latestContract)
+CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 13/S13_TC037/li_Upload Contract'), latestContract)
+
+WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
 
 WebUI.click(findTestObject('Scenario 13/S13_TC037/Page_Brivge/button_Download'))
 

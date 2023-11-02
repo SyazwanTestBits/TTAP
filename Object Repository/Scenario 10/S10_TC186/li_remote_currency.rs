@@ -6,15 +6,19 @@
    <elementGuidId>8182c847-c018-4fae-855a-ecfe34ff9eb8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mui-2352-option-0</value>
+         <key>BASIC</key>
+         <value>//li[(text() = '${currency}' or . = '${currency}')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='mui-2352-option-0']</value>
+         <value>//*[(text() = '${currency}' or . = '${currency}')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mui-2352-option-0</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>3a5a8eda-d227-46c4-9beb-194ef088864c</webElementGuid>
+      <webElementGuid>ac2ed670-cb0d-42fb-ae89-733935e357be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>d6f9f2c3-0c51-4db0-b783-156ed7145a1d</webElementGuid>
+      <webElementGuid>29282bcc-0490-4f59-b4e7-25a3cbc5d64b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>e922ec8b-8632-4682-aa79-96759ff9547c</webElementGuid>
+      <webElementGuid>de169a41-0309-47d2-b54b-9969b616f2c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mui-2352-option-0</value>
-      <webElementGuid>58164a97-0905-46f9-9d83-77b17f77c24c</webElementGuid>
+      <webElementGuid>dce01a02-b1c8-4eee-92b1-8bca7a3d4d98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>data-option-index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>cdd270ef-e520-4d66-b978-a45f71f07436</webElementGuid>
+      <webElementGuid>703c7544-66c1-4dbb-b66a-d389b08d87dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4bc660ed-c936-43d6-afb1-6530a766ebf2</webElementGuid>
+      <webElementGuid>44001338-d931-485c-a353-3510bfaa92e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>2effb764-3f80-4fb8-b26e-cb99b23bff64</webElementGuid>
+      <webElementGuid>5f44e003-e6cf-43f8-b21d-c18c9417d698</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiAutocomplete-option</value>
-      <webElementGuid>48dbf960-54c9-40f7-9d78-6760039d179f</webElementGuid>
+      <webElementGuid>adf270bc-e627-4b01-9058-2d5870d9e741</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,15 +90,15 @@
       <name>data-focus</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>91ad2d0e-d794-4f20-a9eb-fcfaf948ffb3</webElementGuid>
+      <webElementGuid>163920ea-cee7-46a8-bf3f-78575de56877</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>currency</value>
-      <webElementGuid>8f35160c-f080-4023-a5e2-7d4634b30b98</webElementGuid>
+      <value>${currency}</value>
+      <webElementGuid>7fd3cc0e-f3eb-4c96-9357-99c727b87cd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mui-2352-option-0&quot;)</value>
-      <webElementGuid>3d41d07e-3e4c-4dd1-9d29-f9007d80e89f</webElementGuid>
+      <webElementGuid>51426675-7157-4b3d-b456-3c406aca0525</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//li[@id='mui-2352-option-0']</value>
-      <webElementGuid>b2a01a5f-8023-494f-a960-e3b0fac7cbb4</webElementGuid>
+      <webElementGuid>d73539c8-0d0b-459c-a066-4c2f324f416e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='mui-2352-popup']/li</value>
-      <webElementGuid>5ca20130-9158-439d-b5eb-a96b94654175</webElementGuid>
+      <webElementGuid>d564ca3a-3a31-4f7a-b6b1-bc11c3d34bdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::li[1]</value>
-      <webElementGuid>3bc7cf1c-8ed4-49d8-a481-a497e2e1d7f7</webElementGuid>
+      <webElementGuid>5d12666b-7eee-4d01-80d6-07bc6dad8140</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +138,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/following::li[1]</value>
-      <webElementGuid>afc92e4a-fd01-44f1-99d3-c2e0b6fe2c70</webElementGuid>
+      <webElementGuid>3e8bc283-9131-4589-917a-3b95343f8818</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +146,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='USD'])[1]/preceding::li[1]</value>
-      <webElementGuid>26ea44b1-51cb-4cce-93a9-3c192fe53250</webElementGuid>
+      <webElementGuid>c6c5aca5-5178-4b57-88a4-9beedb71b829</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +154,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='MYR']/parent::*</value>
-      <webElementGuid>147b883c-5279-475f-a16c-357afada0648</webElementGuid>
+      <webElementGuid>84057cca-74fd-4806-a5d8-4cc15abc69e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +162,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li</value>
-      <webElementGuid>1b787b02-bb8c-42b8-80b5-6f9b2629309d</webElementGuid>
+      <webElementGuid>60ab9613-d987-449c-a877-3b05a868e5bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,6 +170,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[@id = 'mui-2352-option-0' and (text() = 'MYR' or . = 'MYR')]</value>
-      <webElementGuid>3bff934a-59d2-44e1-b73c-7e256777dc47</webElementGuid>
+      <webElementGuid>b6f2b28d-3208-4f3a-8364-a5b89557db15</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
