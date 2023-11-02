@@ -3,6 +3,16 @@
    <description></description>
    <name>S12_TC013-Admin Combine Order Batch</name>
    <tag></tag>
+   <integratedEntity>
+<productName>JIRA</productName>
+<properties>
+<entry>
+<key>integratedValue</key>
+<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i000x4:"},"status":{"id":10000,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10000","name":"To Do"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC12.0_TC13 - admin - Combine order batch","description":"User: admin \\\\Login ID: admin\\\\Company: \\\\Function: \u003e \\\\Description: Combine order batch","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-443/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10442","key":"BAT-443","id":10442}}</value>
+</entry>
+</properties>
+<type>TESTCASE</type>
+</integratedEntity>
    <comment></comment>
    <testCaseGuid>8a51cce7-395b-4078-bc28-c9f3596e2840</testCaseGuid>
    <variableLinks>

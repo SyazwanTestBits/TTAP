@@ -3,6 +3,16 @@
    <description></description>
    <name>S12_TC064-Customer Custom Invoice -Import</name>
    <tag></tag>
+   <integratedEntity>
+<productName>JIRA</productName>
+<properties>
+<entry>
+<key>integratedValue</key>
+<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i000u8:"},"status":{"id":10000,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10000","name":"To Do"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC12.0_TC64 - Customer - Import Customs Invoice is automatic created after Seller Invoice approved if the customs flag is Y","description":"User: Customer \\\\Login ID: maria-baf\\\\Company: VN-TTVN \\\\Function: Logistics \u003eCustoms Invoice(Import) \\\\Description: Import Customs Invoice is automatic created after Seller Invoice approved if the customs flag is Y","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-430/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10429","key":"BAT-430","id":10429}}</value>
+</entry>
+</properties>
+<type>TESTCASE</type>
+</integratedEntity>
    <comment></comment>
    <testCaseGuid>8703e7cd-c4f2-45c8-bd4c-bbada4c93f90</testCaseGuid>
    <testDataLinks>

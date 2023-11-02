@@ -3,6 +3,16 @@
    <description></description>
    <name>S12_TC068-DC Inbound Details</name>
    <tag></tag>
+   <integratedEntity>
+<productName>JIRA</productName>
+<properties>
+<entry>
+<key>integratedValue</key>
+<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i000vk:"},"status":{"id":10000,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10000","name":"To Do"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC12.0_TC68 - Customer DC - Creation of Customer DC inbound actual","description":"User: Customer DC \\\\Login ID: maria-baf\\\\Company: VN-AKIRA \\\\Function: Logistics \u003eInbound monitor List \\\\Description: Creation of Customer DC inbound actual","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-437/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10436","key":"BAT-437","id":10436}}</value>
+</entry>
+</properties>
+<type>TESTCASE</type>
+</integratedEntity>
    <comment></comment>
    <testCaseGuid>ac76f999-84b4-4ab1-b483-c0234ff057f9</testCaseGuid>
    <variableLinks>
