@@ -18,8 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : username
-        , ('password') : password, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.COMPANY_CUSTOMER], 
-    FailureHandling.STOP_ON_FAILURE)
+        , ('password') : password, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : company], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Navbar_Brivge/button_Order'))
 
@@ -41,9 +40,20 @@ WebUI.click(findTestObject('Page_RegularOrder/Page_PlaceOrderDetail_Reg/button_D
 
 WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_DwnloadRegOrderFormCust_Success'), 0)
 
+WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
+
 latestFilePath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
 CustomKeywords.'ExcelActions.writeIntoExcelPlaceOrderRegular'(latestFilePath, contractNo)
+
+WebUI.click(findTestObject('Page_RegularOrder/Page_PlaceOrderDetail_Reg/button_Basic Info more'))
+
+WebUI.setText(findTestObject('Scenario 10/S10_TC048/input__basic info-orderRefNo'), orderReference)
+
+WebUI.setText(findTestObject('Scenario 10/S10_TC048/input__basic info-remark'), orderReference)
+
+CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Page_RegularOrder/Page_PlaceOrderDetail_Reg/h3_Place Order Detail(Regular)'), 
+    0)
 
 WebUI.uploadFile(findTestObject('Page_RegularOrder/Page_PlaceOrderDetail_Reg/input_UploadFile'), latestFilePath)
 

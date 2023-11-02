@@ -1,6 +1,5 @@
 package util
 
-
 @Grab(group='org.apache.poi', module='poi', version='5.0.0')
 @Grab(group='org.apache.poi', module='poi-ooxml', version='5.0.0')
 
@@ -25,31 +24,28 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 
-
-import org.apache.poi.ss.usermodel.Sheet
-import org.apache.poi.ss.usermodel.Cell
+import org.apache.poi.ss.usermodel.Workbook
+import org.apache.poi.xssf.usermodel.XSSFWorkbook
+//import org.apache.poi.xlsm.usermodel.XSSFWorkbook
+import org.apache.poi.xssf.usermodel.XSSFSheet
+import org.apache.poi.xssf.usermodel.XSSFRow
+import java.io.File
 
 import internal.GlobalVariable
 
 public class convertxlsx2 {
 
+
 	@Keyword
-	def getXLSM(String inputFilePath, int row, int col) {
-		
-		Workbook workbook = WorkbookFactory.create(new File(inputFilePath))
-		
-		Sheet sheet = workbook.getSheetAt(0)
-		
-		Cell cell = sheet.getRow(row).getCell(col)
-		
-		String cellValue = cell.getStringCellValue()
-		
-		println cellValue
-		
-		workbook.close()
-		
-		return cellValue
-		
-		
+	def convertXLSM(String inputFilePath, String outputFilePath) {
+
+		def inputFile = new File(inputFilePath)
+		def outputFile = new File(outputFilePath)
+
+		if (inputFile.exists() && inputFile.renameTo(outputFile)) {
+			println "File converted successfully."
+		} else {
+			println "File conversion failed."
+		}
 	}
 }
