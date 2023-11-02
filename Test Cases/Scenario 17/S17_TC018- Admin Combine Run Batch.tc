@@ -3,6 +3,16 @@
    <description></description>
    <name>S17_TC018- Admin Combine Run Batch</name>
    <tag></tag>
+   <integratedEntity>
+<productName>JIRA</productName>
+<properties>
+<entry>
+<key>integratedValue</key>
+<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i002iw:"},"status":{"id":10000,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10000","name":"To Do"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC17.0_TC18 - admin - ","description":"User: admin \\\\Login ID: \\\\Company: \\\\Function: \u003eCombine order batch \\\\Description:","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-707/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10706","key":"BAT-707","id":10706}}</value>
+</entry>
+</properties>
+<type>TESTCASE</type>
+</integratedEntity>
    <comment></comment>
    <testCaseGuid>d8561b70-859b-408b-a8b6-a76f689ddebb</testCaseGuid>
    <variableLinks>

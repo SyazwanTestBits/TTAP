@@ -6,19 +6,19 @@
    <elementGuidId>ff931f40-f0e9-4daf-842c-0ca169d8cd1c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[4]/div/div[2]/div/div/div/input</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//input[@name = 'contractNo' and @type = 'text' and @value = 'SGTTAP-PKTTAP-FB2-5']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div/div[2]/div/div/div/input</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>input[name=&quot;contractNo&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

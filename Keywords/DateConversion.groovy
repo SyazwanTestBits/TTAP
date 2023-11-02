@@ -47,10 +47,10 @@ public class DateConversion {
 
 	public static String convertChineseToEnglishDate(String chineseDate) {
 		try {
-			
+
 			SimpleDateFormat chineseFormat = new SimpleDateFormat("dd MMMM yyyy", Locale.CHINA);
 			SimpleDateFormat englishFormat = new SimpleDateFormat("dd MMM yyyy", Locale.US);
-			 
+
 
 			Date date = chineseFormat.parse(chineseDate);
 

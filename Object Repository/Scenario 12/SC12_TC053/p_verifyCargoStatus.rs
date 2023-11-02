@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//p[(text() = '${bookingNo}' or . = '${bookingNo}')]//following::td[1][descendant::p[contains(text(), '${containerNo}')]]/following::td[7]</value>
+         <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr[2]/td[2]/div/p</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

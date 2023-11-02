@@ -425,6 +425,8 @@ public class ExcelActions extends DateConversion {
 		for (def rowNum = 17; rowNum <= sheet.getLastRowNum(); rowNum++) {
 			Row row = sheet.getRow(rowNum);
 
+
+
 			// Write Firm value into Column Index 14
 			Cell firmCell = row.createCell(14);
 			firmCell.setCellValue(Double.parseDouble(testData.getValue('Firm', rowNum - 16)));
@@ -720,20 +722,49 @@ public class ExcelActions extends DateConversion {
 		Row row = sheet.getRow(16);
 
 		for(def rowNum=1; rowNum<=testdata.getRowNumbers(); rowNum++) {
+
 			def inboundNewDate1 = testdata.getValue('InboundNewDate1', rowNum)
-			Cell inboundNewDate1_Cell = row.createCell(rowNum+24)
-			inboundNewDate1_Cell.setCellValue(inboundNewDate1);
-			KeywordUtil.logInfo('Writing: ' + inboundNewDate1 + ' in Inbound Date 1');
-
 			def inboundNewDate2 = testdata.getValue('InboundNewDate2', rowNum)
-			Cell inboundNewDate2_Cell = row.createCell(rowNum+25)
-			inboundNewDate2_Cell.setCellValue(inboundNewDate2);
-			KeywordUtil.logInfo('Writing: ' + inboundNewDate2 + ' in Inbound Date 2');
-
 			def inboundNewDate3 = testdata.getValue('InboundNewDate3', rowNum)
-			Cell inboundNewDate3_Cell = row.createCell(rowNum+26)
-			inboundNewDate3_Cell.setCellValue(inboundNewDate3);
-			KeywordUtil.logInfo('Writing: ' + inboundNewDate3 + ' in Inbound Date 3');
+
+			// Define a regular expression to match Chinese characters
+			def chinesePattern = /\p{IsHan}/
+
+			if (inboundNewDate1 =~ chinesePattern || inboundNewDate2 =~ chinesePattern || inboundNewDate3 =~ chinesePattern) {
+
+				def conInboundDate1=super.convertChineseToEnglishDate(inboundNewDate1)
+				def conInboundDate2=super.convertChineseToEnglishDate(inboundNewDate2)
+				def conInboundDate3=super.convertChineseToEnglishDate(inboundNewDate3)
+
+				//def inboundNewDate1 = testdata.getValue('InboundNewDate1', rowNum)
+				Cell inboundNewDate1_Cell = row.createCell(rowNum+24)
+				inboundNewDate1_Cell.setCellValue(conInboundDate1);
+				KeywordUtil.logInfo('Writing: ' + conInboundDate1 + ' in Inbound Date 1');
+
+				//def inboundNewDate2 = testdata.getValue('InboundNewDate2', rowNum)
+				Cell inboundNewDate2_Cell = row.createCell(rowNum+25)
+				inboundNewDate2_Cell.setCellValue(conInboundDate2);
+				KeywordUtil.logInfo('Writing: ' + conInboundDate2 + ' in Inbound Date 2');
+
+				//def inboundNewDate3 = testdata.getValue('InboundNewDate3', rowNum)
+				Cell inboundNewDate3_Cell = row.createCell(rowNum+26)
+				inboundNewDate3_Cell.setCellValue(conInboundDate3);
+				KeywordUtil.logInfo('Writing: ' + conInboundDate3 + ' in Inbound Date 3'); }
+
+			else {
+
+				Cell inboundNewDate1_Cell = row.createCell(rowNum+24)
+				inboundNewDate1_Cell.setCellValue(inboundNewDate1);
+				KeywordUtil.logInfo('Writing: ' + inboundNewDate1 + ' in Inbound Date 1');
+
+				Cell inboundNewDate2_Cell = row.createCell(rowNum+25)
+				inboundNewDate2_Cell.setCellValue(inboundNewDate2);
+				KeywordUtil.logInfo('Writing: ' + inboundNewDate2 + ' in Inbound Date 2');
+
+				Cell inboundNewDate3_Cell = row.createCell(rowNum+26)
+				inboundNewDate3_Cell.setCellValue(inboundNewDate3);
+				KeywordUtil.logInfo('Writing: ' + inboundNewDate3 + ' in Inbound Date 3');}
+
 		}
 
 		// Evaluate all formulas in the workbook
@@ -823,7 +854,7 @@ public class ExcelActions extends DateConversion {
 		// Get the value of Inbound Date 1 from the test data
 		def inboundDate1 = testData.getValue('Inbound_Date1', 1)
 		def inboundDate2 = testData.getValue('Inbound_Date2', 1)
-		
+
 
 		// Define a regular expression to match Chinese characters
 		def chinesePattern = /\p{IsHan}/
@@ -874,219 +905,219 @@ public class ExcelActions extends DateConversion {
 		workbook.write(fos);
 		fos.close(); }
 
-		
-		def writeIntoExcelPlaceOrderSpotInboundDateSC12(String path, String contract_no) {
-			// Open the workbook and sheet
-			FileInputStream fis = new FileInputStream(path);
-			XSSFWorkbook workbook = new XSSFWorkbook(fis);
-			XSSFSheet sheet = workbook.getSheet(contract_no);
 
-			// Create an evaluator to recalculate formulas in the workbook
-			def evaluator = workbook.getCreationHelper().createFormulaEvaluator()
+	def writeIntoExcelPlaceOrderSpotInboundDateSC12(String path, String contract_no) {
+		// Open the workbook and sheet
+		FileInputStream fis = new FileInputStream(path);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		XSSFSheet sheet = workbook.getSheet(contract_no);
 
-			// Find test data
-			def testData = findTestData('Data Files/Scenario 12/SC12_TC011-Inbound Dates Spot')
+		// Create an evaluator to recalculate formulas in the workbook
+		def evaluator = workbook.getCreationHelper().createFormulaEvaluator()
 
-			// Get the value of Inbound Date 1 from the test data
-			def inboundDate1 = testData.getValue('Inbound_Date1', 1)
-			
-			// Define a regular expression to match Chinese characters
-			def chinesePattern = /\p{IsHan}/
-	
-			if (inboundDate1 =~ chinesePattern) {
-				// Enter this block if either inboundDate1 or inboundDate2 contains Chinese characters
-				// Add your code here to handle the case when Chinese characters are found
-				println("Chinese characters found in inboundDate1")
-	
-				def conInboundDate1=super.convertChineseToEnglishDate(inboundDate1)
-	
-	
-				// Get the row for Inbound Date 1
-				Row row = sheet.getRow(16);
-	
-				// Write Inbound Date 1 value into Column Index 19
-				Cell inboudDate1_Cell = row.createCell(19);
-				inboudDate1_Cell.setCellValue(conInboundDate1);
-			}
-			else {
+		// Find test data
+		def testData = findTestData('Data Files/Scenario 12/SC12_TC011-Inbound Dates Spot')
 
-				// Get the row for Inbound Date 1
-				Row row = sheet.getRow(16);
+		// Get the value of Inbound Date 1 from the test data
+		def inboundDate1 = testData.getValue('Inbound_Date1', 1)
 
-				// Write Inbound Date 1 value into Column Index 19
-				Cell inboudDate1_Cell = row.createCell(19);
-				inboudDate1_Cell.setCellValue(inboundDate1);}
+		// Define a regular expression to match Chinese characters
+		def chinesePattern = /\p{IsHan}/
 
+		if (inboundDate1 =~ chinesePattern) {
+			// Enter this block if either inboundDate1 or inboundDate2 contains Chinese characters
+			// Add your code here to handle the case when Chinese characters are found
+			println("Chinese characters found in inboundDate1")
 
-			KeywordUtil.logInfo('Writing: ' + inboundDate1 + ' in Place Order');
+			def conInboundDate1=super.convertChineseToEnglishDate(inboundDate1)
 
-			// Evaluate all formulas in the workbook
-			evaluator.evaluateAll()
-
-			// Save changes to the Excel file
-			FileOutputStream fos = new FileOutputStream(path);
-			workbook.write(fos);
-			fos.close();
-		}
-
-		//SCENARIO 17 - STARTS FROM HERE
-
-		@Keyword(keywordObject='Excel Actions')
-		def writeIntoExcelPlaceOrderRegularInboundDateS17(String path, String contract_no) {
-			// Open the workbook and sheet
-			FileInputStream fis = new FileInputStream(path);
-			XSSFWorkbook workbook = new XSSFWorkbook(fis);
-			XSSFSheet sheet = workbook.getSheet(contract_no);
-
-			// Create an evaluator to recalculate formulas in the workbook
-			def evaluator = workbook.getCreationHelper().createFormulaEvaluator()
-
-			// Find test data
-			def testData = findTestData('Data Files/Scenario 17/S17_TC016.1- Inbound Date')
-
-			// Get the value of Inbound Date 1 from the test data
-			def inboundDate1 = testData.getValue('InboundDate1', 1)
-
-			// Get the value of Inbound Date 2 from the test data
-			def inboundDate2 = testData.getValue('InboundDate2', 1)
 
 			// Get the row for Inbound Date 1
 			Row row = sheet.getRow(16);
 
-			// Write Inbound Date 1 value into Column Index 24
-			Cell inboudDate1_Cell = row.createCell(24);
-			inboudDate1_Cell.setCellValue(inboundDate1);
-
-			KeywordUtil.logInfo('Writing: ' + inboundDate1 + ' in Place Order');
-
-			// Write Inbound Date 1 value into Column Index 25
-			Cell inboudDate2_Cell = row.createCell(25);
-			inboudDate2_Cell.setCellValue(inboundDate2);
-
-			KeywordUtil.logInfo('Writing: ' + inboundDate2 + ' in Place Order');
-
-			// Evaluate all formulas in the workbook
-			evaluator.evaluateAll()
-
-			// Save changes to the Excel file
-			FileOutputStream fos = new FileOutputStream(path);
-			workbook.write(fos);
-			fos.close();
+			// Write Inbound Date 1 value into Column Index 19
+			Cell inboudDate1_Cell = row.createCell(19);
+			inboudDate1_Cell.setCellValue(conInboundDate1);
 		}
-
-		//SCENARIO 9 - STARTS FROM HERE
-
-		/**
-		 * Writes data into an Excel file for regular place order.
-		 *
-		 * @param path        The file path of the Excel file.
-		 * @param contract_no The name of the sheet within the Excel file.
-		 */
-		@Keyword(keywordObject='Excel Actions')
-		def writeIntoExcelPlaceOrderRegularS9_TC41(String path, String contract_no) {
-			// Find test data
-			def testData = findTestData('Data Files/Scenario 9/S9_TC041-CUS Reg Order (Firm)')
-
-			// Write inbound date
-			writeIntoExcelPlaceOrderRegularInboundDateS9_TC41(path, contract_no)
-
-			// Open the workbook and sheet
-			FileInputStream fis = new FileInputStream(path);
-			XSSFWorkbook workbook = new XSSFWorkbook(fis);
-			XSSFSheet sheet = workbook.getSheet(contract_no);
-
-			// Unprotect the sheet if it's protected with a password
-			sheet.protectSheet(null)
-
-			// Create an evaluator to recalculate formulas in the workbook
-			def evaluator = workbook.getCreationHelper().createFormulaEvaluator()
-
-			// Create number format style
-			DataFormat dataFormat = workbook.createDataFormat()
-			CellStyle numberStyle = workbook.createCellStyle()
-			numberStyle.setDataFormat(dataFormat.getFormat("0"))
-
-			// Iterate over rows and set cell values
-			for (def rowNum = 17; rowNum <= sheet.getLastRowNum(); rowNum++) {
-				Row row = sheet.getRow(rowNum);
-
-				// Write Firm value into Column Index 14
-				Cell firmCell = row.createCell(14);
-				firmCell.setCellValue(Double.parseDouble(testData.getValue('Firm', rowNum - 16)));
-				firmCell.setCellStyle(numberStyle);
-				KeywordUtil.logInfo('Writing: ' + Double.parseDouble(testData.getValue('Firm', rowNum - 16)).toString() + ' in Place Order Form');
-
-				// Write Forecast N+1 value into Column Index 20
-				Cell forecastn1Cell = row.createCell(20);
-				forecastn1Cell.setCellValue(Double.parseDouble(testData.getValue('ForecastN1', rowNum - 16)));
-				forecastn1Cell.setCellStyle(numberStyle);
-				KeywordUtil.logInfo('Writing: ' + Double.parseDouble(testData.getValue('ForecastN1', rowNum - 16)).toString() + ' in Place Order Form');
-
-				// Write Inbound Qty value into Column Index 24
-				Cell inboundQty1 = row.createCell(24);
-				inboundQty1.setCellValue(Double.parseDouble(testData.getValue('InboundDate1Qty', rowNum - 16)));
-				inboundQty1.setCellStyle(numberStyle);
-				KeywordUtil.logInfo('Writing: ' + Double.parseDouble(testData.getValue('InboundDate1Qty', rowNum - 16)).toString() + ' in Place Order Form');
-
-				// Write Inbound Qty value into Column Index 25
-				Cell inboundQty2 = row.createCell(25);
-				inboundQty2.setCellValue(Double.parseDouble(testData.getValue('InboundDate2Qty', rowNum - 16)));
-				inboundQty2.setCellStyle(numberStyle);
-				KeywordUtil.logInfo('Writing: ' + Double.parseDouble(testData.getValue('InboundDate2Qty', rowNum - 16)).toString() + ' in Place Order Form');
-			}
-
-			// Evaluate all formulas in the workbook
-			evaluator.evaluateAll()
-
-			// Save changes to the Excel file
-			FileOutputStream fos = new FileOutputStream(path);
-			workbook.write(fos);
-			fos.close();
-
-			KeywordUtil.logInfo('Finish Writing Place Order Form Excel: ' + path)
-		}
-
-		def writeIntoExcelPlaceOrderRegularInboundDateS9_TC41(String path, String contract_no) {
-			// Open the workbook and sheet
-			FileInputStream fis = new FileInputStream(path);
-			XSSFWorkbook workbook = new XSSFWorkbook(fis);
-			XSSFSheet sheet = workbook.getSheet(contract_no);
-
-			// Create an evaluator to recalculate formulas in the workbook
-			def evaluator = workbook.getCreationHelper().createFormulaEvaluator()
-
-			// Find test data
-			def testData = findTestData('Data Files/Scenario 9/S9_TC041-CUS Reg Order (Date)')
-
-			// Get the value of Inbound Date 1 from the test data
-			def inboundDate1 = testData.getValue('InboundDate1', 1)
-
-			// Get the value of Inbound Date 2 from the test data
-			def inboundDate2 = testData.getValue('InboundDate2', 1)
+		else {
 
 			// Get the row for Inbound Date 1
 			Row row = sheet.getRow(16);
 
-			// Write Inbound Date 1 value into Column Index 24
-			Cell inboudDate1_Cell = row.createCell(24);
-			inboudDate1_Cell.setCellValue(inboundDate1);
-
-			KeywordUtil.logInfo('Writing: ' + inboundDate1 + ' in Place Order');
-
-			// Write Inbound Date 1 value into Column Index 25
-			Cell inboudDate2_Cell = row.createCell(25);
-			inboudDate2_Cell.setCellValue(inboundDate2);
-
-			KeywordUtil.logInfo('Writing: ' + inboundDate2 + ' in Place Order');
-
-			// Evaluate all formulas in the workbook
-			evaluator.evaluateAll()
-
-			// Save changes to the Excel file
-			FileOutputStream fos = new FileOutputStream(path);
-			workbook.write(fos);
-			fos.close();
-		}
+			// Write Inbound Date 1 value into Column Index 19
+			Cell inboudDate1_Cell = row.createCell(19);
+			inboudDate1_Cell.setCellValue(inboundDate1);}
 
 
+		KeywordUtil.logInfo('Writing: ' + inboundDate1 + ' in Place Order');
+
+		// Evaluate all formulas in the workbook
+		evaluator.evaluateAll()
+
+		// Save changes to the Excel file
+		FileOutputStream fos = new FileOutputStream(path);
+		workbook.write(fos);
+		fos.close();
 	}
+
+	//SCENARIO 17 - STARTS FROM HERE
+
+	@Keyword(keywordObject='Excel Actions')
+	def writeIntoExcelPlaceOrderRegularInboundDateS17(String path, String contract_no) {
+		// Open the workbook and sheet
+		FileInputStream fis = new FileInputStream(path);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		XSSFSheet sheet = workbook.getSheet(contract_no);
+
+		// Create an evaluator to recalculate formulas in the workbook
+		def evaluator = workbook.getCreationHelper().createFormulaEvaluator()
+
+		// Find test data
+		def testData = findTestData('Data Files/Scenario 17/S17_TC016.1- Inbound Date')
+
+		// Get the value of Inbound Date 1 from the test data
+		def inboundDate1 = testData.getValue('InboundDate1', 1)
+
+		// Get the value of Inbound Date 2 from the test data
+		def inboundDate2 = testData.getValue('InboundDate2', 1)
+
+		// Get the row for Inbound Date 1
+		Row row = sheet.getRow(16);
+
+		// Write Inbound Date 1 value into Column Index 24
+		Cell inboudDate1_Cell = row.createCell(24);
+		inboudDate1_Cell.setCellValue(inboundDate1);
+
+		KeywordUtil.logInfo('Writing: ' + inboundDate1 + ' in Place Order');
+
+		// Write Inbound Date 1 value into Column Index 25
+		Cell inboudDate2_Cell = row.createCell(25);
+		inboudDate2_Cell.setCellValue(inboundDate2);
+
+		KeywordUtil.logInfo('Writing: ' + inboundDate2 + ' in Place Order');
+
+		// Evaluate all formulas in the workbook
+		evaluator.evaluateAll()
+
+		// Save changes to the Excel file
+		FileOutputStream fos = new FileOutputStream(path);
+		workbook.write(fos);
+		fos.close();
+	}
+
+	//SCENARIO 9 - STARTS FROM HERE
+
+	/**
+	 * Writes data into an Excel file for regular place order.
+	 *
+	 * @param path        The file path of the Excel file.
+	 * @param contract_no The name of the sheet within the Excel file.
+	 */
+	@Keyword(keywordObject='Excel Actions')
+	def writeIntoExcelPlaceOrderRegularS9_TC41(String path, String contract_no) {
+		// Find test data
+		def testData = findTestData('Data Files/Scenario 9/S9_TC041-CUS Reg Order (Firm)')
+
+		// Write inbound date
+		writeIntoExcelPlaceOrderRegularInboundDateS9_TC41(path, contract_no)
+
+		// Open the workbook and sheet
+		FileInputStream fis = new FileInputStream(path);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		XSSFSheet sheet = workbook.getSheet(contract_no);
+
+		// Unprotect the sheet if it's protected with a password
+		sheet.protectSheet(null)
+
+		// Create an evaluator to recalculate formulas in the workbook
+		def evaluator = workbook.getCreationHelper().createFormulaEvaluator()
+
+		// Create number format style
+		DataFormat dataFormat = workbook.createDataFormat()
+		CellStyle numberStyle = workbook.createCellStyle()
+		numberStyle.setDataFormat(dataFormat.getFormat("0"))
+
+		// Iterate over rows and set cell values
+		for (def rowNum = 17; rowNum <= sheet.getLastRowNum(); rowNum++) {
+			Row row = sheet.getRow(rowNum);
+
+			// Write Firm value into Column Index 14
+			Cell firmCell = row.createCell(14);
+			firmCell.setCellValue(Double.parseDouble(testData.getValue('Firm', rowNum - 16)));
+			firmCell.setCellStyle(numberStyle);
+			KeywordUtil.logInfo('Writing: ' + Double.parseDouble(testData.getValue('Firm', rowNum - 16)).toString() + ' in Place Order Form');
+
+			// Write Forecast N+1 value into Column Index 20
+			Cell forecastn1Cell = row.createCell(20);
+			forecastn1Cell.setCellValue(Double.parseDouble(testData.getValue('ForecastN1', rowNum - 16)));
+			forecastn1Cell.setCellStyle(numberStyle);
+			KeywordUtil.logInfo('Writing: ' + Double.parseDouble(testData.getValue('ForecastN1', rowNum - 16)).toString() + ' in Place Order Form');
+
+			// Write Inbound Qty value into Column Index 24
+			Cell inboundQty1 = row.createCell(24);
+			inboundQty1.setCellValue(Double.parseDouble(testData.getValue('InboundDate1Qty', rowNum - 16)));
+			inboundQty1.setCellStyle(numberStyle);
+			KeywordUtil.logInfo('Writing: ' + Double.parseDouble(testData.getValue('InboundDate1Qty', rowNum - 16)).toString() + ' in Place Order Form');
+
+			// Write Inbound Qty value into Column Index 25
+			Cell inboundQty2 = row.createCell(25);
+			inboundQty2.setCellValue(Double.parseDouble(testData.getValue('InboundDate2Qty', rowNum - 16)));
+			inboundQty2.setCellStyle(numberStyle);
+			KeywordUtil.logInfo('Writing: ' + Double.parseDouble(testData.getValue('InboundDate2Qty', rowNum - 16)).toString() + ' in Place Order Form');
+		}
+
+		// Evaluate all formulas in the workbook
+		evaluator.evaluateAll()
+
+		// Save changes to the Excel file
+		FileOutputStream fos = new FileOutputStream(path);
+		workbook.write(fos);
+		fos.close();
+
+		KeywordUtil.logInfo('Finish Writing Place Order Form Excel: ' + path)
+	}
+
+	def writeIntoExcelPlaceOrderRegularInboundDateS9_TC41(String path, String contract_no) {
+		// Open the workbook and sheet
+		FileInputStream fis = new FileInputStream(path);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		XSSFSheet sheet = workbook.getSheet(contract_no);
+
+		// Create an evaluator to recalculate formulas in the workbook
+		def evaluator = workbook.getCreationHelper().createFormulaEvaluator()
+
+		// Find test data
+		def testData = findTestData('Data Files/Scenario 9/S9_TC041-CUS Reg Order (Date)')
+
+		// Get the value of Inbound Date 1 from the test data
+		def inboundDate1 = testData.getValue('InboundDate1', 1)
+
+		// Get the value of Inbound Date 2 from the test data
+		def inboundDate2 = testData.getValue('InboundDate2', 1)
+
+		// Get the row for Inbound Date 1
+		Row row = sheet.getRow(16);
+
+		// Write Inbound Date 1 value into Column Index 24
+		Cell inboudDate1_Cell = row.createCell(24);
+		inboudDate1_Cell.setCellValue(inboundDate1);
+
+		KeywordUtil.logInfo('Writing: ' + inboundDate1 + ' in Place Order');
+
+		// Write Inbound Date 1 value into Column Index 25
+		Cell inboudDate2_Cell = row.createCell(25);
+		inboudDate2_Cell.setCellValue(inboundDate2);
+
+		KeywordUtil.logInfo('Writing: ' + inboundDate2 + ' in Place Order');
+
+		// Evaluate all formulas in the workbook
+		evaluator.evaluateAll()
+
+		// Save changes to the Excel file
+		FileOutputStream fos = new FileOutputStream(path);
+		workbook.write(fos);
+		fos.close();
+	}
+
+
+}

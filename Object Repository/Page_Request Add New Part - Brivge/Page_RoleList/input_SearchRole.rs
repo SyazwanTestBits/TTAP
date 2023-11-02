@@ -6,19 +6,19 @@
    <elementGuidId>888046f3-de62-4ae9-8c1d-bff00a52e090</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.lcbm-MuiInputBase-input.lcbm-MuiFilledInput-input.lcbm-lcbm539.lcbm-MuiInputBase-inputAdornedEnd.lcbm-MuiFilledInput-inputAdornedEnd</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[2]/div/div/div/div/div[1]/div/span[1]/div/input</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//input[@type = 'text']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.lcbm-MuiInputBase-input.lcbm-MuiFilledInput-input.lcbm-lcbm539.lcbm-MuiInputBase-inputAdornedEnd.lcbm-MuiFilledInput-inputAdornedEnd</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
