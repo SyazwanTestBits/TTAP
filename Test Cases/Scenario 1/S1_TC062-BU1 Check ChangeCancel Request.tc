@@ -24,14 +24,14 @@
       <variableId>170941d3-8ab3-4e44-84e1-8ab6f626a9e9</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('Scenario 1/S1_TC54-Change Request No').getValue('Sup1 RequestNo', 1)</defaultValue>
+      <defaultValue>findTestData('Scenario 1/S1_TC054-Change Request No').getValue('Sup1 RequestNo', 1)</defaultValue>
       <description></description>
       <id>1228ea7e-4098-4371-8401-9a0947ffd4e2</id>
       <masked>false</masked>
       <name>Supplier1_RequestNo</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('Scenario 1/S1_TC54-Change Request No').getValue('Sup2 RequestNo', 1)</defaultValue>
+      <defaultValue>findTestData('Scenario 1/S1_TC504-Change Request No').getValue('Sup2 RequestNo', 1)</defaultValue>
       <description></description>
       <id>1228ea7e-4098-4371-8401-9a0947ffd4e2</id>
       <masked>false</masked>
