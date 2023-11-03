@@ -3,6 +3,16 @@
    <description></description>
    <name>S13_TC077 - Supplier Check Cargo Tracking Detail - after Complete Import Customs Invoice</name>
    <tag></tag>
+   <integratedEntity>
+<productName>JIRA</productName>
+<properties>
+<entry>
+<key>integratedValue</key>
+<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10025":"10000_*:*_1_*:*_266504063_*|*_10002_*:*_1_*:*_0_*|*_10001_*:*_1_*:*_331280643","customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i0001b:200000294"},"status":{"id":10002,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10002","name":"Done"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC13_TC77 - Supplier -Check Cargo Tracking Detail after Customer Complete Import Customs Invoice","description":"User: Supplier\\\\Login ID: userA\\\\Company: CNTW-SUP-POC\\\\Function:Logistics\u003e Cargo Tracking Detail\\\\Description:Check Cargo Tracking Detail after Customer Complete Import Customs Invoice","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"resolution":{"id":10000,"description":"Work has been completed on this issue.","self":"https://ttap-scm-at.atlassian.net/rest/api/2/resolution/10000","name":"Done"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-89/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10088","key":"BAT-89","id":10088}}</value>
+</entry>
+</properties>
+<type>TESTCASE</type>
+</integratedEntity>
    <comment></comment>
    <testCaseGuid>3e63755c-7f05-4c90-ad1c-51a13d0b3208</testCaseGuid>
    <variableLinks>

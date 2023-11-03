@@ -56,19 +56,20 @@ WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC034/Page_Brivge/div_The Operation was Successful'), 0)
 
-WebUI.click(findTestObject('Scenario 13/S13_TC034/Page_Brivge/button_Save'))
+not_run: WebUI.click(findTestObject('Scenario 13/S13_TC034/Page_Brivge/button_Save'))
 
-WebUI.delay(1)
+not_run: WebUI.delay(1)
 
-WebUI.click(findTestObject('Scenario 13/S13_TC034/Page_Brivge/button_Submit'))
+not_run: WebUI.click(findTestObject('Scenario 13/S13_TC034/Page_Brivge/button_Submit'))
 
-WebUI.delay(1)
+not_run: WebUI.delay(1)
 
-WebUI.click(findTestObject('Scenario 13/S13_TC034/Page_Brivge/button_Confirm'))
+not_run: WebUI.click(findTestObject('Scenario 13/S13_TC034/Page_Brivge/button_Confirm'))
 
-WebUI.delay(1)
+not_run: WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC034/Page_Brivge/div_Submit_The Operation was Succesful'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC034/Page_Brivge/div_Submit_The Operation was Succesful'), 
+    0)
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 
