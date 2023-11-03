@@ -12,6 +12,6 @@
    <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>TC21_28-OrderNo Regular</sheetName>
+   <sheetName>TC022</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

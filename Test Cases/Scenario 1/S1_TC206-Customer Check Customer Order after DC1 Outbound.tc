@@ -56,7 +56,7 @@
       <name>regularOrderNo</name>
    </variable>
    <variable>
-      <defaultValue>['Parts No', 'Unit Parts No', 'Back No', 'Sales Order No', 'Supplier Code', 'SPQ', 'Order Lot', 'Order Qty', 'Force Completed Qty', 'Unit Price', 'Currency', 'Status', 'Inbounded Qty', 'Inbound Plan Qty 1', 'Inbound Plan Status 1', 'Inbound Plan Qty 2', 'Inbound Plan Status 2', 'Inbound Plan Qty 3', 'Inbound Plan Status 3', 'Inbound Plan Qty 4', 'Inbound Plan Status 4']</defaultValue>
+      <defaultValue>['Parts No', 'Unit Parts No', 'Back No', 'Sales Order No', 'Supplier Code', 'SPQ', 'Order Lot', 'Order Qty', 'Force Completed Qty', 'Unit Price', 'Currency', 'Status', 'Inbounded Qty', 'Inbound Plan Qty 1', 'Inbound Plan Status 1', 'Inbound Plan Qty 2', 'Inbound Plan Status 2', 'Inbound Plan Qty 3', 'Inbound Plan Status 3']</defaultValue>
       <description></description>
       <id>f4886cc0-a597-4847-85cd-4015379c8996</id>
       <masked>false</masked>

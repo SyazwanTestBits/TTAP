@@ -9,7 +9,31 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>9f59b68c-84c9-4c07-b7bf-7fe6d351f7cb</variableId>
+      <variableId>fbf99399-4f58-475a-8738-11302c550e28</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bc716e38-6f35-497d-8da3-17afa764ab72</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7c91077b-676d-48a7-b258-51c77cce6747</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e42ff352-66e2-402d-8cf5-c113cd8c47e0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>022f1141-d043-404f-bac8-e7d1d64736e8</variableId>
    </variableLinks>
    <variable>
       <defaultValue>findTestData('Scenario 1/S1_TC047-AutoGen OrderNo Spot').getValue('BU3_PO', 1)</defaultValue>

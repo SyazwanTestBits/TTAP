@@ -41,11 +41,9 @@ WebUI.takeFullPageScreenshot()
 
 // NON-PORTCAST CONTAINER 
 for (int row = 1; row <= 2; row++) {
-    String bookingNo = findTestData('Data Files/Scenario 1/S1_TC202.1-BU3 Cargo Tracking').getValue('BookingNo', 
-        row)
+    String bookingNo = findTestData('Data Files/Scenario 1/S1_TC202.1-BU3 Cargo Tracking').getValue('BookingNo', row)
 
-    String contnum2 = findTestData('Data Files/Scenario 1/S1_TC202.1-BU3 Cargo Tracking').getValue('ContainerNo', 
-        row)
+    String contnum2 = findTestData('Data Files/Scenario 1/S1_TC202.1-BU3 Cargo Tracking').getValue('ContainerNo', row)
 
     String titlecontnum2 = ''
 
@@ -55,8 +53,7 @@ for (int row = 1; row <= 2; row++) {
         titlecontnum2 = contnum2
     }
     
-    String trackType = findTestData('Data Files/Scenario 1/S1_TC202.1-BU3 Cargo Tracking').getValue('TrackingType', 
-        row)
+    String trackType = findTestData('Data Files/Scenario 1/S1_TC202.1-BU3 Cargo Tracking').getValue('TrackingType', row)
 
     String mainforpath2 = (('Booking Number: ' + bookingNo) + '    Container Number: ') + contnum2
 
@@ -89,8 +86,7 @@ for (int row = 1; row <= 2; row++) {
             [('maintitle') : mainforpath2]), 1)
 
     for (String milestonecol : milestone) {
-        String sytle2 = findTestData('Data Files/Scenario 1/S1_TC202.1-BU3 Cargo Tracking').getValue(milestonecol, 
-            row)
+        String sytle2 = findTestData('Data Files/Scenario 1/S1_TC202.1-BU3 Cargo Tracking').getValue(milestonecol, row)
 
         WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC064,065/p_milestonelist v1_1', [('maintitle') : mainforpath2
                     , ('milestonecol') : milestonecol]), 0)
@@ -107,11 +103,9 @@ for (int row = 1; row <= 2; row++) {
 
 // PORTCAST CONTAINER-1 
 for (int row = 1; row <= 1; row++) {
-    String bookingNo = findTestData('Data Files/Scenario 1/S1_TC202.2-BU3 Cargo Tracking').getValue('BookingNo', 
-        row)
+    String bookingNo = findTestData('Data Files/Scenario 1/S1_TC202.2-BU3 Cargo Tracking').getValue('BookingNo', row)
 
-    String contnum2 = findTestData('Data Files/Scenario 1/S1_TC202.2-BU3 Cargo Tracking').getValue('ContainerNo', 
-        row)
+    String contnum2 = findTestData('Data Files/Scenario 1/S1_TC202.2-BU3 Cargo Tracking').getValue('ContainerNo', row)
 
     String titlecontnum2 = ''
 
@@ -121,8 +115,7 @@ for (int row = 1; row <= 1; row++) {
         titlecontnum2 = contnum2
     }
     
-    String trackType = findTestData('Data Files/Scenario 1/S1_TC202.2-BU3 Cargo Tracking').getValue('TrackingType', 
-        row)
+    String trackType = findTestData('Data Files/Scenario 1/S1_TC202.2-BU3 Cargo Tracking').getValue('TrackingType', row)
 
     String mainforpath2 = (('Booking Number: ' + bookingNo) + '    Container Number: ') + contnum2
 
@@ -157,8 +150,7 @@ for (int row = 1; row <= 1; row++) {
             [('maintitle') : mainforpath2]), 1)
 
     for (String milestonecol : milestoneREALTIME) {
-        String sytle2 = findTestData('Data Files/Scenario 1/S1_TC202.2-BU3 Cargo Tracking').getValue(milestonecol, 
-            row)
+        String sytle2 = findTestData('Data Files/Scenario 1/S1_TC202.2-BU3 Cargo Tracking').getValue(milestonecol, row)
 
         WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC064,065/p_milestonelist v1_1', [('maintitle') : mainforpath2
                     , ('milestonecol') : milestonecol]), 0)
@@ -175,11 +167,9 @@ for (int row = 1; row <= 1; row++) {
 
 // PORTCAST CONTAINER-2 
 for (int row = 1; row <= 1; row++) {
-    String bookingNo = findTestData('Data Files/Scenario 1/S1_TC202.3-BU3 Cargo Tracking').getValue('BookingNo', 
-        row)
+    String bookingNo = findTestData('Data Files/Scenario 1/S1_TC202.3-BU3 Cargo Tracking').getValue('BookingNo', row)
 
-    String contnum2 = findTestData('Data Files/Scenario 1/S1_TC202.3-BU3 Cargo Tracking').getValue('ContainerNo', 
-        row)
+    String contnum2 = findTestData('Data Files/Scenario 1/S1_TC202.3-BU3 Cargo Tracking').getValue('ContainerNo', row)
 
     String titlecontnum2 = ''
 
@@ -189,8 +179,7 @@ for (int row = 1; row <= 1; row++) {
         titlecontnum2 = contnum2
     }
     
-    String trackType = findTestData('Data Files/Scenario 1/S1_TC202.3-BU3 Cargo Tracking').getValue('TrackingType', 
-        row)
+    String trackType = findTestData('Data Files/Scenario 1/S1_TC202.3-BU3 Cargo Tracking').getValue('TrackingType', row)
 
     String mainforpath2 = (('Booking Number: ' + bookingNo) + '    Container Number: ') + contnum2
 
@@ -225,8 +214,7 @@ for (int row = 1; row <= 1; row++) {
             [('maintitle') : mainforpath2]), 1)
 
     for (String milestonecol : milestoneREALTIME2) {
-        String sytle2 = findTestData('Data Files/Scenario 1/S1_TC202.3-BU3 Cargo Tracking').getValue(milestonecol, 
-            row)
+        String sytle2 = findTestData('Data Files/Scenario 1/S1_TC202.3-BU3 Cargo Tracking').getValue(milestonecol, row)
 
         WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC064,065/p_milestonelist v1_1', [('maintitle') : mainforpath2
                     , ('milestonecol') : milestonecol]), 0)
@@ -243,11 +231,9 @@ for (int row = 1; row <= 1; row++) {
 
 // DC3 CONTAINERS
 for (int row = 1; row <= 3; row++) {
-    String bookingNo = findTestData('Data Files/Scenario 1/S1_TC202.4-BU3 Cargo Tracking').getValue('BookingNo', 
-        row)
+    String bookingNo = findTestData('Data Files/Scenario 1/S1_TC202.4-BU3 Cargo Tracking').getValue('BookingNo', row)
 
-    String contnum2 = findTestData('Data Files/Scenario 1/S1_TC202.4-BU3 Cargo Tracking').getValue('ContainerNo', 
-        row)
+    String contnum2 = findTestData('Data Files/Scenario 1/S1_TC202.4-BU3 Cargo Tracking').getValue('ContainerNo', row)
 
     String titlecontnum2 = ''
 
@@ -257,8 +243,7 @@ for (int row = 1; row <= 3; row++) {
         titlecontnum2 = contnum2
     }
     
-    String trackType = findTestData('Data Files/Scenario 1/S1_TC202.4-BU3 Cargo Tracking').getValue('TrackingType', 
-        row)
+    String trackType = findTestData('Data Files/Scenario 1/S1_TC202.4-BU3 Cargo Tracking').getValue('TrackingType', row)
 
     String mainforpath2 = (('Booking Number: ' + bookingNo) + '    Container Number: ') + contnum2
 
@@ -282,9 +267,9 @@ for (int row = 1; row <= 3; row++) {
     KeywordUtil.logInfo("VERIFIED TRACKING TYPE: $trackType")
 
     if (trackType == 'REAL-TIME') {
-		
-		WebUI.scrollToElement(findTestObject('Page_Cargo Tracking Detail - Brivge/button_BookingNumber_First'), 0)
-		
+        CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Object Repository/Page_Cargo Tracking Detail - Brivge/Page_Cargo Tracking Detail - Brivge/div_2'), 
+            0)
+
         WebUI.click(findTestObject('Scenario 13/S13_TC064,065/div_trackingType v1_1', [('maintitle') : mainforpath2, ('tracktype') : trackType]))
 
         WebUI.click(findTestObject('Scenario 13/S13_TC064,065/li_tracktype (1)'))
@@ -294,8 +279,7 @@ for (int row = 1; row <= 3; row++) {
             [('maintitle') : mainforpath2]), 1)
 
     for (String milestonecol : milestone2) {
-        String sytle2 = findTestData('Data Files/Scenario 1/S1_TC202.4-BU3 Cargo Tracking').getValue(milestonecol, 
-            row)
+        String sytle2 = findTestData('Data Files/Scenario 1/S1_TC202.4-BU3 Cargo Tracking').getValue(milestonecol, row)
 
         WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC064,065/p_milestonelist v1_1', [('maintitle') : mainforpath2
                     , ('milestonecol') : milestonecol]), 0)

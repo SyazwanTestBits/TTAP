@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC218-BU1 Check Sales Order after DC1 Outbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6435c967-44ec-46b0-9e5c-2f0303cbb9fd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a110c7c3-18ea-4137-96e7-71dbc2b960a4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1630abff-7b67-4c03-a4d8-6da067fc0cfc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bfe09a9d-51de-4b1c-9c0c-7ed754cfd07c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8fe4840d-a3b6-4226-bf76-53d406c3cc0f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>99d73461-8070-4464-a6d3-4bdb19e3ca7c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>99d73461-8070-4464-a6d3-4bdb19e3ca7c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC047-AutoGen OrderNo Spot').getValue('BU1_SO', 1)</defaultValue>
+      <description></description>
+      <id>a110c7c3-18ea-4137-96e7-71dbc2b960a4</id>
+      <masked>false</masked>
+      <name>spotOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC020-AutoGen SO PO number').getValue('BU1_SO', 1)</defaultValue>
+      <description></description>
+      <id>1630abff-7b67-4c03-a4d8-6da067fc0cfc</id>
+      <masked>false</masked>
+      <name>regularOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC218.1-BU1 SO -Regular')</defaultValue>
+      <description></description>
+      <id>bfe09a9d-51de-4b1c-9c0c-7ed754cfd07c</id>
+      <masked>false</masked>
+      <name>datafile_regular</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC218.2-BU1 SO -Spot')</defaultValue>
+      <description></description>
+      <id>8fe4840d-a3b6-4226-bf76-53d406c3cc0f</id>
+      <masked>false</masked>
+      <name>datafile_spot</name>
+   </variable>
+   <variable>
+      <defaultValue>['Parts No', 'Unit Parts No', 'Back No', 'Purchase Order No', 'Customer', 'SPQ', 'Order Lot', 'Order Qty', 'Unit Price', 'Currency', 'Status', 'Delivered Qty', 'InTransit Qty', 'Receiver Inbounded Qty', 'Plan Qty 1', 'Plan Status 1', 'Plan Qty 2', 'Plan Status 2', 'Plan Qty 3', 'Plan Status 3']</defaultValue>
+      <description></description>
+      <id>1c1c2743-2e96-4e34-ad6a-c282f6612f63</id>
+      <masked>false</masked>
+      <name>columnname_regular</name>
+   </variable>
+   <variable>
+      <defaultValue>['Parts No', 'Unit Parts No', 'Back No', 'Purchase Order No', 'Customer', 'SPQ', 'Order Lot', 'Order Qty', 'Unit Price', 'Currency', 'Status', 'Delivered Qty', 'InTransit Qty', 'Receiver Inbounded Qty', 'Plan Qty 1', 'Plan Status 1', 'Plan Qty 2', 'Plan Status 2']</defaultValue>
+      <description></description>
+      <id>99d73461-8070-4464-a6d3-4bdb19e3ca7c</id>
+      <masked>false</masked>
+      <name>columnname_spot</name>
+   </variable>
+</TestCaseEntity>
