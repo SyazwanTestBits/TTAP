@@ -40,6 +40,8 @@ WebUI.click(findTestObject('Scenario 12/SC12_TC014/li_Download by Excel'))
 WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC014/div_Download Sales Order by Excel.The operation was successful'), 
     0)
 
+WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
+
 WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Scenario 1/S1_TC015/Page_CO Monitoring List - Brivge/button_Detail_secondRow'))
@@ -54,7 +56,9 @@ CustomKeywords.'copyToExcel.exel'(spotSalesOrderNo, 1, 5, 'Excel Files\\Scenario
 CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 12/SC12_TC014/button_Parts Monitoring detail_step_2'), 
     0)
 
-WebUI.click(findTestObject('Scenario 12/SC12_TC014/button_downloadPartsMonitoringDetail'))
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Scenario 1/S1_TC052/Page_SO Monitoring Detail - Brivge/button_Download'))
 
 WebUI.click(findTestObject('Scenario 12/SC12_TC014/li_Download Price'))
 

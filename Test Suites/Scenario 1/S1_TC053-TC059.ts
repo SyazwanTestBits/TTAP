@@ -158,7 +158,7 @@
    <testCaseLink>
       <guid>46ca41e7-9d15-4238-b8d9-b558f5803f5a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC059- Customer Auto Generate Mail Task</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>

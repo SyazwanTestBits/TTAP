@@ -134,13 +134,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>af5c7584-b129-4b3b-8840-36ae7cc5f206</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario 1/S1_TC012-Cargo setting for Supplier 1</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>5baa9b85-9b8d-4399-8f0b-39499084ca24</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
