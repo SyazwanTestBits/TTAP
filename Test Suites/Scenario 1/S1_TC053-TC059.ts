@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>05545e25-c853-4022-912e-d19b320f5efb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC053- Sup1 Cancel Order</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -27,7 +27,7 @@
    <testCaseLink>
       <guid>b32d9f3f-84d8-4f85-8d45-c61a96651b37</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC054-Create Supplier Order Change from SO Monitoring Detail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>

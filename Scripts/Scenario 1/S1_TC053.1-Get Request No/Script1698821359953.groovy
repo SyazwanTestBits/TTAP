@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.BAF_USERNAME_FATIN
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.BAF_USERNAME_FATIN
         , ('password') : GlobalVariable.BAF_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.S1_BAF_SUP1], 
     FailureHandling.STOP_ON_FAILURE)
 
@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Scenario 1/S1_TC031/button_OK'))
 
 RequestNo = WebUI.getText(findTestObject('Scenario 1/S1_TC031/p_requestNo_firstRow'))
 
-not_run: CustomKeywords.'copyToExcel.exel'(RequestNo, 1, 0, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 'TC54-Change RequestNo')
+CustomKeywords.'copyToExcel.exel'(RequestNo, 1, 0, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 'TC54-Change RequestNo')
 
 WebUI.closeBrowser()
 
