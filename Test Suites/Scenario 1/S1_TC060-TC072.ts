@@ -10,11 +10,11 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>0b9e99fb-3557-4b3f-a1f5-01066668861d</testSuiteGuid>
+   <testSuiteGuid>ac6978a4-e552-49d8-86a8-ee775009ec51</testSuiteGuid>
    <testCaseLink>
-      <guid>7aa860fc-73b5-453c-9224-23d792bd44f4</guid>
+      <guid>5b7ba42b-101e-4c54-933f-7c5a896bdb54</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC060-Customer Reject Change Request from Supplier1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -37,9 +37,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>bc2a4789-ae03-49b7-88ea-1d19021987ee</guid>
+      <guid>8168fa48-3342-4627-824c-35a75884ace8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC061-Customer Approve Change Request from Supplier2</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -68,7 +68,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>191cd654-9792-412e-b1a7-08c1fe35af23</guid>
+      <guid>fb13a31f-577f-4c25-94c6-f31961d822da</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC062-BU1 Check ChangeCancel Request</testCaseId>
@@ -83,11 +83,17 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
+         <variableId>1228ea7e-4098-4371-8401-9a0947ffd4e2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>170941d3-8ab3-4e44-84e1-8ab6f626a9e9</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>e4d0897b-8b13-4f1f-abb9-e3a3e34376ee</guid>
+      <guid>cead6d6f-256f-43bb-b065-cdf05fd6829a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC063-BU2 Check Change Request</testCaseId>
@@ -106,7 +112,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>3b40c9da-fad4-4ad8-8b51-51cd145561f1</guid>
+      <guid>a8ab147a-fd44-4d34-a593-496b18e643de</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC064-BU3 Check Cancel Request</testCaseId>
@@ -125,7 +131,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0950b58d-44f7-445a-adb6-c5109a118a81</guid>
+      <guid>47d37d06-f774-4eba-b5b9-62af3c93ba8b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC065-Supplier1 Check Cancel Request</testCaseId>
@@ -144,7 +150,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a1774658-09e3-4171-b0ba-9306562f800c</guid>
+      <guid>35ee18b7-73c3-4f39-86dd-0d356e8fd1e0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC066-Supplier2 Check Change Request</testCaseId>
@@ -163,7 +169,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>c8bbcf24-1fa8-463e-97f1-253b74ef86e4</guid>
+      <guid>9cb1f56a-0a5b-4181-97ac-65e2244484b0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC067-Supplier2 Check Sales Order</testCaseId>
@@ -200,7 +206,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>ae278677-c0ea-4227-9b80-3a0b8438cd9f</guid>
+      <guid>2a1f4343-ad47-461b-9ede-8c0f2b30f318</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC068-BU2 Check Purchase Order</testCaseId>
@@ -237,7 +243,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>5c68bcbe-d285-47e1-83c4-7c24421d920f</guid>
+      <guid>488d5c02-b490-4ac4-9a4c-d20e2e1a98e1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC069-BU2 Check Sales Order</testCaseId>
@@ -274,7 +280,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>10edd239-e753-4de1-bdd0-0b790b4d9f0d</guid>
+      <guid>3b0da408-9321-407a-b8d2-19618273575e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC070-BU1 Check Purchase Order</testCaseId>
@@ -311,7 +317,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0505503e-8e3d-4566-b59e-98907c67bd44</guid>
+      <guid>31061690-6429-4f35-9e1e-f1a428346dd0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC071-BU1 Check Sales Order</testCaseId>
@@ -348,7 +354,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>5ac61ac3-4c0e-46d0-93e8-684f746b8d15</guid>
+      <guid>5ead1649-a602-49c3-8020-7b538f95a917</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC072-Cus Check Sales Order</testCaseId>
