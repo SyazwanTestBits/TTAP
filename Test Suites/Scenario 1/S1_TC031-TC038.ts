@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>6e8ee5a9-d2b5-46c9-b41d-29a90284a944</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC031-Customer Place Cancel Order</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -138,7 +138,7 @@
    <testCaseLink>
       <guid>e92ebae4-e277-4f96-bd62-75440b53c4b8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC035-BU2 Auto Generate Change Request</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -193,7 +193,7 @@
    <testCaseLink>
       <guid>a3afff4e-6908-4008-9ac0-fa2f97d3a024</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC036-BU3 Auto Generate Change Request</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>S1_TC015.1-Get Customer Order No</name>
+   <name>S1_TC046.1-Get Customer Order No</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d4512ff0-e2c7-47be-857c-cad2b79741f2</testCaseGuid>
+   <testCaseGuid>ece289b1-187d-499a-bb93-f5cc7bc34170</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>4c6a0e35-68bb-406f-b88a-de999636c1a1</variableId>
+      <variableId>9afae8be-3df3-49fe-8adf-f42cfcb4e78b</variableId>
    </variableLinks>
    <variable>
       <defaultValue>findTestData('Scenario 1/S1_TC002-BU1 to Customer Contract').getValue('ContractNo', 1)</defaultValue>
       <description></description>
-      <id>4c6a0e35-68bb-406f-b88a-de999636c1a1</id>
+      <id>9afae8be-3df3-49fe-8adf-f42cfcb4e78b</id>
       <masked>false</masked>
       <name>contractNo</name>
    </variable>
