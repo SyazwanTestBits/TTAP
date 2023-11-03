@@ -63,76 +63,137 @@ public class verifyExcelData {
 	}
 
 	@Keyword(keywordObject='Excel Verification')
+    static void verifyDataSpecific(String expectedFilePath, String downloadedFilePath, List<Integer> rowIndices, List<Integer> columnsToVerify) {
+        try {
+            FileInputStream expectedFis = new FileInputStream(new File(expectedFilePath));
+            FileInputStream downloadedFis = new FileInputStream(new File(downloadedFilePath));
+
+            Workbook expectedWorkbook = new XSSFWorkbook(expectedFis);
+            Workbook downloadedWorkbook = new XSSFWorkbook(downloadedFis);
+
+            Sheet expectedSheet = expectedWorkbook.getSheetAt(0);
+            Sheet downloadedSheet = downloadedWorkbook.getSheetAt(0);
+
+            List<String> mismatchDetails = new ArrayList<>();
+
+            for (int rowIndex : rowIndices) {
+                Row downloadedRow = downloadedSheet.getRow(rowIndex);
+                Row expectedRow = expectedSheet.getRow(rowIndex);
+
+                if (downloadedRow == null || expectedRow == null) {
+                    mismatchDetails.add("Row not found in either the downloaded or expected Excel file for index " + rowIndex);
+                    continue;
+                }
+
+                for (int colIndex : columnsToVerify) {
+                    Cell expectedCell = expectedRow.getCell(colIndex);
+                    Cell downloadedCell = downloadedRow.getCell(colIndex);
+
+                    if (expectedCell != null && downloadedCell != null) {
+                        String expectedValue = expectedCell.toString().trim();
+                        String downloadedValue = downloadedCell.toString().trim();
+
+                        if (!expectedValue.equals(downloadedValue)) {
+                            mismatchDetails.add("Mismatch in cell values for row " + rowIndex + ", column " + colIndex + ". Expected: " + expectedValue + ", Downloaded: " + downloadedValue);
+                        } else {
+                            KeywordUtil.logInfo("Cell values match for row " + rowIndex + ", column " + colIndex + ". Expected: " + expectedValue + ", Downloaded: " + downloadedValue);
+                        }
+                    } else {
+                        mismatchDetails.add("Cell is null in row " + rowIndex + " and column " + colIndex);
+                    }
+                }
+            }
+
+            expectedFis.close();
+            downloadedFis.close();
+
+            for (String mismatchDetail : mismatchDetails) {
+                KeywordUtil.logInfo(mismatchDetail);
+            }
+
+            if (mismatchDetails.isEmpty()) {
+                KeywordUtil.logInfo("All data checks passed. Downloaded data matches expected data.");
+            } else {
+                // If there are mismatch details, throw an exception to indicate verification failure
+                throw new AssertionError("Excel data verification failed.");
+            }
+
+        } catch (Exception e) {
+            KeywordUtil.logInfo("Error verifying data: " + e.getMessage());
+        }
+    }
+
+	@Keyword(keywordObject='Excel Verification')
 	static void verifyDynamicSort(String expectedFilePath, String downloadedFilePath, int partsNoColumnIndex, List<Integer> partsNoRowIndices, List<Integer> columnsToVerify) {
 		try {
-			FileInputStream expectedFis = new FileInputStream(new File(expectedFilePath));
-			FileInputStream downloadedFis = new FileInputStream(new File(downloadedFilePath));
+			FileInputStream expectedFis = new FileInputStream(new File(expectedFilePath))
+			FileInputStream downloadedFis = new FileInputStream(new File(downloadedFilePath))
 
-			Workbook expectedWorkbook = new XSSFWorkbook(expectedFis);
-			Workbook downloadedWorkbook = new XSSFWorkbook(downloadedFis);
+			Workbook expectedWorkbook = new XSSFWorkbook(expectedFis)
+			Workbook downloadedWorkbook = new XSSFWorkbook(downloadedFis)
 
-			Sheet expectedSheet = expectedWorkbook.getSheetAt(0);
-			Sheet downloadedSheet = downloadedWorkbook.getSheetAt(0);
+			Sheet expectedSheet = expectedWorkbook.getSheetAt(0)
+			Sheet downloadedSheet = downloadedWorkbook.getSheetAt(0)
 
-			List<String> mismatchDetails = new ArrayList<>();
+			List<String> mismatchDetails = new ArrayList<>()
 
 			// Sort the downloaded sheet based on the specified column
-			sortSheet(downloadedSheet, partsNoColumnIndex);
+			sortSheet(downloadedSheet, partsNoColumnIndex)
 
 			for (int rowIndex : partsNoRowIndices) {
-				Row downloadedRow = downloadedSheet.getRow(rowIndex);
+				Row downloadedRow = downloadedSheet.getRow(rowIndex)
 
 				if (downloadedRow == null) {
-					mismatchDetails.add("Row not found in the downloaded Excel file for index " + rowIndex);
-					continue;
+					mismatchDetails.add("Row not found in the downloaded Excel file for index " + rowIndex)
+					continue
 				}
 
-				String downloadedPartsNo = downloadedRow.getCell(partsNoColumnIndex).toString().trim();
+				String downloadedPartsNo = downloadedRow.getCell(partsNoColumnIndex).toString().trim()
 
 				// Find the corresponding row in the expected sheet
-				Row expectedRow = findRowByPartsNo(expectedSheet, partsNoColumnIndex, downloadedPartsNo);
+				Row expectedRow = findRowByPartsNo(expectedSheet, partsNoColumnIndex, downloadedPartsNo)
 
 				if (expectedRow == null) {
-					mismatchDetails.add("Parts No. not found in the expected Excel file for partsNo: " + downloadedPartsNo);
-					continue;
+					mismatchDetails.add("Parts No. not found in the expected Excel file for partsNo: " + downloadedPartsNo)
+					continue
 				}
 
 				for (int colIndex : columnsToVerify) {
-					Cell expectedCell = expectedRow.getCell(colIndex);
-					Cell downloadedCell = downloadedRow.getCell(colIndex);
+					Cell expectedCell = expectedRow.getCell(colIndex)
+					Cell downloadedCell = downloadedRow.getCell(colIndex)
 
 					if (expectedCell != null && downloadedCell != null) {
-						String expectedValue = expectedCell.toString().trim();
-						String downloadedValue = downloadedCell.toString().trim();
+						String expectedValue = expectedCell.toString().trim()
+						String downloadedValue = downloadedCell.toString().trim()
 
 						if (!expectedValue.equals(downloadedValue)) {
-							mismatchDetails.add("Mismatch in cell values for row " + rowIndex + ", column " + colIndex + ". Expected: " + expectedValue + ", Downloaded: " + downloadedValue);
+							mismatchDetails.add("Mismatch in cell values for row " + rowIndex + ", column " + colIndex + ". Expected: " + expectedValue + ", Downloaded: " + downloadedValue)
 						} else {
-							KeywordUtil.logInfo("Cell values match for row " + rowIndex + ", column " + colIndex + ". Expected: " + expectedValue + ", Downloaded: " + downloadedValue);
+							KeywordUtil.logInfo("Cell values match for row " + rowIndex + ", column " + colIndex + ". Expected: " + expectedValue + ", Downloaded: " + downloadedValue)
 						}
 					} else {
-						mismatchDetails.add("Cell is null in row " + rowIndex + " and column " + colIndex);
+						mismatchDetails.add("Cell is null in row " + rowIndex + " and column " + colIndex)
 					}
 				}
 
 			}
 
-			expectedFis.close();
-			downloadedFis.close();
+			expectedFis.close()
+			downloadedFis.close()
 
 			for (String mismatchDetail : mismatchDetails) {
-				KeywordUtil.logInfo(mismatchDetail);
+				KeywordUtil.logInfo(mismatchDetail)
 			}
 
 			if (mismatchDetails.isEmpty()) {
-				KeywordUtil.logInfo("All data checks passed. Downloaded data matches expected data.");
+				KeywordUtil.logInfo("All data checks passed. Downloaded data matches expected data.")
 			} else {
 				// If there are mismatch details, throw an exception to fail the test case
-				throw new AssertionError("Excel data verification failed.");
+				throw new AssertionError("Excel data verification failed.")
 			}
 
 		} catch (Exception e) {
-			KeywordUtil.logInfo("Error verifying dynamic sort: " + e.getMessage());
+			KeywordUtil.logInfo("Error verifying dynamic sort: " + e.getMessage())
 		}
 	}
 
@@ -154,15 +215,15 @@ public class verifyExcelData {
 	// Helper method to find a row in the sheet by "Parts No."
 	static Row findRowByPartsNo(Sheet sheet, int partsNoColumnIndex, String partsNo) {
 		for (int rowIndex = 0; rowIndex <= sheet.getLastRowNum(); rowIndex++) {
-			Row row = sheet.getRow(rowIndex);
+			Row row = sheet.getRow(rowIndex)
 			if (row != null) {
-				String currentPartsNo = row.getCell(partsNoColumnIndex).toString().trim();
+				String currentPartsNo = row.getCell(partsNoColumnIndex).toString().trim()
 				if (partsNo.equals(currentPartsNo)) {
-					return row;
+					return row
 				}
 			}
 		}
-		return null; // Return null if not found
+		return null // Return null if not found
 	}
 
 
