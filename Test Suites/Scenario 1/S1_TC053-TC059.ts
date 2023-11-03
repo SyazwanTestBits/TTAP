@@ -76,7 +76,7 @@
    <testCaseLink>
       <guid>11ac25bf-d962-44ad-ba20-e6f270567e9a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC055-BU3 Auto Generate Cancel Request</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -95,7 +95,7 @@
    <testCaseLink>
       <guid>177efa01-d1ac-4158-bc8e-fe53482537a3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC056-BU2 Auto Generate Change Request</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -114,7 +114,7 @@
    <testCaseLink>
       <guid>f9c249cd-292a-4264-b413-8ef38eb5d7b0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC057-BU1 Auto Generate ChangeCancel Request</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -156,10 +156,22 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>36e81082-b115-45b5-82bd-69cd959397ca</guid>
+      <guid>46ca41e7-9d15-4238-b8d9-b558f5803f5a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario 1/S1_TC059-Customer Auto Generate Mail Task</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Scenario 1/S1_TC059- Customer Auto Generate Mail Task</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8b007aba-a35c-485e-a1fa-8493046f0ebb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f93873fc-99d6-448f-b8b9-3c0b9a806631</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

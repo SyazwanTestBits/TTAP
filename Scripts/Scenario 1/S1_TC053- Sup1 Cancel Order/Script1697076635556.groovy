@@ -41,7 +41,8 @@ WebUI.click(findTestObject('Scenario 17/S17_TC034/Page_Supplier Order ChangeCanc
 WebUI.takeFullPageScreenshot()
 
 'change from Confirmed to Received'
-WebUI.verifyElementText(findTestObject('Scenario 17/S17_TC034/p_verifyOrderStatus'), 'Received')
+WebUI.verifyElementText(findTestObject('Scenario 17/S17_TC034/p_verifyOrderStatus', [('salesOrderNo') : salesOrderNo]), 
+    'Received')
 
 WebUI.takeFullPageScreenshot()
 
