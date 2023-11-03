@@ -12,11 +12,11 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>703da920-0f32-4ad7-bcea-01413dda6f09</testSuiteGuid>
    <testCaseLink>
-      <guid>f72e9f16-4519-4e46-b7e2-7e381ecd1056</guid>
+      <guid>f4ce862d-b743-4066-8d47-e560a7a00b3f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC073-Supplier1 Revise and Confirm Order</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
