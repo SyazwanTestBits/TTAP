@@ -62,6 +62,24 @@
       <value>OrderDate</value>
       <variableId>9a1f2718-f731-4800-8e42-c1b2bc753d0b</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d006831f-92cd-42bc-bd29-aa26475ace99</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>ContractNo</value>
+      <variableId>c5021b20-f833-44e1-9417-c38f7abdf068</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3c65fe9d-3d35-49e9-a880-ca8fe1f6d77a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>946e929c-4d50-4623-ae28-fa7607a9a2d6</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -117,5 +135,26 @@
       <id>9a1f2718-f731-4800-8e42-c1b2bc753d0b</id>
       <masked>false</masked>
       <name>orderDate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c5021b20-f833-44e1-9417-c38f7abdf068</id>
+      <masked>false</masked>
+      <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC006-BU3 to BU1 Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>3c65fe9d-3d35-49e9-a880-ca8fe1f6d77a</id>
+      <masked>false</masked>
+      <name>contractBU3</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC003-BU2 to BU1 Contract').getValue('ContractNo', 1)</defaultValue>
+      <description></description>
+      <id>946e929c-4d50-4623-ae28-fa7607a9a2d6</id>
+      <masked>false</masked>
+      <name>contractBU2</name>
    </variable>
 </TestCaseEntity>

@@ -21,7 +21,9 @@ WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVa
         , ('password') : GlobalVariable.ADMIN_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : company], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Scenario 10/S10_TC186/button_remote_Search'))
+WebUI.click(findTestObject('Scenario 10/S10_TC186/div_Inventory Management'))
+
+WebUI.click(findTestObject('Scenario 10/S10_TC186/button_Inventory Management-RemoteFilter-'))
 
 WebUI.click(findTestObject('Scenario 10/S10_TC186/input_remote-year'))
 
@@ -35,13 +37,15 @@ WebUI.click(findTestObject('Scenario 10/S10_TC186/input_remote_warehouses'))
 
 WebUI.click(findTestObject('Scenario 10/S10_TC186/li_remote_warehouses', [('warehouse_company') : warehouse_company]))
 
-WebUI.click(findTestObject('Scenario 10/S10_TC186/input_remote_currency'))
+not_run: WebUI.click(findTestObject('Scenario 10/S10_TC186/input_remote_currency'))
 
-WebUI.click(findTestObject('Scenario 10/S10_TC186/li_remote_currency', [('currency') : currency]))
+not_run: WebUI.click(findTestObject('Scenario 10/S10_TC186/li_remote_currency', [('currency') : currency]))
 
 WebUI.click(findTestObject('Scenario 10/S10_TC186/button_remote_Search'))
 
 WebUI.verifyElementPresent(findTestObject('Scenario 10/S10_TC186/span_Inventory Management-Last Updated'), 0)
 
 WebUI.takeFullPageScreenshot()
+
+WebUI.closeBrowser()
 

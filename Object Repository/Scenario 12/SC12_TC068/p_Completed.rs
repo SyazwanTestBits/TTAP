@@ -6,12 +6,11 @@
    <elementGuidId>30b32869-d464-47ac-97b7-82503f874374</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Inbound Monitor List'])[1]/following::p[26]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//tbody/tr[${rowNo}]/td[13]/div[1]/p[1]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

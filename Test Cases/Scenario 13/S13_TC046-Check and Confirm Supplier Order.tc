@@ -3,6 +3,16 @@
    <description></description>
    <name>S13_TC046-Check and Confirm Supplier Order</name>
    <tag></tag>
+   <integratedEntity>
+<productName>JIRA</productName>
+<properties>
+<entry>
+<key>integratedValue</key>
+<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i0001b:0d"},"status":{"id":10001,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10001","name":"In Progress"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC13_TC46 - Supplier -Check, modify and confirm Supplier Order","description":"User: Supplier\\\\Login ID: userA\\\\Company: CNTW-SUP-POC\\\\Function:Order\u003e SO Monitoring List\\Description: Supplier can check and modify the delivery plan and confirm order on screen before due date, and system will auto confirm supplier order on due date if the order has not been confirmed yet.","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-37/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10035","key":"BAT-37","id":10035}}</value>
+</entry>
+</properties>
+<type>TESTCASE</type>
+</integratedEntity>
    <comment></comment>
    <testCaseGuid>c738cf58-fa27-4b32-8a59-d39af63b31a2</testCaseGuid>
    <variableLinks>
@@ -47,15 +57,27 @@
       <value></value>
       <variableId>3504c70e-2280-43a2-b670-c564ae962f1a</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b91ec251-44d2-42e0-b9ee-5cac525adb54</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2fe6c355-b051-46ab-904b-2121386b292e</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>GlobalVariable.CUST_USERNAME_USERF</defaultValue>
+      <defaultValue>GlobalVariable.ADMIN_USERNAME</defaultValue>
       <description></description>
       <id>8c658820-7a73-4911-8318-71a3413fdd87</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.CUST_PWD_USERF</defaultValue>
+      <defaultValue>GlobalVariable.ADMIN_PWD</defaultValue>
       <description></description>
       <id>5beedde8-6c07-47b8-91f7-ed331ad01923</id>
       <masked>false</masked>
@@ -95,5 +117,19 @@
       <id>3504c70e-2280-43a2-b670-c564ae962f1a</id>
       <masked>false</masked>
       <name>testdata</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC035-Contract Parts Info')</defaultValue>
+      <description></description>
+      <id>b91ec251-44d2-42e0-b9ee-5cac525adb54</id>
+      <masked>false</masked>
+      <name>partTestData</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC046-Price')</defaultValue>
+      <description></description>
+      <id>2fe6c355-b051-46ab-904b-2121386b292e</id>
+      <masked>false</masked>
+      <name>testDataPrice</name>
    </variable>
 </TestCaseEntity>

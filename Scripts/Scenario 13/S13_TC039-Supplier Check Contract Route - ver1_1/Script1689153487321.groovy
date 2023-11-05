@@ -16,10 +16,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.CUST_USERNAME_USERF
-        , ('password') : GlobalVariable.CUST_PWD_USERF, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.COMPANY_SUPPLIER_1], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : username
+        , ('password') : password, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : company], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC038 n 39-Check Contract Route/button_Master'))
 
@@ -81,9 +81,13 @@ for (int rowl = 1; rowl <= numberrowtd; rowl++) {
         stringindex = (coll - 1)
 
         String colname2 = columnname[stringindex]
-		
 
         String valuecol = findTestData('Scenario 13/S13_TC039').getValue(colname2, rowl)
+
+        actualValue=WebUI.getText(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/p list/p_part detail list', 
+                [('lcol') : coll, ('lrow') : rowl]))
+
+        KeywordUtil.logInfo( 'Part :'+findTestData('Scenario 13/S13_TC039').getValue('Part no', rowl)+' In column :'+colname2+' Actual :'+actualValue+' Expectation :'+valuecol)
 
         WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/p list/p_part detail list', 
                 [('lcol') : coll, ('lrow') : rowl]), valuecol)

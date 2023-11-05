@@ -45,9 +45,9 @@
       <variableId>f6ff2aae-c9b9-45c8-b51d-100ea7cd9d85</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>8f0bb2ec-125d-476e-9f71-0ab9d4f771d7</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>ContractNo</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>e5840020-7193-4d40-bafd-8d02a74c2198</variableId>
    </variableLinks>
    <variable>
@@ -86,7 +86,7 @@
       <name>company</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 1/S1_TC007-Sup1 to BU3 Contract').getValue('ContractNo', 1)</defaultValue>
       <description></description>
       <id>e5840020-7193-4d40-bafd-8d02a74c2198</id>
       <masked>false</masked>

@@ -16,26 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import java.text.SimpleDateFormat
-import java.util.Date
-import java.util.Locale
+import java.text.SimpleDateFormat as SimpleDateFormat
+import java.util.Date as Date
+import java.util.Locale as Locale
 
+CustomKeywords.'CargoTrackingVerifications.verifyCargoTrackingMilestonesColor'('', '')
 
-
-
-// Create a SimpleDateFormat object with Chinese locale and desired date format
-SimpleDateFormat chineseDateFormat = new SimpleDateFormat("yyyy年MM月dd日 HH时mm分ss秒", Locale.CHINESE)
-SimpleDateFormat englishDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.ENGLISH)
-
-
-Date currentDate = new Date()
-
-String chineseDateString = chineseDateFormat.format(currentDate)
-
-println("Current Date in Chinese: ${chineseDateString}")
-
-def chineseDate = chineseDateFormat.parse(chineseDateString)
-
-String englishDateString = englishDateFormat.format(chineseDate)
-
-println("Date in English: ${englishDateString}")

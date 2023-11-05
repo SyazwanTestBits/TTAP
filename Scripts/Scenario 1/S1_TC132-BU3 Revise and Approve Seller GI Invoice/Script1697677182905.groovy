@@ -30,9 +30,7 @@ for (int rowIndex = 1; rowIndex <= 2; rowIndex++) {
     outboundNoList.add(outboundNo)
 
     // Get the invoiceNo using WebUI.getText
-    TestObject invoiceNoTestObject = findTestObject('Scenario 12/SC12_TC045/p_getInvoiceNo', [('outboundNoSys') : outboundNo])
-
-    String invoiceNo = WebUI.getText(invoiceNoTestObject)
+	def invoiceNo = WebUI.getText(findTestObject('Scenario 12/SC12_TC045/p_getInvoiceNo', [('outboundNoSys') : outboundNo]))
 
     invoiceNoList.add(invoiceNo)
 

@@ -7,7 +7,9 @@ import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.util.CellReference
 import com.kms.katalon.core.annotation.Keyword
-public class copyToExcel {
+
+
+public class copyToExcel extends DateConversion {
 
 	@Keyword
 	public void exel(String name, int rowNum, int colNum, String filePath, String fileName, String sheetName) throws IOException {
@@ -24,20 +26,32 @@ public class copyToExcel {
 		}
 
 		Cell cell = row.createCell(colNum);
-		cell.setCellValue(name);
+
+		// Define a regular expression to match Chinese characters
+		def chinesePattern = /\p{IsHan}/
+
+		if (name =~ chinesePattern) {
+
+			def convertedName=super.convertChineseToEnglishDate(name)
+			cell.setCellValue(convertedName);
+		}
+		else {
+
+			cell.setCellValue(name);}
+
 
 		FileOutputStream fos = new FileOutputStream(fullFilePath);
 		workbook.write(fos);
-		
-		
+
+
 		// Refresh the specified cell
 		CellReference cellRef = new CellReference(rowNum, colNum);
 		Row sheetRow = sheet.getRow(cellRef.getRow());
 		Cell sheetCell = sheetRow.getCell(cellRef.getCol());
 		sheetCell.setCellValue(sheetCell.getStringCellValue());
 		//
-		
-		
+
+
 		fos.close();
 		fis.close();
 
@@ -58,7 +72,18 @@ public class copyToExcel {
 		}
 
 		Cell cell = row.createCell(colNum);
-		cell.setCellValue(name);
+
+		// Define a regular expression to match Chinese characters
+		def chinesePattern = /\p{IsHan}/
+
+		if (name =~ chinesePattern) {
+
+			def convertedName=super.convertChineseToEnglishDate(name)
+			cell.setCellValue(convertedName);
+		}
+		else {
+
+			cell.setCellValue(name);}
 
 		FileOutputStream fos = new FileOutputStream(file);
 		workbook.write(fos);
@@ -81,295 +106,309 @@ public class copyToExcel {
 		if (row == null) {
 			row = sheet.createRow(rowNum); // Create a new row if it doesn't exist
 		}
+		
+		Cell cell = row.createCell(colNum);
 
 		if (name.matches("\\d+")) {  //Convert 'name' String to Integer if it has numbers only
 			int intValue = Integer.parseInt(name);
-			Cell cell = row.createCell(colNum);
 			cell.setCellValue(intValue);
 		}
 
 		else {
-			Cell cell = row.createCell(colNum); //'name' String that has letters will remain as String
-			cell.setCellValue(name);}
+			
+			def chinesePattern = /\p{IsHan}/
+
+			if (name =~ chinesePattern) {
+
+				def convertedName=super.convertChineseToEnglishDate(name)
+				cell.setCellValue(convertedName); //'name' String that has Chinese letters will be converted to English
+				
+			}
+
+			else {
+
+				//'name' String that has letters will remain as String
+				cell.setCellValue(name);}
+				
+				}
 
 
-		FileOutputStream fos = new FileOutputStream(file);
-		workbook.write(fos);
+			FileOutputStream fos = new FileOutputStream(file);
+			workbook.write(fos);
 
-		fos.close();
-		fis.close();
+			fos.close();
+			fis.close();
 
-		recalculateExcelFormulas(file)
-	}
-
-	@Keyword
-	public void exel3(def name, int rowNum, int colNum, String file, String sheetNumber) throws IOException {
-
-		FileInputStream fis = new FileInputStream(file);
-		XSSFWorkbook workbook = new XSSFWorkbook(fis);
-
-		XSSFSheet sheet = workbook.getSheet(sheetNumber);
-
-		//sheet.protectSheet(null)
-
-		Row row = sheet.getRow(rowNum);
-		if (row == null) {
-			row = sheet.createRow(rowNum); // Create a new row if it doesn't exist
+			recalculateExcelFormulas(file)
 		}
 
-		Cell cell = row.createCell(colNum);
-		cell.setCellValue(name);
+		@Keyword
+		public void exel3(def name, int rowNum, int colNum, String file, String sheetNumber) throws IOException {
 
-		FileOutputStream fos = new FileOutputStream(file);
-		workbook.write(fos);
+			FileInputStream fis = new FileInputStream(file);
+			XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
-		fos.close();
-		fis.close();
+			XSSFSheet sheet = workbook.getSheet(sheetNumber);
 
-		recalculateExcelFormulas(file)
-	}
+			//sheet.protectSheet(null)
 
-	@Keyword
-	public void exel5withoutRecalculate(String name, int rowNum, int colNum, String file, String sheetNumber) throws IOException {
+			Row row = sheet.getRow(rowNum);
+			if (row == null) {
+				row = sheet.createRow(rowNum); // Create a new row if it doesn't exist
+			}
 
-		FileInputStream fis = new FileInputStream(file);
-		XSSFWorkbook workbook = new XSSFWorkbook(fis);
-
-		XSSFSheet sheet = workbook.getSheet(sheetNumber);
-
-		Row row = sheet.getRow(rowNum);
-		if (row == null) {
-			row = sheet.createRow(rowNum); // Create a new row if it doesn't exist
-		}
-
-		if (name.matches("\\d+")) {  //Convert 'name' String to Integer if it has numbers only
-			int intValue = Integer.parseInt(name);
 			Cell cell = row.createCell(colNum);
-			cell.setCellValue(intValue);
+			cell.setCellValue(name);
+
+			FileOutputStream fos = new FileOutputStream(file);
+			workbook.write(fos);
+
+			fos.close();
+			fis.close();
+
+			recalculateExcelFormulas(file)
 		}
 
-		else {
-			Cell cell = row.createCell(colNum); //'name' String that has letters will remain as String
-			cell.setCellValue(name);}
+		@Keyword
+		public void exel5withoutRecalculate(String name, int rowNum, int colNum, String file, String sheetNumber) throws IOException {
+
+			FileInputStream fis = new FileInputStream(file);
+			XSSFWorkbook workbook = new XSSFWorkbook(fis);
+
+			XSSFSheet sheet = workbook.getSheet(sheetNumber);
+
+			Row row = sheet.getRow(rowNum);
+			if (row == null) {
+				row = sheet.createRow(rowNum); // Create a new row if it doesn't exist
+			}
+
+			if (name.matches("\\d+")) {  //Convert 'name' String to Integer if it has numbers only
+				int intValue = Integer.parseInt(name);
+				Cell cell = row.createCell(colNum);
+				cell.setCellValue(intValue);
+			}
+
+			else {
+				Cell cell = row.createCell(colNum); //'name' String that has letters will remain as String
+				cell.setCellValue(name);}
 
 
-		FileOutputStream fos = new FileOutputStream(file);
-		workbook.write(fos);
+			FileOutputStream fos = new FileOutputStream(file);
+			workbook.write(fos);
 
-		fos.close();
-		fis.close();
+			fos.close();
+			fis.close();
 
-	}
-
-	@Keyword
-	public void excelSetCellStyleDoubleDR(String name, int rowNum, int colNum, String file, String sheetNumber) throws IOException {
-		// Convert name to a double value
-		double doubleValue = Double.parseDouble(name);
-
-		println doubleValue
-
-		// Skip if the value is 0
-		if (doubleValue == 0.0) {
-			return;
 		}
 
-		FileInputStream fis = new FileInputStream(file);
-		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		@Keyword
+		public void excelSetCellStyleDoubleDR(String name, int rowNum, int colNum, String file, String sheetNumber) throws IOException {
+			// Convert name to a double value
+			double doubleValue = Double.parseDouble(name);
 
-		XSSFSheet sheet = workbook.getSheet(sheetNumber);
+			println doubleValue
 
-		// Create number format style
-		DataFormat dataFormat = workbook.createDataFormat();
-		CellStyle numberStyle = workbook.createCellStyle();
-		numberStyle.setDataFormat(dataFormat.getFormat("0"));
+			// Skip if the value is 0
+			if (doubleValue == 0.0) {
+				return;
+			}
 
-		Row row = sheet.getRow(rowNum);
-		if (row == null) {
-			row = sheet.createRow(rowNum); // Create a new row if it doesn't exist
+			FileInputStream fis = new FileInputStream(file);
+			XSSFWorkbook workbook = new XSSFWorkbook(fis);
+
+			XSSFSheet sheet = workbook.getSheet(sheetNumber);
+
+			// Create number format style
+			DataFormat dataFormat = workbook.createDataFormat();
+			CellStyle numberStyle = workbook.createCellStyle();
+			numberStyle.setDataFormat(dataFormat.getFormat("0"));
+
+			Row row = sheet.getRow(rowNum);
+			if (row == null) {
+				row = sheet.createRow(rowNum); // Create a new row if it doesn't exist
+			}
+
+			Cell cell = row.createCell(colNum);
+			cell.setCellValue(doubleValue);
+			cell.setCellStyle(numberStyle);
+
+			FileOutputStream fos = new FileOutputStream(file);
+			workbook.write(fos);
+
+			fos.close();
+			fis.close();
+
+			recalculateExcelFormulas(file);
 		}
 
-		Cell cell = row.createCell(colNum);
-		cell.setCellValue(doubleValue);
-		cell.setCellStyle(numberStyle);
+		@Keyword
+		public void exelSheetNumber(def name, int rowNum, int colNum, String file) throws IOException {
 
-		FileOutputStream fos = new FileOutputStream(file);
-		workbook.write(fos);
+			FileInputStream fis = new FileInputStream(file);
+			Workbook workbook = new XSSFWorkbook(fis);
 
-		fos.close();
-		fis.close();
+			Sheet sheet = workbook.getSheetAt(0);
 
-		recalculateExcelFormulas(file);
-	}
+			Row row = sheet.getRow(rowNum);
+			if (row == null) {
+				row = sheet.createRow(rowNum); // Create a new row if it doesn't exist
+			}
 
-	@Keyword
-	public void exelSheetNumber(def name, int rowNum, int colNum, String file) throws IOException {
+			Cell cell = row.createCell(colNum);
+			cell.setCellValue(name);
 
-		FileInputStream fis = new FileInputStream(file);
-		Workbook workbook = new XSSFWorkbook(fis);
+			FileOutputStream fos = new FileOutputStream(file);
+			workbook.write(fos);
 
-		Sheet sheet = workbook.getSheetAt(0);
+			fos.close();
+			fis.close();
 
-		Row row = sheet.getRow(rowNum);
-		if (row == null) {
-			row = sheet.createRow(rowNum); // Create a new row if it doesn't exist
+			recalculateExcelFormulas(file)
 		}
 
-		Cell cell = row.createCell(colNum);
-		cell.setCellValue(name);
 
-		FileOutputStream fos = new FileOutputStream(file);
-		workbook.write(fos);
+		@Keyword
+		public void exelSheetNumber2(String name, int rowNum, int colNum, String file, int sheetNumber) throws IOException {
 
-		fos.close();
-		fis.close();
+			if (name == null || name.isEmpty()) {
+				name = ""; // Assign a default value to the name parameter
+			}
 
-		recalculateExcelFormulas(file)
-	}
+			FileInputStream fis = new FileInputStream(file);
+			XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
+			XSSFSheet sheet = workbook.getSheetAt(sheetNumber);
 
-	@Keyword
-	public void exelSheetNumber2(String name, int rowNum, int colNum, String file, int sheetNumber) throws IOException {
+			Row row = sheet.getRow(rowNum);
+			if (row == null) {
+				row = sheet.createRow(rowNum); // Create a new row if it doesn't exist
+			}
 
-		if (name == null || name.isEmpty()) {
-			name = ""; // Assign a default value to the name parameter
+			// Use the IFERROR() function to handle missing arguments
+			//int intValue = Integer.parseInt(name)
+
+			Cell cell = row.createCell(colNum);
+			cell.setCellValue(name);
+
+			FileOutputStream fos = new FileOutputStream(file);
+			workbook.write(fos);
+
+			fos.close();
+			fis.close();
+
+			//recalculateExcelFormulas(file);
+
 		}
 
-		FileInputStream fis = new FileInputStream(file);
-		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		@Keyword
+		public String exelInboundPlan(File file, String name, int rowNum, int colNum) throws IOException{
 
-		XSSFSheet sheet = workbook.getSheetAt(sheetNumber);
+			//convert downloaded File to Path
+			String path = file.getAbsolutePath();
+			path = path.replace("\\","\\\\");
 
-		Row row = sheet.getRow(rowNum);
-		if (row == null) {
-			row = sheet.createRow(rowNum); // Create a new row if it doesn't exist
+			System.out.println(path);
+
+
+			//open excel file
+			FileInputStream fis = new FileInputStream(path);
+			XSSFWorkbook workbook = new XSSFWorkbook(fis);
+
+			//edit
+			XSSFSheet sheet = workbook.getSheet("Inbound");
+			Row row = sheet.getRow(rowNum);
+			Cell cell = row.createCell(colNum);
+			cell.setCellValue(name);
+
+			//close
+			FileOutputStream fos = new FileOutputStream(path);
+			workbook.write(fos);
+			fos.close();
+
+			//return the file path for upload
+			System.out.println("File path is: " + path);
+			return path;
+
 		}
 
-		// Use the IFERROR() function to handle missing arguments
-		//int intValue = Integer.parseInt(name)
+		@Keyword
+		public String exelInboundPlan2(File file, String name, int rowNum, int colNum) throws IOException{
 
-		Cell cell = row.createCell(colNum);
-		cell.setCellValue(name);
+			//convert downloaded File to Path
+			String path = file.getAbsolutePath();
+			path = path.replace("\\","\\\\");
 
-		FileOutputStream fos = new FileOutputStream(file);
-		workbook.write(fos);
-
-		fos.close();
-		fis.close();
-
-		//recalculateExcelFormulas(file);
-
-	}
-
-	@Keyword
-	public String exelInboundPlan(File file, String name, int rowNum, int colNum) throws IOException{
-
-		//convert downloaded File to Path
-		String path = file.getAbsolutePath();
-		path = path.replace("\\","\\\\");
-
-		System.out.println(path);
+			System.out.println(path);
 
 
 
-		//open excel file
-		FileInputStream fis = new FileInputStream(path);
-		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+			//open excel file
+			FileInputStream fis = new FileInputStream(path);
+			XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
-		//edit
-		XSSFSheet sheet = workbook.getSheet("Inbound");
-		Row row = sheet.getRow(rowNum);
-		Cell cell = row.createCell(colNum);
-		cell.setCellValue(name);
+			//edit
+			XSSFSheet sheet = workbook.getSheet("Inbound");
+			Row row = sheet.createRow(rowNum);
+			Cell cell = row.createCell(colNum);
+			cell.setCellValue(name);
 
-		//close
-		FileOutputStream fos = new FileOutputStream(path);
-		workbook.write(fos);
-		fos.close();
+			//close
+			FileOutputStream fos = new FileOutputStream(path);
+			workbook.write(fos);
+			fos.close();
 
-		//return the file path for upload
-		System.out.println("File path is: " + path);
-		return path;
+			//return the file path for upload
+			System.out.println("File path is: " + path);
+			return path;
 
-	}
-
-	@Keyword
-	public String exelInboundPlan2(File file, String name, int rowNum, int colNum) throws IOException{
-
-		//convert downloaded File to Path
-		String path = file.getAbsolutePath();
-		path = path.replace("\\","\\\\");
-
-		System.out.println(path);
-
-
-
-		//open excel file
-		FileInputStream fis = new FileInputStream(path);
-		XSSFWorkbook workbook = new XSSFWorkbook(fis);
-
-		//edit
-		XSSFSheet sheet = workbook.getSheet("Inbound");
-		Row row = sheet.createRow(rowNum);
-		Cell cell = row.createCell(colNum);
-		cell.setCellValue(name);
-
-		//close
-		FileOutputStream fos = new FileOutputStream(path);
-		workbook.write(fos);
-		fos.close();
-
-		//return the file path for upload
-		System.out.println("File path is: " + path);
-		return path;
-
-	}
-
-	public void recalculateExcelFormulas(path) {
-		// Load an existing Excel workbook
-		def inputFile = new File(path)
-		def fileInputStream = new FileInputStream(inputFile)
-		def workbook = new XSSFWorkbook(fileInputStream)
-		def evaluator = workbook.getCreationHelper().createFormulaEvaluator()
-
-		// Recalculate formulas
-		evaluator.evaluateAll()
-
-		// Save the recalculated workbook back to the same file
-		def fileOutputStream = new FileOutputStream(inputFile)
-		workbook.write(fileOutputStream)
-		fileOutputStream.close()
-
-		workbook.close()
-		fileInputStream.close()
-	}
-
-	@Keyword
-	public void writeDateToExcel(String date, int rowNum, int colNum, String file, String sheetName) throws IOException {
-		FileInputStream fis = new FileInputStream(file);
-		XSSFWorkbook workbook = new XSSFWorkbook(fis);
-
-		XSSFSheet sheet = workbook.getSheet(sheetName);
-
-		Row row = sheet.getRow(rowNum);
-		if (row == null) {
-			row = sheet.createRow(rowNum); // Create a new row if it doesn't exist
 		}
 
-		Cell cell = row.createCell(colNum);
+		public void recalculateExcelFormulas(path) {
+			// Load an existing Excel workbook
+			def inputFile = new File(path)
+			def fileInputStream = new FileInputStream(inputFile)
+			def workbook = new XSSFWorkbook(fileInputStream)
+			def evaluator = workbook.getCreationHelper().createFormulaEvaluator()
 
-		// Format the date as "dd MMM yyyy"
-		CellStyle dateStyle = workbook.createCellStyle();
-		CreationHelper createHelper = workbook.getCreationHelper();
-		dateStyle.setDataFormat(createHelper.createDataFormat().getFormat("dd MMM yyyy"));
+			// Recalculate formulas
+			evaluator.evaluateAll()
 
-		cell.setCellValue(new Date(date));
-		cell.setCellStyle(dateStyle);
+			// Save the recalculated workbook back to the same file
+			def fileOutputStream = new FileOutputStream(inputFile)
+			workbook.write(fileOutputStream)
+			fileOutputStream.close()
 
-		FileOutputStream fos = new FileOutputStream(file);
-		workbook.write(fos);
+			workbook.close()
+			fileInputStream.close()
+		}
 
-		fos.close();
-		fis.close();
+		@Keyword
+		public void writeDateToExcel(String date, int rowNum, int colNum, String file, String sheetName) throws IOException {
+			FileInputStream fis = new FileInputStream(file);
+			XSSFWorkbook workbook = new XSSFWorkbook(fis);
+
+			XSSFSheet sheet = workbook.getSheet(sheetName);
+
+			Row row = sheet.getRow(rowNum);
+			if (row == null) {
+				row = sheet.createRow(rowNum); // Create a new row if it doesn't exist
+			}
+
+			Cell cell = row.createCell(colNum);
+
+			// Format the date as "dd MMM yyyy"
+			CellStyle dateStyle = workbook.createCellStyle();
+			CreationHelper createHelper = workbook.getCreationHelper();
+			dateStyle.setDataFormat(createHelper.createDataFormat().getFormat("dd MMM yyyy"));
+
+			cell.setCellValue(new Date(date));
+			cell.setCellStyle(dateStyle);
+
+			FileOutputStream fos = new FileOutputStream(file);
+			workbook.write(fos);
+
+			fos.close();
+			fis.close();
+		}
+
 	}
-
-}

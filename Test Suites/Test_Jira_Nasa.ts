@@ -12,49 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>091fa391-0a16-4f81-9a2b-70c9a077fd22</testSuiteGuid>
    <testCaseLink>
-      <guid>5000d8fe-f0c4-4f0c-96f8-4fe7125dfdb4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario 17_Jira/BAT-672 SC17.0_TC1 - Customer - Request Add New Part</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c0a3eb44-5e3b-43ed-8e0f-9a3bd0652b6c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>5a527cef-5270-482a-bd36-8687ea4992d4</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8e429438-dfed-405c-bf79-79d37f7e6cad</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>148ee001-8328-47e0-9c0c-1ebcf03fd5f7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>20e78974-584a-4afb-816b-6637206fe3c2</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>bb99bddc-532c-48b7-9f75-a78a0dbb1501</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>01b1a680-35c7-4a5f-8975-e60f826954f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

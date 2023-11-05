@@ -26,6 +26,14 @@ WebUI.click(findTestObject('Navbar_Brivge/OrderMenu_Brivge/li_CO Monitoring List
 
 WebUI.waitForElementPresent(findTestObject('Page_CO_MonitoringList/h3_CO Monitoring List'), 0)
 
+String searchCO = contractNo
+
+searchCO = ((contractNo + ' ') + orderReference)
+
+WebUI.click(findTestObject('Scenario 10/S10_TC024/button_search AND'))
+
+WebUI.setText(findTestObject('Scenario 10/S10_TC160/input_CO Monitoring List_Search'), searchCO)
+
 WebUI.verifyElementText(findTestObject('Page_CO_MonitoringList/div_Dt_CustomerOrderNo', [('contractNo') : contractNo]), 
     customerOrderNo)
 

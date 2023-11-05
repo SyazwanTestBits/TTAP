@@ -86,5 +86,7 @@ for (int i = 1; i <= 8; i++) {
     WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC068/p_Completed', [('rowNo') : i]), 'Completed')
 }
 
+WebUI.delay(0)
+
 WebUI.closeBrowser()
 

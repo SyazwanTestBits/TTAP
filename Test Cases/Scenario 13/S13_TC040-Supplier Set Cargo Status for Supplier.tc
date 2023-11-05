@@ -3,6 +3,16 @@
    <description></description>
    <name>S13_TC040-Supplier Set Cargo Status for Supplier</name>
    <tag></tag>
+   <integratedEntity>
+<productName>JIRA</productName>
+<properties>
+<entry>
+<key>integratedValue</key>
+<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10025":"10000_*:*_1_*:*_266539922_*|*_10002_*:*_1_*:*_0_*|*_10001_*:*_1_*:*_328673744","customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i0001b:20001i"},"status":{"id":10002,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10002","name":"Done"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC13_TC40 - Supplier -Set Cargo Status","description":"User: Supplier\\\\Login ID: userA\\\\Company: CNTW-SUP-POC\\\\Function:Master\u003e Cargo Status Setting\\Description: Function to set Cargo Status for Supplier","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"resolution":{"id":10000,"description":"Work has been completed on this issue.","self":"https://ttap-scm-at.atlassian.net/rest/api/2/resolution/10000","name":"Done"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-122/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10121","key":"BAT-122","id":10121}}</value>
+</entry>
+</properties>
+<type>TESTCASE</type>
+</integratedEntity>
    <comment></comment>
    <testCaseGuid>b5c53859-39f1-4778-9588-5cd420de0078</testCaseGuid>
    <testDataLinks>
@@ -15,15 +25,33 @@
       <testDataId>Data Files/Scenario 13/S13_TC040</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>85d651ba-9041-4509-bcdc-5007ee0dcaf7</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>supplier_code</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3035ac10-beab-4741-b510-f10c8abccb4b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>611431d6-39d9-49e8-8e20-e665d0b699f8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>adc94834-eb7c-4638-935a-4e962a27d6a3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>9e1234dc-9d79-4aa2-ac4a-0f047c2dba04</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>85d651ba-9041-4509-bcdc-5007ee0dcaf7</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>supplier_name</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>03aa1f84-99e1-4c94-a8b5-1de530503d2b</variableId>
    </variableLinks>
    <variableLinks>
@@ -50,6 +78,27 @@
       <value></value>
       <variableId>04ff0c26-65c4-4ee9-92d0-6f83f4e6d0d6</variableId>
    </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.ADMIN_USERNAME</defaultValue>
+      <description></description>
+      <id>3035ac10-beab-4741-b510-f10c8abccb4b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.ADMIN_PWD</defaultValue>
+      <description></description>
+      <id>611431d6-39d9-49e8-8e20-e665d0b699f8</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.COMPANY_SUPPLIER_1</defaultValue>
+      <description></description>
+      <id>adc94834-eb7c-4638-935a-4e962a27d6a3</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
    <variable>
       <defaultValue>'CNTW-SUP-POC'</defaultValue>
       <description></description>

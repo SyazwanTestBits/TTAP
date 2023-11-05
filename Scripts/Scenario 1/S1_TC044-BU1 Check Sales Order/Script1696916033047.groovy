@@ -90,22 +90,6 @@ WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC050 TC053/button
 CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Scenario 1/S1_TC034/p_Copyright  2021 BriVge. All rights reserved'), 
     0)
 
-not_run: formattedDate1 = CustomKeywords.'DateFormatter.formatDate'(planOut_date1)
-
-not_run: formattedDate2 = CustomKeywords.'DateFormatter.formatDate'(planOut_date2)
-
-not_run: WebUI.verifyElementText(findTestObject('Scenario 1/S1_TC044/p_PlanOut_Date1'), formattedDate1)
-
-not_run: KeywordUtil.logInfo("Plan Outbound Date 1 is verified: $formattedDate1")
-
-not_run: WebUI.verifyElementText(findTestObject('Scenario 1/S1_TC044/p_PlanOut_Date2'), formattedDate2)
-
-not_run: KeywordUtil.logInfo("Plan Outbound Date 2 is verified: $formattedDate2")
-
-not_run: WebUI.verifyElementText(findTestObject('Scenario 1/S1_TC044/p_EstimatedOut_Date'), formattedDate1)
-
-not_run: KeywordUtil.logInfo("Estimated Outbound Date 1 is verified: $formattedDate1")
-
 CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 10/S10_TC178/p_Parts No'), 0)
 
 for (int rowl = 1; rowl <= 6; rowl++) {

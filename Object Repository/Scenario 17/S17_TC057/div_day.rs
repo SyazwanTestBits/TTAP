@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//p[normalize-space()='${day}'])[1]</value>
+         <value>(//div[@role='presentation']//descendant::p[text()='${day}'][1])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>

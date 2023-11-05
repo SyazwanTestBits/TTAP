@@ -342,8 +342,8 @@ public class compareTestData {
 		//WebUI.verifyMatch(nomatch, '0', false)
 		return nomatch
 	}
-	
-	
+
+
 	@Keyword
 	def compareExcelFiles_ExcelFormulaCompatible(String file11Path, String file22Path, int startRows, int endRows,int startCols,int endCols) {
 
@@ -375,11 +375,11 @@ public class compareTestData {
 
 						Cell cell1 = row1.getCell(j)
 						Cell cell2 = row2.getCell(j)
-						
-	
+
+
 						if (cell1 != null && cell2 != null) {
-							
-							
+
+
 							// Evaluate cell1 and cell2 if they contain formulas
 							if (cell1.getCellTypeEnum()  == CellType.FORMULA) {
 								FormulaEvaluator evaluator = workbook1.getCreationHelper().createFormulaEvaluator();
@@ -389,15 +389,15 @@ public class compareTestData {
 								FormulaEvaluator evaluator = workbook2.getCreationHelper().createFormulaEvaluator();
 								cell2 = evaluator.evaluateInCell(cell2);
 							}
-							
-						
+
+
 							//Print the values of Cell 1 and 2
 							println "Actual: ${cell1.toString()} and Expected: ${cell2.toString()} at Row: ${i + 1}, Col: ${j + 1}"
 
 							//Log the Actual(Cell 1) and Expected values(Cell2):
 							KeywordUtil.logInfo("Actual: ${cell1.toString()} and Expected: ${cell2.toString()} at Row: ${i + 1}, Col: ${j + 1}")
-							
-							
+
+
 							// Compare cell values, you can implement your custom comparison logic here
 							if (!cell1.toString().equals(cell2.toString())) {
 								println "Difference found at Row: ${i + 1}, Col: ${j + 1}"
@@ -424,5 +424,6 @@ public class compareTestData {
 		//WebUI.verifyMatch(nomatch, '0', false)
 		return nomatch
 	}
+
 
 }

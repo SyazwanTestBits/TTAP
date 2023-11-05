@@ -3,6 +3,16 @@
    <description></description>
    <name>S13_TC036-Customer Check Contract</name>
    <tag></tag>
+   <integratedEntity>
+<productName>JIRA</productName>
+<properties>
+<entry>
+<key>integratedValue</key>
+<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10025":"10000_*:*_1_*:*_266537928_*|*_10002_*:*_1_*:*_0_*|*_10001_*:*_1_*:*_328662998","customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i0001b:2006"},"status":{"id":10002,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10002","name":"Done"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC13_TC36 - Customer -Check Contract after Supplier Complete Received Request","description":"User: Customer\nLogin ID: userA\n\nCompany:PK-CUS-POC\nFunction:Master\u003e Contract List\nDescription: Check Contract after Supplier Complete Received Request","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"resolution":{"id":10000,"description":"Work has been completed on this issue.","self":"https://ttap-scm-at.atlassian.net/rest/api/2/resolution/10000","name":"Done"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-118/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10117","key":"BAT-118","id":10117}}</value>
+</entry>
+</properties>
+<type>TESTCASE</type>
+</integratedEntity>
    <comment></comment>
    <testCaseGuid>72d66ade-b378-4715-bf13-7a1abaf5629f</testCaseGuid>
    <testDataLinks>
@@ -15,10 +25,28 @@
       <testDataId>Data Files/Scenario 13/S13_TC035-Receiverd Request List</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>95e037aa-2a99-461e-a4ed-a042feb0de89</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>ContractDescription</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>90f2b686-2524-4a8a-a97f-2a799e42a38f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d2b137e3-6112-4e95-9079-8fc71410cca9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eb85a92f-b2d5-4f4b-ba3f-cfc8335139a6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>118b1a38-5930-48dc-8d6f-7536a31ebcda</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
@@ -26,5 +54,26 @@
       <id>90f2b686-2524-4a8a-a97f-2a799e42a38f</id>
       <masked>false</masked>
       <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.S13_TC30nMore_username</defaultValue>
+      <description></description>
+      <id>d2b137e3-6112-4e95-9079-8fc71410cca9</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.S13_TC30nMore_password</defaultValue>
+      <description></description>
+      <id>eb85a92f-b2d5-4f4b-ba3f-cfc8335139a6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.S13_TC30nMore_companyCUST</defaultValue>
+      <description></description>
+      <id>118b1a38-5930-48dc-8d6f-7536a31ebcda</id>
+      <masked>false</masked>
+      <name>company</name>
    </variable>
 </TestCaseEntity>

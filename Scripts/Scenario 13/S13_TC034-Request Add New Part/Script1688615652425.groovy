@@ -18,9 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Login and change  company to PK-CUS-POC'
-WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.CUST_USERNAME_USERF
-        , ('password') : GlobalVariable.CUST_PWD_USERF, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.CUST_COMPANY_USERF], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : username
+        , ('password') : password, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : company2], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Scenario 13/S13_TC034/Page_Brivge/button_Master'))
 
@@ -31,6 +30,16 @@ WebUI.click(findTestObject('Scenario 13/S13_TC034/Page_Brivge/input__requestTo')
 WebUI.click(findTestObject('Scenario 13/S13_TC034/Page_Brivge/li_Request To', [('company') : company]))
 
 WebUI.setText(findTestObject('Scenario 13/S13_TC034/Page_Brivge/input__description'), description)
+
+WebUI.click(findTestObject('Scenario 10/S10_TC005/button_Download'))
+
+WebUI.click(findTestObject('Scenario 10/S10_TC005/li_Download'))
+
+WebUI.verifyElementPresent(findTestObject('Scenario 10/S10_TC005/p_The operation was successful'), 0)
+
+WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
+
+downloadedExcel = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
 'Select supplier \'CNTW-SUP-POC\''
 WebUI.click(findTestObject('Scenario 13/S13_TC034/Page_Brivge/button_Upload Part'))

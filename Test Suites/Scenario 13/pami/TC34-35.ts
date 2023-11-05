@@ -29,6 +29,24 @@
          <value></value>
          <variableId>7fff0443-d66b-4843-bec8-8e28b315217f</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d2b137e3-6112-4e95-9079-8fc71410cca9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eb85a92f-b2d5-4f4b-ba3f-cfc8335139a6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>118b1a38-5930-48dc-8d6f-7536a31ebcda</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>a2c6fa73-0c76-4bb9-8f06-29181f527f64</guid>
@@ -203,6 +221,30 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>a556b14c-bda5-441f-a109-4f889a5ec69b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3035ac10-beab-4741-b510-f10c8abccb4b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>611431d6-39d9-49e8-8e20-e665d0b699f8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>adc94834-eb7c-4638-935a-4e962a27d6a3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d41a592d-b096-4bfb-9cc8-7e8e4cb7cc3a</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

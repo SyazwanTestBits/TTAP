@@ -118,10 +118,12 @@ for (int index = 1; index <= testData1.getRowNumbers(); index++) {
     }
 }
 
-CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Scenario 10/S10_TC048/h3_Place Order Screen(Regular)'), 
+CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Scenario 10/S10_TC048/button_Download step 1'), 
     0)
 
-CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 10/S10_TC048/button_Upload'), latestPath)
+not_run: CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 10/S10_TC048/button_Upload'), latestPath)
+
+CustomKeywords.'RobotUpload.uploadFileUsingJS'(findTestObject('Scenario 10/S10_TC048/button_Upload'), latestPath)
 
 WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
 

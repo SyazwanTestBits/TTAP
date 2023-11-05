@@ -18,17 +18,17 @@
       <variableId>f93873fc-99d6-448f-b8b9-3c0b9a806631</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
       <id>8b007aba-a35c-485e-a1fa-8493046f0ebb</id>
       <masked>false</masked>
-      <name>salesOrderNo1</name>
+      <name>customerOrderNo1</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
       <id>f93873fc-99d6-448f-b8b9-3c0b9a806631</id>
       <masked>false</masked>
-      <name>salesOrderNo2</name>
+      <name>customerOrderNo2</name>
    </variable>
 </TestCaseEntity>

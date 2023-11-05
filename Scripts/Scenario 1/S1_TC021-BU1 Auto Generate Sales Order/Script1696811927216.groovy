@@ -63,7 +63,7 @@ CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
 WebUI.takeFullPageScreenshot()
 
-CustomKeywords.'copyToExcel.exel'(regularSalesOrderNo, 1, 1, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', sheetname)
+CustomKeywords.'copyToExcel.exel'(regularSalesOrderNo, 1, 0, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', sheetname)
 
 CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Page_SO_MonitoringDetail/p_breadcrumb_SO Monitoring List'), 
     0)

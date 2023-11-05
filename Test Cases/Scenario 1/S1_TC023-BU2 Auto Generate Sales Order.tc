@@ -62,7 +62,7 @@
       <name>company</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('Scenario 1/S1_TC023').getValue('ContractNo', 1)</defaultValue>
+      <defaultValue>findTestData('Scenario 1/S1_TC003-BU2 to BU1 Contract').getValue('ContractNo', 1)</defaultValue>
       <description></description>
       <id>df9e3e0c-6e02-4ec9-ae69-7cbe296603be</id>
       <masked>false</masked>
@@ -90,7 +90,7 @@
       <name>orderTypeSpot</name>
    </variable>
    <variable>
-      <defaultValue>'TC023'</defaultValue>
+      <defaultValue>'TC20-Autogen SOPO'</defaultValue>
       <description></description>
       <id>14807603-c31b-46bb-b0e6-308d86d94242</id>
       <masked>false</masked>

@@ -3,6 +3,16 @@
    <description></description>
    <name>S13_TC041-Customer Place Order</name>
    <tag></tag>
+   <integratedEntity>
+<productName>JIRA</productName>
+<properties>
+<entry>
+<key>integratedValue</key>
+<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10025":"10000_*:*_1_*:*_266540322_*|*_10002_*:*_1_*:*_0_*|*_10001_*:*_1_*:*_328673970","customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i0001b:200019"},"status":{"id":10002,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10002","name":"Done"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC13_TC41 - Customer -Place Order ","description":"User: Customer\\\\Login ID: userA\\\\Company:PK-CUS-POC\\\\Function:Order\u003e CO Monitoring List\\\\Description: Place order through download/ upload","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"resolution":{"id":10000,"description":"Work has been completed on this issue.","self":"https://ttap-scm-at.atlassian.net/rest/api/2/resolution/10000","name":"Done"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-123/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10122","key":"BAT-123","id":10122}}</value>
+</entry>
+</properties>
+<type>TESTCASE</type>
+</integratedEntity>
    <comment></comment>
    <testCaseGuid>29eee5c4-8afc-49da-89b2-4050b42b6182</testCaseGuid>
    <variableLinks>
@@ -35,22 +45,28 @@
       <value></value>
       <variableId>12ef07dd-c64a-4906-824a-cf28d4155779</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa18e7a7-6d31-4d1b-b232-5b744b3bf7a9</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>GlobalVariable.CUST_USERNAME_USERF</defaultValue>
+      <defaultValue>GlobalVariable.S13_TC30nMore_username</defaultValue>
       <description></description>
       <id>8c658820-7a73-4911-8318-71a3413fdd87</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.CUST_PWD_USERF</defaultValue>
+      <defaultValue>GlobalVariable.S13_TC30nMore_password</defaultValue>
       <description></description>
       <id>5beedde8-6c07-47b8-91f7-ed331ad01923</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.CUST_COMPANY_USERF</defaultValue>
+      <defaultValue>GlobalVariable.S13_TC30nMore_companyCUST</defaultValue>
       <description></description>
       <id>36c454b8-f1a6-4729-927e-716a3f7127ab</id>
       <masked>false</masked>
@@ -69,5 +85,12 @@
       <id>12ef07dd-c64a-4906-824a-cf28d4155779</id>
       <masked>false</masked>
       <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC041-Reference').getValue('orderReference', 1)</defaultValue>
+      <description></description>
+      <id>aa18e7a7-6d31-4d1b-b232-5b744b3bf7a9</id>
+      <masked>false</masked>
+      <name>orderReference</name>
    </variable>
 </TestCaseEntity>

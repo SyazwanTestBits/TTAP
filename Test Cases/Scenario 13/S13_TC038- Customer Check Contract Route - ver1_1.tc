@@ -3,6 +3,16 @@
    <description></description>
    <name>S13_TC038- Customer Check Contract Route - ver1_1</name>
    <tag></tag>
+   <integratedEntity>
+<productName>JIRA</productName>
+<properties>
+<entry>
+<key>integratedValue</key>
+<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10025":"10000_*:*_1_*:*_266539116_*|*_10002_*:*_1_*:*_0_*|*_10001_*:*_1_*:*_328665767","customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i0001b:20006"},"status":{"id":10002,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10002","name":"Done"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC13_TC38 - Customer -Check Contract Route after supplier complete receive request","description":"User: Customer\\\\Login ID: userA\\\\Company:PK-CUS-POC\\\\Function:Master\u003e Contract Route List\\\\Description: Function to view and check Contract Route after supplier complete receive request","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"resolution":{"id":10000,"description":"Work has been completed on this issue.","self":"https://ttap-scm-at.atlassian.net/rest/api/2/resolution/10000","name":"Done"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-120/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10119","key":"BAT-120","id":10119}}</value>
+</entry>
+</properties>
+<type>TESTCASE</type>
+</integratedEntity>
    <comment></comment>
    <testCaseGuid>33d257eb-5b8c-44ec-b485-90214a39f3b7</testCaseGuid>
    <testDataLinks>
@@ -23,6 +33,24 @@
       </iterationEntity>
       <testDataId>Data Files/Scenario 13/S13_TC035-Receiverd Request List</testDataId>
    </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d2b137e3-6112-4e95-9079-8fc71410cca9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eb85a92f-b2d5-4f4b-ba3f-cfc8335139a6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>118b1a38-5930-48dc-8d6f-7536a31ebcda</variableId>
+   </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
@@ -84,11 +112,32 @@
       <variableId>cb5091c6-5f0e-4335-a892-e0a435fabf77</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>9aeef15b-1d15-4ff6-894b-38cf27d258ba</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>RouteDescription</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>dea5e9c8-61a9-49ce-a9a2-91babf568440</variableId>
    </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.S13_TC30nMore_username</defaultValue>
+      <description></description>
+      <id>d2b137e3-6112-4e95-9079-8fc71410cca9</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.S13_TC30nMore_password</defaultValue>
+      <description></description>
+      <id>eb85a92f-b2d5-4f4b-ba3f-cfc8335139a6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.S13_TC30nMore_companyCUST</defaultValue>
+      <description></description>
+      <id>118b1a38-5930-48dc-8d6f-7536a31ebcda</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
    <variable>
       <defaultValue>'CR-PK-CUS-POC-2307001'</defaultValue>
       <description></description>
