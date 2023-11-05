@@ -12,51 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>5f32b977-f233-4339-b920-ac79f3717cf0</testSuiteGuid>
    <testCaseLink>
-      <guid>8b5c74cd-76f6-4cf7-96ca-29d799985908</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario 1/S1_TC214-BU1 Revise and Approve SellerGI Invoice</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3c14e982-0ec5-4543-928e-3ec52ef61377</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>08820b67-0b0a-4881-a408-38630389ff67</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0fd71c50-2fe9-42ff-a9b1-d1341aa8a25b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario 1/S1_TC215-BU1 Release SellerGI Invoice</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ff0e1152-2b8e-4fb0-bacc-b92d15edb0f7</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>39eaeb4c-c573-4cec-bf8d-527e7f7541ed</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario 1/S1_TC216-Customer Auto Generate BuyerGR Invoice</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ff0e1152-2b8e-4fb0-bacc-b92d15edb0f7</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>ca734cdc-aabf-4d53-adc6-16eb1079b82b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

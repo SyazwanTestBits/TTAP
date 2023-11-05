@@ -5,14 +5,14 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>e34f0dc5-dcfd-4750-b04e-4e72fbf0b30f</testSuiteGuid>
+   <testSuiteGuid>b873b7a4-3ff3-49ce-8175-60150539d5eb</testSuiteGuid>
    <testCaseLink>
-      <guid>9b5b3869-b29f-4550-938e-c6c2db6015e5</guid>
+      <guid>f7193ac0-f883-4ad3-9009-fad0b96ab0ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC010-Sup2 Set Cargo Status for Supplier</testCaseId>
@@ -73,7 +73,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>df9ad6a0-425a-4b51-93fd-7a02db4d9ad5</guid>
+      <guid>db20e8f0-fdf3-4237-a3c1-ee3d36968a40</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC011-BU2 Set Cargo Status for Supplier</testCaseId>
@@ -134,14 +134,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>2641eff0-62fd-4474-aa09-a3829dd15620</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario 1/S1_TC012-Cargo setting for Supplier 1</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>34a379b7-8074-44a4-ad51-6246ab0384ea</guid>
+      <guid>5baa9b85-9b8d-4399-8f0b-39499084ca24</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC012-Sup1 Set Cargo Status for Supplier</testCaseId>
@@ -202,7 +195,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>28682cdc-caa7-460a-9576-9acb551be607</guid>
+      <guid>47a1730f-d162-4f1e-99b4-1f935758479d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC013-BU3 Set Cargo Status for Supplier</testCaseId>
@@ -263,7 +256,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f7b3ac2f-f606-4ba0-aa72-bc9c9665bb8b</guid>
+      <guid>be94ac3b-0ea9-4c2c-b6d8-397b1e350f52</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC014-BU1 Set Cargo Status for Supplier</testCaseId>
