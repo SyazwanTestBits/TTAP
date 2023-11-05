@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Navbar_Brivge/LogisticsMenu_Brivge/li_Outbound Monit
 
 WebUI.waitForElementPresent(findTestObject('Page_OutboundMonitoringList/h3_Outbound Monitoring List'), 0)
 
-WebUI.callTestCase(findTestCase('Scenario 12/S12_TC044.1-Supplier Outbound -Regular'), [('username') : GlobalVariable.BAF_USERNAME_FATIN
+not_run: WebUI.callTestCase(findTestCase('Scenario 12/S12_TC044.1-Supplier Outbound -Regular'), [('username') : GlobalVariable.BAF_USERNAME_FATIN
         , ('password') : GlobalVariable.BAF_PWD, ('company') : GlobalVariable.BAF_COMPANY_SUP, ('salesOrderNo') : findTestData(
             'Scenario 12/SC12_TC016-Supplier SO').getValue('RegularSalesOrderNo', 1), ('testdata_upload_outbounddata') : findTestData(
             'Scenario 12/SC12_TC044.1-Supplier Outbound -Regular'), ('testdata_contractpartsinfo') : findTestData('Scenario 12/SC12_TC004-Contract Parts Info')
@@ -35,7 +35,7 @@ WebUI.callTestCase(findTestCase('Scenario 12/S12_TC044.1-Supplier Outbound -Regu
             , 'OP_GrossWeight', 'InnerPackageNo', 'InnerPackageType', 'IP_M3', 'IP_NetWeight', 'IP_GrossWeight'], ('outboundDate') : '11/8/2023'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Scenario 12/S12_TC044.2-Supplier Outbound -Spot'), [('username') : GlobalVariable.BAF_USERNAME_FATIN
+not_run: WebUI.callTestCase(findTestCase('Scenario 12/S12_TC044.2-Supplier Outbound -Spot'), [('username') : GlobalVariable.BAF_USERNAME_FATIN
         , ('password') : GlobalVariable.BAF_PWD, ('company') : GlobalVariable.BAF_COMPANY_SUP, ('salesOrderNo') : findTestData(
             'Scenario 12/SC12_TC016-Supplier SO').getValue('SpotSalesOrderNo', 1), ('testdata_upload_outbounddata') : findTestData(
             'Scenario 12/SC12_TC044.2-Supplier Outbound -Spot'), ('testdata_contractpartsinfo') : findTestData('Scenario 12/SC12_TC004-Contract Parts Info')

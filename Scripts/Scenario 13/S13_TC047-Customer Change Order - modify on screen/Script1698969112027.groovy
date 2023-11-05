@@ -64,7 +64,7 @@ for (int row = 1; row <= testdataOrderChange.getRowNumbers(); row++) {
         inboundDateQty2 = Float.parseFloat(testdataOrderChange.getValue('InboundNewDate_Qty2', row))
     }
     
-    CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_input shipping_qtyPlanDate1', 
+    CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_INPUT ORDER QTY FOR EACH PN_newFirmQty', 
             [('part_No') : part_No]), 0)
 
     not_run: WebUI.click(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_input shipping_qtyPlanDate1', 
@@ -73,12 +73,21 @@ for (int row = 1; row <= testdataOrderChange.getRowNumbers(); row++) {
     not_run: WebUI.clearText(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_input shipping_qtyPlanDate1', 
             [('part_No') : part_No]))
 
-    CustomKeywords.'util.clearTextJS.clearElementTextDoubleClick'(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_input shipping_qtyPlanDate1', 
+    not_run: CustomKeywords.'util.clearTextJS.clearElementText2'(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_INPUT ORDER QTY FOR EACH PN_newFirmQty', 
             [('part_No') : part_No]))
 
-    WebUI.setText(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_input shipping_qtyPlanDate1', [('part_No') : part_No]), 
-        inboundDateQty1)
+    not_run: WebUI.setText(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_INPUT ORDER QTY FOR EACH PN_newFirmQty', 
+            [('part_No') : part_No]), newFirm)
 }
+
+WebUI.setText(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_Basic info (order summary)_customerRefNo'), 
+    testdataInboundDateChange.getValue('OrderReference', 1))
+
+WebUI.setText(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_Basic info (order summary)_remark'), testdataInboundDateChange.getValue(
+        'OrderReference', 1))
+
+CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/div_Create Order ChangeHome PageOrder ChangeCancelCreate Order ChangeSaveIssue'), 
+    0)
 
 not_run: WebUI.uploadFile(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_UploadFile'), latestFilePath)
 
