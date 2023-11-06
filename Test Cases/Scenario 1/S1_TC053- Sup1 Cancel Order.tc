@@ -3,16 +3,6 @@
    <description></description>
    <name>S1_TC053- Sup1 Cancel Order</name>
    <tag></tag>
-   <integratedEntity>
-<productName>JIRA</productName>
-<properties>
-<entry>
-<key>integratedValue</key>
-<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i0030g:"},"status":{"id":10000,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10000","name":"To Do"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC1.0_TC53 - Supplier1 - Function to Request Change/Cancel Order by Supplier1 from Supplier Order Change/Cancel List","description":"User: Supplier1 \\\\Login ID: maria-baf\\\\Company: MY-ELA-SUP \\\\Function: Order \u003ePlace Supplier Change \\\\Description: Function to Request Change/Cancel Order by Supplier1 from Supplier Order Change/Cancel List","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-789/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10788","key":"BAT-789","id":10788}}</value>
-</entry>
-</properties>
-<type>TESTCASE</type>
-</integratedEntity>
    <comment></comment>
    <testCaseGuid>924bf521-bd91-4043-b040-da0e79457f4e</testCaseGuid>
    <variableLinks>
