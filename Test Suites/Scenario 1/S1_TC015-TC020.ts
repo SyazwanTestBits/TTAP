@@ -5,14 +5,14 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>87634622-20fc-4f5e-b051-e88a478075f2</testSuiteGuid>
+   <testSuiteGuid>39b118fb-dd19-4492-b430-65d6467d083e</testSuiteGuid>
    <testCaseLink>
-      <guid>d398b157-be06-44a7-9b97-e72185593d12</guid>
+      <guid>4c81c3db-976e-4a5d-bc88-8a4b0cd756bd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC015-Customer Place Regular Order</testCaseId>
@@ -61,7 +61,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>4e16da4d-2287-44ff-be42-aaf13eaa2195</guid>
+      <guid>5e5a72eb-4485-4dd7-ba40-347a801cdaaf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC016- Customer Download CO</testCaseId>
@@ -92,7 +92,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>3ac2ffad-8ed6-4c01-b9bc-3f502d15a17a</guid>
+      <guid>09cd2860-fe1d-4c37-88ea-7ddea2533ec7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC017- Customer Change Order</testCaseId>
@@ -147,7 +147,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>2760cd8e-8cbf-4e35-ab55-b944d992dacc</guid>
+      <guid>d9fbed29-fecf-47dc-8f07-a28bc2fbfe23</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC018- Customer Check Change Request</testCaseId>
@@ -178,7 +178,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>b1f0e13e-e5ad-4da2-b0dd-1f516d4dbc29</guid>
+      <guid>2c5eeb72-ab0a-49fd-91bd-e02a7d0d6bb0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC019- Customer Check Order</testCaseId>
@@ -200,6 +200,19 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>1ce311cf-2e90-4cec-8fc9-4a2e15d7557d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d0342f61-9d3b-4334-838e-2335b124961e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 1/S1_TC020- Admin Combine Order Batch</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>df21f62b-056d-4e55-80e1-c6e85b6df454</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
