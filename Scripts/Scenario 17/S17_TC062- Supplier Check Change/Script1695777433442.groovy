@@ -29,7 +29,7 @@ WebUI.verifyElementNotPresent(findTestObject('Scenario 17/S17_TC062/p_verifyRequ
 
 WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC034/h3_ChangeCancel Request List'), 0)
 
-'Verify request deleted is not present\r\n'
+'Verify request no. deleted is not present\r\n'
 WebUI.setText(findTestObject('Scenario 10/S10_TC083/input_Supplier Order Change_search'), requestNo)
 
 WebUI.verifyElementNotPresent(findTestObject('Scenario 17/S17_TC062/p_verifyRequestNo', [('requestNo') : requestNo]), 0)
