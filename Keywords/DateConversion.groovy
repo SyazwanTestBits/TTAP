@@ -25,9 +25,21 @@ import internal.GlobalVariable
 public class DateConversion {
 
 	@Keyword
-	public static String convertChineseToEnglishPeriodRange(String chineseDateRange) {
+	public static String convertChineseToEnglishPeriodRange(String date) {
+		
+		// Define a regular expression to match English characters (letters)
+		def englishPattern = /[A-Za-z]/
+		
+		//If date has english characters, just return the date without conversion
+		if (date =~ englishPattern) {
+			// Your code to handle English characters goes here
+			
+			return date;
+		}
+		
+		else {	
 		try {
-			String[] dateParts = chineseDateRange.split(" ~ ");
+			String[] dateParts = date.split(" ~ ");
 
 			SimpleDateFormat chineseFormat = new SimpleDateFormat("MMMM d, yyyy", Locale.CHINA);
 			SimpleDateFormat englishFormat = new SimpleDateFormat("MMM d, yyyy", Locale.US);
@@ -42,6 +54,8 @@ public class DateConversion {
 		} catch (ParseException e) {
 			e.printStackTrace();
 			return null;
+		}
+		
 		}
 	}
 

@@ -68,19 +68,18 @@ WebUI.setText(findTestObject('Scenario 10/S10_TC048/input__basic info-orderRefNo
 
 WebUI.setText(findTestObject('Scenario 10/S10_TC048/input__basic info-remark'), orderReferenceRemark)
 
-not_run: CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 10/S10_TC048/button_Download step 1'), 
-    0)
+CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 10/S10_TC048/button_Download step 1'), 0)
 
-not_run: WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
+WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
 
-not_run: WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
+WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
 
-not_run: latestPath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
+latestPath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
 //--------------------------TableDate-------------------------------------------------------------------------
-not_run: int col = 1
+int col = 1
 
-not_run: for (String dateExcel : dateList) {
+for (String dateExcel : dateList) {
     colIndex = (col + 12)
 
     CustomKeywords.'copyToExcel.exel2'(dateExcel, 12, colIndex, latestPath, contractNum)
@@ -88,9 +87,9 @@ not_run: for (String dateExcel : dateList) {
     col = (col + 1)
 }
 
-not_run: col = 1
+col = 1
 
-not_run: for (String dateExcel : inboundDate) {
+for (String dateExcel : inboundDate) {
     colIndex = (col + 12)
 
     CustomKeywords.'copyToExcel.exel2'(dateExcel, 14, colIndex, latestPath, contractNum)
@@ -99,11 +98,11 @@ not_run: for (String dateExcel : inboundDate) {
 }
 
 //------------------------------------------INBOUND-------------------------
-not_run: partIndex = CustomKeywords.'mapRowDatAndRowIndices.extractPartsWithIndices'(latestPath, 2, 15)
+partIndex = CustomKeywords.'mapRowDatAndRowIndices.extractPartsWithIndices'(latestPath, 2, 15)
 
-not_run: println(partIndex)
+println(partIndex)
 
-not_run: for (int index = 1; index <= testData1.getRowNumbers(); index++) {
+for (int index = 1; index <= testData1.getRowNumbers(); index++) {
     def datafilePartNo = testData1.getValue('Part No', index)
 
     def fileRowIndex = partIndex[datafilePartNo]
@@ -119,39 +118,38 @@ not_run: for (int index = 1; index <= testData1.getRowNumbers(); index++) {
     }
 }
 
-not_run: CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Scenario 10/S10_TC048/button_Download step 1'), 
+CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Scenario 10/S10_TC048/div_Place Order Screen(Regular)Home PageOrder Calculation ListPlace Order Screen(Regular)1234SaveIssue'), 
     0)
 
-not_run: CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 10/S10_TC048/button_Upload'), latestPath)
+CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 10/S10_TC048/button_Upload'), latestPath)
 
-not_run: CustomKeywords.'RobotUpload.uploadFileUsingJS'(findTestObject('Scenario 10/S10_TC048/button_Upload'), latestPath)
+CustomKeywords.'RobotUpload.uploadFileUsingJS'(findTestObject('Scenario 10/S10_TC048/button_Upload'), latestPath)
 
-not_run: WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
+WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
 
-not_run: WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
+WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
 
-not_run: CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 10/S10_TC048/button_Download step 3'), 
-    0)
+CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 10/S10_TC048/button_Download step 3'), 0)
 
-not_run: WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
+WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
 
-not_run: WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
+WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
 
-not_run: CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 10/S10_TC048/button_Save'), 0)
+CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 10/S10_TC048/button_Save'), 0)
 
-not_run: WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
+WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
 
-not_run: WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
+WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
 
-not_run: CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 10/S10_TC048/button_Issue'), 0)
+CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 10/S10_TC048/button_Issue'), 0)
 
-not_run: WebUI.click(findTestObject('Scenario 10/S10_TC048/button_CONFIRM'))
+WebUI.click(findTestObject('Scenario 10/S10_TC048/button_CONFIRM'))
 
-not_run: WebUI.waitForElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
+WebUI.waitForElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
 
-not_run: WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
+WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
 
-not_run: WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
+WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
 
-not_run: WebUI.closeBrowser()
+WebUI.closeBrowser()
 

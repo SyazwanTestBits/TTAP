@@ -124,7 +124,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
-      <type>Main</type>s
+      <type>Main</type>
       <value>//button[@type = 'button' and @id = 'step_2']</value>
       <webElementGuid>445baa9c-c5c1-4157-8be8-3090f0fa328b</webElementGuid>
    </webElementXpaths>

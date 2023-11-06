@@ -4,15 +4,15 @@
    <name>S13_TC048-Supplier Approve or Cancel Request List</name>
    <tag></tag>
    <integratedEntity>
-<productName>JIRA</productName>
-<properties>
-<entry>
-<key>integratedValue</key>
-<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i0001b:00i"},"status":{"id":10001,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10001","name":"In Progress"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC13_TC48 - Supplier -Approve Change/Cancel Request","description":"User: Supplier\\\\Login ID: userA\\\\Company: CNTW-SUP-POC\\\\Function:Order\u003e Change/Cancel Request List\\Description: Supplier to approve the change request","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-40/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10039","key":"BAT-40","id":10039}}</value>
-</entry>
-</properties>
-<type>TESTCASE</type>
-</integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0001b:00i&quot;},&quot;status&quot;:{&quot;id&quot;:10001,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://ttap-scm-at.atlassian.net/&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/status/10001&quot;,&quot;name&quot;:&quot;In Progress&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;BAT&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;BriVge Automated Testing&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;SC13_TC48 - Supplier -Approve Change/Cancel Request&quot;,&quot;description&quot;:&quot;User: Supplier\\\\Login ID: userA\\\\Company: CNTW-SUP-POC\\\\Function:Order\u003e Change/Cancel Request List\\Description: Supplier to approve the change request&quot;,&quot;reporter&quot;:{&quot;active&quot;:true,&quot;displayName&quot;:&quot;Nurfatin binti Abdullah Shuhaimy&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-40/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/10039&quot;,&quot;key&quot;:&quot;BAT-40&quot;,&quot;id&quot;:10039}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>34a7db24-6022-476e-a1bb-5013eec60cb0</testCaseGuid>
    <variableLinks>
@@ -51,15 +51,27 @@
       <value></value>
       <variableId>8740b275-3b0a-4f96-816e-138db482995f</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>27520e36-19ff-4af0-9ade-d26630adf388</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>71924ec3-e180-4416-8e8b-3456e01a4404</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>GlobalVariable.CUST_USERNAME_USERF</defaultValue>
+      <defaultValue>GlobalVariable.ADMIN_USERNAME</defaultValue>
       <description></description>
       <id>8c658820-7a73-4911-8318-71a3413fdd87</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.CUST_PWD_USERF</defaultValue>
+      <defaultValue>GlobalVariable.ADMIN_PWD</defaultValue>
       <description></description>
       <id>5beedde8-6c07-47b8-91f7-ed331ad01923</id>
       <masked>false</masked>
@@ -92,5 +104,19 @@
       <id>8740b275-3b0a-4f96-816e-138db482995f</id>
       <masked>false</masked>
       <name>changeReqNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC047-Change Inbound Dates').getValue('\'OrderReference\'', 1)</defaultValue>
+      <description></description>
+      <id>27520e36-19ff-4af0-9ade-d26630adf388</id>
+      <masked>false</masked>
+      <name>requestRefrence</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC035-Receiverd Request List').getValue('ContractRouteCode', 1)</defaultValue>
+      <description></description>
+      <id>71924ec3-e180-4416-8e8b-3456e01a4404</id>
+      <masked>false</masked>
+      <name>contractRouteCode</name>
    </variable>
 </TestCaseEntity>
