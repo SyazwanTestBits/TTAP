@@ -25,16 +25,16 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public class WeeklyPeriod {
-	
-	
+
+
 	@Keyword
 	public static String getWeeklyDateRange(String date1String) {
-		
+
 		//String date1String = "Oct 10, 2023";
-		
+
 		// Define a DateTimeFormatter for parsing the input date
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMM d, yyyy");
-		
+
 		// Parse the input date string into a LocalDate
 		LocalDate date1 = LocalDate.parse(date1String, formatter);
 
@@ -50,7 +50,7 @@ public class WeeklyPeriod {
 		// Print the result
 		System.out.println("date1 = " + date1.format(formatter));
 		System.out.println("weekly1 = " + weeklyRange);
-		
+
 		return weeklyRange
-    }
+	}
 }
