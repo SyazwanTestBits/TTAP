@@ -15,7 +15,6 @@ import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import java.io.FileInputStream
 
-
 public class ExcelActions extends DateConversion {
 
 	@Keyword(keywordObject='Excel Actions')
@@ -126,7 +125,18 @@ public class ExcelActions extends DateConversion {
 		XSSFSheet sheet = workbook.getSheet("Sheet1");
 		Row row = sheet.getRow(rowNum);
 		Cell cell = row.createCell(colNum);
-		cell.setCellValue(name);
+
+		// Define a regular expression to match Chinese characters
+		def chinesePattern = /\p{IsHan}/
+
+		if (name =~ chinesePattern) {
+
+			def convertedName=super.convertChineseToEnglishDate(name)
+			cell.setCellValue(convertedName);
+		}
+		else {
+			cell.setCellValue(name);}
+
 		FileOutputStream fos = new FileOutputStream("C:\\Users\\azwan\\Desktop\\toyotsudata.xlsx");
 		workbook.write(fos);
 		fos.close();
@@ -207,19 +217,45 @@ public class ExcelActions extends DateConversion {
 		// Create an evaluator to recalculate formulas in the workbook
 		def evaluator = workbook.getCreationHelper().createFormulaEvaluator()
 
-		// Get the row for Inbound Date 1
-		Row row = sheet.getRow(16);
-
 		for(def rowNum=1; rowNum<=testdata.getRowNumbers(); rowNum++) {
-			def inboundNewDate = testdata.getValue('InboundNewDate1', rowNum)
-			Cell inboundNewDate_Cell = row.createCell(rowNum+23)
-			inboundNewDate_Cell.setCellValue(inboundNewDate);
-			KeywordUtil.logInfo('Writing: ' + inboundNewDate + ' in Inbound Date 1');
 
+			def inboundNewDate = testdata.getValue('InboundNewDate1', rowNum)
 			def inboundNewDate2 = testdata.getValue('InboundNewDate2', rowNum)
-			Cell inboundNewDate2_Cell = row.createCell(rowNum+24)
-			inboundNewDate2_Cell.setCellValue(inboundNewDate2);
-			KeywordUtil.logInfo('Writing: ' + inboundNewDate2 + ' in Inbound Date 2');
+
+			// Define a regular expression to match Chinese characters
+			def chinesePattern = /\p{IsHan}/
+
+			if (inboundNewDate =~ chinesePattern || inboundNewDate2 =~ chinesePattern) {
+
+				def conInboundDate1=super.convertChineseToEnglishDate(inboundNewDate)
+				def conInboundDate2=super.convertChineseToEnglishDate(inboundNewDate2)
+
+
+				// Get the row for Inbound Date 1
+				Row row = sheet.getRow(16);
+
+				Cell inboundNewDate_Cell = row.createCell(rowNum+23)
+				inboundNewDate_Cell.setCellValue(conInboundDate1);
+				KeywordUtil.logInfo('Writing: ' + conInboundDate1 + ' in Inbound Date 1');
+
+
+				Cell inboundNewDate2_Cell = row.createCell(rowNum+24)
+				inboundNewDate2_Cell.setCellValue(conInboundDate2);
+				KeywordUtil.logInfo('Writing: ' + conInboundDate2 + ' in Inbound Date 2');}
+
+			else {
+
+
+				// Get the row for Inbound Date 1
+				Row row = sheet.getRow(16);
+
+				Cell inboundNewDate_Cell = row.createCell(rowNum+23)
+				inboundNewDate_Cell.setCellValue(inboundNewDate);
+				KeywordUtil.logInfo('Writing: ' + inboundNewDate + ' in Inbound Date 1');
+
+				Cell inboundNewDate2_Cell = row.createCell(rowNum+24)
+				inboundNewDate2_Cell.setCellValue(inboundNewDate2);
+				KeywordUtil.logInfo('Writing: ' + inboundNewDate2 + ' in Inbound Date 2');}
 		}
 
 		// Evaluate all formulas in the workbook
@@ -376,14 +412,33 @@ public class ExcelActions extends DateConversion {
 		// Get the value of Inbound Date 1 from the test data
 		def inboundDate1 = testData.getValue('Inbound_Date1', 1)
 
-		// Get the row for Inbound Date 1
-		Row row = sheet.getRow(16);
 
-		// Write Inbound Date 1 value into Column Index 24
-		Cell inboudDate1_Cell = row.createCell(24);
-		inboudDate1_Cell.setCellValue(inboundDate1);
+		// Define a regular expression to match Chinese characters
+		def chinesePattern = /\p{IsHan}/
 
-		KeywordUtil.logInfo('Writing: ' + inboundDate1 + ' in Place Order');
+		if (inboundDate1  =~ chinesePattern) {
+
+			def convertedDate=super.convertChineseToEnglishDate(inboundDate1)
+
+			// Get the row for Inbound Date 1
+			Row row = sheet.getRow(16);
+
+			// Write Inbound Date 1 value into Column Index 24
+			Cell inboudDate1_Cell = row.createCell(24);
+			inboudDate1_Cell.setCellValue(convertedDate);
+
+			KeywordUtil.logInfo('Writing: ' + convertedDate + ' in Place Order'); }
+
+		else {
+
+			// Get the row for Inbound Date 1
+			Row row = sheet.getRow(16);
+
+			// Write Inbound Date 1 value into Column Index 24
+			Cell inboudDate1_Cell = row.createCell(24);
+			inboudDate1_Cell.setCellValue(inboundDate1);
+
+			KeywordUtil.logInfo('Writing: ' + inboundDate1 + ' in Place Order'); }
 
 		// Evaluate all formulas in the workbook
 		evaluator.evaluateAll()
@@ -558,6 +613,7 @@ public class ExcelActions extends DateConversion {
 
 		// Iterate over rows and set cell values
 		for (def rowNum = 17; rowNum <= sheet.getLastRowNum(); rowNum++) {
+
 			Row row = sheet.getRow(rowNum);
 
 			// Write Firm value into Column Index 14
@@ -718,8 +774,6 @@ public class ExcelActions extends DateConversion {
 		// Create an evaluator to recalculate formulas in the workbook
 		def evaluator = workbook.getCreationHelper().createFormulaEvaluator()
 
-		// Get the row for Inbound Date 1
-		Row row = sheet.getRow(16);
 
 		for(def rowNum=1; rowNum<=testdata.getRowNumbers(); rowNum++) {
 
@@ -735,6 +789,10 @@ public class ExcelActions extends DateConversion {
 				def conInboundDate1=super.convertChineseToEnglishDate(inboundNewDate1)
 				def conInboundDate2=super.convertChineseToEnglishDate(inboundNewDate2)
 				def conInboundDate3=super.convertChineseToEnglishDate(inboundNewDate3)
+
+				// Get the row for Inbound Date 1
+				Row row = sheet.getRow(16);
+
 
 				//def inboundNewDate1 = testdata.getValue('InboundNewDate1', rowNum)
 				Cell inboundNewDate1_Cell = row.createCell(rowNum+24)
@@ -752,6 +810,10 @@ public class ExcelActions extends DateConversion {
 				KeywordUtil.logInfo('Writing: ' + conInboundDate3 + ' in Inbound Date 3'); }
 
 			else {
+
+				// Get the row for Inbound Date 1
+				Row row = sheet.getRow(16);
+
 
 				Cell inboundNewDate1_Cell = row.createCell(rowNum+24)
 				inboundNewDate1_Cell.setCellValue(inboundNewDate1);
@@ -814,10 +876,22 @@ public class ExcelActions extends DateConversion {
 					if (variableCell == null) {
 						variableCell = row.createCell(columnIndex);
 					}
+					// Define a regular expression to match Chinese characters
+					def chinesePattern = /\p{IsHan}/
 
-					variableCell.setCellValue(variableValue);
-					KeywordUtil.logInfo('Writing: ' + variableValue + ' in ' + variableName + ' of Download Outbound Form');
-					println("CURRENT ROW IS: "+rowNum)
+					if(variableValue =~ chinesePattern) {
+						def conVariableValue=super.convertChineseToEnglishDate(variableValue)
+						variableCell.setCellValue(conVariableValue);
+
+						KeywordUtil.logInfo('Writing: ' + conVariableValue + ' in ' + variableName + ' of Download Outbound Form');
+						println("CURRENT ROW IS: "+rowNum)
+					}
+					else {
+						variableCell.setCellValue(variableValue);
+
+						KeywordUtil.logInfo('Writing: ' + variableValue + ' in ' + variableName + ' of Download Outbound Form');
+						println("CURRENT ROW IS: "+rowNum)
+					}
 
 				}
 			}
@@ -879,9 +953,13 @@ public class ExcelActions extends DateConversion {
 
 			// Write Inbound Date 1 value into Column Index 25
 			Cell inboudDate2_Cell = row.createCell(25);
-			inboudDate2_Cell.setCellValue(conInboundDate2); }
+			inboudDate2_Cell.setCellValue(conInboundDate2);
 
-		else {
+
+			KeywordUtil.logInfo('Writing: ' + conInboundDate1 + ' in Place Order');
+			KeywordUtil.logInfo('Writing: ' + conInboundDate2 + ' in Place Order');}
+
+		else{
 
 			// Get the row for Inbound Date 1
 			Row row = sheet.getRow(16);
@@ -892,10 +970,12 @@ public class ExcelActions extends DateConversion {
 
 			// Write Inbound Date 1 value into Column Index 25
 			Cell inboudDate2_Cell = row.createCell(25);
-			inboudDate2_Cell.setCellValue(inboundDate2);}
+			inboudDate2_Cell.setCellValue(inboundDate2);
 
-		KeywordUtil.logInfo('Writing: ' + inboundDate1 + ' in Place Order');
-		KeywordUtil.logInfo('Writing: ' + inboundDate2 + ' in Place Order');
+			KeywordUtil.logInfo('Writing: ' + inboundDate1 + ' in Place Order');
+			KeywordUtil.logInfo('Writing: ' + inboundDate2 + ' in Place Order');
+
+		}
 
 		// Evaluate all formulas in the workbook
 		evaluator.evaluateAll()
@@ -938,7 +1018,9 @@ public class ExcelActions extends DateConversion {
 			// Write Inbound Date 1 value into Column Index 19
 			Cell inboudDate1_Cell = row.createCell(19);
 			inboudDate1_Cell.setCellValue(conInboundDate1);
-		}
+
+
+			KeywordUtil.logInfo('Writing: ' + conInboundDate1 + ' in Place Order');}
 		else {
 
 			// Get the row for Inbound Date 1
@@ -946,10 +1028,11 @@ public class ExcelActions extends DateConversion {
 
 			// Write Inbound Date 1 value into Column Index 19
 			Cell inboudDate1_Cell = row.createCell(19);
-			inboudDate1_Cell.setCellValue(inboundDate1);}
+			inboudDate1_Cell.setCellValue(inboundDate1);
 
 
-		KeywordUtil.logInfo('Writing: ' + inboundDate1 + ' in Place Order');
+			KeywordUtil.logInfo('Writing: ' + inboundDate1 + ' in Place Order');}
+
 
 		// Evaluate all formulas in the workbook
 		evaluator.evaluateAll()
@@ -962,7 +1045,8 @@ public class ExcelActions extends DateConversion {
 
 	//SCENARIO 17 - STARTS FROM HERE
 
-	@Keyword(keywordObject='Excel Actions')
+	@Keyword
+	(keywordObject='Excel Actions')
 	def writeIntoExcelPlaceOrderRegularInboundDateS17(String path, String contract_no) {
 		// Open the workbook and sheet
 		FileInputStream fis = new FileInputStream(path);
@@ -981,20 +1065,46 @@ public class ExcelActions extends DateConversion {
 		// Get the value of Inbound Date 2 from the test data
 		def inboundDate2 = testData.getValue('InboundDate2', 1)
 
-		// Get the row for Inbound Date 1
-		Row row = sheet.getRow(16);
 
-		// Write Inbound Date 1 value into Column Index 24
-		Cell inboudDate1_Cell = row.createCell(24);
-		inboudDate1_Cell.setCellValue(inboundDate1);
+		// Define a regular expression to match Chinese characters
+		def chinesePattern = /\p{IsHan}/
 
-		KeywordUtil.logInfo('Writing: ' + inboundDate1 + ' in Place Order');
+		if (inboundDate1 =~ chinesePattern || inboundDate2 =~ chinesePattern) {
 
-		// Write Inbound Date 1 value into Column Index 25
-		Cell inboudDate2_Cell = row.createCell(25);
-		inboudDate2_Cell.setCellValue(inboundDate2);
+			def conInboundDate1=super.convertChineseToEnglishDate(inboundDate1)
+			def conInboundDate2=super.convertChineseToEnglishDate(inboundDate2)
 
-		KeywordUtil.logInfo('Writing: ' + inboundDate2 + ' in Place Order');
+			// Get the row for Inbound Date 1
+			Row row = sheet.getRow(16);
+
+			// Write Inbound Date 1 value into Column Index 24
+			Cell inboudDate1_Cell = row.createCell(24);
+			inboudDate1_Cell.setCellValue(conInboundDate1);
+
+			KeywordUtil.logInfo('Writing: ' + conInboundDate1 + ' in Place Order');
+
+			// Write Inbound Date 1 value into Column Index 24
+			Cell inboudDate2Cell = row.createCell(25);
+			inboudDate2Cell.setCellValue(conInboundDate2);
+
+			KeywordUtil.logInfo('Writing: ' + conInboundDate2 + ' in Place Order');}
+
+		else {
+
+			// Get the row for Inbound Date 1
+			Row row = sheet.getRow(16);
+
+			// Write Inbound Date 1 value into Column Index 24
+			Cell inboudDate1_Cell = row.createCell(24);
+			inboudDate1_Cell.setCellValue(inboundDate1);
+
+			KeywordUtil.logInfo('Writing: ' + inboundDate1 + ' in Place Order');
+
+			// Write Inbound Date 1 value into Column Index 25
+			Cell inboudDate2_Cell = row.createCell(25);
+			inboudDate2_Cell.setCellValue(inboundDate2);
+
+			KeywordUtil.logInfo('Writing: ' + inboundDate2 + ' in Place Order');}
 
 		// Evaluate all formulas in the workbook
 		evaluator.evaluateAll()
@@ -1095,20 +1205,47 @@ public class ExcelActions extends DateConversion {
 		// Get the value of Inbound Date 2 from the test data
 		def inboundDate2 = testData.getValue('InboundDate2', 1)
 
-		// Get the row for Inbound Date 1
-		Row row = sheet.getRow(16);
 
-		// Write Inbound Date 1 value into Column Index 24
-		Cell inboudDate1_Cell = row.createCell(24);
-		inboudDate1_Cell.setCellValue(inboundDate1);
+		// Define a regular expression to match Chinese characters
+		def chinesePattern = /\p{IsHan}/
 
-		KeywordUtil.logInfo('Writing: ' + inboundDate1 + ' in Place Order');
+		if (inboundDate1 =~ chinesePattern || inboundDate2 =~ chinesePattern) {
 
-		// Write Inbound Date 1 value into Column Index 25
-		Cell inboudDate2_Cell = row.createCell(25);
-		inboudDate2_Cell.setCellValue(inboundDate2);
 
-		KeywordUtil.logInfo('Writing: ' + inboundDate2 + ' in Place Order');
+			def conInboundDate1=super.convertChineseToEnglishDate(inboundDate1)
+			def conInboundDate2=super.convertChineseToEnglishDate(inboundDate2)
+
+			// Get the row for Inbound Date 1
+			Row row = sheet.getRow(16);
+
+			// Write Inbound Date 1 value into Column Index 24
+			Cell inboudDate1_Cell = row.createCell(24);
+			inboudDate1_Cell.setCellValue(conInboundDate1);
+
+			KeywordUtil.logInfo('Writing: ' + conInboundDate1 + ' in Place Order');
+
+			// Write Inbound Date 1 value into Column Index 25
+			Cell inboudDate2Cell = row.createCell(25);
+			inboudDate2Cell.setCellValue(conInboundDate2);
+
+			KeywordUtil.logInfo('Writing: ' + conInboundDate2 + ' in Place Order');}
+
+		else {
+
+			// Get the row for Inbound Date 1
+			Row row = sheet.getRow(16);
+
+			// Write Inbound Date 1 value into Column Index 24
+			Cell inboudDate1_Cell = row.createCell(24);
+			inboudDate1_Cell.setCellValue(inboundDate1);
+
+			KeywordUtil.logInfo('Writing: ' + inboundDate1 + ' in Place Order');
+
+			// Write Inbound Date 1 value into Column Index 25
+			Cell inboudDate2_Cell = row.createCell(25);
+			inboudDate2_Cell.setCellValue(inboundDate2);
+
+			KeywordUtil.logInfo('Writing: ' + inboundDate2 + ' in Place Order'); }
 
 		// Evaluate all formulas in the workbook
 		evaluator.evaluateAll()

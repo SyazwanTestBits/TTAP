@@ -38,8 +38,12 @@ WebUI.click(findTestObject('Scenario 17/S17_TC002/li_orderFrequency', [('orderFr
 
 WebUI.click(findTestObject('Scenario 17/S17_TC016/Page_Place Regular Order - Brivge/Page_Place Regular Order - Brivge (1)/input_orderPeriodIndex'))
 
+def convertedOrderPeriodIndex=CustomKeywords.'DateConversion.convertChineseToEnglish'("$orderPeriodIndex")
+
+println(convertedOrderPeriodIndex)
+
 WebUI.click(findTestObject('Scenario 17/S17_TC016/Page_Place Regular Order - Brivge/Page_Place Regular Order - Brivge/li_orderPeriodIndex', 
-        [('orderPeriodIndex') : orderPeriodIndex]))
+        [('orderPeriodIndex') :  convertedOrderPeriodIndex]))
 
 WebUI.click(findTestObject('remote filter/button_Search'))
 

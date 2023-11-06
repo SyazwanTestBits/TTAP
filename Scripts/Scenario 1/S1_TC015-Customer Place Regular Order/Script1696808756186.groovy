@@ -35,17 +35,23 @@ WebUI.click(findTestObject('Page_RegularOrder/remotefilter/input_orderFrequency'
 
 WebUI.click(findTestObject('Page_RegularOrder/remotefilter/li__orderFrequency_Weekly'))
 
-def dateFormat = new SimpleDateFormat('MMM d, yyyy')
+//def dateFormat = new SimpleDateFormat('MMM d, yyyy')
 
-def currentDate = new Date()
+//def currentDate = new Date()
 
-String formattedDate = dateFormat.format(currentDate)
+//String formattedDate = dateFormat.format(currentDate)
 
-weeklyPeriod = CustomKeywords.'util.WeeklyPeriod.getWeeklyDateRange'(formattedDate)
+//weeklyPeriod = CustomKeywords.'util.WeeklyPeriod.getWeeklyDateRange'(formattedDate)
+
+println("$weeklyPeriod")
+
+def convertedWeeklyPeriod=CustomKeywords.'DateConversion.convertChineseToEnglish'("$weeklyPeriod")
+
+println(convertedWeeklyPeriod)
 
 WebUI.click(findTestObject('Page_RegularOrder/remotefilter/input_orderPeriod'))
 
-WebUI.click(findTestObject('Page_RegularOrder/remotefilter/li_orderPeriod', [('WeeklyPeriod') : weeklyPeriod]))
+WebUI.click(findTestObject('Page_RegularOrder/remotefilter/li_orderPeriod', [('WeeklyPeriod') : convertedWeeklyPeriod]))
 
 WebUI.click(findTestObject('Page_RegularOrder/remotefilter/button_remotefilter_Search'))
 

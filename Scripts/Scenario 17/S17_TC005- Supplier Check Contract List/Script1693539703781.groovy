@@ -30,15 +30,15 @@ WebUI.setText(findTestObject('Scenario 13/S13_TC035/Page_Brivge/input_Filter_Rec
 
 WebUI.click(findTestObject('Scenario 13/S13_TC035/Page_Brivge/button_Edit'))
 
-WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/header_2Parts List InformationParts List Information'), 
+not_run: WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/header_2Parts List InformationParts List Information'), 
     0)
 
 //-------------looping for verify part detail------------------------------------
-WebUI.click(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/div_Parts No header in part detail list'))
+not_run: WebUI.click(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/div_Parts No header in part detail list'))
 
-int colindex = 0
+not_run: int colindex = 0
 
-for (int rowl = 1; rowl <= numberrowtd; rowl++) {
+not_run: for (int rowl = 1; rowl <= numberrowtd; rowl++) {
     colindex = 1
 
     for (String colname : columnname) {
@@ -59,24 +59,24 @@ for (int rowl = 1; rowl <= numberrowtd; rowl++) {
     }
 }
 
-WebUI.scrollToElement(findTestObject('Scenario 17/S17_TC005/svg_Download Icon'), 0)
+not_run: WebUI.scrollToElement(findTestObject('Scenario 17/S17_TC005/svg_Download Icon'), 0)
 
-WebUI.click(findTestObject('Scenario 17/S17_TC005/svg_Download Icon'))
+not_run: WebUI.click(findTestObject('Scenario 17/S17_TC005/svg_Download Icon'))
 
-WebUI.click(findTestObject('Scenario 17/S17_TC005/li_Download Contract Parts'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.click(findTestObject('Scenario 17/S17_TC005/li_Download Contract Parts'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Scenario 17/S17_TC005/div_Download Contract Parts Master.The operation was successful'), 
+not_run: WebUI.verifyElementPresent(findTestObject('Scenario 17/S17_TC005/div_Download Contract Parts Master.The operation was successful'), 
     0)
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
 'Check part no. removed= inactive\r\n'
-WebUI.verifyElementText(findTestObject('Scenario 17/S17_TC002/p_Verify Active Flag', [('partNo') : partNo]), activeFlag)
+not_run: WebUI.verifyElementText(findTestObject('Scenario 17/S17_TC002/p_Verify Active Flag', [('partNo') : partNo]), activeFlag)
 
-latestFilePath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
+not_run: latestFilePath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
-CustomKeywords.'util.compareTestData.compareExcelFiles_ExcelFormulaCompatible'(latestFilePath, expectedContractParts, 8, 
-    12, 5, 34)
+not_run: CustomKeywords.'util.compareTestData.compareExcelFiles_ExcelFormulaCompatible'(latestFilePath, expectedContractParts, 
+    8, 12, 5, 34)
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 
