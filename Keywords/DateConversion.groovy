@@ -26,36 +26,36 @@ public class DateConversion {
 
 	@Keyword
 	public static String convertChineseToEnglishPeriodRange(String date) {
-		
+
 		// Define a regular expression to match English characters (letters)
 		def englishPattern = /[A-Za-z]/
-		
+
 		//If date has english characters, just return the date without conversion
 		if (date =~ englishPattern) {
 			// Your code to handle English characters goes here
-			
+
 			return date;
 		}
-		
-		else {	
-		try {
-			String[] dateParts = date.split(" ~ ");
 
-			SimpleDateFormat chineseFormat = new SimpleDateFormat("MMMM d, yyyy", Locale.CHINA);
-			SimpleDateFormat englishFormat = new SimpleDateFormat("MMM d, yyyy", Locale.US);
+		else {
+			try {
+				String[] dateParts = date.split(" ~ ");
 
-			Date startDate = chineseFormat.parse(dateParts[0]);
-			Date endDate = chineseFormat.parse(dateParts[1]);
+				SimpleDateFormat chineseFormat = new SimpleDateFormat("MMMM d, yyyy", Locale.CHINA);
+				SimpleDateFormat englishFormat = new SimpleDateFormat("MMM d, yyyy", Locale.US);
 
-			String englishStartDate = englishFormat.format(startDate);
-			String englishEndDate = englishFormat.format(endDate);
+				Date startDate = chineseFormat.parse(dateParts[0]);
+				Date endDate = chineseFormat.parse(dateParts[1]);
 
-			return englishStartDate + " ~ " + englishEndDate;
-		} catch (ParseException e) {
-			e.printStackTrace();
-			return null;
-		}
-		
+				String englishStartDate = englishFormat.format(startDate);
+				String englishEndDate = englishFormat.format(endDate);
+
+				return englishStartDate + " ~ " + englishEndDate;
+			} catch (ParseException e) {
+				e.printStackTrace();
+				return null;
+			}
+
 		}
 	}
 

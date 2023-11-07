@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//p[@class='lcbm-MuiTypography-root lcbm-lcbm257 lcbm-MuiTypography-body2']</value>
+         <value>//p[@title='Edit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

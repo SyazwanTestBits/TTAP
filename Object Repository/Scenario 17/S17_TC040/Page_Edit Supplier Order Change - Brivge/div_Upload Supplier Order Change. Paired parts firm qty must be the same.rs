@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='webapp-base']/div[2]/div/div</value>
+         <value>//div[(text() = 'Upload Supplier Order Change. Paired parts firm qty must be the same. (Parts No.: scenario1720230604002)(w0133)Paired parts firm qty must be the same. (Parts No.: scenario1720230604001)(w0133)' or . = 'Upload Supplier Order Change. Paired parts firm qty must be the same. (Parts No.: scenario1720230604002)(w0133)Paired parts firm qty must be the same. (Parts No.: scenario1720230604001)(w0133)')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>c42cf08d-696f-424a-b240-fd1c92c70605</webElementGuid>
+      <webElementGuid>274b7d91-1a7d-480a-84c9-0555e6a7ef81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>base-MuiAlert-message</value>
-      <webElementGuid>c3040fad-8c05-480e-9f3f-742fc75518ae</webElementGuid>
+      <webElementGuid>064f5290-c478-4e87-b167-1950b9df217d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Upload Supplier Order Change. Paired parts firm qty must be the same. (Parts No.: scenario1720230604002)(w0133)Paired parts firm qty must be the same. (Parts No.: scenario1720230604001)(w0133)</value>
-      <webElementGuid>cecb8aa1-3b29-4b2b-9b68-b2dc39c75435</webElementGuid>
+      <webElementGuid>b48a46cc-c668-4cef-9ff4-093d53c695f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base25 base-base27 base-base29&quot;]/div[@class=&quot;base-MuiPaper-root base-MuiAlert-root base-MuiAlert-standardError base-base90 base-MuiPaper-elevation0&quot;]/div[@class=&quot;base-MuiAlert-message&quot;]</value>
-      <webElementGuid>1883985f-118a-4d6e-8ecb-4a876cdc7b5f</webElementGuid>
+      <webElementGuid>00f23f3a-d724-4f25-8673-ba2325f7e503</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='webapp-base']/div[2]/div/div</value>
-      <webElementGuid>0dc9f989-a19a-4f76-8414-1b94da5ad5d7</webElementGuid>
+      <webElementGuid>980fa7f6-68f8-49fe-9c2d-4cecb40454fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='n'])[1]/following::div[4]</value>
-      <webElementGuid>26f2bcf2-08ca-4d5c-b52d-c2a45f46d96a</webElementGuid>
+      <webElementGuid>120c9dca-9044-477b-81bd-187fdcc3cd94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Privilege'])[1]/following::div[8]</value>
-      <webElementGuid>2481bfe3-213e-430b-a061-a4d8a2f5d638</webElementGuid>
+      <webElementGuid>a73550a3-3f52-4a80-a764-6a5a3daf88db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::div[24]</value>
-      <webElementGuid>0adec945-f079-4898-86d5-0b7c21101216</webElementGuid>
+      <webElementGuid>85b65416-67bb-4a8c-91a6-0d50f80f619f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div</value>
-      <webElementGuid>7fa10b15-bb50-4b6b-b301-2e30cfea284b</webElementGuid>
+      <webElementGuid>c494d476-cda9-4965-bb83-261bc102194f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Upload Supplier Order Change. Paired parts firm qty must be the same. (Parts No.: scenario1720230604002)(w0133)Paired parts firm qty must be the same. (Parts No.: scenario1720230604001)(w0133)' or . = 'Upload Supplier Order Change. Paired parts firm qty must be the same. (Parts No.: scenario1720230604002)(w0133)Paired parts firm qty must be the same. (Parts No.: scenario1720230604001)(w0133)')]</value>
-      <webElementGuid>5d62a317-bb4d-4c74-b82c-25fb5a8292bf</webElementGuid>
+      <webElementGuid>731e74a8-9e43-43f0-89bd-957e2ad1d567</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
