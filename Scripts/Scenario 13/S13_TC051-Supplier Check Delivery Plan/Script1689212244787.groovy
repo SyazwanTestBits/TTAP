@@ -17,9 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.CUST_USERNAME_USERF
-        , ('password') : GlobalVariable.CUST_PWD_USERF, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.COMPANY_SUPPLIER_1], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : username
+        , ('password') : password, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : company], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC051/button_Logistics'))
 
@@ -34,4 +33,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Scenario 13/S13_TC051/
 WebUI.verifyElementText(findTestObject('Object Repository/Scenario 13/S13_TC051/p_The operation was successful'), 'The operation was successful.')
 
 LatestPath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
+
+WebUI.callTestCase(findTestCase('Scenario 13/S13_TC051.1-Supplier Check Delivery Plan- compare two test data - v2'), [('expectationExcelPath') : 'Excel Files/Scenario 13/TC051/DeliveryPlanDownload-expectation.xlsx'
+        , ('NumberOfNoMatch') : 0, ('testData') : findTestData('Scenario 13/S13_TC051'), ('actualPath') : ''], FailureHandling.STOP_ON_FAILURE)
 

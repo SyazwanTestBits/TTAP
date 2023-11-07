@@ -26,10 +26,10 @@ WebUI.click(findTestObject('Navbar_Brivge/OrderMenu_Brivge/li_Place ChangeCancel
 
 WebUI.waitForElementPresent(findTestObject('Page_OrderChangeCancel/h3_Order ChangeCancel'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_OrderChangeCancel/div_Dt_ContractNo_Create', [('customerOrderNo') : custOrderNo]), 
+WebUI.verifyElementPresent(findTestObject('Page_OrderChangeCancel/div_Dt_ContractNo_Create', [('contractNo') : custOrderNo]), 
     0)
 
-WebUI.click(findTestObject('Page_OrderChangeCancel/div_Dt_ContractNo_Create', [('customerOrderNo') : custOrderNo]), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_OrderChangeCancel/div_Dt_ContractNo_Create', [('contractNo') : custOrderNo]), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/h3_Create Order Change'), 0)
 
@@ -39,9 +39,30 @@ WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_Dw
 
 latestFilePath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
-CustomKeywords.'ExcelActions.writeIntoExcelOrderChangeRegular'(testdataOrderChange, latestFilePath, custOrderNo)
+partIndex = CustomKeywords.'mapRowDatAndRowIndices.extractPartsWithIndices'(latestFilePath, 2, 17)
+
+for (int row = 1; row <= testdataOrderChange.getRowNumbers(); row++) {
+    partNo = testdataOrderChange.getValue('Part No', row)
+
+    rowPart = (partIndex[partNo])
+
+    CustomKeywords.'copyToExcel.exel3'(testdataOrderChange.getValue('NewFirm', row), rowPart, 15, latestFilePath,  custOrderNo)
+	
+	CustomKeywords.'copyToExcel.exel3'(testdataOrderChange.getValue('InboundNewDate_Qty1', row), rowPart, 24, latestFilePath,  custOrderNo)
+	
+	CustomKeywords.'copyToExcel.exel3'(testdataOrderChange.getValue('InboundNewDate_Qty2', row), rowPart, 25, latestFilePath,  custOrderNo)
+}
 
 CustomKeywords.'ExcelActions.writeIntoExcelOrderChangeRegularInboundDate'(testdataInboundDateChange, latestFilePath, custOrderNo)
+
+WebUI.setText(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_Basic info (order summary)_customerRefNo'), 
+    testdataInboundDateChange.getValue('OrderReference', 1))
+
+WebUI.setText(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_Basic info (order summary)_remark'), testdataInboundDateChange.getValue(
+        'OrderReference', 1))
+
+CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/div_Create Order ChangeHome PageOrder ChangeCancelCreate Order ChangeSaveIssue'), 
+    0)
 
 WebUI.uploadFile(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_UploadFile'), latestFilePath)
 

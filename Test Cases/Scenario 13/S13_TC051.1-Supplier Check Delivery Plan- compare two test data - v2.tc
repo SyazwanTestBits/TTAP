@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC051.1-Supplier Check Delivery Plan- compare two test data - v2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>265a8376-c7eb-41d9-996b-d4a5c15edfce</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>de63657a-537c-4eb1-92e3-05c09cc7aa05</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b6258b2c-5ff6-4316-bbcc-2c26ebb7af9c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dcd8f70f-61bf-46ce-a9cb-e5bad19b9335</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b5ffee57-ca6c-43e8-ab6f-f4d00a4c1024</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 13/TC051/DeliveryPlanDownload-expectation.xlsx'</defaultValue>
+      <description></description>
+      <id>de63657a-537c-4eb1-92e3-05c09cc7aa05</id>
+      <masked>false</masked>
+      <name>expectationExcelPath</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>b6258b2c-5ff6-4316-bbcc-2c26ebb7af9c</id>
+      <masked>false</masked>
+      <name>NumberOfNoMatch</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC051')</defaultValue>
+      <description></description>
+      <id>dcd8f70f-61bf-46ce-a9cb-e5bad19b9335</id>
+      <masked>false</masked>
+      <name>testData</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b5ffee57-ca6c-43e8-ab6f-f4d00a4c1024</id>
+      <masked>false</masked>
+      <name>actualPath</name>
+   </variable>
+</TestCaseEntity>
