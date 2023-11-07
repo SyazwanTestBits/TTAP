@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Zcmm-seller invoice Detail-03- vessel, ETD_ETA, PAYMENT TERMS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>89eac7a6-22cc-48ec-9d4e-87161eea971d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>838d1947-c301-4322-9725-d21f3881b52b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC052-Autogen Outbound Data')</defaultValue>
+      <description></description>
+      <id>838d1947-c301-4322-9725-d21f3881b52b</id>
+      <masked>false</masked>
+      <name>testDataETD_ETA</name>
+   </variable>
+</TestCaseEntity>

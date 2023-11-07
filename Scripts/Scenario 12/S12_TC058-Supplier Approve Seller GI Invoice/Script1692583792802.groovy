@@ -27,16 +27,16 @@ WebUI.click(findTestObject('Scenario 13/S13_TC055/li_Seller(GI) Invoice List'))
 
 for (String invoiceNo : invoiceNoList) {
     WebUI.click(findTestObject('Scenario 12/SC12_TC056/p_checkboxSelect', [('invoiceNo') : invoiceNo]))
+}
 
-    WebUI.click(findTestObject('Scenario 12/SC12_TC056/button_approve'))
+WebUI.click(findTestObject('Scenario 12/SC12_TC058/Page_Seller(GI) Invoice List - Brivge/button_approveMain'))
 
-    WebUI.click(findTestObject('Scenario 12/SC12_TC056/button_CONFIRMapprove'))
+WebUI.click(findTestObject('Scenario 12/SC12_TC056/button_CONFIRMapprove'))
 
-    WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC056/div_Do Approve.The operation was successful'), 0)
+WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC056/div_Do Approve.The operation was successful'), 0)
 
+for (String invoiceNo : invoiceNoList) {
     WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC056/p_verifyStatus', [('invoiceNo') : invoiceNo]), 'Approved')
-
-    WebUI.click(findTestObject('Scenario 12/SC12_TC056/p_checkboxSelect', [('invoiceNo') : invoiceNo]))
 }
 
 WebUI.closeBrowser()

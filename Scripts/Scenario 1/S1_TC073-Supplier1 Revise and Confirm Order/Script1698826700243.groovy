@@ -81,7 +81,7 @@ WebUI.click(findTestObject('Scenario 13/S13_TC050 TC053/button_Upload BU SO Deta
 
 CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 13/S13_TC050 TC053/li_Upload Price'), supPrice)
 
-not_run: WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC050 TC053/div_Upload Price.The operation was successful'), 
+WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC050 TC053/div_Upload Price.The operation was successful'), 
     0)
 
 for (def index : (1..datafile_date.getRowNumbers())) {

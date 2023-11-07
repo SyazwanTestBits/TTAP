@@ -101,21 +101,6 @@ WebUI.delay(2)
 WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC050 TC053/div_Upload Price.The operation was successful'), 
     0)
 
-int numberrowtd = findTestData('Scenario 12/SC12_TC017-Supplier Check and Confirm SO -Regular').getRowNumbers()
-
-for (int rowl = 1; rowl <= numberrowtd; rowl++) {
-    not_run: int coll = 1
-
-    not_run: for (String col : columnnameRegular) {
-        String valuecol = findTestData('Scenario 12/SC12_TC017-Supplier Check and Confirm SO -Regular').getValue(col, rowl)
-
-        WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC050 TC053/p_part detail list-tc50 - Copy', [('lrow') : rowl
-                    , ('lcol') : coll]), valuecol)
-
-        coll = (coll + 1)
-    }
-}
-
 CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 13/S13_TC050 TC053/button_Confirm'), 0)
 
 WebUI.waitForElementPresent(findTestObject('NotificationMsg_Brivge/div_ConfirmMsg_AreYouSureToDo_Confirm'), 0)

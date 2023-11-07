@@ -27,15 +27,15 @@ WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC050 TC053/li_SO 
 
 WebUI.callTestCase(findTestCase('Scenario 12/S12_TC017.1-Supplier Check and Confirm Order -Regular'), [('columnnameRegular') : ['Part no', 'Customer unit part no', 'Back no', 'Purchase order no', 'Customer code', 'SPQ', 'Order lot', 'Order Qty', 'Unit Price', 'Currency', 'Status', 'Delivered qty', 'InTransit qty', 'Receiver inbounded qty', 'Planoutin plan 1', 'Planoutin status 1', 'Planoutin plan 2', 'Planoutin status 2','Estimate date value 1','Estimate date value 2']
         , ('regularSalesOrderNo') : findTestData('Scenario 12/SC12_TC016-Supplier SO').getValue('RegularSalesOrderNo', 1)
-        , ('spotSalesOrderNo') : findTestData('Scenario 12/SC12_TC016-Supplier SO').getValue('SpotSalesOrderNo', 1), ('SO_status') : ''
-        , ('Delay_status') : '', ('plan_out_date') : 'Aug 21, 2023', ('plan_in_date') : 'Sep 10, 2023', ('estimate_out_date') : 'Aug 21, 2023'
-        , ('estimate_in_date') : 'Sep 7, 2023', ('status') : 'Confirmed'], FailureHandling.STOP_ON_FAILURE)
+        , ('spotSalesOrderNo') : findTestData('Scenario 12/SC12_TC016-Supplier SO').getValue('SpotSalesOrderNo', 1), ('filecolumns_dr') : [('newInboundQty1') : 20, ('newInboundQty2') : 22]
+        , ('datafile_dr') : findTestData('Scenario 12/SC12_TC017-Supplier SO Delivery Plan -Regular'), ('datafile_date') : findTestData('Scenario 12/SC12_TC017-Supplier SO Delivery Plan (Date) -Regular')], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Scenario 12/S12_TC017.2-Supplier Check and Confirm Order -Spot'), [('columnnameSpot') : ['Part no', 'Customer unit part no', 'Back no', 'Purchase order no', 'Customer code', 'SPQ', 'Order lot', 'Order Qty', 'Unit Price', 'Currency', 'Status', 'Delivered qty', 'InTransit qty', 'Receiver inbounded qty', 'Planoutin plan 1', 'Planoutin status 1', 'Estimate date value 1']
         , ('regularSalesOrderNo') : findTestData('Scenario 12/SC12_TC016-Supplier SO').getValue('RegularSalesOrderNo', 1)
-        , ('spotSalesOrderNo') : findTestData('Scenario 12/SC12_TC016-Supplier SO').getValue('SpotSalesOrderNo', 1), ('SO_status') : ''
-        , ('Delay_status') : '', ('plan_out_date') : 'Aug 21, 2023', ('plan_in_date') : 'Sep 10, 2023', ('estimate_out_date') : 'Aug 21, 2023'
-        , ('estimate_in_date') : 'Sep 7, 2023'], FailureHandling.STOP_ON_FAILURE)
+        , ('spotSalesOrderNo') : findTestData('Scenario 12/SC12_TC016-Supplier SO').getValue('SpotSalesOrderNo', 1), ('filecolumns_dr') : [('newInboundQty1') : 20, ('newInboundQty2') : 22]
+        , ('datafile_dr') : findTestData('Scenario 12/SC12_TC017-Supplier SO Delivery Plan -Spot'), ('datafile_date') : findTestData('Scenario 12/SC12_TC017-Supplier SO Delivery Plan (Date) -Spot')], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC017/p_verifyStatusCofirmed', [('SOnumber') : regularSalesOrderNo]), 
     'Confirmed')

@@ -27,43 +27,19 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>268a97c9-b169-4c35-a7d9-a384be2e547f</variableId>
+      <variableId>17c8c27a-2bc0-433d-8a9e-c265bf0cfe5d</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f8f02a2e-83e8-40a4-85a8-c18a8f04caad</variableId>
+      <variableId>f4ca8020-fe89-4329-8d96-baaba191f52b</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>98f547da-2ce8-4d8e-8880-e5513520d98f</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>384ee95d-b6db-4dd1-a527-a11a7e741c5f</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>5d606806-7e2a-4da5-be01-e1492b527aef</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>d729b35a-9640-48a6-bf7f-a29a0a96623f</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>42934022-5e22-4889-bbf5-8d2f24612bec</variableId>
+      <variableId>aa173a2a-4872-451e-8d94-793ffd5d94fe</variableId>
    </variableLinks>
    <variable>
       <defaultValue>['Part no', 'Customer unit part no', 'Back no', 'Purchase order no', 'Customer code', 'SPQ', 'Order lot', 'Order Qty', 'Unit Price', 'Currency', 'Status', 'Delivered qty', 'InTransit qty', 'Receiver inbounded qty', 'Planoutin plan 1', 'Planoutin status 1', 'Planoutin plan 2', 'Planoutin status 2','Estimate date value 1','Estimate date value 2']</defaultValue>
@@ -87,52 +63,24 @@
       <name>spotSalesOrderNo</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>[('newInboundQty1') : 20, ('newInboundQty2') : 22]</defaultValue>
       <description></description>
-      <id>268a97c9-b169-4c35-a7d9-a384be2e547f</id>
+      <id>03b46ece-5a5b-4b32-91f4-eabb708d41ff</id>
       <masked>false</masked>
-      <name>SO_status</name>
+      <name>filecolumns_dr</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 12/SC12_TC017-Supplier SO Delivery Plan -Regular')</defaultValue>
       <description></description>
-      <id>f8f02a2e-83e8-40a4-85a8-c18a8f04caad</id>
+      <id>f4ca8020-fe89-4329-8d96-baaba191f52b</id>
       <masked>false</masked>
-      <name>Delay_status</name>
+      <name>datafile_dr</name>
    </variable>
    <variable>
-      <defaultValue>'Aug 21, 2023'</defaultValue>
+      <defaultValue>findTestData('Scenario 12/SC12_TC017-Supplier SO Delivery Plan (Date) -Regular')</defaultValue>
       <description></description>
-      <id>98f547da-2ce8-4d8e-8880-e5513520d98f</id>
+      <id>aa173a2a-4872-451e-8d94-793ffd5d94fe</id>
       <masked>false</masked>
-      <name>plan_out_date</name>
-   </variable>
-   <variable>
-      <defaultValue>'Sep 10, 2023'</defaultValue>
-      <description></description>
-      <id>384ee95d-b6db-4dd1-a527-a11a7e741c5f</id>
-      <masked>false</masked>
-      <name>plan_in_date</name>
-   </variable>
-   <variable>
-      <defaultValue>'Aug 21, 2023'</defaultValue>
-      <description></description>
-      <id>5d606806-7e2a-4da5-be01-e1492b527aef</id>
-      <masked>false</masked>
-      <name>estimate_out_date</name>
-   </variable>
-   <variable>
-      <defaultValue>'Sep 7, 2023'</defaultValue>
-      <description></description>
-      <id>d729b35a-9640-48a6-bf7f-a29a0a96623f</id>
-      <masked>false</masked>
-      <name>estimate_in_date</name>
-   </variable>
-   <variable>
-      <defaultValue>'Confirmed'</defaultValue>
-      <description></description>
-      <id>42934022-5e22-4889-bbf5-8d2f24612bec</id>
-      <masked>false</masked>
-      <name>status</name>
+      <name>datafile_date</name>
    </variable>
 </TestCaseEntity>

@@ -43,8 +43,8 @@ WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC049/div_Download C
 
 LatestPath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
-CustomKeywords.'verifyExcelData.verifyDynamicSortMap'(LatestPath, expectationExcelPath, 1, [23, 24, 25, 26, 27], [1, 2, 3
-        , 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
+CustomKeywords.'verifyExcelData.verifyDynamicSort'(LatestPath, expectationExcelPath, 1, [23, 24, 25, 26, 27], [1, 2, 3, 5
+        , 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
 
 WebUI.closeBrowser()
 

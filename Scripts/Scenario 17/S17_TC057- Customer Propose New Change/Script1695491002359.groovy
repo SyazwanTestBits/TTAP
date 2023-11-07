@@ -42,6 +42,7 @@ for (WebElement element : elements) {
     }
 }
 
+'Edit the date to change'
 CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 17/S17_TC057/p_editDate', [('date') : date]), 
     0)
 
@@ -50,6 +51,7 @@ WebUI.click(findTestObject('Scenario 17/S17_TC057/input_newSuppOutboundPlanDate'
 //Find day elements 
 List<WebElement> elementsDates_Calendar = WebUI.findWebElements(findTestObject('Scenario 17/S17_TC057/p_dayElements'), 30)
 
+'Choose a new date'
 for (WebElement element : elementsDates_Calendar) {
     println(element.text)
 
