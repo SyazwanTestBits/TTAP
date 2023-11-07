@@ -55,9 +55,8 @@ WebUI.setText(findTestObject('Scenario 13/S13_TC036 n 37-Check Contract/input_Se
 //not_run: WebUI.setText(findTestObject('Object Repository/Scenario 13/S13_TC036 n 37-Check Contract/input_Search Contract List'), 'CNTWSUP TO PKCUS 001')
 //not_run: WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC036 n 37-Check Contract/button-Search Cotract List'))
 //not_run: WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC036 n 37-Check Contract/p_first row contract list'), 'CNTWSUP TO PKCUS 001')
-contractNo = WebUI.getText(findTestObject('Scenario 13/S13_TC036 n 37-Check Contract/p_first row contract list'), FailureHandling.STOP_ON_FAILURE)
-
-not_run: CustomKeywords.'copyToExcel.exel'(contractNo, 1, 0, 'Excel Files\\Scenario 13', 'S13_TestCases_Data.xlsx', 'AutoGen')
+not_run: contractNo = WebUI.getText(findTestObject('Scenario 13/S13_TC036 n 37-Check Contract/p_first row contract list'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Scenario 13/S13_TC036 n 37-Check Contract/button_view contract list'))
 

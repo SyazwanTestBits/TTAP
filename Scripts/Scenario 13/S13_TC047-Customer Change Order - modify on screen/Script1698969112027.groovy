@@ -64,20 +64,17 @@ for (int row = 1; row <= testdataOrderChange.getRowNumbers(); row++) {
         inboundDateQty2 = Float.parseFloat(testdataOrderChange.getValue('InboundNewDate_Qty2', row))
     }
     
+    'NOTE: Click Header of table\r\n'
+    not_run: WebUI.click(findTestObject(null))
+
     CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_INPUT ORDER QTY FOR EACH PN_newFirmQty', 
             [('part_No') : part_No]), 0)
 
-    not_run: WebUI.click(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_input shipping_qtyPlanDate1', 
+    CustomKeywords.'util.clearTextJS.clearElementText2'(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_INPUT ORDER QTY FOR EACH PN_newFirmQty', 
             [('part_No') : part_No]))
 
-    not_run: WebUI.clearText(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_input shipping_qtyPlanDate1', 
-            [('part_No') : part_No]))
-
-    not_run: CustomKeywords.'util.clearTextJS.clearElementText2'(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_INPUT ORDER QTY FOR EACH PN_newFirmQty', 
-            [('part_No') : part_No]))
-
-    not_run: WebUI.setText(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_INPUT ORDER QTY FOR EACH PN_newFirmQty', 
-            [('part_No') : part_No]), newFirm)
+    WebUI.setText(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_INPUT ORDER QTY FOR EACH PN_newFirmQty', 
+            [('part_No') : part_No]), newFirm.toString())
 }
 
 WebUI.setText(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_Basic info (order summary)_customerRefNo'), 

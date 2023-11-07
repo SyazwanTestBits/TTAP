@@ -22,14 +22,16 @@ public class clearTextJS {
 
 	@Keyword
 	def static clearElementText2(TestObject to) {
-		WebUI.sendKeys(to, Keys.chord(Keys.CONTROL, 'A',Keys.DELETE))
+		WebUI.click(to)
+		WebUI.sendKeys(to, Keys.chord(Keys.CONTROL + 'a'))
+		WebUI.sendKeys(to, Keys.chord(Keys.DELETE))
 	}
-	
+
 	@Keyword
 	def static clearElementTextDoubleClick(TestObject to) {
-		
+
 		WebElement element = WebUiCommonHelper.findWebElement(to,100)
-		element.doubleClick()
-		element.sendKeys(Keys.DELETE)
+		element.click()
+		element.sendKeys(Keys.chord(Keys.CONTROL, 'A',Keys.DELETE))
 	}
 }

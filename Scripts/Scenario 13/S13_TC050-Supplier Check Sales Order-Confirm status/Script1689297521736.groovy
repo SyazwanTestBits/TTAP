@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('Page_ChangeCancelReqList/Page_ChgCancelReqDetail/i
 
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC050 TC053/input-first row in SO listing'))
 
-WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC050 TC053/button_SO delay status'), 'Normal')
+WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC050 TC053/div_SO delay status'), 'Normal')
 
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC050 TC053/button_SO detail'))
 
