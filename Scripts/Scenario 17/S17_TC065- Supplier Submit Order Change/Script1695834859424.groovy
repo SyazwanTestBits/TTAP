@@ -37,8 +37,7 @@ WebUI.waitForElementPresent(findTestObject('NotificationMsg_Brivge/div_ConfirmMs
 
 WebUI.click(findTestObject('NotificationMsg_Brivge/button_NotiMsg_CONFIRM'))
 
-WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC033/div_Upload Supplier Order Change. The operation was successful'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_Issue_Success'), 0)
 
 WebUI.closeBrowser()
 

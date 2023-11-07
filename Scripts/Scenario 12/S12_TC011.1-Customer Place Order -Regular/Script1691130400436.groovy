@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Page_RegularOrder/remotefilter/li__orderFrequency_We
 //weeklyPeriod = CustomKeywords.'util.WeeklyPeriod.getWeeklyDateRange'(formattedDate)
 println("$weeklyPeriod")
 
-def convertedWeeklyPeriod=CustomKeywords.'DateConversion.convertChineseToEnglish'("$weeklyPeriod")
+def convertedWeeklyPeriod = CustomKeywords.'DateConversion.convertChineseToEnglishPeriodRange'("$weeklyPeriod")
 
 println(convertedWeeklyPeriod)
 
