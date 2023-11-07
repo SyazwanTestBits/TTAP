@@ -17,6 +17,12 @@
       <value></value>
       <variableId>45a97f22-29be-44ff-8e6f-b73611cb62e0</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9094d4b3-b557-4e61-8501-7c9eb6406c48</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestData('Scenario 12/SC12_TC007-Supplier to BU Contract').getValue('ContractRouteCode', 1)</defaultValue>
       <description></description>
@@ -30,5 +36,12 @@
       <id>45a97f22-29be-44ff-8e6f-b73611cb62e0</id>
       <masked>false</masked>
       <name>contractNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 12/SC12_TC011- Period Generator').getValue('Auto Generate Weekly Period', 1)</defaultValue>
+      <description></description>
+      <id>9094d4b3-b557-4e61-8501-7c9eb6406c48</id>
+      <masked>false</masked>
+      <name>weeklyPeriod</name>
    </variable>
 </TestCaseEntity>

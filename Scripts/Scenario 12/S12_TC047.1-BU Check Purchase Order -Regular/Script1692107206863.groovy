@@ -24,7 +24,7 @@ WebUI.waitForElementPresent(findTestObject('Page_PO_MonitoringDetail/h3_PO Monit
 WebUI.verifyElementAttributeValue(findTestObject('Page_PO_MonitoringDetail/input_PurchaseOrderNo'), 'value', regularPurchaseOrderNo, 
     0)
 
-WebUI.verifyElementAttributeValue(findTestObject('Scenario 12/SC12_TC046/input_detailStatus'), 'value', 'Completed', 0)
+WebUI.verifyElementAttributeValue(findTestObject('Scenario 12/SC12_TC046/input_detailStatus'), 'value', 'Processing', 0)
 
 WebUI.click(findTestObject('Scenario 12/SC12_TC047/p_PO Monitoring List'))
 

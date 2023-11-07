@@ -4,15 +4,15 @@
    <name>S12_TC017-Supplier Check and Confirm Order</name>
    <tag></tag>
    <integratedEntity>
-<productName>JIRA</productName>
-<properties>
-<entry>
-<key>integratedValue</key>
-<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i000y8:"},"status":{"id":10000,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10000","name":"To Do"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC12.0_TC17 - Supplier - Supplier can check and modify the delivery plan and confirm order on screen before due date, and system will auto confirm supplier order on due date if the order has not been confirmed yet.","description":"User: Supplier \\\\Login ID: maria-baf\\\\Company: SG-BAFCO \\\\Function: Order \u003eSO Monitoring List \\\\Description: Supplier can check and modify the delivery plan and confirm order on screen before due date, and system will auto confirm supplier order on due date if the order has not been confirmed yet.","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-449/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10448","key":"BAT-449","id":10448}}</value>
-</entry>
-</properties>
-<type>TESTCASE</type>
-</integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i000y8:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://ttap-scm-at.atlassian.net/&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;BAT&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;BriVge Automated Testing&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;SC12.0_TC17 - Supplier - Supplier can check and modify the delivery plan and confirm order on screen before due date, and system will auto confirm supplier order on due date if the order has not been confirmed yet.&quot;,&quot;description&quot;:&quot;User: Supplier \\\\Login ID: maria-baf\\\\Company: SG-BAFCO \\\\Function: Order \u003eSO Monitoring List \\\\Description: Supplier can check and modify the delivery plan and confirm order on screen before due date, and system will auto confirm supplier order on due date if the order has not been confirmed yet.&quot;,&quot;reporter&quot;:{&quot;active&quot;:true,&quot;displayName&quot;:&quot;Nurfatin binti Abdullah Shuhaimy&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-449/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/10448&quot;,&quot;key&quot;:&quot;BAT-449&quot;,&quot;id&quot;:10448}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>2b070823-a5bf-4328-bdcb-08fae7750903</testCaseGuid>
    <testDataLinks>
@@ -48,42 +48,6 @@
       <value></value>
       <variableId>374de9dd-1952-4cd7-a058-05c2762c3553</variableId>
    </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>256c341a-916e-48fd-91b1-70956b13d296</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>a341ff9b-ce7e-4ba4-8ef6-c89ec3c94dda</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>95c51ca4-cac6-4877-b49d-a3707c7fbe72</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>033b3082-8055-4abe-a624-004029ba2267</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>285b32a2-9dc3-45ac-ae39-0f3321496f0b</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>e7751733-5b4e-49e1-a005-188597cebd54</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>['Part no', 'Customer unit part no', 'Back no', 'Purchase order no', 'Customer code', 'SPQ', 'Order lot', 'Order Qty', 'Unit Price', 'Currency', 'Status', 'Delivered qty', 'InTransit qty', 'Receiver inbounded qty', 'Planoutin plan 1', 'Planoutin status 1', 'Planoutin plan 2', 'Planoutin status 2', 'Estimate date value 1', 'Estimate date value 2']</defaultValue>
       <description></description>
@@ -111,47 +75,5 @@
       <id>374de9dd-1952-4cd7-a058-05c2762c3553</id>
       <masked>false</masked>
       <name>spotSalesOrderNo</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>256c341a-916e-48fd-91b1-70956b13d296</id>
-      <masked>false</masked>
-      <name>SO_status</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>a341ff9b-ce7e-4ba4-8ef6-c89ec3c94dda</id>
-      <masked>false</masked>
-      <name>Delay_status</name>
-   </variable>
-   <variable>
-      <defaultValue>'Aug 21, 2023'</defaultValue>
-      <description></description>
-      <id>95c51ca4-cac6-4877-b49d-a3707c7fbe72</id>
-      <masked>false</masked>
-      <name>plan_out_date</name>
-   </variable>
-   <variable>
-      <defaultValue>'Sep 10, 2023'</defaultValue>
-      <description></description>
-      <id>033b3082-8055-4abe-a624-004029ba2267</id>
-      <masked>false</masked>
-      <name>plan_in_date</name>
-   </variable>
-   <variable>
-      <defaultValue>'Aug 21, 2023'</defaultValue>
-      <description></description>
-      <id>285b32a2-9dc3-45ac-ae39-0f3321496f0b</id>
-      <masked>false</masked>
-      <name>estimate_out_date</name>
-   </variable>
-   <variable>
-      <defaultValue>'Sep 7, 2023'</defaultValue>
-      <description></description>
-      <id>e7751733-5b4e-49e1-a005-188597cebd54</id>
-      <masked>false</masked>
-      <name>estimate_in_date</name>
    </variable>
 </TestCaseEntity>
