@@ -36,16 +36,12 @@ WebUI.click(findTestObject('Page_RegularOrder/remotefilter/input_orderFrequency'
 WebUI.click(findTestObject('Page_RegularOrder/remotefilter/li__orderFrequency_Weekly'))
 
 //def dateFormat = new SimpleDateFormat('MMM d, yyyy')
-
 //def currentDate = new Date()
-
 //String formattedDate = dateFormat.format(currentDate)
-
 //weeklyPeriod = CustomKeywords.'util.WeeklyPeriod.getWeeklyDateRange'(formattedDate)
-
 println("$weeklyPeriod")
 
-def convertedWeeklyPeriod=CustomKeywords.'DateConversion.convertChineseToEnglish'("$weeklyPeriod")
+def convertedWeeklyPeriod = CustomKeywords.'DateConversion.convertChineseToEnglishPeriodRange'("$weeklyPeriod")
 
 WebUI.click(findTestObject('Page_RegularOrder/remotefilter/input_orderPeriod'))
 
@@ -124,8 +120,8 @@ WebUI.click(findTestObject('Page_RegularOrder/remotefilter/li_orderPeriod', [('W
 
 WebUI.click(findTestObject('Page_RegularOrder/remotefilter/button_remotefilter_Search'))
 
-WebUI.verifyElementText(findTestObject('Page_RegularOrder/div_Dt_Status - Copy', [('contractRouteNo') : contractRouteNo]),
-	'Submitted')
+WebUI.verifyElementText(findTestObject('Page_RegularOrder/div_Dt_Status - Copy', [('contractRouteNo') : contractRouteNo]), 
+    'Submitted')
 
 WebUI.closeBrowser()
 

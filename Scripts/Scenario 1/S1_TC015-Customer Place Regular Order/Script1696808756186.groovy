@@ -36,16 +36,12 @@ WebUI.click(findTestObject('Page_RegularOrder/remotefilter/input_orderFrequency'
 WebUI.click(findTestObject('Page_RegularOrder/remotefilter/li__orderFrequency_Weekly'))
 
 //def dateFormat = new SimpleDateFormat('MMM d, yyyy')
-
 //def currentDate = new Date()
-
 //String formattedDate = dateFormat.format(currentDate)
-
 //weeklyPeriod = CustomKeywords.'util.WeeklyPeriod.getWeeklyDateRange'(formattedDate)
-
 println("$weeklyPeriod")
 
-def convertedWeeklyPeriod=CustomKeywords.'DateConversion.convertChineseToEnglish'("$weeklyPeriod")
+def convertedWeeklyPeriod = CustomKeywords.'DateConversion.convertChineseToEnglishPeriodRange'("$weeklyPeriod")
 
 println(convertedWeeklyPeriod)
 
@@ -132,8 +128,8 @@ WebUI.setText(findTestObject('Scenario 12/SC12_TC068/input_outboundNo'), contrac
 'change from contractRouteNo to contractNo'
 WebUI.verifyElementText(findTestObject('Page_RegularOrder/div_Dt_Status - Copy', [('contractRouteNo') : contractNo]), 'Submitted')
 
-WebUI.callTestCase(findTestCase('Scenario 1/S1_TC015.1-Get Customer Order No'), [('contractNo') : findTestData('Scenario 1/S1_TC002-BU1 to Customer Contract').getValue('ContractNo', 1)], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Scenario 1/S1_TC015.1-Get Customer Order No'), [('contractNo') : findTestData('Scenario 1/S1_TC002-BU1 to Customer Contract').getValue(
+            'ContractNo', 1)], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 
