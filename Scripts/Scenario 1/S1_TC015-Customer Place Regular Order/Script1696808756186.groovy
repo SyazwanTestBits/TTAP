@@ -35,10 +35,6 @@ WebUI.click(findTestObject('Page_RegularOrder/remotefilter/input_orderFrequency'
 
 WebUI.click(findTestObject('Page_RegularOrder/remotefilter/li__orderFrequency_Weekly'))
 
-//def dateFormat = new SimpleDateFormat('MMM d, yyyy')
-//def currentDate = new Date()
-//String formattedDate = dateFormat.format(currentDate)
-//weeklyPeriod = CustomKeywords.'util.WeeklyPeriod.getWeeklyDateRange'(formattedDate)
 println("$weeklyPeriod")
 
 def convertedWeeklyPeriod = CustomKeywords.'DateConversion.convertChineseToEnglishPeriodRange'("$weeklyPeriod")
