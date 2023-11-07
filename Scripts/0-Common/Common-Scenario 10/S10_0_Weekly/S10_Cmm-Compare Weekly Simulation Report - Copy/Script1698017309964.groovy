@@ -35,7 +35,7 @@ for (int row = 1; row <= expectationPath.getRowNumbers(); row++) {
 
         def columnIndex = pair.value
 
-        def dataValue = expectationPath.getValue(columnName, row)
+        String dataValue = expectationPath.getValue(columnName, row)
 
         String excelValue = CustomKeywords.'util.compareTestData.getCellValue2'(actualPath, rowIndex, columnIndex, 0)
 

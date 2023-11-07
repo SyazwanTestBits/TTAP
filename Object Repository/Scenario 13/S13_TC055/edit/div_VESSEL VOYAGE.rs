@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_VESSEL VOYAGE</name>
+   <tag></tag>
+   <elementGuidId>5f7e5fa6-ad98-47cc-b9ff-e2c650651b8d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8b96a069-ef01-43d9-812c-a45875581b16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>/</value>
+      <webElementGuid>3cc9d636-952a-4728-94e9-f57bf5b11313</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm2554 os-host-overflow os-host-overflow-y os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2555&quot;]/div[@class=&quot;lcbm-lcbm2558&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm2603 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiCollapse-root lcbm-MuiCollapse-entered&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapper&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapperInner&quot;]/div[@class=&quot;lcbm-lcbm2606&quot;]/div[@class=&quot;lcbm-lcbm2860&quot;]/div[@class=&quot;lcbm-lcbm2862&quot;]/div[@class=&quot;lcbm-lcbm2864 lcbm-lcbm2865&quot;]/div[1]</value>
+      <webElementGuid>0d1a46fa-3c6e-4ee3-b113-5675a4312a22</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div[3]/div</value>
+      <webElementGuid>d334e1b0-2a61-41f7-8f4e-67d7b5f513c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vessel / Voyage'])[1]/following::div[1]</value>
+      <webElementGuid>2b4198ea-ecbe-4d6f-a82e-2d8b6234f2cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order No.'])[1]/following::div[3]</value>
+      <webElementGuid>a00de6d9-635a-4620-ab28-4b23b380a74a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ETD / ETA'])[1]/preceding::div[1]</value>
+      <webElementGuid>e42c0d79-47f4-4f7a-8ac5-a1b05c300710</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EXP Port / IMP Port / Transport Mode'])[1]/preceding::div[4]</value>
+      <webElementGuid>0212c969-b78a-4053-90cf-e5ecba218187</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div[2]/div[3]/div</value>
+      <webElementGuid>ef823e98-cc75-4f9c-8fb3-2f0fb38b3358</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '/' or . = '/')]</value>
+      <webElementGuid>b4cfa24e-aac3-4238-aee1-858f85283098</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

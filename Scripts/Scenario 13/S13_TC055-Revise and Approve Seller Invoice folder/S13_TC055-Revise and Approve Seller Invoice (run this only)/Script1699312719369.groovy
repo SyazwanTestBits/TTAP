@@ -17,17 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.CUST_USERNAME_USERF
-        , ('password') : GlobalVariable.CUST_PWD_USERF, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.COMPANY_SUPPLIER_1], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : 'admin'
+        , ('password') : password, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : company], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Scenario 13/S13_TC055/button_Accounting'))
 
 WebUI.click(findTestObject('Scenario 13/S13_TC055/li_Seller(GI) Invoice List'))
 
-WebUI.setText(findTestObject('Scenario 13/S13_TC055/input_Seller(GI) Invoice'), contractNo)
+WebUI.setText(findTestObject('Scenario 13/S13_TC055/input_Seller(GI) Invoice'), outboundNo)
 
-invoiceNo = WebUI.getText(findTestObject('Scenario 13/S13_TC055/Page_Brivge/p_InvoiceNo'))
+invoiceNo = WebUI.getText(findTestObject('Scenario 13/S13_TC055/Page_Brivge/p_InvoiceNo - based on outbound', [('outboundNo') : outboundNo]))
 
 CustomKeywords.'copyToExcel.exel'(invoiceNo, 1, 1, filePath, fileName, sheetName)
 
@@ -35,11 +34,31 @@ WebUI.click(findTestObject('Scenario 13/S13_TC055/input_Checkbox'))
 
 WebUI.click(findTestObject('Scenario 13/S13_TC055/Page_Brivge/button_Edit'))
 
+WebUI.waitForElementVisible(findTestObject('Scenario 13/S13_TC055/edit/h3_Seller(GI) Invoice Detail'), 0)
+
+WebUI.callTestCase(findTestCase('Scenario 13/S13_TC055-Revise and Approve Seller Invoice folder/Zcmm-seller invoice Detail-01-placenDate, Consignee, shipping mark'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Scenario 13/S13_TC055-Revise and Approve Seller Invoice folder/Zcmm-seller invoice Detail-02-INCOTERM BREAKDOWN'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Scenario 13/S13_TC055-Revise and Approve Seller Invoice folder/Zcmm-seller invoice Detail-03- vessel, ETD_ETA, PAYMENT TERMS'), 
+    [('testDataETD_ETA') : findTestData('Scenario 13/S13_TC052-Autogen Outbound Data')], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC055/Page_Brivge/h6_Invoice Parts Detail Information'), 0)
 
-CustomKeywords.'commonUtils.clearElementText'(findTestObject('Scenario 13/S13_TC055/Page_Brivge/input_Unit Price'))
+for (int row = 1; row <= testDataPrice.getRowNumbers(); row++) {
+    part_No = testDataPrice.getValue('Parts No.', row)
 
-WebUI.setText(findTestObject('Scenario 13/S13_TC055/Page_Brivge/input_Unit Price'), '0.01')
+    String unitPrice = testDataPrice.getValue('Unit Price', row)
+
+    CustomKeywords.'util.clearTextJS.clearElementText2'(findTestObject('Scenario 13/S13_TC055/Page_Brivge/input_Unit Price', 
+            [('part_No') : part_No]))
+
+    WebUI.setText(findTestObject('Scenario 13/S13_TC055/Page_Brivge/input_Unit Price', [('part_No') : part_No]), unitPrice)
+
+    WebUI.click(findTestObject('Scenario 13/S13_TC055/Page_Brivge/h6_Invoice Parts Detail Information'), FailureHandling.STOP_ON_FAILURE)
+}
 
 CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 13/S13_TC055/Page_Brivge/button_Save'), 0)
 
@@ -48,7 +67,7 @@ WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC055/Page_Brivge/div
 
 WebUI.back()
 
-WebUI.setText(findTestObject('Scenario 13/S13_TC055/input_Seller(GI) Invoice'), contractNo)
+WebUI.setText(findTestObject('Scenario 13/S13_TC055/input_Seller(GI) Invoice'), outboundNo)
 
 WebUI.click(findTestObject('Scenario 13/S13_TC055/input_Checkbox'))
 
@@ -58,11 +77,11 @@ WebUI.click(findTestObject('Scenario 13/S13_TC055/button_Confirm'))
 
 WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC055/Page_Brivge/div_Status'), 'Approved')
 
-not_run: WebUI.click(findTestObject('Scenario 13/S13_TC055/Page_Brivge/button_Release'))
+WebUI.click(findTestObject('Scenario 13/S13_TC055/Page_Brivge/button_Release'))
 
-not_run: WebUI.click(findTestObject('Scenario 13/S13_TC055/button_Confirm'))
+WebUI.click(findTestObject('Scenario 13/S13_TC055/button_Confirm'))
 
-not_run: WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC055/Page_Brivge/div_Status'), 'Released')
+WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC055/Page_Brivge/div_Status'), 'Released')
 
 WebUI.closeBrowser()
 

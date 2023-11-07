@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Vessel  Voyage_OK</name>
+   <tag></tag>
+   <elementGuidId>aac47cbf-b12e-4266-932b-ee00b7384332</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[43]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.lcbm-MuiButtonBase-root.lcbm-MuiButton-root.lcbm-MuiButton-contained.lcbm-lcbm4829.lcbm-MuiButton-containedSecondary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a5fdca98-6972-4dd7-b4d6-4a39f7bea661</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiButtonBase-root lcbm-MuiButton-root lcbm-MuiButton-contained lcbm-lcbm4829 lcbm-MuiButton-containedSecondary</value>
+      <webElementGuid>49c66881-9543-49e2-bb52-a8ead689a2b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>d53ddcb8-5cd6-45bd-8b55-2691ed4d542b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ed15d048-f68e-440b-98cf-717a62013fb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>OK</value>
+      <webElementGuid>e7b2fdc0-0d56-4599-bf28-e37528463fea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiDialog-root&quot;]/div[@class=&quot;lcbm-MuiDialog-container lcbm-MuiDialog-scrollPaper&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiDialog-paper lcbm-lcbm4803 lcbm-MuiDialog-paperScrollPaper lcbm-MuiDialog-paperWidthSm lcbm-MuiDialog-paperFullWidth lcbm-MuiPaper-elevation24 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiDialogActions-root lcbm-MuiDialogActions-spacing&quot;]/button[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiButton-root lcbm-MuiButton-contained lcbm-lcbm4829 lcbm-MuiButton-containedSecondary&quot;]</value>
+      <webElementGuid>b7e2bea5-2225-4514-87eb-0785263d0737</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[43]</value>
+      <webElementGuid>59d002ee-bec2-45cb-b2a5-7d90da5fb730</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
+      <webElementGuid>5a228a91-544d-434d-b8e9-df830d2a7369</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vessel / Voyage'])[2]/following::button[2]</value>
+      <webElementGuid>8547ad2c-7533-4466-acf1-dbbbddf003c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button[2]</value>
+      <webElementGuid>f80f5d0b-f6e7-4da3-9b6a-a644d9382074</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'OK' or . = 'OK')]</value>
+      <webElementGuid>6762fcc6-d9aa-4db4-aacb-726ef758c11d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

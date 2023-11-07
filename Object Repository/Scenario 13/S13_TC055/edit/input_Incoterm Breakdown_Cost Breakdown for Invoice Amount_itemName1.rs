@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Incoterm Breakdown_Cost Breakdown for Invoice Amount_itemName1</name>
+   <tag></tag>
+   <elementGuidId>7dc271f9-4b2d-41a8-85e3-b740a2955a4e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='itemName1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;itemName1&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>d9015878-eb18-423d-b62d-0958349f0dd8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>itemName1</value>
+      <webElementGuid>584fa16a-b1d9-4bfd-be01-5cc5abf923ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>cb84ff55-b10b-40c7-b8b2-3251c3394824</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiInputBase-input lcbm-MuiInput-input</value>
+      <webElementGuid>ed0fe63f-fd0c-4ab1-a9ef-773d671b32e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiDialog-root&quot;]/div[@class=&quot;lcbm-MuiDialog-container lcbm-MuiDialog-scrollPaper&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiDialog-paper lcbm-MuiDialog-paperScrollPaper lcbm-MuiDialog-paperWidthLg lcbm-MuiPaper-elevation24 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiDialogContent-root&quot;]/div[1]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm2603 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiCollapse-root lcbm-MuiCollapse-entered&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapper&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapperInner&quot;]/div[@class=&quot;lcbm-lcbm2606&quot;]/form[@class=&quot;lcbm-lcbm4209 lcbm-lcbm4289&quot;]/div[@class=&quot;lcbm-lcbm4211 lcbm-lcbm4297&quot;]/div[@class=&quot;lcbm-lcbm4213&quot;]/div[@class=&quot;lcbm-lcbm4220&quot;]/div[@class=&quot;lcbm-lcbm4226&quot;]/div[@class=&quot;lcbm-lcbm4215&quot;]/div[@class=&quot;lcbm-MuiInputBase-root lcbm-MuiInput-root Mui-focused Mui-focused&quot;]/input[@class=&quot;lcbm-MuiInputBase-input lcbm-MuiInput-input&quot;]</value>
+      <webElementGuid>2e52c98d-ebfb-42d1-92d2-36565bb44eab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='itemName1']</value>
+      <webElementGuid>693b8b2e-d268-4283-b7f6-ca4f7618925c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div/div[2]/div/div/div/input</value>
+      <webElementGuid>de6f1fe4-731a-422e-a342-4e7edaee6310</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'itemName1' and @type = 'text']</value>
+      <webElementGuid>fa541cee-aaa5-4814-b7cd-df0f57eb6ae3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

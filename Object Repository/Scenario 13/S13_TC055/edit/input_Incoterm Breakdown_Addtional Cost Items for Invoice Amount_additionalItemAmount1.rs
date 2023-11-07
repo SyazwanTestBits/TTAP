@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Incoterm Breakdown_Addtional Cost Items for Invoice Amount_additionalItemAmount1</name>
+   <tag></tag>
+   <elementGuidId>9ce19de8-d8a5-437a-b996-07a7f901a3ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='additionalItemAmount1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;additionalItemAmount1&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>c5cfeb1d-146d-415d-9c5d-8951f60d353d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>additionalItemAmount1</value>
+      <webElementGuid>c9e64a3d-3290-4352-9163-3a07a350a581</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>number</value>
+      <webElementGuid>1487fca5-7cc8-4d73-993f-1445473cbe2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-MuiInputBase-input lcbm-MuiInput-input</value>
+      <webElementGuid>ee2e4f4e-acc9-464a-8ee2-aedf39fab095</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiDialog-root&quot;]/div[@class=&quot;lcbm-MuiDialog-container lcbm-MuiDialog-scrollPaper&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiDialog-paper lcbm-MuiDialog-paperScrollPaper lcbm-MuiDialog-paperWidthLg lcbm-MuiPaper-elevation24 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiDialogContent-root&quot;]/div[1]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm2603 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiCollapse-root lcbm-MuiCollapse-entered&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapper&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapperInner&quot;]/div[@class=&quot;lcbm-lcbm2606&quot;]/form[@class=&quot;lcbm-lcbm4209 lcbm-lcbm4305&quot;]/div[@class=&quot;lcbm-lcbm4211 lcbm-lcbm4310&quot;]/div[@class=&quot;lcbm-lcbm4213&quot;]/div[@class=&quot;lcbm-lcbm4220&quot;]/div[@class=&quot;lcbm-lcbm4226&quot;]/div[@class=&quot;lcbm-lcbm4215&quot;]/div[@class=&quot;lcbm-MuiInputBase-root lcbm-MuiInput-root Mui-focused Mui-focused&quot;]/input[@class=&quot;lcbm-MuiInputBase-input lcbm-MuiInput-input&quot;]</value>
+      <webElementGuid>83966e69-313d-44c3-b60a-5804cec5948c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='additionalItemAmount1']</value>
+      <webElementGuid>c1746976-2732-4285-a8f6-3312e7259d32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]/div/div/div/form/div[5]/div/div[2]/div/div/div/input</value>
+      <webElementGuid>17f3bce2-120f-411d-a98c-19e925b364ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'additionalItemAmount1' and @type = 'number']</value>
+      <webElementGuid>5ca9cf90-c1f8-4d54-ae60-94ea57f4252b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

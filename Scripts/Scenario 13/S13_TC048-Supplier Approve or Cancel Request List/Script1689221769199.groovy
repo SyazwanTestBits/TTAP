@@ -26,6 +26,12 @@ WebUI.click(findTestObject('Navbar_Brivge/OrderMenu_Brivge/li_ChangeCancel Reque
 
 WebUI.waitForElementPresent(findTestObject('Page_ChangeCancelReqList/h3_ChangeCancel Request List'), 0)
 
+WebUI.setText(findTestObject('Page_ChangeCancelReqList/input_ChangeCancelReqList_Search'), contractRouteCode)
+
+changeReqNo = WebUI.getText(findTestObject('Page_ChangeCancelReqList/div_Dt_firstRow'))
+
+CustomKeywords.'copyToExcel.exel2'(changeReqNo, 1, 2, 'Excel Files/Scenario 13/S13_TestCases_Data.xlsx', 'TC48')
+
 WebUI.click(findTestObject('Page_ChangeCancelReqList/button_Dt_ChgReqNo_Detail', [('changeReqNo') : changeReqNo]))
 
 WebUI.waitForElementPresent(findTestObject('Page_ChangeCancelReqList/Page_ChgCancelReqDetail/h3_ChangeCancel Request Detail'), 
