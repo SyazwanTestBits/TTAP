@@ -50,25 +50,26 @@ WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract 
 //-----------------------------------------------looping for verify part details
 WebUI.click(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/div_Parts No header in part detail list'))
 
-int stringindex = 0
+int colindex = 0
 
 for (int rowl = 1; rowl <= numberrowtd; rowl++) {
-    for (int coll = 1; coll <= 7; coll++) {
-        stringindex = (coll - 1)
+    colindex = 1
 
-        String colname2 = columnname[stringindex]
-
-        String valuecol = findTestData('Scenario 12/SC12_TC008- Supplier Check Contract Route').getValue(colname2, rowl)
+	for (String colname : columnname) {
+        String valuecol = findTestData('Scenario 12/SC12_TC008- Supplier Check Contract Route').getValue(colname, rowl)
 
         def actualValue = WebUI.getText(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/p list/p_part detail list', 
-                [('lcol') : coll, ('lrow') : rowl]))
+                [('lcol') : colindex, ('lrow') : rowl]))
 
         KeywordUtil.logInfo("Expected value: $valuecol ; Actual value: $actualValue")
 
         WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/p list/p_part detail list', 
-                [('lcol') : coll, ('lrow') : rowl]), valuecol)
+                [('lcol') : colindex, ('lrow') : rowl]), valuecol)
+		
+		colindex = (colindex + 1)
+	}
     }
-}
+
 
 WebUI.click(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/button_download in view page'))
 

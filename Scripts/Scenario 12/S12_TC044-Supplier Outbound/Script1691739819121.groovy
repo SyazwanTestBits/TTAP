@@ -37,14 +37,16 @@ WebUI.callTestCase(findTestCase('Scenario 12/S12_TC044.1-Supplier Outbound -Regu
 
 WebUI.callTestCase(findTestCase('Scenario 12/S12_TC044.2-Supplier Outbound -Spot'), [('username') : GlobalVariable.BAF_USERNAME_FATIN
         , ('password') : GlobalVariable.BAF_PWD, ('company') : GlobalVariable.BAF_COMPANY_SUP, ('salesOrderNo') : findTestData(
-            'Scenario 12/SC12_TC016-Supplier SO').getValue('SpotSalesOrderNo', 1), ('testdata_upload_outbounddata') : findTestData(
-            'Scenario 12/SC12_TC044.2-Supplier Outbound -Spot'), ('testdata_contractpartsinfo') : findTestData('Scenario 12/SC12_TC004-Contract Parts Info')
-        , ('buyer') : 'VN-TTVN', ('receiver') : 'VN-TTVN', ('outboundType') : 'Outbound', ('shippingMode') : 'Sea', ('columnNames') : [
-            'No', 'Shipper', 'OutboundNo', 'OutboundDate', 'OutboundTime', 'BookingNo', 'PartsNo', 'UOM', 'OutboundQty', 'ShippingMode'
-            , 'OutboundType', 'Receiver', 'Buyer', 'ETD', 'ETA', 'ContainerNo', 'ContainerType', 'CommodityType', 'SealNo'
-            , 'C_M3', 'C_NetWeight', 'C_GrossWeight', 'OuterPackageNo', 'OuterPackageType', 'OP_M3', 'OP_NetWeight', 'OP_GrossWeight'
-            , 'InnerPackageNo', 'InnerPackageType', 'IP_M3', 'IP_NetWeight', 'IP_GrossWeight', 'SalesOrderNo', 'Seller', 'SellerPartsNo'
-            , 'SellerPartsDescription', 'SellerBackNo', 'ColorCode', 'SRBQ', 'RemainingQtyAvailable'], ('outboundDate') : '11/8/2023'], 
+            'Scenario 12/SC12_TC016-Supplier SO').getValue('SpotSalesOrderNo', 1), ('testdata_contractpartsinfo') : findTestData(
+            'Scenario 12/SC12_TC004-Contract Parts Info'), ('buyer') : 'VN-TTVN', ('receiver') : 'VN-TTVN', ('outboundType') : 'Outbound'
+        , ('shippingMode') : 'Sea', ('outboundDetails') : findTestData('Scenario 12/SC12_TC044.2-Supplier Outbound -Spot')
+        , ('columnNames') : [('No') : 1, ('Shipper') : 2, ('OutboundNo') : 3, ('OutboundDate') : 4, ('BookingNo') : 6, ('PartsNo') : 7
+            , ('UOM') : 8, ('OutboundQty') : 9, ('ShippingMode') : 10, ('OutboundType') : 11, ('Receiver') : 12, ('Buyer') : 13
+            , ('ETD') : 14, ('ETA') : 15, ('ContainerNo') : 16, ('ContainerType') : 17, ('CommodityType') : 18, ('SealNo') : 19
+            , ('C_M3') : 20, ('C_NetWeight') : 21, ('C_GrossWeight') : 22, ('OuterPackageNo') : 23, ('OuterPackageType') : 24
+            , ('OP_M3') : 25, ('OP_NetWeight') : 26, ('OP_GrossWeight') : 27, ('InnerPackageNo') : 28, ('InnerPackageType') : 29
+            , ('IP_M3') : 30, ('IP_NetWeight') : 31, ('IP_GrossWeight') : 32, ('SalesOrderNo') : 33, ('Seller') : 34, ('SellerPartsNo') : 35
+            , ('SellerPartsDescription') : 36, ('SellerBackNo') : 37, ('ColorCode') : 38, ('SRBQ') : 39, ('RemainingQtyAvailable') : 40]], 
     FailureHandling.STOP_ON_FAILURE)
 
 List<String> outboundRefList = []

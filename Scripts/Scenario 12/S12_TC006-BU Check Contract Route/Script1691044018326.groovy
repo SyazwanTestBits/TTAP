@@ -54,7 +54,6 @@ WebUI.click(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view
 
 int colindex = 0
 
-//int numberrowtd = findTestData('Scenario 13/S13_TC038').getRowNumbers()
 for (int rowl = 1; rowl <= numberrowtd; rowl++) {
     colindex = 1
 

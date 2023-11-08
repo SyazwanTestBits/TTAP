@@ -20,10 +20,13 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 import java.util.Date as Date
 import java.util.Locale as Locale
 
-float a=12.0
+text = 'Pk-Cus1'
 
-float b=12.5
+lower = text.toLowerCase()
 
-println(a % 1)
+println(lower)
 
-println(b % 1)
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : 'https://test.brivge.com/', ('username') : 'PK-CUS1'
+        , ('password') : GlobalVariable.S13_TC30nMore_password, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.ADMIN_COMPANY], 
+    FailureHandling.STOP_ON_FAILURE)
+
