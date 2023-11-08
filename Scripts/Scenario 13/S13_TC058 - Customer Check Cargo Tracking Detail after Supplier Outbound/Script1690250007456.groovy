@@ -25,9 +25,8 @@ int rownum = findTestData('Data Files/Scenario 13/S13_TC058nTC059').getRowNumber
 String buttonClickBookNo = 'Booking Number: ' + bookingNumber
 
 //---------Start Testing--------------------------------
-WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.CUST_USERNAME_USERF
-        , ('password') : GlobalVariable.CUST_PWD_USERF, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.COMPANY_CUSTOMER], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : username
+        , ('password') : password, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : company], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Scenario 13/S13_TC064,065/button_Logistics'))
 
@@ -71,8 +70,8 @@ for (int row = 1; row <= rownum; row++) {
         WebUI.click(findTestObject('Scenario 13/S13_TC064,065/li_tracktype (1)'))
     }
     
-    CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 13/S13_TC064,065/button_arrow_container more detail',
-		[('maintitle') : mainforpath2]), 1)
+    CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 13/S13_TC064,065/button_arrow_container more detail', 
+            [('maintitle') : mainforpath2]), 1)
 
     for (String milestonecol : milestone) {
         String sytle2 = findTestData('Data Files/Scenario 13/S13_TC058nTC059').getValue(milestonecol, row)
@@ -83,8 +82,10 @@ for (int row = 1; row <= rownum; row++) {
         WebUI.verifyElementAttributeValue(findTestObject('Scenario 13/S13_TC064,065/p_milestonelist v1_1', [('maintitle') : mainforpath2
                     , ('milestonecol') : milestonecol]), 'style', sytle2, 0)
     }
-	
-	CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 13/S13_TC064,065/button_arrow_container more detail',
-		[('maintitle') : mainforpath2]), 1)
+    
+    CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 13/S13_TC064,065/button_arrow_container more detail', 
+            [('maintitle') : mainforpath2]), 1)
 }
+
+WebUI.closeBrowser()
 

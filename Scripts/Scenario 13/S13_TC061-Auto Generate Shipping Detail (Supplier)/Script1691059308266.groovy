@@ -18,7 +18,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Scenario 13/S13_TC060-Auto Generate Shipping Detail (Customer)'), [('username') : GlobalVariable.CUST_USERNAME_USERF
-        , ('password') : GlobalVariable.CUST_PWD_USERF, ('company') : company, ('bookingNo') : bookingNo, ('cargoStatus') : ''
-        , ('testData_UploadOutboundForm') : findTestData('Scenario 13/S13_TC052-Upload Outbound Form')], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Scenario 13/S13_TC060-Auto Generate Shipping Detail (Customer)'), [('username') : username
+        , ('password') : password, ('company') : company, ('bookingNo') : bookingNo, ('cargoStatus') : '', ('testData_UploadOutboundForm') : findTestData(
+            'Scenario 13/S13_TC052-Upload Outbound Form')], FailureHandling.STOP_ON_FAILURE)
 

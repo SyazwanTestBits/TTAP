@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[5]/div[2]/div/div/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td/div/p[(text() = '${part_No}' or . = '${part_No}')]/following::td[10]/div/div/input</value>
+         <value>//div[5]/div[2]/div/div/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td/div/p[(text() = '${part_No}' or . = '${part_No}')]/following::td[10]/div//div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>80024f4c-2b16-4dc6-9440-a210b63c0379</webElementGuid>
+      <webElementGuid>da714739-3e7d-40d0-802e-edd22ea80063</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>2ab60e14-cc92-4975-a73b-5aeba1efecb8</webElementGuid>
+      <webElementGuid>b481474f-a799-45ca-bba3-4576579d7acd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiInputBase-input lcbm-MuiInput-input</value>
-      <webElementGuid>435c6f8b-8f7a-4c18-8052-43c3b6164279</webElementGuid>
+      <webElementGuid>2409ef8c-f6ae-43b3-a66d-872dba413a64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>value</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>3039c3a5-2e20-4080-9240-578b1966086d</webElementGuid>
+      <webElementGuid>e9b4cf99-5caf-4f1c-8a91-9e97e2ce68eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm1 os-host-overflow os-host-overflow-y os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2&quot;]/div[@class=&quot;lcbm-lcbm9&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm11 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiCollapse-root lcbm-MuiCollapse-entered&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapper&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapperInner&quot;]/div[@class=&quot;lcbm-lcbm30&quot;]/div[1]/div[@class=&quot;lcbm-lcbm107&quot;]/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-overflow os-host-overflow-x os-host-resize-disabled lcbm-lcbm4 os-host-transition os-host-scrollbar-vertical-hidden&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[1]/table[@class=&quot;lcbm-MuiTable-root&quot;]/tbody[@class=&quot;lcbm-MuiTableBody-root&quot;]/tr[@class=&quot;lcbm-MuiTableRow-root lcbm-lcbm126&quot;]/td[@class=&quot;lcbm-MuiTableCell-root lcbm-MuiTableCell-body lcbm-lcbm127&quot;]/div[@class=&quot;lcbm-lcbm128&quot;]/div[@class=&quot;lcbm-MuiInputBase-root lcbm-MuiInput-root lcbm-MuiInput-underline lcbm-MuiInputBase-fullWidth lcbm-MuiInput-fullWidth Mui-focused Mui-focused&quot;]/input[@class=&quot;lcbm-MuiInputBase-input lcbm-MuiInput-input&quot;]</value>
-      <webElementGuid>ade1645b-5268-43fd-b07f-11472c3744a0</webElementGuid>
+      <webElementGuid>a6354636-f88a-4490-8319-72f26a49e637</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@value='100'])[4]</value>
-      <webElementGuid>f4043eac-52bf-4c67-af75-416165e5f544</webElementGuid>
+      <webElementGuid>a59da444-5062-443b-8d65-4ea69c8be929</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div[5]/div[2]/div/div/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[11]/div/div/input</value>
-      <webElementGuid>0cf6c726-813b-47d2-b68b-dbdedb473e14</webElementGuid>
+      <webElementGuid>b1347435-0c78-463d-8f3e-17890c296d10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div[2]/div/div/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[11]/div/div/input</value>
-      <webElementGuid>61942289-389a-4a76-95ff-bf36567eb1f8</webElementGuid>
+      <webElementGuid>0bb463d5-6b6d-4316-ae92-6a7f81998af5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'number']</value>
-      <webElementGuid>140a5993-e943-40cc-9915-0d35541d55b1</webElementGuid>
+      <webElementGuid>d37b459c-41b7-4a8e-bc40-3dd8fa9e606a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -132,23 +132,13 @@
     },
     {
       "approved": true,
-      "testObjectId": "Object Repository/Scenario 13/S13_TC034/Page_Brivge/button_Confirm",
-      "brokenLocator": "//*[@type \u003d \u0027button\u0027 and (text() \u003d \u0027CONFIRM\u0027 or . \u003d \u0027CONFIRM\u0027)]",
+      "testObjectId": "Object Repository/Scenario 13/S13_TC064,065/h6_Booking Number",
+      "brokenLocator": "//*[@title \u003d \u0027Booking Number: B-231107-TBA-10\u0027 and (text() \u003d \u0027Booking Number: B-231107-TBA-10\u0027 or . \u003d \u0027Booking Number: B-231107-TBA-10\u0027)]",
       "brokenLocatorMethod": "BASIC",
-      "proposedLocator": "//button[@type \u003d \u0027button\u0027 and (text() \u003d \u0027CONFIRM\u0027 or . \u003d \u0027CONFIRM\u0027)]",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Select Order/s To Retrieve Cargo Tracking Information\u0027])[1]/following::h6[1]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 13/S13_TC034/Page_Brivge/button_Confirm_customAttributes.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/p list/p_part detail list",
-      "brokenLocator": " /html/body/div[1]/div/div[4]/div/div/div/div[2]/div[3]/div[2]/div/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr[7]/td[1]/div/p",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div[2]/div[3]/div[2]/div/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[2]/div/p",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/p list/p_part detail list_idRelative.png"
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 13/S13_TC064,065/h6_Booking Number_neighbor.png"
     }
   ]
 }
