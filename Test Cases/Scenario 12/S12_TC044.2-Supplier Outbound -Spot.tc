@@ -5,78 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>1d3783e5-0cb1-4aad-82b0-d7d5cb6b714c</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>ed7e07ea-30bf-4623-b959-3ae5ba1a5ad5</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>2e7dc9f4-1e4a-45d2-8bd9-a713b50e03b3</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>4ed5eae3-f05f-49ee-bac6-86ca5211811a</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>3c6972b0-2687-4550-8f1b-e91b3be49d8a</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>8466022f-7c95-4b8a-89ea-f78eda7baf45</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>70b86cd8-fe1d-4124-9d47-4ef89af353c7</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>a265d93d-f531-4d50-aa5c-db3d4e8b89ef</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>087e8836-0f1e-48f2-95fe-aa48dd1ac62b</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>f12b2d98-6dfd-4511-ab2a-713d7cf7e743</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>11083a19-9346-4e28-a659-47b6e80b923f</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>17219395-e2ad-47bf-b3a9-59700feb4788</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>86cf918d-7d84-4867-ba56-c116c9ab814e</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.BAF_USERNAME_FATIN</defaultValue>
       <description></description>
@@ -104,13 +32,6 @@
       <id>3c6972b0-2687-4550-8f1b-e91b3be49d8a</id>
       <masked>false</masked>
       <name>salesOrderNo</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestData('Scenario 12/SC12_TC044.2-Supplier Outbound -Spot')</defaultValue>
-      <description></description>
-      <id>8466022f-7c95-4b8a-89ea-f78eda7baf45</id>
-      <masked>false</masked>
-      <name>testdata_upload_outbounddata</name>
    </variable>
    <variable>
       <defaultValue>findTestData('Scenario 12/SC12_TC004-Contract Parts Info')</defaultValue>
@@ -148,17 +69,17 @@
       <name>shippingMode</name>
    </variable>
    <variable>
-      <defaultValue>['No', 'Shipper', 'OutboundNo', 'OutboundDate', 'OutboundTime', 'BookingNo', 'PartsNo', 'UOM', 'OutboundQty', 'ShippingMode', 'OutboundType', 'Receiver', 'Buyer', 'ETD', 'ETA', 'ContainerNo', 'ContainerType', 'CommodityType', 'SealNo', 'C_M3', 'C_NetWeight', 'C_GrossWeight', 'OuterPackageNo', 'OuterPackageType', 'OP_M3', 'OP_NetWeight', 'OP_GrossWeight', 'InnerPackageNo', 'InnerPackageType', 'IP_M3', 'IP_NetWeight', 'IP_GrossWeight', 'SalesOrderNo', 'Seller', 'SellerPartsNo', 'SellerPartsDescription', 'SellerBackNo', 'ColorCode', 'SRBQ', 'RemainingQtyAvailable']</defaultValue>
+      <defaultValue>findTestData('Scenario 12/SC12_TC044.2-Supplier Outbound -Spot')</defaultValue>
       <description></description>
-      <id>17219395-e2ad-47bf-b3a9-59700feb4788</id>
+      <id>cc9d245b-87f0-4529-9ca1-ba8da152c61c</id>
       <masked>false</masked>
-      <name>columnNames</name>
+      <name>outboundDetails</name>
    </variable>
    <variable>
-      <defaultValue>'11/8/2023'</defaultValue>
+      <defaultValue>[('No') : 1, ('Shipper') : 2, ('OutboundNo') : 3, ('OutboundDate') : 4, ('BookingNo') : 6, ('PartsNo') : 7, ('UOM') : 8, ('OutboundQty') : 9, ('ShippingMode') : 10, ('OutboundType') : 11, ('Receiver') : 12, ('Buyer') : 13, ('ETD') : 14, ('ETA') : 15, ('ContainerNo') : 16, ('ContainerType') : 17, ('CommodityType') : 18, ('SealNo') : 19, ('C_M3') : 20, ('C_NetWeight') : 21, ('C_GrossWeight') : 22, ('OuterPackageNo') : 23, ('OuterPackageType') : 24, ('OP_M3') : 25, ('OP_NetWeight') : 26, ('OP_GrossWeight') : 27, ('InnerPackageNo') : 28, ('InnerPackageType') : 29, ('IP_M3') : 30, ('IP_NetWeight') : 31, ('IP_GrossWeight') : 32, ('SalesOrderNo') : 33, ('Seller') : 34, ('SellerPartsNo') : 35, ('SellerPartsDescription') : 36, ('SellerBackNo') : 37, ('ColorCode') : 38, ('SRBQ') : 39, ('RemainingQtyAvailable') : 40]</defaultValue>
       <description></description>
-      <id>86cf918d-7d84-4867-ba56-c116c9ab814e</id>
+      <id>a3157df3-a666-44ab-9b2c-77376b84ac53</id>
       <masked>false</masked>
-      <name>outboundDate</name>
+      <name>columnNames</name>
    </variable>
 </TestCaseEntity>

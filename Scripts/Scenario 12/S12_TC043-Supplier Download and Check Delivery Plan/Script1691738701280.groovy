@@ -38,7 +38,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Scenario 13/S13_TC051/
 downloadedFile = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
 CustomKeywords.'verifyExcelData.verifyDataSpecific'(expectedDeliveryPlan, downloadedFile, [5, 6, 7, 8, 9, 10, 11, 12, 13
-        , 14, 15, 16, 17, 18, 19, 20, 21, 22], [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22])
+        , 14, 15, 16, 17, 18, 19, 20, 21, 22], [2, 4, 5, 7, 8, 9, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27])
 
 WebUI.closeBrowser()
 
