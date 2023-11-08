@@ -137,7 +137,7 @@
       <name>currency</name>
    </variable>
    <variable>
-      <defaultValue>'483,297'</defaultValue>
+      <defaultValue>findTestData('Scenario 17/S17_TC054.1- Account Amount').getValue(1, 1)</defaultValue>
       <description></description>
       <id>05c2e2ec-1f4b-44f5-9938-7e19ad37d29d</id>
       <masked>false</masked>
@@ -151,14 +151,14 @@
       <name>overdueAmountPer</name>
    </variable>
    <variable>
-      <defaultValue>'483,297'</defaultValue>
+      <defaultValue>findTestData('Scenario 17/S17_TC054.1- Account Amount').getValue(1, 1)</defaultValue>
       <description></description>
       <id>41a59827-a937-4053-893b-64f8bc3aa7d0</id>
       <masked>false</masked>
       <name>tOustandingAmount</name>
    </variable>
    <variable>
-      <defaultValue>'483,297'</defaultValue>
+      <defaultValue>findTestData('Scenario 17/S17_TC054.1- Account Amount').getValue(1, 1)</defaultValue>
       <description></description>
       <id>4d94763a-01bf-4948-a45d-1667d1fc8e39</id>
       <masked>false</masked>
