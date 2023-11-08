@@ -31,14 +31,15 @@ WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC046/p_verifyStatus', 
 
 WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC046/p_verifyStatus', [('SOid') : spotSalesOrderNo]), 'Processing')
 
-WebUI.callTestCase(findTestCase('Scenario 12/S12_TC048.1-BU Check Sales Order -Regular'), [('contractNo') : findTestData('Scenario 12/SC12_TC007-Supplier to BU Contract').getValue('ContractNo', 1)
-        , ('regularSalesOrderNo') : findTestData('Scenario 12/SC12_TC014-BU SO').getValue('RegularSalesOrderNo', 1), ('spotSalesOrderNo') : findTestData('Scenario 12/SC12_TC014-BU SO').getValue('SpotSalesOrderNo', 1)
-        , ('orderTypeRegular') : 'Regular', ('orderTypeSpot') : 'Spot', ('expectedSOregular') : 'Excel Files\\Scenario 12\\Expected Data\\TC48\\Expected Sales Order Regular.xlsx'], 
+WebUI.callTestCase(findTestCase('Scenario 12/S12_TC048.1-BU Check Sales Order -Regular'), [('contractNo') : findTestData(
+            'Scenario 12/SC12_TC007-Supplier to BU Contract').getValue('ContractNo', 1), ('regularSalesOrderNo') : findTestData(
+            'Scenario 12/SC12_TC014-BU SO').getValue('RegularSalesOrderNo', 1), ('spotSalesOrderNo') : findTestData('Scenario 12/SC12_TC014-BU SO').getValue(
+            'SpotSalesOrderNo', 1), ('orderTypeRegular') : 'Regular', ('orderTypeSpot') : 'Spot', ('expectedSOregular') : 'Excel Files\\Scenario 12\\Expected Data\\TC48\\Expected Sales Order Regular.xlsx'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Scenario 12/S12_TC048.2-BU Check Sales Order -Spot'), [('contractNo') : findTestData('Scenario 12/SC12_TC007-Supplier to BU Contract').getValue('ContractNo', 1)
         , ('regularSalesOrderNo') : findTestData('Scenario 12/SC12_TC014-BU SO').getValue('RegularSalesOrderNo', 1), ('spotSalesOrderNo') : findTestData('Scenario 12/SC12_TC014-BU SO').getValue('SpotSalesOrderNo', 1)
-        , ('orderTypeRegular') : 'Regular', ('orderTypeSpot') : 'Spot', ('expectedSOspot') : 'Excel Files\\Scenario 12\\Expected Data\\TC47\\Expected Sales Order Spot.xlsx'], 
+        , ('orderTypeRegular') : 'Regular', ('orderTypeSpot') : 'Spot', ('expectedSOspot') : 'Excel Files\\Scenario 12\\Expected Data\\TC48\\Expected Sales Order Spot.xlsx'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()

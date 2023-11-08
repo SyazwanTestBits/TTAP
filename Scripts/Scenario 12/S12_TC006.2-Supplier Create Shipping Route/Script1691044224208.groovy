@@ -151,7 +151,7 @@ CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Object Reposi
     1)
 
 'The operation was successful.'
-not_run: WebUI.verifyElementText(findTestObject('Object Repository/Scenario 13/S13_TC033_Shipping_Route/p_The operation was successful'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Scenario 13/S13_TC033_Shipping_Route/p_The operation was successful'), 
     'The operation was successful.', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.closeBrowser()

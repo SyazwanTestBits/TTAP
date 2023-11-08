@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>SC12_TC017-Supplier Check and Confirm SO -Regular</name>
+   <name>SC12_TC017-Supplier SO Delivery Plan (Date) -Regular</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>1127172e-e7fe-4f2d-8278-97556059e3bc</dataFileGUID>
+   <dataFileGUID>bf1ea4cb-3cbb-4edc-9bfd-1318955f0cd2</dataFileGUID>
    <dataSourceUrl>Excel Files/Scenario 12/S12_TestCases_Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>TC17-Supplier SO -Regular</sheetName>
+   <sheetName>TC17.1-Sup SODeliveryPlan(Date)</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

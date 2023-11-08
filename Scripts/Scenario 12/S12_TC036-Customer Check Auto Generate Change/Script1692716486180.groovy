@@ -12,9 +12,9 @@ WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVa
 
 WebUI.click(findTestObject('Navbar_Brivge/button_Order'))
 
-WebUI.click(findTestObject('Scenario 12/SC12_TC036/li_ChangeCancel Request List'))
+WebUI.click(findTestObject('Scenario 12/SC12_TC035/li_ChangeCancel Request List'))
 
-WebUI.waitForElementPresent(findTestObject('Scenario 12/SC12_TC036/h3_ChangeCancel Request List'), 0)
+WebUI.waitForElementPresent(findTestObject('Scenario 12/SC12_TC035/h3_ChangeCancel Request List'), 0)
 
 'Verify Order Change with Status = Approved\r\n'
 WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC034/p_Order Change', [('requestNo') : requestNo]), 'New')
@@ -24,12 +24,6 @@ KeywordUtil.logInfo("Verified Request No: $requestNo Request Type: Order Change 
 WebUI.click(findTestObject('Scenario 12/SC12_TC019/p_detailButton', [('requestNo') : requestNo]))
 
 WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC036/h3_ChangeCancel Request Detail'), 0)
-
-not_run: WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC036/button_Propose New'), 0)
-
-not_run: WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC036/button_Reject'), 0)
-
-not_run: WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC036/button_Approve'), 0)
 
 WebUI.click(findTestObject('Scenario 12/SC12_TC034/p_Parts No sorting'))
 
