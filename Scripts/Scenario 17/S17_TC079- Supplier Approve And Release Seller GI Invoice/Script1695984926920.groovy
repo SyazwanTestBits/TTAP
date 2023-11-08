@@ -29,11 +29,19 @@ WebUI.setText(findTestObject('Scenario 17/S17_TC006/input_Search'), outboundNo1)
 
 invoice1 = WebUI.getText(findTestObject('Scenario 17/S17_TC078/p_getInvoiceNo', [('outboundNo') : outboundNo1]))
 
+CustomKeywords.'copyToExcel.exel'(invoice1, 1, 2, filePath, fileName, sheetName)
+
+println(invoice1)
+
 CustomKeywords.'util.clearTextJS.clearElementText'(findTestObject('Scenario 17/S17_TC006/input_Search'))
 
 WebUI.setText(findTestObject('Scenario 17/S17_TC006/input_Search'), outboundNo2)
 
 invoice2 = WebUI.getText(findTestObject('Scenario 17/S17_TC078/p_getInvoiceNo', [('outboundNo') : outboundNo2]))
+
+println(invoice2)
+
+CustomKeywords.'copyToExcel.exel'(invoice2, 2, 2, filePath, fileName, sheetName)
 
 CustomKeywords.'util.clearTextJS.clearElementText'(findTestObject('Scenario 17/S17_TC006/input_Search'))
 
@@ -41,23 +49,13 @@ WebUI.setText(findTestObject('Scenario 17/S17_TC006/input_Search'), outboundNo3)
 
 invoice3 = WebUI.getText(findTestObject('Scenario 17/S17_TC078/p_getInvoiceNo', [('outboundNo') : outboundNo3]))
 
-WebUI.sendKeys(findTestObject('Scenario 17/S17_TC006/input_Search'), Keys.chord(Keys.CONTROL, 'a'))
-
-WebUI.sendKeys(findTestObject('Scenario 17/S17_TC006/input_Search'), Keys.chord(Keys.BACK_SPACE))
-
-println(invoice1)
-
-println(invoice2)
-
 println(invoice3)
-
-CustomKeywords.'copyToExcel.exel'(invoice1, 1, 2, filePath, fileName, sheetName)
-
-CustomKeywords.'copyToExcel.exel'(invoice2, 2, 2, filePath, fileName, sheetName)
 
 CustomKeywords.'copyToExcel.exel'(invoice3, 3, 2, filePath, fileName, sheetName)
 
-WebUI.delay(2)
+WebUI.sendKeys(findTestObject('Scenario 17/S17_TC006/input_Search'), Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Scenario 17/S17_TC006/input_Search'), Keys.chord(Keys.BACK_SPACE))
 
 'Approve'
 for (String invoiceNo : invoiceNoList) {

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[2]/following::li[5]</value>
+         <value>//li[(text() = 'CO Monitoring List' or . = 'CO Monitoring List')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>2e36d6c1-8a0d-43da-accc-7d5d6bdaac7e</webElementGuid>
+      <webElementGuid>f12fcb39-3437-402a-ab46-1f573207d62c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base217 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button</value>
-      <webElementGuid>4f2c6268-ac1c-41ff-884a-39af8d4e190a</webElementGuid>
+      <webElementGuid>c26000d3-b39b-40ab-b1f8-bd4c19fb7312</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>74341373-ab27-4d49-aede-1677064a25b1</webElementGuid>
+      <webElementGuid>9c5641aa-30f8-4d79-96bb-1afd76d2844c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>a57c7c97-5862-494b-897d-4fdbef016eb2</webElementGuid>
+      <webElementGuid>29ecc8aa-3e19-493d-b066-f1ce993d7074</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4da54cf4-f02e-4ca4-a47d-76762be6c3ef</webElementGuid>
+      <webElementGuid>27620f58-c33a-4d19-8b27-4b920a04738c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>CO Monitoring List</value>
-      <webElementGuid>bf040f29-d5de-4df8-87e3-1ec418d8cffc</webElementGuid>
+      <webElementGuid>2f931c8b-9c5f-407c-9881-68fcc6d76472</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;base-base73&quot;]/div[@class=&quot;base-MuiPaper-root base-base74 base-MuiPaper-elevation1 base-MuiPaper-rounded&quot;]/div[@class=&quot;base-base77&quot;]/ul[@class=&quot;base-MuiList-root base-base215 base-MuiList-padding&quot;]/a[1]/li[@class=&quot;base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base217 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button&quot;]</value>
-      <webElementGuid>4c547a07-734c-41b3-bf56-61169377e5c6</webElementGuid>
+      <webElementGuid>667715bb-c83e-463f-9ccd-c92bd221984b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[2]/following::li[5]</value>
-      <webElementGuid>b40aa943-750a-4287-9cea-c9e1399cec8a</webElementGuid>
+      <webElementGuid>9a09486b-d645-492d-bf6d-02f1a09803ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/following::li[5]</value>
-      <webElementGuid>8bba9998-07a4-4136-bc24-b6334b28add0</webElementGuid>
+      <webElementGuid>6ac30248-652e-4f52-a2b3-c00754672229</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::li[2]</value>
-      <webElementGuid>741fd66a-cbc7-4721-b20f-220009363d51</webElementGuid>
+      <webElementGuid>38b5f1b5-3c4e-45f3-9011-f507570401bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::li[2]</value>
-      <webElementGuid>2b58b88d-42c9-4308-b49e-7f0e95f5b8c8</webElementGuid>
+      <webElementGuid>d346cb48-f734-44c2-b614-8b52e756f691</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ul[2]/a/li</value>
-      <webElementGuid>e12e871a-658b-4e85-b276-22de6218b986</webElementGuid>
+      <webElementGuid>cd012fce-b301-43da-a844-76af2691bea3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'CO Monitoring List' or . = 'CO Monitoring List')]</value>
-      <webElementGuid>5f4c6bca-5fe8-47ed-b994-583411ad3cfe</webElementGuid>
+      <webElementGuid>592d74f5-8fc5-4cbd-ae36-cfc4075ac0fb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

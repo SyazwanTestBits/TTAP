@@ -53,6 +53,8 @@ WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 17/S17_Cmn1-Write Info
 
 WebUI.uploadFile(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_UploadFile'), downloadedExcel)
 
+WebUI.delay(2)
+
 WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC033/div_Upload Supplier Order Change. The operation was successful'), 
     0)
 
@@ -62,8 +64,7 @@ WebUI.waitForElementPresent(findTestObject('NotificationMsg_Brivge/div_ConfirmMs
 
 WebUI.click(findTestObject('NotificationMsg_Brivge/button_NotiMsg_CONFIRM'))
 
-WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC033/div_Upload Supplier Order Change. The operation was successful'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_Issue_Success'), 0)
 
 WebUI.closeBrowser()
 

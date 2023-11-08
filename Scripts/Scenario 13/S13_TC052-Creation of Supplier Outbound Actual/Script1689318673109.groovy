@@ -79,9 +79,10 @@ for (def rowNum = 1; rowNum <= testdata_contractpartsinfo.getRowNumbers(); rowNu
             [('salesOrderNo') : salesOrderNo, ('partsNo') : partsNo]), 0, FailureHandling.STOP_ON_FAILURE)
 
     KeywordUtil.logInfo("Sales Order: ' $salesOrderNo ' and Parts No: ' $partsNo ' are present on the Download Outbound form list")
-}
 
-WebUI.click(findTestObject('Page_OutboundMonitoringList/Page_CreateOutbound/Modal_DwnloadOutboundForm/input_Dt_checkbox_CheckAllOutboundList'))
+    WebUI.click(findTestObject('Page_OutboundMonitoringList/Page_CreateOutbound/Modal_DwnloadOutboundForm/div_Dt_DwnloadOutboundForm_tickPArt', 
+            [('salesOrderNo') : salesOrderNo, ('partsNo') : partsNo]))
+}
 
 WebUI.click(findTestObject('Page_OutboundMonitoringList/Page_CreateOutbound/Modal_DwnloadOutboundForm/button_Download'))
 

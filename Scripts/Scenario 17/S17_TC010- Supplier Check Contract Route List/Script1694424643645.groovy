@@ -14,6 +14,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
@@ -58,6 +59,11 @@ for (int rowl = 1; rowl <= numberrowtd; rowl++) {
 
         String actualValue = WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/p list/p_part detail list', 
                 [('lcol') : colindex, ('lrow') : rowl]), valuecol)
+		
+		//Log actual and expected results
+		KeywordUtil.logInfo("Actual: $actualValue and Expected: $valuecol")
+
+		println("$actualValue same as expected -->  $valuecol")
 
         colindex = (colindex + 1)
     }

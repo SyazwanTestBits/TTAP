@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S13_TC047-Customer Change Order - modify on screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>43614cb5-4b8d-421a-b0af-6ac4fd9e555e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8a458c57-8bf0-46b2-9d8b-3f62b8e1149f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>adb0da9f-cde6-4bd7-b01f-7feae1a32939</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>650e1043-4fd0-4346-9c5f-c424296f91b8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>68c149a7-b437-4ef5-8b64-225951ca11af</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b712cdcf-fc5e-4b14-8764-a5d9a726e8f1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>554a3837-a0fa-4be2-b46e-2bd21fe8d492</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.S13_TC30nMore_username</defaultValue>
+      <description></description>
+      <id>8a458c57-8bf0-46b2-9d8b-3f62b8e1149f</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.S13_TC30nMore_password</defaultValue>
+      <description></description>
+      <id>adb0da9f-cde6-4bd7-b01f-7feae1a32939</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.S13_TC30nMore_companyCUST</defaultValue>
+      <description></description>
+      <id>650e1043-4fd0-4346-9c5f-c424296f91b8</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC042').getValue('GenerateCOID', 1)</defaultValue>
+      <description></description>
+      <id>68c149a7-b437-4ef5-8b64-225951ca11af</id>
+      <masked>false</masked>
+      <name>custOrderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC047-Change Order')</defaultValue>
+      <description></description>
+      <id>b712cdcf-fc5e-4b14-8764-a5d9a726e8f1</id>
+      <masked>false</masked>
+      <name>testdataOrderChange</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC047-Change Inbound Dates')</defaultValue>
+      <description></description>
+      <id>554a3837-a0fa-4be2-b46e-2bd21fe8d492</id>
+      <masked>false</masked>
+      <name>testdataInboundDateChange</name>
+   </variable>
+</TestCaseEntity>

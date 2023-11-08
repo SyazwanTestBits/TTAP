@@ -52,6 +52,8 @@ for (String invoiceNo : invoiceNoList) {
 
     WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
 
+    WebUI.delay(1)
+
     WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC063/p_verifyStatus', [('invoiceNo') : invoiceNo]), 'Customs Clearance Completed')
 }
 

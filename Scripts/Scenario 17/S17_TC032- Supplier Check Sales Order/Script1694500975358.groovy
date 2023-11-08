@@ -46,7 +46,7 @@ WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC014/div_Download S
 
 WebUI.click(findTestObject('Scenario 12/SC12_TC016/svg_closeNotification'))
 
-WebUI.takeFullPageScreenshot()
+WebUI.delay(2)
 
 latestFilePath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 

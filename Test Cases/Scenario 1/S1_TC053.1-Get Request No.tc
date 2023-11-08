@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC053.1-Get Request No</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b515aca2-cb19-4868-8466-81517c8b650b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5eafb1a1-db14-4d12-8c69-264beffe2c1f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC002-BU1 to Customer Contract').getValue('ContractRouteCode', 1)</defaultValue>
+      <description></description>
+      <id>5eafb1a1-db14-4d12-8c69-264beffe2c1f</id>
+      <masked>false</masked>
+      <name>contractRouteCode</name>
+   </variable>
+</TestCaseEntity>

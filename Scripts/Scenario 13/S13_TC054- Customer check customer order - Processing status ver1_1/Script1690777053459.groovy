@@ -16,10 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.CUST_USERNAME_USERF
-        , ('password') : GlobalVariable.CUST_PWD_USERF, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.COMPANY_CUSTOMER], 
-    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : username
+        , ('password') : password, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : company], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC049 TC054/span_Order'))
 
@@ -29,14 +30,15 @@ WebUI.setText(findTestObject('Object Repository/Scenario 13/S13_TC049 TC054/inpu
 
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC049 TC054/input_tick first row CO list'))
 
+WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC049/p_DT-CO Status'), 'Processing')
+
+WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC049/p_DT-delayStatus'), 'Normal')
+
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC049 TC054/button_CO detail'))
 
 'NEED TO CHECK'
 WebUI.verifyElementAttributeValue(findTestObject('Scenario 13/S13_TC049 TC054/input_status CO_verify'), 'value', 'Processing', 
     0)
-
-'Delay Status- NEED TO CHECK\r\n'
-not_run: WebUI.verifyElementAttributeValue(findTestObject(null), '', '', 0)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Scenario 13/S13_TC049 TC054/header_Shipping part list'), 0)
 
@@ -49,6 +51,11 @@ for (int rowl = 1; rowl <= numberrowtd; rowl++) {
 
     for (String colname : columnname) {
         String valuecol = findTestData('Scenario 13/S13_TC054').getValue(colname, rowl)
+		
+		actualValue = WebUI.getText(findTestObject('Scenario 13/S13_TC049 TC054/p_part detail list-tc49', [('lrow') : rowl
+			, ('lcol') : coll]))
+
+		KeywordUtil.logInfo((((((('In row:' + rowl) + ' column:') + colname) + ', Actual data:') + actualValue) + ' Expectation data:') +valuecol)
 
         WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC049 TC054/p_part detail list-tc49', [('lrow') : rowl, ('lcol') : coll]), 
             valuecol)

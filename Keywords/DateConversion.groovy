@@ -25,23 +25,37 @@ import internal.GlobalVariable
 public class DateConversion {
 
 	@Keyword
-	public static String convertChineseToEnglishPeriodRange(String chineseDateRange) {
-		try {
-			String[] dateParts = chineseDateRange.split(" ~ ");
+	public static String convertChineseToEnglishPeriodRange(String date) {
 
-			SimpleDateFormat chineseFormat = new SimpleDateFormat("MMMM d, yyyy", Locale.CHINA);
-			SimpleDateFormat englishFormat = new SimpleDateFormat("MMM d, yyyy", Locale.US);
+		// Define a regular expression to match English characters (letters)
+		def englishPattern = /[A-Za-z]/
 
-			Date startDate = chineseFormat.parse(dateParts[0]);
-			Date endDate = chineseFormat.parse(dateParts[1]);
+		//If date has english characters, just return the date without conversion
+		if (date =~ englishPattern) {
+			// Your code to handle English characters goes here
 
-			String englishStartDate = englishFormat.format(startDate);
-			String englishEndDate = englishFormat.format(endDate);
+			return date;
+		}
 
-			return englishStartDate + " ~ " + englishEndDate;
-		} catch (ParseException e) {
-			e.printStackTrace();
-			return null;
+		else {
+			try {
+				String[] dateParts = date.split(" ~ ");
+
+				SimpleDateFormat chineseFormat = new SimpleDateFormat("MMMM d, yyyy", Locale.CHINA);
+				SimpleDateFormat englishFormat = new SimpleDateFormat("MMM d, yyyy", Locale.US);
+
+				Date startDate = chineseFormat.parse(dateParts[0]);
+				Date endDate = chineseFormat.parse(dateParts[1]);
+
+				String englishStartDate = englishFormat.format(startDate);
+				String englishEndDate = englishFormat.format(endDate);
+
+				return englishStartDate + " ~ " + englishEndDate;
+			} catch (ParseException e) {
+				e.printStackTrace();
+				return null;
+			}
+
 		}
 	}
 

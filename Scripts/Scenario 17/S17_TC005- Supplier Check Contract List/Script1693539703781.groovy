@@ -42,9 +42,9 @@ for (int rowl = 1; rowl <= numberrowtd; rowl++) {
     colindex = 1
 
     for (String colname : columnname) {
-        String valuecol = findTestData('Scenario 17/S17_TC005- Contract Parts').getValue(colname, rowl)
+         String valuecol = findTestData('Scenario 17/S17_TC005- Contract Parts').getValue(colname, rowl)
 
-        WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC029/p_partsDetail', [('lcol') : colindex, ('lrow') : rowl]), 
+         String actualValue=  WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC029/p_partsDetail', [('lcol') : colindex, ('lrow') : rowl]), 
             valuecol)
 
         //println("Row: $rowl, Column: $coll")

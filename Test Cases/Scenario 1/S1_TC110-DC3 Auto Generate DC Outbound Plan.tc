@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC110-DC3 Auto Generate DC Outbound Plan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0aba0296-7e48-4c53-882e-e3dd1767ad6e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3adec78b-3725-4803-b369-64cba61698f2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fdeb6686-7eb0-4b01-aab1-3ea4763088d9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b22fb946-58f3-4c86-9f9a-d37e3db1c662</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6d718a65-75e9-4908-940d-2be50f4aac99</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>821682f8-25e0-453b-9819-78fc43597d50</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC047-AutoGen OrderNo Spot').getValue('BU3_SO', 1)</defaultValue>
+      <description></description>
+      <id>3adec78b-3725-4803-b369-64cba61698f2</id>
+      <masked>false</masked>
+      <name>orderNo</name>
+   </variable>
+   <variable>
+      <defaultValue>'MY-ELA-SUP'</defaultValue>
+      <description></description>
+      <id>fdeb6686-7eb0-4b01-aab1-3ea4763088d9</id>
+      <masked>false</masked>
+      <name>supplier</name>
+   </variable>
+   <variable>
+      <defaultValue>'PK-CUS-DC'</defaultValue>
+      <description></description>
+      <id>b22fb946-58f3-4c86-9f9a-d37e3db1c662</id>
+      <masked>false</masked>
+      <name>receiver</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 1\\Expected Data\\TC110\\OutboundInstruction_byModule.xlsx'</defaultValue>
+      <description></description>
+      <id>6d718a65-75e9-4908-940d-2be50f4aac99</id>
+      <masked>false</masked>
+      <name>OutboundInstruction_byModule</name>
+   </variable>
+   <variable>
+      <defaultValue>'Excel Files\\Scenario 1\\Expected Data\\TC110\\OutboundInstruction_byParts.xlsx'</defaultValue>
+      <description></description>
+      <id>821682f8-25e0-453b-9819-78fc43597d50</id>
+      <masked>false</masked>
+      <name>OutboundInstruction_byParts</name>
+   </variable>
+</TestCaseEntity>
+

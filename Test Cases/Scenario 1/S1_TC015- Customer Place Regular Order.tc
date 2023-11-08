@@ -3,44 +3,18 @@
    <description></description>
    <name>S1_TC015- Customer Place Regular Order</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0036g:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://ttap-scm-at.atlassian.net/&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;BAT&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;BriVge Automated Testing&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;SC1.0_TC15 - Customer - Place order through download/ upload&quot;,&quot;description&quot;:&quot;User: Customer \\\\Login ID: maria-baf\\\\Company: PK-CUS-POC \\\\Function: Order \u003ePlace Order(Customer) \\\\Description: Place order through download/ upload&quot;,&quot;reporter&quot;:{&quot;active&quot;:true,&quot;displayName&quot;:&quot;Nurfatin binti Abdullah Shuhaimy&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-818/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/10817&quot;,&quot;key&quot;:&quot;BAT-818&quot;,&quot;id&quot;:10817}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>d26760f1-08b9-41f8-8dde-0929858898f8</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>92d47312-b85c-4af6-a1c8-87656abfc7de</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>756bfca6-92d8-48ec-856c-c18b3974472c</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>331308fc-b7b9-457d-b9ca-096060543533</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>328207d8-4917-47f5-8364-c757fd028f27</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>3f45198a-c1b9-4369-a9d5-3e6b25033740</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>e5c37b0c-9b15-4b02-b27d-82b088556d7a</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.BAF_USERNAME_SYAZWAN</defaultValue>
       <description></description>
@@ -82,5 +56,12 @@
       <id>e5c37b0c-9b15-4b02-b27d-82b088556d7a</id>
       <masked>false</masked>
       <name>testDataDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC015- Period Generator').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>07cd8a3c-f8ab-4da3-b2a5-f82199752afd</id>
+      <masked>false</masked>
+      <name>weeklyPeriod</name>
    </variable>
 </TestCaseEntity>

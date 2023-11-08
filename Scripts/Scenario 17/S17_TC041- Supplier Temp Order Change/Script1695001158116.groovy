@@ -53,18 +53,14 @@ WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 17/S17_Cmn1-Write Info
 
 WebUI.uploadFile(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_UploadFile'), downloadedExcel)
 
-WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC033/div_Upload Supplier Order Change. The operation was successful'), 
+WebUI.delay(2)
+
+WebUI.verifyElementPresent(findTestObject('Scenario 17/S17_TC040/Page_Edit Supplier Order Change - Brivge/div_Upload Supplier Order Change. Paired parts firm qty must be the same'), 
     0)
 
 WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
 
 WebUI.click(findTestObject('Scenario 13/S13_TC037/Page_Brivge/button_Save'))
-
-WebUI.verifyElementPresent(findTestObject('Scenario 17/S17_TC040/Page_Edit Supplier Order Change - Brivge/div_Upload Supplier Order Change. Paired parts firm qty must be the same'), 
-    0)
-
-WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC033/div_Upload Supplier Order Change. The operation was successful'), 
-    0)
 
 WebUI.closeBrowser()
 

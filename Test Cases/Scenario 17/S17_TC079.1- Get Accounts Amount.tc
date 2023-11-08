@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S17_TC079.1- Get Accounts Amount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d20a492f-3540-4b2a-960f-7e23817b1095</testCaseGuid>
+   <variable>
+      <defaultValue>'Excel Files/Scenario 17'</defaultValue>
+      <description></description>
+      <id>adbfebda-05f2-494c-a7d6-6a43a0ce15fd</id>
+      <masked>false</masked>
+      <name>filePath</name>
+   </variable>
+   <variable>
+      <defaultValue>'S17_TestCases_Data.xlsx'</defaultValue>
+      <description></description>
+      <id>0d94c2d3-aa16-4aba-a9ab-3baa9b53d839</id>
+      <masked>false</masked>
+      <name>fileName</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC54- Account Amount'</defaultValue>
+      <description></description>
+      <id>ed5787d4-cbba-4a1a-a6e6-7e9982d23431</id>
+      <masked>false</masked>
+      <name>sheetName</name>
+   </variable>
+</TestCaseEntity>

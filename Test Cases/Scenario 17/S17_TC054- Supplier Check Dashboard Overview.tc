@@ -4,15 +4,15 @@
    <name>S17_TC054- Supplier Check Dashboard Overview</name>
    <tag></tag>
    <integratedEntity>
-<productName>JIRA</productName>
-<properties>
-<entry>
-<key>integratedValue</key>
-<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i002d4:"},"status":{"id":10000,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10000","name":"To Do"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC17.0_TC54 - Supplier - Check Dashboard Overview","description":"User: Supplier \\\\Login ID: maria-baf\\\\Company: PK-SUP-POC \\\\Function: Dashboard \u003eDashboard Overview \\\\Description: Check Dashboard Overview","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-680/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10679","key":"BAT-680","id":10679}}</value>
-</entry>
-</properties>
-<type>TESTCASE</type>
-</integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i002d4:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://ttap-scm-at.atlassian.net/&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;BAT&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;BriVge Automated Testing&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;SC17.0_TC54 - Supplier - Check Dashboard Overview&quot;,&quot;description&quot;:&quot;User: Supplier \\\\Login ID: maria-baf\\\\Company: PK-SUP-POC \\\\Function: Dashboard \u003eDashboard Overview \\\\Description: Check Dashboard Overview&quot;,&quot;reporter&quot;:{&quot;active&quot;:true,&quot;displayName&quot;:&quot;Nurfatin binti Abdullah Shuhaimy&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-680/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/10679&quot;,&quot;key&quot;:&quot;BAT-680&quot;,&quot;id&quot;:10679}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>b6311306-a4ae-4509-a581-6979fa7e652e</testCaseGuid>
    <variableLinks>
@@ -137,7 +137,7 @@
       <name>currency</name>
    </variable>
    <variable>
-      <defaultValue>'440,064'</defaultValue>
+      <defaultValue>findTestData('Scenario 17/S17_TC054.1- Account Amount').getValue(1, 1)</defaultValue>
       <description></description>
       <id>05c2e2ec-1f4b-44f5-9938-7e19ad37d29d</id>
       <masked>false</masked>
@@ -151,14 +151,14 @@
       <name>overdueAmountPer</name>
    </variable>
    <variable>
-      <defaultValue>'440,064'</defaultValue>
+      <defaultValue>findTestData('Scenario 17/S17_TC054.1- Account Amount').getValue(1, 1)</defaultValue>
       <description></description>
       <id>41a59827-a937-4053-893b-64f8bc3aa7d0</id>
       <masked>false</masked>
       <name>tOustandingAmount</name>
    </variable>
    <variable>
-      <defaultValue>'440,064'</defaultValue>
+      <defaultValue>findTestData('Scenario 17/S17_TC054.1- Account Amount').getValue(1, 1)</defaultValue>
       <description></description>
       <id>4d94763a-01bf-4948-a45d-1667d1fc8e39</id>
       <masked>false</masked>

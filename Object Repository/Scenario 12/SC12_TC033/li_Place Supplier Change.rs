@@ -6,12 +6,12 @@
    <elementGuidId>107bb94a-bd7f-4491-b148-1f2cea39d26d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.base-MuiButtonBase-root.base-MuiListItem-root.base-MuiMenuItem-root.base-base107.base-MuiMenuItem-gutters.base-MuiListItem-gutters.base-MuiListItem-button</value>
+         <key>XPATH</key>
+         <value>//li[(text() = 'Place Supplier Change' or . = 'Place Supplier Change')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[2]/following::li[2]</value>
+         <key>CSS</key>
+         <value>li.base-MuiButtonBase-root.base-MuiListItem-root.base-MuiMenuItem-root.base-base107.base-MuiMenuItem-gutters.base-MuiListItem-gutters.base-MuiListItem-button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>781e2f65-931a-4681-9675-b0f1b5795e9f</webElementGuid>
+      <webElementGuid>f2bb4ae2-c44f-46ef-804c-2780e4a82d8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base107 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button</value>
-      <webElementGuid>ac602e35-96a1-4d5a-b30f-9ca5e2bbf989</webElementGuid>
+      <webElementGuid>35bc565f-86bf-40d4-9bc6-83c77f855b6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>2209c4d6-70ad-4e48-9913-cdbbef50a933</webElementGuid>
+      <webElementGuid>468d73f0-ae22-480d-806d-63047c433336</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>92a6dff5-13df-4bce-8220-396a3d78fb70</webElementGuid>
+      <webElementGuid>428210e7-863e-4dc6-af80-0a5a1771724e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9e67f950-4d6e-4703-9d14-fd500ed8de17</webElementGuid>
+      <webElementGuid>3eff210e-be59-4cb1-90e7-154c44cda9fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Place Supplier Change</value>
-      <webElementGuid>71048717-1620-4c1a-b8ec-0d9ee11cafd8</webElementGuid>
+      <webElementGuid>f9503c84-485d-44ee-8945-d3c2c21bfa27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;base-base73&quot;]/div[@class=&quot;base-MuiPaper-root base-base74 base-MuiPaper-elevation1 base-MuiPaper-rounded&quot;]/div[@class=&quot;base-base77&quot;]/ul[@class=&quot;base-MuiList-root base-base105 base-MuiList-padding&quot;]/a[1]/li[@class=&quot;base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base107 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button&quot;]</value>
-      <webElementGuid>8d93bc2a-91d2-4891-aa84-7190bc869df0</webElementGuid>
+      <webElementGuid>6794a873-fdbb-4da0-931d-bcedf9e7a36e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[2]/following::li[2]</value>
-      <webElementGuid>1af2489d-fd25-4b9d-87b4-145e27ec932d</webElementGuid>
+      <webElementGuid>b2e00a7b-4de5-4df4-ac5c-4a72e5a1a06d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::li[2]</value>
-      <webElementGuid>9f4c49eb-f29c-4958-ad5a-b3ee42cabc2f</webElementGuid>
+      <webElementGuid>9735f497-944a-4c09-87b2-03f5ffd7ec7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/li</value>
-      <webElementGuid>05e50ec0-b99e-4e4e-9e3d-c02191fdc4be</webElementGuid>
+      <webElementGuid>13c40e42-2033-4928-af13-8307516c9b40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Place Supplier Change' or . = 'Place Supplier Change')]</value>
-      <webElementGuid>e3452f4e-911f-47d0-b607-c8b96039f9d4</webElementGuid>
+      <webElementGuid>dd74d8a9-330e-4272-80a5-80b225885409</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
