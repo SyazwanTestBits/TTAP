@@ -1,3 +1,5 @@
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+
 import java.text.SimpleDateFormat
 
 import org.apache.poi.ss.usermodel.*
@@ -63,65 +65,67 @@ public class verifyExcelData {
 	}
 
 	@Keyword(keywordObject='Excel Verification')
-    static void verifyDataSpecific(String expectedFilePath, String downloadedFilePath, List<Integer> rowIndices, List<Integer> columnsToVerify) {
-        try {
-            FileInputStream expectedFis = new FileInputStream(new File(expectedFilePath));
-            FileInputStream downloadedFis = new FileInputStream(new File(downloadedFilePath));
+	static void verifyDataSpecific(String expectedFilePath, String downloadedFilePath, List<Integer> rowIndices, List<Integer> columnsToVerify) {
+		try {
+			FileInputStream expectedFis = new FileInputStream(new File(expectedFilePath));
+			FileInputStream downloadedFis = new FileInputStream(new File(downloadedFilePath));
 
-            Workbook expectedWorkbook = new XSSFWorkbook(expectedFis);
-            Workbook downloadedWorkbook = new XSSFWorkbook(downloadedFis);
+			Workbook expectedWorkbook = new XSSFWorkbook(expectedFis);
+			Workbook downloadedWorkbook = new XSSFWorkbook(downloadedFis);
 
-            Sheet expectedSheet = expectedWorkbook.getSheetAt(0);
-            Sheet downloadedSheet = downloadedWorkbook.getSheetAt(0);
+			Sheet expectedSheet = expectedWorkbook.getSheetAt(0);
+			Sheet downloadedSheet = downloadedWorkbook.getSheetAt(0);
 
-            List<String> mismatchDetails = new ArrayList<>();
+			List<String> mismatchDetails = new ArrayList<>();
 
-            for (int rowIndex : rowIndices) {
-                Row downloadedRow = downloadedSheet.getRow(rowIndex);
-                Row expectedRow = expectedSheet.getRow(rowIndex);
+			for (int rowIndex : rowIndices) {
+				Row downloadedRow = downloadedSheet.getRow(rowIndex);
+				Row expectedRow = expectedSheet.getRow(rowIndex);
 
-                if (downloadedRow == null || expectedRow == null) {
-                    mismatchDetails.add("Row not found in either the downloaded or expected Excel file for index " + rowIndex);
-                    continue;
-                }
+				if (downloadedRow == null || expectedRow == null) {
+					mismatchDetails.add("Row not found in either the downloaded or expected Excel file for index " + rowIndex);
+					continue;
+				}
 
-                for (int colIndex : columnsToVerify) {
-                    Cell expectedCell = expectedRow.getCell(colIndex);
-                    Cell downloadedCell = downloadedRow.getCell(colIndex);
+				for (int colIndex : columnsToVerify) {
+					Cell expectedCell = expectedRow.getCell(colIndex);
+					Cell downloadedCell = downloadedRow.getCell(colIndex);
 
-                    if (expectedCell != null && downloadedCell != null) {
-                        String expectedValue = expectedCell.toString().trim();
-                        String downloadedValue = downloadedCell.toString().trim();
+					if (expectedCell != null && downloadedCell != null) {
+						String expectedValue = expectedCell.toString().trim();
+						String downloadedValue = downloadedCell.toString().trim();
 
-                        if (!expectedValue.equals(downloadedValue)) {
-                            mismatchDetails.add("Mismatch in cell values for row " + rowIndex + ", column " + colIndex + ". Expected: " + expectedValue + ", Downloaded: " + downloadedValue);
-                        } else {
-                            KeywordUtil.logInfo("Cell values match for row " + rowIndex + ", column " + colIndex + ". Expected: " + expectedValue + ", Downloaded: " + downloadedValue);
-                        }
-                    } else {
-                        mismatchDetails.add("Cell is null in row " + rowIndex + " and column " + colIndex);
-                    }
-                }
-            }
+						if (!expectedValue.equals(downloadedValue)) {
+							mismatchDetails.add("Mismatch in cell values for row " + rowIndex + ", column " + colIndex + ". Expected: " + expectedValue + ", Downloaded: " + downloadedValue);
+						} else {
+							KeywordUtil.logInfo("Cell values match for row " + rowIndex + ", column " + colIndex + ". Expected: " + expectedValue + ", Downloaded: " + downloadedValue);
+						}
+					} else {
+						mismatchDetails.add("Cell is null in row " + rowIndex + " and column " + colIndex);
+					}
+				}
+			}
 
-            expectedFis.close();
-            downloadedFis.close();
+			expectedFis.close();
+			downloadedFis.close();
 
-            for (String mismatchDetail : mismatchDetails) {
-                KeywordUtil.logInfo(mismatchDetail);
-            }
+			for (String mismatchDetail : mismatchDetails) {
+				KeywordUtil.logInfo(mismatchDetail);
+			}
 
-            if (mismatchDetails.isEmpty()) {
-                KeywordUtil.logInfo("All data checks passed. Downloaded data matches expected data.");
-            } else {
-                // If there are mismatch details, throw an exception to indicate verification failure
-                throw new AssertionError("Excel data verification failed.");
-            }
+			if (mismatchDetails.isEmpty()) {
+				KeywordUtil.logInfo("All data checks passed. Downloaded data matches expected data.");
+			} else {
+				// If there are mismatch details, throw an exception to indicate verification failure
+				throw new AssertionError("Excel data verification failed.");
+			}
 
-        } catch (Exception e) {
-            KeywordUtil.logInfo("Error verifying data: " + e.getMessage());
-        }
-    }
+		} catch (Exception e) {
+			KeywordUtil.logInfo("Error verifying data: " + e.getMessage());
+			KeywordUtil.markFailed("Error verifying data: " + e.getMessage());
+			
+		}
+	}
 
 	@Keyword(keywordObject='Excel Verification')
 	static void verifyDynamicSort(String expectedFilePath, String downloadedFilePath, int partsNoColumnIndex, List<Integer> partsNoRowIndices, List<Integer> columnsToVerify) {
@@ -194,6 +198,8 @@ public class verifyExcelData {
 
 		} catch (Exception e) {
 			KeywordUtil.logInfo("Error verifying dynamic sort: " + e.getMessage())
+			KeywordUtil.markFailed("Excel data verification failed: The system cannot find the file specified.");
+
 		}
 	}
 

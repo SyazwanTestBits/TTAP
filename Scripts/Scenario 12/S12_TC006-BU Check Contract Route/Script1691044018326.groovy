@@ -1,11 +1,9 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.BAF_USERNAME_FATIN
@@ -41,7 +39,7 @@ KeywordUtil.logInfo("Verified Customer: $GlobalVariable.BAF_COMPANY_CUS")
 WebUI.verifyElementAttributeValue(findTestObject('Scenario 12/SC12_TC006/Page_Contract Route Detail - Brivge/input_Contract Header Detail Information_status'), 
     'value', 'Building', 0)
 
-KeywordUtil.logInfo("Verified Status: Building")
+KeywordUtil.logInfo('Verified Status: Building')
 
 WebUI.verifyElementAttributeValue(findTestObject('Scenario 12/SC12_TC006/Page_Contract Route Detail - Brivge/input_Contract Header Detail Information_description'), 
     'value', contractRouteDescription, 0)
@@ -62,10 +60,11 @@ for (int rowl = 1; rowl <= numberrowtd; rowl++) {
 
     for (String colname : columnname) {
         String valuecol = findTestData('Scenario 12/SC12_TC006-Contract Route').getValue(colname, rowl)
-		
-		def actualValue = WebUI.getText(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/p list/p_part detail list', [('lcol') : colindex, ('lrow') : rowl]))
-		
-		KeywordUtil.logInfo("Expected value: $valuecol ; Actual value: $actualValue")
+
+        def actualValue = WebUI.getText(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/p list/p_part detail list', 
+                [('lcol') : colindex, ('lrow') : rowl]))
+
+        KeywordUtil.logInfo("Expected value: $valuecol ; Actual value: $actualValue")
 
         WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/p list/p_part detail list', 
                 [('lcol') : colindex, ('lrow') : rowl]), valuecol)

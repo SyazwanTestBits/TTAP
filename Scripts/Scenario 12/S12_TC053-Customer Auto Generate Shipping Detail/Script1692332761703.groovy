@@ -1,11 +1,9 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.BAF_USERNAME_FATIN
@@ -20,18 +18,20 @@ WebUI.waitForElementPresent(findTestObject('Page_ShippingDetailList/h3_Shipping 
 
 for (def rowNum = 1; rowNum <= testData.getRowNumbers(); rowNum++) {
     def bookingNo = testData.getValue('BookingNo', rowNum)
+
     def containerNo = testData.getValue('ContainerNo', rowNum)
 
-    if (bookingNo || containerNo) { // Check if either bookingNo or containerNo is not empty or null
-        TestObject cargoStatusObject = findTestObject('Object Repository/Scenario 12/SC12_TC053/p_verifyCargoStatus', 
-            [('bookingNo') : bookingNo, ('containerNo') : containerNo])
+    if (bookingNo || containerNo) {
+        // Check if either bookingNo or containerNo is not empty or null
+        TestObject cargoStatusObject = findTestObject('Object Repository/Scenario 12/SC12_TC053/p_verifyCargoStatus', [('bookingNo') : bookingNo
+                , ('containerNo') : containerNo])
 
         // Get the text content of the cargo status element
         String cargoStatusText = WebUI.getText(cargoStatusObject)
 
         // Verify that the cargo status text is empty using verifyMatch
-        WebUI.verifyMatch(cargoStatusText, '', true, FailureHandling.CONTINUE_ON_FAILURE)
-        
+        WebUI.verifyMatch(cargoStatusText, '', false, FailureHandling.STOP_ON_FAILURE)
+
         // If the verifyMatch fails, it will cause the script to fail
         KeywordUtil.logInfo("Cargo status is empty for BookingNo: $bookingNo, ContainerNo: $containerNo")
     }

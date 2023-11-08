@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[2]/following::li[2]</value>
+         <value>//li[(text() = 'PO Monitoring List' or . = 'PO Monitoring List')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>4e3a9f32-016a-4cac-9058-53091dd8580b</webElementGuid>
+      <webElementGuid>0402a8d7-66e9-46a4-9e84-b2c0db6380d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base107 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button</value>
-      <webElementGuid>548c1755-17df-493d-84ae-092322576e8d</webElementGuid>
+      <webElementGuid>476c3334-7a16-4e9c-b76b-6cd96df0723e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>f20aa5d3-9475-4359-a1c2-b21a62e062b7</webElementGuid>
+      <webElementGuid>99066675-b2bc-40c7-bc2b-5f9adee1c8dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>da074a35-b3fb-4056-9862-98c95a41d7b7</webElementGuid>
+      <webElementGuid>23dc52b1-13b7-40dd-8242-947a4ee61b37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9d091f54-98c0-49f6-81bb-c4b0639fef0b</webElementGuid>
+      <webElementGuid>7ad7cba3-ac62-419c-bb59-473becbc298d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>PO Monitoring List</value>
-      <webElementGuid>805d7571-8771-4074-9418-05c1fc66911e</webElementGuid>
+      <webElementGuid>dd10d164-4e86-4024-9b63-a445fd8f1b22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;base-base73&quot;]/div[@class=&quot;base-MuiPaper-root base-base74 base-MuiPaper-elevation1 base-MuiPaper-rounded&quot;]/div[@class=&quot;base-base77&quot;]/ul[@class=&quot;base-MuiList-root base-base105 base-MuiList-padding&quot;]/a[1]/li[@class=&quot;base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base107 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button&quot;]</value>
-      <webElementGuid>9125661c-f4a6-4713-ac06-8c65c55e6651</webElementGuid>
+      <webElementGuid>e021447e-d93a-495d-88b3-56262a9d90a9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[2]/following::li[2]</value>
-      <webElementGuid>9982e9ae-5ae7-48c5-8e32-0c2199ed2332</webElementGuid>
+      <webElementGuid>e036a287-df4d-4a74-abfb-96dc0969b340</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/following::li[2]</value>
-      <webElementGuid>fe5248a3-16db-4843-a8ba-12acb83c570f</webElementGuid>
+      <webElementGuid>495ec9ad-c5de-44b7-a355-937127d5b371</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::li[6]</value>
-      <webElementGuid>7415aa14-6cd2-4930-beba-0c23b3f30f1c</webElementGuid>
+      <webElementGuid>d40cf23f-4033-4ba2-a637-8fcc074c7639</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::li[6]</value>
-      <webElementGuid>6a7df0e9-8e87-4ec9-a024-e4b6c127f235</webElementGuid>
+      <webElementGuid>18bf207b-3879-4290-ac87-4abcf1ecaa6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/li</value>
-      <webElementGuid>0eca03cf-1ef6-4144-a1a2-a98f02680175</webElementGuid>
+      <webElementGuid>58da9c09-3c8c-434c-b8ee-494225493187</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'PO Monitoring List' or . = 'PO Monitoring List')]</value>
-      <webElementGuid>ab8bdadf-19bd-4bac-84e0-54d19e3fc05c</webElementGuid>
+      <webElementGuid>483febd2-5bbc-4bcc-b3b3-b3c76e084855</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

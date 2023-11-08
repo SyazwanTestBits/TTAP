@@ -18,26 +18,19 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.BAF_USERNAME_FATIN
-        , ('password') : GlobalVariable.BAF_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.BAF_COMPANY_SUP], 
+        , ('password') : GlobalVariable.BAF_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.S17_BAF_SUP], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Scenario 13/S13_TC055/button_Accounting'))
+WebUI.click(findTestObject('Scenario 17/S17_TC054/Page_PO Management - Brivge/span_Dashboard_Supplier'))
 
-WebUI.click(findTestObject('Scenario 13/S13_TC055/li_Seller(GI) Invoice List'))
+WebUI.click(findTestObject('Scenario 17/S17_TC054/Page_PO Management - Brivge/li_Dashboard Overview_Supplier'))
 
-for (String invoiceNo : invoiceNoList) {
-    WebUI.click(findTestObject('Scenario 12/SC12_TC056/p_checkboxSelect', [('invoiceNo') : invoiceNo]))
-}
+//-------------------------------------------------------------------------------------------------------
+WebUI.click(findTestObject('Scenario 17/S17_TC054/Page_Vendor Analysis - Brivge/span_Accounts Receivable'))
 
-WebUI.click(findTestObject('Scenario 12/SC12_TC058/Page_Seller(GI) Invoice List - Brivge/button_releaseMain'))
+accountAmount = WebUI.getText(findTestObject('Scenario 17/S17_TC054/Page_Accounts Receivable - Brivge/h5_Accounts'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Scenario 12/SC12_TC056/button_CONFIRMrelease'))
+CustomKeywords.'copyToExcel.exel'(accountAmount, 1, 0, filePath, fileName, sheetName)
 
-WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC056/div_Do Release.The operation was successful'), 0)
-
-for (String invoiceNo : invoiceNoList) {
-    WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC056/p_verifyStatus', [('invoiceNo') : invoiceNo]), 'Released')
-}
-
-WebUI.closeBrowser()
+println(accountAmount)
 

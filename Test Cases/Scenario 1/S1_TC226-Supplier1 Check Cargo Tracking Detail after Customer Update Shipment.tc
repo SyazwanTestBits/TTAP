@@ -3,6 +3,16 @@
    <description></description>
    <name>S1_TC226-Supplier1 Check Cargo Tracking Detail after Customer Update Shipment</name>
    <tag></tag>
+   <integratedEntity>
+<productName>JIRA</productName>
+<properties>
+<entry>
+<key>integratedValue</key>
+<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i00454:"},"status":{"id":10000,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10000","name":"To Do"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC1.0_TC226 - Supplier1 - Check Cargo Tracking Detail after Customer Update Shipping Detail ","description":"User: Supplier1 \\\\Login ID: maria-baf\\\\Company: MY-ELA-SUP \\\\Function: Logistics \u003eCargo Tracking Detail \\\\Description: Check Cargo Tracking Detail after Customer Update Shipping Detail","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"assignee":{"active":true,"displayName":"Maria Mohamed","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A7ecc7ded-a473-4ce4-82b8-3b5bc67852f3"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-984/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10983","key":"BAT-984","id":10983}}</value>
+</entry>
+</properties>
+<type>TESTCASE</type>
+</integratedEntity>
    <comment></comment>
    <testCaseGuid>c7e74ee8-098b-4fa3-996f-8bfed3af0361</testCaseGuid>
    <variableLinks>

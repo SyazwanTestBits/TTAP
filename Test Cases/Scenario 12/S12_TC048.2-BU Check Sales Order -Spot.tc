@@ -77,7 +77,7 @@
       <name>orderTypeSpot</name>
    </variable>
    <variable>
-      <defaultValue>'Excel Files\\Scenario 12\\Expected Data\\TC47\\Expected Sales Order Spot.xlsx'</defaultValue>
+      <defaultValue>'Excel Files\\Scenario 12\\Expected Data\\TC48\\Expected Sales Order Spot.xlsx'</defaultValue>
       <description></description>
       <id>c0cb609c-2699-45ea-a106-acc44efa63c5</id>
       <masked>false</masked>
