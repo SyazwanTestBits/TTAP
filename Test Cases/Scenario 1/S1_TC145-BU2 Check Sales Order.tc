@@ -5,19 +5,10 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>4c03ecb1-a4af-4743-aebd-2bf1898cced0</testCaseGuid>
-   <testDataLinks>
-      <combinationType>ONE</combinationType>
-      <id>71e67f29-de6e-4b08-aa21-63195b29201e</id>
-      <iterationEntity>
-         <iterationType>ALL</iterationType>
-         <value></value>
-      </iterationEntity>
-      <testDataId>Data Files/Scenario 1/S1_TC145</testDataId>
-   </testDataLinks>
    <variableLinks>
-      <testDataLinkId>71e67f29-de6e-4b08-aa21-63195b29201e</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>SONumber</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>18503ff1-4f8f-491b-b721-eef5c9fc5b4d</variableId>
    </variableLinks>
    <variableLinks>

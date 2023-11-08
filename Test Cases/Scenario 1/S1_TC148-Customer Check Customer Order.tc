@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC148-Customer Check Customer Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad397386-9b58-4524-9f53-6a94b0173266</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>c5e60610-4799-4a87-ae93-0a5251b9cfac</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 1/S1_TC148</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e89ecfb6-ab39-45ba-9ec6-084de7f7d174</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c5e60610-4799-4a87-ae93-0a5251b9cfac</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>CONumber</value>
+      <variableId>9675c533-9968-41ed-8efc-45e9d2838b44</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5ebf5ee8-a183-4c9e-a7a4-db4e5098bba9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>719fe665-76b8-4e82-81df-f0485e5549a3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Regular\r\n'</defaultValue>
+      <description></description>
+      <id>e89ecfb6-ab39-45ba-9ec6-084de7f7d174</id>
+      <masked>false</masked>
+      <name>OrderType_Regular</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9675c533-9968-41ed-8efc-45e9d2838b44</id>
+      <masked>false</masked>
+      <name>CONumber</name>
+   </variable>
+   <variable>
+      <defaultValue>['PartsNo', 'CustomerPartsNo', 'BackNo', 'SalesOrderNo', 'SupplierCode', 'SPQ', 'OrderLot', 'OrderQty', 'ForceCompletedQty', 'UnitPrice', 'Currency', 'Status', 'InboundedQty', 'InboundPlanDatePlan1', 'InboundPlanDateStatus1', 'InboundPlanDatePlan2', 'InboundPlanDateStatus2', 'InboundPlanDatePlan3', 'InboundPlanDateStatus3', 'EstimatedInOutPlan1', 'EstimatedInOutPlan2']</defaultValue>
+      <description></description>
+      <id>5ebf5ee8-a183-4c9e-a7a4-db4e5098bba9</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC045-Customer Check Customer Order')</defaultValue>
+      <description></description>
+      <id>719fe665-76b8-4e82-81df-f0485e5549a3</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+</TestCaseEntity>
