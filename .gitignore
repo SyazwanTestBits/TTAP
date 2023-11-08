@@ -26,3 +26,4 @@ build
 
 .gitignore
 *.jar
+*.prefs
