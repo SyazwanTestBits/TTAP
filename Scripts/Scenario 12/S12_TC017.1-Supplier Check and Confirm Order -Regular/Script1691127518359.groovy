@@ -46,6 +46,8 @@ CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 13/S13_TC050 TC
 WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC050 TC053/div_Upload Delivery RequestThe operation was successful'), 
     0)
 
+WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
+
 WebUI.delay(2)
 
 for (def index : (1..datafile_date.getRowNumbers())) {
