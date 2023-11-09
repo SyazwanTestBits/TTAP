@@ -1,39 +1,31 @@
+
 .gradle
- 
+
 bin
-<<<<<<< HEAD
- 
-Reports
- 
-=======
 
 Reports/
 
->>>>>>> branch 'main' of https://gitlab.com/SyazwanTB/tb-ttap-brivge-v2.git
 Libs
- 
+
 output
- 
+
 !output/.gitkeep
 build
- 
+
 .classpath
- 
+
 .project
- 
+
 .cache
- 
+
 .prj
- 
+
 .properties
- 
+
 .setting
-<<<<<<< HEAD
- 
-.gitignore
-=======
 
 .gitignore
-Drivers/poi-5.2.0.jar
-Drivers/poi-ooxml-5.2.0.jar
->>>>>>> branch 'main' of https://gitlab.com/SyazwanTB/tb-ttap-brivge-v2.git
+
+*.jar
+
+.prefs

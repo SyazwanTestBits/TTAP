@@ -2,102 +2,25 @@
   "brokenTestObjects": [
     {
       "approved": true,
-      "testObjectId": "Object Repository/Scenario 12/SC12_TC060/p_verifyStatus",
-      "brokenLocator": "//p[(text() \u003d \u0027TW12310001\u0027 or . \u003d \u0027TW12310001\u0027)]/following::td[6]",
+      "testObjectId": "Object Repository/Scenario 12/SC12_TC026/p_verifyOrderChange",
+      "brokenLocator": "//p[(text() \u003d \u0027rcTN05-2311001-02\u0027 or . \u003d \u0027rcTN05-2311001-02\u0027)]//following::td[2][descendant::p[contains(text(), \u0027Order Change\u0027)]]/following::td[1]",
       "brokenLocatorMethod": "XPATH",
       "proposedLocator": "//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div[2]/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[2]/div/p",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 12/SC12_TC060/p_verifyStatus_idRelative.png"
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 12/SC12_TC026/p_verifyOrderChange_idRelative.png"
     },
     {
       "approved": true,
-      "testObjectId": "Object Repository/Scenario 12/SC12_TC068/p_Completed",
-      "brokenLocator": "//tbody/tr[1]/td[13]/div[1]/p[1]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Inbound Monitor List\u0027])[1]/following::p[26]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 12/SC12_TC068/p_Completed_neighbor.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Scenario 12/SC12_TC053/p_verifyCargoStatus",
-      "brokenLocator": "//p[(text() \u003d \u0027DC2-PS2-06-2310001\u0027 or . \u003d \u0027DC2-PS2-06-2310001\u0027)]//following::td[1][descendant::p[contains(text(), \u0027CAJU9500009\u0027)]]/following::td[7]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div[2]/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr[2]/td[2]/div/p",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": ""
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Page_Request Add New Part - Brivge/Page_RoleList/input_SearchRole",
-      "brokenLocator": "//div[2]/div/div/div/div/div[1]/div/span[1]/div/input",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//input[@value\u003d\u0027\u0027]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Request Add New Part - Brivge/Page_RoleList/input_SearchRole_attributes.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Scenario 01/S01_TC022/input_Basic Info_contractNo",
-      "brokenLocator": "//input[@name \u003d \u0027contractNo\u0027 and @type \u003d \u0027text\u0027 and @value \u003d \u0027SGTTAP-PKTTAP-FB2-5\u0027]",
-      "brokenLocatorMethod": "BASIC",
-      "proposedLocator": "//div[4]/div/div[2]/div/div/div/input",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 01/S01_TC022/input_Basic Info_contractNo_XPATH.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Scenario 12/SC12_TC014/p_detailsButton",
-      "brokenLocator": "//p[(text() \u003d \u0027#REF!\u0027 or . \u003d \u0027#REF!\u0027)]/following::button[1]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027AND\u0027])[1]/following::p[22]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 12/SC12_TC014/p_detailsButton_neighbor.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Page_SO_MonitoringDetail/h3_SO Monitoring Detail",
-      "brokenLocator": "//h3[(text() \u003d \u0027SO Monitoring Detail\u0027 or . \u003d \u0027SO Monitoring Detail\u0027)]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div/div/h3",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SO_MonitoringDetail/h3_SO Monitoring Detail_idRelative.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/NotificationMsg_Brivge/div_ConfirmMsg_AreYouSureToDo_Confirm",
-      "brokenLocator": "//div[(text() \u003d \u0027ConfirmAre you sure to do Confirm?(c0001)CANCELCONFIRM\u0027 or . \u003d \u0027ConfirmAre you sure to do Confirm?(c0001)CANCELCONFIRM\u0027)]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Privilege\u0027])[1]/following::div[8]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/NotificationMsg_Brivge/div_ConfirmMsg_AreYouSureToDo_Confirm_neighbor.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/NotificationMsg_Brivge/button_NotiMsg_CONFIRM",
-      "brokenLocator": "//button[@type \u003d \u0027button\u0027 and (text() \u003d \u0027CONFIRM\u0027 or . \u003d \u0027CONFIRM\u0027)]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Loading...\u0027])[1]/preceding::button[1]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/NotificationMsg_Brivge/button_NotiMsg_CONFIRM_neighbor.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Scenario 12/SC12_TC045/p_getInvoiceNo",
-      "brokenLocator": "//p[(text() \u003d \u00270\u0027 or . \u003d \u00270\u0027)]/preceding::td[1]",
+      "testObjectId": "Object Repository/Scenario 12/SC12_TC034/p_Order Change",
+      "brokenLocator": "//p[(text() \u003d \u0027rsTNs05-2311001-01\u0027 or . \u003d \u0027rsTNs05-2311001-01\u0027)]//following::td[2][descendant::p[contains(text(), \u0027Order Change\u0027)]]/following::td[1]",
       "brokenLocatorMethod": "XPATH",
       "proposedLocator": "//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div[2]/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[4]/div/p",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
+<<<<<<< HEAD
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 12/SC12_TC034/p_Order Change_idRelative.png"
+=======
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 12/SC12_TC045/p_getInvoiceNo_idRelative.png"
     },
     {
@@ -132,32 +55,14 @@
     },
     {
       "approved": true,
-      "testObjectId": "Object Repository/Scenario 1/S1_TC143/Page_SO Monitoring List - Brivge/div_Processing",
+      "testObjectId": "Object Repository/Scenario 13/S13_TC064,065/h6_Booking Number",
+      "brokenLocator": "//*[@title \u003d \u0027Booking Number: B-231107-TBA-10\u0027 and (text() \u003d \u0027Booking Number: B-231107-TBA-10\u0027 or . \u003d \u0027Booking Number: B-231107-TBA-10\u0027)]",
       "brokenLocatorMethod": "BASIC",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027AND\u0027])[1]/following::div[49]",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Select Order/s To Retrieve Cargo Tracking Information\u0027])[1]/following::h6[1]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 1/S1_TC143/Page_SO Monitoring List - Brivge/div_Processing_neighbor.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Page_PO_MonitoringDetail/p_Unit Parts No",
-      "brokenLocator": "//*/text()[normalize-space(.)\u003d\u0027Unit Parts No.\u0027]/parent::*",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div[2]/div[3]/div[2]/div/div/div/div/div/div[2]/div[4]/div/div/div/table/thead/tr/th[2]/div/div/p",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_PO_MonitoringDetail/p_Unit Parts No_idRelative.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Scenario 1/S1_TC143/Page_SO Monitoring Detail - Brivge/div_s1001",
-      "brokenLocator": "//div[@id\u003d\u0027OSS011_Section_2\u0027]/div[2]/div/div/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr[1]/td[1]/div",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027AND\u0027])[1]/following::div[89]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 1/S1_TC143/Page_SO Monitoring Detail - Brivge/div_s1001_neighbor.png"
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 13/S13_TC064,065/h6_Booking Number_neighbor.png"
+>>>>>>> branch 'main' of https://gitlab.com/SyazwanTB/tb-ttap-brivge-v2.git
     }
   ]
 }

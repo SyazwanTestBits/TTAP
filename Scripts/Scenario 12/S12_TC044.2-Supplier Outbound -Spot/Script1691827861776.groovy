@@ -30,8 +30,9 @@ WebUI.click(findTestObject('Scenario 12/SC12_TC044/p_Outbound Monitoring List'))
 
 latestFilePath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
-'\r\n'
-CustomKeywords.'ExcelActions.writeOutboundDataIntoDownloadOutboundFormSC12'(testdata_upload_outbounddata, latestFilePath)
+WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 1/S1_Cmn1-Write Info into Form Excel'), [('datafile') : outboundDetails
+        , ('fileColumns') : columnNames, ('startRowFormMinusOne') : 7, ('downloadedFormPath') : latestFilePath, ('downloadedFormSheetname') : 'Outbound'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Scenario 12/SC12_TC044/button_Upload'))
 

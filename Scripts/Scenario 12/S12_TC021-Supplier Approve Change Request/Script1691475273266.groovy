@@ -19,6 +19,9 @@ WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC019/p_verifyForecastC
 
 WebUI.click(findTestObject('Scenario 12/SC12_TC019/p_detailButton', [('requestNo') : requestNo]))
 
+CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 12/SC12_TC021/Page_ChangeCancel Request Detail - Brivge/p_Parts No'), 
+    0)
+
 int numberrowtd = findTestData('Scenario 12/SC12_TC021-Supplier Forecast Change Info').getRowNumbers()
 
 for (int rowl = 1; rowl <= numberrowtd; rowl++) {
