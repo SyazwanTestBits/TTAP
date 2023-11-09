@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC145-BU2 Check Sales Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4c03ecb1-a4af-4743-aebd-2bf1898cced0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>18503ff1-4f8f-491b-b721-eef5c9fc5b4d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>04444c1a-8e33-46bf-95b3-49de45334878</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d09e201f-40cd-4038-a09c-38e80a28e689</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>18503ff1-4f8f-491b-b721-eef5c9fc5b4d</id>
+      <masked>false</masked>
+      <name>SONumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC145-Parts Detail')</defaultValue>
+      <description></description>
+      <id>04444c1a-8e33-46bf-95b3-49de45334878</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>['PartsNo', 'UnitPartsNo', 'BackNo', 'PurchaseOrderNo', 'Customer', 'SPQ', 'OrderLot', 'OrderQty', 'UnitPrice', 'Currency', 'Status', 'DeliveredQty', 'InTransitQty', 'ReceiverInboundedQty', 'PlanInOutDatePlan1', 'PlanInOutDateStatus1', 'PlanInOutDatePlan2', 'PlanInOutDateStatus2', 'EstimatedInOutPlan1', 'EstimatedInOutPlan2']</defaultValue>
+      <description></description>
+      <id>d09e201f-40cd-4038-a09c-38e80a28e689</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>
