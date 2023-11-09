@@ -149,6 +149,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 13/S13_TC055/Page_Brivge/button_Edit_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Scenario 13/S13_TC035/Page_Brivge/button_Edit",
+      "brokenLocator": "//tbody//button[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[14]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 13/S13_TC035/Page_Brivge/button_Edit_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_RegularOrder/div_Dt_ContractRouteNo",
+      "brokenLocator": "//div[(text() \u003d \u0027CR-PK-CUS-POC-2311009\u0027 or . \u003d \u0027CR-PK-CUS-POC-2311009\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[3]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_RegularOrder/div_Dt_ContractRouteNo_idRelative.png"
     }
   ]
 }
