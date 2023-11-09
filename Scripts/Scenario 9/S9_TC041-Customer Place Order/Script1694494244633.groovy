@@ -27,6 +27,8 @@ WebUI.click(findTestObject('Navbar_Brivge/OrderMenu_Brivge/li_Place Order'))
 
 WebUI.waitForElementPresent(findTestObject('Page_RegularOrder/h3_Place Regular Order'), 0)
 
+WebUI.setText(findTestObject('Scenario 12/SC12_TC011/Page_Place Regular Order - Brivge/input_Search'), contractRouteNo)
+
 WebUI.verifyElementText(findTestObject('Page_RegularOrder/div_Dt_ContractRouteNo', [('contractRouteNo') : contractRouteNo]), 
     contractRouteNo)
 
@@ -56,6 +58,8 @@ WebUI.waitForElementPresent(findTestObject('NotificationMsg_Brivge/div_ConfirmMs
 WebUI.click(findTestObject('NotificationMsg_Brivge/button_NotiMsg_CONFIRM'))
 
 WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_Issue_Success'), 0)
+
+WebUI.setText(findTestObject('Scenario 12/SC12_TC011/Page_Place Regular Order - Brivge/input_Search'), contractRouteNo)
 
 WebUI.verifyElementText(findTestObject('Page_RegularOrder/div_Dt_Status', [('contractRouteNo') : contractRouteNo]), 'Submitted')
 

@@ -51,7 +51,7 @@
    <testCaseLink>
       <guid>1a82b942-c8b3-403b-8212-36dc672681bd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC042-Customer Download CO in Excel</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -101,7 +101,7 @@
    <testCaseLink>
       <guid>31418aca-a905-472f-b3e6-2590b65847c3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC044-BU Auto Generate Sales Order</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -138,7 +138,7 @@
    <testCaseLink>
       <guid>0482a229-8079-461e-abce-a7373c516d85</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC045-BU Auto Generate Purchase Order</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -261,7 +261,7 @@
    <testCaseLink>
       <guid>c09e2603-3813-4ddf-af99-4ffdaf1d29f5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC048-Supplier Check the Sales Order after Outbound</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -286,7 +286,7 @@
    <testCaseLink>
       <guid>0d2dbd96-5011-4f5d-a219-c81cae081a5a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC049-BU Check Purchase Order after Supplier Outbound</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -311,7 +311,7 @@
    <testCaseLink>
       <guid>51c0b517-5708-47c2-9fd1-e1b9751f0241</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC050-BU Check Sales Order after Supplier Outbound</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -336,7 +336,7 @@
    <testCaseLink>
       <guid>12ff5b12-16f8-49a6-9e92-6a1ece1763c4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC051-Customer Check Customer Order after Supplier Outbound</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -361,7 +361,7 @@
    <testCaseLink>
       <guid>4b420d59-b5bd-4c62-beed-279e5671e762</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC052-Customer Check Cargo Tracking Detail after Supplier Outbound</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -392,7 +392,7 @@
    <testCaseLink>
       <guid>e0933c40-5f0e-4867-8a88-cf047be23b12</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC053-BU Check Cargo Tracking Detail after Supplier Outbound</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -423,7 +423,7 @@
    <testCaseLink>
       <guid>fb371952-d2a0-491d-825e-e0a7228396e3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC054-Supplier Check Cargo Tracking Detail after Supplier Outbound</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -454,7 +454,7 @@
    <testCaseLink>
       <guid>50287d4d-cfee-4e61-9382-f8af7d82b5e5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC055-Customer Auto Generate Shipping Detail after Supplier Outbound</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -467,7 +467,7 @@
    <testCaseLink>
       <guid>b0e54285-f480-4960-a5a5-7e53a44bc82e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC056-BU Auto Generate Shipping Detail after Supplier Outbound</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -480,7 +480,7 @@
    <testCaseLink>
       <guid>9c224bfd-19a1-4c55-b2d6-f08798ec3fd2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC057-DC Auto Generate Shipping Detail after Supplier Outbound</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -493,7 +493,7 @@
    <testCaseLink>
       <guid>e90980a1-266d-4278-b1fe-258205502280</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC058-Supplier Auto Generate Shipping Detail after Supplier Outbound</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -506,7 +506,7 @@
    <testCaseLink>
       <guid>af69a583-b045-4062-8802-bfb620b2a188</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC059-Supplier Create Supplier Order Change after Supplier Outbound</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -537,7 +537,7 @@
    <testCaseLink>
       <guid>dff292b6-46d7-4e32-8383-98d1cf557d42</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC060-Supplier Auto Generate Change Request after Submit Order Change</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>

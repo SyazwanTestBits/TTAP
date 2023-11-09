@@ -5,42 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>435c00ce-1db6-4233-8d2f-5f284185dbd2</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>a200e63c-193a-4830-b6b5-4c65aaf5a0fd</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>7a183ed0-5911-4230-8a19-f029cd072033</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>8f81cadd-9444-4b2b-8993-3c3e9ca73db9</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>03b46ece-5a5b-4b32-91f4-eabb708d41ff</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>f4ca8020-fe89-4329-8d96-baaba191f52b</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>aa173a2a-4872-451e-8d94-793ffd5d94fe</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>['Part no', 'Customer unit part no', 'Back no', 'Purchase order no', 'Customer code', 'SPQ', 'Order lot', 'Order Qty', 'Unit Price', 'Currency', 'Status', 'Delivered qty', 'InTransit qty', 'Receiver inbounded qty', 'Planoutin plan 1', 'Planoutin status 1', 'Estimate date value 1']</defaultValue>
       <description></description>

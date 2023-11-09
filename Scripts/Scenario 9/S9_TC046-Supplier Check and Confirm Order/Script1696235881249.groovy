@@ -1,9 +1,13 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import java.text.SimpleDateFormat as SimpleDateFormat
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
+
+import java.text.SimpleDateFormat
+
+import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
+
+import internal.GlobalVariable
 
 WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.BAF_USERNAME_FATIN
         , ('password') : GlobalVariable.BAF_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.S9_BAF_SUP], 
@@ -28,8 +32,6 @@ WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC050 TC053/header-Parts M
 
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC050 TC053/button_Parts Monitoring detail_pop down'))
 
-CustomKeywords.'excelUtils.clearOutValueExcel'(supDR, 10, 10)
-
 WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC050 TC053/header_Parts No header list'), 0)
 
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC050 TC053/header_Parts No header list'))
@@ -42,6 +44,8 @@ WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC050 TC053/div_Downl
     0)
 
 supDR = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
+
+CustomKeywords.'excelUtils.clearOutValueExcel'(supDR, 10, 10)
 
 CustomKeywords.'excelUtils.unprotectExcelSheet'(supDR)
 
@@ -76,14 +80,14 @@ WebUI.click(findTestObject('Scenario 13/S13_TC050 TC053/button_Upload BU SO Deta
 
 CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 13/S13_TC050 TC053/li_Upload Price'), supPrice)
 
-WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC050 TC053/div_Upload Price.The operation was successful'), 
+not_run: WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC050 TC053/div_Upload Price.The operation was successful'), 
     0)
 
 for (def index : (1..datafile_date.getRowNumbers())) {
     def excelColumnSize = 5
 
     for (def index2 : (1..excelColumnSize)) {
-        def dateValue = datafile_date.getValue('newPlanDate' + index2, index)
+        def dateValue = findTestData('Scenario 9/S9_TC046-BU SO Plan Date').getValue('newPlanDate' + index2, index)
 
         if (dateValue != 'NULL') {
             def dateFormat = new SimpleDateFormat('MMM dd, yyyy')

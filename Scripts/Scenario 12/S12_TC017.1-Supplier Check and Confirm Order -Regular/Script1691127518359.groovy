@@ -1,9 +1,11 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import java.text.NumberFormat as NumberFormat
-import java.text.SimpleDateFormat as SimpleDateFormat
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
+
+import java.text.NumberFormat
+import java.text.SimpleDateFormat
+
+import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.click(findTestObject('Scenario 12/SC12_TC014/p_detailsButton', [('SOnumber') : regularSalesOrderNo]))
@@ -54,7 +56,7 @@ for (def index : (1..datafile_date.getRowNumbers())) {
     def excelColumnSize = 2
 
     for (def index2 : (1..excelColumnSize)) {
-        def dateValue = datafile_date.getValue('newPlanDate' + index2, index)
+        def dateValue = findTestData('Scenario 12/SC12_TC017-Supplier SO Delivery Plan (Date) -Regular').getValue('newPlanDate' + index2, index)
 
         if (dateValue != 'NULL') {
             def dateFormat = new SimpleDateFormat('MMM dd, yyyy')
@@ -79,7 +81,7 @@ for (def index : (1..datafile_dr.getRowNumbers())) {
     def colNumStart = 15
 
     for (def index2 : (1..excelColumnSize)) {
-        def planQtyValue = datafile_dr.getValue('newInboundQty' + index2, index)
+        def planQtyValue = findTestData('Scenario 12/SC12_TC017-Supplier SO Delivery Plan -Regular').getValue('newInboundQty' + index2, index)
 
         def planQtyValueParse = Integer.parseInt(planQtyValue)
 
