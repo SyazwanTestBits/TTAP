@@ -38,6 +38,8 @@ WebUI.click(findTestObject('Scenario 13/S13_TC064,065/button_Search booking no')
 
 WebUI.click(findTestObject('Scenario 13/S13_TC064,065/h6_Booking Number', [('buttonbookno') : buttonClickBookNo]))
 
+WebUI.click(findTestObject('Scenario 13/S13_TC064,065/button_arrow first'))
+
 for (int row = 1; row <= rownum; row++) {
     String contnum2 = findTestData('Data Files/Scenario 13/S13_TC058nTC059').getValue('ContainerNo', row)
 

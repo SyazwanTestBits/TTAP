@@ -29,13 +29,16 @@ WebUI.waitForElementPresent(findTestObject('Page_Request Add New Part - Brivge/P
 
 WebUI.setText(findTestObject('Page_Request Add New Part - Brivge/Page_RoleList/input_SearchRole'), RoleName)
 
-WebUI.waitForElementPresent(findTestObject('Page_Request Add New Part - Brivge/Page_RoleList/div_Dt_RoleName', [('roleName') : RoleName]), 0, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('Page_Request Add New Part - Brivge/Page_RoleList/div_Dt_RoleName', [('roleName') : RoleName]), 
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_Request Add New Part - Brivge/Page_RoleList/div_Dt_RoleName', [('roleName') : RoleName]), RoleName, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Page_Request Add New Part - Brivge/Page_RoleList/div_Dt_RoleName', [('roleName') : RoleName]), 
+    RoleName, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_Request Add New Part - Brivge/Page_RoleList/button_Dt_EditRoleDetails', [('roleName') : RoleName]))
 
-WebUI.waitForElementPresent(findTestObject('Page_Request Add New Part - Brivge/Page_RoleList/Page_EditRoleDetail/h3_Edit Role Detail'), 0, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('Page_Request Add New Part - Brivge/Page_RoleList/Page_EditRoleDetail/h3_Edit Role Detail'), 
+    0, FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('Page_Request Add New Part - Brivge/Page_RoleList/input_SearchRole'), permission)
 
@@ -46,8 +49,6 @@ backgroundColour = WebUI.getCSSValue(findTestObject('Page_RoleList/permission-Dt
     'background-color')
 
 println(backgroundColour)
-
-not_run: WebUI.click(findTestObject('Page_RoleList/Permission-Dt-Tick', [('permission') : permission]))
 
 if (backgroundColour != 'rgba(209, 210, 211, 1)') {
     WebUI.click(findTestObject('Page_RoleList/Permission-Dt-Tick', [('permission') : permission]))

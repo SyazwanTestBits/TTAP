@@ -24,9 +24,8 @@ import java.util.Date as Date
 String buttonClickBookNo = 'Booking Number: ' + bookingNumber
 
 //---------Start Testing--------------------------------
-WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.CUST_USERNAME_USERF
-        , ('password') : GlobalVariable.CUST_PWD_USERF, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.COMPANY_SUPPLIER_1], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : username
+        , ('password') : password, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : company], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Scenario 13/S13_TC064,065/button_Logistics'))
 
@@ -37,6 +36,8 @@ WebUI.setText(findTestObject('Scenario 13/S13_TC064,065/input_Search booking no'
 WebUI.click(findTestObject('Scenario 13/S13_TC064,065/button_Search booking no'))
 
 WebUI.click(findTestObject('Scenario 13/S13_TC064,065/h6_Booking Number', [('buttonbookno') : buttonClickBookNo]))
+
+WebUI.click(findTestObject('Scenario 13/S13_TC064,065/button_arrow first'))
 
 int rownum = findTestData('Data Files/Scenario 13/S13_TC073n074_Forecast').getRowNumbers()
 

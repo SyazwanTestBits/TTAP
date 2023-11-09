@@ -24,9 +24,8 @@ import java.util.Date as Date
 String buttonClickBookNo = 'Booking Number: ' + bookingNumber
 
 //---------Start Testing--------------------------------
-WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.CUST_USERNAME_USERF
-		, ('password') : GlobalVariable.CUST_PWD_USERF, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.COMPANY_CUSTOMER],
-	FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : username
+        , ('password') : password, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : company], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Scenario 13/S13_TC064,065/button_Logistics'))
 
@@ -37,6 +36,8 @@ WebUI.setText(findTestObject('Scenario 13/S13_TC064,065/input_Search booking no'
 WebUI.click(findTestObject('Scenario 13/S13_TC064,065/button_Search booking no'))
 
 WebUI.click(findTestObject('Scenario 13/S13_TC064,065/h6_Booking Number', [('buttonbookno') : buttonClickBookNo]))
+
+WebUI.click(findTestObject('Scenario 13/S13_TC064,065/button_arrow first'))
 
 int rownum = findTestData('Data Files/Scenario 13/S13_TC084n085_Forecast').getRowNumbers()
 
@@ -138,9 +139,9 @@ for (int row11 = 1; row11 <= numrowForecastManual; row11++) {
         WebUI.verifyElementAttributeValue(findTestObject('Scenario 13/S13_TC064,065/p_milestonelist v1_1', [('maintitle') : mainforpath11
                     , ('milestonecol') : milestoneforce11]), 'style', sytle11, 0)
     }
-	
-	CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 13/S13_TC064,065/button_arrow_container more detail',
-		[('maintitle') : mainforpath11]), 1)
+    
+    CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 13/S13_TC064,065/button_arrow_container more detail', 
+            [('maintitle') : mainforpath11]), 1)
 }
 
 int numrowNonForecast = findTestData('Data Files/Scenario 13/S13_TC084n085_NonForecast').getRowNumbers()
@@ -177,9 +178,9 @@ for (int row2 = 1; row2 <= numrowNonForecast; row2++) {
         WebUI.click(findTestObject('Scenario 13/S13_TC064,065/li_tracktype (1)'))
     }
     
-	CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 13/S13_TC064,065/button_arrow_container more detail',
-		[('maintitle') : mainforpath2]), 1)
-	
+    CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 13/S13_TC064,065/button_arrow_container more detail', 
+            [('maintitle') : mainforpath2]), 1)
+
     for (String milestonecol : milestone) {
         String sytle2 = findTestData('Data Files/Scenario 13/S13_TC084n085_NonForecast').getValue(milestonecol, row2)
 
@@ -189,8 +190,10 @@ for (int row2 = 1; row2 <= numrowNonForecast; row2++) {
         WebUI.verifyElementAttributeValue(findTestObject('Scenario 13/S13_TC064,065/p_milestonelist v1_1', [('maintitle') : mainforpath2
                     , ('milestonecol') : milestonecol]), 'style', sytle2, 0)
     }
-	
-	CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 13/S13_TC064,065/button_arrow_container more detail',
-		[('maintitle') : mainforpath2]), 1)
+    
+    CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 13/S13_TC064,065/button_arrow_container more detail', 
+            [('maintitle') : mainforpath2]), 1)
 }
+
+WebUI.closeBrowser()
 

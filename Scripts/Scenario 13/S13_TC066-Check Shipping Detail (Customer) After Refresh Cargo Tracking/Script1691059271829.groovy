@@ -56,7 +56,7 @@ for (def rowNum = 1; rowNum <= testData.getRowNumbers(); rowNum++) {
 
     KeywordUtil.logInfo("Row: $rowNum - Booking No. is $bookingNo")
 
-    WebUI.verifyElementText(findTestObject('Page_ShippingDetailList/div_Dt_ContainerNo'), containerNo)
+    WebUI.verifyElementText(findTestObject('Page_ShippingDetailList/div_Dt_ContainerNo', [('rowNum') : rowNum]), containerNo)
 
     KeywordUtil.logInfo("Row: $rowNum - Container No. is $containerNo")
 
