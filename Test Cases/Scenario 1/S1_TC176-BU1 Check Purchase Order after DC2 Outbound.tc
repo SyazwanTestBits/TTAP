@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC176-BU1 Check Purchase Order after DC2 Outbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1649534-fc78-44f5-a7cc-2d5c8ca3e0c7</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>3008e389-c1fd-45d0-bc75-aed68f9c38a7</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 1/S1_TC176</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>3008e389-c1fd-45d0-bc75-aed68f9c38a7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>PONumber</value>
+      <variableId>14cdf5cb-6cea-43ff-b7bb-c4f162402253</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2eb45923-0921-4b04-9d72-90d04413fc5b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a94b244e-f039-42c8-8a6a-cc01c3418bb4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>14cdf5cb-6cea-43ff-b7bb-c4f162402253</id>
+      <masked>false</masked>
+      <name>PONumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC176-Shipping Info')</defaultValue>
+      <description></description>
+      <id>2eb45923-0921-4b04-9d72-90d04413fc5b</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>['PartsNo', 'UnitPartsNo', 'BackNo', 'SalesOrderNo', 'SupplierCode', 'Shipper', 'SPQ', 'OrderLot', 'OrderQty', 'UnitPrice', 'Currency', 'Status', 'InboundedQty', 'InboundPlanDatePlan1', 'InboundPlanDateStatus1', 'InboundPlanDatePlan2', 'InboundPlanDateStatus2', 'EstimatedInboundDate1', 'EstimatedInboundDate2']</defaultValue>
+      <description></description>
+      <id>a94b244e-f039-42c8-8a6a-cc01c3418bb4</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>

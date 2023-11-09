@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_lastEvent</name>
+   <tag></tag>
+   <elementGuidId>4e1962c0-3132-4077-a08f-e6c4f65287db</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Planned ETA @ Final Destination: Jul 14, 2023' or . = 'Planned ETA @ Final Destination: Jul 14, 2023')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.lcbm-lcbm206</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = '${maintitle}' or . = '${maintitle}')]/following::div[(text() = '${lastEvent}' or . = '${lastEvent}')][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a9155a89-66c0-4b24-9d6b-5bd40c764cb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lcbm-lcbm206</value>
+      <webElementGuid>2b0e9a1e-a7d1-4f4b-ae0d-6ecceb705485</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>mui-18856</value>
+      <webElementGuid>0c59c508-eb5b-45fb-adea-133ead91e583</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Planned ETA @ Final Destination: Jul 14, 2023</value>
+      <webElementGuid>cf32a461-61df-499b-b77d-4607b0acabe9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm1 os-host-transition os-host-overflow os-host-overflow-y&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2&quot;]/div[@class=&quot;lcbm-lcbm7&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm9 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[2]/div[@class=&quot;lcbm-lcbm206&quot;]</value>
+      <webElementGuid>906fffb1-e48d-41cc-bfd8-2e2917bf5c33</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div[5]/div[2]/div</value>
+      <webElementGuid>e258aace-81f7-4b39-87c5-1fc75c50f367</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Booking Number: SG-TTAP-230717001    Container Number: CNTW-SUP-C-230704001'])[1]/following::div[3]</value>
+      <webElementGuid>d57c740f-0fa4-45e8-9133-f4d862c35752</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Booking Number'])[1]/following::div[7]</value>
+      <webElementGuid>4d9cf1b5-8119-4fd4-9c51-7078d9ccaead</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jul 14, 2023'])[1]/preceding::div[1]</value>
+      <webElementGuid>15d8fd73-a317-444a-bd6f-688eb1f6d4f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tracking Type:'])[1]/preceding::div[4]</value>
+      <webElementGuid>f16ff013-1461-45f4-8082-89d8dd4afd4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]/div</value>
+      <webElementGuid>36b8fe2f-82e9-4d08-a404-a02acf70423b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Planned ETA @ Final Destination: Jul 14, 2023' or . = 'Planned ETA @ Final Destination: Jul 14, 2023')]</value>
+      <webElementGuid>6b1610e9-46e2-42d6-aa14-bf43e927a50d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
