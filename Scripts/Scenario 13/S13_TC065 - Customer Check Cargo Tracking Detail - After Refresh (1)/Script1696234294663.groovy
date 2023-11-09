@@ -24,9 +24,8 @@ import java.util.Date as Date
 String buttonClickBookNo = 'Booking Number: ' + bookingNumber
 
 //---------Start Testing--------------------------------
-WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.CUST_USERNAME_USERF
-        , ('password') : GlobalVariable.CUST_PWD_USERF, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.COMPANY_CUSTOMER], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : username
+        , ('password') : password, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : company], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Scenario 13/S13_TC064,065/button_Logistics'))
 
@@ -63,6 +62,12 @@ for (int r = 1; r <= rownum; r++) {
     String titlebook = (('BOOKING NUMBER: ' + bookingNumber) + '    CONTAINER NUMBER: ') + contnum
 
     String mainforpath = (('Booking Number: ' + bookingNumber) + '    Container Number: ') + contnum
+
+    String lastEventDetail = testDataForecast.getValue('last event', r)
+
+    String lastEventDate = testDataForecast.getValue('last event date', r)
+
+    String lastEventDateFull = CustomKeywords.'CargoTrackingVerifications.portcastLastEvent'(lastEventDetail, lastEventDate)
 
     WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC064,065/div_titleContainerNum v1_1', [('maintitle') : mainforpath]), 
         0)

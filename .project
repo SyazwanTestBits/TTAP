@@ -575,7 +575,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1699415051633</id>
+			<id>1699471927649</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -584,7 +584,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1699415051658</id>
+			<id>1699471927662</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -593,7 +593,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1699418002298</id>
+			<id>1699494120097</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -602,61 +602,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1699418002316</id>
-			<name></name>
-			<type>6</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1699426029202</id>
-			<name></name>
-			<type>10</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>.*\.svn$</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1699426029242</id>
-			<name></name>
-			<type>6</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1699447021085</id>
-			<name></name>
-			<type>10</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>.*\.svn$</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1699447021181</id>
-			<name></name>
-			<type>6</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1699490349402</id>
-			<name></name>
-			<type>10</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>.*\.svn$</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1699490349432</id>
+			<id>1699494120111</id>
 			<name></name>
 			<type>6</type>
 			<matcher>

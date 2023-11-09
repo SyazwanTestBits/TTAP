@@ -15,57 +15,6 @@
    </integratedEntity>
    <comment></comment>
    <testCaseGuid>c0fd93d7-b642-47fb-9bf1-babd2487e73d</testCaseGuid>
-   <testDataLinks>
-      <combinationType>ONE</combinationType>
-      <id>8af9ecc4-f4f8-41da-aa91-edba5db45579</id>
-      <iterationEntity>
-         <iterationType>ALL</iterationType>
-         <value></value>
-      </iterationEntity>
-      <testDataId>Data Files/Scenario 13/S13_TC058nTC059</testDataId>
-   </testDataLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>3035ac10-beab-4741-b510-f10c8abccb4b</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>611431d6-39d9-49e8-8e20-e665d0b699f8</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>adc94834-eb7c-4638-935a-4e962a27d6a3</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>013758ce-94cb-4e8a-9ef3-a7b78c306a25</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>cb629387-f873-4bf0-888a-265275039815</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>22e40eeb-46ba-48b4-8f71-671ed4047840</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>2b4aa311-a8c9-4f1b-8acb-8c39c0340c15</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.ADMIN_USERNAME</defaultValue>
       <description></description>

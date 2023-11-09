@@ -7,22 +7,25 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Logistics'])[2]/following::li[8]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[(text() = 'Customs Invoice List(Export)' or . = 'Customs Invoice List(Export)')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>96ef6bf6-c9c3-46aa-b341-645c206d6819</webElementGuid>
+      <webElementGuid>2edf1962-7d12-4f8e-9844-45af3e6e1907</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base62 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button</value>
-      <webElementGuid>8d41e7cc-00c6-4833-a048-35ca9131a2ad</webElementGuid>
+      <webElementGuid>f313e4fd-ea55-4333-a109-be351be685c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +41,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>8d7b346e-421f-45fd-b8cd-2c1b41a5dbbc</webElementGuid>
+      <webElementGuid>b7314802-17b1-4a2d-bdb3-88b9fc848e4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +49,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>2b5a452e-9812-487c-9ecf-ebef2332f2e7</webElementGuid>
+      <webElementGuid>ec67fdde-4f27-48bc-a943-18dab664425d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +57,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d52cbbc6-302c-4ab1-aa80-df1dc77a6ac8</webElementGuid>
+      <webElementGuid>e85185bf-7ec7-4ad6-9c84-6f73aa5f5be6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +65,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Customs Invoice List(Export)</value>
-      <webElementGuid>586e14cc-0ff0-46b1-bba1-0fdf5897918f</webElementGuid>
+      <webElementGuid>fa694ea1-5441-48c8-994e-11a7002f83c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;base-base38&quot;]/div[@class=&quot;base-MuiPaper-root base-base39 base-MuiPaper-elevation1 base-MuiPaper-rounded&quot;]/div[@class=&quot;base-base42&quot;]/ul[@class=&quot;base-MuiList-root base-base60 base-MuiList-padding&quot;]/a[1]/li[@class=&quot;base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base62 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button&quot;]</value>
-      <webElementGuid>fefcfe79-3056-48e7-9f6b-ab56665e3261</webElementGuid>
+      <webElementGuid>9f878aa3-8681-40eb-b7e9-763aa8996ef4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Logistics'])[2]/following::li[8]</value>
-      <webElementGuid>518f693e-bf2d-45c8-a182-8a5ce9095017</webElementGuid>
+      <webElementGuid>5164d418-28f1-4470-84d9-79ae6766f134</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/following::li[8]</value>
-      <webElementGuid>3c4ec312-c857-4c95-be37-b50fdf7ecb15</webElementGuid>
+      <webElementGuid>52f1f378-5157-43d1-a6c4-abc236f98015</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ul[2]/a/li</value>
-      <webElementGuid>aa4ca8f6-2279-4237-9c19-c02c244eb782</webElementGuid>
+      <webElementGuid>952f93a1-3145-4d1a-9b69-a66c0bac3df2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Customs Invoice List(Export)' or . = 'Customs Invoice List(Export)')]</value>
-      <webElementGuid>e2c23ba0-2ea5-4eca-8b9c-e1da6c87fc88</webElementGuid>
+      <webElementGuid>affe41f7-5710-47a5-96d4-aaf3aa317faf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

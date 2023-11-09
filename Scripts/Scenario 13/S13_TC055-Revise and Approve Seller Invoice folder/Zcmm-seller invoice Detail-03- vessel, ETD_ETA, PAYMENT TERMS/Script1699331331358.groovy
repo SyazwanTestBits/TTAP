@@ -17,47 +17,49 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/div_VESSEL VOYAGE'))
+not_run: WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/div_VESSEL VOYAGE'))
 
-WebUI.setText(findTestObject('Scenario 13/S13_TC055/edit/input_Vessel  Voyage_vesselName'), 'vessel-1')
+not_run: WebUI.setText(findTestObject('Scenario 13/S13_TC055/edit/input_Vessel  Voyage_vesselName'), 'vessel-1')
 
-WebUI.setText(findTestObject('Scenario 13/S13_TC055/edit/input_Vessel  Voyage_voyageNo'), 'voyage-1')
+not_run: WebUI.setText(findTestObject('Scenario 13/S13_TC055/edit/input_Vessel  Voyage_voyageNo'), 'voyage-1')
 
-WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/button_Vessel  Voyage_OK'))
+not_run: WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/button_Vessel  Voyage_OK'))
 
-WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/div_ETD ETA'))
+not_run: WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/div_ETD ETA'))
 
-WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/input_ETD  ETA_etd'))
+not_run: WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/input_ETD  ETA_etd'))
 
 (etd_day, etd_month, etd_year) = CustomKeywords.'commonUtils.parseDateDayMonthYearEachIntoInt_withFormat'(testDataETD_ETA.getValue(
         'outboundETD', 1), 'MMM d, yyyy')
 
-CustomKeywords.'util.handlePicker2.handleCalendar'(findTestObject('Calendar_Object/div_calendar header'), findTestObject(
+println(testDataETD_ETA.getValue('outboundETD', 1))
+
+not_run: CustomKeywords.'util.handlePicker2.handleCalendar'(findTestObject('Calendar_Object/div_calendar header'), findTestObject(
         'Calendar_Object/button next calendar'), findTestObject('Calendar_Object/button previous calendar'), etd_day, etd_month, 
     etd_year)
 
-WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/input_ETD  ETA_eta'))
+not_run: WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/input_ETD  ETA_eta'))
 
-(eta_day, eta_month, eta_year) = CustomKeywords.'commonUtils.parseDateDayMonthYearEachIntoInt_withFormat'(testDataETD_ETA.getValue(
+not_run: (eta_day, eta_month, eta_year) = CustomKeywords.'commonUtils.parseDateDayMonthYearEachIntoInt_withFormat'(testDataETD_ETA.getValue(
         'outboundETA', 1), 'MMM d, yyyy')
 
-CustomKeywords.'util.handlePicker2.handleCalendar'(findTestObject('Calendar_Object/div_calendar header'), findTestObject(
+not_run: CustomKeywords.'util.handlePicker2.handleCalendar'(findTestObject('Calendar_Object/div_calendar header'), findTestObject(
         'Calendar_Object/button next calendar'), findTestObject('Calendar_Object/button previous calendar'), eta_day, eta_month, 
     eta_year)
 
-WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/button_ETD  ETA_OK'))
+not_run: WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/button_ETD  ETA_OK'))
 
-WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/div_PAYMENT TERMS'))
+not_run: WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/div_PAYMENT TERMS'))
 
-WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/input_Payment Terms_code'))
+not_run: WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/input_Payment Terms_code'))
 
-WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/li_Payment Terms_code', [('code') : 'TB60BL10']))
+not_run: WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/li_Payment Terms_code', [('code') : 'TB60BL10']))
 
-WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/button_payment term-OK'))
+not_run: WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/button_payment term-OK'))
 
-WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/div_REMARK'))
+not_run: WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/div_REMARK'))
 
-WebUI.setText(findTestObject('Scenario 13/S13_TC055/edit/textarea_Remark_remark'), 'S13_TC055')
+not_run: WebUI.setText(findTestObject('Scenario 13/S13_TC055/edit/textarea_Remark_remark'), 'S13_TC055')
 
-WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/button_Remark_OK'))
+not_run: WebUI.click(findTestObject('Scenario 13/S13_TC055/edit/button_Remark_OK'))
 

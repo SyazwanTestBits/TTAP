@@ -38,6 +38,8 @@ WebUI.click(findTestObject('Scenario 13/S13_TC064,065/button_Search booking no')
 
 WebUI.click(findTestObject('Scenario 13/S13_TC064,065/h6_Booking Number', [('buttonbookno') : buttonClickBookNo]))
 
+WebUI.click(findTestObject('Scenario 13/S13_TC064,065/button_arrow first'))
+
 'For Forecast Container'
 if (testDataForecast.getValue('ContainerNo', 1) != '') {
     int rownum = findTestData('Data Files/Scenario 13/S13_TC064-065_Forecast').getRowNumbers()
@@ -69,8 +71,6 @@ if (testDataForecast.getValue('ContainerNo', 1) != '') {
 
         String lastEventDateFull = CustomKeywords.'CargoTrackingVerifications.portcastLastEvent'(lastEventDetail, lastEventDate)
 
-        WebUI.click(findTestObject('Scenario 13/S13_TC064,065/button_arrow first'))
-
         WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC064,065/div_titleContainerNum v1_1', [('maintitle') : mainforpath]), 
             0)
 
@@ -84,10 +84,10 @@ if (testDataForecast.getValue('ContainerNo', 1) != '') {
         'NEED TO CHECK Predict ETA AFTER TC063'
         WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC064,065/div_Predictive ETA date', [('maintitle') : mainforpath
                     , ('predictEtaDate') : fullPredictETADate]), fullPredictETADate)
-		
-		'NEED TO CHECK Last Event AFTER TC063'
-		WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC064,065/div_lastEvent', [('maintitle') : mainforpath
-					, ('lastEvent') : lastEventDateFull]), lastEventDateFull)
+
+        'NEED TO CHECK Last Event AFTER TC063'
+        WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC064,065/div_lastEvent', [('maintitle') : mainforpath, ('lastEvent') : lastEventDateFull]), 
+            lastEventDateFull)
 
         WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC064,065/div_trackingType v1_1', [('maintitle') : mainforpath
                     , ('tracktype') : trackType]), 0)
@@ -146,7 +146,7 @@ for (int row11 = 1; row11 <= numrowForecastManual; row11++) {
         String sytle11 = findTestData('Data Files/Scenario 13/S13_TC064-065_Forecast-Manual').getValue(milestoneforce11, 
             row11)
 
-        not_run: WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC064,065/p_milestonelist v1_1', [('maintitle') : mainforpath11
+        WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC064,065/p_milestonelist v1_1', [('maintitle') : mainforpath11
                     , ('milestonecol') : milestoneforce11]), 0)
 
         WebUI.verifyElementAttributeValue(findTestObject('Scenario 13/S13_TC064,065/p_milestonelist v1_1', [('maintitle') : mainforpath11
