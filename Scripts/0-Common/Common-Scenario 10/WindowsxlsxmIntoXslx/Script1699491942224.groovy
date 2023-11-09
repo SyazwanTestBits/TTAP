@@ -23,18 +23,26 @@ Windows.click(findWindowsObject('Object Repository/Windows/excel/ListItem'))
 
 Windows.click(findWindowsObject('Object Repository/Windows/excel/Button'))
 
-Windows.setText(findWindowsObject('Object Repository/Windows/excel/Edit'), '\\Katalon_Downloads\\10.0 - TC30.xlsm')
+Windows.setText(findWindowsObject('Object Repository/Windows/excel/Edit'), xlsm)
 
 Windows.click(findWindowsObject('Object Repository/Windows/excel/SplitButton'))
 
-Windows.click(findWindowsObject('Object Repository/Windows/excel/Button(1)'))
+Windows.click(findWindowsObject('Windows/excel/Button_enable editing'))
 
-Windows.click(findWindowsObject('Object Repository/Windows/excel/ListItem(2)'))
+Windows.delay(3)
 
-Windows.click(findWindowsObject('Object Repository/Windows/excel/Button(4)'))
+Windows.click(findWindowsObject('Windows/excel/Button_xlsm_file'))
 
-Windows.click(findWindowsObject('Object Repository/Windows/excel/ComboBox(1)'))
+Windows.click(findWindowsObject('Windows/excel/list_xlsm_files_save as'))
 
-Windows.sendKeys(findWindowsObject('Object Repository/Windows/excel/ComboBox(1)'), Keys.chord('E', 'E', 'E', 'E', 'E', 'E', 
-        'E', 'E', Keys.ENTER))
+Windows.click(findWindowsObject('Windows/excel/list_xlsm_files_save as_Browse'))
+
+Windows.click(findWindowsObject('Windows/excel/ComboBox_xlsm_files_save as_Browse_type'))
+
+Windows.sendKeys(findWindowsObject('Windows/excel/ComboBox_xlsm_files_save as_Browse_type'), Keys.chord('E', 'E', 'E', 'E', 
+        'E', 'E', 'E', 'E', Keys.ENTER))
+
+Windows.click(findWindowsObject('Windows/excel/Button__xlsm_files_save as_Browse_save'))
+
+Windows.closeApplication()
 

@@ -20,13 +20,8 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 import java.util.Date as Date
 import java.util.Locale as Locale
 
-text = 'Pk-Cus1'
 
-lower = text.toLowerCase()
+latestPath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('macroexcel')
 
-println(lower)
-
-WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : 'https://test.brivge.com/', ('username') : 'PK-CUS1'
-        , ('password') : GlobalVariable.S13_TC30nMore_password, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.ADMIN_COMPANY], 
-    FailureHandling.STOP_ON_FAILURE)
+println(latestPath)
 
