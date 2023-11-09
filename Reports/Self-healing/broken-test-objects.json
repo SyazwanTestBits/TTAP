@@ -139,6 +139,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 13/S13_TC064,065/h6_Booking Number_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Scenario 13/S13_TC055/Page_Brivge/button_Edit",
+      "brokenLocator": "//tbody//button[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[18]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 13/S13_TC055/Page_Brivge/button_Edit_attributes.png"
     }
   ]
 }
