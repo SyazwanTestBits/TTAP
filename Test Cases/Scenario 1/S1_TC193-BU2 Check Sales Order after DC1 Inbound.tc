@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC193-BU2 Check Sales Order after DC1 Inbound</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77c9a1ac-1cf6-41c5-9f98-7a055be3a73c</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>3d73ef88-7779-4461-bf1a-f528044f4aad</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 1/S1_TC193</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>3d73ef88-7779-4461-bf1a-f528044f4aad</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>SONumber</value>
+      <variableId>4a091b01-503a-4f5b-a8f6-f7694a9409dd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>00f9bd7b-fb7d-454d-88c3-073beb9888fe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1a8af89a-efd6-4851-8b91-5d6653a0613d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4a091b01-503a-4f5b-a8f6-f7694a9409dd</id>
+      <masked>false</masked>
+      <name>SONumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC193-Parts Detail')</defaultValue>
+      <description></description>
+      <id>00f9bd7b-fb7d-454d-88c3-073beb9888fe</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+   <variable>
+      <defaultValue>['PartsNo', 'UnitPartsNo', 'BackNo', 'PurchaseOrderNo', 'Customer', 'SPQ', 'OrderLot', 'OrderQty', 'UnitPrice', 'Currency', 'Status', 'DeliveredQty', 'InTransitQty', 'ReceiverInboundedQty', 'PlanInOutDatePlan1', 'PlanInOutDateStatus1', 'PlanInOutDatePlan2', 'PlanInOutDateStatus2', 'PlanInOutDatePlan3', 'PlanInOutDateStatus3', 'PlanInOutDatePlan4', 'PlanInOutDateStatus4']</defaultValue>
+      <description></description>
+      <id>1a8af89a-efd6-4851-8b91-5d6653a0613d</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+</TestCaseEntity>
