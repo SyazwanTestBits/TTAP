@@ -18,7 +18,51 @@
       "proposedLocator": "//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div[2]/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[4]/div/p",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
+<<<<<<< HEAD
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 12/SC12_TC034/p_Order Change_idRelative.png"
+=======
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 12/SC12_TC045/p_getInvoiceNo_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Scenario 13/S13_TC064,065/p_milestonelist v1_1",
+      "brokenLocator": "//div[(text() \u003d \u0027Booking Number: DC3-CS2-01-2311001    Container Number: CAIU9492794\u0027 or . \u003d \u0027Booking Number: DC3-CS2-01-2311001    Container Number: CAIU9492794\u0027)]/following::p[(text()\u003d\u0027Booking Confirmed\u0027)][1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027AND\u0027])[1]/following::p[17]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 13/S13_TC064,065/p_milestonelist v1_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Cargo Tracking Detail - Brivge/button_BookingNumber_First",
+      "brokenLocator": "//div[5]/div/div[2]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Cargo Tracking Detail - Brivge/button_BookingNumber_First_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Scenario 13/S13_TC064,065/div_titleContainerNum v1_1",
+      "brokenLocator": "//div[(text() \u003d \u0027Booking Number: DC2-CS2-01-2311001    Container Number: CAJU9500009\u0027 or . \u003d \u0027Booking Number: DC2-CS2-01-2311001    Container Number: CAJU9500009\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div[2]/div[5]/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 13/S13_TC064,065/div_titleContainerNum v1_1_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Scenario 13/S13_TC064,065/h6_Booking Number",
+      "brokenLocator": "//*[@title \u003d \u0027Booking Number: B-231107-TBA-10\u0027 and (text() \u003d \u0027Booking Number: B-231107-TBA-10\u0027 or . \u003d \u0027Booking Number: B-231107-TBA-10\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Select Order/s To Retrieve Cargo Tracking Information\u0027])[1]/following::h6[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 13/S13_TC064,065/h6_Booking Number_neighbor.png"
+>>>>>>> branch 'main' of https://gitlab.com/SyazwanTB/tb-ttap-brivge-v2.git
     }
   ]
 }
