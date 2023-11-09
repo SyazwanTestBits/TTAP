@@ -43,29 +43,18 @@ latestFilePath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel'
 
 partIndex = CustomKeywords.'mapRowDatAndRowIndices.extractPartsWithIndices'(latestFilePath, 2, 17)
 
+'ADJUST FIRM QTY'
 for (int row = 1; row <= testdataOrderChange.getRowNumbers(); row++) {
     part_No = testdataOrderChange.getValue('Part No', row)
 
     float newFirm = 0.0
 
-    float inboundDateQty1 = 0.0
-
-    float inboundDateQty2 = 0.0
-
     if (testdataOrderChange.getValue('NewFirm', row) != '') {
         newFirm = Float.parseFloat(testdataOrderChange.getValue('NewFirm', row))
     }
     
-    if (testdataOrderChange.getValue('InboundNewDate_Qty1', row) != '') {
-        inboundDateQty1 = Float.parseFloat(testdataOrderChange.getValue('InboundNewDate_Qty1', row))
-    }
-    
-    if (testdataOrderChange.getValue('InboundNewDate_Qty2', row) != '') {
-        inboundDateQty2 = Float.parseFloat(testdataOrderChange.getValue('InboundNewDate_Qty2', row))
-    }
-    
-    'NOTE: Click Header of table\r\n'
-    not_run: WebUI.click(findTestObject(null))
+    CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/h6_Input Order QTY for each PN'), 
+        0)
 
     CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_INPUT ORDER QTY FOR EACH PN_newFirmQty', 
             [('part_No') : part_No]), 0)
@@ -77,6 +66,47 @@ for (int row = 1; row <= testdataOrderChange.getRowNumbers(); row++) {
             [('part_No') : part_No]), newFirm.toString())
 }
 
+'ADJUST SHIPPING PLAN'
+for (int row = 1; row <= testdataOrderChange.getRowNumbers(); row++) {
+    part_No = testdataOrderChange.getValue('Part No', row)
+
+    float inboundDateQty1 = 0.0
+
+    float inboundDateQty2 = 0.0
+
+    if (testdataOrderChange.getValue('InboundNewDate_Qty1', row) != '') {
+        inboundDateQty1 = Float.parseFloat(testdataOrderChange.getValue('InboundNewDate_Qty1', row))
+    }
+    
+    if (testdataOrderChange.getValue('InboundNewDate_Qty2', row) != '') {
+        inboundDateQty2 = Float.parseFloat(testdataOrderChange.getValue('InboundNewDate_Qty2', row))
+    }
+    
+    CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/h6_Input Shipping Plan'), 
+        0)
+
+    CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_input shipping_qtyPlanDate1', 
+            [('part_No') : part_No]), 0)
+
+    CustomKeywords.'util.clearTextJS.clearElementText2'(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_input shipping_qtyPlanDate1', 
+            [('part_No') : part_No]))
+
+    WebUI.setText(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_input shipping_qtyPlanDate1', [('part_No') : part_No]), 
+        inboundDateQty1.toString())
+
+    CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/h6_Input Shipping Plan'), 
+        0)
+
+    CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_input shipping_qtyPlanDate2', 
+            [('part_No') : part_No]), 0)
+
+    CustomKeywords.'util.clearTextJS.clearElementText2'(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_input shipping_qtyPlanDate2', 
+            [('part_No') : part_No]))
+
+    WebUI.setText(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_input shipping_qtyPlanDate2', [('part_No') : part_No]), 
+        inboundDateQty2.toString())
+}
+
 WebUI.setText(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_Basic info (order summary)_customerRefNo'), 
     testdataInboundDateChange.getValue('OrderReference', 1))
 
@@ -86,19 +116,13 @@ WebUI.setText(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/inpu
 CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/div_Create Order ChangeHome PageOrder ChangeCancelCreate Order ChangeSaveIssue'), 
     0)
 
-not_run: WebUI.uploadFile(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input_UploadFile'), latestFilePath)
+WebUI.click(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/button_Issue'))
 
-not_run: WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_UploadChangeOrderCustomer_Success'), 
-    0)
+WebUI.waitForElementPresent(findTestObject('NotificationMsg_Brivge/div_ConfirmMsg_AreYouSureToDo_Issue'), 0)
 
-not_run: WebUI.click(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/button_Issue'))
+WebUI.click(findTestObject('NotificationMsg_Brivge/button_NotiMsg_CONFIRM'))
 
-not_run: WebUI.waitForElementPresent(findTestObject('NotificationMsg_Brivge/div_ConfirmMsg_AreYouSureToDo_Issue'), 0)
+WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_SaveAndIssueRevisedCustOrder_Success'), 0)
 
-not_run: WebUI.click(findTestObject('NotificationMsg_Brivge/button_NotiMsg_CONFIRM'))
-
-not_run: WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_SaveAndIssueRevisedCustOrder_Success'), 
-    0)
-
-not_run: WebUI.closeBrowser()
+WebUI.closeBrowser()
 

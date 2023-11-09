@@ -18,46 +18,77 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //String rownum = findTestData('Data Files/Scenario 13/S13_TC063').getRowNumbers()
-WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.CUST_USERNAME_USERF
-        , ('password') : GlobalVariable.CUST_PWD_USERF, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.COMPANY_SUPPLIER_1], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : username
+        , ('password') : password, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : company], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Scenario 13/S13_TC063/button_Logistics'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Scenario 13/S13_TC063/li_Cargo Tracking(Container Journey)'))
 
-//String containerID = findTestData('Data Files/Scenario 13/S13_TC063').getValue('Container ID',rownum)
-String containerID = 'SEGU5069987'
+for (int row = 1; row <= testData62.getRowNumbers(); row++) {
+    if (testData62.getValue('Portcast', row) == 'Yes') {
+        String containerID = testData62.getValue('ContainerNo', row)
 
-WebUI.setText(findTestObject('Scenario 13/S13_TC063/input_Cargo Tracking(Container Journey)'), containerID)
+        WebUI.setText(findTestObject('Scenario 13/S13_TC063/input_Cargo Tracking(Container Journey)'), containerID)
 
-WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC063/div_Container_Id'), containerID)
+        WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC063/div_Container_Id'), containerID)
 
-WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC063/button_refresh'), 0)
+        WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC063/button_refresh'), 0)
 
-WebUI.click(findTestObject('Scenario 13/S13_TC063/button_refresh'))
+        WebUI.click(findTestObject('Scenario 13/S13_TC063/button_refresh'))
 
-WebUI.delay(1)
+        WebUI.delay(1)
 
-WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC063/h6_Refresh All Uncompleted Bookmarks'), 'Refresh All Uncompleted Bookmarks')
+        WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC063/h6_Refresh All Uncompleted Bookmarks'), 'Refresh All Uncompleted Bookmarks')
 
-WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC063/p_The operation was successful'), 'The operation was successful.')
+        WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC063/p_The operation was successful'), 'The operation was successful.')
 
-WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC063/div_ETA_POD'), 0)
+        WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC063/div_ETA_POD'), 0)
 
-eta_pod_date = WebUI.getText(findTestObject('Scenario 13/S13_TC063/div_ETA_POD'))
+        eta_pod_date = WebUI.getText(findTestObject('Scenario 13/S13_TC063/div_ETA_POD'))
 
-plan_eta_date = WebUI.getText(findTestObject('Scenario 13/S13_TC063/div_Plan_ETA_POD'))
+        plan_eta_date = WebUI.getText(findTestObject('Scenario 13/S13_TC063/div_Plan_ETA_POD'))
 
-discharge_date = WebUI.getText(findTestObject('Scenario 13/S13_TC063/div_Discharge_Date'))
+        discharge_date = WebUI.getText(findTestObject('Scenario 13/S13_TC063/div_Discharge_Date'))
 
-CustomKeywords.'copyToExcel.exel'(eta_pod_date, 1, 1, excelpath, excelname, excelsheet)
+        String lastEvent=WebUI.getText(findTestObject('Scenario 13/S13_TC063/div_last Event'))
+		
+		String lastEventDetail=''
+		
+		String lastEventDate=''
+		
+		def datePattern = /\d{2} \w{3} \d{4} : / 
+		
+		def matcher = (lastEvent =~ datePattern)
+		if (matcher.find()) {
+			lastEventDetail = lastEvent.substring(matcher.end())
+			println(lastEventDetail)
+		}
+		
+		def datePattern2 = /(\d{2} \w{3} \d{4}) : /
+		
+		def matcher2 = (lastEvent =~ datePattern2)
+		
+		if (matcher2.find()) {
+			lastEventDate = matcher2[0][1]
+			println(lastEventDate)
+		}
 
-CustomKeywords.'copyToExcel.exel'(plan_eta_date, 1, 2, excelpath, excelname, excelsheet)
+        CustomKeywords.'copyToExcel.exel'(containerID, row, 0, excelpath, excelname, excelsheet)
 
-CustomKeywords.'copyToExcel.exel'(discharge_date, 1, 3, excelpath, excelname, excelsheet)
+        CustomKeywords.'copyToExcel.exel'(eta_pod_date, row, 1, excelpath, excelname, excelsheet)
 
-CustomKeywords.'commonUtils.clearElementText'(findTestObject('Scenario 13/S13_TC063/input_Cargo Tracking(Container Journey)'))
+        CustomKeywords.'copyToExcel.exel'(plan_eta_date, row, 2, excelpath, excelname, excelsheet)
 
-WebUI.closeBrowser()
+        CustomKeywords.'copyToExcel.exel'(discharge_date, row, 3, excelpath, excelname, excelsheet)
+		
+		CustomKeywords.'copyToExcel.exel'(lastEventDetail, row, 4, excelpath, excelname, excelsheet)
+		
+		CustomKeywords.'copyToExcel.exel'(lastEventDate, row, 5, excelpath, excelname, excelsheet)
+
+        CustomKeywords.'util.clearTextJS.clearElementText'(findTestObject('Scenario 13/S13_TC063/input_Cargo Tracking(Container Journey)'))
+    }
+}
+
+not_run: WebUI.closeBrowser()
 

@@ -33,7 +33,9 @@ WebUI.setEncryptedText(findTestObject('LoginPage_Brivge/input_Verify_verificatio
 
 WebUI.click(findTestObject('LoginPage_Brivge/button_Verify'))
 
-WebUI.verifyElementPresent(findTestObject('Navbar_Brivge/p_UserLogin_Username', [('username') : username]), 0)
+usernamelower=username.toLowerCase()
+
+WebUI.verifyElementPresent(findTestObject('Navbar_Brivge/p_UserLogin_Username', [('username') : usernamelower]), 0)
 
 WebUI.click(findTestObject('Navbar_Brivge/UserProfile_Brivge/button_UserProfile'))
 

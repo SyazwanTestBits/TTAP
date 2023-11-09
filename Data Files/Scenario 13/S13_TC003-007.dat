@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>a6c04003-1e3e-43cc-a4f7-bf5b1de891e8</dataFileGUID>
-   <dataSourceUrl>Excel Files/Scenario 13/TC003-TC007/S13_TC003-TC007 e2e.xlsx</dataSourceUrl>
+   <dataSourceUrl>Excel Files/Scenario 13/S13_TestCases_Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <properties>
