@@ -59,6 +59,7 @@ public class DateConversion {
 		}
 	}
 
+	@Keyword
 	public static String convertChineseToEnglishDate(String chineseDate) {
 		try {
 

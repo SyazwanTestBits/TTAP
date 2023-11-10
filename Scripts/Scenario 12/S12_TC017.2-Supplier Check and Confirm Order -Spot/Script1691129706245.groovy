@@ -44,13 +44,15 @@ CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 13/S13_TC050 TC
 WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC050 TC053/div_Upload Delivery RequestThe operation was successful'), 
     0)
 
+WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
+
 WebUI.delay(2)
 
 for (def index : (1..datafile_date.getRowNumbers())) {
     def excelColumnSize = 1
 
     for (def index2 : (1..excelColumnSize)) {
-        def dateValue = datafile_date.getValue('newPlanDate' + index2, index)
+        def dateValue = findTestData('Scenario 12/SC12_TC017-Supplier SO Delivery Plan (Date) -Spot').getValue('newPlanDate' + index2, index)
 
         if (dateValue != 'NULL') {
             def dateFormat = new SimpleDateFormat('MMM dd, yyyy')
@@ -75,7 +77,7 @@ for (def index : (1..datafile_dr.getRowNumbers())) {
     def colNumStart = 15
 
     for (def index2 : (1..excelColumnSize)) {
-        def planQtyValue = datafile_dr.getValue('newInboundQty' + index2, index)
+        def planQtyValue = findTestData('Scenario 12/SC12_TC017-Supplier SO Delivery Plan -Spot').getValue('newInboundQty' + index2, index)
 
         def planQtyValueParse = Integer.parseInt(planQtyValue)
 

@@ -18,9 +18,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.CUST_USERNAME_USERF
-        , ('password') : GlobalVariable.CUST_PWD_USERF, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.COMPANY_SUPPLIER_1], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : username
+        , ('password') : password, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : company], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Scenario 13/S13_TC086/button_Logistics'))
 
@@ -47,7 +46,8 @@ for (def rowNum = 1; rowNum <= testData.getRowNumbers(); rowNum++) {
 
     WebUI.click(findTestObject('Page_ShippingDetailList/button_Dt_Row_View', [('rowNum') : rowNum]))
 
-    WebUI.verifyElementAttributeValue(findTestObject('Scenario 13/S13_TC086/input__cargoStatus'), 'value', cargoStatus, 0)
+    WebUI.verifyElementAttributeValue(findTestObject('Scenario 13/S13_TC086/input__cargoStatus'), 'value', cargoStatus, 
+        0)
 
     WebUI.back()
 }

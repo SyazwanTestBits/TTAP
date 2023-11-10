@@ -39,7 +39,7 @@ for (def index : (1..datafile.getRowNumbers())) {
 
         if (listNum != 0) {
             dateValue = CustomKeywords.'readFromExcel.getCellValue'(downloadedFormPath, downloadedFormSheetname, 9, listNum)
-
+			
             formattedDate = CustomKeywords.'commonUtils.parseDateInfoDesiredDateFormat2'(dateValue, 'EEE MMM dd HH:mm:ss zzz yyyy', 
                 'MMM dd, yyyy')
 

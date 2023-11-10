@@ -16,10 +16,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.CUST_USERNAME_USERF
-	, ('password') : GlobalVariable.CUST_PWD_USERF, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.COMPANY_SUPPLIER_1],
-FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : username
+        , ('password') : password, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : company], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC050 TC053/span_Order'))
 
@@ -29,21 +29,22 @@ WebUI.setText(findTestObject('Page_ChangeCancelReqList/Page_ChgCancelReqDetail/i
 
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC050 TC053/input-first row in SO listing'))
 
+WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC050 TC053/div_SO status'), 'Processing')
+
+WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC050 TC053/div_SO delay status'), 'Normal')
+
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC050 TC053/button_SO detail'))
 
 'NEED TO CHECK'
 WebUI.verifyElementAttributeValue(findTestObject('Scenario 13/S13_TC050 TC053/input_SO status'), 'value', 'Completed', 0)
 
-'Delay Status- NEED TO CHECK\r\n'
-not_run: WebUI.verifyElementAttributeValue(findTestObject(null), '', '', 0)
-
-not_run: WebUI.verifyElementAttributeValue(findTestObject('Scenario 13/S13_TC050 TC053/input_Total amount'), 'value', '615',
-0)
+not_run: WebUI.verifyElementAttributeValue(findTestObject('Scenario 13/S13_TC050 TC053/input_Total amount'), 'value', '615', 
+    0)
 
 WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC050 TC053/p_total amaount currecy'), 'CNY')
 
-WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC050 TC053/header-Parts Monitoring detailDisplay Monitor_d3694d'),
-0)
+WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC050 TC053/header-Parts Monitoring detailDisplay Monitor_d3694d'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC050 TC053/button_Parts Monitoring detail_pop down'))
 
@@ -54,18 +55,23 @@ WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC050 TC053/header
 int numberrowtd = findTestData('Scenario 13/S13_TC067').getRowNumbers()
 
 for (int rowl = 1; rowl <= numberrowtd; rowl++) {
-int coll = 1
+    int coll = 1
 
-for (String col : columnname) {
-	String valuecol = findTestData('Scenario 13/S13_TC067').getValue(col, rowl)
+    for (String col : columnname) {
+        String valuecol = findTestData('Scenario 13/S13_TC067').getValue(col, rowl)
 
-	WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC050 TC053/p_part detail list-tc50 - Copy', [('lrow') : rowl
-				, ('lcol') : coll]), valuecol)
+        WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC050 TC053/p_part detail list-tc50 - Copy', [('lrow') : rowl
+                    , ('lcol') : coll]), valuecol)
+		
+		actualValue = WebUI.getText(findTestObject('Scenario 13/S13_TC050 TC053/p_part detail list-tc50 - Copy', [('lrow') : rowl
+			, ('lcol') : coll]))
 
-	coll = (coll + 1)
-}
+		KeywordUtil.logInfo((((((('In row:' + rowl) + ' column:') + col) + ', Actual data:') + actualValue) + ' Expectation data:') +valuecol)
 
-not_run: WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC050 TC053/p_part detail list-tc50 - Copy', [('lrow') : rowl
-			, ('lcol') : coll]), valuecol)
+        coll = (coll + 1)
+    }
+    
+    not_run: WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC050 TC053/p_part detail list-tc50 - Copy', [('lrow') : rowl
+                , ('lcol') : coll]), valuecol)
 }
 

@@ -6,23 +6,27 @@
    <elementGuidId>aa9ec460-d980-485b-a8c1-252cb23d6de6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>button.lcbm-MuiButtonBase-root.lcbm-MuiButton-root.lcbm-MuiButton-contained.lcbm-lcbm2490.lcbm-MuiButton-containedSecondary</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[34]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>button.lcbm-MuiButtonBase-root.lcbm-MuiButton-root.lcbm-MuiButton-contained.lcbm-lcbm2490.lcbm-MuiButton-containedSecondary</value>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'update' or . = 'update')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d37cd8c4-da10-443e-bf6f-ebff54a7fbdf</webElementGuid>
+      <webElementGuid>282ce612-f846-419d-bf93-1dff66bac22a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiButtonBase-root lcbm-MuiButton-root lcbm-MuiButton-contained lcbm-lcbm2490 lcbm-MuiButton-containedSecondary</value>
-      <webElementGuid>8cafa60e-559e-497a-b508-8c2bf21ac89d</webElementGuid>
+      <webElementGuid>9fb724b6-5e44-4eca-a4ea-1096259ab4a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>9ac5e113-5e6c-4ab1-aa92-5ce056b569ca</webElementGuid>
+      <webElementGuid>926f5f4a-5cd1-4d7d-b141-4994eaf5f24b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9229745a-673e-43d6-8e05-61666949f173</webElementGuid>
+      <webElementGuid>dbea6386-ab53-495e-8499-54eb5f69616a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>update</value>
-      <webElementGuid>d61ff036-5be4-412b-8353-83d5e9845ca4</webElementGuid>
+      <webElementGuid>dc817237-82d0-41b6-9221-609ca6f7ae73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiDialog-root&quot;]/div[@class=&quot;lcbm-MuiDialog-container lcbm-MuiDialog-scrollPaper&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiDialog-paper lcbm-lcbm2461 lcbm-MuiDialog-paperScrollPaper lcbm-MuiDialog-paperWidthMd lcbm-MuiDialog-paperFullWidth lcbm-MuiPaper-elevation24 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiDialogActions-root lcbm-MuiDialogActions-spacing&quot;]/button[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiButton-root lcbm-MuiButton-contained lcbm-lcbm2490 lcbm-MuiButton-containedSecondary&quot;]</value>
-      <webElementGuid>6d706c5a-32c2-45be-b7a6-e5fd62456a45</webElementGuid>
+      <webElementGuid>2707d2c1-555c-493e-962e-f1a768524c4c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[34]</value>
-      <webElementGuid>f3cbeab9-f34e-4644-afab-59f9b3d58cac</webElementGuid>
+      <webElementGuid>68e00f1a-7469-4026-bd45-3f93a29bcaa2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
-      <webElementGuid>2c9b08ff-aa94-4900-ae0d-33ff1600143b</webElementGuid>
+      <webElementGuid>546f1d4c-ad56-4cda-a39a-6e771090084a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Input Cargo Status'])[1]/following::button[5]</value>
-      <webElementGuid>506e20f4-6bb5-4c72-9ac1-e46238023090</webElementGuid>
+      <webElementGuid>d112f654-754f-415d-afdc-6408ab7a6fcd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button[2]</value>
-      <webElementGuid>53580702-34b3-415a-8eae-2dac31c6c9db</webElementGuid>
+      <webElementGuid>73b84965-f563-4735-8193-45cfde19f276</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'update' or . = 'update')]</value>
-      <webElementGuid>afca1d2f-775a-4933-927d-7474e1aca3f2</webElementGuid>
+      <webElementGuid>aefa9ec3-ca52-406d-932b-354b40e30c61</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

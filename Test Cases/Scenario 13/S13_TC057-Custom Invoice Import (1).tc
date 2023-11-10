@@ -4,15 +4,15 @@
    <name>S13_TC057-Custom Invoice Import (1)</name>
    <tag></tag>
    <integratedEntity>
-<productName>JIRA</productName>
-<properties>
-<entry>
-<key>integratedValue</key>
-<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i00017:009"},"status":{"id":10001,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10001","name":"In Progress"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC13_TC57 - Customer -Auto-creation of Customs Invoice- Import after Seller Invoice approved","description":"User: Customer\\\\Login ID: userA\\\\Company:PK-CUS-POC\\\\Function:Logistics\u003e Customs Invoice(Import)\\\\Description: Import Customs Invoice is automatic created after Seller Invoice approved if the customs flag is Y","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-55/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10054","key":"BAT-55","id":10054}}</value>
-</entry>
-</properties>
-<type>TESTCASE</type>
-</integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i00017:009&quot;},&quot;status&quot;:{&quot;id&quot;:10001,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://ttap-scm-at.atlassian.net/&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/status/10001&quot;,&quot;name&quot;:&quot;In Progress&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;BAT&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;BriVge Automated Testing&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;SC13_TC57 - Customer -Auto-creation of Customs Invoice- Import after Seller Invoice approved&quot;,&quot;description&quot;:&quot;User: Customer\\\\Login ID: userA\\\\Company:PK-CUS-POC\\\\Function:Logistics\u003e Customs Invoice(Import)\\\\Description: Import Customs Invoice is automatic created after Seller Invoice approved if the customs flag is Y&quot;,&quot;reporter&quot;:{&quot;active&quot;:true,&quot;displayName&quot;:&quot;Nurfatin binti Abdullah Shuhaimy&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-55/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/10054&quot;,&quot;key&quot;:&quot;BAT-55&quot;,&quot;id&quot;:10054}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>d9211409-ab46-44a2-a6b3-acf491eea0eb</testCaseGuid>
    <testDataLinks>
@@ -61,21 +61,21 @@
       <variableId>06d9cfca-8158-4142-870b-561a11038407</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>GlobalVariable.CUST_USERNAME_USERF</defaultValue>
+      <defaultValue>GlobalVariable.S13_TC30nMore_username</defaultValue>
       <description></description>
       <id>8c658820-7a73-4911-8318-71a3413fdd87</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.CUST_PWD_USERF</defaultValue>
+      <defaultValue>GlobalVariable.S13_TC30nMore_password</defaultValue>
       <description></description>
       <id>5beedde8-6c07-47b8-91f7-ed331ad01923</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.COMPANY_CUSTOMER</defaultValue>
+      <defaultValue>GlobalVariable.S13_TC30nMore_companyCUST</defaultValue>
       <description></description>
       <id>36c454b8-f1a6-4729-927e-716a3f7127ab</id>
       <masked>false</masked>

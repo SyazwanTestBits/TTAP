@@ -20,10 +20,8 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 import java.util.Date as Date
 import java.util.Locale as Locale
 
-float a=12.0
 
-float b=12.5
+latestPath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('macroexcel')
 
-println(a % 1)
+println(latestPath)
 
-println(b % 1)

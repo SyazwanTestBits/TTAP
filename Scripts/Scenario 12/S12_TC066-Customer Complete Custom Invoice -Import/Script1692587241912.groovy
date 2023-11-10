@@ -27,6 +27,20 @@ WebUI.click(findTestObject('Navbar_Brivge/LogisticsMenu_Brivge/li_Customs Invoic
 
 WebUI.waitForElementPresent(findTestObject('Page_CustomsInvoice_Import/h3_Customs Invoice(Import)'), 0)
 
+def invoiceNoText = ''
+
+for (String invoiceNo : invoiceNoList) {
+	invoiceNoText += (invoiceNo + ' ')
+}
+
+invoiceNoText = invoiceNoText.trim()
+
+println(invoiceNoText)
+
+WebUI.click(findTestObject('Scenario 12/SC12_TC068/button_AND'))
+
+WebUI.setText(findTestObject('Scenario 12/SC12_TC068/input_outboundNo'), invoiceNoText)
+
 for (String invoiceNo : invoiceNoList) {
     WebUI.click(findTestObject('Scenario 12/SC12_TC065/p_editButton', [('invoiceNo') : invoiceNo]))
 

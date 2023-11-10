@@ -5,8 +5,20 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a144ab85-3cbb-4acd-90b2-cb349fa8ef74</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>98d627ad-0121-4c59-93e5-2b7c2336cdd0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8aef57e1-19a4-425c-a804-e665ca32a8fc</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'RoleA'</defaultValue>
+      <defaultValue>findTestData('Scenario 13/S13_TC009-Create New User').getValue('UserRole', 1)</defaultValue>
       <description></description>
       <id>98d627ad-0121-4c59-93e5-2b7c2336cdd0</id>
       <masked>false</masked>

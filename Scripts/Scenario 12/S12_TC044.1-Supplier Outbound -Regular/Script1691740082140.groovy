@@ -45,11 +45,11 @@ WebUI.click(findTestObject('Page_OutboundMonitoringList/Page_CreateOutbound/Moda
 WebUI.click(findTestObject('Page_OutboundMonitoringList/Page_CreateOutbound/Modal_DwnloadOutboundForm/li_outboundTypeOption', 
         [('outboundType') : outboundType]))
 
-WebUI.click(findTestObject('Page_OutboundMonitoringList/Page_CreateOutbound/Modal_DwnloadOutboundForm/input_outboundDate'))
+not_run: WebUI.click(findTestObject('Page_OutboundMonitoringList/Page_CreateOutbound/Modal_DwnloadOutboundForm/input_outboundDate'))
 
-(day, month, year) = CustomKeywords.'commonUtils.parseDateDayMonthYearEachIntoInt'(outboundDate)
+not_run: (day, month, year) = CustomKeywords.'commonUtils.parseDateDayMonthYearEachIntoInt'(outboundDate)
 
-CustomKeywords.'util.handlePicker2.handleCalendar'(findTestObject('Scenario 13/S13_TC033_Shipping_Route/div_calendar header'), 
+not_run: CustomKeywords.'util.handlePicker2.handleCalendar'(findTestObject('Scenario 13/S13_TC033_Shipping_Route/div_calendar header'), 
     findTestObject('Scenario 13/S13_TC033_Shipping_Route/button next calendar'), findTestObject('Scenario 13/S13_TC033_Shipping_Route/button previous calendar'), 
     day, month, year)
 
