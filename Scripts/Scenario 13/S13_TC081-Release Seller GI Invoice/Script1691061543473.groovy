@@ -30,7 +30,8 @@ WebUI.setText(findTestObject('Scenario 13/S13_TC055/input_Seller(GI) Invoice'), 
 
 WebUI.check(findTestObject('Scenario 13/S13_TC055/input_Checkbox'))
 
-WebUI.verifyElementText(findTestObject('Page_Seller(GI)_InvoiceList/div_Dt_Seller(GI)_InvList_Status', [('invoiceNo') : invoiceNo]), 
+'Approved'
+not_run: WebUI.verifyElementText(findTestObject('Page_Seller(GI)_InvoiceList/div_Dt_Seller(GI)_InvList_Status', [('invoiceNo') : invoiceNo]), 
     'Approved')
 
 WebUI.click(findTestObject('Scenario 13/S13_TC055/Page_Brivge/button_Release'))

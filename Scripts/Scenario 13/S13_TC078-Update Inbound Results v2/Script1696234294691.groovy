@@ -45,6 +45,8 @@ WebUI.click(findTestObject('Page_InboundMonitorList/Page_UpdateInboundResults/bu
 
 WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_DwnloadInboundPlanForUpload_Success'), 0)
 
+WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
+
 inboundPlanForm = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
 partsNoRowIndexes = CustomKeywords.'mapRowDatAndRowIndices.extractPartsWithIndices'(inboundPlanForm, 7, 4)
@@ -55,7 +57,7 @@ WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 9/S9_Cmn1-Write Info i
         , ('fileColumns') : updateInboundColumIndexes, ('mapDataIndices') : partsNoRowIndexes, ('downloadedFormPath') : inboundPlanForm
         , ('downloadedFormSheetname') : 'Inbound'], FailureHandling.STOP_ON_FAILURE)
 
-not_run: for (def index : (1..testdata_updateInbound.getRowNumbers())) {
+for (def index : (1..testdata_updateInbound.getRowNumbers())) {
     def inboundNoRefValue = testdata_updateInbound.getValue('InboundNoRef', index)
 
     def inboundDateValue = testdata_updateInbound.getValue('InboundDate', index)
@@ -70,12 +72,14 @@ WebUI.uploadFile(findTestObject('Page_InboundMonitorList/Page_UpdateInboundResul
 
 WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_UploadInboundResult_Success'), 0)
 
+WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
+
 WebUI.scrollToElement(findTestObject('Page_InboundMonitorList/Page_UpdateInboundResults/button_Step 3. CHECK UPLOADED INBOUND RESULTS_step_3'), 
     0)
 
 WebUI.verifyTextPresent(inboundNoRef, false)
 
-formattedInboundDate = CustomKeywords.'commonUtils.parseDateInfoDesiredDateFormat2'(inboundDate, 'dd MMM yyyy', 'MMM dd, yyyy')
+formattedInboundDate = CustomKeywords.'commonUtils.parseDateInfoDesiredDateFormat2'(inboundDate, 'dd MMM yyyy', 'MMM d, yyyy')
 
 WebUI.verifyTextPresent(formattedInboundDate, false)
 
@@ -89,6 +93,8 @@ WebUI.waitForElementPresent(findTestObject('NotificationMsg_Brivge/div_ConfirmMs
 WebUI.click(findTestObject('NotificationMsg_Brivge/button_NotiMsg_CONFIRM'))
 
 WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_ConfirmInboundResult_Success'), 0)
+
+WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
 
 WebUI.waitForElementPresent(findTestObject('Page_InboundMonitorList/h3_Inbound Monitor List'), 0)
 

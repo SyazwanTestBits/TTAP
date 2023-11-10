@@ -57,7 +57,7 @@
    <testCaseLink>
       <guid>5d1edb69-f77c-494f-8916-3034f76a37f3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC022-BU Auto Generate Contract Route</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -191,7 +191,7 @@
    <testCaseLink>
       <guid>2d7d686e-1fa0-44e5-aa19-b2d34cd66096</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC024-BU Check Contract Route after Supplier Complete Received Request</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -216,7 +216,7 @@
    <testCaseLink>
       <guid>e647b9ba-986f-4c13-b5c7-351792fb6f06</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC025-Supplier Auto Generate Contract Route after Complete Received Request</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -254,7 +254,7 @@
    <testCaseLink>
       <guid>1d575f08-0599-4a5f-8dd8-fbadbe0d751a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC027-BU Check Contract after Supplier Release Request and Delete Contract</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -280,7 +280,7 @@
    <testCaseLink>
       <guid>875857e6-8bbb-411b-a732-d5920ea07b26</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC029-BU Check Request List after Supplier Reject Request</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -306,7 +306,7 @@
    <testCaseLink>
       <guid>00889001-2ada-4a7b-839e-ec81a5142e58</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC031-BU Check Contract Route after Release Request</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -319,7 +319,7 @@
    <testCaseLink>
       <guid>678ce810-6af5-48e6-ac68-2e5e6994d08e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC032-BU Check Request List after Release Request</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -345,7 +345,7 @@
    <testCaseLink>
       <guid>54862dfa-6bd4-4ced-baae-251c1b521725</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC034-Customer Check Request List after BU Reject Request</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -492,7 +492,7 @@
    <testCaseLink>
       <guid>32005f27-6df1-4b08-8916-3a6bb5a7a8cd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC037-BU Auto Generate Contract Route after Complete Received Request</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -620,7 +620,7 @@
    <testCaseLink>
       <guid>3b7ee28e-16cc-4443-bf2c-aea063b8d2da</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC039-Supplier Auto Generate Contract Route after Complete Received Request</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -645,7 +645,7 @@
    <testCaseLink>
       <guid>61b39790-1015-4e5a-b04b-200315987b61</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 9/S9_TC040-BU Check Contract Route after Supplier Complete Received Request</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>

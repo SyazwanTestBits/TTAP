@@ -4,17 +4,35 @@
    <name>S13_TC065 - Customer Check Cargo Tracking Detail - After Refresh (1)</name>
    <tag></tag>
    <integratedEntity>
-<productName>JIRA</productName>
-<properties>
-<entry>
-<key>integratedValue</key>
-<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i00017:00001"},"status":{"id":10001,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10001","name":"In Progress"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC13_TC65 - Customer -Check Cargo Tracking Detail after Refresh Cargo Tracking","description":"User: Customer\\\\Login ID: userA\\\\Company:PK-CUS-POC\\\\Function:Logistics\u003e Cargo Tracking Detail\\\\Description:Check Cargo Tracking Detail after Refresh Cargo Tracking","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-68/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10067","key":"BAT-68","id":10067}}</value>
-</entry>
-</properties>
-<type>TESTCASE</type>
-</integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i00017:00001&quot;},&quot;status&quot;:{&quot;id&quot;:10001,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://ttap-scm-at.atlassian.net/&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/status/10001&quot;,&quot;name&quot;:&quot;In Progress&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;BAT&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;BriVge Automated Testing&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;SC13_TC65 - Customer -Check Cargo Tracking Detail after Refresh Cargo Tracking&quot;,&quot;description&quot;:&quot;User: Customer\\\\Login ID: userA\\\\Company:PK-CUS-POC\\\\Function:Logistics\u003e Cargo Tracking Detail\\\\Description:Check Cargo Tracking Detail after Refresh Cargo Tracking&quot;,&quot;reporter&quot;:{&quot;active&quot;:true,&quot;displayName&quot;:&quot;Nurfatin binti Abdullah Shuhaimy&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-68/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/10067&quot;,&quot;key&quot;:&quot;BAT-68&quot;,&quot;id&quot;:10067}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>571a3463-a893-4e11-b51e-a8b9ffeda562</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d2b137e3-6112-4e95-9079-8fc71410cca9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eb85a92f-b2d5-4f4b-ba3f-cfc8335139a6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>118b1a38-5930-48dc-8d6f-7536a31ebcda</variableId>
+   </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
@@ -39,6 +57,45 @@
       <value></value>
       <variableId>744076aa-57c8-41bd-a439-915f59805abe</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f9b682ce-3093-4bec-bc4d-baf497cb936a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2a5c1cc2-bf45-4b16-a987-9d54690a29f4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>00a6bf40-b859-497c-94d1-e96fca32f2ac</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.S13_TC30nMore_username</defaultValue>
+      <description></description>
+      <id>d2b137e3-6112-4e95-9079-8fc71410cca9</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.S13_TC30nMore_password</defaultValue>
+      <description></description>
+      <id>eb85a92f-b2d5-4f4b-ba3f-cfc8335139a6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.S13_TC30nMore_companyCUST</defaultValue>
+      <description></description>
+      <id>118b1a38-5930-48dc-8d6f-7536a31ebcda</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
    <variable>
       <defaultValue>findTestData('Scenario 13/S13_TC064-065_Forecast').getValue(1, 1)</defaultValue>
       <description></description>
@@ -66,5 +123,26 @@
       <id>744076aa-57c8-41bd-a439-915f59805abe</id>
       <masked>false</masked>
       <name>milestoneREALTIME</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC064-065_Forecast')</defaultValue>
+      <description></description>
+      <id>f9b682ce-3093-4bec-bc4d-baf497cb936a</id>
+      <masked>false</masked>
+      <name>testDataForecast</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC064-065_Forecast-Manual')</defaultValue>
+      <description></description>
+      <id>2a5c1cc2-bf45-4b16-a987-9d54690a29f4</id>
+      <masked>false</masked>
+      <name>testDataForecastManual</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC064-065_NonForecast')</defaultValue>
+      <description></description>
+      <id>00a6bf40-b859-497c-94d1-e96fca32f2ac</id>
+      <masked>false</masked>
+      <name>testDataNonForecast</name>
    </variable>
 </TestCaseEntity>
