@@ -18,7 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 absPath = CustomKeywords.'ManageFiles.getFileAbsolutePath'(dateExcelRelPath)
 
 for (def index : (1..datafile.getRowNumbers())) {
-	
     def commaSeparatedString = datafile.getValue(columnHeaderListIndex, index)
 
     def indexListNumbers = commaSeparatedString.split(',').collect({ 
@@ -53,4 +52,5 @@ for (def index : (1..datafile.getRowNumbers())) {
 }
 
 println('Wait for writing to finish')
+
 
