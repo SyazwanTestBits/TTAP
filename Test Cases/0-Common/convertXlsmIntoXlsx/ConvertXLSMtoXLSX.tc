@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>XlsmToXlsx experiment</name>
+   <name>ConvertXLSMtoXLSX</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b0e9e47b-4dc0-4f9f-892f-ff0c38b459d5</testCaseGuid>
+   <testCaseGuid>a7c311af-c430-472a-9751-b8d0e6415541</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>49d5e307-f1ff-40ba-a8eb-4a50fff24ed9</variableId>
+      <variableId>deb8a346-be60-4c50-802e-abb7ea9cd1ad</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('Scenario 13/S13_TC064-065_Forecast')</defaultValue>
+      <defaultValue>'C:\\Katalon_Downloads\\Daily Rundown.20231109092720.xlsm'</defaultValue>
       <description></description>
-      <id>49d5e307-f1ff-40ba-a8eb-4a50fff24ed9</id>
+      <id>deb8a346-be60-4c50-802e-abb7ea9cd1ad</id>
       <masked>false</masked>
-      <name>testDataForecast</name>
+      <name>latestxlsm</name>
    </variable>
 </TestCaseEntity>

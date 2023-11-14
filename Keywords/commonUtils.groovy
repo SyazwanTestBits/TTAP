@@ -34,8 +34,8 @@ public class commonUtils extends DateConversion {
 		String outputFormat = "d/M/yyyy"
 
 		//Typical input format: MMM d, yyyy
-		SimpleDateFormat inputDateFormat = new SimpleDateFormat(inputFormatDate)
-		SimpleDateFormat outputDateFormat = new SimpleDateFormat(outputFormat)
+		SimpleDateFormat inputDateFormat = new SimpleDateFormat(inputFormatDate, Locale.ENGLISH)
+		SimpleDateFormat outputDateFormat = new SimpleDateFormat(outputFormat, Locale.ENGLISH)
 		Date date = inputDateFormat.parse(inputDate)
 		String formattedDate = outputDateFormat.format(date)
 
@@ -50,8 +50,8 @@ public class commonUtils extends DateConversion {
 	@Keyword(keywordObject='Common Utils')
 	String parseDateInfoDesiredDateFormat(String dateString) {
 		// Define the input and output date formats
-		def inputFormat = new SimpleDateFormat("dd MMM yyyy")
-		def outputFormat = new SimpleDateFormat("MMM dd, yyyy")
+		def inputFormat = new SimpleDateFormat("dd MMM yyyy",Locale.ENGLISH)
+		def outputFormat = new SimpleDateFormat("MMM dd, yyyy",Locale.ENGLISH)
 
 		// Parse the input date string into a Date object
 		Date date
@@ -73,8 +73,8 @@ public class commonUtils extends DateConversion {
 		String formattedDate;
 
 		// Define the input and output date formats
-		def inputFormat = new SimpleDateFormat(inputDateFormat)
-		def outputFormat = new SimpleDateFormat(outputDateFormat)
+		def inputFormat = new SimpleDateFormat(inputDateFormat,Locale.ENGLISH)
+		def outputFormat = new SimpleDateFormat(outputDateFormat,Locale.ENGLISH)
 
 		// Parse the input date string into a Date object
 

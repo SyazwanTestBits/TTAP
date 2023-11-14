@@ -66,6 +66,24 @@ for (int row = 1; row <= testdataOrderChange.getRowNumbers(); row++) {
             [('part_No') : part_No]), newFirm.toString())
 }
 
+WebUI.click(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/button_add new date'))
+
+WebUI.click(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/input___add new date_newInboundPlanDate'))
+
+String newInboudDate = testdataInboundDateChange.getValue('InboundNewDate2', 1)
+
+'PELASE DISABLE IF DATE IS IN ENGLISH'
+newInboudDateENG = CustomKeywords.'DateConversion.convertChineseToEnglishDate'(newInboudDate)
+
+(dayInbound, monthInbound, yearInbound) = CustomKeywords.'commonUtils.parseDateDayMonthYearEachIntoInt_withFormat'(newInboudDateENG, 
+    'd MMM yyyy')
+
+CustomKeywords.'util.handlePicker2.handleCalendar'(findTestObject('Scenario 13/S13_TC033_Shipping_Route/div_calendar header'), 
+    findTestObject('Scenario 13/S13_TC033_Shipping_Route/button next calendar'), findTestObject('Scenario 13/S13_TC033_Shipping_Route/button previous calendar'), 
+    dayInbound, monthInbound, yearInbound)
+
+WebUI.click(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/button_add new date_Confirm'))
+
 'ADJUST SHIPPING PLAN'
 for (int row = 1; row <= testdataOrderChange.getRowNumbers(); row++) {
     part_No = testdataOrderChange.getValue('Part No', row)

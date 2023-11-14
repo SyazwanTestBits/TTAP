@@ -17,27 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+latestpath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('macroexcel')
+
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.freeconvert.com/xlsm-to-xlsx')
+WebUI.navigateToUrl('https://products.aspose.com/cells/python-net/conversion/xlsm-to-xlsx/')
 
 WebUI.maximizeWindow()
 
-WebUI.delay(5)
+WebUI.delay(3)
 
-CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Convert/div_File   Choose Files'), latestpath)
+CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Convert/Convert xlsm into xlsx v2/label_Upload a file'), latestpath)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Convert/button_Convert'), 0)
+WebUI.click(findTestObject('Object Repository/Convert/Convert xlsm into xlsx v2/a_Convert'))
 
-WebUI.click(findTestObject('Object Repository/Convert/button_Convert'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Convert/div_Done'), 0)
-
-WebUI.click(findTestObject('Object Repository/Convert/a_Download'))
-
-WebUI.delay(2)
-
-latestXLSX = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
+WebUI.delay(8)
 
 WebUI.closeBrowser()
 

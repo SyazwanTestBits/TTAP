@@ -59,10 +59,13 @@ latestPath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('macroexcel
 
 not_run: println(latestPath)
 
-not_run: WebUI.callTestCase(findTestCase('0-Common/ConvertXLSMtoXLSX'), [('latestpath') : latestPath], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Common/convertXlsmIntoXlsx/ConvertXLSMtoXLSX v2'), [('latestpath') : latestPath], FailureHandling.STOP_ON_FAILURE)
 
 not_run: CustomKeywords.'Verification.verifyDynamicExcelCellValue'('Excel Files/Scenario 10/Convert from XLSM to XLSX/S10-TC025.xlsx', 
     'basic', '11112023', '25122023', 'No Usage')
+
+WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 10/S10_0_Daily/S10_Cmm-getn Caclulate Daily Simulation Report'), 
+    [('testData') : testDataWeek, ('sheetWriteUsagePerWeek') : sheet, ('sheetForWeekReport') : sheet], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

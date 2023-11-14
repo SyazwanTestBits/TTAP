@@ -51,29 +51,32 @@ for (int row = 1; row <= testData62.getRowNumbers(); row++) {
 
         discharge_date = WebUI.getText(findTestObject('Scenario 13/S13_TC063/div_Discharge_Date'))
 
-        String lastEvent=WebUI.getText(findTestObject('Scenario 13/S13_TC063/div_last Event'))
-		
-		String lastEventDetail=''
-		
-		String lastEventDate=''
-		
-		def datePattern = /\d{2} \w{3} \d{4} : / 
-		
-		def matcher = (lastEvent =~ datePattern)
-		if (matcher.find()) {
-			lastEventDetail = lastEvent.substring(matcher.end())
-			println(lastEventDetail)
-		}
-		
-		def datePattern2 = /(\d{2} \w{3} \d{4}) : /
-		
-		def matcher2 = (lastEvent =~ datePattern2)
-		
-		if (matcher2.find()) {
-			lastEventDate = matcher2[0][1]
-			println(lastEventDate)
-		}
+        String lastEvent = WebUI.getText(findTestObject('Scenario 13/S13_TC063/div_last Event'))
 
+        String lastEventDetail = ''
+
+        String lastEventDate = ''
+
+        def datePattern = '\\d{2} \\w{3} \\d{4} : '
+
+        def matcher = lastEvent =~ datePattern
+
+        if (matcher.find()) {
+            lastEventDetail = lastEvent.substring(matcher.end())
+
+            println(lastEventDetail)
+        }
+        
+        def datePattern2 = '(\\d{2} \\w{3} \\d{4}) : '
+
+        def matcher2 = lastEvent =~ datePattern2
+
+        if (matcher2.find()) {
+            lastEventDate = ((matcher2[0])[1])
+
+            println(lastEventDate)
+        }
+        
         CustomKeywords.'copyToExcel.exel'(containerID, row, 0, excelpath, excelname, excelsheet)
 
         CustomKeywords.'copyToExcel.exel'(eta_pod_date, row, 1, excelpath, excelname, excelsheet)
@@ -81,14 +84,14 @@ for (int row = 1; row <= testData62.getRowNumbers(); row++) {
         CustomKeywords.'copyToExcel.exel'(plan_eta_date, row, 2, excelpath, excelname, excelsheet)
 
         CustomKeywords.'copyToExcel.exel'(discharge_date, row, 3, excelpath, excelname, excelsheet)
-		
-		CustomKeywords.'copyToExcel.exel'(lastEventDetail, row, 4, excelpath, excelname, excelsheet)
-		
-		CustomKeywords.'copyToExcel.exel'(lastEventDate, row, 5, excelpath, excelname, excelsheet)
+
+        CustomKeywords.'copyToExcel.exel'(lastEventDetail, row, 4, excelpath, excelname, excelsheet)
+
+        CustomKeywords.'copyToExcel.exel'(lastEventDate, row, 5, excelpath, excelname, excelsheet)
 
         CustomKeywords.'util.clearTextJS.clearElementText'(findTestObject('Scenario 13/S13_TC063/input_Cargo Tracking(Container Journey)'))
     }
 }
 
-not_run: WebUI.closeBrowser()
+WebUI.closeBrowser()
 

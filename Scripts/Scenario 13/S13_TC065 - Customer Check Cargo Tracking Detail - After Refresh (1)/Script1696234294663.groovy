@@ -42,18 +42,20 @@ WebUI.click(findTestObject('Scenario 13/S13_TC064,065/button_arrow first'))
 int rownum = findTestData('Data Files/Scenario 13/S13_TC064-065_Forecast').getRowNumbers()
 
 'For Forecast Container'
-for (int r = 1; r <= rownum; r++) {
+not_run: for (int r = 1; r <= rownum; r++) {
     String contnum = findTestData('Data Files/Scenario 13/S13_TC064-065_Forecast').getValue('ContainerNo', r)
 
     String PlanETADate = findTestData('Data Files/Scenario 13/S13_TC064-065_Forecast').getValue('plan ETA', r)
 
-    newPlanETADate = CustomKeywords.'util.changeFormatString.changeDateFormat'(PlanETADate)
+    newPlanETADate = CustomKeywords.'DateConversionLocal.convertLocalChineseIntoLocalEnglishWithOutput'(PlanETADate, 'd MMM yyyy', 
+        'MMM d, yyyy')
 
     String fullPlanETADate = 'Planned ETA @ Final Destination: ' + newPlanETADate
 
     String PredictETADate = findTestData('Data Files/Scenario 13/S13_TC064-065_Forecast').getValue('predict ETA', r)
 
-    newPredictETADate = CustomKeywords.'util.changeFormatString.changeDateFormat'(PredictETADate)
+    newPredictETADate = CustomKeywords.'DateConversionLocal.convertLocalChineseIntoLocalEnglishWithOutput'(PredictETADate, 
+        'd MMM yyyy', 'MMM d, yyyy')
 
     String fullPredictETADate = 'Predictive ETA @ Final Destination: ' + newPredictETADate
 
@@ -126,10 +128,12 @@ for (int row11 = 1; row11 <= numrowForecastManual; row11++) {
     WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC064,065/div_titleContainerNum v1_1', [('maintitle') : mainforpath11]), 
         titlebook11)
 
-    WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC064,065/div_trackingType v1_1', [('maintitle') : mainforpath11
+    'NEED TO CHECK BECAUSE IN WEBSITE, THERE IS NOT OPTION FOR REAL_TIME'
+    not_run: WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC064,065/div_trackingType v1_1', [('maintitle') : mainforpath11
                 , ('tracktype') : trackType11]), 0)
 
-    if (trackType11 == 'REAL-TIME') {
+    'NEED TO CHECK BECAUSE IN WEBSITE, THERE IS NOT OPTION FOR REAL_TIME'
+    not_run: if (trackType11 == 'REAL-TIME') {
         WebUI.click(findTestObject('Scenario 13/S13_TC064,065/div_trackingType v1_1', [('maintitle') : mainforpath11, ('tracktype') : trackType11]))
 
         WebUI.click(findTestObject('Scenario 13/S13_TC064,065/li_tracktype (1)'))

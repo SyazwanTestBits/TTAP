@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ConvertXLSMtoXLSX</name>
+   <name>ConvertXLSMtoXLSX v2</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a7c311af-c430-472a-9751-b8d0e6415541</testCaseGuid>
+   <testCaseGuid>4def6c8c-be6b-48f6-b8c2-3a5fb00421a2</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>deb8a346-be60-4c50-802e-abb7ea9cd1ad</variableId>
+      <variableId>713e00d2-9ad2-46b5-b5d9-99157d963ecd</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>deb8a346-be60-4c50-802e-abb7ea9cd1ad</id>
+      <id>713e00d2-9ad2-46b5-b5d9-99157d963ecd</id>
       <masked>false</masked>
       <name>latestpath</name>
    </variable>
