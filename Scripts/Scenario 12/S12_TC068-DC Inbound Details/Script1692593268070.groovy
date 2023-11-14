@@ -17,37 +17,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.BAF_USERNAME_FATIN
+not_run: WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.BAF_USERNAME_FATIN
         , ('password') : GlobalVariable.BAF_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.BAF_COMPANY_DC], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Navbar_Brivge/button_Logistics'))
+not_run: WebUI.click(findTestObject('Navbar_Brivge/button_Logistics'))
 
-WebUI.click(findTestObject('Navbar_Brivge/LogisticsMenu_Brivge/li_Inbound Monitoring List'))
+not_run: WebUI.click(findTestObject('Navbar_Brivge/LogisticsMenu_Brivge/li_Inbound Monitoring List'))
 
-WebUI.click(findTestObject('Page_InboundMonitorList/button_Create_InboundMonitorList'))
+not_run: WebUI.click(findTestObject('Page_InboundMonitorList/button_Create_InboundMonitorList'))
 
-WebUI.click(findTestObject('Scenario 12/SC12_TC068/button_Download_step_1'))
+not_run: WebUI.click(findTestObject('Scenario 12/SC12_TC068/button_Download_step_1'))
 
-def outboundNoText = ''
+not_run: def outboundNoText = ''
 
-for (String outboundNo : outboundNoList) {
+not_run: for (String outboundNo : outboundNoList) {
     outboundNoText += (outboundNo + ' ')
 }
 
-outboundNoText = outboundNoText.trim()
+not_run: outboundNoText = outboundNoText.trim()
 
-println(outboundNoText)
+not_run: println(outboundNoText)
 
-WebUI.click(findTestObject('Scenario 12/SC12_TC068/button_AND'))
+not_run: WebUI.click(findTestObject('Scenario 12/SC12_TC068/button_AND'))
 
-WebUI.setText(findTestObject('Scenario 12/SC12_TC068/input_outboundNo'), outboundNoText)
+not_run: WebUI.setText(findTestObject('Scenario 12/SC12_TC068/input_outboundNo'), outboundNoText)
 
-WebUI.click(findTestObject('Scenario 12/SC12_TC068/input_checkAll'))
+not_run: WebUI.click(findTestObject('Scenario 12/SC12_TC068/input_checkAll'))
 
-WebUI.click(findTestObject('Scenario 12/SC12_TC068/button_Download'))
+not_run: WebUI.click(findTestObject('Scenario 12/SC12_TC068/button_Download'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Scenario 13/S13_TC038 n 39-Check Contract Route/p_The operation was successful'), 
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/Scenario 13/S13_TC038 n 39-Check Contract Route/p_The operation was successful'), 
     'The operation was successful.')
 
 downloadedForm = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
@@ -56,31 +56,31 @@ WebUI.callTestCase(findTestCase('Scenario 12/S12_TC068.1-Write Inbound Details')
         , ('startRowFormMinusOne') : startRowFormMinusOne, ('downloadedFormPath') : downloadedForm, ('downloadedFormSheetname') : downloadedFormSheetName], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Scenario 12/SC12_TC068/button_Upload'), 0)
+not_run: WebUI.scrollToElement(findTestObject('Scenario 12/SC12_TC068/button_Upload'), 0)
 
-CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 12/SC12_TC068/button_Upload'), downloadedForm)
+not_run: CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 12/SC12_TC068/button_Upload'), downloadedForm)
 
-CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 12/SC12_TC068/button_Confirm'), 0)
+not_run: CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 12/SC12_TC068/button_Confirm'), 0)
 
-WebUI.click(findTestObject('Scenario 12/SC12_TC068/button_CONFIRMpop'))
+not_run: WebUI.click(findTestObject('Scenario 12/SC12_TC068/button_CONFIRMpop'))
 
-def outboundRefNoText = ''
+not_run: def outboundRefNoText = ''
 
-for (String outboundRefNo : outboundRefNoList) {
+not_run: for (String outboundRefNo : outboundRefNoList) {
     outboundRefNoText += (outboundRefNo + ' ')
 }
 
-outboundRefNoText = outboundRefNoText.trim()
+not_run: outboundRefNoText = outboundRefNoText.trim()
 
-println(outboundRefNoText)
+not_run: println(outboundRefNoText)
 
-WebUI.setText(findTestObject('Scenario 12/SC12_TC068/input_outboundNo'), outboundRefNoText)
+not_run: WebUI.setText(findTestObject('Scenario 12/SC12_TC068/input_outboundNo'), outboundRefNoText)
 
-WebUI.click(findTestObject('Scenario 12/SC12_TC068/button_AND'))
+not_run: WebUI.click(findTestObject('Scenario 12/SC12_TC068/button_AND'))
 
-for (int i = 1; i <= 9; i++) {
+not_run: for (int i = 1; i <= 9; i++) {
     WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC068/p_Completed', [('rowNo') : i]), 'Completed')
 }
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

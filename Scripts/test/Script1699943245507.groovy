@@ -17,19 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.BAF_USERNAME_FATIN
-        , ('password') : GlobalVariable.PNA_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.S1_BAF_CUS], 
-    FailureHandling.STOP_ON_FAILURE)
+downloadedFile = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
-WebUI.click(findTestObject('Scenario 13/S13_TC035/Contract Route List/button_Master'))
-
-WebUI.click(findTestObject('Scenario 9/SC9_TC002/li_Request List'))
-
-WebUI.setText(findTestObject('Scenario 10/S10_TC065/input_Request List_search'), testData)
-
-RequestNo = WebUI.getText(findTestObject('Scenario 9/SC9_TC002/p_requestNo'))
-
-CustomKeywords.'copyToExcel.exel'(RequestNo, 1, 1, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 'TC001-Autogen')
-
-WebUI.closeBrowser()
+CustomKeywords.'verifyExcelData.verifyDynamicSort2'('Excel Files\\Scenario 12\\Expected Data\\TC71\\Expected Customer Order Regular.xlsx', downloadedFile, 
+    'Plan & Simulation', 1, [7, 8, 9, 10, 11, 12], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
 

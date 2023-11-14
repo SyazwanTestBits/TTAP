@@ -66,7 +66,7 @@
       <name>newOutboundDateFile</name>
    </variable>
    <variable>
-      <defaultValue>[('InboundNewDate_Qty1') : 28, ('InboundNewDate_Qty2') : 29, ('InboundNewDate_Qty3') : 30, ('InboundNewDate_Qty4') : 31, ('InboundNewDate_Qty5') : 32]</defaultValue>
+      <defaultValue>[('InboundNewDate_Qty1') : 26, ('InboundNewDate_Qty2') : 27, ('InboundNewDate_Qty3') : 28, ('InboundNewDate_Qty4') : 29, ('InboundNewDate_Qty5') : 30]</defaultValue>
       <description></description>
       <id>35b66688-ad4d-4890-b1ed-fa2e88ddb40e</id>
       <masked>false</masked>
@@ -87,7 +87,7 @@
       <name>custOrderNo</name>
    </variable>
    <variable>
-      <defaultValue>[('NewFirm') : 15, ('InboundNewDate_Qty1') : 28, ('InboundNewDate_Qty2') : 29, ('InboundNewDate_Qty3') : 30, ('InboundNewDate_Qty4') : 31, ('InboundNewDate_Qty5') : 32]</defaultValue>
+      <defaultValue>[('NewFirm') : 15, ('InboundNewDate_Qty1') : 26, ('InboundNewDate_Qty2') : 27, ('InboundNewDate_Qty3') : 28, ('InboundNewDate_Qty4') : 29, ('InboundNewDate_Qty5') : 30]</defaultValue>
       <description></description>
       <id>717df6a7-4df3-47d9-bd01-197428c03b19</id>
       <masked>false</masked>
