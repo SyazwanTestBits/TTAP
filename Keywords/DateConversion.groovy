@@ -75,4 +75,22 @@ public class DateConversion {
 			return null;
 		}
 	}
+
+
+	@Keyword
+	public static String convertChineseToEnglishDate2(String chineseDate) {
+		try {
+
+			SimpleDateFormat chineseFormat = new SimpleDateFormat("MMM dd, yyyy", Locale.CHINA);
+			SimpleDateFormat englishFormat = new SimpleDateFormat("MMM dd, yyyy", Locale.US);
+
+
+			Date date = chineseFormat.parse(chineseDate);
+
+			return englishFormat.format(date);
+		} catch (ParseException e) {
+			e.printStackTrace();
+			return null;
+		}
+	}
 }
