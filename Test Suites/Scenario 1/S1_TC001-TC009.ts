@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>a1359dfd-2336-4a9f-b9e8-471f70b04de4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC001</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -57,7 +57,7 @@
    <testCaseLink>
       <guid>5d9cc0b4-1d81-44cf-bd9b-31e2b10d8430</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC002-BU1 Received Request List</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -377,7 +377,7 @@
    <testCaseLink>
       <guid>02b525fd-b3a2-4c49-a694-1128c07b48c3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC004-Sup2 Received Request List</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -534,7 +534,7 @@
    <testCaseLink>
       <guid>79abc473-e705-4eac-93cf-6b2348564066</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC005-Sup2 Check Contract Route</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -559,7 +559,7 @@
    <testCaseLink>
       <guid>7da7e4d1-7126-4774-8d60-29d9a99e9fec</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC006-BU3 Received Request List</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -710,7 +710,7 @@
    <testCaseLink>
       <guid>d001e1fd-8fa7-4fa5-bb44-9b6fe306b619</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC007-Sup1 Received Request List</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -855,7 +855,7 @@
    <testCaseLink>
       <guid>429af7cc-11ec-41e2-8735-108e30ccf567</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC008-Sup1 Check Contract Route</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -880,7 +880,7 @@
    <testCaseLink>
       <guid>19abd4a5-de77-44b3-9fb1-2c3058a85abe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC009-Customer Check Contract Route</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
