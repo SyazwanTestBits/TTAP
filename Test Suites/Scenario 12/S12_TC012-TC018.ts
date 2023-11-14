@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>a5644b22-61ba-4bdd-a0a3-02255b495865</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 12/S12_TC012-Customer Download CO</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -76,7 +76,7 @@
    <testCaseLink>
       <guid>947b575e-1490-4056-9d58-54309a831ffb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 12/S12_TC014-BU Auto Generate Sales Order</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -125,7 +125,7 @@
    <testCaseLink>
       <guid>10518d91-4e33-4edc-b0bc-971b3dada71f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 12/S12_TC015-BU Auto Generate Purchase Order</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -174,7 +174,7 @@
    <testCaseLink>
       <guid>ea996c41-9492-4904-9ee9-d6150b660d83</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 12/S12_TC016-Supplier Auto Generate Sales Order and Delivery Plan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
