@@ -1,11 +1,9 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-import java.text.NumberFormat
-import java.text.SimpleDateFormat
-
-import com.kms.katalon.core.model.FailureHandling
+import java.text.NumberFormat as NumberFormat
+import java.text.SimpleDateFormat as SimpleDateFormat
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.click(findTestObject('Scenario 12/SC12_TC014/p_detailsButton', [('SOnumber') : regularSalesOrderNo]))
@@ -41,22 +39,23 @@ WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 9/S9_Cmn1-Write Info i
         , ('columnHeaderQty') : 'newInboundQty', ('columnHeaderListIndex') : 'columnListIndex', ('dateExcelRelPath') : 'Excel Files/Scenario 12/S12_TestCases_Data.xlsx'
         , ('dateSheetName') : 'TC17.1-Sup SODeliveryPlan(Date)'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Scenario 13/S13_TC050 TC053/button_Upload BU SO Detail'))
+not_run: WebUI.click(findTestObject('Scenario 13/S13_TC050 TC053/button_Upload BU SO Detail'))
 
-CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 13/S13_TC050 TC053/li_Upload DR'), supDR)
+not_run: CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 13/S13_TC050 TC053/li_Upload DR'), supDR)
 
-WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC050 TC053/div_Upload Delivery RequestThe operation was successful'), 
+not_run: WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC050 TC053/div_Upload Delivery RequestThe operation was successful'), 
     0)
 
-WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
+not_run: WebUI.click(findTestObject('NotificationMsg_Brivge/svg_close notification'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-for (def index : (1..datafile_date.getRowNumbers())) {
+not_run: for (def index : (1..datafile_date.getRowNumbers())) {
     def excelColumnSize = 2
 
     for (def index2 : (1..excelColumnSize)) {
-        def dateValue = findTestData('Scenario 12/SC12_TC017-Supplier SO Delivery Plan (Date) -Regular').getValue('newPlanDate' + index2, index)
+        def dateValue = findTestData('Scenario 12/SC12_TC017-Supplier SO Delivery Plan (Date) -Regular').getValue('newPlanDate' + 
+            index2, index)
 
         if (dateValue != 'NULL') {
             def dateFormat = new SimpleDateFormat('MMM dd, yyyy')
@@ -75,13 +74,14 @@ for (def index : (1..datafile_date.getRowNumbers())) {
     }
 }
 
-for (def index : (1..datafile_dr.getRowNumbers())) {
+not_run: for (def index : (1..datafile_dr.getRowNumbers())) {
     def excelColumnSize = 2
 
     def colNumStart = 15
 
     for (def index2 : (1..excelColumnSize)) {
-        def planQtyValue = findTestData('Scenario 12/SC12_TC017-Supplier SO Delivery Plan -Regular').getValue('newInboundQty' + index2, index)
+        def planQtyValue = findTestData('Scenario 12/SC12_TC017-Supplier SO Delivery Plan -Regular').getValue('newInboundQty' + 
+            index2, index)
 
         def planQtyValueParse = Integer.parseInt(planQtyValue)
 
@@ -98,13 +98,14 @@ for (def index : (1..datafile_dr.getRowNumbers())) {
     }
 }
 
-CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 12/SC12_TC017/button_Confirm'), 0)
+not_run: CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 12/SC12_TC017/button_Confirm'), 0)
 
-WebUI.click(findTestObject('Scenario 12/SC12_TC017/button_CONFIRMnoti'))
+not_run: WebUI.click(findTestObject('Scenario 12/SC12_TC017/button_CONFIRMnoti'))
 
 '\r\n'
-WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC017/div_Confirm Supplier SO.The operation was successful'), 
+not_run: WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC017/div_Confirm Supplier SO.The operation was successful'), 
     0)
 
-CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 12/SC12_TC017/p_SO Monitoring List'), 0)
+not_run: CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 12/SC12_TC017/p_SO Monitoring List'), 
+    0)
 

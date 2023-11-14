@@ -4,15 +4,15 @@
    <name>S10_TC158-BU Check Weekly Stock Simulation-actual only after creation of orderTC</name>
    <tag></tag>
    <integratedEntity>
-<productName>JIRA</productName>
-<properties>
-<entry>
-<key>integratedValue</key>
-<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i001aw:"},"status":{"id":10000,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10000","name":"To Do"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC10.0_TC158 - BU - Check Weekly Stock Simulation after Upload Customer Stock \u0026 Stock Adjustment","description":"User: BU \\\\Login ID: maria-pna\\\\Company: MY-PNA-BU \\\\Function: Stock Management Tool \u003eWeekly Stock Simulation \\\\Description: Check Weekly Stock Simulation after Upload Customer Stock \u0026 Stock Adjustment","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-506/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10505","key":"BAT-506","id":10505}}</value>
-</entry>
-</properties>
-<type>TESTCASE</type>
-</integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i001aw:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://ttap-scm-at.atlassian.net/&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;BAT&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;BriVge Automated Testing&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;SC10.0_TC158 - BU - Check Weekly Stock Simulation after Upload Customer Stock \u0026 Stock Adjustment&quot;,&quot;description&quot;:&quot;User: BU \\\\Login ID: maria-pna\\\\Company: MY-PNA-BU \\\\Function: Stock Management Tool \u003eWeekly Stock Simulation \\\\Description: Check Weekly Stock Simulation after Upload Customer Stock \u0026 Stock Adjustment&quot;,&quot;reporter&quot;:{&quot;active&quot;:true,&quot;displayName&quot;:&quot;Nurfatin binti Abdullah Shuhaimy&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-506/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/10505&quot;,&quot;key&quot;:&quot;BAT-506&quot;,&quot;id&quot;:10505}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>7d591b91-ed16-470c-b762-2dde2ecfc47d</testCaseGuid>
    <variableLinks>
@@ -25,13 +25,13 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>10f96e5c-5c66-491a-9604-9596d4f95fbe</variableId>
+      <variableId>cfd69bd6-b4a1-4d34-aa46-7997f22657c1</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ebb2a597-f539-4a41-bf39-ccd095361953</variableId>
+      <variableId>ba59e17d-df69-419b-af81-1f1439634947</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
@@ -44,6 +44,24 @@
       <type>DEFAULT</type>
       <value></value>
       <variableId>2ecbd4bb-4ab5-4752-b530-17873a874286</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d834427b-ada0-45c6-ae19-edc3338679dc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ef66be5b-61ec-4a78-8729-636dcbc44a95</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>556a9b6f-d2a6-47dd-a93d-1543649fe780</variableId>
    </variableLinks>
    <variable>
       <defaultValue>[('newMod') : 0, ('CommonPart') : 7, ('MinStock1') : 12, ('MinStock2') : 13, ('InventoryControl') : 18, ('AlertMethod') : 19, ('Fluctuation') : 20, ('AllocationPattern') : 25, ('AdjustmentPattern1') : 26, ('AdjustmentPattern2') : 27]</defaultValue>
@@ -79,5 +97,26 @@
       <id>2ecbd4bb-4ab5-4752-b530-17873a874286</id>
       <masked>false</masked>
       <name>pathExport</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC158-L3')</defaultValue>
+      <description></description>
+      <id>d834427b-ada0-45c6-ae19-edc3338679dc</id>
+      <masked>false</masked>
+      <name>testDataL3</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC158-L2')</defaultValue>
+      <description></description>
+      <id>ef66be5b-61ec-4a78-8729-636dcbc44a95</id>
+      <masked>false</masked>
+      <name>testDataL2</name>
+   </variable>
+   <variable>
+      <defaultValue>'100.0'</defaultValue>
+      <description></description>
+      <id>556a9b6f-d2a6-47dd-a93d-1543649fe780</id>
+      <masked>false</masked>
+      <name>valueInL2</name>
    </variable>
 </TestCaseEntity>
