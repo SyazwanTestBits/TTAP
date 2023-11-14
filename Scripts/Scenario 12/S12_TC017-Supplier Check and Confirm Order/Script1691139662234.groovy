@@ -51,3 +51,5 @@ WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC017/p_verifyStatusCof
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 
+
+
