@@ -38,10 +38,13 @@ for (def index : (1..datafile.getRowNumbers())) {
 
         if (listNum != 0) {
             dateValue = CustomKeywords.'readFromExcel.getCellValue'(downloadedFormPath, downloadedFormSheetname, 9, listNum)
-
+																													//input format
             formattedDate = CustomKeywords.'commonUtils.parseDateInfoDesiredDateFormat2'(dateValue, 'EEE MMM dd HH:mm:ss zzz yyyy', 
                 'MMM dd, yyyy')
-
+				//outputformat
+			
+			println("Formatted":formattedDate)
+			
             CustomKeywords.'copyToExcel.exel2'(formattedDate, index, i, absPath, dateSheetName)
         } else {
             CustomKeywords.'copyToExcel.exel2'('NULL', index, i, absPath, dateSheetName)

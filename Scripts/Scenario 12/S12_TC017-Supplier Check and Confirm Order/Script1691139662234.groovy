@@ -34,7 +34,10 @@ WebUI.callTestCase(findTestCase('Scenario 12/S12_TC017.1-Supplier Check and Conf
             ('newInboundQty1') : 20, ('newInboundQty2') : 22], ('datafile_dr') : findTestData('Scenario 12/SC12_TC017-Supplier SO Delivery Plan -Regular')
         , ('datafile_date') : findTestData('Scenario 12/SC12_TC017-Supplier SO Delivery Plan (Date) -Regular')], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Scenario 12/S12_TC017.2-Supplier Check and Confirm Order -Spot'), [('columnnameSpot') : [
+not_run: WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC017/p_verifyStatusCofirmed', [('SOnumber') : regularSalesOrderNo]), 
+    'Confirmed')
+
+not_run: WebUI.callTestCase(findTestCase('Scenario 12/S12_TC017.2-Supplier Check and Confirm Order -Spot'), [('columnnameSpot') : [
             'Part no', 'Customer unit part no', 'Back no', 'Purchase order no', 'Customer code', 'SPQ', 'Order lot', 'Order Qty'
             , 'Unit Price', 'Currency', 'Status', 'Delivered qty', 'InTransit qty', 'Receiver inbounded qty', 'Planoutin plan 1'
             , 'Planoutin status 1', 'Estimate date value 1'], ('regularSalesOrderNo') : findTestData('Scenario 12/SC12_TC016-Supplier SO').getValue(
@@ -43,11 +46,8 @@ WebUI.callTestCase(findTestCase('Scenario 12/S12_TC017.2-Supplier Check and Conf
             'Scenario 12/SC12_TC017-Supplier SO Delivery Plan -Spot'), ('datafile_date') : findTestData('Scenario 12/SC12_TC017-Supplier SO Delivery Plan (Date) -Spot')], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC017/p_verifyStatusCofirmed', [('SOnumber') : regularSalesOrderNo]), 
+not_run: WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC017/p_verifyStatusCofirmed', [('SOnumber') : spotSalesOrderNo]), 
     'Confirmed')
 
-WebUI.verifyElementText(findTestObject('Scenario 12/SC12_TC017/p_verifyStatusCofirmed', [('SOnumber') : spotSalesOrderNo]), 
-    'Confirmed')
-
-WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

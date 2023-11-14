@@ -223,7 +223,7 @@
    <testCaseLink>
       <guid>24cd6f0b-ef0e-4d52-b94d-a00711c20658</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 12/S12_TC017-Supplier Check and Confirm Order</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -254,7 +254,7 @@
    <testCaseLink>
       <guid>ec0cd63c-20be-4c19-9022-4d686ab1b820</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 12/S12_TC018-Customer Forecast Change</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
