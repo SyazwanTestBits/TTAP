@@ -20,8 +20,13 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 import java.util.Date as Date
 import java.util.Locale as Locale
 
+String newInboudDate = findTestData('Scenario 13/S13_TC062').getValue('ATD', 1)
 
-latestPath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('macroexcel')
+output = CustomKeywords.'util.changeFormatString.changeDateFormat2'(newInboudDate)
 
-println(latestPath)
+println(output)
+
+output2=CustomKeywords.'DateConversionLocal.changeDateFormatChineseIntoChinese'(newInboudDate, 'MMM d, yyyy', 'yyyy年MM月dd日')
+
+println(output2)
 

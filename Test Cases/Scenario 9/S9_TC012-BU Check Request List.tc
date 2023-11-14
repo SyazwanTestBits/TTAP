@@ -3,7 +3,7 @@
    <description></description>
    <name>S9_TC012-BU Check Request List</name>
    <tag></tag>
-   integratedEntity>
+   <integratedEntity>
 <productName>JIRA</productName>
 <properties>
 <entry>

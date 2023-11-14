@@ -52,11 +52,11 @@ latestPath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('macroexcel
 
 println(latestPath)
 
-not_run: WebUI.callTestCase(findTestCase('0-Common/ConvertXLSMtoXLSX'), [('latestpath') : latestPath], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Common/convertXlsmIntoXlsx/ConvertXLSMtoXLSX v2'), [('latestpath') : latestPath], FailureHandling.STOP_ON_FAILURE)
 
-not_run: latestX = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
+latestX = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
-not_run: WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 10/S10_0_Weekly/S10_Cmm-Compare Weekly Simulation Report - Copy'), 
+WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 10/S10_0_Weekly/S10_Cmm-Compare Weekly Simulation Report - Copy'), 
     [('actualPath') : latestX, ('expectationPath') : testDataL3, ('columnNameStock') : [('Stock Qty') : 16, ('Stock Qty (On-Hold)') : 17
             , ('Adjustment (Stock)') : 18, ('Adjustment (On-Hold)') : 19, ('Total (Excludes On-Hold)') : 20, ('Stock Days') : 21
             , ('Low Stock Alert') : 23], ('columnName1') : [('Week 1 In') : 29, ('Week 1 Out') : 30, ('Week 1 Balance') : 31

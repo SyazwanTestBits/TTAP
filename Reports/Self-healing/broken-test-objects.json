@@ -152,13 +152,33 @@
     },
     {
       "approved": true,
-      "testObjectId": "Object Repository/Scenario 13/S13_TC064,065/div_Planned ETA date",
-      "brokenLocator": "//div[(text() \u003d \u0027Booking Number: B-231106-TBC-12    Container Number: SEGU5069987\u0027 or . \u003d \u0027Booking Number: B-231106-TBC-12    Container Number: SEGU5069987\u0027)]/following::div[(text() \u003d \u0027Planned ETA @ Final Destination: Jun 14, 2023\u0027 or . \u003d \u0027Planned ETA @ Final Destination: Jun 14, 2023\u0027)][1]",
+      "testObjectId": "Object Repository/Scenario 13/S13_TC035/Page_Brivge/button_Edit",
+      "brokenLocator": "//tbody//button[2]",
       "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div[2]/div[5]/div[2]/div",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[14]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 13/S13_TC064,065/div_Planned ETA date_idRelative.png"
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 13/S13_TC035/Page_Brivge/button_Edit_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_RegularOrder/div_Dt_ContractRouteNo",
+      "brokenLocator": "//div[(text() \u003d \u0027CR-PK-CUS-POC-2311009\u0027 or . \u003d \u0027CR-PK-CUS-POC-2311009\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[3]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_RegularOrder/div_Dt_ContractRouteNo_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Scenario 12/SC12_TC026/p_verifyOrderChange",
+      "brokenLocator": "//p[(text() \u003d \u0027rcAB02-2311001-02\u0027 or . \u003d \u0027rcAB02-2311001-02\u0027)]//following::td[2][descendant::p[contains(text(), \u0027Order Change\u0027)]]/following::td[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div[2]/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[2]/div/p",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 12/SC12_TC026/p_verifyOrderChange_idRelative.png"
     }
   ]
 }

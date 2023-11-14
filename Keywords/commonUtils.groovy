@@ -11,7 +11,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 
 
-public class commonUtils {
+public class commonUtils extends DateConversion {
 
 	@Keyword(keywordObject='Common Utils')
 	def clearElementText(TestObject to) {
@@ -69,11 +69,15 @@ public class commonUtils {
 
 	@Keyword(keywordObject='Common Utils')
 	String parseDateInfoDesiredDateFormat2(String dateString, String inputDateFormat, String outputDateFormat) {
+
+		String formattedDate;
+
 		// Define the input and output date formats
 		def inputFormat = new SimpleDateFormat(inputDateFormat,Locale.ENGLISH)
 		def outputFormat = new SimpleDateFormat(outputDateFormat,Locale.ENGLISH)
 
 		// Parse the input date string into a Date object
+
 		Date date
 		try {
 			date = inputFormat.parse(dateString)
@@ -81,9 +85,24 @@ public class commonUtils {
 			throw new IllegalArgumentException("Invalid date format. Please use 'dd MMM yyyy' format, e.g., '29 Jul 2023'")
 		}
 
-		// Format the date as 'MMM dd, yyyy' using the output format
-		String formattedDate = outputFormat.format(date)
+		def chinesePattern = /\p{IsHan}/
 
-		return formattedDate
+		if (date =~ chinesePattern) {
+
+			def convertedDate=super.convertChineseToEnglishDate2(date)
+
+			convertedformattedDate = outputFormat.format(convertedDate)
+			
+			return convertedformattedDate
+			
+		}
+		else {
+			// Format the date as 'MMM dd, yyyy' using the output format
+			formattedDate = outputFormat.format(date)
+			
+			return formattedDate
+			}
+
+		//return formattedDate
 	}
 }

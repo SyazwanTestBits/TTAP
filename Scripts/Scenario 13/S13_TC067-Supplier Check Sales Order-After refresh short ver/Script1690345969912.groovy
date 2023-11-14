@@ -62,16 +62,16 @@ for (int rowl = 1; rowl <= numberrowtd; rowl++) {
 
         WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC050 TC053/p_part detail list-tc50 - Copy', [('lrow') : rowl
                     , ('lcol') : coll]), valuecol)
-		
-		actualValue = WebUI.getText(findTestObject('Scenario 13/S13_TC050 TC053/p_part detail list-tc50 - Copy', [('lrow') : rowl
-			, ('lcol') : coll]))
 
-		KeywordUtil.logInfo((((((('In row:' + rowl) + ' column:') + col) + ', Actual data:') + actualValue) + ' Expectation data:') +valuecol)
+        actualValue = WebUI.getText(findTestObject('Scenario 13/S13_TC050 TC053/p_part detail list-tc50 - Copy', [('lrow') : rowl
+                    , ('lcol') : coll]))
+
+        KeywordUtil.logInfo((((((('In row:' + rowl) + ' column:') + col) + ', Actual data:') + actualValue) + ' Expectation data:') + 
+            valuecol)
 
         coll = (coll + 1)
     }
-    
-    not_run: WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC050 TC053/p_part detail list-tc50 - Copy', [('lrow') : rowl
-                , ('lcol') : coll]), valuecol)
 }
+
+WebUI.closeBrowser()
 

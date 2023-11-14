@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>S1_TC196-Customer Check Customer Order after DC1 Inbound</name>
+   <tag></tag>
+   <integratedEntity>
+<productName>JIRA</productName>
+<properties>
+<entry>
+<key>integratedValue</key>
+<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i003yg:"},"status":{"id":10000,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10000","name":"To Do"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC1.0_TC196 - Customer - Check the Customer order after DC1 Inbound Details","description":"User: Customer \\\\Login ID: maria-baf\\\\Company: PK-CUS-POC \\\\Function: Order \u003eCO Monitoring List \\\\Description: Check the Customer order after DC1 Inbound Details","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-954/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10953","key":"BAT-954","id":10953}}</value>
+</entry>
+</properties>
+<type>TESTCASE</type>
+</integratedEntity>
+   <comment></comment>
+   <testCaseGuid>645d9e4c-1433-4eee-aa0c-81d59e6df1dd</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>3f96a05e-db8b-4ab8-9e03-5436bc0db8c4</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 1/S1_TC196</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>3f96a05e-db8b-4ab8-9e03-5436bc0db8c4</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>CONumber</value>
+      <variableId>a9fbf195-198f-4f42-a9c7-88db45e96a47</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>552b10d6-6303-4d42-a9dd-151066378e30</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bb07757d-1f08-4d05-b5bb-45c6ea3c576d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a9fbf195-198f-4f42-a9c7-88db45e96a47</id>
+      <masked>false</masked>
+      <name>CONumber</name>
+   </variable>
+   <variable>
+      <defaultValue>['PartsNo', 'CustomerPartsNo', 'BackNo', 'SalesOrderNo', 'SupplierCode', 'SPQ', 'OrderLot', 'OrderQty', 'ForceCompletedQty', 'UnitPrice', 'Currency', 'Status', 'InboundedQty', 'InboundPlanDatePlan1', 'InboundPlanDateStatus1', 'InboundPlanDatePlan2', 'InboundPlanDateStatus2']</defaultValue>
+      <description></description>
+      <id>552b10d6-6303-4d42-a9dd-151066378e30</id>
+      <masked>false</masked>
+      <name>columnname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 1/S1_TC196-Shipping Plan List')</defaultValue>
+      <description></description>
+      <id>bb07757d-1f08-4d05-b5bb-45c6ea3c576d</id>
+      <masked>false</masked>
+      <name>datafile</name>
+   </variable>
+</TestCaseEntity>

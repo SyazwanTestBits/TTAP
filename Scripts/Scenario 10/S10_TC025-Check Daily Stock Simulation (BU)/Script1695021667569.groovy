@@ -61,7 +61,7 @@ println(latestPath)
 
 WebUI.delay(1)
 
-WebUI.callTestCase(findTestCase('0-Common/ConvertXLSMtoXLSX'), [('latestpath') : latestPath], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Common/convertXlsmIntoXlsx/ConvertXLSMtoXLSX'), [('latestpath') : latestPath], FailureHandling.STOP_ON_FAILURE)
 
 excelFile = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 

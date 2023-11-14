@@ -59,13 +59,30 @@ public class DateConversion {
 		}
 	}
 
-
 	@Keyword
 	public static String convertChineseToEnglishDate(String chineseDate) {
 		try {
 
 			SimpleDateFormat chineseFormat = new SimpleDateFormat("dd MMMM yyyy", Locale.CHINA);
 			SimpleDateFormat englishFormat = new SimpleDateFormat("dd MMM yyyy", Locale.US);
+
+
+			Date date = chineseFormat.parse(chineseDate);
+
+			return englishFormat.format(date);
+		} catch (ParseException e) {
+			e.printStackTrace();
+			return null;
+		}
+	}
+
+
+	@Keyword
+	public static String convertChineseToEnglishDate2(String chineseDate) {
+		try {
+
+			SimpleDateFormat chineseFormat = new SimpleDateFormat("MMM dd, yyyy", Locale.CHINA);
+			SimpleDateFormat englishFormat = new SimpleDateFormat("MMM dd, yyyy", Locale.US);
 
 
 			Date date = chineseFormat.parse(chineseDate);

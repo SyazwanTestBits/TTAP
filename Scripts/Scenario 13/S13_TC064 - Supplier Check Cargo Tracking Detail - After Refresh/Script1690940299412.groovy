@@ -49,13 +49,15 @@ if (testDataForecast.getValue('ContainerNo', 1) != '') {
 
         String PlanETADate = testDataForecast.getValue('plan ETA', r)
 
-        newPlanETADate = CustomKeywords.'util.changeFormatString.changeDateFormat'(PlanETADate)
+        newPlanETADate = CustomKeywords.'DateConversionLocal.convertLocalChineseIntoLocalEnglishWithOutput'(PlanETADate, 
+            'd MMM yyyy', 'MMM d, yyyy')
 
         String fullPlanETADate = 'Planned ETA @ Final Destination: ' + newPlanETADate
 
         String PredictETADate = testDataForecast.getValue('predict ETA', r)
 
-        newPredictETADate = CustomKeywords.'util.changeFormatString.changeDateFormat'(PredictETADate)
+        newPredictETADate = CustomKeywords.'DateConversionLocal.convertLocalChineseIntoLocalEnglishWithOutput'(PredictETADate, 
+            'd MMM yyyy', 'MMM d, yyyy')
 
         String fullPredictETADate = 'Predictive ETA @ Final Destination: ' + newPredictETADate
 
@@ -69,7 +71,7 @@ if (testDataForecast.getValue('ContainerNo', 1) != '') {
 
         String lastEventDate = testDataForecast.getValue('last event date', r)
 
-        String lastEventDateFull = CustomKeywords.'CargoTrackingVerifications.portcastLastEvent'(lastEventDetail, lastEventDate)
+        String lastEventDateFull = CustomKeywords.'CargoTrackingVerifications.portcastLastEventLocalChinese'(lastEventDetail, lastEventDate)
 
         WebUI.scrollToElement(findTestObject('Scenario 13/S13_TC064,065/div_titleContainerNum v1_1', [('maintitle') : mainforpath]), 
             0)
