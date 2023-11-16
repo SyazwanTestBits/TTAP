@@ -16,10 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.text.SimpleDateFormat as SimpleDateFormat
+import java.text.ParseException as ParseException
+import java.util.Locale as Locale
 
-xlsmPath = 'Excel Files/Scenario 10/Convert from XLSM to XLSX/aaa.xlsm'
+//def PlanETADate = testDataForecast.getValue('plan ETA', 1)
+PlanETADate = '4 Jun 2023'
 
-xlsxPath = 'Excel Files/Scenario 10/Convert from XLSM to XLSX/xlsx_file.xlsx'
+String output=CustomKeywords.'DateConversionLocal.convertLocalChineseIntoLocalEnglishWithOutput'(PlanETADate, 'dd MMM yyyy', 'MMM d, yyyy')
 
-CustomKeywords.'util.convertxlsx2.convertXLSM'(xlsmPath, xlsxPath)
+println(output)
 

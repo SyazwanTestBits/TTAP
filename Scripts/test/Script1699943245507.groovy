@@ -17,3 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+downloadedFile = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
+
+CustomKeywords.'verifyExcelData.verifyDynamicSort2'('Excel Files\\Scenario 12\\Expected Data\\TC71\\Expected Customer Order Regular.xlsx', downloadedFile, 
+    'Plan & Simulation', 1, [7, 8, 9, 10, 11, 12], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
+

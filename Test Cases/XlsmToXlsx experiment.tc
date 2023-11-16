@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b0e9e47b-4dc0-4f9f-892f-ff0c38b459d5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>49d5e307-f1ff-40ba-a8eb-4a50fff24ed9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC064-065_Forecast')</defaultValue>
+      <description></description>
+      <id>49d5e307-f1ff-40ba-a8eb-4a50fff24ed9</id>
+      <masked>false</masked>
+      <name>testDataForecast</name>
+   </variable>
 </TestCaseEntity>

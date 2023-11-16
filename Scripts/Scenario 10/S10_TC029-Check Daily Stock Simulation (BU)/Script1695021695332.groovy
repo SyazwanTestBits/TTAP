@@ -57,7 +57,7 @@ WebUI.delay(1)
 
 latestPath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('macroexcel')
 
-WebUI.callTestCase(findTestCase('0-Common/ConvertXLSMtoXLSX'), [('latestpath') : latestPath], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Common/convertXlsmIntoXlsx/ConvertXLSMtoXLSX'), [('latestpath') : latestPath], FailureHandling.STOP_ON_FAILURE)
 
 not_run: CustomKeywords.'Verification.verifyDynamicExcelCellValue'('Excel Files/Scenario 10/Convert from XLSM to XLSX/S10-TC025.xlsx', 
     'basic', '11112023', '25122023', 'No Usage')

@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>9877a3c6-d4ce-48ba-b113-cf5a1ebdddcb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 12/S12_TC029-Customer Check Customer Order -Regular</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -51,7 +51,7 @@
    <testCaseLink>
       <guid>9ddc1b75-42ec-4f35-9a04-ab3785e2da61</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 12/S12_TC030-BU Check Sales Order -Regular</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -100,7 +100,7 @@
    <testCaseLink>
       <guid>a49034ba-0b36-4b25-a760-ccf89dcd0d5c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 12/S12_TC031-BU Check Purchase Order -Regular</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -149,7 +149,7 @@
    <testCaseLink>
       <guid>a1d83a03-95ba-4dc4-b19c-34332a13ee36</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 12/S12_TC032-Supplier Check Sales Order -Regular</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>

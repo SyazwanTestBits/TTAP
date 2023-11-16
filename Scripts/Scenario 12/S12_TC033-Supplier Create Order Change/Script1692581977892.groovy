@@ -27,6 +27,8 @@ WebUI.click(findTestObject('Scenario 12/SC12_TC033/li_Place Supplier Change'))
 
 WebUI.waitForElementPresent(findTestObject('Scenario 12/SC12_TC033/h3_Supplier Order ChangeCancel'), 0)
 
+WebUI.setText(findTestObject('Scenario 12/SC12_TC068/input_outboundNo'), custOrderNo)
+
 WebUI.click(findTestObject('Page_OrderChangeCancel/div_Dt_ContractNo_Create', [('contractNo') : custOrderNo]), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('Scenario 12/SC12_TC033/h3_Create Supplier Order Change'), 0)

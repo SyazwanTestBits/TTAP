@@ -45,8 +45,6 @@ not_run: CustomKeywords.'util.handlePicker2.handleCalendar'(findTestObject('Scen
     findTestObject('Scenario 13/S13_TC033_Shipping_Route/button next calendar'), findTestObject('Scenario 13/S13_TC033_Shipping_Route/button previous calendar'), 
     lastdayetd, lastmonthetd, lastyearetd)
 
-not_run: WebUI.click(findTestObject('Scenario 10/S10_TC025/input_Input Download Date Range (PopUp)_includePlanFlag'))
-
 WebUI.click(findTestObject('Scenario 10/S10_TC025/input_Include shipping plan not yet invoiced_simulateByParts'))
 
 WebUI.click(findTestObject('Scenario 10/S10_TC025/button_Download_Input Download Date Range'))
@@ -61,10 +59,15 @@ println(latestPath)
 
 WebUI.delay(1)
 
-WebUI.callTestCase(findTestCase('0-Common/ConvertXLSMtoXLSX'), [('latestpath') : latestPath], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Common/convertXlsmIntoXlsx/ConvertXLSMtoXLSX v2'), [('latestpath') : latestPath], FailureHandling.STOP_ON_FAILURE)
 
 not_run: CustomKeywords.'Verification.verifyDynamicExcelCellValue'('Excel Files/Scenario 10/Convert from XLSM to XLSX/S10-TC025.xlsx', 
     'basic', '11112023', '25122023', 'No Usage')
+
+excelFile = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
+
+WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 10/S10_0_Daily/S10_Cmm-getn Caclulate Daily Simulation Report'), 
+    [('testData') : testDataWeek, ('sheetWriteUsagePerWeek') : sheet, ('sheetForWeekReport') : sheet], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 
