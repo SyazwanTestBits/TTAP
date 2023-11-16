@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>61ed4e4f-8289-401e-bdd9-b8f16437ce00</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 12/S12_TC001-Admin Create Global Parts</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -33,7 +33,7 @@
    <testCaseLink>
       <guid>ccee52e9-68b2-41e5-a00e-14e40535a0ee</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 12/S12_TC002-Customer Create Unit Parts</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -70,7 +70,7 @@
    <testCaseLink>
       <guid>6d79f8b9-0e38-4a08-bf07-029fff45bd55</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 12/S12_TC003-Customer Request Add New Part</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>

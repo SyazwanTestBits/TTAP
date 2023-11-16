@@ -60,7 +60,7 @@ supDR = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 CustomKeywords.'excelUtils.unprotectExcelSheet'(supDR)
 
 'Clear existing value in the downloaded excel sheet\r\n'
-CustomKeywords.'excelUtils.clearOutValueExcel2'(supDR, 11, 11, 15, 47)
+CustomKeywords.'excelUtils.clearOutValueExcel2'(supDR, 11, 11, 15, 100)
 
 WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 17/S17_Cmn1-Write Info into Form Excel'), [('datafile') : dataFile1
         , ('fileColumns') : fileColumns, ('startRowFormMinusOne') : startRowFormMinusOne, ('downloadedFormPath') : supDR
