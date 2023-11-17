@@ -1,3 +1,4 @@
+import org.apache.poi.openxml4j.util.ZipSecureFile
 import org.apache.poi.ss.usermodel.*
 import org.apache.poi.ss.util.CellReference
 import org.apache.poi.xssf.usermodel.XSSFSheet
@@ -95,6 +96,7 @@ public class copyToExcel extends DateConversion {
 	public void exel4(String name, int rowNum, int colNum, String file, String sheetNumber) throws IOException {
 
 		FileInputStream fis = new FileInputStream(file);
+		ZipSecureFile.setMinInflateRatio(-1.0d);
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
 		XSSFSheet sheet = workbook.getSheet(sheetNumber);
@@ -484,5 +486,7 @@ public class copyToExcel extends DateConversion {
 		fos.close();
 		fis.close();
 	}
+
+
 
 }

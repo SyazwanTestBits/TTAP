@@ -32,20 +32,20 @@ for (int row = 1; row <= numberCargo; row++) {
 
     WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC062-Syazwan/div_Dt_CargoStatus', [('rowNum') : row]), '')
 
-    not_run: WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC062-Syazwan/div_Dt_Container Journey', [('rowNum') : row]), 
-        'NO')
+    journeyContainer = WebUI.getText(findTestObject('Scenario 13/S13_TC062-Syazwan/div_Dt_Container Journey', [('rowNum') : row]), 
+        FailureHandling.STOP_ON_FAILURE)
 
-    if (testData.getValue('ContainerTrackJourney', row) == 'YES') {
+    if ((testData.getValue('ContainerTrackJourney', row) == 'YES') && (journeyContainer == 'NO')) {
         WebUI.click(findTestObject('Scenario 13/S13_TC062-Syazwan/button_Dt_Container Journey Tracking Detail', [('rowNum') : row]))
 
         WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC075/p22_The operation was successful'), 'The operation was successful.')
 
         WebUI.click(findTestObject('NotificationMsg_Brivge/button_NotiMsg_Dismiss'))
-
-        WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC062-Syazwan/div_Dt_Container Journey', [('rowNum') : row]), 
-            'YES')
     }
     
+    WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC062-Syazwan/div_Dt_Container Journey', [('rowNum') : row]), 
+        testData.getValue('ContainerTrackJourney', row))
+
     WebUI.click(findTestObject('Scenario 13/S13_TC062-Syazwan/button_Dt_edit shipping', [('rowNum') : row]))
 
     //--------------------------------------------Edit Page-----------------------------------------------------

@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>a5aa4452-2ac0-4855-921d-6095e63fc8f7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 17/S17_TC021- Customer Forecast Change</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>

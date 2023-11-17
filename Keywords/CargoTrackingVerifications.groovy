@@ -1,4 +1,3 @@
-import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 
@@ -13,15 +12,6 @@ import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Calendar
 import java.time.LocalTime
-
-
-
-
-
-
-
-
-
 
 public class CargoTrackingVerifications {
 
@@ -59,38 +49,69 @@ public class CargoTrackingVerifications {
 			// You can add cleanup or resource release logic here if needed
 		}
 	}
-	
+
 	@Keyword
 	def portcastLastEvent(String lastEventDetail, String lastEventDate) {
-		
+
 		String lastEventDetailwithDetail=''
-		
+
 		String lastEventFull=''
-		
+
 		switch(lastEventDetail) {
-			
+
 			case 'Empty container returned':
 				lastEventDetailwithDetail='Latest Event: Empty container returned (Empty Container Returned from Customer) @ '
 				break
-			
+
 			default:
 				break
 		}
-		
+
 		String outputFormat = "MMM d, yyyy"
-		
-		SimpleDateFormat inputDateFormat = new SimpleDateFormat("dd MMM yyyy")
-		SimpleDateFormat outputDateFormat = new SimpleDateFormat(outputFormat)
-		
+
+		SimpleDateFormat inputDateFormat = new SimpleDateFormat("dd MMM yyyy",Locale.ENGLISH)
+		SimpleDateFormat outputDateFormat = new SimpleDateFormat(outputFormat,Locale.ENGLISH)
+
 		Date date = inputDateFormat.parse(lastEventDate)
 		String formattedDate = outputDateFormat.format(date)
-		
+
 		lastEventFull=lastEventDetailwithDetail+formattedDate
-		
+
 		return lastEventFull
-		
+
 	}
-	
+
+	@Keyword
+	def portcastLastEventLocalChinese(String lastEventDetail, String lastEventDate) {
+
+		String lastEventDetailwithDetail=''
+
+		String lastEventFull=''
+
+		switch(lastEventDetail) {
+
+			case 'Empty container returned':
+				lastEventDetailwithDetail='Latest Event: Empty container returned (Empty Container Returned from Customer) @ '
+				break
+
+			default:
+				break
+		}
+
+		def SimpleDateFormat sdf = new SimpleDateFormat('dd MMM yyyy', Locale.ENGLISH)
+		def parsedDate = sdf.parse(lastEventDate)
+
+
+		def outputLocalFormat = new SimpleDateFormat('MMM d, yyyy', Locale.ENGLISH)
+		String formattedDate = outputLocalFormat.format(parsedDate)
+
+
+		lastEventFull=lastEventDetailwithDetail+formattedDate
+
+		return lastEventFull
+
+	}
+
 
 
 }

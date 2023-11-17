@@ -79,7 +79,13 @@ WebUI.scrollToElement(findTestObject('Page_InboundMonitorList/Page_UpdateInbound
 
 WebUI.verifyTextPresent(inboundNoRef, false)
 
-formattedInboundDate = CustomKeywords.'commonUtils.parseDateInfoDesiredDateFormat2'(inboundDate, 'dd MMM yyyy', 'MMM d, yyyy')
+'PLEASE ENABLE IF YOUR COMPUTER IS ENGLISH LOCAL. IF NOT, DISABLE IT'
+not_run: formattedInboundDate = CustomKeywords.'commonUtils.parseDateInfoDesiredDateFormat2'(inboundDate, 'dd MMM yyyy', 
+    'MMM d, yyyy')
+
+'PLEASE ENABLE IF YOUR COMPUTER IS CHINESE LOCAL. IF NOT, DISABLE IT'
+formattedInboundDate = CustomKeywords.'DateConversionLocal.changeDateFormat_Chinese_Into_Chinese'(inboundDate, 'd MMM yyyy', 
+    'yyyy年MM月dd日')
 
 WebUI.verifyTextPresent(formattedInboundDate, false)
 

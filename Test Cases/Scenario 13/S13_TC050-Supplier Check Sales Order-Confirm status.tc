@@ -112,7 +112,7 @@
       <name>company</name>
    </variable>
    <variable>
-      <defaultValue>['Part no', 'Customer unit part no', 'Back no', 'Purchase order no', 'Customer code', 'SPQ', 'Order lot', 'Order Qty', 'Unit Price', 'Currency', 'Status', 'Delivered qty', 'InTransit qty', 'Receiver inbounded qty', 'Planoutin plan 1', 'Planoutin status 1', 'Planoutin plan 2', 'Planoutin status 2', 'Estimate date value 1']</defaultValue>
+      <defaultValue>['Part no', 'Customer unit part no', 'Back no', 'Purchase order no', 'Customer code', 'SPQ', 'Order lot', 'Order Qty', 'Unit Price', 'Currency', 'Status', 'Delivered qty', 'InTransit qty', 'Receiver inbounded qty', 'Planoutin plan 1', 'Planoutin status 1', 'Planoutin plan 2', 'Planoutin status 2', 'Planoutin plan 3','Planoutin status 3','Estimate date value 1']</defaultValue>
       <description></description>
       <id>c802ad51-3739-43e6-8c63-5ade2defcabe</id>
       <masked>false</masked>

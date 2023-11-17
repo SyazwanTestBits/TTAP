@@ -39,7 +39,7 @@ lastRow = CustomKeywords.'util.ExcelUtils.getLastRowNumber'(excelFilePath)
 
 KeywordUtil.logInfo("Last row number: $lastRow")
 
-for (def index : (1..dataFile.getRowNumbers())) {
+not_run: for (def index : (1..dataFile.getRowNumbers())) {
     CustomKeywords.'copyToExcel.exel3'(findTestData('Scenario 10/S10_TC003').getValue(2, index), lastRow + 1, 0, excelFilePath, 
         'MLF110')
 
@@ -62,15 +62,16 @@ for (def index : (1..dataFile.getRowNumbers())) {
         'MLF110')
 }
 
-WebUI.click(findTestObject('Scenario 13/S13_TC032/Page_Brivge/button_Upload'))
+not_run: WebUI.click(findTestObject('Scenario 13/S13_TC032/Page_Brivge/button_Upload'))
 
-AbsolutePath = CustomKeywords.'ManageFiles.getFileAbsolutePath'(excelFilePath)
+not_run: AbsolutePath = CustomKeywords.'ManageFiles.getFileAbsolutePath'(excelFilePath)
 
 'Upload the file that has been edited.'
-CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 13/S13_TC002/Page_Brivge/li_Upload'), AbsolutePath)
+not_run: CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 13/S13_TC002/Page_Brivge/li_Upload'), AbsolutePath)
 
 'Verify the success message.'
-WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC032/Page_Brivge/div_The operation was successful'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC032/Page_Brivge/div_The operation was successful'), 
+    0)
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

@@ -99,7 +99,7 @@
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.COMPANY_SUPPLIER_1</defaultValue>
+      <defaultValue>'CNTW-SUP-POC'</defaultValue>
       <description></description>
       <id>adc94834-eb7c-4638-935a-4e962a27d6a3</id>
       <masked>false</masked>

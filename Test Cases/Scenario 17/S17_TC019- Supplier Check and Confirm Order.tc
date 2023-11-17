@@ -15,78 +15,6 @@
    </integratedEntity>
    <comment></comment>
    <testCaseGuid>cf0ab7f6-1b59-497a-a09f-f32e47256228</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>fb78883e-3c5c-4ea0-8037-f5f3b926a67c</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>f57ff147-4fe0-4a58-9719-8e61637b312b</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>6fc7ea5a-964c-4385-9a20-fdb61417dda5</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>e9aa062e-24b0-41af-9658-c20406338f77</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>84215533-d557-4240-8382-7d38cfa7de1e</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>69737883-1134-4baf-8727-a39a59d1afdb</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>c05fa29f-f5bf-4547-beef-9d59184eed71</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>a3288d8f-9a2e-424f-9738-40b1ce804351</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>abe85f56-e5f7-4655-ae2a-a73a5c0d6086</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>e43ba962-6bd8-4479-ab00-50281ccb61c0</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>8f30256f-4f5b-458e-90fc-4845cc3aaecf</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>2de2e859-30a6-440a-9c41-7976e9ebc94e</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>findTestData('Scenario 17/S17_TC019- Delivery Plan')</defaultValue>
       <description></description>
@@ -102,8 +30,8 @@
       <name>dataFile2</name>
    </variable>
    <variable>
-      <defaultValue>[('1 Nov') : 10, ('5 Nov') : 13, ('15 Nov') : 23]</defaultValue>
-      <description></description>
+      <defaultValue>[('01 Feb ') : 81, ('05 Feb ') : 85, ('15 Feb ') : 95]</defaultValue>
+      <description>Input the column number that you want to write the date data into</description>
       <id>6fc7ea5a-964c-4385-9a20-fdb61417dda5</id>
       <masked>false</masked>
       <name>fileColumns</name>

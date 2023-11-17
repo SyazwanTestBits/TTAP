@@ -146,6 +146,7 @@ println('Row count: ' + rowCountinvoiceNotClearedlist)
 'totalOustandingInvoice= InvoicesNotClearedList'
 WebUI.verifyEqual(rowCountinvoiceNotClearedlist, totalOutstandingInvoices)
 
+'Disable this step if you run this tc for the first time after data flush\r\n'
 WebUI.verifyElementText(findTestObject('Scenario 17/S17_TC054/Page_Accounts Receivable - Brivge/h5_Currency'), currency)
 
 WebUI.verifyElementText(findTestObject('Scenario 17/S17_TC054/Page_Accounts Receivable - Brivge/h5_Accounts'), account)

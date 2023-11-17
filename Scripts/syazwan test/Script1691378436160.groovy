@@ -2,7 +2,6 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -16,12 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import java.text.SimpleDateFormat as SimpleDateFormat
-import java.util.Date as Date
-import java.util.Locale as Locale
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
+CustomKeywords.'python.helloWorld'(11, 15)
 
-latestPath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('macroexcel')
+CustomKeywords.'python.disableProtect_excel'(filename)
 
-println(latestPath)
+not_run: CustomKeywords.'python.disableProtect_excel_v2'(filename)
 

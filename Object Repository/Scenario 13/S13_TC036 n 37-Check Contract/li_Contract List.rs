@@ -6,18 +6,18 @@
    <elementGuidId>d725bccc-37b3-494b-844f-a3318ee0fbad</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Master'])[2]/following::li[9]</value>
+         <value>//li[(text() = 'Contract List' or . = 'Contract List')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Contract List' or . = 'Contract List')]</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -25,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>8fb9ba02-8cfb-4d75-8833-54f72a8b6c83</webElementGuid>
+      <webElementGuid>8edfa1fe-0411-4d3a-bd33-5d9b881a0884</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base52 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button</value>
-      <webElementGuid>0ab26a06-9238-4c7c-8924-e58b8e66b10d</webElementGuid>
+      <webElementGuid>31e2ef2b-8b89-4e26-b3a3-0b53ef4a8e8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>007d7882-0790-4fc1-bf23-a2f1984d3f44</webElementGuid>
+      <webElementGuid>7b47b2c1-69b1-46ff-9719-127ff3573194</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>da484b31-aa13-41c8-ab07-8a0ddc2cbf69</webElementGuid>
+      <webElementGuid>943be061-638c-420d-8a85-48befc8d1802</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>dc817f50-35c4-43ea-a22e-65c9f0801b3c</webElementGuid>
+      <webElementGuid>154a618b-e0ad-461d-ac5e-ce4a778f4797</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Contract List</value>
-      <webElementGuid>ebcd5b66-18d8-410b-9823-353719ce651f</webElementGuid>
+      <webElementGuid>4c8d2cef-1f58-496e-9bff-e767cf1f9141</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;base-base38&quot;]/div[@class=&quot;base-MuiPaper-root base-base39 base-MuiPaper-elevation1 base-MuiPaper-rounded&quot;]/div[@class=&quot;base-base42&quot;]/ul[@class=&quot;base-MuiList-root base-base50 base-MuiList-padding&quot;]/a[2]/li[@class=&quot;base-MuiButtonBase-root base-MuiListItem-root base-MuiMenuItem-root base-base52 base-MuiMenuItem-gutters base-MuiListItem-gutters base-MuiListItem-button&quot;]</value>
-      <webElementGuid>9d94025c-0acb-4133-9ccc-5311360bd14e</webElementGuid>
+      <webElementGuid>69fc7524-d8aa-4b5e-a851-2a3b32103817</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Master'])[2]/following::li[9]</value>
-      <webElementGuid>8c022aeb-7caa-428a-8006-828f4b22f0fd</webElementGuid>
+      <webElementGuid>0f8efde9-998f-4cd9-a835-e63d0af7aa4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/following::li[9]</value>
-      <webElementGuid>d5aa7015-443a-4e8d-ab4d-53a344f56457</webElementGuid>
+      <webElementGuid>7a17da45-929a-4669-8cd9-767b3d22cb30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ul[2]/a[2]/li</value>
-      <webElementGuid>36182577-9264-4d69-b57b-918c5bb74635</webElementGuid>
+      <webElementGuid>01329855-07ad-41c1-a35c-ee573af21a62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Contract List' or . = 'Contract List')]</value>
-      <webElementGuid>8a276711-1491-42ab-ba20-58eb7aacba34</webElementGuid>
+      <webElementGuid>4d055c4a-4754-45b0-821a-54b35f7cbdd8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

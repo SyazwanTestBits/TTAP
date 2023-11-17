@@ -47,6 +47,8 @@ WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 17/S17_Cmn1-Write Info
         , ('fileColumns') : mapKeyandColIndex, ('mapDataIndices') : partsNoRowIndices, ('downloadedFormPath') : downloadedExcel
         , ('downloadedFormSheetname') : salesOrderNo], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(2)
+
 WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 17/S17_Cmn1-Write Info into Form Excel'), [('datafile') : testdataInboundDateChange
         , ('fileColumns') : fileColumns, ('startRowFormMinusOne') : startRowFormMinusOne, ('downloadedFormPath') : downloadedExcel
         , ('downloadedFormSheetname') : salesOrderNo], FailureHandling.STOP_ON_FAILURE)

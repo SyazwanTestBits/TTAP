@@ -46,14 +46,17 @@ for (int r = 1; r <= rownum; r++) {
     String contnum = findTestData('Data Files/Scenario 13/S13_TC073n074_Forecast').getValue('ContainerNo', r)
 
     String PlanETADate = findTestData('Data Files/Scenario 13/S13_TC073n074_Forecast').getValue('plan ETA', r)
+	
+	newPlanETADate = CustomKeywords.'DateConversionLocal.convertLocalChineseIntoLocalEnglishWithOutput'(PlanETADate,
+		'd MMM yyyy', 'MMM d, yyyy')
 
-    newPlanETADate = CustomKeywords.'util.changeFormatString.changeDateFormat'(PlanETADate)
 
     String fullPlanETADate = 'Planned ETA @ Final Destination: ' + newPlanETADate
 
     String PredictETADate = findTestData('Data Files/Scenario 13/S13_TC073n074_Forecast').getValue('predict ETA', r)
 
-    newPredictETADate = CustomKeywords.'util.changeFormatString.changeDateFormat'(PredictETADate)
+    newPredictETADate = CustomKeywords.'DateConversionLocal.convertLocalChineseIntoLocalEnglishWithOutput'(PredictETADate, 
+            'd MMM yyyy', 'MMM d, yyyy')
 
     String fullPredictETADate = 'Predictive ETA @ Final Destination: ' + newPredictETADate
 

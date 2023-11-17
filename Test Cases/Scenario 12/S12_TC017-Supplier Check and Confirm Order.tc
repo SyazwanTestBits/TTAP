@@ -15,6 +15,7 @@
    </integratedEntity>
    <comment></comment>
    <testCaseGuid>2b070823-a5bf-4328-bdcb-08fae7750903</testCaseGuid>
+<<<<<<< HEAD
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
@@ -39,6 +40,8 @@
       <value></value>
       <variableId>374de9dd-1952-4cd7-a058-05c2762c3553</variableId>
    </variableLinks>
+=======
+>>>>>>> branch 'main' of https://gitlab.com/SyazwanTB/tb-ttap-brivge-v2.git
    <variable>
       <defaultValue>['Part no', 'Customer unit part no', 'Back no', 'Purchase order no', 'Customer code', 'SPQ', 'Order lot', 'Order Qty', 'Unit Price', 'Currency', 'Status', 'Delivered qty', 'InTransit qty', 'Receiver inbounded qty', 'Planoutin plan 1', 'Planoutin status 1', 'Planoutin plan 2', 'Planoutin status 2', 'Estimate date value 1', 'Estimate date value 2']</defaultValue>
       <description></description>

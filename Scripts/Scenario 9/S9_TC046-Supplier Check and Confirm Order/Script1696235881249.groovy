@@ -1,13 +1,10 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-import java.text.SimpleDateFormat
-
-import com.kms.katalon.core.model.FailureHandling
+import java.text.SimpleDateFormat as SimpleDateFormat
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
-import internal.GlobalVariable
+import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.BAF_USERNAME_FATIN
         , ('password') : GlobalVariable.BAF_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.S9_BAF_SUP], 
@@ -80,7 +77,7 @@ WebUI.click(findTestObject('Scenario 13/S13_TC050 TC053/button_Upload BU SO Deta
 
 CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 13/S13_TC050 TC053/li_Upload Price'), supPrice)
 
-not_run: WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC050 TC053/div_Upload Price.The operation was successful'), 
+WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC050 TC053/div_Upload Price.The operation was successful'), 
     0)
 
 for (def index : (1..datafile_date.getRowNumbers())) {

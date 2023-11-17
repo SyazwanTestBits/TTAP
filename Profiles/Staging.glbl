@@ -314,4 +314,9 @@
       <initValue>findTestData('Scenario 13/S13_TC014n15').getValue(2, 1)</initValue>
       <name>S13_TC30nMore_companyBU</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>s</description>
+      <initValue>'https://test.brivge.com/'</initValue>
+      <name>BRIVGE_URL_TEST</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

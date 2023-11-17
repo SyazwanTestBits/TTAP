@@ -76,3 +76,5 @@ for (int rowl = 1; rowl <= numberrowtd; rowl++) {
                 , ('lcol') : coll]), valuecol)
 }
 
+WebUI.closeBrowser()
+

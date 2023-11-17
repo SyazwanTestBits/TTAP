@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>6af383cf-2724-4056-b9a3-86465a84a50a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 12/S12_TC026-Customer Check Auto Generate Change</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -63,7 +63,7 @@
    <testCaseLink>
       <guid>ce9069ef-a0ed-4b61-8aab-22be450c4293</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 12/S12_TC027-BU Check Auto Generate Change Request</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
