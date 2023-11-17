@@ -130,43 +130,43 @@
       <name>endMonth</name>
    </variable>
    <variable>
-      <defaultValue>'CNY'</defaultValue>
-      <description></description>
+      <defaultValue>'USD'</defaultValue>
+      <description>Set the value to empty before you run tc for the first time after data flush</description>
       <id>7a34a038-d7cc-48d7-a1cc-768b213ca89c</id>
       <masked>false</masked>
       <name>currency</name>
    </variable>
    <variable>
       <defaultValue>findTestData('Scenario 17/S17_TC054.1- Account Amount').getValue(1, 1)</defaultValue>
-      <description></description>
+      <description>Set the value to 0  before you run tc for the first time after data flush</description>
       <id>05c2e2ec-1f4b-44f5-9938-7e19ad37d29d</id>
       <masked>false</masked>
       <name>account</name>
    </variable>
    <variable>
       <defaultValue>'100 %'</defaultValue>
-      <description></description>
+      <description>Set the value to 0%  before you run tc for the first time after data flush</description>
       <id>742b97e8-0dfd-43bc-8d16-eccf2ef96eef</id>
       <masked>false</masked>
       <name>overdueAmountPer</name>
    </variable>
    <variable>
       <defaultValue>findTestData('Scenario 17/S17_TC054.1- Account Amount').getValue(1, 1)</defaultValue>
-      <description></description>
+      <description>Set the value to 0  before you run tc for the first time after data flush</description>
       <id>41a59827-a937-4053-893b-64f8bc3aa7d0</id>
       <masked>false</masked>
       <name>tOustandingAmount</name>
    </variable>
    <variable>
       <defaultValue>findTestData('Scenario 17/S17_TC054.1- Account Amount').getValue(1, 1)</defaultValue>
-      <description></description>
+      <description>Set the value to 0  before you run tc for the first time after data flush</description>
       <id>4d94763a-01bf-4948-a45d-1667d1fc8e39</id>
       <masked>false</masked>
       <name>overdueAmount</name>
    </variable>
    <variable>
       <defaultValue>'0'</defaultValue>
-      <description></description>
+      <description>Set the value to 0  before you run tc for the first time after data flush</description>
       <id>800861e2-551f-4897-98e2-6f6cbd22bbfe</id>
       <masked>false</masked>
       <name>creditLimit</name>

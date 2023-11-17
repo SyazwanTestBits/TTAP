@@ -1,146 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>S17_TC021-TC026</name>
+   <name>S17_TC063-TC068</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>d3c4fd34-6a16-4990-8456-8a7c88811fc8</testSuiteGuid>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>cbdb7561-3bc4-445a-981f-bff444476cba</testSuiteGuid>
    <testCaseLink>
-      <guid>a5aa4452-2ac0-4855-921d-6095e63fc8f7</guid>
+      <guid>a59b1d0e-204c-45a3-a56a-c43cdb79fb9d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario 17/S17_TC021- Customer Forecast Change</testCaseId>
+      <testCaseId>Test Cases/Scenario 17/S17_TC063- Supplier Create Order Change</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>0ee4fdb3-8099-48d8-8762-11a715325f9e</variableId>
+         <variableId>af6b3c58-04ec-4485-99a8-e19ff9bc7925</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>f0689819-18b8-426c-a13d-d93a96646fda</variableId>
+         <variableId>bd2fd4ea-b397-4ec0-bfe2-fe4f4b946c0f</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>0725e270-9653-497c-a1cb-35e8461616c5</variableId>
+         <variableId>e6bab00e-b507-4c18-acb5-71e2acc0ef24</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>cbef66db-b156-4b69-8739-50d5e3960493</variableId>
+         <variableId>3db2fd6d-382a-412c-8570-1662d437ff77</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>8f43dc76-e7a5-44eb-bb9b-4d5cd4f0be18</variableId>
+         <variableId>f2f381e9-bc71-4b7d-be3e-4136946434e3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f3c10fd4-c26e-47d5-93bf-99db4a6d3c8e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a3c6db05-a6d9-450d-bb2d-568b56488ad5</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>604bb8ef-77c1-46c6-a582-b1c51560c0cc</guid>
+      <guid>c1d44c4d-bc80-4aca-adb1-604134c05fac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario 17/S17_TC022- Customer Auto Generate Change</testCaseId>
+      <testCaseId>Test Cases/Scenario 17/S17_TC064- Customer Propose New Change</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>0ca8194b-67fe-41ef-8a45-06280ccbaa13</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>fefe7611-8406-484b-9386-6366f6815ca7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>5b35d00b-5417-4dac-a650-c823eb13cd87</variableId>
+         <variableId>318932a3-e680-4770-82df-36b551c254f1</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>8b5f7c64-0391-44b7-b975-bc36b75f63dd</guid>
+      <guid>3b09c968-5eff-479f-bd62-8105eba17f5e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario 17/S17_TC023- Supplier Auto Generate To Do Task</testCaseId>
+      <testCaseId>Test Cases/Scenario 17/S17_TC065- Supplier Submit Order Change</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>db2e9a30-598a-4b26-ad8a-fbf24344080e</variableId>
+         <variableId>caf94bd3-81dc-4fce-a8db-f250b26a4cf4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9fb90943-24aa-4620-ad3d-adbc18ae7b83</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>61d40c8f-8c95-42b9-9ae0-58f539858f11</guid>
+      <guid>3da78dee-8603-45a0-b3e7-8f2faf3d889d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario 17/S17_TC024- Supplier Auto Generate Mail Task</testCaseId>
+      <testCaseId>Test Cases/Scenario 17/S17_TC066- Customer Auto Generate To Do Task</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>e9731d1b-d499-46c1-bd0c-b06c3a195f40</variableId>
+         <variableId>83f274e7-4705-466c-a408-fbacd40f73b7</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>d669976d-b17e-4ac2-a579-b0a2d6ff513c</guid>
+      <guid>7b4a7c62-ae66-4b34-81b1-669c7779636d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario 17/S17_TC025- Supplier Reject Forecast Change</testCaseId>
+      <testCaseId>Test Cases/Scenario 17/S17_TC067- Customer Auto Generate Mail Task</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>2c35c851-90be-4062-aedc-72769e7edf45</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>01bd3124-f51b-4b87-8634-8d4a2ec4239b</variableId>
+         <variableId>e9d2ac49-d943-42ae-a5b2-ca2eb60308bd</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>dfd22374-f531-495a-8160-c513671cfd57</guid>
+      <guid>bc231d19-9d00-4c60-a9af-4022b3c97c75</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario 17/S17_TC026- Customer Check Change</testCaseId>
+      <testCaseId>Test Cases/Scenario 17/S17_TC068- Customer Approve Change Request</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>bebc0a99-9c64-4945-80f0-67319b8590b7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>db8f7289-84da-40de-9711-eb25608c3678</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>751f15de-7cd8-43b3-bce6-274230b05954</variableId>
+         <variableId>36001029-dfb0-42d9-9af0-b3976308892c</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

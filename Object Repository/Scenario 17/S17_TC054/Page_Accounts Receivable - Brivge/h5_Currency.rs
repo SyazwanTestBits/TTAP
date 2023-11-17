@@ -6,12 +6,11 @@
    <elementGuidId>be4dd45e-cead-4169-a12a-f3fad57b237b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//h5[text()='CNY']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//h5[text()='USD']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
