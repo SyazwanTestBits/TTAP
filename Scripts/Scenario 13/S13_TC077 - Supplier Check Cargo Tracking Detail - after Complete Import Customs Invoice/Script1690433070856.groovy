@@ -47,13 +47,15 @@ for (int r = 1; r <= rownum; r++) {
 
     String PlanETADate = findTestData('Data Files/Scenario 13/S13_TC076n077_Forecast').getValue('plan ETA', r)
 
-    newPlanETADate = CustomKeywords.'util.changeFormatString.changeDateFormat'(PlanETADate)
+    newPlanETADate = CustomKeywords.'DateConversionLocal.convertLocalChineseIntoLocalEnglishWithOutput'(PlanETADate, 'd MMM yyyy', 
+        'MMM d, yyyy')
 
     String fullPlanETADate = 'Planned ETA @ Final Destination: ' + newPlanETADate
 
     String PredictETADate = findTestData('Data Files/Scenario 13/S13_TC076n077_Forecast').getValue('predict ETA', r)
 
-    newPredictETADate = CustomKeywords.'util.changeFormatString.changeDateFormat'(PredictETADate)
+    newPredictETADate = CustomKeywords.'DateConversionLocal.convertLocalChineseIntoLocalEnglishWithOutput'(PredictETADate, 
+        'd MMM yyyy', 'MMM d, yyyy')
 
     String fullPredictETADate = 'Predictive ETA @ Final Destination: ' + newPredictETADate
 
@@ -194,4 +196,6 @@ for (int row2 = 1; row2 <= numrowNonForecast; row2++) {
     CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 13/S13_TC064,065/button_arrow_container more detail', 
             [('maintitle') : mainforpath2]), 1)
 }
+
+WebUI.closeBrowser()
 

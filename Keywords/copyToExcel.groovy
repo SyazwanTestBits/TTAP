@@ -1,4 +1,6 @@
+import org.apache.poi.hssf.usermodel.HSSFWorkbook
 import org.apache.poi.openxml4j.util.ZipSecureFile
+import org.apache.poi.poifs.filesystem.POIFSFileSystem
 import org.apache.poi.ss.usermodel.*
 import org.apache.poi.ss.util.CellReference
 import org.apache.poi.xssf.usermodel.XSSFSheet
@@ -57,12 +59,12 @@ public class copyToExcel extends DateConversion {
 	}
 
 	@Keyword
-	public void exel2(String name, int rowNum, int colNum, String file, String sheetNumber) throws IOException {
+	public void exel2(String name, int rowNum, int colNum, String file, String sheetName) throws IOException {
 
 		FileInputStream fis = new FileInputStream(file);
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
-		XSSFSheet sheet = workbook.getSheet(sheetNumber);
+		XSSFSheet sheet = workbook.getSheet(sheetName);
 
 		Row row = sheet.getRow(rowNum);
 		if (row == null) {
@@ -70,18 +72,7 @@ public class copyToExcel extends DateConversion {
 		}
 
 		Cell cell = row.createCell(colNum);
-
-		// Define a regular expression to match Chinese characters
-		def chinesePattern = /\p{IsHan}/
-
-		if (name =~ chinesePattern) {
-
-			def convertedName=super.convertChineseToEnglishDate(name)
-			cell.setCellValue(convertedName);
-		}
-		else {
-
-			cell.setCellValue(name);}
+		cell.setCellValue(name);
 
 		FileOutputStream fos = new FileOutputStream(file);
 		workbook.write(fos);
@@ -485,6 +476,95 @@ public class copyToExcel extends DateConversion {
 
 		fos.close();
 		fis.close();
+	}
+
+	@Keyword
+	public void exel_SY(String name, int rowNum, int colNum, String file, String sheetName) throws IOException {
+
+
+		//sheet.protectSheet(null)
+		FileInputStream fis = new FileInputStream(file);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis)
+
+		XSSFSheet sheet = workbook.getSheet(sheetName);
+
+		Row row = sheet.getRow(rowNum);
+		if (row == null) {
+			row = sheet.createRow(rowNum); // Create a new row if it doesn't exist
+		}
+
+		Cell cell = row.createCell(colNum);
+
+		// Define a regular expression to match Chinese characters
+		String chinesePattern = "\\p{IsHan}";
+
+		if (name.matches(chinesePattern)) {
+			String convertedName = super.convertChineseToEnglishDate(name);
+			cell.setCellValue(convertedName);
+		} else {
+			cell.setCellValue(name);
+		}
+
+		FileOutputStream fos = new FileOutputStream(file)
+		workbook.write(fos);
+
+
+		// Assuming recalculateExcelFormulas is a valid method
+
+
+	}
+
+	@Keyword
+	public void exel_SY2(String name, int rowNum, int colNum, String file, String sheetNumber) throws IOException {
+
+		def sheet = null
+		FileInputStream fis = new FileInputStream(file)
+
+		try {
+			def poifs = new POIFSFileSystem(fis)
+			def workbook = new HSSFWorkbook(poifs)
+			sheet = workbook.getSheet(sheetNumber)
+		} catch (Exception e) {
+			println("Cannot edit")
+		}
+
+		if (sheet == null) {
+			try {
+				def workbook = new XSSFWorkbook(fis)
+				sheet = workbook.getSheet(sheetNumber)
+			} catch (Exception e) {
+				// Handle exception if necessary
+			}
+		}
+
+		// Process the sheet if it is not null
+		if (sheet != null) {
+			def row = sheet.getRow(rowNum)
+			if (row == null) {
+				row = sheet.createRow(rowNum)
+			}
+
+			def cell = row.createCell(colNum)
+
+			// Define a regular expression to match Chinese characters
+			def chinesePattern = /\p{IsHan}/
+
+			if (name =~ chinesePattern) {
+				def convertedName = super.convertChineseToEnglishDate(name)
+				cell.setCellValue(name)
+			} else {
+				cell.setCellValue(name)
+			}
+
+			def fos = new FileOutputStream(file)
+			sheet.workbook.write(fos)
+			fos.close()
+
+			recalculateExcelFormulas(file)
+		}
+
+		fis.close()
+
 	}
 
 }

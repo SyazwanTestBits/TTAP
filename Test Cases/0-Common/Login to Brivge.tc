@@ -5,36 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>95aa879e-018f-40d0-9edf-092a53cd7a39</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>b628d312-e77f-4d16-8a69-91c7d02e9f72</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>b31d0d1f-b132-4156-b7f1-dc0d6f7e4c95</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>e0c8ac52-22b2-45fd-90b7-e2d2ef800756</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>7be1b388-e243-4d26-bd33-42a7f6e94431</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>fc5a1226-43a7-4e0a-bc41-f461596bb5f2</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.BRIVGE_URL</defaultValue>
       <description></description>

@@ -25,15 +25,17 @@ WebUI.navigateToUrl(url)
 
 WebUI.setText(findTestObject('LoginPage_Brivge/input_Sign In_username'), username)
 
-WebUI.setEncryptedText(findTestObject('LoginPage_Brivge/input_Sign In_password'), password)
+not_run: WebUI.setEncryptedText(findTestObject('LoginPage_Brivge/input_Sign In_password'), password)
+
+WebUI.setText(findTestObject('LoginPage_Brivge/input_Sign In_password'), password)
 
 WebUI.click(findTestObject('LoginPage_Brivge/button_Sign In'))
 
-WebUI.setEncryptedText(findTestObject('LoginPage_Brivge/input_Verify_verificationCode'), verificationCode)
+not_run: WebUI.setEncryptedText(findTestObject('LoginPage_Brivge/input_Verify_verificationCode'), verificationCode)
 
 WebUI.click(findTestObject('LoginPage_Brivge/button_Verify'))
 
-usernamelower=username.toLowerCase()
+usernamelower = username.toLowerCase()
 
 WebUI.verifyElementPresent(findTestObject('Navbar_Brivge/p_UserLogin_Username', [('username') : usernamelower]), 0)
 

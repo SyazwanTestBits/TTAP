@@ -41,6 +41,12 @@
       <value></value>
       <variableId>2cbbab54-5ca8-4700-978e-0a5177dfdde6</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1916c260-0b3e-43e7-94eb-7c12bcd53abe</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestData('Scenario 10/S10_TC008_DT').getColumnNames()</defaultValue>
       <description></description>
@@ -82,5 +88,12 @@
       <id>2cbbab54-5ca8-4700-978e-0a5177dfdde6</id>
       <masked>false</masked>
       <name>columnList</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\Katalon_Downloads\\Global Parts.20231117101033.xlsx'</defaultValue>
+      <description></description>
+      <id>1916c260-0b3e-43e7-94eb-7c12bcd53abe</id>
+      <masked>false</masked>
+      <name>filename</name>
    </variable>
 </TestCaseEntity>
