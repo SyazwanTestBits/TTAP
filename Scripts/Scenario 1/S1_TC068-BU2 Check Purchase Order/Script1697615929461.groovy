@@ -34,7 +34,8 @@ WebUI.click(findTestObject('Scenario 1/S1_TC067/li_Download by Excel'))
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_DwnloadCustOrderbyExcel_Success'), 0)
+WebUI.verifyElementPresent(findTestObject('Scenario 1/S1_TC068/Page_PO Monitoring List - Brivge/div_Download Purchase Order by Excel.The operation was successful'), 
+    0)
 
 WebUI.click(findTestObject('Scenario 1/S1_TC068/svg_Download Purchase Order by Excel Cancel'))
 

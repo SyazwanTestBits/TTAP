@@ -6,23 +6,27 @@
    <elementGuidId>7b12464e-76e0-4746-8ed5-eda9b2624643</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.lcbm-MuiButtonBase-root.lcbm-MuiButton-root.lcbm-MuiButton-contained</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@type='button']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Back' or . = 'Back')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.lcbm-MuiButtonBase-root.lcbm-MuiButton-root.lcbm-MuiButton-contained</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>fdd9262a-e992-49d2-8b8a-5d0bdea0dbac</webElementGuid>
+      <webElementGuid>b48a96fe-5de7-41df-9a3d-d6562dd186d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiButtonBase-root lcbm-MuiButton-root lcbm-MuiButton-contained</value>
-      <webElementGuid>76f56785-7f7f-42d0-8c8a-cd5b188d3273</webElementGuid>
+      <webElementGuid>38fbddcc-1014-4006-98d1-a00e9f743615</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>5207215c-f0fa-4d88-81e2-19339f7c7d8e</webElementGuid>
+      <webElementGuid>a65bdb9d-97f3-4a31-a04d-02dae1c72242</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d237ed89-b73c-488a-bcac-e70af88f35a8</webElementGuid>
+      <webElementGuid>573eec17-c7a6-46cd-919e-a05df70379ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Back</value>
-      <webElementGuid>397ca223-871b-4fcb-bda2-7d22563d391f</webElementGuid>
+      <webElementGuid>f0e821e5-9261-4145-bcda-d26ef9680fc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm1 os-host-overflow os-host-overflow-y os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2&quot;]/div[@class=&quot;lcbm-lcbm167&quot;]/div[@class=&quot;lcbm-lcbm168&quot;]/div[1]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiStepper-root lcbm-MuiStepper-horizontal lcbm-lcbm201 lcbm-MuiPaper-elevation0&quot;]/button[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiButton-root lcbm-MuiButton-contained&quot;]</value>
-      <webElementGuid>ecf63227-3369-4179-a952-6d3060c04d50</webElementGuid>
+      <webElementGuid>61b2e0cc-2109-416f-8e8b-af5512348c7d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='button']</value>
-      <webElementGuid>dc69688e-727f-417a-8eed-dc46d5a0b6b4</webElementGuid>
+      <webElementGuid>62f2c890-e311-4294-ada6-17a145d66d8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div/div[2]/div/div/button</value>
-      <webElementGuid>def12b23-7906-46ca-bab2-beee27f6fd6b</webElementGuid>
+      <webElementGuid>aed67a2a-5b77-4ccf-a9a1-a89ac3954276</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Received Request Add New Part'])[1]/following::button[1]</value>
-      <webElementGuid>61b424d2-8e72-4de2-92cd-723d1dac2ac1</webElementGuid>
+      <webElementGuid>60659dbd-3d2e-46d5-849d-16244a7a6e31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::button[1]</value>
-      <webElementGuid>328f7f09-88ae-494b-891c-2d4718144204</webElementGuid>
+      <webElementGuid>0a8c40c9-7e9a-4091-a5eb-623d40e0bde5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>dd6ac869-d710-4ae1-9f75-9c8111b53fc6</webElementGuid>
+      <webElementGuid>b101c2c7-a5b0-421a-84dd-4b19badc25d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Back' or . = 'Back')]</value>
-      <webElementGuid>5da8c11e-fb13-429a-8322-382d94146d04</webElementGuid>
+      <webElementGuid>28d6bdf2-bc27-422d-bcae-88bb0e5d7bd9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

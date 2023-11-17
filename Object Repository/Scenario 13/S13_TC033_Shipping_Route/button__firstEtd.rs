@@ -13,16 +13,20 @@
          <key>CSS</key>
          <value>input[name=&quot;firstEtd&quot;]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'firstEtd' and @type = 'text']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8813c6bd-287c-4c67-8585-9001443e5824</webElementGuid>
+      <webElementGuid>7e626687-f979-4fef-ae19-de3d684929ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1ccd47a9-001e-44a9-aa9d-b2e39e5ed1d2</webElementGuid>
+      <webElementGuid>d0774fed-3c65-4dd8-913e-7bb29eb43659</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>name</name>
       <type>Main</type>
       <value>firstEtd</value>
-      <webElementGuid>6d613611-a583-481c-ab50-333a647c660c</webElementGuid>
+      <webElementGuid>4d3eb607-67e0-4431-945d-4a1d34275c4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>82034252-5307-400f-9b68-815b02d1f4ef</webElementGuid>
+      <webElementGuid>7c12dcf0-3591-4484-ab88-e2fa1e9e2805</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiInputBase-input lcbm-MuiInput-input</value>
-      <webElementGuid>7932f63b-2405-406a-8e03-0e18ad19fe9c</webElementGuid>
+      <webElementGuid>9de6647b-9a72-49da-833c-30a3b168f63e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiDialog-root&quot;]/div[@class=&quot;lcbm-MuiDialog-container lcbm-MuiDialog-scrollPaper&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiDialog-paper lcbm-lcbm345 lcbm-MuiDialog-paperScrollPaper lcbm-MuiDialog-paperWidthSm lcbm-MuiPaper-elevation24 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiDialogContent-root&quot;]/form[@class=&quot;lcbm-lcbm296 lcbm-lcbm553&quot;]/div[@class=&quot;lcbm-lcbm298 lcbm-lcbm565&quot;]/div[@class=&quot;lcbm-lcbm300&quot;]/div[@class=&quot;lcbm-lcbm307&quot;]/div[@class=&quot;lcbm-lcbm313 lcbm-lcbm317&quot;]/div[@class=&quot;lcbm-lcbm302&quot;]/div[@class=&quot;lcbm-lcbm566&quot;]/div[@class=&quot;lcbm-MuiFormControl-root lcbm-MuiTextField-root&quot;]/div[@class=&quot;lcbm-MuiInputBase-root lcbm-MuiInput-root Mui-focused Mui-focused lcbm-MuiInputBase-formControl lcbm-MuiInput-formControl&quot;]/input[@class=&quot;lcbm-MuiInputBase-input lcbm-MuiInput-input&quot;]</value>
-      <webElementGuid>0d4c03ff-6a78-4046-8003-7dcabdff099d</webElementGuid>
+      <webElementGuid>4a0032eb-707b-4638-8b1c-a62d85df8c6d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='firstEtd']</value>
-      <webElementGuid>44e6b4de-337c-4406-9a46-30fbf06c6d18</webElementGuid>
+      <webElementGuid>11958132-31e5-435e-b723-7ca9994e619a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]/div/div/div/div/div/input</value>
-      <webElementGuid>ecd8c143-cc3b-4bde-835d-2cd729fbf1c8</webElementGuid>
+      <webElementGuid>95696cea-6073-4154-876f-292924f348df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'firstEtd' and @type = 'text']</value>
-      <webElementGuid>a2e17698-52c2-4032-9233-c667fac5eab6</webElementGuid>
+      <webElementGuid>df3bc076-ccb7-4575-abcc-b4d2383ee1a4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

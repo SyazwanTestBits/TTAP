@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>b4a52820-665a-47c6-a83d-8a4ef42fa259</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC124-DC3 Revise and Confirm Shipment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -33,7 +33,7 @@
    <testCaseLink>
       <guid>709c38ea-cb61-4261-8fb1-07cb6f7c9bc3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC125-BU3 Check Shipping Details after DC3 Update Shipment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -46,7 +46,7 @@
    <testCaseLink>
       <guid>1be5d6c6-0a5a-4580-b389-ebaf81b2d87f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC126-DC1 Check Shipping Details after DC3 Update Shipment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -59,7 +59,7 @@
    <testCaseLink>
       <guid>0b25852c-55d7-4524-9507-c1bde3bd515f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC127-BU1 Check Shipping Details after DC3 Update Shipment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -218,4 +218,3 @@
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
-

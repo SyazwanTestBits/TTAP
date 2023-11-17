@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Scenario 13/S13_TC035/Page_Brivge/li_Received Reques
 
 WebUI.setText(findTestObject('Scenario 13/S13_TC035/Page_Brivge/input_Filter_Received Request List'), description)
 
-WebUI.click(findTestObject('Scenario 13/S13_TC035/Page_Brivge/button_Edit'))
+WebUI.click(findTestObject('Scenario 1/S1_TC003/button_Edit'))
 
 'turn on back button for debug'
 not_run: WebUI.click(findTestObject('Scenario 12/SC12_TC004/button_Back'))

@@ -28,7 +28,7 @@ WebUI.setText(findTestObject('Scenario 12/SC12_TC014/input_contractNo'), orderNo
 
 WebUI.click(findTestObject('Scenario 10/S10_TC024/input_tick all'))
 
-WebUI.click(findTestObject('Scenario 1/S1_TC072/button_Download'))
+WebUI.click(findTestObject('Scenario 1/S1_TC072/Page_CO Monitoring List - Brivge/button_Download'))
 
 WebUI.click(findTestObject('Scenario 1/S1_TC072/li_Download by Excel'))
 
@@ -56,7 +56,24 @@ KeywordUtil.logInfo("Verified New Order Quantity (Actual): $actualOrderQTY")
 
 println(actualOrderQTY)
 
-WebUI.verifyElementText(findTestObject('Scenario 1/S1_TC072/div_OrderQTY (Amount)'), expectedOrderQTY)
+WebUI.click(findTestObject('Scenario 1/S1_TC072/Page_CO Monitoring Detail - Brivge/div_Customer Parts No'))
+
+for (int rowl = 1; rowl <= 6; rowl++) {
+    int coll = 1
+
+    for (String col : columnname) {
+        String valuecol = testDataCheck.getValue(col, rowl)
+
+        def actualValue = WebUI.getText(findTestObject('Scenario 10/S10_TC177/p_partCheck', [('lrow') : rowl, ('lcol') : coll]))
+
+        KeywordUtil.logInfo("Expected value: $valuecol ; Actual value: $actualValue")
+
+        WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC177/p_partCheck', [('lrow') : rowl, ('lcol') : coll]), 
+            valuecol)
+
+        coll = (coll + 1)
+    }
+}
 
 WebUI.closeBrowser()
 
