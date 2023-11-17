@@ -19,8 +19,9 @@ import com.kms.katalon.core.testdata.reader.SheetPOI as SheetPOI
 import org.openqa.selenium.Keys as Keys
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL_TEST, ('username') : GlobalVariable.ADMIN_USERNAME
-        , ('password') : '1', ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : 'SG-TTAP'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.ADMIN_USERNAME
+        , ('password') : GlobalVariable.ADMIN_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : 'SG-TTAP'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Navbar_Brivge/button_Master'))
 

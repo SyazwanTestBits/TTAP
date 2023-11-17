@@ -25,9 +25,9 @@ WebUI.navigateToUrl(url)
 
 WebUI.setText(findTestObject('LoginPage_Brivge/input_Sign In_username'), username)
 
-not_run: WebUI.setEncryptedText(findTestObject('LoginPage_Brivge/input_Sign In_password'), password)
+WebUI.setEncryptedText(findTestObject('LoginPage_Brivge/input_Sign In_password'), password)
 
-WebUI.setText(findTestObject('LoginPage_Brivge/input_Sign In_password'), password)
+not_run: WebUI.setText(findTestObject('LoginPage_Brivge/input_Sign In_password'), password)
 
 WebUI.click(findTestObject('LoginPage_Brivge/button_Sign In'))
 
