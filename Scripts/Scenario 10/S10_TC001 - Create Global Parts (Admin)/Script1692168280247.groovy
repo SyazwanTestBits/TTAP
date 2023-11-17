@@ -2,7 +2,6 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -18,9 +17,10 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.testdata.reader.SheetPOI as SheetPOI
 import org.openqa.selenium.Keys as Keys
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.ADMIN_USERNAME
-        , ('password') : GlobalVariable.ADMIN_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.ADMIN_COMPANY], 
+        , ('password') : GlobalVariable.ADMIN_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : 'SG-TTAP'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Navbar_Brivge/button_Master'))
@@ -45,7 +45,12 @@ WebUI.delay(3)
 
 downloadedExcel = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
+println(downloadedExcel)
+
+not_run: CustomKeywords.'python.disableProtect_excel'(downloadedExcel)
+
 for (def index : (1..dataFile.getRowNumbers())) {
+    //CustomKeywords.'copyToExcel.exel_SY2'('3333', 7, 0, downloadedExcel,'Global Parts')
     CustomKeywords.'copyToExcel.exel2'(findTestData('Scenario 10/S10_TC001').getValue(2, index), index + 6, 0, downloadedExcel, 
         'Global Parts')
 

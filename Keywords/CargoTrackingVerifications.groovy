@@ -1,4 +1,3 @@
-import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 
@@ -13,15 +12,6 @@ import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Calendar
 import java.time.LocalTime
-
-
-
-
-
-
-
-
-
 
 public class CargoTrackingVerifications {
 

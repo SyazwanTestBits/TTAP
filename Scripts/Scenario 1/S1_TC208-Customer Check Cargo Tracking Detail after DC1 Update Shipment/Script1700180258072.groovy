@@ -17,33 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl(url)
-
-WebUI.setText(findTestObject('LoginPage_Brivge/input_Sign In_username'), username)
-
-WebUI.setEncryptedText(findTestObject('LoginPage_Brivge/input_Sign In_password'), password)
-
-not_run: WebUI.setText(findTestObject('LoginPage_Brivge/input_Sign In_password'), password)
-
-WebUI.click(findTestObject('LoginPage_Brivge/button_Sign In'))
-
-not_run: WebUI.setEncryptedText(findTestObject('LoginPage_Brivge/input_Verify_verificationCode'), verificationCode)
-
-WebUI.click(findTestObject('LoginPage_Brivge/button_Verify'))
-
-usernamelower = username.toLowerCase()
-
-WebUI.verifyElementPresent(findTestObject('Navbar_Brivge/p_UserLogin_Username', [('username') : usernamelower]), 0)
-
-WebUI.click(findTestObject('Navbar_Brivge/UserProfile_Brivge/button_UserProfile'))
-
-WebUI.click(findTestObject('Navbar_Brivge/UserProfile_Brivge/button_CompanyOptions'))
-
-WebUI.click(findTestObject('Navbar_Brivge/UserProfile_Brivge/li_Company', [('company') : company]))
-
-WebUI.waitForPageLoad(0)
-

@@ -39,7 +39,7 @@ public class DateConversionLocal {
 		return formattedDate
 
 	}
-	
+
 	@Keyword
 	public static String convert_DateChinese_Into_DateEnglish_WithOutput_V2(String inputDate, String inputFormat, String outputFormat) {
 
@@ -50,6 +50,22 @@ public class DateConversionLocal {
 
 
 		def outputLocalFormat = new SimpleDateFormat(outputFormat, Locale.ENGLISH)
+		String formattedDate = outputLocalFormat.format(parsedDate)
+
+		return formattedDate
+
+	}
+
+	@Keyword
+	public static String convert_DateENG_Into_DateCHN_WithOutput(String inputDate, String inputFormat, String outputFormat) {
+
+		//Standard input = 'd MMM yyyy'
+
+		def SimpleDateFormat sdf = new SimpleDateFormat(inputFormat, Locale.ENGLISH)
+		def parsedDate = sdf.parse(inputDate)
+
+
+		def outputLocalFormat = new SimpleDateFormat(outputFormat)
 		String formattedDate = outputLocalFormat.format(parsedDate)
 
 		return formattedDate
@@ -71,8 +87,8 @@ public class DateConversionLocal {
 
 	}
 
-	
-	
+
+
 	@Keyword
 	def changeDateFormat_Chinese_Into_Chinese (String inputDate, String inputFormat, String outputFormat) {
 
@@ -87,7 +103,4 @@ public class DateConversionLocal {
 
 		return formattedDate
 	}
-	
-	
-	
 }

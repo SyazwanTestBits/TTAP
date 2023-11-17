@@ -25,7 +25,11 @@ public class commonUtils extends DateConversion {
 		def outboundDateDay = day.toInteger()
 		def outboundDateMonth = month.toInteger()
 		def outboundDateYear = year.toInteger()
-		return [outboundDateDay, outboundDateMonth, outboundDateYear]
+		return [
+			outboundDateDay,
+			outboundDateMonth,
+			outboundDateYear
+		]
 	}
 
 	@Keyword(keywordObject='Common Utils')
@@ -44,7 +48,11 @@ public class commonUtils extends DateConversion {
 		def outboundDateDay = day.toInteger()
 		def outboundDateMonth = month.toInteger()
 		def outboundDateYear = year.toInteger()
-		return [outboundDateDay, outboundDateMonth, outboundDateYear]
+		return [
+			outboundDateDay,
+			outboundDateMonth,
+			outboundDateYear
+		]
 	}
 
 	@Keyword(keywordObject='Common Utils')
@@ -92,16 +100,16 @@ public class commonUtils extends DateConversion {
 			def convertedDate=super.convertChineseToEnglishDate2(date)
 
 			convertedformattedDate = outputFormat.format(convertedDate)
-			
+
 			return convertedformattedDate
-			
+
 		}
 		else {
 			// Format the date as 'MMM dd, yyyy' using the output format
 			formattedDate = outputFormat.format(date)
-			
+
 			return formattedDate
-			}
+		}
 
 		//return formattedDate
 	}
