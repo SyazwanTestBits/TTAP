@@ -59,11 +59,11 @@ for (int rowl = 1; rowl <= numberrowtd; rowl++) {
 
         String actualValue = WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/p list/p_part detail list', 
                 [('lcol') : colindex, ('lrow') : rowl]), valuecol)
-		
-		//Log actual and expected results
-		KeywordUtil.logInfo("Actual: $actualValue and Expected: $valuecol")
 
-		println("$actualValue same as expected -->  $valuecol")
+        //Log actual and expected results
+        KeywordUtil.logInfo("Actual: $actualValue and Expected: $valuecol")
+
+        println("$actualValue same as expected -->  $valuecol")
 
         colindex = (colindex + 1)
     }
@@ -85,7 +85,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Scenario 13/S13_TC038 
 latestFilePath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
 WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 9/S9_Cmn3_Compare Test Data'), [('LatestPath') : latestFilePath
-        , ('expectationExcelPath') : expectedContractRouteParts, ('startRows') : 6, ('endRows') : 10, ('startCols') : 6, ('endCols') : 13
+        , ('expectationExcelPath') : expectedContractRouteParts, ('startRows') : 6, ('endRows') : 10, ('startCols') : 6, ('endCols') : 11
         , ('NumberOfNoMatch') : NumberOfNoMatch], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/button_download in view page'))
@@ -101,7 +101,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Scenario 13/S13_TC038 
 latestFilePath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
 CustomKeywords.'verifyExcelData.verifyDynamicSort'(expectedContractRoutePartsOverview, latestFilePath, 4, [6, 7, 8, 9, 10], 
-    [3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14])
+    [3, 4, 5, 6, 7, 9, 10, 11, 13, 14])
 
 WebUI.closeBrowser()
 

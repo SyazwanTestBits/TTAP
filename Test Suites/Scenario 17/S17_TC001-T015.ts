@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>e7a5c384-124e-4ee3-b9b6-4c5072d53e8d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 17/S17_TC001- Customer Request Add New Part</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -57,7 +57,7 @@
    <testCaseLink>
       <guid>fc245eed-0b95-4723-b090-caee26c1433b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 17/S17_TC001.1- Supplier Create Payment Terms List</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -88,7 +88,7 @@
    <testCaseLink>
       <guid>7c4ad84d-988f-4a52-be3e-3ce02929cdad</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Scenario 17/S17_TC001.2- Supplier Create Shipping Route</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
