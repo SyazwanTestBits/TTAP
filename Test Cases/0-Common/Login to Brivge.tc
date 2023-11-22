@@ -36,35 +36,35 @@
       <variableId>fc5a1226-43a7-4e0a-bc41-f461596bb5f2</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>GlobalVariable.BRIVGE_URL</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>b628d312-e77f-4d16-8a69-91c7d02e9f72</id>
       <masked>false</masked>
       <name>url</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.ADMIN_USERNAME</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>b31d0d1f-b132-4156-b7f1-dc0d6f7e4c95</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.ADMIN_PWD</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>e0c8ac52-22b2-45fd-90b7-e2d2ef800756</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.VERIFICATION_CODE</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>7be1b388-e243-4d26-bd33-42a7f6e94431</id>
       <masked>false</masked>
       <name>verificationCode</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.ADMIN_COMPANY</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>fc5a1226-43a7-4e0a-bc41-f461596bb5f2</id>
       <masked>false</masked>

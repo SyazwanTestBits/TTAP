@@ -123,8 +123,12 @@ int firstmonthetd = Integer.parseInt(MonthFirstETD)
 
 int firstyearetd = Integer.parseInt(YearFirstETD)
 
+println((((firstdayetd + ' ') + firstmonthetd) + ' ') + firstyearetd)
+
+println(WebUI.getText(findTestObject('Calendar_Object/div_calendar header')))
+
 CustomKeywords.'util.handlePicker2.handleCalendar'(findTestObject('Scenario 13/S13_TC033_Shipping_Route/div_calendar header'), 
-    findTestObject('Scenario 13/S13_TC033_Shipping_Route/button next calendar'), findTestObject('Scenario 13/S13_TC033_Shipping_Route/button previous calendar'), 
+    findTestObject('Calendar_Object/button next calendar'), findTestObject('Calendar_Object/button previous calendar'), 
     firstdayetd, firstmonthetd, firstyearetd)
 
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC033_Shipping_Route/button__lastEtd'))

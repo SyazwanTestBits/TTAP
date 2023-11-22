@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //String rownum = findTestData('Data Files/Scenario 13/S13_TC063').getRowNumbers()
-WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL_TEST, ('username') : username
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : username
         , ('password') : password, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : company], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Scenario 13/S13_TC063/button_Logistics'), FailureHandling.STOP_ON_FAILURE)
@@ -93,5 +93,5 @@ for (int row = 1; row <= testData62.getRowNumbers(); row++) {
     }
 }
 
-not_run: WebUI.closeBrowser()
+WebUI.closeBrowser()
 

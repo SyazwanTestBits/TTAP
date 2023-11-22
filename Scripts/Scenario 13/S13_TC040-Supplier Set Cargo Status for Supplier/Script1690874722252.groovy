@@ -114,7 +114,7 @@ for (row = 1; row <= totalrow; row++) {
 
     WebUI.click(findTestObject('Scenario 13/S13_TC040/button_Add Unit status alert'))
 
-    WebUI.setText(findTestObject('Scenario 13/S13_TC040/input_Status Alert_add', [('alert_i') : i_alert]), 'test 123 ver2')
+    WebUI.setText(findTestObject('Scenario 13/S13_TC040/input_Status Alert_add', [('alert_i') : i_alert]),  findTestData('Scenario 13/S13_TC040').getValue('add alert', row))
 
     CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 13/S13_TC040/button_Save And Exit'), 1)
 

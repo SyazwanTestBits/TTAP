@@ -16,9 +16,66 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.apache.poi.openxml4j.util.ZipSecureFile as ZipSecureFile
+import org.apache.poi.ss.usermodel.*
+import org.apache.poi.ss.util.CellReference as CellReference
+import org.apache.poi.xssf.usermodel.XSSFSheet as XSSFSheet
+import org.apache.poi.xssf.usermodel.XSSFWorkbook as XSSFWorkbook
+import com.kms.katalon.core.annotation.Keyword as Keyword
 
-downloadedFile = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
+file_input = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
-CustomKeywords.'verifyExcelData.verifyDynamicSort2'('Excel Files\\Scenario 12\\Expected Data\\TC71\\Expected Customer Order Regular.xlsx', downloadedFile, 
-    'Plan & Simulation', 1, [7, 8, 9, 10, 11, 12], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
+println(file_input)
+
+rowNum=8
+
+colNum=4
+
+name= 'CONTOH2'
+
+not_run: CustomKeywords.'copy_to_excel_SY.exel_SY'('Test', 6, 5, file_input, 'Global Parts')
+
+FileInputStream fis = new FileInputStream(file_input)
+
+XSSFWorkbook workbook = new XSSFWorkbook(fis)
+
+XSSFSheet sheet = workbook.getSheet('Global Parts')
+
+Row row = sheet.getRow(rowNum)
+
+if (row == null) {
+    row = sheet.createRow(rowNum // Create a new row if it doesn't exist
+        )
+}
+
+Cell cell = row.createCell(colNum)
+
+if (name.matches('\\d+')) {
+    //Convert 'name' String to Integer if it has numbers only
+    int intValue = Integer.parseInt(name)
+
+    cell.setCellValue(intValue //'name' String that has Chinese letters will be converted to English
+        //'name' String that has letters will remain as String
+        )
+} else {
+    def chinesePattern = '\\p{IsHan}'
+
+    if (name =~ chinesePattern) {
+        def convertedName = super.convertChineseToEnglishDate(name)
+
+        cell.setCellValue(convertedName)
+    } else {
+        cell.setCellValue(name)
+    }
+}
+
+FileOutputStream fos = new FileOutputStream(file_input)
+
+workbook.write(fos)
+
+fos.close()
+
+fis.close()
+
+//recalculateExcelFormulas(file_input)
 

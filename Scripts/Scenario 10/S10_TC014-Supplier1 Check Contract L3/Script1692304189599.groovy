@@ -55,8 +55,6 @@ WebUI.setText(findTestObject('Scenario 13/S13_TC036 n 37-Check Contract/input_Se
 
 contractNo = WebUI.getText(findTestObject('Scenario 13/S13_TC036 n 37-Check Contract/p_first row contract list'), FailureHandling.STOP_ON_FAILURE)
 
-not_run: CustomKeywords.'copyToExcel.exel'(contractNo, 1, 0, 'Excel Files\\Scenario 13', 'S13_TestCases_Data.xlsx', 'AutoGen')
-
 WebUI.click(findTestObject('Scenario 13/S13_TC036 n 37-Check Contract/button_view contract list'))
 
 WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC036 n 37-Check Contract/h3_header page view and modify'), 'View Contract')
@@ -150,8 +148,19 @@ for (int row = 1; row <= testDataDT.getRowNumbers(); row++) {
     int col = 1
 
     for (String colname : headerlist) {
+        not_run: CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Scenario 10/S10_TC008/View Contract/table/p_Dt_contents', 
+                [('row') : row, ('col') : col]), 0)
+
+        expectdata = testDataDT.getValue(colname, row)
+
+        'PLEASE ENABLE IF YOUR COMPUTER IS CHINESE LOCAL. IF NOT, DISABLE IT'
+        if (colname == 'CurrentApplyDate') {
+            expectdata = CustomKeywords.'DateConversionLocal.changeDateFormat_Chinese_Into_Chinese'(testDataDT.getValue(
+                    colname, row), 'MMM d, yyyy', 'yyyy年MM月dd日')
+        }
+        
         WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC008/View Contract/table/p_Dt_contents', [('row') : row
-                    , ('col') : col]), testDataDT.getValue(colname, row))
+                    , ('col') : col]), expectdata)
 
         col = (col + 1)
     }

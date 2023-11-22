@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Dummy S10_TC001 - Create Global Parts (Admin)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>debd3e49-4935-4d89-9499-af487354a860</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9092cc39-0b24-4551-bb48-368bc9649a95</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Scenario 10/S10_TC001')</defaultValue>
+      <description></description>
+      <id>9092cc39-0b24-4551-bb48-368bc9649a95</id>
+      <masked>false</masked>
+      <name>dataFile</name>
+   </variable>
+</TestCaseEntity>

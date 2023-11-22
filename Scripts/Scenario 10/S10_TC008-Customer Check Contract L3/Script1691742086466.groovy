@@ -127,8 +127,16 @@ for (int row = 1; row <= testDataDT.getRowNumbers(); row++) {
         not_run: CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Scenario 10/S10_TC008/View Contract/table/p_Dt_contents', 
                 [('row') : row, ('col') : col]), 0)
 
+        expectdata = testDataDT.getValue(colname, row)
+
+        'PLEASE ENABLE IF YOUR COMPUTER IS CHINESE LOCAL. IF NOT, DISABLE IT'
+        not_run: if (colname == 'CurrentApplyDate') {
+            expectdata = CustomKeywords.'DateConversionLocal.changeDateFormat_Chinese_Into_Chinese'(testDataDT.getValue(
+                    colname, row), 'MMM d, yyyy', 'yyyy年MM月dd日')
+        }
+        
         WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC008/View Contract/table/p_Dt_contents', [('row') : row
-                    , ('col') : col]), testDataDT.getValue(colname, row))
+                    , ('col') : col]), expectdata)
 
         col = (col + 1)
     }

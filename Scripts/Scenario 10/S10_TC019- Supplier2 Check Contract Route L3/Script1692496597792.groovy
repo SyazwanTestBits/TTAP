@@ -26,16 +26,17 @@ WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC038 n 39-Check C
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC038 n 39-Check Contract Route/li_Contract Route List'))
 
 WebUI.setText(findTestObject('Object Repository/Scenario 13/S13_TC038 n 39-Check Contract Route/input_search contract route link'), 
-    routedescript)
+    contract_route_id)
 
-WebUI.click(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/div_Dt_Updated Date'))
+not_run: WebUI.click(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/div_Dt_Updated Date'))
 
-WebUI.click(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/div_Dt_Updated Date'))
+not_run: WebUI.click(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/div_Dt_Updated Date'))
 
-contractRouteID = WebUI.getText(findTestObject('Object Repository/Scenario 13/S13_TC038 n 39-Check Contract Route/p_first row contract route list'), 
+not_run: contractRouteID = WebUI.getText(findTestObject('Object Repository/Scenario 13/S13_TC038 n 39-Check Contract Route/p_first row contract route list'), 
     FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'copyToExcel.exel'(contractRouteID, 1, 0, 'Excel Files\\Scenario 10', 'S10_TestCases_Data.xlsx', 'TC016')
+not_run: CustomKeywords.'copyToExcel.exel'(contractRouteID, 1, 0, 'Excel Files\\Scenario 10', 'S10_TestCases_Data.xlsx', 
+    'TC016')
 
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC038 n 39-Check Contract Route/input_tick first row contract route list'))
 

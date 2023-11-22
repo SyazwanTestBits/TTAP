@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Dummy S13_TC081-Release Seller GI Invoice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a254e26-1a55-4e38-9beb-ef55db644e35</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>6fd606a0-1654-46f2-8560-7f485b164dc5</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Scenario 13/S13_TC055</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>43c5c3ba-9dbe-4eb6-9f50-2765f3549de0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bdb24d86-4b99-4ac0-a606-f1a41d41e2b8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>603c6673-d988-4cce-aec8-75d26f3ab343</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>40709b1b-3ad5-49d8-889c-ac0dfa0cc2e7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.ADMIN_USERNAME</defaultValue>
+      <description></description>
+      <id>43c5c3ba-9dbe-4eb6-9f50-2765f3549de0</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.ADMIN_PWD</defaultValue>
+      <description></description>
+      <id>bdb24d86-4b99-4ac0-a606-f1a41d41e2b8</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.COMPANY_SUPPLIER_1</defaultValue>
+      <description></description>
+      <id>603c6673-d988-4cce-aec8-75d26f3ab343</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Scenario 13/S13_TC055').getValue('InvoiveNo', 1)</defaultValue>
+      <description></description>
+      <id>40709b1b-3ad5-49d8-889c-ac0dfa0cc2e7</id>
+      <masked>false</masked>
+      <name>invoiceNo</name>
+   </variable>
+</TestCaseEntity>

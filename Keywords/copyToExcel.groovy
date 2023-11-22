@@ -35,7 +35,8 @@ public class copyToExcel extends DateConversion {
 		}
 		else {
 
-			cell.setCellValue(name);}
+			cell.setCellValue(name);
+		}
 
 
 		FileOutputStream fos = new FileOutputStream(fullFilePath);
@@ -81,7 +82,8 @@ public class copyToExcel extends DateConversion {
 		}
 		else {
 
-			cell.setCellValue(name);}
+			cell.setCellValue(name);
+		}
 
 		FileOutputStream fos = new FileOutputStream(file);
 		workbook.write(fos);
@@ -108,7 +110,8 @@ public class copyToExcel extends DateConversion {
 
 		Cell cell = row.createCell(colNum);
 
-		if (name.matches("\\d+")) {  //Convert 'name' String to Integer if it has numbers only
+		if (name.matches("\\d+")) {
+			//Convert 'name' String to Integer if it has numbers only
 			int intValue = Integer.parseInt(name);
 			cell.setCellValue(intValue);
 		}
@@ -121,14 +124,13 @@ public class copyToExcel extends DateConversion {
 
 				def convertedName=super.convertChineseToEnglishDate(name)
 				cell.setCellValue(convertedName); //'name' String that has Chinese letters will be converted to English
-
 			}
 
 			else {
 
 				//'name' String that has letters will remain as String
-				cell.setCellValue(name);}
-
+				cell.setCellValue(name);
+			}
 		}
 
 
@@ -164,11 +166,13 @@ public class copyToExcel extends DateConversion {
 		if (name =~ chinesePattern) {
 
 			def convertedName=super.convertChineseToEnglishDate(name)
-			cell.setCellValue(convertedName);}
+			cell.setCellValue(convertedName);
+		}
 
 		else {
 
-			cell.setCellValue(name);}
+			cell.setCellValue(name);
+		}
 
 		FileOutputStream fos = new FileOutputStream(file);
 		workbook.write(fos);
@@ -194,7 +198,8 @@ public class copyToExcel extends DateConversion {
 
 		Cell cell = row.createCell(colNum);
 
-		if (name.matches("\\d+")) {  //Convert 'name' String to Integer if it has numbers only
+		if (name.matches("\\d+")) {
+			//Convert 'name' String to Integer if it has numbers only
 			int intValue = Integer.parseInt(name);
 			cell.setCellValue(intValue);
 		}
@@ -207,13 +212,13 @@ public class copyToExcel extends DateConversion {
 
 				def convertedName=super.convertChineseToEnglishDate(name)
 				cell.setCellValue(convertedName); //'name' String that has Chinese letters will be converted to English
-
 			}
 
 			else {
 
 				//'name' String that has letters will remain as String
-				cell.setCellValue(name);}
+				cell.setCellValue(name);
+			}
 		}
 
 
@@ -222,7 +227,6 @@ public class copyToExcel extends DateConversion {
 
 		fos.close();
 		fis.close();
-
 	}
 
 	@Keyword
@@ -290,7 +294,8 @@ public class copyToExcel extends DateConversion {
 			cell.setCellValue(convertedName);
 		}
 		else {
-			cell.setCellValue(name);}
+			cell.setCellValue(name);
+		}
 
 		FileOutputStream fos = new FileOutputStream(file);
 		workbook.write(fos);
@@ -334,7 +339,8 @@ public class copyToExcel extends DateConversion {
 			cell.setCellValue(convertedName);
 		}
 		else {
-			cell.setCellValue(name);}
+			cell.setCellValue(name);
+		}
 
 		FileOutputStream fos = new FileOutputStream(file);
 		workbook.write(fos);
@@ -343,7 +349,6 @@ public class copyToExcel extends DateConversion {
 		fis.close();
 
 		//recalculateExcelFormulas(file);
-
 	}
 
 	@Keyword
@@ -370,9 +375,11 @@ public class copyToExcel extends DateConversion {
 
 		if (name =~ chinesePattern) {
 			def convertedName=super.convertChineseToEnglishDate(name)
-			cell.setCellValue(convertedName);}
+			cell.setCellValue(convertedName);
+		}
 		else {
-			cell.setCellValue(name);}
+			cell.setCellValue(name);
+		}
 
 		//close
 		FileOutputStream fos = new FileOutputStream(path);
@@ -382,7 +389,6 @@ public class copyToExcel extends DateConversion {
 		//return the file path for upload
 		System.out.println("File path is: " + path);
 		return path;
-
 	}
 
 	@Keyword
@@ -410,11 +416,13 @@ public class copyToExcel extends DateConversion {
 		if (name =~ chinesePattern) {
 
 			def convertedName=super.convertChineseToEnglishDate(name)
-			cell.setCellValue(convertedName);}
+			cell.setCellValue(convertedName);
+		}
 
 		else {
 
-			cell.setCellValue(name);}
+			cell.setCellValue(name);
+		}
 
 		//close
 		FileOutputStream fos = new FileOutputStream(path);
@@ -424,7 +432,6 @@ public class copyToExcel extends DateConversion {
 		//return the file path for upload
 		System.out.println("File path is: " + path);
 		return path;
-
 	}
 
 	public void recalculateExcelFormulas(path) {
@@ -478,7 +485,8 @@ public class copyToExcel extends DateConversion {
 		else {
 
 			cell.setCellValue(new Date(date));
-			cell.setCellStyle(dateStyle);}
+			cell.setCellStyle(dateStyle);
+		}
 
 		FileOutputStream fos = new FileOutputStream(file);
 		workbook.write(fos);
@@ -486,7 +494,4 @@ public class copyToExcel extends DateConversion {
 		fos.close();
 		fis.close();
 	}
-
-
-
 }
