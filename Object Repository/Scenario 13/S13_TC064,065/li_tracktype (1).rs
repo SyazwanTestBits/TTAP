@@ -10,23 +10,23 @@
          <value>li.lcbm-MuiButtonBase-root.lcbm-MuiListItem-root.lcbm-MuiMenuItem-root.Mui-selected.lcbm-MuiMenuItem-gutters.lcbm-MuiListItem-gutters.lcbm-MuiListItem-button.Mui-selected</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[4]/div[3]/ul/li[2]</value>
+         <key>BASIC</key>
+         <value>//li[(text() = 'MANUAL' or . = 'MANUAL')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'MANUAL' or . = 'MANUAL')]</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;menu-&quot;]/div[3]/ul/li[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>0b7160c9-1cc3-481f-94b7-72df8ddd3b06</webElementGuid>
+      <webElementGuid>3a90a137-1675-4ea9-8732-8495b56c2725</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiButtonBase-root lcbm-MuiListItem-root lcbm-MuiMenuItem-root Mui-selected lcbm-MuiMenuItem-gutters lcbm-MuiListItem-gutters lcbm-MuiListItem-button Mui-selected</value>
-      <webElementGuid>0ed21d8d-6f0a-4664-85ef-a5cffebbef8d</webElementGuid>
+      <webElementGuid>c1edaca2-d4d8-4813-ab1f-bff722130586</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>d7623cd9-7d41-4174-ad95-528428f646b0</webElementGuid>
+      <webElementGuid>194da08d-1544-4c44-b41f-8cfa995f7d7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>62d00785-5d69-45fc-a175-b81b8aca1a0c</webElementGuid>
+      <webElementGuid>cc0fa51d-fc19-4018-b26f-469bfbceb507</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b38ea274-d872-496f-989b-e568afddc687</webElementGuid>
+      <webElementGuid>599a0b18-a9c9-413a-ae07-01e0ff811d6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>5fc9d8c0-3d97-48be-a117-1718a196d9dc</webElementGuid>
+      <webElementGuid>66628b08-c9e2-4fbd-ba5a-4706bd5701ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>data-value</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>73a491e9-0756-4a12-ac11-355232a48e72</webElementGuid>
+      <webElementGuid>85e81817-314a-43d7-b4e6-9dc44160ab1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>MANUAL</value>
-      <webElementGuid>fb70591c-65e4-4a5f-a830-5ce1e19e5834</webElementGuid>
+      <webElementGuid>4e6d5d1b-cdab-4b97-a0e9-04dcbbbb9bd8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;menu-&quot;)/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiMenu-paper lcbm-MuiPopover-paper lcbm-MuiPaper-elevation8 lcbm-MuiPaper-rounded&quot;]/ul[@class=&quot;lcbm-MuiList-root lcbm-MuiMenu-list lcbm-MuiList-padding&quot;]/li[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiListItem-root lcbm-MuiMenuItem-root Mui-selected lcbm-MuiMenuItem-gutters lcbm-MuiListItem-gutters lcbm-MuiListItem-button Mui-selected&quot;]</value>
-      <webElementGuid>898796e5-77bc-426d-93ca-bc86d40e5aa6</webElementGuid>
+      <webElementGuid>0c0faac0-1f88-40a8-8c82-ecf3f89f39bc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='menu-']/div[3]/ul/li</value>
-      <webElementGuid>06d854bf-aae0-479a-a36c-efb8e938e4e3</webElementGuid>
+      <webElementGuid>0668b2e2-707f-4c1d-8bb8-d1dee8d2ddbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::li[1]</value>
-      <webElementGuid>d810f534-53e7-4de4-ab1e-faf663f1091c</webElementGuid>
+      <webElementGuid>904dbc7e-2933-49b6-8294-93748242b4c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::li[1]</value>
-      <webElementGuid>1a4bb4a2-b605-4167-8ba5-ae748dac1cf2</webElementGuid>
+      <webElementGuid>2e371fb3-73e8-43a2-a8ff-7f59c1f26e24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='MANUAL'])[3]/preceding::li[1]</value>
-      <webElementGuid>7f414217-8917-4cce-aae3-e124ac74cb21</webElementGuid>
+      <webElementGuid>87579974-4301-47b2-8d8d-ee6f5516f469</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ul/li</value>
-      <webElementGuid>55b6df83-7839-4fad-899a-19ac600521ed</webElementGuid>
+      <webElementGuid>1957d064-8530-46ca-8d37-3d75dff94db1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +138,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'REAL-TIME' or . = 'REAL-TIME')]</value>
-      <webElementGuid>5a2a61a6-f15b-4e33-bab9-a3e82b64ce71</webElementGuid>
+      <webElementGuid>50c2b7d9-0d12-42f1-8141-3f07d4a68cdf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

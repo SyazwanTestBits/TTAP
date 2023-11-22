@@ -45,6 +45,11 @@ public class python {
 		runPython("keywords.disableProtect_excel_v2", filename)
 	}
 
+	@Keyword
+	def convert_xlsm_xlsx(String filename) {
+		runPython("convert_xlsm_xlsx", filename)
+	}
+
 	private runPython(String script, Object[] keywordArgs) {
 		try {
 			KeywordUtil.logInfo(Arrays.deepToString(keywordArgs))

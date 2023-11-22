@@ -102,7 +102,6 @@ public class ManageFiles {
 				zipInputStream.close()
 
 				KeywordUtil.logInfo(filePath + ': Successfully Extracted into :' + destinationFolderPath)
-
 			} else {
 				KeywordUtil.logInfo('The specified file is not a ZIP file.')
 			}
@@ -233,6 +232,5 @@ public class ManageFiles {
 		// Your logging implementation here
 		KeywordUtil.logInfo(message)
 	}
-
 }
 

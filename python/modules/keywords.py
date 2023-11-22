@@ -4,6 +4,7 @@ import logging
 import time
 import openpyxl
 import win32com.client as win32
+import shutil
 
 def hello_world(allArgs, *numbers):
   print("Hello, World from print")
@@ -44,3 +45,10 @@ def disableProtect_excel_v2(allArgs, file_path, sheetName):
     xlbook.Close()
     # Quit the Excel application
     xlapp.Quit()
+
+def convert_xlsm_xlsx(allArgs, input_path):
+    workbook = openpyxl.load_workbook(input_path)
+    output_path = input_path.replace(".xlsm", ".xlsx")
+    workbook.save(output_path)
+
+    

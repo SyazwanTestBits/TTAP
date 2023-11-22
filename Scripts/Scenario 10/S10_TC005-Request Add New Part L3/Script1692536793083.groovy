@@ -126,7 +126,7 @@ WebUI.delay(1)
 
 WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC034/Page_Brivge/div_Submit_The Operation was Succesful'), 0)
 
-WebUI.callTestCase(findTestCase('Scenario 10/S10_TC005.1-Get Request No'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Scenario 10/S10_TC005.1-(not need run) Get Request No'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

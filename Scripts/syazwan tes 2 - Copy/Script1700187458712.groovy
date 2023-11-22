@@ -1,34 +1,40 @@
-import org.apache.poi.hssf.usermodel.HSSFWorkbook
-import org.apache.poi.openxml4j.util.ZipSecureFile
-import org.apache.poi.poifs.filesystem.POIFSFileSystem
+import org.apache.poi.hssf.usermodel.HSSFWorkbook as HSSFWorkbook
+import org.apache.poi.openxml4j.util.ZipSecureFile as ZipSecureFile
+import org.apache.poi.poifs.filesystem.POIFSFileSystem as POIFSFileSystem
 import org.apache.poi.ss.usermodel.*
-import org.apache.poi.ss.util.CellReference
-import org.apache.poi.xssf.usermodel.XSSFSheet
-import org.apache.poi.xssf.usermodel.XSSFWorkbook
-import com.kms.katalon.core.annotation.Keyword
-import com.kms.katalon.core.annotation.Keyword
+import org.apache.poi.ss.util.CellReference as CellReference
+import org.apache.poi.xssf.usermodel.XSSFSheet as XSSFSheet
+import org.apache.poi.xssf.usermodel.XSSFWorkbook as XSSFWorkbook
+import com.kms.katalon.core.annotation.Keyword as Keyword
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import internal.GlobalVariable as GlobalVariable
 
 //file='excel.xlsx'
-sheetName="Global Parts"
-rowNum=10
-colNum=1
-name="hello world"
+sheetName = 'Global Parts'
 
-try (InputStream fileStream = getClass().getResourceAsStream("/Content.zip");
-	InputStream bufferedStream = new BufferedInputStream(fileStream);
-	ZipInputStream zipStream = new ZipInputStream(bufferedStream)) {
- 
- ZipEntry entry = zipStream.getNextEntry();
- System.out.println("Entry name: " + entry.getName());
- System.out.println("Entry compressed size: " + entry.getCompressedSize());
- System.out.println("Entry uncompressed size: " + entry.getSize());
- 
- // Consume all bytes
- StringBuilder content = new StringBuilder();
- try {
-   for (int b; (b = zipStream.read()) >= 0;) content.append((char) b);
- } catch (Exception e) {
-   System.err.println("Stream failed at byte " + content.length());
-   e.printStackTrace();
- }
-}
+rowNum = 10
+
+colNum = 1
+
+name = 'hello world'
+
+input_path = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('macroexcel')
+
+println(input_path)
+
+CustomKeywords.'python.convert_xlsm_xlsx'('input_path')
+

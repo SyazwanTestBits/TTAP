@@ -39,9 +39,6 @@ WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC049 TC054/button
 WebUI.verifyElementAttributeValue(findTestObject('Scenario 13/S13_TC049 TC054/input_status CO_verify'), 'value', 'Processing', 
     0)
 
-'Delay Status- NEED TO CHECK\r\n'
-not_run: WebUI.verifyElementAttributeValue(findTestObject(null), '', '', 0)
-
 WebUI.scrollToElement(findTestObject('Object Repository/Scenario 13/S13_TC049 TC054/header_Shipping part list'), 0)
 
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC049 TC054/header_Parts No in shipping list'))
@@ -53,12 +50,12 @@ for (int rowl = 1; rowl <= numberrowtd; rowl++) {
 
     for (String colname : columnname) {
         String valuecol = findTestData('Scenario 13/S13_TC068').getValue(colname, rowl)
-		
-		actualValue = WebUI.getText(findTestObject('Scenario 13/S13_TC049 TC054/p_part detail list-tc49', [('lrow') : rowl
-			, ('lcol') : coll]))
 
-		KeywordUtil.logInfo((((((('In row:' + rowl) + ' column:') + colname) + ', Actual data:') + actualValue) + ' Expectation data:') +valuecol)
+        actualValue = WebUI.getText(findTestObject('Scenario 13/S13_TC049 TC054/p_part detail list-tc49', [('lrow') : rowl
+                    , ('lcol') : coll]))
 
+        KeywordUtil.logInfo((((((('In row:' + rowl) + ' column:') + colname) + ', Actual data:') + actualValue) + ' Expectation data:') + 
+            valuecol)
 
         WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC049 TC054/p_part detail list-tc49', [('lrow') : rowl, ('lcol') : coll]), 
             valuecol)

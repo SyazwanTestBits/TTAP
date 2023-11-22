@@ -71,7 +71,20 @@ public class handlePicker2 {
 		int inputMonthIndex = inputMonth - 1;
 		// in List, the position of first value is 0. For example list of monthInYear, first value is January and its position is 0, not 1
 
-		String[] monthInYear = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October" , "November", "December"];
+		String[] monthInYear = [
+			"January",
+			"February",
+			"March",
+			"April",
+			"May",
+			"June",
+			"July",
+			"August",
+			"September",
+			"October" ,
+			"November",
+			"December"
+		];
 
 		// get current year
 		String currenttext = getCurrentMonthYear.getText();
@@ -108,7 +121,6 @@ public class handlePicker2 {
 				else if (inputYear == currentyear && inputMonth > headermonth) {
 					next.click(); //click next month button
 					Thread.sleep(500); //slowing the execution
-
 				}
 
 				else {
@@ -144,7 +156,20 @@ public class handlePicker2 {
 		int inputMonthIndex = inputMonth - 1;
 		// in List, the position of first value is 0. For example list of monthInYear, first value is January and its position is 0, not 1
 
-		String[] monthInYear = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October" , "November", "December"];
+		String[] monthInYear = [
+			"January",
+			"February",
+			"March",
+			"April",
+			"May",
+			"June",
+			"July",
+			"August",
+			"September",
+			"October" ,
+			"November",
+			"December"
+		];
 
 		// get current year
 		String currenttext = getCurrentMonthYear.getText();
@@ -195,7 +220,6 @@ public class handlePicker2 {
 					WebElement next2 = WebUiBuiltInKeywords.findWebElement(findTestObject('Scenario 13/S13_TC033_Shipping_Route/button next calendar'));
 					next2.click(); //click next month button
 					Thread.sleep(500); //slowing the execution
-
 				}
 			}
 

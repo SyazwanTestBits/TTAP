@@ -134,7 +134,9 @@ WebUI.setText(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/inpu
 CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/div_Create Order ChangeHome PageOrder ChangeCancelCreate Order ChangeSaveIssue'), 
     0)
 
-WebUI.click(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/button_Issue'))
+CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/button_Issue'), 0)
+
+not_run: WebUI.click(findTestObject('Page_OrderChangeCancel/Page_CreateOrderChange/button_Issue'))
 
 WebUI.waitForElementPresent(findTestObject('NotificationMsg_Brivge/div_ConfirmMsg_AreYouSureToDo_Issue'), 0)
 
