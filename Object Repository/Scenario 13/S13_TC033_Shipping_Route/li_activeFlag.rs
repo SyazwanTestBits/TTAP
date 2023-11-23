@@ -6,12 +6,12 @@
    <elementGuidId>e8f544e1-e8fe-4fb6-b028-6e3f8b7e4414</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '${ActiveFlag}' or . = '${ActiveFlag}')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//li[@id='mui-46027-option-0']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[@role = 'option' and (text() = '${ActiveFlag}' or . = '${ActiveFlag}')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,12 +21,12 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>000fc905-57d2-4369-a453-98435e1f2461</webElementGuid>
+      <webElementGuid>bd513aca-bc88-469c-ba3b-554f3730f8ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,15 +34,15 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>3f7c1e5f-8c10-4d31-a3ff-427b8826de7c</webElementGuid>
+      <webElementGuid>d59ff7c0-0b4f-4db9-a044-50b40978b45b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>ed4ca79a-efc2-4e30-a305-765ff28fa70c</webElementGuid>
+      <webElementGuid>ae50193f-e6e9-4e9c-b8ba-30d47ae9b711</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mui-46027-option-0</value>
-      <webElementGuid>c73576d8-9893-49b6-a3b8-b2ac5fe8da7b</webElementGuid>
+      <webElementGuid>75e3f6e2-1361-4d03-90c8-a90852523f7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>data-option-index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>feea4727-3b1a-4315-8fe4-33482bf3fdf6</webElementGuid>
+      <webElementGuid>c1358503-2d87-4343-a98c-0eab5a7750b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4ff6e701-67fe-4081-905f-d484bf49316f</webElementGuid>
+      <webElementGuid>f13c1edb-8595-4b49-8dc2-60e6664738ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7b4ac23d-b1b6-4f6a-9d9c-e6f192a1d6cf</webElementGuid>
+      <webElementGuid>33122c4e-7f51-4257-8403-0adac81c6329</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiAutocomplete-option</value>
-      <webElementGuid>6c328033-9377-4f70-87db-e3c485bd0865</webElementGuid>
+      <webElementGuid>cd3181e1-603e-41b5-ace6-13917f79b7e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>data-focus</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>9f8299a4-c8c3-446a-b21a-1c485fade2f1</webElementGuid>
+      <webElementGuid>07edd698-d9dc-4897-a93f-1576db998bea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>text</name>
       <type>Main</type>
       <value>${ActiveFlag}</value>
-      <webElementGuid>e7151b95-6b58-450f-a03e-51791358e8a7</webElementGuid>
+      <webElementGuid>4a7adcce-37ea-4ac6-ad03-61f1e6668c0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mui-46027-option-0&quot;)</value>
-      <webElementGuid>26eebb9d-40ef-4283-aac4-a68dd79f9ba2</webElementGuid>
+      <webElementGuid>0b5ad642-0dc3-4057-b9bf-e4bdf0bbc790</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//li[@id='mui-46027-option-0']</value>
-      <webElementGuid>a0f3f7ca-dc76-46dc-b76b-7488595e8cf8</webElementGuid>
+      <webElementGuid>430ca73b-eaf5-43d0-819d-b509212d98a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='mui-46027-popup']/li</value>
-      <webElementGuid>9e10e86d-1240-4816-bf47-74d029b41122</webElementGuid>
+      <webElementGuid>a92c7dd9-0731-4407-961e-b7544bd4f7cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mui-46027-option-0', '&quot;', ')')])[1]/following::li[1]</value>
-      <webElementGuid>1ca09127-f127-4735-9ec2-735f3b56365f</webElementGuid>
+      <webElementGuid>612e2562-bc95-4d88-9ed8-142a811cf365</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/following::li[1]</value>
-      <webElementGuid>3beaaa9e-c304-47bc-9a70-97e775e405e8</webElementGuid>
+      <webElementGuid>d51576b8-c9d9-4a9d-8ebb-1709b339618f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,7 +146,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Inactive'])[1]/preceding::li[1]</value>
-      <webElementGuid>b6e851d0-a4b9-48e2-a4d7-4ae467a35b8d</webElementGuid>
+      <webElementGuid>5c541f0b-c1dc-447f-8aa0-df8d05a09b5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,7 +154,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Active']/parent::*</value>
-      <webElementGuid>f661501e-4b3b-4f49-9d34-4669bbd40db6</webElementGuid>
+      <webElementGuid>2e4d4ec5-cec7-4f50-a39c-822eed4f086b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -162,7 +162,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ul/li</value>
-      <webElementGuid>91c0aa01-7ae1-44f2-8865-259e86371697</webElementGuid>
+      <webElementGuid>6eee68cf-0dc4-4fdb-a053-0e0e3e03f475</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -170,6 +170,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[@id = 'mui-46027-option-0' and (text() = 'Active' or . = 'Active')]</value>
-      <webElementGuid>9ae8fd76-f339-4980-8202-8acae2ebff9e</webElementGuid>
+      <webElementGuid>0592c821-0dd7-4200-b15e-0a2202a966aa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -10,6 +10,10 @@
          <value>//li[@id='mui-72981-option-5']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//li[@role = 'option' and (text() = '${deliveryToUidOption}' or . = '${deliveryToUidOption}')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#mui-72981-option-5</value>
       </entry>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>b9b11cb7-e84d-4cbf-aa87-6fa093403038</webElementGuid>
+      <webElementGuid>16a1e3e3-0ed1-43af-bf6a-1f8c4875c3d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>5a38dd9b-576f-419a-a427-3a65cb5ba781</webElementGuid>
+      <webElementGuid>07a78318-0505-400e-a052-03fcb2bf0e55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>9c254e27-76ac-4cea-a40d-8a1793897358</webElementGuid>
+      <webElementGuid>cdb5a7ae-479b-4e2a-aa0e-62eb6b17cfcd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mui-72981-option-5</value>
-      <webElementGuid>0f29e8b3-223c-46f9-befd-a1c117d9d2e9</webElementGuid>
+      <webElementGuid>fc39f5a3-f2c1-4f55-914e-d5520d8b384d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>data-option-index</name>
       <type>Main</type>
       <value>5</value>
-      <webElementGuid>a3351182-0340-482c-af35-2818ad02460d</webElementGuid>
+      <webElementGuid>514c4436-de3a-416e-af2d-7d28572ff2ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>81692302-3d77-477b-8529-3508a3915f1f</webElementGuid>
+      <webElementGuid>5a9906ce-b894-4673-b042-c3581b6b45b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e7e11c9d-1a9c-469f-bc77-fac991540592</webElementGuid>
+      <webElementGuid>95d05d5d-f86f-4c75-8903-14b3d7ce1e32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiAutocomplete-option</value>
-      <webElementGuid>fcd2773d-b7b2-4857-a256-cad1aea6a777</webElementGuid>
+      <webElementGuid>854e8535-7725-4dbe-9baa-b3b9fb3e3164</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>data-focus</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>a400decf-8ea7-46f7-ba52-8155dab6502b</webElementGuid>
+      <webElementGuid>81850a66-f892-49f4-880a-31e50c2f141c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>text</name>
       <type>Main</type>
       <value>${deliveryToUidOption}</value>
-      <webElementGuid>e67b5537-9963-4864-96cd-c61596f96738</webElementGuid>
+      <webElementGuid>80f912ef-2d9c-4900-bb91-41a94962a6db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mui-72981-option-5&quot;)</value>
-      <webElementGuid>9bf51ab8-4eb9-4780-afb9-23b1b2b03bea</webElementGuid>
+      <webElementGuid>24cbb0dc-7288-4f7e-87b3-cbc9331e95dd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//li[@id='mui-72981-option-5']</value>
-      <webElementGuid>eca78110-adc6-4663-afcc-a6e36ed43966</webElementGuid>
+      <webElementGuid>869546a0-f9ec-4142-a62c-81a5d4c8f6bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='mui-72981-popup']/li[6]</value>
-      <webElementGuid>4a059451-ca03-4dca-ad3b-c21a946e3bf3</webElementGuid>
+      <webElementGuid>46ebf4e2-be01-4a78-8055-6ed325b80b32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='DC-SYZ-02'])[1]/following::li[1]</value>
-      <webElementGuid>e0d135a0-191b-42b0-a692-e2759b8f9c2a</webElementGuid>
+      <webElementGuid>d7e00fb2-ba63-4de1-8387-d889559a417f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +138,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CUS-SYZ003'])[1]/following::li[2]</value>
-      <webElementGuid>df4a2fea-8ebe-42f7-a0ea-b4d007d34ef7</webElementGuid>
+      <webElementGuid>c1567487-0215-4eef-8251-f1df470004dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +146,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='MY-PNA-DC'])[1]/preceding::li[1]</value>
-      <webElementGuid>01d20553-58a2-4ff1-a7b4-9131abd38818</webElementGuid>
+      <webElementGuid>83c48124-8558-488e-961d-8fc648d2293e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +154,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PK-CUS'])[1]/preceding::li[2]</value>
-      <webElementGuid>2980518d-942f-4ddb-b0d9-123674b54740</webElementGuid>
+      <webElementGuid>9067d3f0-6a87-45e1-91bb-8bc4fcb395bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +162,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='MY-PNA-CUS']/parent::*</value>
-      <webElementGuid>2aca2ad2-ef45-4ca2-8ba3-e525873431c7</webElementGuid>
+      <webElementGuid>fc8151bd-4186-4c94-9428-0b4878c9baa9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,7 +170,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[6]</value>
-      <webElementGuid>bc8665b6-9202-40a8-a165-2a09986c1d09</webElementGuid>
+      <webElementGuid>f3423665-ca00-4062-942c-169244743916</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -174,6 +178,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[@id = 'mui-72981-option-5' and (text() = 'MY-PNA-CUS' or . = 'MY-PNA-CUS')]</value>
-      <webElementGuid>67708e49-16f6-446a-a565-48e7656987d7</webElementGuid>
+      <webElementGuid>133c6b35-c876-4be5-b417-43df403dc873</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

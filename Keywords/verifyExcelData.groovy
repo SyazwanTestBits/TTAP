@@ -204,87 +204,87 @@ public class verifyExcelData {
 	}
 
 	@Keyword(keywordObject='Excel Verification')
-static void verifyDynamicSort2(String expectedFilePath, String downloadedFilePath, String sheetName, int partsNoColumnIndex, List<Integer> partsNoRowIndices, List<Integer> columnsToVerify) {
-    try {
-        FileInputStream expectedFis = new FileInputStream(new File(expectedFilePath));
-        FileInputStream downloadedFis = new FileInputStream(new File(downloadedFilePath));
+	static void verifyDynamicSort2(String expectedFilePath, String downloadedFilePath, String sheetName, int partsNoColumnIndex, List<Integer> partsNoRowIndices, List<Integer> columnsToVerify) {
+		try {
+			FileInputStream expectedFis = new FileInputStream(new File(expectedFilePath));
+			FileInputStream downloadedFis = new FileInputStream(new File(downloadedFilePath));
 
-        Workbook expectedWorkbook = new XSSFWorkbook(expectedFis);
-        Workbook downloadedWorkbook = new XSSFWorkbook(downloadedFis);
+			Workbook expectedWorkbook = new XSSFWorkbook(expectedFis);
+			Workbook downloadedWorkbook = new XSSFWorkbook(downloadedFis);
 
-        Sheet expectedSheet = expectedWorkbook.getSheet(sheetName);
-        Sheet downloadedSheet = downloadedWorkbook.getSheet(sheetName);
+			Sheet expectedSheet = expectedWorkbook.getSheet(sheetName);
+			Sheet downloadedSheet = downloadedWorkbook.getSheet(sheetName);
 
-        if (expectedSheet == null || downloadedSheet == null) {
-            KeywordUtil.markFailed("Specified sheet not found in one of the Excel files.");
-            return;
-        }
+			if (expectedSheet == null || downloadedSheet == null) {
+				KeywordUtil.markFailed("Specified sheet not found in one of the Excel files.");
+				return;
+			}
 
-        List<String> mismatchDetails = new ArrayList<>();
+			List<String> mismatchDetails = new ArrayList<>();
 
-        // Sort the downloaded sheet based on the specified column
-        sortSheet(downloadedSheet, partsNoColumnIndex);
+			// Sort the downloaded sheet based on the specified column
+			sortSheet(downloadedSheet, partsNoColumnIndex);
 
-        for (int rowIndex : partsNoRowIndices) {
-            Row downloadedRow = downloadedSheet.getRow(rowIndex);
+			for (int rowIndex : partsNoRowIndices) {
+				Row downloadedRow = downloadedSheet.getRow(rowIndex);
 
-            if (downloadedRow == null) {
-                mismatchDetails.add("Row not found in the downloaded Excel file for index " + rowIndex);
-                continue;
-            }
+				if (downloadedRow == null) {
+					mismatchDetails.add("Row not found in the downloaded Excel file for index " + rowIndex);
+					continue;
+				}
 
-            String downloadedPartsNo = downloadedRow.getCell(partsNoColumnIndex).toString().trim();
+				String downloadedPartsNo = downloadedRow.getCell(partsNoColumnIndex).toString().trim();
 
-            // Find the corresponding row in the expected sheet
-            Row expectedRow = findRowByPartsNo(expectedSheet, partsNoColumnIndex, downloadedPartsNo);
+				// Find the corresponding row in the expected sheet
+				Row expectedRow = findRowByPartsNo(expectedSheet, partsNoColumnIndex, downloadedPartsNo);
 
-            if (expectedRow == null) {
-                mismatchDetails.add("Parts No. not found in the expected Excel file for partsNo: " + downloadedPartsNo);
-                continue;
-            }
+				if (expectedRow == null) {
+					mismatchDetails.add("Parts No. not found in the expected Excel file for partsNo: " + downloadedPartsNo);
+					continue;
+				}
 
-            for (int colIndex : columnsToVerify) {
-                Cell expectedCell = expectedRow.getCell(colIndex);
-                Cell downloadedCell = downloadedRow.getCell(colIndex);
+				for (int colIndex : columnsToVerify) {
+					Cell expectedCell = expectedRow.getCell(colIndex);
+					Cell downloadedCell = downloadedRow.getCell(colIndex);
 
-                if (expectedCell != null && downloadedCell != null) {
-                    String expectedValue = expectedCell.toString().trim();
-                    String downloadedValue = downloadedCell.toString().trim();
+					if (expectedCell != null && downloadedCell != null) {
+						String expectedValue = expectedCell.toString().trim();
+						String downloadedValue = downloadedCell.toString().trim();
 
-                    if (!expectedValue.equals(downloadedValue)) {
-                        String mismatchDetail = "Mismatch in cell values for row " + rowIndex + ", column " + colIndex +
-                                ". Expected: " + expectedValue + ", Downloaded: " + downloadedValue;
-                        mismatchDetails.add(mismatchDetail);
+						if (!expectedValue.equals(downloadedValue)) {
+							String mismatchDetail = "Mismatch in cell values for row " + rowIndex + ", column " + colIndex +
+									". Expected: " + expectedValue + ", Downloaded: " + downloadedValue;
+							mismatchDetails.add(mismatchDetail);
 
-                        // Enhanced logging for expected and downloaded values
-                        KeywordUtil.logInfo(mismatchDetail);
-                        KeywordUtil.logInfo("Expected value: " + expectedValue);
-                        KeywordUtil.logInfo("Downloaded value: " + downloadedValue);
-                    } else {
-                        KeywordUtil.logInfo("Cell values match for row " + rowIndex + ", column " + colIndex +
-                                ". Expected: " + expectedValue + ", Downloaded: " + downloadedValue);
-                    }
-                } else {
-                    mismatchDetails.add("Cell is null in row " + rowIndex + " and column " + colIndex);
-                }
-            }
-        }
+							// Enhanced logging for expected and downloaded values
+							KeywordUtil.logInfo(mismatchDetail);
+							KeywordUtil.logInfo("Expected value: " + expectedValue);
+							KeywordUtil.logInfo("Downloaded value: " + downloadedValue);
+						} else {
+							KeywordUtil.logInfo("Cell values match for row " + rowIndex + ", column " + colIndex +
+									". Expected: " + expectedValue + ", Downloaded: " + downloadedValue);
+						}
+					} else {
+						mismatchDetails.add("Cell is null in row " + rowIndex + " and column " + colIndex);
+					}
+				}
+			}
 
-        expectedFis.close();
-        downloadedFis.close();
+			expectedFis.close();
+			downloadedFis.close();
 
-        if (mismatchDetails.isEmpty()) {
-            KeywordUtil.logInfo("All data checks passed. Downloaded data matches expected data.");
-        } else {
-            // If there are mismatch details, throw an exception to fail the test case
-            throw new AssertionError("Excel data verification failed.");
-        }
+			if (mismatchDetails.isEmpty()) {
+				KeywordUtil.logInfo("All data checks passed. Downloaded data matches expected data.");
+			} else {
+				// If there are mismatch details, throw an exception to fail the test case
+				throw new AssertionError("Excel data verification failed.");
+			}
 
-    } catch (Exception e) {
-        KeywordUtil.logInfo("Error verifying dynamic sort: " + e.getMessage());
-        KeywordUtil.markFailed("Excel data verification failed: The system cannot find the file specified.");
-    }
-}
+		} catch (Exception e) {
+			KeywordUtil.logInfo("Error verifying dynamic sort: " + e.getMessage());
+			KeywordUtil.markFailed("Excel data verification failed: The system cannot find the file specified.");
+		}
+	}
 
 
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='mui-58889-option-0']</value>
+         <value>//ul/li</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>007d5826-c78c-4611-ad7a-df27802f4ade</webElementGuid>
+      <webElementGuid>b3bf8194-1095-447e-831c-73e50817e589</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>87067cfa-d592-4a75-9772-e9d34fd0661e</webElementGuid>
+      <webElementGuid>53926d2e-1267-4e38-99a6-009f0bb6dac1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>bf2b5e90-45e0-4391-8988-00c53b06da9a</webElementGuid>
+      <webElementGuid>3f368568-75c2-4214-84af-0857455fc12c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mui-58889-option-0</value>
-      <webElementGuid>ea9ab80e-f470-4a68-a65e-544f4d741150</webElementGuid>
+      <webElementGuid>f86c14f2-b376-46ef-85d2-e04612524617</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>data-option-index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>8942470f-5925-42c1-bf4e-8da2abf1b945</webElementGuid>
+      <webElementGuid>7ec90280-e144-4dba-a5bb-650d4f7fec7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f104dc4e-a8c5-4ff4-89c4-b434558761a9</webElementGuid>
+      <webElementGuid>b658327c-231e-4c81-89b7-2b0a705f7955</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>282a54c3-564a-4ad8-b125-0b53e2e112b8</webElementGuid>
+      <webElementGuid>5d289dfd-69f8-44fb-8932-5c7fd2a7e5a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiAutocomplete-option</value>
-      <webElementGuid>b4a174cb-c5ac-41d6-9c75-b29f09f55288</webElementGuid>
+      <webElementGuid>0f694f3e-8a2b-438f-91c1-b336f69ac14f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>data-focus</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>5a4bf89f-3027-4b97-94c8-d4d47b654207</webElementGuid>
+      <webElementGuid>7c89ded0-215c-49db-af9e-752804562211</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>text</name>
       <type>Main</type>
       <value>${businessType}</value>
-      <webElementGuid>68475934-74c6-4a8b-a442-bf8f30a3b764</webElementGuid>
+      <webElementGuid>2b385ff0-0bd6-4b76-97f9-ad0afaf3ee17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mui-58889-option-0&quot;)</value>
-      <webElementGuid>52f401ae-74a1-4aa6-9bc2-142ea0ab8fb2</webElementGuid>
+      <webElementGuid>d94932d1-62d4-4fdf-8679-a7ca35e21165</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//li[@id='mui-58889-option-0']</value>
-      <webElementGuid>02d02a82-78ae-4cd0-893a-882eba789a8a</webElementGuid>
+      <webElementGuid>41791317-11f9-4145-821c-a688c5ea244d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='mui-58889-popup']/li</value>
-      <webElementGuid>24d62958-ac4e-4d9b-9748-62aefd5fd067</webElementGuid>
+      <webElementGuid>1d4cb108-52fc-4030-9933-a0315d83eb9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mui-58889-option-0', '&quot;', ')')])[1]/following::li[1]</value>
-      <webElementGuid>e3e71c7b-9fab-4e0f-9936-ee681ba3cb0c</webElementGuid>
+      <webElementGuid>bce6dc70-f215-408f-81de-91215a0f305d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::li[1]</value>
-      <webElementGuid>5b7f9380-6796-44d8-b188-8183e0233e9a</webElementGuid>
+      <webElementGuid>46141c32-ebf9-4764-bb8d-3fe678635c22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,7 +146,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Inventory for Firm'])[1]/preceding::li[1]</value>
-      <webElementGuid>a5fd1b44-b3e5-4999-9d83-0b8f49537475</webElementGuid>
+      <webElementGuid>4bd04515-1fe6-43e4-9b78-b34be9d1e505</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,7 +154,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Inventory for Forecast'])[1]/preceding::li[2]</value>
-      <webElementGuid>deffc58f-a0c2-4ed3-b5fe-24e23cfdd5bf</webElementGuid>
+      <webElementGuid>435fbf8f-1fe9-47fd-8989-8383aba70a32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -162,7 +162,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Firm']/parent::*</value>
-      <webElementGuid>c94a9b54-a3ca-4835-9903-879c71adeb57</webElementGuid>
+      <webElementGuid>eea33419-1900-43bd-b457-9c9c6dd3661f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -170,7 +170,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ul/li</value>
-      <webElementGuid>aa9d0960-771d-4e2e-a3ad-625b221aa0b1</webElementGuid>
+      <webElementGuid>173fe556-72bb-4329-9c1a-a96796c853cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -178,6 +178,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[@id = 'mui-58889-option-0' and (text() = 'Firm' or . = 'Firm')]</value>
-      <webElementGuid>a370973d-602c-4a0a-8abb-a14e81aa33ca</webElementGuid>
+      <webElementGuid>6217cfdd-fa30-40d2-9525-f18582078d92</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

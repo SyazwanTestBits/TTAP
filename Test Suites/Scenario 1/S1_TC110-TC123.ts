@@ -12,6 +12,43 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>6d125d0b-975b-4cd3-b119-082bbd187540</testSuiteGuid>
    <testCaseLink>
+      <guid>151d8da8-d43c-4837-9761-6aeb46bb0139</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 1/S1_TC110-DC3 Auto Generate DC Outbound Plan</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3adec78b-3725-4803-b369-64cba61698f2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fdeb6686-7eb0-4b01-aab1-3ea4763088d9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b22fb946-58f3-4c86-9f9a-d37e3db1c662</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6d718a65-75e9-4908-940d-2be50f4aac99</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>821682f8-25e0-453b-9819-78fc43597d50</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>656ffab2-cd87-48df-8719-5e6a2e84cadb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

@@ -26,7 +26,13 @@ WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC050 TC053/li_SO 
 
 WebUI.setText(findTestObject('Scenario 12/SC12_TC014/input_contractNo'), orderNo)
 
+actualContractNo = WebUI.getText(findTestObject('Scenario 1/S1_TC039_TC040/p_verifyContractNo_firstRow'))
+
 WebUI.verifyElementText(findTestObject('Scenario 1/S1_TC039_TC040/p_verifyContractNo_firstRow'), contractNo)
+
+KeywordUtil.logInfo("Expected Contract No: $contractNo")
+
+KeywordUtil.logInfo("Actual Contract No: $actualContractNo")
 
 WebUI.click(findTestObject('Scenario 10/S10_TC024/input_tick all'))
 
@@ -36,7 +42,8 @@ WebUI.click(findTestObject('Scenario 1/S1_TC067/li_Download by Excel'))
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_DwnloadCustOrderbyExcel_Success'), 0)
+WebUI.verifyElementPresent(findTestObject('Scenario 1/S1_TC069/Page_SO Monitoring List - Brivge/div_Download Sales Order by Excel.The operation was successful'), 
+    0)
 
 WebUI.click(findTestObject('Page_SO_MonitoringList/button_Dt_Detail', [('contractNo') : contractNo]), FailureHandling.STOP_ON_FAILURE)
 

@@ -6,11 +6,12 @@
    <elementGuidId>576ce1b1-6108-44ab-a030-a290ada6b847</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[(text() = '${requestNo}' or . = '${requestNo}')]/following::p[text()='${requestType}']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[(text() = '${requestNo}' or . = '${requestNo}')]/following::p[text()='${requestType}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

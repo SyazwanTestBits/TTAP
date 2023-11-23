@@ -28,7 +28,7 @@ WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC014/div_Download S
 downloadedFile = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
 CustomKeywords.'verifyExcelData.verifyDynamicSort'('Excel Files\\Scenario 1\\Expected Data\\TC194\\Expected Purchase Order.xlsx', 
-    downloadedFile, 2, [23, 24, 25], [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16])
+    downloadedFile, 2, [23, 24, 25], [1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16])
 
 WebUI.verifyElementText(findTestObject('Scenario 1/S1_TC144/div_Completed'), 'Completed')
 

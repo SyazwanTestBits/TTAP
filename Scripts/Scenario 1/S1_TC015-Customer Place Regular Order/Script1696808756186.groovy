@@ -37,13 +37,11 @@ WebUI.click(findTestObject('Page_RegularOrder/remotefilter/li__orderFrequency_We
 
 println("$weeklyPeriod")
 
-def convertedWeeklyPeriod = CustomKeywords.'DateConversion.convertChineseToEnglishPeriodRange'("$weeklyPeriod")
-
-println(convertedWeeklyPeriod)
-
+//def convertedWeeklyPeriod = CustomKeywords.'DateConversion.convertChineseToEnglishPeriodRange'("$weeklyPeriod")
+// println(convertedWeeklyPeriod)
 WebUI.click(findTestObject('Page_RegularOrder/remotefilter/input_orderPeriod'))
 
-WebUI.click(findTestObject('Page_RegularOrder/remotefilter/li_orderPeriod', [('WeeklyPeriod') : convertedWeeklyPeriod]))
+WebUI.click(findTestObject('Page_RegularOrder/remotefilter/li_orderPeriod', [('WeeklyPeriod') : weeklyPeriod]))
 
 WebUI.click(findTestObject('Page_RegularOrder/remotefilter/button_remotefilter_Search'))
 

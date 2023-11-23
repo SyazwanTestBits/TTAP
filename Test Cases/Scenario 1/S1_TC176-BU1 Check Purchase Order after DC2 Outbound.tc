@@ -4,31 +4,22 @@
    <name>S1_TC176-BU1 Check Purchase Order after DC2 Outbound</name>
    <tag></tag>
    <integratedEntity>
-<productName>JIRA</productName>
-<properties>
-<entry>
-<key>integratedValue</key>
-<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i003kg:"},"status":{"id":10000,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10000","name":"To Do"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC1.0_TC176 - BU1 - Check the purchase order of BU1 after DC2 outbound Details","description":"User: BU1 \\\\Login ID: maria-baf\\\\Company: PK-CUS-TTAP \\\\Function: Order \u003ePO Monitoring List \\\\Description: Check the purchase order of BU1 after DC2 outbound Details","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-882/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10881","key":"BAT-882","id":10881}}</value>
-</entry>
-</properties>
-<type>TESTCASE</type>
-</integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i003kg:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://ttap-scm-at.atlassian.net/&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;BAT&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;BriVge Automated Testing&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;SC1.0_TC176 - BU1 - Check the purchase order of BU1 after DC2 outbound Details&quot;,&quot;description&quot;:&quot;User: BU1 \\\\Login ID: maria-baf\\\\Company: PK-CUS-TTAP \\\\Function: Order \u003ePO Monitoring List \\\\Description: Check the purchase order of BU1 after DC2 outbound Details&quot;,&quot;reporter&quot;:{&quot;active&quot;:true,&quot;displayName&quot;:&quot;Nurfatin binti Abdullah Shuhaimy&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-882/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/10881&quot;,&quot;key&quot;:&quot;BAT-882&quot;,&quot;id&quot;:10881}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>f1649534-fc78-44f5-a7cc-2d5c8ca3e0c7</testCaseGuid>
-   <testDataLinks>
-      <combinationType>ONE</combinationType>
-      <id>3008e389-c1fd-45d0-bc75-aed68f9c38a7</id>
-      <iterationEntity>
-         <iterationType>ALL</iterationType>
-         <value></value>
-      </iterationEntity>
-      <testDataId>Data Files/Scenario 1/S1_TC176</testDataId>
-   </testDataLinks>
    <variableLinks>
-      <testDataLinkId>3008e389-c1fd-45d0-bc75-aed68f9c38a7</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>PONumber</value>
-      <variableId>14cdf5cb-6cea-43ff-b7bb-c4f162402253</variableId>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aba320d1-e103-4f6e-92f6-ce078fdc8a09</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
@@ -43,9 +34,9 @@
       <variableId>a94b244e-f039-42c8-8a6a-cc01c3418bb4</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 1/S1_TC176').getValue('PONumber', 1)</defaultValue>
       <description></description>
-      <id>14cdf5cb-6cea-43ff-b7bb-c4f162402253</id>
+      <id>aba320d1-e103-4f6e-92f6-ce078fdc8a09</id>
       <masked>false</masked>
       <name>PONumber</name>
    </variable>
@@ -57,7 +48,7 @@
       <name>datafile</name>
    </variable>
    <variable>
-      <defaultValue>['PartsNo', 'UnitPartsNo', 'BackNo', 'SalesOrderNo', 'SupplierCode', 'Shipper', 'SPQ', 'OrderLot', 'OrderQty', 'UnitPrice', 'Currency', 'Status', 'InboundedQty', 'InboundPlanDatePlan1', 'InboundPlanDateStatus1', 'InboundPlanDatePlan2', 'InboundPlanDateStatus2', 'EstimatedInboundDate1', 'EstimatedInboundDate2']</defaultValue>
+      <defaultValue>['PartsNo', 'UnitPartsNo', 'BackNo', 'SalesOrderNo', 'SupplierCode', 'Shipper', 'SPQ', 'OrderLot', 'OrderQty', 'UnitPrice', 'Currency', 'Status', 'InboundedQty', 'InboundPlanDatePlan1', 'InboundPlanDateStatus1', 'InboundPlanDatePlan2', 'InboundPlanDateStatus2', 'EstimatedInboundDate1', 'EstimatedInboundDate2', 'EstimatedInboundDate3']</defaultValue>
       <description></description>
       <id>a94b244e-f039-42c8-8a6a-cc01c3418bb4</id>
       <masked>false</masked>

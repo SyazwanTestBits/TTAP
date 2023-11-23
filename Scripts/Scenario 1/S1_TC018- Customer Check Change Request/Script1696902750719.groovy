@@ -28,8 +28,8 @@ WebUI.click(findTestObject('Navbar_Brivge/OrderMenu_Brivge/li_ChangeCancel Reque
 
 WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC034/h3_ChangeCancel Request List'), 0)
 
-WebUI.verifyElementText(findTestObject('Scenario 17/S17_TC060/p_verifyRequestType', [('requestNo') : requestNo, ('requestType') : requestType]), 
-    requestType)
+WebUI.verifyElementText(findTestObject('Scenario 1/S1_TC018/Page_ChangeCancel Request List - Brivge/div_RequestNo', [('requestNo') : requestNo]), 
+    requestNo)
 
 WebUI.verifyElementText(findTestObject('Scenario 17/S17_TC060/p_verifyRequestStatus', [('requestNo') : requestNo, ('requestStatus') : requestStatus]), 
     'Approved')

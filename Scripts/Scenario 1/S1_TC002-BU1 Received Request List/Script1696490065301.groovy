@@ -29,12 +29,6 @@ WebUI.setText(findTestObject('Scenario 13/S13_TC035/Page_Brivge/input_Filter_Rec
 
 WebUI.click(findTestObject('Scenario 13/S13_TC035/Page_Brivge/button_Edit'))
 
-'turn on back button for debug'
-not_run: WebUI.click(findTestObject('Scenario 12/SC12_TC004/button_Back'))
-
-'turn on back button for debug'
-not_run: WebUI.click(findTestObject('Scenario 12/SC12_TC004/button_Back'))
-
 WebUI.click(findTestObject('Scenario 13/S13_TC035/Page_Brivge/button_Next'))
 
 RequestNo = WebUI.getText(findTestObject('Scenario 12/SC12_TC004/p_RequestNo'))
