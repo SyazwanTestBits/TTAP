@@ -212,64 +212,6 @@
     },
     {
       "approved": true,
-<<<<<<< HEAD
-      "testObjectId": "Object Repository/Scenario 12/SC12_TC044/p_verifyOutboundCompleted",
-      "brokenLocator": "//p[(text() \u003d \u0027o-MY-PNA-DC-CS2-03-2311001\u0027 or . \u003d \u0027o-MY-PNA-DC-CS2-03-2311001\u0027)]/following::td[6]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027AND\u0027])[1]/following::p[9]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 12/SC12_TC044/p_verifyOutboundCompleted_neighbor.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Scenario 13/S13_TC050 TC053/li_Download DR",
-      "brokenLocator": "//li[(text() \u003d \u0027Download DR\u0027 or . \u003d \u0027Download DR\u0027)]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//ul/li",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 13/S13_TC050 TC053/li_Download DR_position.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Scenario 13/S13_TC050 TC053/li_Upload DR",
-      "brokenLocator": "//li[(text() \u003d \u0027Upload DR\u0027 or . \u003d \u0027Upload DR\u0027)]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//ul/li",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 13/S13_TC050 TC053/li_Upload DR_position.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Scenario 12/SC12_TC056/p_editInvoice",
-      "brokenLocator": "//p[(text() \u003d \u0027TW12311001\u0027 or . \u003d \u0027TW12311001\u0027)]/following::button[2]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div[2]/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[3]/div/p",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 12/SC12_TC056/p_editInvoice_idRelative.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Scenario 1/S1_TC143/Page_SO Monitoring List - Brivge/div_Processing",
-      "brokenLocatorMethod": "BASIC",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027AND\u0027])[1]/following::div[49]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 1/S1_TC143/Page_SO Monitoring List - Brivge/div_Processing_neighbor.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Scenario 1/S1_TC143/Page_SO Monitoring Detail - Brivge/div_s1001",
-      "brokenLocator": "//div[@id\u003d\u0027OSS011_Section_2\u0027]/div[2]/div/div/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr[1]/td[1]/div",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027AND\u0027])[1]/following::div[89]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 1/S1_TC143/Page_SO Monitoring Detail - Brivge/div_s1001_neighbor.png"
-=======
       "testObjectId": "Object Repository/Scenario 13/S13_TC038 n 39-Check Contract Route/svg_close Download Contract Route Overview",
       "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Download Contract Route Overview By selected.\u0027])[1]/following::*[name()\u003d\u0027svg\u0027][2]",
       "brokenLocatorMethod": "XPATH",
@@ -307,7 +249,6 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 10/S10_TC027/0_create project page/li_level2MainMaterial_L2_input_neighbor.png"
->>>>>>> branch 'main' of https://gitlab.com/SyazwanTB/tb-ttap-brivge-v2.git
     }
   ]
 }
