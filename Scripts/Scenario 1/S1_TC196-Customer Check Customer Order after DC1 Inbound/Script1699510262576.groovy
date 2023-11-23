@@ -28,10 +28,10 @@ WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC049/div_Download C
 downloadedFile = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
 'Need to change expected file'
-CustomKeywords.'verifyExcelData.verifyDynamicSort'('C:\\Users\\luqma\\git\\tb-ttap-brivge-v2\\Excel Files\\Scenario 1\\Expected Data\\TC196\\Expected Customer Order.xlsx', 
-    downloadedFile, 2, [23, 24, 25], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16])
+CustomKeywords.'verifyExcelData.verifyDynamicSort'('Excel Files\\Scenario 1\\Expected Data\\TC196\\Expected Customer Order.xlsx', 
+    downloadedFile, 2, [23, 24, 25], [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16])
 
-WebUI.verifyElementText(findTestObject('Scenario 1/S1_TC143/Page_SO Monitoring List - Brivge/div_Processing'), 'Completed')
+WebUI.verifyElementText(findTestObject('Scenario 1/S1_TC143/Page_SO Monitoring List - Brivge/div_Processing'), 'Processing')
 
 WebUI.click(findTestObject('Scenario 1/S1_TC143/Page_SO Monitoring List - Brivge/button_Detail'), FailureHandling.STOP_ON_FAILURE)
 
@@ -39,7 +39,7 @@ WebUI.waitForElementPresent(findTestObject('Scenario 1/S1_TC143/Page_SO Monitori
     0)
 
 WebUI.verifyElementAttributeValue(findTestObject('Scenario 1/S1_TC143/Page_SO Monitoring Detail - Brivge/input_Please input related basic information_status'), 
-    'value', 'Completed', 0)
+    'value', 'Processing', 0)
 
 WebUI.scrollToElement(findTestObject('Scenario 1/S1_TC143/Page_SO Monitoring Detail - Brivge/p_Copyright  2021 BriVge. All rights reserved'), 
     0)

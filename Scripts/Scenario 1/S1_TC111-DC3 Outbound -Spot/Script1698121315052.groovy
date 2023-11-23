@@ -45,12 +45,11 @@ WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 1/S1_Cmn1-Write Info i
         , ('fileColumns') : columnNames, ('startRowFormMinusOne') : 7, ('downloadedFormPath') : latestFilePath, ('downloadedFormSheetname') : 'Outbound'], 
     FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('Scenario 12/SC12_TC044/button_Upload'))
+WebUI.click(findTestObject('Scenario 12/SC12_TC044/button_Upload'))
 
-not_run: CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 12/SC12_TC044/li_Upload'), latestFilePath)
+CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 12/SC12_TC044/li_Upload'), latestFilePath)
 
-not_run: WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_UploadOutboundByCreate_Success'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_UploadOutboundByCreate_Success'), 0)
 
 WebUI.takeFullPageScreenshot()
 

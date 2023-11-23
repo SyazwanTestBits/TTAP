@@ -1,4 +1,5 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import java.text.NumberFormat
@@ -74,14 +75,14 @@ WebUI.click(findTestObject('Scenario 13/S13_TC050 TC053/button_Upload BU SO Deta
 
 CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 13/S13_TC050 TC053/li_Upload Price'), supPrice)
 
-not_run: WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC050 TC053/div_Upload Price.The operation was successful'), 
+WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC050 TC053/div_Upload Price.The operation was successful'), 
     0)
 
 for (def index : (1..datafile_date.getRowNumbers())) {
     def excelColumnSize = 2
 
     for (def index2 : (1..excelColumnSize)) {
-        def dateValue = datafile_date.getValue('newPlanDate' + index2, index)
+        def dateValue = findTestData('Scenario 1/S1_TC141-Supplier2 SO Date').getValue('newPlanDate' + index2, index)
 
         if (dateValue != 'NULL') {
             def dateFormat = new SimpleDateFormat('MMM dd, yyyy')
@@ -107,33 +108,33 @@ for (def index : (1..datafile_dr.getRowNumbers())) {
 
     for (def index2 : (1..excelColumnSize)) {
         def planQtyValue = datafile_dr.getValue('newInboundQty' + index2, index)
-		
-	try {
-	        def planQtyValueParse = Integer.parseInt(planQtyValue)
-	
-	        // Create a NumberFormat instance for formatting as "1,000"
-	        def numberFormat = NumberFormat.getIntegerInstance()
-	
-	        // Format the planQtyValue
-	        String formattedValue = numberFormat.format(planQtyValueParse)
-	
-	        // Check if the formatted value is not '0' and then verify it
-	        if (formattedValue != '0') {
-	            WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC050 TC053/newPlanQty', [('row') : index, ('col') : colNumStart]), 
-	                formattedValue)
-	        	}
-			} catch (NumberFormatException e) {
-	// Handle the case where planQtyStringValue cannot be parsed as an integer
-	// You might want to log an error or take appropriate action here.
-			}
-	}
-        
-        colNumStart = (colNumStart + 2)
-    }
 
+        try {
+            def planQtyValueParse = Integer.parseInt(planQtyValue)
+
+            // Create a NumberFormat instance for formatting as "1,000"
+            def numberFormat = NumberFormat.getIntegerInstance()
+
+            // Format the planQtyValue
+            String formattedValue = numberFormat.format(planQtyValueParse)
+
+            // Check if the formatted value is not '0' and then verify it
+            if (formattedValue != '0') {
+                WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC050 TC053/newPlanQty', [('row') : index, ('col') : colNumStart]), 
+                    formattedValue)
+            }
+        }
+        catch (NumberFormatException e) {
+            // Handle the case where planQtyStringValue cannot be parsed as an integer
+            // You might want to log an error or take appropriate action here.
+        } 
+    }
+    
+    colNumStart = (colNumStart + 2)
+}
 
 for (def index : (1..datafile_price.getRowNumbers())) {
-    def unitPriceValue = datafile_price.getValue('Price', index)
+    def unitPriceValue = findTestData('Scenario 1/S1_TC141-Supplier2 SO Price').getValue('Price', index)
 
     def currencyValue = datafile_price.getValue('Currency', index)
 
@@ -155,4 +156,3 @@ WebUI.verifyElementAttributeValue(findTestObject('Scenario 13/S13_TC050 TC053/in
     'Confirmed', 0)
 
 WebUI.closeBrowser()
-

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>S1_TC168-TC173</name>
+   <name>S1_TC168-TC174</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>dbb17d45-648e-4ec6-b371-3d403bb6d8af</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Scenario 1/S1_TC168-DC2 Inbound -Regular</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -189,6 +189,31 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>6034afc4-48bb-4857-a426-36250df3bdd0</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>004125a6-e2c9-462b-a1d9-a9947e168742</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 1/S1_TC174-DC2 Outbound -Regular</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7200e2ab-096c-4d08-a2f6-88a9e7675f1d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a3157df3-a666-44ab-9b2c-77376b84ac53</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a0dea497-befe-45a9-8258-e1f9349f0ce1</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

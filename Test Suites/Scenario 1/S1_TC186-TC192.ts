@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>S1_TC186-TC191</name>
+   <name>S1_TC186-TC192</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -113,5 +113,47 @@
          <variableId>6673680c-f059-464c-a272-1267e2cd335a</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>630587c0-b870-4b2e-a980-b682f5733501</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 1/S1_TC192-DC1 Inbound -Regular and Spot</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f0d4d827-4c59-4b73-aa52-5be2c3549291</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0db41dcb-e8d0-42a1-bde8-118c45de4f4e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>95be8db3-e520-4ccb-9a54-12d537164c0e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5eff722b-9c71-4436-9569-b4604234561d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0b2340e0-71a9-414a-828a-ac1044d73441</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>18743605-e676-46ab-b6e4-04b1a0f826f0</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
-

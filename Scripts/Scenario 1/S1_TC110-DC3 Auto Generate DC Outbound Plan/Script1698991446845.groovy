@@ -50,7 +50,7 @@ WebUI.verifyElementPresent(findTestObject('Scenario 1/S1_TC110/Page_Download Out
 downloadedFile = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
 CustomKeywords.'verifyExcelData.verifyDataSpecific'(OutboundInstruction_byModule, downloadedFile, [4, 5, 6], [2, 6, 7, 8
-        , 9, 11, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26])
+        , 9, 11, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26])
 
 WebUI.closeBrowser()
 

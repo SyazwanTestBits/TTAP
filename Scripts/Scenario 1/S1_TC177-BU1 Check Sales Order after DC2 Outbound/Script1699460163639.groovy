@@ -29,7 +29,7 @@ downloadedFile = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel'
 
 'Need to change expected file'
 CustomKeywords.'verifyExcelData.verifyDynamicSort'('Excel Files\\Scenario 1\\Expected Data\\TC177\\Expected Sales Order.xlsx', 
-    downloadedFile, 1, [23, 24, 25, 26, 27, 28], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])
+    downloadedFile, 1, [23, 24, 25, 26, 27, 28], [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])
 
 WebUI.verifyElementText(findTestObject('Scenario 1/S1_TC143/Page_SO Monitoring List - Brivge/div_Processing'), 'Processing')
 

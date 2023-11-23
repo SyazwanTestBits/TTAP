@@ -11,18 +11,21 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[(text() = 'Download Price' or . = 'Download Price')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>bb4c2fe2-add0-4f00-bdb9-cf58cc920829</webElementGuid>
+      <webElementGuid>10c418f7-43e3-43d1-bf4f-d12d30d1e443</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiButtonBase-root lcbm-MuiListItem-root lcbm-MuiMenuItem-root lcbm-MuiMenuItem-gutters lcbm-MuiListItem-gutters lcbm-MuiListItem-button</value>
-      <webElementGuid>52b99f41-6692-406a-9d42-54be36f2a09e</webElementGuid>
+      <webElementGuid>f1ffd37e-990d-4401-84da-4ec74a1ba52e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +41,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>b7a1057d-db15-4c90-b4c0-f889cc9f0e8a</webElementGuid>
+      <webElementGuid>90965e40-f2d3-43ed-8780-6a29ab17460f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +49,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>4ea258d0-c787-41c5-b78f-811183289bd7</webElementGuid>
+      <webElementGuid>313512ce-f090-4c2b-a769-80e4ec192cf7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +57,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b1340670-4975-4104-b328-23902ef670a4</webElementGuid>
+      <webElementGuid>b191b10f-bf55-461e-b0f3-955e5a8e9096</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +65,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Download Price</value>
-      <webElementGuid>1d681209-1a40-4c65-b6a7-36fae4106331</webElementGuid>
+      <webElementGuid>341b642f-610a-43de-aac7-cdf53ec02595</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiPopover-root lcbm-lcbm664&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiPopover-paper lcbm-lcbm665 lcbm-MuiPaper-elevation8 lcbm-MuiPaper-rounded&quot;]/ul[@class=&quot;lcbm-MuiList-root lcbm-MuiList-padding&quot;]/li[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiListItem-root lcbm-MuiMenuItem-root lcbm-MuiMenuItem-gutters lcbm-MuiListItem-gutters lcbm-MuiListItem-button&quot;]</value>
-      <webElementGuid>b955dab6-c763-414c-b1cb-8afd67bb4ca7</webElementGuid>
+      <webElementGuid>aa182872-c942-4664-818e-53a7bd08b52f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Download DR'])[1]/following::li[1]</value>
-      <webElementGuid>f8e4932f-677e-4771-8cce-6c8f47133181</webElementGuid>
+      <webElementGuid>4fe025c4-d156-418f-a169-cc9bf2279814</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::li[2]</value>
-      <webElementGuid>0bb69bf2-ad9b-4820-bb8f-1d328ab53363</webElementGuid>
+      <webElementGuid>839a0c77-7df4-4b91-82ea-1b92b78f0f3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Download Price']/parent::*</value>
-      <webElementGuid>55bb5e89-26d5-4534-bab1-fe3e807a7974</webElementGuid>
+      <webElementGuid>295851d3-4f46-4b7d-9468-a8364d0c9270</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ul/li[2]</value>
-      <webElementGuid>b2f99474-4d76-4f77-9ddd-a4b4a003b557</webElementGuid>
+      <webElementGuid>25ed55eb-eee2-459f-81a0-7fe2ad6ed542</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Download Price' or . = 'Download Price')]</value>
-      <webElementGuid>0877f71b-06a0-4d1b-bf3b-d04f696a1f2e</webElementGuid>
+      <webElementGuid>4ba8d972-5986-44d4-81d9-1108c5c81e15</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
