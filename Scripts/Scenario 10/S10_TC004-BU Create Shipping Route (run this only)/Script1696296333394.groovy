@@ -118,12 +118,6 @@ WebUI.setText(findTestObject('Object Repository/Scenario 13/S13_TC033_Shipping_R
 
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC033_Shipping_Route/button__firstEtd'))
 
-not_run: int firstdayetd = Integer.parseInt(DayFirstETD)
-
-not_run: int firstmonthetd = Integer.parseInt(MonthFirstETD)
-
-not_run: int firstyearetd = Integer.parseInt(YearFirstETD)
-
 (firstdayetd, firstmonthetd, firstyearetd) = CustomKeywords.'commonUtils.parseDateDayMonthYearEachIntoInt_withFormat'(firstETD, 
     'MMM d, yyyy')
 
@@ -132,12 +126,6 @@ CustomKeywords.'util.handlePicker2.handleCalendar'(findTestObject('Scenario 13/S
     firstdayetd, firstmonthetd, firstyearetd)
 
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC033_Shipping_Route/button__lastEtd'))
-
-not_run: int lastdayetd = Integer.parseInt(DayLastETD)
-
-not_run: int lastmonthetd = Integer.parseInt(MonthLastETD)
-
-not_run: int lastyearetd = Integer.parseInt(YearLastETD)
 
 (lastdayetd, lastmonthetd, lastyearetd) = CustomKeywords.'commonUtils.parseDateDayMonthYearEachIntoInt_withFormat'(endETD, 
     'MMM d, yyyy')

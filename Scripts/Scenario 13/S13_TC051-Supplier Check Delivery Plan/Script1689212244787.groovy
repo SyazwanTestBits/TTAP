@@ -34,7 +34,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Scenario 13/S13_TC051/
 
 LatestPath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
-WebUI.callTestCase(findTestCase('Scenario 13/S13_TC051.1-Supplier Check Delivery Plan- compare two test data - v2'), [('expectationExcelPath') : 'Excel Files/Scenario 13/TC051/DeliveryPlanDownload-expectation.xlsx'
+WebUI.callTestCase(findTestCase('Scenario 13/S13_TC051.1- (not need run) Supplier Check Delivery Plan- compare two test data - v2'), [('expectationExcelPath') : 'Excel Files/Scenario 13/TC051/DeliveryPlanDownload-expectation.xlsx'
         , ('NumberOfNoMatch') : 0, ('testData') : findTestData('Scenario 13/S13_TC051'), ('actualPath') : ''], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()

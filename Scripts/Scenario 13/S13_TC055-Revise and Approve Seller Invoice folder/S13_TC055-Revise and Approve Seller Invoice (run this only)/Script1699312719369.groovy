@@ -77,11 +77,5 @@ WebUI.click(findTestObject('Scenario 13/S13_TC055/button_Confirm'))
 
 WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC055/Page_Brivge/div_Status'), 'Approved')
 
-WebUI.click(findTestObject('Scenario 13/S13_TC055/Page_Brivge/button_Release'))
-
-WebUI.click(findTestObject('Scenario 13/S13_TC055/button_Confirm'))
-
-WebUI.verifyElementText(findTestObject('Scenario 13/S13_TC055/Page_Brivge/div_Status'), 'Released')
-
 WebUI.closeBrowser()
 

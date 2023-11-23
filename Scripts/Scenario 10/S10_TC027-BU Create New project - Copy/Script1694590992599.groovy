@@ -46,9 +46,17 @@ WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/button_P
 
 WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/svg_close notification'))
 
-WebUI.setText(findTestObject('Scenario 10/S10_TC027/0_create project page/input__mainDescription'), 'Main Description')
+if (WebUI.verifyElementNotPresent(findTestObject('Scenario 10/S10_TC027/0_create project page/input__mainDescription - Copy'), 
+        1, FailureHandling.OPTIONAL) == true) {
+	
+	WebUI.setText(findTestObject('Scenario 10/S10_TC027/0_create project page/input__mainDescription'), 'Main Description')
+	
+	not_run: WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/li_Main Description'))
+}else {
+	
+	WebUI.setText(findTestObject('Scenario 10/S10_TC027/0_create project page/input__mainDescription - Copy'), 'Main Description')
+}
 
-not_run: WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/li_Main Description'))
 
 WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/button_FIELDS TO DESCRIBE FINAL PRODUCT_save'))
 
@@ -77,28 +85,67 @@ WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/input__n
 
 WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/li_noOfLevel 2'))
 
-WebUI.setText(findTestObject('Scenario 10/S10_TC027/0_create project page/input__level1MainMaterial'), 'MODEL')
 
-not_run: WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/li_level1MainMaterial_MODEL'))
+'level1MainMaterial'
+if (WebUI.verifyElementNotPresent(findTestObject('Scenario 10/S10_TC027/0_create project page/input__level1MainMaterial - Copy'),
+	1, FailureHandling.OPTIONAL) == true) {
+	
+	WebUI.setText(findTestObject('Scenario 10/S10_TC027/0_create project page/input__level1MainMaterial'), 'MODEL')
 
-WebUI.setText(findTestObject('Scenario 10/S10_TC027/0_create project page/input__level2MainMaterial_descp'), 'L2 PART NO')
+	not_run: WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/li_level1MainMaterial_MODEL'))
+
+}else {
+	
+	WebUI.setText(findTestObject('Scenario 10/S10_TC027/0_create project page/input__level1MainMaterial - Copy'), 'MODEL')
+}
+
 
 'L2 PART NO'
-not_run: WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/li_level2MainMaterial_L2_input', [('level2materialinput') : 'L2 PART NO']))
+if (WebUI.verifyElementNotPresent(findTestObject('Scenario 10/S10_TC027/0_create project page/input__level2MainMaterial_descp - Copy'),
+	1, FailureHandling.OPTIONAL) == true) {
+	
+	WebUI.setText(findTestObject('Scenario 10/S10_TC027/0_create project page/input__level2MainMaterial_descp'), 'L2 PART NO')
+	
+	not_run: WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/li_level2MainMaterial_L2_input', [('level2materialinput') : 'L2 PART NO']))
+
+}else {
+	
+	WebUI.setText(findTestObject('Scenario 10/S10_TC027/0_create project page/input__level2MainMaterial_descp - Copy'), 'L2 PART NO')
+}
+
 
 WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/button_level2MainMaterial_Add Description1'))
 
-WebUI.setText(findTestObject('Scenario 10/S10_TC027/0_create project page/input__level2OtherMaterials0_descp1'), 'L2 PART NAME')
+
 
 'L2 PART NAME'
-not_run: WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/li_level2MainMaterial_L2_input', [('level2materialinput') : 'L2 PART NAME']))
+if (WebUI.verifyElementNotPresent(findTestObject('Scenario 10/S10_TC027/0_create project page/input__level2OtherMaterials0_descp1 - Copy'),
+	1, FailureHandling.OPTIONAL) == true) {
+
+	WebUI.setText(findTestObject('Scenario 10/S10_TC027/0_create project page/input__level2OtherMaterials0_descp1'), 'L2 PART NAME')
+
+	not_run: WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/li_level2MainMaterial_L2_input', [('level2materialinput') : 'L2 PART NAME']))
+
+}
+else {
+	WebUI.setText(findTestObject('Scenario 10/S10_TC027/0_create project page/input__level2OtherMaterials0_descp1 - Copy'), 'L2 PART NAME')
+}
 
 WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/button_level2MainMaterial_Add Description2'))
 
-WebUI.setText(findTestObject('Scenario 10/S10_TC027/0_create project page/input__level2OtherMaterials0_descp2'), 'L2 Status')
-
 'L2 Status'
-not_run: WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/li_level2MainMaterial_L2_input', [('level2materialinput') : 'L2 Status']))
+if (WebUI.verifyElementNotPresent(findTestObject('Scenario 10/S10_TC027/0_create project page/input__level2OtherMaterials0_descp2 - Copy'),
+	1, FailureHandling.OPTIONAL) == true) {
+	
+	WebUI.setText(findTestObject('Scenario 10/S10_TC027/0_create project page/input__level2OtherMaterials0_descp2'), 'L2 Status')
+
+	not_run: WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/li_level2MainMaterial_L2_input', [('level2materialinput') : 'L2 Status']))
+
+}else{
+	
+	WebUI.setText(findTestObject('Scenario 10/S10_TC027/0_create project page/input__level2OtherMaterials0_descp2 - Copy'), 'L2 Status')
+}
+
 
 CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Scenario 10/S10_TC027/0_create project page/button_FIELDS TO DESCRIBE MATERIALS USED IN FINAL PRODUCT_save'), 
     0)

@@ -10,6 +10,10 @@
          <value>#mui-53551</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'mainFieldName' and @type = 'text']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='mui-53551']</value>
       </entry>
@@ -17,12 +21,12 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5b0b7dd0-39f4-4fe8-8a80-6645c8046d8c</webElementGuid>
+      <webElementGuid>5020e809-8616-4d7a-aa7e-58a56b2a7c5b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>a4d6427a-9289-4df8-a911-177b6f06e626</webElementGuid>
+      <webElementGuid>0fc7a249-f652-40a5-b6c3-aaf4ec77081b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>name</name>
       <type>Main</type>
       <value>mainFieldName</value>
-      <webElementGuid>67739ae3-f6df-4cb1-ab7e-b1cc9ec7be7d</webElementGuid>
+      <webElementGuid>5ece637c-4c3e-4038-b98a-b3423f3912c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>cdc6b325-4f99-42b2-bbac-24a38faec8e5</webElementGuid>
+      <webElementGuid>c7ed1eb8-365f-42e8-943d-741cec4d1518</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiInputBase-input lcbm-MuiInput-input lcbm-MuiAutocomplete-input lcbm-MuiAutocomplete-inputFocused lcbm-MuiInputBase-inputAdornedEnd</value>
-      <webElementGuid>19201fe1-bbc4-43bc-862b-f7557a16a2da</webElementGuid>
+      <webElementGuid>16dbb151-786a-47c5-a1b2-a6c26f3af1e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>both</value>
-      <webElementGuid>850f7458-ed92-4160-95d0-fe6c911f5399</webElementGuid>
+      <webElementGuid>b8f068ef-7a55-474a-a1d1-1bf5e257bc24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>autocapitalize</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>b4af4a73-ed2b-4253-9122-aeadc873e4cd</webElementGuid>
+      <webElementGuid>bb637982-91cb-48ca-b959-3d9957d933eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>spellcheck</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0fac1f3f-dc61-4e8e-9786-7efba6ddb8c7</webElementGuid>
+      <webElementGuid>58ad643d-d44b-4e02-9c84-68529277a7f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mui-53551</value>
-      <webElementGuid>6db21249-f308-40c2-9417-b5cf03d81ffb</webElementGuid>
+      <webElementGuid>9ffe4d95-b48e-4d35-a3a7-8b23929b749e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mui-53551&quot;)</value>
-      <webElementGuid>8558e38f-7743-4a83-ad1b-940251558c24</webElementGuid>
+      <webElementGuid>31194763-35df-446c-875a-6a5451347560</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mui-53551']</value>
-      <webElementGuid>90b0b087-3a66-4ed8-8a81-cadfccccf7ab</webElementGuid>
+      <webElementGuid>2b995e71-00c5-4132-b1ad-14f363ac8a9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div[3]/div[2]/div/div/div/form/div/div/div[2]/div/div/div/div/input</value>
-      <webElementGuid>9b82b042-d9cf-4b8a-a033-2939bac32b34</webElementGuid>
+      <webElementGuid>813fe728-3e91-4c70-bcc5-9fa685aa56ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/div/div/div/form/div/div/div[2]/div/div/div/div/input</value>
-      <webElementGuid>f351cf2a-90d8-4c94-82d5-95a461f66406</webElementGuid>
+      <webElementGuid>9032a18d-5b28-486d-894f-afd7a2856b7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'mainFieldName' and @type = 'text' and @id = 'mui-53551']</value>
-      <webElementGuid>6e67d65c-bcfb-4e03-852f-8c5216d30426</webElementGuid>
+      <webElementGuid>e252dcda-5c71-4f45-b5a4-cd9aa03fdbe8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

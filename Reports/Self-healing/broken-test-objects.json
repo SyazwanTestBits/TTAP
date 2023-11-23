@@ -212,6 +212,7 @@
     },
     {
       "approved": true,
+<<<<<<< HEAD
       "testObjectId": "Object Repository/Scenario 12/SC12_TC044/p_verifyOutboundCompleted",
       "brokenLocator": "//p[(text() \u003d \u0027o-MY-PNA-DC-CS2-03-2311001\u0027 or . \u003d \u0027o-MY-PNA-DC-CS2-03-2311001\u0027)]/following::td[6]",
       "brokenLocatorMethod": "XPATH",
@@ -268,6 +269,45 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 1/S1_TC143/Page_SO Monitoring Detail - Brivge/div_s1001_neighbor.png"
+=======
+      "testObjectId": "Object Repository/Scenario 13/S13_TC038 n 39-Check Contract Route/svg_close Download Contract Route Overview",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Download Contract Route Overview By selected.\u0027])[1]/following::*[name()\u003d\u0027svg\u0027][2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Loading...\u0027])[1]/preceding::*[name()\u003d\u0027svg\u0027][5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 13/S13_TC038 n 39-Check Contract Route/svg_close Download Contract Route Overview_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Scenario 13/S13_TC035/Page_Received_Request_List/li_Payment Terms Code",
+      "brokenLocator": "//li[(text() \u003d \u0027FN 60 DAYS-ZS(60 DAYS BY INV DATE)\u0027 or . \u003d \u0027FN 60 DAYS-ZS(60 DAYS BY INV DATE)\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//ul/li",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 13/S13_TC035/Page_Received_Request_List/li_Payment Terms Code_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Scenario 10/S10_TC027/0_create project page/input__mainDescription - Copy",
+      "brokenLocator": "//input[@name \u003d \u0027mainFieldName\u0027 and @type \u003d \u0027search\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div[2]/div[3]/div[2]/div/div/div/form/div/div/div[2]/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 10/S10_TC027/0_create project page/input__mainDescription - Copy_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Scenario 10/S10_TC027/0_create project page/li_level2MainMaterial_L2_input",
+      "brokenLocator": "//*[(text() \u003d \u0027L2 PART NAME\u0027 or . \u003d \u0027L2 PART NAME\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027L2 PART NO\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 10/S10_TC027/0_create project page/li_level2MainMaterial_L2_input_neighbor.png"
+>>>>>>> branch 'main' of https://gitlab.com/SyazwanTB/tb-ttap-brivge-v2.git
     }
   ]
 }

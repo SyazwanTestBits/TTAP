@@ -42,7 +42,7 @@ WebUI.click(findTestObject('Scenario 13/S13_TC064,065/button_arrow first'))
 int rownum = findTestData('Data Files/Scenario 13/S13_TC064-065_Forecast').getRowNumbers()
 
 'For Forecast Container'
-not_run: for (int r = 1; r <= rownum; r++) {
+for (int r = 1; r <= rownum; r++) {
     String contnum = findTestData('Data Files/Scenario 13/S13_TC064-065_Forecast').getValue('ContainerNo', r)
 
     String PlanETADate = findTestData('Data Files/Scenario 13/S13_TC064-065_Forecast').getValue('plan ETA', r)
@@ -129,11 +129,11 @@ for (int row11 = 1; row11 <= numrowForecastManual; row11++) {
         titlebook11)
 
     'NEED TO CHECK BECAUSE IN WEBSITE, THERE IS NOT OPTION FOR REAL_TIME'
-    not_run: WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC064,065/div_trackingType v1_1', [('maintitle') : mainforpath11
+    WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC064,065/div_trackingType v1_1', [('maintitle') : mainforpath11
                 , ('tracktype') : trackType11]), 0)
 
     'NEED TO CHECK BECAUSE IN WEBSITE, THERE IS NOT OPTION FOR REAL_TIME'
-    not_run: if (trackType11 == 'REAL-TIME') {
+    if (trackType11 == 'REAL-TIME') {
         WebUI.click(findTestObject('Scenario 13/S13_TC064,065/div_trackingType v1_1', [('maintitle') : mainforpath11, ('tracktype') : trackType11]))
 
         WebUI.click(findTestObject('Scenario 13/S13_TC064,065/li_tracktype (1)'))
