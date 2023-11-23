@@ -62,7 +62,7 @@ WebUI.takeFullPageScreenshot()
 downloadedFile = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
 CustomKeywords.'verifyExcelData.verifyDynamicSort'(expectedContractRouteParts, downloadedFile, 2, [5, 6, 7, 8, 9, 10], [
-        0, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12])
+        0, 2, 3, 5, 6, 7, 8, 9, 10, 12])
 
 WebUI.click(findTestObject('Scenario 13/S13_TC038 n 39-Check Contract Route/view detail page/button_download in view page'))
 
@@ -79,7 +79,7 @@ WebUI.takeFullPageScreenshot()
 downloadedFile = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
 CustomKeywords.'verifyExcelData.verifyDynamicSort'(expectedContractRoutePartsOverview, downloadedFile, 4, [6, 7, 8, 9, 10
-        , 11], [3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 21, 22, 23, 24, 25])
+        , 11], [3, 4, 5, 6, 7, 9, 10, 11, 13, 15, 16, 17, 19, 21, 22, 23, 25])
 
 WebUI.closeBrowser()
 

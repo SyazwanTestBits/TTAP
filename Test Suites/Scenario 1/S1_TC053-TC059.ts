@@ -155,23 +155,4 @@
          <variableId>f390ea02-bfc5-4dad-9593-e9b6c8752c96</variableId>
       </variableLink>
    </testCaseLink>
-   <testCaseLink>
-      <guid>46ca41e7-9d15-4238-b8d9-b558f5803f5a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Scenario 1/S1_TC059- Customer Auto Generate Mail Task</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8b007aba-a35c-485e-a1fa-8493046f0ebb</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f93873fc-99d6-448f-b8b9-3c0b9a806631</variableId>
-      </variableLink>
-   </testCaseLink>
 </TestSuiteEntity>

@@ -4,15 +4,15 @@
    <name>S1_TC081-DC3 Auto Generate Shipping Detail after Supplier1 Outbound</name>
    <tag></tag>
    <integratedEntity>
-<productName>JIRA</productName>
-<properties>
-<entry>
-<key>integratedValue</key>
-<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i003q0:"},"status":{"id":10000,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10000","name":"To Do"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC1.0_TC81 - DC3 - Auto creation of Shipping Detail after Supplier1 Outbound","description":"User: DC3 \\\\Login ID: maria-baf\\\\Company: MY-PNA-DC \\\\Function: Logistics \u003eShipping Detail List \\\\Description: Auto creation of Shipping Detail after Supplier1 Outbound","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-910/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10909","key":"BAT-910","id":10909}}</value>
-</entry>
-</properties>
-<type>TESTCASE</type>
-</integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i003q0:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://ttap-scm-at.atlassian.net/&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;BAT&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;BriVge Automated Testing&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;SC1.0_TC81 - DC3 - Auto creation of Shipping Detail after Supplier1 Outbound&quot;,&quot;description&quot;:&quot;User: DC3 \\\\Login ID: maria-baf\\\\Company: MY-PNA-DC \\\\Function: Logistics \u003eShipping Detail List \\\\Description: Auto creation of Shipping Detail after Supplier1 Outbound&quot;,&quot;reporter&quot;:{&quot;active&quot;:true,&quot;displayName&quot;:&quot;Nurfatin binti Abdullah Shuhaimy&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-910/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/10909&quot;,&quot;key&quot;:&quot;BAT-910&quot;,&quot;id&quot;:10909}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>46ff88a4-f62a-4d2a-a5e5-059b3bd88ee0</testCaseGuid>
    <variableLinks>

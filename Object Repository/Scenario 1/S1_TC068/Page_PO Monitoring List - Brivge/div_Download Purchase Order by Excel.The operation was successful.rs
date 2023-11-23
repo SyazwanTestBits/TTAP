@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Download Purchase Order by Excel.The operation was successful</name>
+   <tag></tag>
+   <elementGuidId>420218b7-87af-4888-a73b-06c51028be9c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.base-MuiAlert-message</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='webapp-base']/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ce5e9ce6-1703-4769-b51a-3c33e0354507</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>base-MuiAlert-message</value>
+      <webElementGuid>7daf2ea7-48a6-4f1d-ac72-adbacbc4962e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Download Purchase Order by Excel.The operation was successful.</value>
+      <webElementGuid>c280df8c-942e-477a-be9f-87b0f9df564b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base1 base-base3 base-base5&quot;]/div[@class=&quot;base-MuiPaper-root base-MuiAlert-root base-MuiAlert-standardSuccess base-base110 base-MuiPaper-elevation0&quot;]/div[@class=&quot;base-MuiAlert-message&quot;]</value>
+      <webElementGuid>566ba0bb-f7f3-40b6-8f58-61e6f69a3a72</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='webapp-base']/div[2]/div/div</value>
+      <webElementGuid>aed72ea2-1d21-4cd3-8596-10284285297c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='l'])[1]/following::div[4]</value>
+      <webElementGuid>b7318f8e-d7b2-40f1-9502-9f305068f449</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privilege'])[1]/following::div[8]</value>
+      <webElementGuid>ef013244-d61f-4e57-9800-971cf58a4c78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::div[24]</value>
+      <webElementGuid>6854dd68-85db-43d2-8606-6a04e810f6e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div</value>
+      <webElementGuid>39fd61ca-72dc-4a11-91d2-f535be548662</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Download Purchase Order by Excel.The operation was successful.' or . = 'Download Purchase Order by Excel.The operation was successful.')]</value>
+      <webElementGuid>a59c0483-33b0-4be7-84f5-2534a05498cc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

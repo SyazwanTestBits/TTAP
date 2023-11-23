@@ -36,7 +36,8 @@ WebUI.click(findTestObject('Scenario 1/S1_TC067/li_Download by Excel'))
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_DwnloadCustOrderbyExcel_Success'), 0)
+WebUI.verifyElementPresent(findTestObject('Scenario 1/S1_TC067/Page_SO Monitoring List - Brivge/div_Download Sales Order by Excel.The operation was successful'), 
+    0)
 
 WebUI.click(findTestObject('Page_SO_MonitoringList/button_Dt_Detail', [('contractNo') : contractNo]), FailureHandling.STOP_ON_FAILURE)
 

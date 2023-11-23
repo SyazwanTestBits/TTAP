@@ -28,8 +28,8 @@ WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC049/div_Download C
 downloadedFile = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
 'Need to change expected file'
-CustomKeywords.'verifyExcelData.verifyDynamicSort'('C:\\Users\\luqma\\git\\tb-ttap-brivge-v2\\Excel Files\\Scenario 1\\Expected Data\\TC148\\Expected Customer Order.xlsx', 
-    downloadedFile, 1, [23, 24, 25, 26, 27, 28], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15])
+CustomKeywords.'verifyExcelData.verifyDynamicSort'('Excel Files\\Scenario 1\\Expected Data\\TC148\\Expected Customer Order.xlsx', 
+    downloadedFile, 2, [23, 24, 25, 26, 27, 28], [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])
 
 WebUI.verifyElementText(findTestObject('Scenario 1/S1_TC143/Page_SO Monitoring List - Brivge/div_Processing'), 'Processing')
 

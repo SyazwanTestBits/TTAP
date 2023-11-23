@@ -127,7 +127,7 @@ CustomKeywords.'util.handlePicker2.handleCalendar'(findTestObject('Scenario 13/S
     findTestObject('Scenario 13/S13_TC033_Shipping_Route/button next calendar'), findTestObject('Scenario 13/S13_TC033_Shipping_Route/button previous calendar'), 
     firstdayetd, firstmonthetd, firstyearetd)
 
-WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC033_Shipping_Route/button__lastEtd'))
+WebUI.click(findTestObject('Scenario 13/S13_TC033_Shipping_Route/button__lastEtd'))
 
 int lastdayetd = Integer.parseInt(DayLastETD)
 

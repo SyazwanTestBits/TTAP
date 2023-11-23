@@ -1,11 +1,9 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.BAF_USERNAME_LUQMAN
@@ -30,7 +28,7 @@ WebUI.verifyElementPresent(findTestObject('Scenario 12/SC12_TC014/div_Download S
 downloadedFile = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
 CustomKeywords.'verifyExcelData.verifyDynamicSort'('Excel Files\\Scenario 1\\Expected Data\\TC144\\Expected Purchase Order.xlsx', 
-    downloadedFile, 1, [23, 24, 25], [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])
+    downloadedFile, 1, [23, 24, 25], [1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18])
 
 WebUI.verifyElementText(findTestObject('Scenario 1/S1_TC144/div_Completed'), 'Processing')
 

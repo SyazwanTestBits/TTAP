@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>49ccd413-bf71-4ca0-8f33-3d26895759d9</webElementGuid>
+      <webElementGuid>c0fa2d13-5925-483b-a9dd-60d5a50a5f30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiTypography-root lcbm-lcbm52 lcbm-MuiTypography-body2</value>
-      <webElementGuid>799a6e90-78b4-40a6-80cf-5872d857c3cc</webElementGuid>
+      <webElementGuid>eebe5a5f-4d29-4963-98bd-ca9239b3a7b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>B-2308-TR-02-001</value>
-      <webElementGuid>724a7be0-ca24-41db-b6aa-55701ea7560d</webElementGuid>
+      <webElementGuid>d275c8e5-4802-4e77-99b9-6c7d0b614c03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-scrollbar-vertical-hidden lcbm-lcbm1 os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2 lcbm-lcbm3&quot;]/div[@class=&quot;lcbm-lcbm7 lcbm-lcbm8&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm9 lcbm-lcbm10 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-lcbm12&quot;]/div[@class=&quot;lcbm-lcbm15&quot;]/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-overflow os-host-overflow-x os-host-resize-disabled lcbm-lcbm4 os-host-transition os-host-scrollbar-vertical-hidden&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[1]/table[@class=&quot;lcbm-MuiTable-root&quot;]/tbody[@class=&quot;lcbm-MuiTableBody-root&quot;]/tr[@class=&quot;lcbm-MuiTableRow-root lcbm-lcbm46&quot;]/td[@class=&quot;lcbm-MuiTableCell-root lcbm-MuiTableCell-body lcbm-lcbm49&quot;]/div[@class=&quot;lcbm-lcbm50&quot;]/p[@class=&quot;lcbm-MuiTypography-root lcbm-lcbm52 lcbm-MuiTypography-body2&quot;]</value>
-      <webElementGuid>b551fed4-7094-46f5-a31e-746a19f1fb77</webElementGuid>
+      <webElementGuid>52f4f360-4905-402e-87d3-6639bf932cb7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr[2]/td[2]/div/p</value>
-      <webElementGuid>41bd2395-4e5e-4f55-a88b-3fa2390b978a</webElementGuid>
+      <webElementGuid>a29c7cd8-8f6f-4cd8-bdb3-17559879e505</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='AND'])[1]/following::p[21]</value>
-      <webElementGuid>01ccc783-5084-4ac0-a6c4-e2390d237667</webElementGuid>
+      <webElementGuid>f267aaf1-790f-43c7-95c8-829a17df7b9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipping Detail List'])[1]/following::p[23]</value>
-      <webElementGuid>47e10f6c-7de0-4603-88d3-e4be9225c5d4</webElementGuid>
+      <webElementGuid>8b501929-6e49-4547-9b46-3a4495046f3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[1]/preceding::p[83]</value>
-      <webElementGuid>1e511d55-70ad-45a6-a847-4aec290e42e0</webElementGuid>
+      <webElementGuid>945b266e-1157-47f5-a970-ac720e47869b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Logistics'])[1]/preceding::p[83]</value>
-      <webElementGuid>98e3a9c6-5d94-4766-b445-a5ba1b2da524</webElementGuid>
+      <webElementGuid>b0e9cf4b-f304-41a6-b7f3-7c222d921898</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='B-2308-TR-02-001']/parent::*</value>
-      <webElementGuid>43dc6570-3d5e-48a3-aa47-e3c5f9e8e03f</webElementGuid>
+      <webElementGuid>b78bc2a8-525c-4406-bebe-2ca1d9a2e709</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[2]/div/p</value>
-      <webElementGuid>63554389-ed42-4980-b7d7-3c89cf527609</webElementGuid>
+      <webElementGuid>059da757-9ca6-481f-a543-4f5783f290f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'B-2308-TR-02-001' or . = 'B-2308-TR-02-001')]</value>
-      <webElementGuid>1e65ede0-d131-4d3e-acf5-3902e44209d7</webElementGuid>
+      <webElementGuid>02298a86-0ada-48ff-b574-7da2d44d3b7b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

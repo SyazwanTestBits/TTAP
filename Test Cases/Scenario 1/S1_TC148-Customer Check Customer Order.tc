@@ -4,26 +4,17 @@
    <name>S1_TC148-Customer Check Customer Order</name>
    <tag></tag>
    <integratedEntity>
-<productName>JIRA</productName>
-<properties>
-<entry>
-<key>integratedValue</key>
-<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i002v4:"},"status":{"id":10000,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10000","name":"To Do"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC1.0_TC148 - Customer - Check the Customer order after Supplier2 outbound","description":"User: Customer \\\\Login ID: maria-baf\\\\Company: PK-CUS-POC \\\\Function: Order \u003eCO Monitoring List \\\\Description: Check the Customer order after Supplier2 outbound","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-763/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10762","key":"BAT-763","id":10762}}</value>
-</entry>
-</properties>
-<type>TESTCASE</type>
-</integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i002v4:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://ttap-scm-at.atlassian.net/&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;BAT&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;BriVge Automated Testing&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;SC1.0_TC148 - Customer - Check the Customer order after Supplier2 outbound&quot;,&quot;description&quot;:&quot;User: Customer \\\\Login ID: maria-baf\\\\Company: PK-CUS-POC \\\\Function: Order \u003eCO Monitoring List \\\\Description: Check the Customer order after Supplier2 outbound&quot;,&quot;reporter&quot;:{&quot;active&quot;:true,&quot;displayName&quot;:&quot;Nurfatin binti Abdullah Shuhaimy&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-763/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/10762&quot;,&quot;key&quot;:&quot;BAT-763&quot;,&quot;id&quot;:10762}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>ad397386-9b58-4524-9f53-6a94b0173266</testCaseGuid>
-   <testDataLinks>
-      <combinationType>ONE</combinationType>
-      <id>c5e60610-4799-4a87-ae93-0a5251b9cfac</id>
-      <iterationEntity>
-         <iterationType>ALL</iterationType>
-         <value></value>
-      </iterationEntity>
-      <testDataId>Data Files/Scenario 1/S1_TC148</testDataId>
-   </testDataLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
@@ -31,9 +22,9 @@
       <variableId>e89ecfb6-ab39-45ba-9ec6-084de7f7d174</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>c5e60610-4799-4a87-ae93-0a5251b9cfac</testDataLinkId>
+      <testDataLinkId></testDataLinkId>
       <type>DATA_COLUMN</type>
-      <value>CONumber</value>
+      <value></value>
       <variableId>9675c533-9968-41ed-8efc-45e9d2838b44</variableId>
    </variableLinks>
    <variableLinks>
@@ -56,14 +47,14 @@
       <name>OrderType_Regular</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 1/S1_TC148').getValue('CONumber', 1)</defaultValue>
       <description></description>
       <id>9675c533-9968-41ed-8efc-45e9d2838b44</id>
       <masked>false</masked>
       <name>CONumber</name>
    </variable>
    <variable>
-      <defaultValue>['PartsNo', 'CustomerPartsNo', 'BackNo', 'SalesOrderNo', 'SupplierCode', 'SPQ', 'OrderLot', 'OrderQty', 'ForceCompletedQty', 'UnitPrice', 'Currency', 'Status', 'InboundedQty', 'InboundPlanDatePlan1', 'InboundPlanDateStatus1', 'InboundPlanDatePlan2', 'InboundPlanDateStatus2', 'InboundPlanDatePlan3', 'InboundPlanDateStatus3', 'EstimatedInOutPlan1', 'EstimatedInOutPlan2']</defaultValue>
+      <defaultValue>['PartsNo', 'CustomerPartsNo', 'BackNo', 'SalesOrderNo', 'SupplierCode', 'SPQ', 'OrderLot', 'OrderQty', 'ForceCompletedQty', 'UnitPrice', 'Currency', 'Status', 'InboundedQty', 'InboundPlanDatePlan1', 'InboundPlanDateStatus1', 'InboundPlanDatePlan2', 'InboundPlanDateStatus2', 'InboundPlanDatePlan3', 'InboundPlanDateStatus3', 'EstimatedInOutPlan1']</defaultValue>
       <description></description>
       <id>5ebf5ee8-a183-4c9e-a7a4-db4e5098bba9</id>
       <masked>false</masked>

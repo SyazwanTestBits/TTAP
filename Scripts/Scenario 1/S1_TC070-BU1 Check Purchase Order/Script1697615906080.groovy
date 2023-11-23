@@ -22,7 +22,7 @@ WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVa
 
 WebUI.click(findTestObject('Object Repository/Scenario 13/S13_TC050 TC053/span_Order'))
 
-WebUI.click(findTestObject('Navbar_Brivge/OrderMenu_Brivge/li_CO Monitoring List'))
+WebUI.click(findTestObject('Navbar_Brivge/OrderMenu_Brivge/li_PO Monitoring List'))
 
 WebUI.setText(findTestObject('Scenario 12/SC12_TC014/input_contractNo'), orderNo)
 
@@ -34,9 +34,8 @@ WebUI.click(findTestObject('Scenario 1/S1_TC067/li_Download by Excel'))
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_DwnloadCustOrderbyExcel_Success'), 0)
-
-WebUI.click(findTestObject('Scenario 1/S1_TC068/svg_Download Purchase Order by Excel Cancel'))
+WebUI.verifyElementPresent(findTestObject('Scenario 1/S1_TC070/Page_PO Monitoring List - Brivge/div_Download Purchase Order by Excel.The operation was successful'), 
+    0)
 
 WebUI.delay(3)
 
@@ -57,6 +56,10 @@ actualOrderQTY = WebUI.getText(findTestObject('Scenario 1/S1_TC068/div_Order Qty
 KeywordUtil.logInfo("Verified New Order Quantity (Actual): $actualOrderQTY")
 
 println(actualOrderQTY)
+
+WebUI.click(findTestObject('Page_PO_MonitoringDetail/p_Unit Parts No'))
+
+WebUI.delay(1)
 
 WebUI.verifyElementText(findTestObject('Scenario 1/S1_TC068/div_Order Qty (Amount)'), expectedOrderQTY)
 

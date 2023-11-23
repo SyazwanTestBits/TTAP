@@ -4,30 +4,21 @@
    <name>S1_TC147-BU1 Check Sales Order</name>
    <tag></tag>
    <integratedEntity>
-<productName>JIRA</productName>
-<properties>
-<entry>
-<key>integratedValue</key>
-<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i002ug:"},"status":{"id":10000,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10000","name":"To Do"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC1.0_TC147 - BU1 - Check the sales order of BU1 after Supplier2 outbound","description":"User: BU1 \\\\Login ID: maria-baf\\\\Company: PK-CUS-TTAP \\\\Function: Order \u003eSO Monitoring List \\\\Description: Check the sales order of BU1 after Supplier2 outbound","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-759/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10758","key":"BAT-759","id":10758}}</value>
-</entry>
-</properties>
-<type>TESTCASE</type>
-</integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i002ug:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://ttap-scm-at.atlassian.net/&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;BAT&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;BriVge Automated Testing&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;SC1.0_TC147 - BU1 - Check the sales order of BU1 after Supplier2 outbound&quot;,&quot;description&quot;:&quot;User: BU1 \\\\Login ID: maria-baf\\\\Company: PK-CUS-TTAP \\\\Function: Order \u003eSO Monitoring List \\\\Description: Check the sales order of BU1 after Supplier2 outbound&quot;,&quot;reporter&quot;:{&quot;active&quot;:true,&quot;displayName&quot;:&quot;Nurfatin binti Abdullah Shuhaimy&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-759/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/10758&quot;,&quot;key&quot;:&quot;BAT-759&quot;,&quot;id&quot;:10758}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>92e65e98-5323-49a0-9bf7-725c79c405ab</testCaseGuid>
-   <testDataLinks>
-      <combinationType>ONE</combinationType>
-      <id>5d9c53ed-4267-44ef-936f-00ec29d0766d</id>
-      <iterationEntity>
-         <iterationType>ALL</iterationType>
-         <value></value>
-      </iterationEntity>
-      <testDataId>Data Files/Scenario 1/S1_TC147</testDataId>
-   </testDataLinks>
    <variableLinks>
-      <testDataLinkId>5d9c53ed-4267-44ef-936f-00ec29d0766d</testDataLinkId>
+      <testDataLinkId></testDataLinkId>
       <type>DATA_COLUMN</type>
-      <value>SONumber</value>
+      <value></value>
       <variableId>d847fd5e-a417-41b2-840f-8a124ae1f4af</variableId>
    </variableLinks>
    <variableLinks>
@@ -43,7 +34,7 @@
       <variableId>2b0dfa8c-9363-4a40-9abf-a85352905814</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Scenario 1/S1_TC147').getValue('SONumber', 1)</defaultValue>
       <description></description>
       <id>d847fd5e-a417-41b2-840f-8a124ae1f4af</id>
       <masked>false</masked>
@@ -57,7 +48,7 @@
       <name>datafile</name>
    </variable>
    <variable>
-      <defaultValue>['PartsNo', 'UnitPartsNo', 'BackNo', 'PurchaseOrderNo', 'Customer', 'SPQ', 'OrderLot', 'OrderQty', 'UnitPrice', 'Currency', 'Status', 'DeliveredQty', 'InTransitQty', 'ReceiverInboundedQty', 'PlanInOutDatePlan1', 'PlanInOutDateStatus1', 'PlanInOutDatePlan2', 'PlanInOutDateStatus2', 'PlanInOutDatePlan3', 'PlanInOutDateStatus3', 'EstimatedInOutPlan1', 'EstimatedInOutPlan2']</defaultValue>
+      <defaultValue>['PartsNo', 'UnitPartsNo', 'BackNo', 'PurchaseOrderNo', 'Customer', 'SPQ', 'OrderLot', 'OrderQty', 'UnitPrice', 'Currency', 'Status', 'DeliveredQty', 'InTransitQty', 'ReceiverInboundedQty', 'PlanInOutDatePlan1', 'PlanInOutDateStatus1', 'PlanInOutDatePlan2', 'PlanInOutDateStatus2', 'PlanInOutDatePlan3', 'PlanInOutDateStatus3', 'EstimatedInOutPlan1']</defaultValue>
       <description></description>
       <id>2b0dfa8c-9363-4a40-9abf-a85352905814</id>
       <masked>false</masked>

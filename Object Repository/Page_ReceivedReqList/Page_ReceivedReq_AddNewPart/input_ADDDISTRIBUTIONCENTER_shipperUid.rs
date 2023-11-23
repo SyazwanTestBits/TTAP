@@ -10,6 +10,10 @@
          <value>//input[@id='mui-88842']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'shipperUid' and @type = 'text']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#mui-88842</value>
       </entry>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>830c8b4b-68ea-4c6b-8e2e-fe4cd24f9dfe</webElementGuid>
+      <webElementGuid>26e03803-d0eb-4efe-b954-dd0d2843a1fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>5cdc0087-e05a-416e-b0ed-bd96273f9413</webElementGuid>
+      <webElementGuid>b185604d-e032-4bd3-9fa5-266b46af919d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mui-88842</value>
-      <webElementGuid>f55e5454-d22a-47f2-92c2-0caf76d7a53a</webElementGuid>
+      <webElementGuid>07113992-e5be-4961-a8d9-42d4637a1a73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>name</name>
       <type>Main</type>
       <value>shipperUid</value>
-      <webElementGuid>be79e059-a910-4419-8ef6-28fb8ca813c2</webElementGuid>
+      <webElementGuid>8ae5f81f-1d50-4b30-90b1-ddeab49bcbbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>8a2bd01e-c911-4ab8-9f73-12a779d70c1a</webElementGuid>
+      <webElementGuid>2b20e0e3-8088-482d-8089-e4b52a1ead55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiInputBase-input lcbm-MuiInput-input lcbm-MuiAutocomplete-input lcbm-MuiAutocomplete-inputFocused lcbm-MuiInputBase-inputAdornedEnd</value>
-      <webElementGuid>541dee32-0437-452e-af7f-d12f7d348079</webElementGuid>
+      <webElementGuid>d4a91e9e-ac62-4b8c-80fe-b2bc5f7ea740</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>both</value>
-      <webElementGuid>94ad7967-b05c-4832-8747-0dc75f71c868</webElementGuid>
+      <webElementGuid>776cb8b4-25c3-4dbb-af40-316bad32bbe3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>autocapitalize</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>dd30cc7a-86f4-49e0-b0be-bd926c34c5bf</webElementGuid>
+      <webElementGuid>c67133b6-414c-49ec-8039-f233ff80d4b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>spellcheck</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>295f7dd9-652e-41ed-af93-99ba2e7409e1</webElementGuid>
+      <webElementGuid>3bb8aa9a-a4a1-4813-aa38-c2eb3ceaec17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mui-88842&quot;)</value>
-      <webElementGuid>c3b1ad55-6ac0-4069-89c3-8d3541d453f6</webElementGuid>
+      <webElementGuid>b3051339-1655-4cc5-bec3-f67fba595479</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mui-88842']</value>
-      <webElementGuid>98902873-f1b9-4459-8360-2d18469b34f2</webElementGuid>
+      <webElementGuid>4656d2e2-e6dd-4bdc-9af5-699024e8404f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div[5]/div[2]/div/div/div/form/div[2]/div/div[2]/div/div/div/div/input</value>
-      <webElementGuid>bad2815e-8163-4a49-bf03-d62ff28f7567</webElementGuid>
+      <webElementGuid>78958462-9db2-46cf-97a9-8328d8afe01c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div[2]/div/div/div/form/div[2]/div/div[2]/div/div/div/div/input</value>
-      <webElementGuid>775df2df-15e7-4209-a5a7-409adf397979</webElementGuid>
+      <webElementGuid>dcec86fa-9d71-4510-a5a2-c62cec67708d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'mui-88842' and @name = 'shipperUid' and @type = 'text']</value>
-      <webElementGuid>06a5cfc0-35d5-4d88-8753-ea4b3f7c2c69</webElementGuid>
+      <webElementGuid>bf65482d-9c10-4e4e-b1ec-b6f418e043bd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

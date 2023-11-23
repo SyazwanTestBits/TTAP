@@ -13,6 +13,10 @@
          <key>CSS</key>
          <value>li.lcbm-MuiButtonBase-root.lcbm-MuiListItem-root.lcbm-MuiMenuItem-root.lcbm-MuiMenuItem-gutters.lcbm-MuiListItem-gutters.lcbm-MuiListItem-button</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[(text() = 'Download Part Form' or . = 'Download Part Form')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>0b7b5706-f02d-41c1-8929-1eedc9ef8197</webElementGuid>
+      <webElementGuid>12f61b43-6458-4122-98af-356de427814f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiButtonBase-root lcbm-MuiListItem-root lcbm-MuiMenuItem-root lcbm-MuiMenuItem-gutters lcbm-MuiListItem-gutters lcbm-MuiListItem-button</value>
-      <webElementGuid>50c2098f-0a6c-4a0b-b646-09dad10005da</webElementGuid>
+      <webElementGuid>3d302d68-215b-481e-9bc3-a764a879a0cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>0d221c47-c24d-4d51-83b7-c31734e380a3</webElementGuid>
+      <webElementGuid>1b82580f-7384-485f-893f-a9e47cca31ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>88f9857e-04bb-4201-8fd5-9812c6c6ded8</webElementGuid>
+      <webElementGuid>bc68679a-60f0-4c37-a990-8045fa6e57c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +58,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9a9c52da-0753-41e5-a102-f5300dc4f9a9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>1</value>
-      <webElementGuid>ed239cf5-6d72-4fdb-9de1-c76abd33df03</webElementGuid>
+      <webElementGuid>500ffa34-26f2-4870-93e6-37c6e459dcb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Download Part Form</value>
-      <webElementGuid>196aa036-29ab-4324-a88a-080741c5ece7</webElementGuid>
+      <webElementGuid>fd13230c-130c-4d80-b0a8-c8ee37d23665</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;lcbm-MuiPopover-root lcbm-lcbm223&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiPopover-paper lcbm-lcbm224 lcbm-MuiPaper-elevation8 lcbm-MuiPaper-rounded&quot;]/ul[@class=&quot;lcbm-MuiList-root lcbm-MuiList-padding&quot;]/li[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiListItem-root lcbm-MuiMenuItem-root lcbm-MuiMenuItem-gutters lcbm-MuiListItem-gutters lcbm-MuiListItem-button&quot;]</value>
-      <webElementGuid>c14a48f4-fd05-4952-bfa7-79adc2b4c924</webElementGuid>
+      <webElementGuid>4fa0ffa6-35b0-4564-bf29-9d5eb267f215</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::li[1]</value>
-      <webElementGuid>f7f408b2-e3c2-4a17-bfd3-bebae1169950</webElementGuid>
+      <webElementGuid>50a7a803-8c0e-4cd8-9d24-93969bd27a0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::li[1]</value>
-      <webElementGuid>13f45934-72e7-483a-9814-898a28d45fa7</webElementGuid>
+      <webElementGuid>97b4f39d-35bd-4520-8393-dffbfdfdbf06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Download Part Form']/parent::*</value>
-      <webElementGuid>53eb1a0c-7749-47dd-9cc1-bcad89889e11</webElementGuid>
+      <webElementGuid>1bd4eb28-5dc5-49d4-abd8-a5e5a635ad95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/ul/li</value>
-      <webElementGuid>da7c0a79-2f5b-4893-97c7-4e388c028f15</webElementGuid>
+      <webElementGuid>1dedc13d-86f4-4495-81b4-8e5964d70170</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Download Part Form' or . = 'Download Part Form')]</value>
-      <webElementGuid>8f48eaaa-bf8e-4eda-a81e-294a706e3c74</webElementGuid>
+      <webElementGuid>756e1309-21ec-4683-aed4-d12314fa89bf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

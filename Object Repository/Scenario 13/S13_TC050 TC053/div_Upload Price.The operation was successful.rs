@@ -6,23 +6,27 @@
    <elementGuidId>a10f9bce-04ab-4c66-8181-c36a03636854</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Upload Price.The operation was successful.' or . = 'Upload Price.The operation was successful.')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.base-MuiAlert-message</value>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
          <value>//div[(text() = 'Upload Price.The operation was successful.' or . = 'Upload Price.The operation was successful.')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>3d97aa16-bb8f-493d-85ab-9438ae07d903</webElementGuid>
+      <webElementGuid>494b8e1d-1e65-4ea0-9e9f-d0c7b48ede69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>base-MuiAlert-message</value>
-      <webElementGuid>bf924107-e357-4bba-9dfd-20c1f7036847</webElementGuid>
+      <webElementGuid>a123b093-1235-44d4-ae75-3672a1201d9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Upload Price.The operation was successful.</value>
-      <webElementGuid>11b13fc1-f0ec-4d84-a41b-78a786802904</webElementGuid>
+      <webElementGuid>54c0c1c7-ea0a-480f-b579-060582e0d921</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;webapp-base&quot;)/div[@class=&quot;base-base1 base-base3 base-base5&quot;]/div[@class=&quot;base-MuiPaper-root base-MuiAlert-root base-MuiAlert-standardSuccess base-base58 base-MuiPaper-elevation0&quot;]/div[@class=&quot;base-MuiAlert-message&quot;]</value>
-      <webElementGuid>bde9c09e-47ef-4b83-b8f6-d98a29c8e412</webElementGuid>
+      <webElementGuid>13a5a6ee-0deb-4d41-a34f-bf13f40d1f8d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='webapp-base']/div[2]/div/div</value>
-      <webElementGuid>c2a8d358-ece6-4121-b602-fb09d84e3924</webElementGuid>
+      <webElementGuid>b53b4d3e-55b5-4119-b6a5-32b36b208ad6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='m'])[1]/following::div[4]</value>
-      <webElementGuid>0049e6b2-dd16-4e93-b291-9ddc29a551e4</webElementGuid>
+      <webElementGuid>922a58de-c10a-4a36-a467-8a073cc43a52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Privilege'])[1]/following::div[8]</value>
-      <webElementGuid>cc7d6304-4bd0-4bc9-9c78-d48a1318f90f</webElementGuid>
+      <webElementGuid>54747e38-4fb1-4efb-b865-c140a54e0218</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/preceding::div[24]</value>
-      <webElementGuid>a2efb4ad-09c9-44ae-8aab-debf8426f1ea</webElementGuid>
+      <webElementGuid>6281760a-86be-4d49-80d7-af461de2c21f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div</value>
-      <webElementGuid>03b67136-bab8-405b-bcde-a35a2d05d68f</webElementGuid>
+      <webElementGuid>6556d7e5-2653-4291-8d76-2f3d520d6aa9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Upload Price.The operation was successful.' or . = 'Upload Price.The operation was successful.')]</value>
-      <webElementGuid>5e89f813-553e-41a6-87af-a7b295dcffec</webElementGuid>
+      <webElementGuid>b71d7cf0-4dde-48a3-a9dd-74f28cd48c1a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
