@@ -31,7 +31,7 @@ not_run: WebUI.setText(findTestObject('LoginPage_Brivge/input_Sign In_password')
 
 WebUI.click(findTestObject('LoginPage_Brivge/button_Sign In'))
 
-not_run: WebUI.setEncryptedText(findTestObject('LoginPage_Brivge/input_Verify_verificationCode'), verificationCode)
+WebUI.setEncryptedText(findTestObject('LoginPage_Brivge/input_Verify_verificationCode'), verificationCode)
 
 WebUI.click(findTestObject('LoginPage_Brivge/button_Verify'))
 

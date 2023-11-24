@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Dummy S10_TC001 - Create Global Parts (Admin)</name>
+   <name>syazwan test</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>debd3e49-4935-4d89-9499-af487354a860</testCaseGuid>
+   <testCaseGuid>bd392a7b-fd4b-4a23-b0c0-4d885aef9d26</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>9092cc39-0b24-4551-bb48-368bc9649a95</variableId>
+      <variableId>fa781ded-fbb4-43c7-bcd3-6c7e9a03128e</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('Scenario 10/S10_TC001')</defaultValue>
+      <defaultValue>'HELLO TESTER'</defaultValue>
       <description></description>
-      <id>9092cc39-0b24-4551-bb48-368bc9649a95</id>
+      <id>fa781ded-fbb4-43c7-bcd3-6c7e9a03128e</id>
       <masked>false</masked>
-      <name>dataFile</name>
+      <name>test</name>
    </variable>
 </TestCaseEntity>

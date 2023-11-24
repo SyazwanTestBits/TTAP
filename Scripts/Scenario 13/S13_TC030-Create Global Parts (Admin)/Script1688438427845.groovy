@@ -2,7 +2,6 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -15,11 +14,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.testdata.reader.SheetPOI as SheetPOI
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.ADMIN_USERNAME
-        , ('password') : GlobalVariable.ADMIN_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.ADMIN_COMPANY], 
-    FailureHandling.STOP_ON_FAILURE)
+
+
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : url, ('username') : username, ('password') : password
+        , ('verificationCode') : verificationCode, ('company') : company], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Navbar_Brivge/button_Master'))
 
@@ -29,13 +31,15 @@ WebUI.waitForElementPresent(findTestObject('Page_GlobalPartsList/h3_Global Parts
 
 WebUI.click(findTestObject('Page_GlobalPartsList/button_CreateModify_GlobalParts'))
 
-WebUI.waitForElementPresent(findTestObject('Page_GlobalPartsList/Page_CreateModifyGlobalParts/h3_Create OR Modify Global Parts'), 
-    0)
+WebUI.waitForElementPresent(findTestObject('Page_GlobalPartsList/Page_CreateModifyGlobalParts/h3_Create OR Modify Global Parts'),
+	0)
 
 WebUI.check(findTestObject('Page_GlobalPartsList/Page_CreateModifyGlobalParts/input_CreateModifyGlobalParts_DwnloadUpload'))
 
-WebUI.waitForElementPresent(findTestObject('Page_GlobalPartsList/Page_CreateModifyGlobalParts/h6_Select Download Or Upload'), 
-    0)
+
+WebUI.waitForElementPresent(findTestObject('Page_GlobalPartsList/Page_CreateModifyGlobalParts/h6_Select Download Or Upload'),
+	0)
+
 
 WebUI.click(findTestObject('Page_GlobalPartsList/Page_CreateModifyGlobalParts/button_Download'))
 

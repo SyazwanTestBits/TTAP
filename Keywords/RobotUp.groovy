@@ -84,6 +84,30 @@ public class RobotUpload {
 		robot.keyPress(KeyEvent.VK_ENTER);     //press  Enter
 		robot.keyRelease(KeyEvent.VK_ENTER);    //release Enter
 	}
+	
+	@Keyword
+	def uploadFileUsing_withoutClick(String filePath) {
+
+		Thread.sleep(500)
+
+		StringSelection ss = new StringSelection(filePath);
+		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
+		Robot robot = new Robot();
+
+		robot.delay(1000)
+		robot.keyPress(KeyEvent.VK_CONTROL);    //press Control
+		robot.keyPress(KeyEvent.VK_V);           //press  V       = means kita paste excel file path
+
+		robot.keyRelease(KeyEvent.VK_CONTROL);
+		robot.keyRelease(KeyEvent.VK_V);
+
+		robot.delay(1000)
+
+		robot.keyPress(KeyEvent.VK_ENTER);     //press  Enter
+		robot.keyRelease(KeyEvent.VK_ENTER);    //release Enter
+	}
+	
+	
 }
 
 

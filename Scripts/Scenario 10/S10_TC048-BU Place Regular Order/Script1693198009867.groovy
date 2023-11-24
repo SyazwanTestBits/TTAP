@@ -30,7 +30,7 @@ WebUI.waitForElementVisible(findTestObject('Scenario 10/S10_TC035/h3_Order Calcu
 
 WebUI.verifyElementText(findTestObject('Scenario 10/S10_TC035/h3_Order Calculation List'), 'Order Calculation List')
 
-WebUI.setText(findTestObject('Scenario 10/S10_TC035/input_Search Order Calculation'), orderCalcNo)
+WebUI.setText(findTestObject('Scenario 10/S10_TC035/input_Search Order Calculation'), orderReference)
 
 WebUI.click(findTestObject('Scenario 10/S10_TC035/input_tick all'))
 
@@ -67,6 +67,9 @@ for (int row = 1; row <= testData1.getRowNumbers(); row++) {
 WebUI.setText(findTestObject('Scenario 10/S10_TC048/input__basic info-orderRefNo'), orderReference)
 
 WebUI.setText(findTestObject('Scenario 10/S10_TC048/input__basic info-remark'), orderReferenceRemark)
+
+CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Scenario 10/S10_TC048/div_Place Order Screen(Regular)Home PageOrder Calculation ListPlace Order Screen(Regular)1234SaveIssue'), 
+    0)
 
 CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 10/S10_TC048/button_Download step 1'), 0)
 
@@ -118,12 +121,11 @@ for (int index = 1; index <= testData1.getRowNumbers(); index++) {
     }
 }
 
-CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Scenario 10/S10_TC048/div_Place Order Screen(Regular)Home PageOrder Calculation ListPlace Order Screen(Regular)1234SaveIssue'), 
-    0)
+not_run: CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 10/S10_TC048/button_Upload'), latestPath, 0)
 
-CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 10/S10_TC048/button_Upload'), latestPath)
+CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 10/S10_TC048/button_Upload'), 0)
 
-CustomKeywords.'RobotUpload.uploadFileUsingJS'(findTestObject('Scenario 10/S10_TC048/button_Upload'), latestPath)
+CustomKeywords.'RobotUpload.uploadFileUsing_withoutClick'(latestPath)
 
 WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/p_The operation was successful'), 0)
 
