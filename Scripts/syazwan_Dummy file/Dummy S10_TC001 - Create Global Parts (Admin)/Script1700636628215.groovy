@@ -24,8 +24,7 @@ not_run: WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') :
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : 'https://test.brivge.com/', ('username') : 'admin'
-	, ('password') : 'HeCM15nHKBI=', ('verificationCode') : 'gpgbu9TGv9g=', ('company') : 'SG-TTAP'], FailureHandling.STOP_ON_FAILURE)
-
+        , ('password') : 'HeCM15nHKBI=', ('verificationCode') : 'gpgbu9TGv9g=', ('company') : 'SG-TTAP'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Navbar_Brivge/button_Master'))
 
@@ -49,7 +48,13 @@ WebUI.delay(3)
 
 downloadedExcel = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
-for (def index : (1..dataFile.getRowNumbers())) {
+CustomKeywords.'copyToExcel.exel2'('Testing2', 7, 1, downloadedExcel, 'Global Parts')
+
+not_run: for (int index = 7; index <= 10; index++) {
+    CustomKeywords.'copyToExcel.exel2'('Testing2', index + 6, 0, downloadedExcel, 'Global Parts')
+}
+
+not_run: for (def index : (1..dataFile.getRowNumbers())) {
     CustomKeywords.'copyToExcel.exel2'(findTestData('Scenario 10/S10_TC001').getValue(2, index), index + 6, 0, downloadedExcel, 
         'Global Parts')
 
@@ -85,21 +90,23 @@ for (def index : (1..dataFile.getRowNumbers())) {
         )
 }
 
-absolutePath = CustomKeywords.'ManageFiles.getFileAbsolutePath'(downloadedExcel)
+not_run: absolutePath = CustomKeywords.'ManageFiles.getFileAbsolutePath'(downloadedExcel)
 
-WebUI.uploadFile(findTestObject('Page_GlobalPartsList/Page_CreateModifyGlobalParts/input_UploadFile_GlobalParts'), absolutePath)
+not_run: WebUI.uploadFile(findTestObject('Page_GlobalPartsList/Page_CreateModifyGlobalParts/input_UploadFile_GlobalParts'), 
+    absolutePath)
 
-WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_SuccessUploadGlobalPartsMaster'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_SuccessUploadGlobalPartsMaster'), 
+    0)
 
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.HOME))
+not_run: WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.HOME))
 
-WebUI.click(findTestObject('Page_GlobalPartsList/Page_CreateModifyGlobalParts/button_Submit'))
+not_run: WebUI.click(findTestObject('Page_GlobalPartsList/Page_CreateModifyGlobalParts/button_Submit'))
 
-WebUI.waitForElementPresent(findTestObject('NotificationMsg_Brivge/div_ConfirmMsg_AreYouSure_ToDoSubmit'), 0)
+not_run: WebUI.waitForElementPresent(findTestObject('NotificationMsg_Brivge/div_ConfirmMsg_AreYouSure_ToDoSubmit'), 0)
 
-WebUI.click(findTestObject('NotificationMsg_Brivge/button_NotiMsg_CONFIRM'))
+not_run: WebUI.click(findTestObject('NotificationMsg_Brivge/button_NotiMsg_CONFIRM'))
 
-WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_SuccessSaveGlobalParts'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_SuccessSaveGlobalParts'), 0)
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

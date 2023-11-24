@@ -6,23 +6,27 @@
    <elementGuidId>89ffc9c9-b542-4ad7-a30f-6389bb9fbad2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.lcbm-MuiButtonBase-root.lcbm-MuiButton-root.lcbm-MuiButton-contained.lcbm-lcbm375.lcbm-MuiButton-containedSecondary</value>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[9]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[2]/div[1]/div[2]/div/div/div/div/div[4]/button</value>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Upload' or . = 'Upload')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.lcbm-MuiButtonBase-root.lcbm-MuiButton-root.lcbm-MuiButton-contained.lcbm-lcbm375.lcbm-MuiButton-containedSecondary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>7f829063-5c01-4c51-bcb6-77dbc771313b</webElementGuid>
+      <webElementGuid>da5e8c39-713f-49dd-9f3b-79593205fca2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiButtonBase-root lcbm-MuiButton-root lcbm-MuiButton-contained lcbm-lcbm375 lcbm-MuiButton-containedSecondary</value>
-      <webElementGuid>5e1e22c8-08c9-49ed-8510-0ac85a855d86</webElementGuid>
+      <webElementGuid>b36ecdb8-d004-474c-98d8-008d8bbc6a06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>2db761fa-e729-4313-b259-1ce94854596d</webElementGuid>
+      <webElementGuid>8a3d4bee-0d67-4c28-8d3e-be2091bde331</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c105e941-1706-4323-bc58-f262faf695c1</webElementGuid>
+      <webElementGuid>a3bddd01-398d-433a-8ca6-dc11a0f79e77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Upload</value>
-      <webElementGuid>fb0625fd-d99e-4087-bc70-ad8c7b283bfc</webElementGuid>
+      <webElementGuid>4e2b4566-9437-4663-b6e1-11c5ffd6ed62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;webapp-lcbm&quot;)/div[@class=&quot;os-host os-host-foreign os-theme-dark os-host-resize-disabled os-host-scrollbar-horizontal-hidden lcbm-lcbm1 os-host-overflow os-host-overflow-y os-host-transition&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;lcbm-lcbm2&quot;]/div[@class=&quot;lcbm-lcbm5&quot;]/div[@class=&quot;lcbm-MuiPaper-root lcbm-MuiCard-root lcbm-lcbm50 lcbm-MuiPaper-elevation3 lcbm-MuiPaper-rounded&quot;]/div[@class=&quot;lcbm-MuiCollapse-root lcbm-MuiCollapse-entered&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapper&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapperInner&quot;]/div[@class=&quot;lcbm-lcbm53&quot;]/div[@class=&quot;lcbm-lcbm370 lcbm-lcbm394&quot;]/div[@class=&quot;lcbm-lcbm372 lcbm-lcbm398&quot;]/button[@class=&quot;lcbm-MuiButtonBase-root lcbm-MuiButton-root lcbm-MuiButton-contained lcbm-lcbm375 lcbm-MuiButton-containedSecondary&quot;]</value>
-      <webElementGuid>c41bd5c1-badc-4583-b5cb-006cafc95070</webElementGuid>
+      <webElementGuid>52c9cf2d-4c7c-4e2f-921d-f256a5f17f7f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[9]</value>
-      <webElementGuid>600e9e55-8289-47e3-a540-2d2e0773a5ff</webElementGuid>
+      <webElementGuid>5154b0a3-29e6-4b89-8228-3c8ddd239bbf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='webapp-lcbm']/div/div[4]/div/div/div/div[2]/div/div[2]/div/div/div/div/div[4]/button</value>
-      <webElementGuid>b61b73f2-aac5-4317-bbab-d0948d057dd1</webElementGuid>
+      <webElementGuid>442c7d8a-d1d3-464a-b46f-ca29c6fa1b33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Download'])[1]/following::button[1]</value>
-      <webElementGuid>fd08ad0b-7949-4c63-964a-33dfab5ed8fb</webElementGuid>
+      <webElementGuid>5527be22-167e-49ba-a050-01093e3eb013</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Download/Upload Order Form (optional)'])[1]/following::button[3]</value>
-      <webElementGuid>f8632b0f-718d-4299-a3b0-f4b534b59fb5</webElementGuid>
+      <webElementGuid>42632f34-1e1c-4d93-9092-b56740935153</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Download'])[2]/preceding::button[1]</value>
-      <webElementGuid>daf2a997-9b63-4dbb-9e4c-36324deae54f</webElementGuid>
+      <webElementGuid>6906d52c-5d52-4613-8269-1be31f39ba0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/button</value>
-      <webElementGuid>118d34c7-67ab-42cb-bb01-7cee20971a6e</webElementGuid>
+      <webElementGuid>81a70aca-35fe-45bb-9b8e-cb9907fd102e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Upload' or . = 'Upload')]</value>
-      <webElementGuid>f722ae57-b6a4-4ead-a16d-ba29bd92303e</webElementGuid>
+      <webElementGuid>8ade61f4-587e-4704-8b99-28906f3475c1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

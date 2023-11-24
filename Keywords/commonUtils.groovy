@@ -54,6 +54,29 @@ public class commonUtils extends DateConversion {
 			outboundDateYear
 		]
 	}
+	
+	@Keyword(keywordObject='Common Utils')
+	def parseDateDayMonthYearEachIntoInt_withFormat_ChineseLocale(String inputDate, String inputFormatDate) {
+		
+				String outputFormat = "d/M/yyyy"
+		
+				//Typical input format: MMM d, yyyy
+				SimpleDateFormat inputDateFormat = new SimpleDateFormat(inputFormatDate, Locale.CHINA)
+				SimpleDateFormat outputDateFormat = new SimpleDateFormat(outputFormat, Locale.ENGLISH)
+				Date date = inputDateFormat.parse(inputDate)
+				String formattedDate = outputDateFormat.format(date)
+		
+		
+				def (day, month, year) = formattedDate.split('/')
+				def outboundDateDay = day.toInteger()
+				def outboundDateMonth = month.toInteger()
+				def outboundDateYear = year.toInteger()
+				return [
+					outboundDateDay,
+					outboundDateMonth,
+					outboundDateYear
+				]
+			}
 
 	@Keyword(keywordObject='Common Utils')
 	String parseDateInfoDesiredDateFormat(String dateString) {

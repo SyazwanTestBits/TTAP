@@ -252,23 +252,23 @@
     },
     {
       "approved": true,
-      "testObjectId": "Object Repository/Scenario 12/SC12_TC056/p_editInvoice",
-      "brokenLocator": "//p[(text() \u003d \u0027PNA2311001\u0027 or . \u003d \u0027PNA2311001\u0027)]/following::button[2]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div[2]/div/div/div/div[2]/div[4]/div/div/div/table[2]/tbody/tr/td[3]/div/p",
+      "testObjectId": "Object Repository/Page_GlobalPartsList/Page_CreateModifyGlobalParts/h3_Create OR Modify Global Parts",
+      "brokenLocator": "//h3[(text() \u003d \u0027Create OR Modify Global Parts\u0027 or . \u003d \u0027Create OR Modify Global Parts\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div/div/h3",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 12/SC12_TC056/p_editInvoice_idRelative.png"
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_GlobalPartsList/Page_CreateModifyGlobalParts/h3_Create OR Modify Global Parts_idRelative.png"
     },
     {
       "approved": true,
-      "testObjectId": "Object Repository/Scenario 13/S13_TC064,065/li_tracktype (1)",
-      "brokenLocator": "//li[(text() \u003d \u0027MANUAL\u0027 or . \u003d \u0027MANUAL\u0027)]",
-      "brokenLocatorMethod": "BASIC",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027MANUAL\u0027])[3]/preceding::li[1]",
+      "testObjectId": "Object Repository/Page_GlobalPartsList/Page_CreateModifyGlobalParts/input_CreateModifyGlobalParts_DwnloadUpload",
+      "brokenLocator": "//input[contains(@id, \u0027Radio_CreateGlobalPartsbyDownloadUpload\u0027) and @name \u003d \u0027method\u0027 and @type \u003d \u0027radio\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027webapp-lcbm\u0027]/div/div[4]/div/div/div/div[2]/div/div[2]/div/div/div/fieldset/div/label[2]/span/span/input",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Scenario 13/S13_TC064,065/li_tracktype (1)_neighbor.png"
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_GlobalPartsList/Page_CreateModifyGlobalParts/input_CreateModifyGlobalParts_DwnloadUpload_idRelative.png"
     }
   ]
 }

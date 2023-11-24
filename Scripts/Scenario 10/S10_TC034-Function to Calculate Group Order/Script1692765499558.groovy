@@ -36,7 +36,7 @@ WebUI.waitForElementPresent(findTestObject('Page_OrderCalcList/Page_CreateOrderC
 
 WebUI.click(findTestObject('Page_OrderCalcList/Page_CreateOrderCalculation/input__cutoffDate'), FailureHandling.STOP_ON_FAILURE)
 
-(day, month, year) = CustomKeywords.'commonUtils.parseDateDayMonthYearEachIntoInt_withFormat'(cutOffDateFormatted, 'MMM d, yyyy')
+(day, month, year) = CustomKeywords.'commonUtils.parseDateDayMonthYearEachIntoInt_withFormat_ChineseLocale'(cutOffDateFormatted, 'MMM d, yyyy')
 
 CustomKeywords.'util.handlePicker2.handleCalendar_CannotPrevious'(findTestObject('Scenario 13/S13_TC033_Shipping_Route/div_calendar header'), 
     day, month, year)

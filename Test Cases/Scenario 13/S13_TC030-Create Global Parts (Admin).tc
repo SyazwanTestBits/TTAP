@@ -4,15 +4,15 @@
    <name>S13_TC030-Create Global Parts (Admin)</name>
    <tag></tag>
    <integratedEntity>
-<productName>JIRA</productName>
-<properties>
-<entry>
-<key>integratedValue</key>
-<value>{"jiraIssue":{"fields":{"customFields":{"customfield_10025":"10000_*:*_1_*:*_266534994_*|*_10002_*:*_1_*:*_0_*|*_10001_*:*_1_*:*_328634401","customfield_10018":{"hasEpicLinkFieldDependency":false,"showField":false,"nonEditableReason":{"reason":"PLUGIN_LICENSE_ERROR","message":"The Parent Link is only available to Jira Premium users."}},"customfield_10019":"0|i0001b:20d"},"status":{"id":10002,"description":"","iconUrl":"https://ttap-scm-at.atlassian.net/","self":"https://ttap-scm-at.atlassian.net/rest/api/2/status/10002","name":"Done"},"project":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/project/10000","key":"BAT","id":10000,"name":"BriVge Automated Testing"},"components":[],"summary":"SC13_TC30 - Admin -Create Global Parts","description":"User: Admin\\\\Login ID: Admin\\\\Company: SG-TTAP-ADMIN\\\\Function:Master \u003e Global Parts List\\\\Description: Function to create Global Parts","reporter":{"active":true,"displayName":"Nurfatin binti Abdullah Shuhaimy","self":"https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2"},"resolution":{"id":10000,"description":"Work has been completed on this issue.","self":"https://ttap-scm-at.atlassian.net/rest/api/2/resolution/10000","name":"Done"},"priority":{"id":3,"self":"https://ttap-scm-at.atlassian.net/rest/api/2/priority/3","name":"Medium"},"votes":{"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-112/votes","votes":0,"hasVoted":false},"fixVersions":[],"subtasks":[],"labels":[]},"self":"https://ttap-scm-at.atlassian.net/rest/api/2/issue/10111","key":"BAT-112","id":10111}}</value>
-</entry>
-</properties>
-<type>TESTCASE</type>
-</integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10025&quot;:&quot;10000_*:*_1_*:*_266534994_*|*_10002_*:*_1_*:*_0_*|*_10001_*:*_1_*:*_328634401&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0001b:20d&quot;},&quot;status&quot;:{&quot;id&quot;:10002,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://ttap-scm-at.atlassian.net/&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/status/10002&quot;,&quot;name&quot;:&quot;Done&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;BAT&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;BriVge Automated Testing&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;SC13_TC30 - Admin -Create Global Parts&quot;,&quot;description&quot;:&quot;User: Admin\\\\Login ID: Admin\\\\Company: SG-TTAP-ADMIN\\\\Function:Master \u003e Global Parts List\\\\Description: Function to create Global Parts&quot;,&quot;reporter&quot;:{&quot;active&quot;:true,&quot;displayName&quot;:&quot;Nurfatin binti Abdullah Shuhaimy&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/user?accountId\u003d712020%3A21757f5f-0bf9-42ac-8e0d-af69642ad2a2&quot;},&quot;resolution&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;Work has been completed on this issue.&quot;,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/resolution/10000&quot;,&quot;name&quot;:&quot;Done&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/BAT-112/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://ttap-scm-at.atlassian.net/rest/api/2/issue/10111&quot;,&quot;key&quot;:&quot;BAT-112&quot;,&quot;id&quot;:10111}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>7068359b-8a3d-4999-a78e-e633efc7b663</testCaseGuid>
    <testDataLinks>
@@ -30,11 +30,76 @@
       <value></value>
       <variableId>02b05fd0-b565-4eac-8d0a-dd1ec597de31</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>799de4c5-cc14-409f-b4e1-563d283d0f2b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ab2f36b8-3f26-49df-a15e-dcf709a38f53</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6b66d8f9-e4a3-4ab8-b5f2-b819bb02c961</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c6f3d253-3760-4887-bb5f-65ed30bfa22d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>81ed03ec-d234-462c-b08f-da58ad49af22</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Excel Files/Scenario 13/TC030/13.0 - TC30 - Create Global Parts.xlsx'</defaultValue>
       <description></description>
       <id>02b05fd0-b565-4eac-8d0a-dd1ec597de31</id>
       <masked>false</masked>
       <name>relative_globalpart_filepath</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://test.brivge.com/login'</defaultValue>
+      <description></description>
+      <id>799de4c5-cc14-409f-b4e1-563d283d0f2b</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin'</defaultValue>
+      <description></description>
+      <id>ab2f36b8-3f26-49df-a15e-dcf709a38f53</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'HeCM15nHKBI='</defaultValue>
+      <description></description>
+      <id>6b66d8f9-e4a3-4ab8-b5f2-b819bb02c961</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'gpgbu9TGv9g='</defaultValue>
+      <description></description>
+      <id>c6f3d253-3760-4887-bb5f-65ed30bfa22d</id>
+      <masked>false</masked>
+      <name>verificationCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'SG-TTAP'</defaultValue>
+      <description></description>
+      <id>81ed03ec-d234-462c-b08f-da58ad49af22</id>
+      <masked>false</masked>
+      <name>company</name>
    </variable>
 </TestCaseEntity>

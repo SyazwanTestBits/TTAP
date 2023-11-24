@@ -17,9 +17,17 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-CustomKeywords.'python.helloWorld'(11, 15)
+not_run: CustomKeywords.'python.helloWorld'(11, 15)
 
-CustomKeywords.'python.disableProtect_excel'(filename)
+not_run: CustomKeywords.'python.disableProtect_excel'(filename)
 
 not_run: CustomKeywords.'python.disableProtect_excel_v2'(filename)
+
+println('HEllO WORLD')
+ 
+println(test)
+
+String ss=findTestData('Data Files/Scenario 10/S10_TC001').getValue('NEW/MOD', 1)
+
+println(ss)
 
