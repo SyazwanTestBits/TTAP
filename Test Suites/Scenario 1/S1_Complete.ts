@@ -85,7 +85,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Scenario 1/S1_TC053-TC059</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Scenario 1/S1_TC053-TC061</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -95,7 +95,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Scenario 1/S1_TC060-TC072</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Scenario 1/S1_TC062-TC072</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -115,7 +115,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Scenario 1/S1_TC088-TC096</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Scenario 1/S1_TC088-TC097</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -125,7 +125,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Scenario 1/S1_TC097-TC109</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Scenario 1/S1_TC098-TC103</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -135,7 +135,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Scenario 1/S1_TC110-TC123</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Scenario 1/S1_TC110-TC115</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

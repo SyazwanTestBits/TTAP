@@ -1,4 +1,5 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import java.text.SimpleDateFormat as SimpleDateFormat
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
@@ -9,7 +10,6 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
@@ -84,11 +84,12 @@ CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 13/S13_TC050 TC
 WebUI.verifyElementPresent(findTestObject('Scenario 1/S1_TC073/Page_SO Monitoring Detail - Brivge/div_Upload Price.The operation was successful'), 
     0)
 
+
 for (def index : (1..datafile_date.getRowNumbers())) {
     def excelColumnSize = 2
 
     for (def index2 : (1..excelColumnSize)) {
-        def dateValue = datafile_date.getValue('newPlanDate' + index2, index)
+        def dateValue = findTestData('Scenario 1/S1_TC073-Supplier1 SO Date').getValue('newPlanDate' + index2, index)
 
         if (dateValue != 'NULL') {
             def dateFormat = new SimpleDateFormat('MMM dd, yyyy')

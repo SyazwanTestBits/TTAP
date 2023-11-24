@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>S1_TC186-TC192</name>
+   <name>S1_TC149-TC155</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,150 +10,144 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>25f07c16-58d3-4447-be43-b731add54951</testSuiteGuid>
+   <testSuiteGuid>72d32052-80ef-4b89-8c57-deb1d613ed05</testSuiteGuid>
    <testCaseLink>
-      <guid>6d9372c9-517a-403e-a103-adbada07b829</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Scenario 1/S1_TC186-BU2 Revise and Approve SellerGI Invoice</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>37dd8333-aa20-498e-ab5b-62a62000d368</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>73a55345-c8f2-4c7c-b642-b2dde1dfe6b5</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>62b88a8c-cf75-491b-a8c6-4536bfd51074</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Scenario 1/S1_TC187-BU2 Complete Custom Invoice -Export</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>cc73cac8-e6b7-4885-90a0-168cfc655f08</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1906de05-71d0-45a8-a058-4afaf13d1e0a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Scenario 1/S1_TC188-BU1 Complete Custom Invoice -Import</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>fa1326ac-8c11-4e44-8bf9-7bb85c35e4fb</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e74c7b82-9559-4254-b781-9637dff83f13</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Scenario 1/S1_TC189-Customer Check Cargo Tracking Detail after Custom Invoice Updated</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f4ded536-239f-4b78-a0c9-9f8392286faa</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e7c6d5fd-e930-4df1-816f-b0f24c7d0e75</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>da4be56c-8099-4915-b696-0164b8885fb1</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e24e3248-4a53-4cff-b4be-a087b2ae6ca8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Scenario 1/S1_TC190-BU2 Release SellerGI Invoice</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3d8d61b8-5957-40fa-a297-84d5bd40c968</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ef4758a0-be87-4870-802d-f9cadd4c1ca0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Scenario 1/S1_TC191-BU1 Auto Generate BuyerGR Invoice</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>fb4aca60-9ba4-4f2c-aabe-1c988e741cee</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6673680c-f059-464c-a272-1267e2cd335a</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>630587c0-b870-4b2e-a980-b682f5733501</guid>
+      <guid>022bf4da-155b-4ace-a12c-59af7686d993</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Scenario 1/S1_TC192-DC1 Inbound -Regular and Spot</testCaseId>
+      <testCaseId>Test Cases/Scenario 1/S1_TC149-Customer Auto Generate Cargo Tracking Detail after Supplier2 Outbound</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>f0d4d827-4c59-4b73-aa52-5be2c3549291</variableId>
+         <variableId>11446cac-214a-4f00-b166-4587a81d8c55</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>0db41dcb-e8d0-42a1-bde8-118c45de4f4e</variableId>
+         <variableId>8830c3a3-5350-4c18-8343-e91c617ea471</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>95be8db3-e520-4ccb-9a54-12d537164c0e</variableId>
+         <variableId>30349b5e-801c-414d-9f53-54f69bbb8517</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>95f92403-22e6-4ff3-afd2-77663608c5d8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 1/S1_TC150-BU1 Auto Generate Cargo Tracking Detail after Supplier2 Outbound</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>33ce6b71-3e82-4c02-b678-452188fd216c</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>5eff722b-9c71-4436-9569-b4604234561d</variableId>
+         <variableId>39e83f2f-3dee-4030-b1b6-4229a38255d6</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>0b2340e0-71a9-414a-828a-ac1044d73441</variableId>
+         <variableId>2b2bf15b-96da-43b0-8ce5-ea58b872830d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b49c3673-f7ff-473c-8dde-13619135ae61</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 1/S1_TC151-BU2 Auto Generate Cargo Tracking Detail after Supplier2 Outbound</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e74855b0-8f7e-4a13-9258-3b9a7b27a3ee</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>18743605-e676-46ab-b6e4-04b1a0f826f0</variableId>
+         <variableId>82974b91-3c2f-4109-83fc-1e17be3b8174</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>116efe74-a600-4478-85da-5f8fe50b825b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bec3474d-1da4-4fd2-88e0-eb153886dac9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 1/S1_TC152-Supplier2 Auto Generate Cargo Tracking Detail after Outbound</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0dbca020-cefa-44c2-846f-2d76026ee699</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fac171fa-91ae-4eb5-9c84-56efc52c103d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0776ce4f-5997-4d9e-b261-db5e833c6091</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e145a0f9-6e8f-4bb4-95f8-1db03bbcc74a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 1/S1_TC153-Supplier2 Auto Generate Shipping Detail after Outbound</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b88edc17-8918-4c02-a855-f1bfa35b104c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d014293b-e7a6-46e0-b5c2-6acbff60d493</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 1/S1_TC154-BU2 Auto Generate Shipping Detail after Supplier2 Outbound</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8820a1f6-2e3c-403f-8570-bfb612c6ee89</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f248923f-4d7d-4b41-be4a-89f7b6b0ca89</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 1/S1_TC155-DC2 Auto Generate Shipping Detail after Supplier2 Outbound</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ea462c1e-5ce6-4ed6-96dc-2c97aabdbada</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
