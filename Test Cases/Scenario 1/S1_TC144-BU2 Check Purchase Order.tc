@@ -26,7 +26,7 @@
    </testDataLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
-      <type>DATA_COLUMN</type>
+      <type>DEFAULT</type>
       <value></value>
       <variableId>7f2d84b0-9c0a-42d3-af48-9833da8be0f1</variableId>
    </variableLinks>

@@ -17,7 +17,7 @@
    <testCaseGuid>92e65e98-5323-49a0-9bf7-725c79c405ab</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
-      <type>DATA_COLUMN</type>
+      <type>DEFAULT</type>
       <value></value>
       <variableId>d847fd5e-a417-41b2-840f-8a124ae1f4af</variableId>
    </variableLinks>

@@ -49,7 +49,7 @@ for (int rowIndex = 1; rowIndex <= 2; rowIndex++) {
     CustomKeywords.'copyToExcel.exel'(invoiceNo, rowIndex, 1, 'Excel Files\\Scenario 1', 'S1_TestCases_Data.xlsx', 'TC156-Sup2 SellerGI Invoice')
 }
 
-def invoiceNoEdit = testData.getValue('InvoiceNo', 1)
+def invoiceNoEdit = findTestData('Scenario 1/S1_TC156-Supplier2 SellerGI Invoice').getValue('InvoiceNo', 1)
 
 WebUI.click(findTestObject('Scenario 12/SC12_TC056/p_editInvoice', [('invoiceNo') : invoiceNoEdit]))
 

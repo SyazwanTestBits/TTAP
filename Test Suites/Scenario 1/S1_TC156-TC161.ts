@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>S1_TC156-TC161</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>f80ee64f-ddd0-4620-adb0-db37ea55c254</testSuiteGuid>
+   <testCaseLink>
+      <guid>57c3e551-37e3-4d39-8c8f-e10e6dc24e62</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 1/S1_TC156-Supplier2 Revise and Approve SellerGI Invoice</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>47b431a7-a431-4cd5-92c5-07a27e013213</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6a8dba23-8b02-4375-9fe3-b39be323c64b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>40d5e6a1-ac33-4827-b361-fc610783c982</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 1/S1_TC157-Supplier2 Auto Generate Custom Invoice -Export</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a3fdf1ef-f40f-4393-94cf-3c6c2d139066</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>44003105-c9e8-4437-89ed-6a42b722e91d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 1/S1_TC158-BU2 Auto Generate Custom Invoice -Import</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5ee1a166-077f-40b9-955a-edbcbdca980e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e2793782-cafa-4df6-8e37-324387abaf6f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 1/S1_TC159-Supplier2 Revise and Confirm Shipping Detail</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>96d2a8b9-8b93-4e77-8a45-bcbe13dcd9ea</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4be54149-b648-45bd-9e7a-9f3974e17afb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>61008c8f-68f4-4dab-9328-524c6965f4a5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 1/S1_TC160-BU2 Check Shipping Detail after Supplier2 Update and Confirm Shipment</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8d671c27-b1bb-473e-8dac-3247815e37f3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>edefac16-b033-4862-9b8b-8f60e0ca8272</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario 1/S1_TC161-DC2 Check Shipping Detail after Supplier2 Update and Confirm Shipment</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cb80355c-0151-49b0-81a6-00bb0956f394</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

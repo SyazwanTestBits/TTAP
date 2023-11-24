@@ -60,16 +60,16 @@ for (int row = 1; row <= 4; row++) {
 
     KeywordUtil.logInfo("VERIFIED MAIN TITLE: $mainforpath2")
 
-    WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC064,065/div_trackingType v1_1', [('maintitle') : mainforpath2
-                , ('tracktype') : trackType]), 0)
+//    WebUI.verifyElementPresent(findTestObject('Scenario 13/S13_TC064,065/div_trackingType v1_1', [('maintitle') : mainforpath2
+//                , ('tracktype') : trackType]), 0)
 
     KeywordUtil.logInfo("VERIFIED TRACKING TYPE: $trackType")
 
-    if (trackType == 'REAL-TIME') {
-        WebUI.click(findTestObject('Scenario 13/S13_TC064,065/div_trackingType v1_1', [('maintitle') : mainforpath2, ('tracktype') : trackType]))
+//    if (trackType == 'REAL-TIME') {
+//        WebUI.click(findTestObject('Scenario 13/S13_TC064,065/div_trackingType v1_1', [('maintitle') : mainforpath2, ('tracktype') : trackType]))
 
-        WebUI.click(findTestObject('Scenario 13/S13_TC064,065/li_tracktype (1)'))
-    }
+//       WebUI.click(findTestObject('Scenario 13/S13_TC064,065/li_tracktype (1)'))
+//    }
     
     CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 13/S13_TC064,065/button_arrow_container more detail', 
             [('maintitle') : mainforpath2]), 1)

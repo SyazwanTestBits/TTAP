@@ -15,6 +15,24 @@
    </integratedEntity>
    <comment></comment>
    <testCaseGuid>69a7e82c-59b3-420e-8482-8ad0b1a62011</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f35b7c59-b7ae-417e-83ea-d8729404bca5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>49710f18-0500-458a-8e8e-ce540d6df800</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>baa99489-8e59-4251-bd62-7377c974b9cb</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestData('Scenario 1/S1_TC195').getValue('SONumber', 1)</defaultValue>
       <description></description>

@@ -22,7 +22,6 @@ import internal.GlobalVariable
 
 import org.openqa.selenium.support.events.EventFiringWebDriver
 
-import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.driver.DriverFactory
