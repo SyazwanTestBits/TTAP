@@ -81,6 +81,30 @@
       <value></value>
       <variableId>b5a6167f-654d-4b73-8f9e-2a8d4ba81707</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4b159851-3c3b-4515-9391-39b1f5cb8582</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>74df4640-5c3d-441d-a603-f3e176a21014</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>689bcbfc-1b0d-4794-9cfe-95b7a58199ad</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d696e9d5-86e3-45b0-b0d9-78ab0c145b50</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestData('Scenario 10/S10_TC027 new/S10_TC027-AutoGen').getValue('ProjectCode', 1)</defaultValue>
       <description></description>
@@ -157,5 +181,33 @@
       <id>b5a6167f-654d-4b73-8f9e-2a8d4ba81707</id>
       <masked>false</masked>
       <name>columnField</name>
+   </variable>
+   <variable>
+      <defaultValue>'Jun'</defaultValue>
+      <description></description>
+      <id>4b159851-3c3b-4515-9391-39b1f5cb8582</id>
+      <masked>false</masked>
+      <name>productionMonthFrom</name>
+   </variable>
+   <variable>
+      <defaultValue>'2023'</defaultValue>
+      <description></description>
+      <id>74df4640-5c3d-441d-a603-f3e176a21014</id>
+      <masked>false</masked>
+      <name>productionYearFrom</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nov'</defaultValue>
+      <description></description>
+      <id>689bcbfc-1b0d-4794-9cfe-95b7a58199ad</id>
+      <masked>false</masked>
+      <name>productionMonthTo</name>
+   </variable>
+   <variable>
+      <defaultValue>'2023'</defaultValue>
+      <description></description>
+      <id>d696e9d5-86e3-45b0-b0d9-78ab0c145b50</id>
+      <masked>false</masked>
+      <name>productionYearTo</name>
    </variable>
 </TestCaseEntity>

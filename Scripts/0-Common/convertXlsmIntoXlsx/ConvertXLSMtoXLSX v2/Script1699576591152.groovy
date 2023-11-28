@@ -29,9 +29,27 @@ WebUI.delay(3)
 
 CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Convert/Convert xlsm into xlsx v2/label_Upload a file'), latestpath)
 
+CustomKeywords.'util.ScrollToElement.scrollElementUsingJS'(findTestObject('Object Repository/Convert/Convert xlsm into xlsx v2/a_Convert'), 
+    0)
+
 WebUI.click(findTestObject('Object Repository/Convert/Convert xlsm into xlsx v2/a_Convert'))
 
-WebUI.delay(8)
+WebUI.delay(10)
 
-WebUI.closeBrowser()
+if (WebUI.verifyElementNotPresent(findTestObject('Convert/Convert xlsm into xlsx v2/svg_loading'),
+	1, FailureHandling.OPTIONAL) == true) {
+
+	WebUI.closeBrowser()
+}else {
+	WebUI.waitForElementNotPresent(findTestObject('Convert/Convert xlsm into xlsx v2/svg_loading'), 0)
+	
+	WebUI.closeBrowser()
+	
+}
+	
+	
+
+
+
+
 

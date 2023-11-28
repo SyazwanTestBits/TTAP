@@ -24,7 +24,6 @@ println(actualPath)
 
 partIndex = CustomKeywords.'mapRowDatAndRowIndices.extractPartsWithIndices'(actualPath, 1, 7)
 
-
 for (int row = 1; row <= expectationPath.getRowNumbers(); row++) {
     partNo = expectationPath.getValue('PartNo', row)
 
@@ -38,157 +37,154 @@ for (int row = 1; row <= expectationPath.getRowNumbers(); row++) {
         String dataValue = expectationPath.getValue(columnName, row)
 
         String excelValue = CustomKeywords.'util.compareTestData.getCellValue2'(actualPath, rowIndex, columnIndex, 0)
+		
+		String excelValue_string=excelValue
+		
+		if (columnName != 'Low Stock Alert') {
+			
+			def decimalValue = excelValue.toBigDecimal()
+			
+			if (decimalValue.scale() == 0) {
+				decimalValue = decimalValue.setScale(1)
+			}
+			
+			excelValue_string= decimalValue.toString()	
+		}
+		
+        KeywordUtil.logInfo('For part:'+partNo +' in row: ' + rowIndex + ' column: ' + columnName + ', actual: ' + excelValue_string + ' expectation: ' + dataValue)
 
-        KeywordUtil.logInfo((((((('In row: ' + rowIndex) + ' column: ') + columnName) + ', actual: ') + excelValue) + ' expectation: ') + 
-            dataValue)
+        WebUI.verifyMatch(excelValue_string, dataValue, false)
+    }
+    
+    //------------------------------------------------------------------------------------------------------------
+    int columnActualExcel = 29
+
+    println(expectationPath.getColumnCount())
+
+    for (int col = 9; col < expectationPath.getColumnCount(); col++) {
+        def dataValue = expectationPath.getValue(col, row)
+
+        println(dataValue)
+
+        println(dataValue.getClass())
+
+        decisize0 = 0
+
+        if ((col % 4) == 0) {
+            BigDecimal dataValueDouble = new BigDecimal(dataValue)
+
+            int intValue = ((dataValueDouble) as int)
+
+            dataValue = intValue.toString()
+        } else {
+            def deciSize0 = dataValue.split('\\.')
+
+            decisize0 = (deciSize0[1]).size()
+        }
+        
+        if (decisize0 > 3) {
+            BigDecimal dataValueDouble = new BigDecimal(dataValue)
+
+            println(dataValueDouble)
+
+            dataValueDouble = dataValueDouble.setScale(3, BigDecimal.ROUND_HALF_UP)
+
+            dataValue = dataValueDouble.toString()
+        }
+        
+        //----------------------------------------------------------------------------------------------------------------------
+        String excelValue = CustomKeywords.'util.compareTestData.getCellValue2'(actualPath, rowIndex, columnActualExcel, 
+            0)
+
+        println(excelValue)
+
+        decisize = 0
+
+        if ((col % 4) != 0) {
+            def deciSize = excelValue.split('\\.')
+
+            decisize = (deciSize[1]).size()
+        }
+        
+        if (decisize > 3) {
+            BigDecimal excelValueDouble = new BigDecimal(excelValue)
+
+            println(excelValueDouble)
+
+            excelValueDouble = excelValueDouble.setScale(3, BigDecimal.ROUND_HALF_UP)
+
+            excelValue = excelValueDouble.toString()
+        }
+        
+        KeywordUtil.logInfo((((((((('For part: ' + partNo) + ' in column excel:') + columnActualExcel) + ' column in tesData: ') + 
+            col) + ' Actual: ') + excelValue) + ' Expectation: ') + dataValue)
+
+        WebUI.verifyMatch(excelValue, dataValue, false)
+
+        columnActualExcel = (columnActualExcel + 1)
+    }
+}
+
+//---------------------------------L2 Part--------------------------------------------
+'L2 Part'
+for (int row = 1; row <= testDataL2.getRowNumbers(); row++) {
+    partNo = testDataL2.getValue('Part No', row)
+
+    indexL1 = (partIndex[partNo])
+
+    for (def pair : columnNameStock) {
+        def columnName = pair.key
+
+        def columnIndex = pair.value
+
+        def dataValue = testDataL2.getValue(columnName, row)
+
+        String excelValue = CustomKeywords.'util.compareTestData.getCellValue2'(actualPath, indexL1, columnIndex, 0)
+
+        KeywordUtil.logInfo('In row: ' + rowIndex + ' Part No:'+partNo+' column: ' + columnName + ', actual: ' + excelValue + ' expectation: ' + dataValue)
 
         WebUI.verifyMatch(excelValue, dataValue, false)
     }
-    //------------------------------------------------------------------------------------------------------------
-	int columnActualExcel= 29
-	
-	println(expectationPath.getColumnCount())
-	
-    for (int col =9; col < expectationPath.getColumnCount();col++) {
+    
+    int columnActualExcel = 29
 
-        def dataValue = expectationPath.getValue(col, row)
-		
-		println(dataValue)
-		
-		println dataValue.getClass()
-		
-		decisize0=0
-		
-		if (col%4 == 0) {
-			
-			BigDecimal dataValueDouble = new BigDecimal(dataValue)
-			
-			int intValue = (int) dataValueDouble
-			
-			dataValue=intValue.toString()
-		}else {
-			
-			def deciSize0=dataValue.split("\\.")
-			
-			decisize0= deciSize0[1].size()
-		}
-		
-		if (decisize0 > 3) {
-			
-			BigDecimal dataValueDouble = new BigDecimal(dataValue)
-			
-			println(dataValueDouble)
-			
-			dataValueDouble=dataValueDouble.setScale(3, BigDecimal.ROUND_HALF_UP)
-			
-			dataValue=dataValueDouble.toString()
-		}
-		
-		
-		
-		//----------------------------------------------------------------------------------------------------------------------
-		
-        String excelValue = CustomKeywords.'util.compareTestData.getCellValue2'(actualPath, rowIndex, columnActualExcel, 0)
-		
-		println(excelValue)
-		
-		decisize=0
-		
-		if(col%4 != 0) {
-			
-			def deciSize=excelValue.split("\\.")
-			
-			decisize= deciSize[1].size() 
-		
-		}
-		
-		if (decisize > 3) {
-			
-			BigDecimal excelValueDouble = new BigDecimal(excelValue)
-			
-			println(excelValueDouble)
-			
-			excelValueDouble=excelValueDouble.setScale(3, BigDecimal.ROUND_HALF_UP)
-			
-			excelValue=excelValueDouble.toString()
-		}
-		
+    int col = 9
 
-		KeywordUtil.logInfo("For part: "+partNo+" in column excel:"+columnActualExcel+" column in tesData: "+col+" Actual: "+ excelValue+" Expectation: "+dataValue)
-
-	    WebUI.verifyMatch(excelValue, dataValue, false)
-			
-		columnActualExcel=columnActualExcel+1
+    while (col < expectationPath.getColumnCount()) {
+        String excelValue = CustomKeywords.'util.compareTestData.getCellValue2'(actualPath, indexL1, columnActualExcel, 
+            0)
 		
+		valueInL2=testDataL2.getValue(col, row)
+
+        WebUI.verifyMatch(excelValue, valueInL2, false)
+
+        columnActualExcel = (columnActualExcel + 1)
+
+        col = (col + 1)
+
+        excelValue = CustomKeywords.'util.compareTestData.getCellValue2'(actualPath, indexL1, columnActualExcel, 0)
+
+        WebUI.verifyMatch(excelValue, 'No Usage', false)
+
+        columnActualExcel = (columnActualExcel + 1)
+
+        col = (col + 1)
+
+        excelValue = CustomKeywords.'util.compareTestData.getCellValue2'(actualPath, indexL1, columnActualExcel, 0)
+
+        WebUI.verifyMatch(excelValue, '-', false)
+
+        columnActualExcel = (columnActualExcel + 1)
+
+        col = (col + 1)
+
+        excelValue = CustomKeywords.'util.compareTestData.getCellValue2'(actualPath, indexL1, columnActualExcel, 0)
+
+        WebUI.verifyMatch(excelValue, '-', false)
+
+        columnActualExcel = (columnActualExcel + 1)
+
+        col = (col + 1)
     }
 }
-
-
-//---------------------------------L2 Part--------------------------------------------
-
-for (int row=1;row<= testDataL2.getRowNumbers();row++) {
-	
-	partNo= testDataL2.getValue('Part No',row)
-	
-	indexL1= partIndex[partNo]
-	
-	for (def pair : columnNameStock) {
-		def columnName = pair.key
-
-		def columnIndex = pair.value
-
-		def dataValue = testDataL2.getValue(columnName, row)
-
-		String excelValue = CustomKeywords.'util.compareTestData.getCellValue2'(actualPath, indexL1, columnIndex, 0)
-
-		KeywordUtil.logInfo((((((('In row: ' + rowIndex) + ' column: ') + columnName) + ', actual: ') + excelValue) + ' expectation: ') +
-			dataValue)
-
-		WebUI.verifyMatch(excelValue, dataValue, false)
-	}
-	
-	int columnActualExcel= 29
-	
-	int col =9
-	
-	while( col < expectationPath.getColumnCount()) {
-		
-		String excelValue = CustomKeywords.'util.compareTestData.getCellValue2'(actualPath, indexL1, columnActualExcel, 0)
-		
-		WebUI.verifyMatch(excelValue,valueInL2, false)
-		
-		columnActualExcel= columnActualExcel +1
-		
-		col = col+1
-		
-		excelValue = CustomKeywords.'util.compareTestData.getCellValue2'(actualPath, indexL1, columnActualExcel, 0)
-		
-		WebUI.verifyMatch(excelValue,'No Usage', false)
-		
-		columnActualExcel= columnActualExcel +1
-		
-		col = col+1
-		
-		excelValue = CustomKeywords.'util.compareTestData.getCellValue2'(actualPath, indexL1, columnActualExcel, 0)
-		
-		WebUI.verifyMatch(excelValue,'-', false)
-		
-		columnActualExcel= columnActualExcel +1
-		
-		col = col+1
-		
-		excelValue = CustomKeywords.'util.compareTestData.getCellValue2'(actualPath, indexL1, columnActualExcel, 0)
-		
-		WebUI.verifyMatch(excelValue,'-', false)
-		
-		columnActualExcel= columnActualExcel +1
-		
-		col = col+1
-		
-		
-	}
-	
-	
-}
-
 

@@ -325,15 +325,15 @@ WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/li_Produ
 
 WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/input__Production plan-yearMonthFrom'))
 
-WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/div_Production plan-yearMonth-year', [('year') : '2023']))
+WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/div_Production plan-yearMonth-year', [('year') : productionYearFrom]))
 
-WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/div_Production plan-yearMonth-month', [('month') : 'Jun']))
+WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/div_Production plan-yearMonth-month', [('month') : productionMonthFrom]))
 
 WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/input__Production plan-yearMonthTo'))
 
-WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/div_Production plan-yearMonth-year', [('year') : '2023']))
+WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/div_Production plan-yearMonth-year', [('year') : productionYearTo]))
 
-WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/div_Production plan-yearMonth-month', [('month') : 'Nov']))
+WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/div_Production plan-yearMonth-month', [('month') : productionMonthTo]))
 
 WebUI.click(findTestObject('Scenario 10/S10_TC027/0_create project page/button_Production plan-Download'))
 

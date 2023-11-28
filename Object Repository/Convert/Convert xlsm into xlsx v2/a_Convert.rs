@@ -6,23 +6,27 @@
    <elementGuidId>f805d2a7-bbbc-451d-8c3a-85ed73790c1b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//a[@type = 'button' and (text() = 'Convert' or . = 'Convert')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#runCodeButton</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='runCodeButton']</value>
+         <value>//*[@id=&quot;runCodeButton&quot;]//*[@id=&quot;runCodeButton&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>a87d3fd0-1579-4805-9e1a-a62580983877</webElementGuid>
+      <webElementGuid>8e946d6b-9e21-4d8f-acf9-b449eb56986e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +34,15 @@
       <name>class</name>
       <type>Main</type>
       <value>actionButton</value>
-      <webElementGuid>a1528ae5-ed34-4878-8b8b-986d0b2c4d4b</webElementGuid>
+      <webElementGuid>34b615eb-2339-4a42-b160-2591043a2686</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>runCodeButton</value>
-      <webElementGuid>39553f17-6191-42f6-ab9b-cea32f70ee33</webElementGuid>
+      <webElementGuid>8c605f63-ee52-4207-937a-d75451f97a52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6f6e3bba-342d-4d46-9b8b-c437f2ffb6ce</webElementGuid>
+      <webElementGuid>2f78dfe6-25f6-48ad-a8dc-8e28ce664002</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>runCode()</value>
-      <webElementGuid>fab1e121-ab52-4ac6-8884-45d987e2e0ba</webElementGuid>
+      <webElementGuid>d11ecd19-3a64-44b9-9f58-2c94ae409f8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Convert</value>
-      <webElementGuid>116bc780-3ec8-4a9d-8bc0-443733ca516e</webElementGuid>
+      <webElementGuid>e5092bc3-064e-44af-850a-c7b9c9b41b44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;runCodeButton&quot;)</value>
-      <webElementGuid>749b8211-408f-48f8-b269-8c587fbf11a4</webElementGuid>
+      <webElementGuid>47f36d80-dbcc-4aed-a65a-4e34923e27f0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='runCodeButton']</value>
-      <webElementGuid>1ca601df-0944-45a2-abd8-9d63b87b817d</webElementGuid>
+      <webElementGuid>616fef22-53aa-403e-98d3-7a7ef65b166e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='appui']/div[2]/div/div[4]/a</value>
-      <webElementGuid>94fe4197-558d-4573-adbc-b7b5aecf3595</webElementGuid>
+      <webElementGuid>58028b76-846a-4361-8a0a-35a723c8bf22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Convert')]</value>
-      <webElementGuid>f3b9faea-23ff-46c6-917e-662193f1e5d5</webElementGuid>
+      <webElementGuid>24f31ea5-c428-490a-bdc6-5b49bb4c9baf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload a file'])[1]/following::a[1]</value>
-      <webElementGuid>91f977c6-ab74-478c-9c08-4c112708c207</webElementGuid>
+      <webElementGuid>49dea0e3-6a25-473a-a9d0-d0fc2e13a3f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Input file'])[1]/following::a[1]</value>
-      <webElementGuid>d3b689a9-cbc8-4884-a0c1-0cd14c28fc35</webElementGuid>
+      <webElementGuid>82afedcb-b66c-4fcb-b278-6bfecf0ac9e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select format'])[1]/preceding::a[1]</value>
-      <webElementGuid>8a2c6c03-30ad-461d-882f-f6888d5841c5</webElementGuid>
+      <webElementGuid>bcc6ea3d-314e-43b4-8045-b0af6fe0af9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Convert']/parent::*</value>
-      <webElementGuid>1a9e3d01-f10d-42e5-85e8-a42ddd4eb73a</webElementGuid>
+      <webElementGuid>cb6f9b84-3b62-41b1-a9f9-7e093e2d0fa1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[4]/a</value>
-      <webElementGuid>68696794-1598-4f6f-92e6-a66087f27425</webElementGuid>
+      <webElementGuid>3ddf6c13-bbca-4199-8e5c-3a1d0d94029a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'runCodeButton' and @type = 'button' and (text() = 'Convert' or . = 'Convert')]</value>
-      <webElementGuid>72d9e49d-acdb-49d6-9d2e-6746d83be2c1</webElementGuid>
+      <webElementGuid>9e5262c5-9290-4122-a375-179ca9368bf3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

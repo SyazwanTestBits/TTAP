@@ -30,14 +30,14 @@
       <variableId>4b3cc547-b3c4-4e60-919a-7e253acd72a1</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('Scenario 10/S10_TC026_L3')</defaultValue>
+      <defaultValue>findTestData('Scenario 10/S10_TC057-L3')</defaultValue>
       <description></description>
       <id>39f0e23e-b471-469e-b9db-b94d018c1eb2</id>
       <masked>false</masked>
       <name>testData</name>
    </variable>
    <variable>
-      <defaultValue>'TC026-L3'</defaultValue>
+      <defaultValue>'TC057-L3'</defaultValue>
       <description></description>
       <id>8d9d50bf-ea23-4e5d-868d-fe572e6ae7ec</id>
       <masked>false</masked>
@@ -51,7 +51,7 @@
       <name>actualPath</name>
    </variable>
    <variable>
-      <defaultValue>'TC026-L3'</defaultValue>
+      <defaultValue>'TC057-L3'</defaultValue>
       <description></description>
       <id>4b3cc547-b3c4-4e60-919a-7e253acd72a1</id>
       <masked>false</masked>

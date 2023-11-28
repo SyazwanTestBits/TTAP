@@ -55,11 +55,12 @@ latestPath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('macroexcel
 
 println(latestPath)
 
-WebUI.callTestCase(findTestCase('0-Common/convertXlsmIntoXlsx/ConvertXLSMtoXLSX v2'), [('latestpath') : latestPath], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('0-Common/convertXlsmIntoXlsx/ConvertXLSMtoXLSX v2'), [('latestpath') : latestPath], 
+    FailureHandling.STOP_ON_FAILURE)
 
-excelFile = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
+not_run: excelFile = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
-WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 10/S10_0_Daily/S10_Cmm-getn Caclulate Daily Simulation Report'), 
+not_run: WebUI.callTestCase(findTestCase('0-Common/Common-Scenario 10/S10_0_Daily/S10_Cmm-getn Caclulate Daily Simulation Report'), 
     [('testData') : testDataWeek, ('sheetWriteUsagePerWeek') : sheet, ('sheetForWeekReport') : sheet], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()

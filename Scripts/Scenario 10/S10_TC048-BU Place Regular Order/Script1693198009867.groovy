@@ -34,9 +34,14 @@ WebUI.setText(findTestObject('Scenario 10/S10_TC035/input_Search Order Calculati
 
 WebUI.click(findTestObject('Scenario 10/S10_TC035/input_tick all'))
 
-WebUI.click(findTestObject('Scenario 10/S10_TC048/button_placeOrder'))
+if (WebUI.verifyElementNotPresent(findTestObject('Scenario 10/S10_TC048/button_delete'), 1, FailureHandling.OPTIONAL) == 
+true) {
+    WebUI.click(findTestObject('Scenario 10/S10_TC048/button_placeOrder wo delete_button'))
+} else {
+    WebUI.click(findTestObject('Scenario 10/S10_TC048/button_placeOrder'))
 
-WebUI.click(findTestObject('Scenario 10/S10_TC048/button_placeOrder Confirm'))
+    WebUI.click(findTestObject('Scenario 10/S10_TC048/button_placeOrder Confirm'))
+}
 
 WebUI.waitForElementPresent(findTestObject('Scenario 10/S10_TC048/h3_Place Order Screen(Regular)'), 0)
 
@@ -123,7 +128,9 @@ for (int index = 1; index <= testData1.getRowNumbers(); index++) {
 
 not_run: CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Scenario 10/S10_TC048/button_Upload'), latestPath, 0)
 
-CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 10/S10_TC048/button_Upload'), 0)
+not_run: CustomKeywords.'util.ScrollToElement.clickUsingJS'(findTestObject('Scenario 10/S10_TC048/button_Upload'), 0)
+
+WebUI.click(findTestObject('Scenario 10/S10_TC048/button_Upload'))
 
 CustomKeywords.'RobotUpload.uploadFileUsing_withoutClick'(latestPath)
 

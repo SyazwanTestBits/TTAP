@@ -6,6 +6,10 @@
    <elementGuidId>b0b1f65b-169c-4a1c-afdf-ccd40bb252cd</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'status' and @type = 'text']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>input[name=&quot;status&quot;]</value>
       </entry>
@@ -14,15 +18,15 @@
          <value>//input[@name='status']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>aba0dcef-6a82-4d95-95de-b7097c6b9bd2</webElementGuid>
+      <webElementGuid>b1ff1d61-3dcf-47de-ac3c-106d2957de23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>name</name>
       <type>Main</type>
       <value>status</value>
-      <webElementGuid>09dcb9e1-6657-42dd-88b9-7740f1a96868</webElementGuid>
+      <webElementGuid>c35514a4-a8a0-4fe9-a0fc-e34759a5de7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>14c40a3b-18cd-4f31-8feb-f78574f8f6c9</webElementGuid>
+      <webElementGuid>ae9bf5f0-e572-4125-b8e0-2dad96987af9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lcbm-MuiInputBase-input lcbm-MuiInput-input</value>
-      <webElementGuid>339aa237-6321-4217-93e6-20dc91b741ad</webElementGuid>
+      <webElementGuid>d838ec7b-c8f2-4cc3-9da6-24f6521f1848</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Confirmed</value>
-      <webElementGuid>6bbe5c4f-67b5-4213-9985-75a4672a6b2e</webElementGuid>
+      <webElementGuid>3746ddde-04f0-4c02-8ab8-8b5b0ed1c5b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;OSS011_Section_1&quot;)/div[@class=&quot;lcbm-MuiCollapse-root lcbm-MuiCollapse-entered&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapper&quot;]/div[@class=&quot;lcbm-MuiCollapse-wrapperInner&quot;]/div[@class=&quot;lcbm-lcbm14&quot;]/form[@class=&quot;lcbm-lcbm977 lcbm-lcbm1016&quot;]/div[@class=&quot;lcbm-lcbm979 lcbm-lcbm1019&quot;]/div[@class=&quot;lcbm-lcbm981&quot;]/div[@class=&quot;lcbm-lcbm988&quot;]/div[@class=&quot;lcbm-lcbm994 lcbm-lcbm999&quot;]/div[@class=&quot;lcbm-lcbm983&quot;]/div[@class=&quot;lcbm-MuiInputBase-root lcbm-MuiInput-root Mui-focused Mui-focused&quot;]/input[@class=&quot;lcbm-MuiInputBase-input lcbm-MuiInput-input&quot;]</value>
-      <webElementGuid>786e06a5-04a4-45c1-8b63-dba6a0d44b84</webElementGuid>
+      <webElementGuid>f42a471a-ec8f-4de9-ac35-78d4ea420292</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='status']</value>
-      <webElementGuid>80b4fed8-1b32-4543-a8f5-19eac9ff4246</webElementGuid>
+      <webElementGuid>1e1cf113-d122-44b0-a4d1-2dfe378b1330</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='OSS011_Section_1']/div[2]/div/div/div/form/div[3]/div/div[2]/div/div/div/input</value>
-      <webElementGuid>f324bbcf-ded5-4a54-85a5-e0d3971f4ee6</webElementGuid>
+      <webElementGuid>5545803c-50d4-413a-88d8-d92dfbeed517</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[2]/div/div/div/input</value>
-      <webElementGuid>91422c96-2977-4919-b4f3-3fd0e433318f</webElementGuid>
+      <webElementGuid>0e6623ab-4dc0-4021-9eca-3d7f71f5c8fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'status' and @type = 'text']</value>
-      <webElementGuid>48f20deb-d523-4f3f-b58f-0df691595189</webElementGuid>
+      <webElementGuid>59088007-c9ad-4200-a99a-6ee6277b039d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

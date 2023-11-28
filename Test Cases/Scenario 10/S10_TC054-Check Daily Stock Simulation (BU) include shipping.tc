@@ -15,6 +15,36 @@
    </integratedEntity>
    <comment></comment>
    <testCaseGuid>83ef11ab-8fbe-4ec4-b17d-83cf2f8bc3c5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>62fddbd3-dfc4-48fc-9d53-50a3324e5fc2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a88fc357-2bb2-4e34-a0f3-cda7e3d725c7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1b668fa2-5dac-4b56-a105-e97b9aeaf5c2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>33cbd397-663a-4178-bf13-706fa13e282e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d36e3ae4-c407-4d1d-8cd4-3e449047217e</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestData('Scenario 10/S10_TC025').getValue(3, 1)</defaultValue>
       <description></description>
