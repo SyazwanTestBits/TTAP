@@ -25,7 +25,7 @@ WebUI.maximizeWindow()
 
 WebUI.delay(5)
 
-CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Convert/div_File   Choose Files'), latestpath)
+CustomKeywords.'RobotUpload.uploadFile'(findTestObject('Convert/div_File   Choose Files'), latestxlsm)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Convert/button_Convert'), 0)
 
@@ -40,5 +40,4 @@ WebUI.delay(2)
 latestXLSX = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
 WebUI.closeBrowser()
-
 

@@ -28,6 +28,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
+import com.kms.katalon.keyword.excel.ExcelKeywords as ExcelKeywords
 
 public class Experiment {
 
@@ -36,45 +37,45 @@ public class Experiment {
 		try {
 			def sourceFis = new FileInputStream(new File(sourceFilePath))
 			def targetFis = new FileInputStream(new File(targetFilePath))
-	
+
 			def sourceWorkbook = new XSSFWorkbook(sourceFis)
 			def targetWorkbook = new XSSFWorkbook(targetFis)
-	
+
 			def sourceSheet = sourceWorkbook.getSheet(sourceSheetName)
 			def targetSheet = targetWorkbook.getSheet(targetSheetName)
-	
+
 			// Get the row containing dates from both sheets
 			def datesRowSource = sourceSheet.getRow(dateRowIndexA)
 			def datesRowTarget = targetSheet.getRow(dateRowIndexB)
-	
+
 			columnsToCopy.each { colIndex ->
 				def dateCellSource = datesRowSource.getCell(colIndex)
-	
+
 				if (dateCellSource) {
 					// Find the corresponding column in the target sheet
 					def colIndexTarget = findColumnByDate(targetSheet, dateCellSource.getStringCellValue(), dateRowIndexB)
-	
+
 					if (colIndexTarget != -1) {
 						// Copy values from source to target based on the date
 						println("Successful")
 					}
 				}
 			}
-	
+
 			def outFile = new FileOutputStream(targetFilePath)
 			targetWorkbook.write(outFile)
-	
+
 			KeywordUtil.logInfo("Data matched and copied successfully.")
-	
+
 			sourceFis.close()
 			targetFis.close()
-	
+
 		} catch (Exception e) {
 			KeywordUtil.logInfo("Error copying data based on dates: ${e.message}")
 			KeywordUtil.markFailed("Data copy based on dates failed.")
 		}
 	}
-	
+
 	static int findColumnByDate(Sheet sheet, String date, int dateRowIndex) {
 		def datesRow = sheet.getRow(dateRowIndex)
 		(0..<datesRow.getLastCellNum()).each { col ->
@@ -86,8 +87,29 @@ public class Experiment {
 		return -1
 	}
 	
-	
+	@Keyword
+	def writeExcel(String value) {
+		
+		workbook01 = CustomKeywords.'com.kms.katalon.keyword.excel.ExcelKeywords.getWorkbook'(excelFilePath)
+		
+		//Get sheet path
+		sheet01 = CustomKeywords.'com.kms.katalon.keyword.excel.ExcelKeywords.getExcelSheet'(workbook01, 'Sheet1')
+		
+		//Get Value of Cell By Index
+		CustomKeywords.'com.kms.katalon.keyword.excel.ExcelKeywords.setValueToCellByIndex'(sheet01, 2, 2, textToWrite)
+		
+		//Write value to Cell
+		CustomKeywords.'com.kms.katalon.keyword.excel.ExcelKeywords.saveWorkbook'(excelFilePath, workbook01)
+		
+		
+		
+		
+		
+		
 	}
-	
-	
+
+
+}
+
+
 

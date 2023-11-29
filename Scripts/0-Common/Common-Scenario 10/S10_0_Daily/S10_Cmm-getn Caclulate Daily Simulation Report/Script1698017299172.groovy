@@ -28,42 +28,45 @@ partIndex = CustomKeywords.'mapRowDatAndRowIndices.extractPartsWithIndicesSkipNu
 println(partIndex)
 
 //---------------FOR L3 PART---------------------------------------------------------
-
 for (int index = 1; index <= testData.getRowNumbers(); index++) {
     partNo = testData.getValue('PartNo', index)
 
     rowIndex = (partIndex[partNo])
 
     int DateColumn = 34
-	
-	String dateUsage = CustomKeywords.'util.compareTestData.getCellValue2'(actualPath, rowIndex - 3, DateColumn, 0)
-	
-	def dateMapIn=[:]
+
+    String dateUsage = CustomKeywords.'util.compareTestData.getCellValue2'(actualPath, rowIndex - 3, DateColumn, 0)
+
+    def dateMapIn = [:]
 
     def dateMapOut = [:]
 
     def dateMapBalance = [:]
-	
-	def dateMapStockDay=[:]
+
+    def dateMapStockDay = [:]
 
     while (dateUsage != 'No Usage') {
         nextInboundDate = CustomKeywords.'util.compareTestData.getExcelDateCellValue'(actualPath, 6, DateColumn, 0, 'd MMM yyyy')
 
-		excelUsageIn = CustomKeywords.'util.compareTestData.getCellValue3Nullto0'(actualPath, rowIndex - 7, DateColumn, 0)
-		
-		excelUsageOut = CustomKeywords.'util.compareTestData.getCellValue2'(actualPath, rowIndex - 3, DateColumn, 0)
+        excelUsageIn = CustomKeywords.'util.compareTestData.getCellValue3Nullto0'(actualPath, rowIndex - 7, DateColumn, 
+            0)
+
+        excelUsageOut = CustomKeywords.'util.compareTestData.getCellValue2'(actualPath, rowIndex - 3, DateColumn, 0)
 
         excelUsageBalance = CustomKeywords.'util.compareTestData.getCellValue2'(actualPath, rowIndex - 1, DateColumn, 0)
-
-        excelUsageStockDay = CustomKeywords.'util.compareTestData.getCellValue3Nullto0'(actualPath, rowIndex, DateColumn, 0)
-
-		dateMapIn.put(nextInboundDate, excelUsageIn)
 		
-		dateMapOut.put(nextInboundDate, excelUsageOut)
+		not_run: excelUsageBalance= excelUsageOut-excelUsageIn
+
+        excelUsageStockDay = CustomKeywords.'util.compareTestData.getCellValue3Nullto0'(actualPath, rowIndex, DateColumn, 
+            0)
+
+        dateMapIn.put(nextInboundDate, excelUsageIn)
+
+        dateMapOut.put(nextInboundDate, excelUsageOut)
 
         dateMapBalance.put(nextInboundDate, excelUsageBalance)
-		
-		dateMapStockDay.put(nextInboundDate, excelUsageStockDay)
+
+        dateMapStockDay.put(nextInboundDate, excelUsageStockDay)
 
         DateColumn = (DateColumn + 1)
 
@@ -73,23 +76,22 @@ for (int index = 1; index <= testData.getRowNumbers(); index++) {
     }
     
     println(dateMapOut)
-	
-	//-------------------------In -------------------------------------
-	
-	def weeklyInDayMap = CustomKeywords.'util.getValuePerWeek.lastValueWeeklyTotals'(dateMapIn)
-	
-	rowWeeklySimu = 8
-	
-	for (def mapValue4 : weeklyInDayMap) {
-		def sumPerWeek4 = mapValue4.value
-		
-		CustomKeywords.'copyToExcel.exel3'(sumPerWeek4, index, rowWeeklySimu, 'Excel Files/Scenario 10/S10_TestCases_Data.xlsx',sheetWriteUsagePerWeek)
-		
-		//CustomKeywords.'copyToExcel.exel3'(sumPerWeek4, index, rowWeeklySimu, 'Excel Files/Scenario 10/S10_TestCases_Data.xlsx',sheetForWeekReport)
-		
-		rowWeeklySimu = (rowWeeklySimu + 4)
-		}
 
+    //-------------------------In -------------------------------------
+    def weeklyInDayMap = CustomKeywords.'util.getValuePerWeek.lastValueWeeklyTotals'(dateMapIn)
+
+    rowWeeklySimu = 8
+
+    for (def mapValue4 : weeklyInDayMap) {
+        def sumPerWeek4 = mapValue4.value
+
+        CustomKeywords.'copyToExcel.exel3'(sumPerWeek4, index, rowWeeklySimu, 'Excel Files/Scenario 10/S10_TestCases_Data.xlsx', 
+            sheetWriteUsagePerWeek)
+
+        //CustomKeywords.'copyToExcel.exel3'(sumPerWeek4, index, rowWeeklySimu, 'Excel Files/Scenario 10/S10_TestCases_Data.xlsx',sheetForWeekReport)
+        rowWeeklySimu = (rowWeeklySimu + 4)
+    }
+    
     //-----------------------Out Calculation-------------------------
     def weeklyOutSumMap = CustomKeywords.'util.getValuePerWeek.calculateWeeklyTotals'(dateMapOut)
 
@@ -97,56 +99,46 @@ for (int index = 1; index <= testData.getRowNumbers(); index++) {
 
     for (def mapValue : weeklyOutSumMap) {
         def sumPerWeek = mapValue.value
-		
-	
 
         CustomKeywords.'copyToExcel.exel3'(sumPerWeek, index, rowWeeklySimu, 'Excel Files/Scenario 10/S10_TestCases_Data.xlsx', 
             sheetWriteUsagePerWeek)
-		
-		//CustomKeywords.'copyToExcel.exel3'(sumPerWeek, index, rowWeeklySimu, 'Excel Files/Scenario 10/S10_TestCases_Data.xlsx',sheetForWeekReport)
 
+        //CustomKeywords.'copyToExcel.exel3'(sumPerWeek, index, rowWeeklySimu, 'Excel Files/Scenario 10/S10_TestCases_Data.xlsx',sheetForWeekReport)
         rowWeeklySimu = (rowWeeklySimu + 4)
     }
     
     println((('Part: ' + partNo) + ' ') + weeklyOutSumMap)
 
     //-------------------Balanvce-----------------------
+    'Balance'
     def weeklyBalanceSumMap = CustomKeywords.'util.getValuePerWeek.lastValueWeeklyTotals'(dateMapBalance)
 
     rowWeeklySimu = 10
 
     for (def mapValue2 : weeklyBalanceSumMap) {
         def sumPerWeek2 = mapValue2.value
-		
 
         CustomKeywords.'copyToExcel.exel3'(sumPerWeek2, index, rowWeeklySimu, 'Excel Files/Scenario 10/S10_TestCases_Data.xlsx', 
             sheetWriteUsagePerWeek)
-		
-		//CustomKeywords.'copyToExcel.exel3'(sumPerWeek2, index, rowWeeklySimu, 'Excel Files/Scenario 10/S10_TestCases_Data.xlsx',sheetForWeekReport)
 
-
+        //CustomKeywords.'copyToExcel.exel3'(sumPerWeek2, index, rowWeeklySimu, 'Excel Files/Scenario 10/S10_TestCases_Data.xlsx',sheetForWeekReport)
         rowWeeklySimu = (rowWeeklySimu + 4)
     }
-	
-	//----------------StockDay-----------------
-	
-	def weeklyStockDayMap = CustomKeywords.'util.getValuePerWeek.lastValueWeeklyTotals'(dateMapStockDay)
-	
-	rowWeeklySimu = 11
-	
-	for (def mapValue3 : weeklyStockDayMap) {
-		def sumPerWeek3 = mapValue3.value
-		
-	
-		CustomKeywords.'copyToExcel.exel3'(sumPerWeek3, index, rowWeeklySimu, 'Excel Files/Scenario 10/S10_TestCases_Data.xlsx',sheetWriteUsagePerWeek)
-		
-		//CustomKeywords.'copyToExcel.exel3'(sumPerWeek3, index, rowWeeklySimu, 'Excel Files/Scenario 10/S10_TestCases_Data.xlsx',sheetForWeekReport)
-		
-		rowWeeklySimu = (rowWeeklySimu + 4)
-		}
+    
+    //----------------StockDay-----------------
+    'StockDay'
+    def weeklyStockDayMap = CustomKeywords.'util.getValuePerWeek.lastValueWeeklyTotals'(dateMapStockDay)
+
+    rowWeeklySimu = 11
+
+    for (def mapValue3 : weeklyStockDayMap) {
+        def sumPerWeek3 = mapValue3.value
+
+        CustomKeywords.'copyToExcel.exel3'(sumPerWeek3, index, rowWeeklySimu, 'Excel Files/Scenario 10/S10_TestCases_Data.xlsx', 
+            sheetWriteUsagePerWeek)
+
+        //CustomKeywords.'copyToExcel.exel3'(sumPerWeek3, index, rowWeeklySimu, 'Excel Files/Scenario 10/S10_TestCases_Data.xlsx',sheetForWeekReport)
+        rowWeeklySimu = (rowWeeklySimu + 4)
+    }
 }
-
-
-
-
 

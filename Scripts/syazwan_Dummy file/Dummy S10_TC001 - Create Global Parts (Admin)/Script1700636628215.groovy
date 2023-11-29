@@ -2,7 +2,6 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -18,6 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.testdata.reader.SheetPOI as SheetPOI
 import org.openqa.selenium.Keys as Keys
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.keyword.excel.ExcelKeywords as ExcelKeywords
 
 not_run: WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.ADMIN_USERNAME
         , ('password') : GlobalVariable.ADMIN_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.ADMIN_COMPANY], 
@@ -48,10 +49,19 @@ WebUI.delay(3)
 
 downloadedExcel = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
-CustomKeywords.'copyToExcel.exel2'('Testing2', 7, 1, downloadedExcel, 'Global Parts')
+//CustomKeywords.'copyToExcel.exel2'('Testing2', 7, 1, downloadedExcel, 'Global Parts')
 
-not_run: for (int index = 7; index <= 10; index++) {
-    CustomKeywords.'copyToExcel.exel2'('Testing2', index + 6, 0, downloadedExcel, 'Global Parts')
+for (int index = 7; index <= 10; index++) {
+	workbook01 = CustomKeywords.'com.kms.katalon.keyword.excel.ExcelKeywords.getWorkbook'(downloadedExcel)
+	
+	//Get sheet path
+	sheet01 = CustomKeywords.'com.kms.katalon.keyword.excel.ExcelKeywords.getExcelSheet'(workbook01, 'Global Parts')
+	
+	//Get Value of Cell By Index
+	CustomKeywords.'com.kms.katalon.keyword.excel.ExcelKeywords.setValueToCellByIndex'(sheet01, index, 2, 'test')
+	
+	//Write value to Cell
+	CustomKeywords.'com.kms.katalon.keyword.excel.ExcelKeywords.saveWorkbook'(downloadedExcel, workbook01)
 }
 
 not_run: for (def index : (1..dataFile.getRowNumbers())) {
@@ -90,10 +100,9 @@ not_run: for (def index : (1..dataFile.getRowNumbers())) {
         )
 }
 
-not_run: absolutePath = CustomKeywords.'ManageFiles.getFileAbsolutePath'(downloadedExcel)
+absolutePath = CustomKeywords.'ManageFiles.getFileAbsolutePath'(downloadedExcel)
 
-not_run: WebUI.uploadFile(findTestObject('Page_GlobalPartsList/Page_CreateModifyGlobalParts/input_UploadFile_GlobalParts'), 
-    absolutePath)
+WebUI.uploadFile(findTestObject('Page_GlobalPartsList/Page_CreateModifyGlobalParts/input_UploadFile_GlobalParts'), absolutePath)
 
 not_run: WebUI.verifyElementPresent(findTestObject('NotificationMsg_Brivge/div_NotiMsg_SuccessUploadGlobalPartsMaster'), 
     0)

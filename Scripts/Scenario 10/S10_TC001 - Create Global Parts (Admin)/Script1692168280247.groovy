@@ -19,13 +19,12 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.testdata.reader.SheetPOI as SheetPOI
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.ADMIN_USERNAME
-        , ('password') : GlobalVariable.ADMIN_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : GlobalVariable.ADMIN_COMPANY], 
+WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : GlobalVariable.BRIVGE_URL, ('username') : GlobalVariable.ADMIN_USERNAME
+        , ('password') : GlobalVariable.ADMIN_PWD, ('verificationCode') : GlobalVariable.VERIFICATION_CODE, ('company') : 'SG-TTAP'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : 'https://test.brivge.com/', ('username') : 'admin'
-	, ('password') : 'HeCM15nHKBI=', ('verificationCode') : 'gpgbu9TGv9g=', ('company') : 'SG-TTAP'], FailureHandling.STOP_ON_FAILURE)
-
+not_run: WebUI.callTestCase(findTestCase('0-Common/Login to Brivge'), [('url') : 'https://test.brivge.com/', ('username') : 'admin'
+        , ('password') : 'HeCM15nHKBI=', ('verificationCode') : 'gpgbu9TGv9g=', ('company') : 'SG-TTAP'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Navbar_Brivge/button_Master'))
 

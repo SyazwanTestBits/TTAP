@@ -52,7 +52,7 @@ latestPath = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('macroexcel
 
 println(latestPath)
 
-WebUI.callTestCase(findTestCase('0-Common/convertXlsmIntoXlsx/ConvertXLSMtoXLSX v2'), [('latestpath') : latestPath], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('0-Common/convertXlsmIntoXlsx/ConvertXLSMtoXLSX'), [('latestxlsm') : latestPath], FailureHandling.STOP_ON_FAILURE)
 
 latestX = CustomKeywords.'ManageFiles.getLatestFileFromDirectory'('excel')
 
